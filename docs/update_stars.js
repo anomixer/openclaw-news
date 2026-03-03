@@ -20,8 +20,8 @@ const fs = require('fs');
 const path = require('path');
 
 const FILES = [
-    path.join(__dirname, 'murmur.md'),
-    path.join(__dirname, 'murmur-en.md'),
+    path.join(__dirname, '..', 'murmur.md'),
+    path.join(__dirname, '..', 'murmur-en.md'),
 ];
 
 // 所有需要追蹤的 repos
@@ -61,6 +61,14 @@ const REPOS = [
     'DmacMcgreg/psibot',
     'wende/miniclaw',
     'dannybszn/SwiftClaw',
+    'Lichas/maxclaw',
+    'sseanliu/VisionClaw',
+    'xjtulyc/MedgeClaw',
+    'automateyournetwork/netclaw',
+    'miantiao-me/cloud-claw',
+    'XposeMarket/SmallClaw',
+    'zofrasca/lightclaw',
+    'machinae/awesome-claws',
 ];
 
 function formatStars(n) {

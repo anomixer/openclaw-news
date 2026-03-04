@@ -12,6 +12,10 @@
 
 ---
 
+> 📰 **Latest OpenClaw Daily Battlefield Updates**: Highly recommended to read the [OpenClaw Universal Battlefield Observation Log 🦞](murmur-en.md) before installing!
+
+---
+
 ## ⚠️ Important Notice: Windows Native vs WSL2
 
 You are currently viewing the **Windows Native installation guide**. This method allows you to quickly try out OpenClaw + Ollama, but with the following limitations:
@@ -233,8 +237,9 @@ Configure skills now? (recommended)
 ```
 Enable hooks?
 > [+] 🚀 boot-md (Run BOOT.md on gateway startup)
+> [+] 📎 bootstrap-extra-files (Inject additional workspace bootstrap files via glob/path patterns)
 > [+] 📝 command-logger (Log all command events to a centralized audit file)
-> [+] 💾 session-memory (Save session context to memory when /new command is issued)
+> [+] 💾 session-memory (Save session context to memory when /new or /reset command is issued)
 ```
 
 Press **Space** to select all three items, then press **Enter**.

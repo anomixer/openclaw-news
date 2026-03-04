@@ -12,6 +12,10 @@
 
 ---
 
+> 📰 **最新 OpenClaw 戰況每日更新中**：強烈建議安裝前先看一下 [OpenClaw 宇宙戰地觀察日誌 🦞](murmur.md)
+
+---
+
 ## ⚠️ 重要提醒: Windows 原生版 vs WSL2
 
 目前你看到的是 **Windows 原生版安裝教學**。這個方式可以快速體驗 OpenClaw + Ollama，但有以下限制：
@@ -235,8 +239,9 @@ Configure skills now? (recommended)
 ```
 Enable hooks?
 > [+] 🚀 boot-md (Run BOOT.md on gateway startup)
+> [+] 📎 bootstrap-extra-files (Inject additional workspace bootstrap files via glob/path patterns)
 > [+] 📝 command-logger (Log all command events to a centralized audit file)
-> [+] 💾 session-memory (Save session context to memory when /new command is issued)
+> [+] 💾 session-memory (Save session context to memory when /new or /reset command is issued)
 ```
 
 按**空白鍵**選擇全部三項，再按 **Enter**。

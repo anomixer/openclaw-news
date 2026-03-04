@@ -6,7 +6,7 @@
 
 > If your OS is Ubuntu / macOS, you can start directly from Step 2.
 
-> If you've already installed on native Windows, please prioritize reading: **`docs/migration-guide-en.md`**.
+> If you've already installed on native Windows, please prioritize reading: **[`docs/migration-guide-en.md`](migration-guide-en.md)**.
 
 ---
 
@@ -325,8 +325,9 @@ Set ELEVENLABS_API_KEY for sag?
 ```
 Enable hooks?
 > [+] 🚀 boot-md (Run BOOT.md on gateway startup)
+> [+] 📎 bootstrap-extra-files (Inject additional workspace bootstrap files via glob/path patterns)
 > [+] 📝 command-logger (Log all command events to a centralized audit file)
-> [+] 💾 session-memory (Save session context to memory when /new command is issued)
+> [+] 💾 session-memory (Save session context to memory when /new or /reset command is issued)
 ```
 
 Press **Space** to select all three, then press **Enter**.

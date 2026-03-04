@@ -6,7 +6,7 @@
 
 > 若您的作業系統是 Ubuntu / macOS ，可以直接從第2步驟開始。
 
-> 如果你已經在 Windows 原生環境安裝過，請優先看：**`docs/migration-guide.md`**。
+> 如果你已經在 Windows 原生環境安裝過，請優先看：**[`docs/migration-guide.md`](migration-guide.md)**。
 
 ---
 
@@ -348,9 +348,9 @@ Set ELEVENLABS_API_KEY for sag?
 ```
 Enable hooks?
 > [+] 🚀 boot-md (Run BOOT.md on gateway startup)
-> [+] 📎 bootstrap-extra-files (Injects additional workspace bootstrap files)
+> [+] 📎 bootstrap-extra-files (Inject additional workspace bootstrap files via glob/path patterns)
 > [+] 📝 command-logger (Log all command events to a centralized audit file)
-> [+] 💾 session-memory (Save session context to memory when /new command is issued)
+> [+] 💾 session-memory (Save session context to memory when /new or /reset command is issued)
 ```
 
 按**空白鍵**選擇全部三項，再按 **Enter**。

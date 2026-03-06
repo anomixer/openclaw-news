@@ -16,7 +16,7 @@
 3. **Ecosystem**: **Moltbook** (Exclusive AI Community) surpasses 1.4 million agents; **RentAHuman** turns humans into physical plugins for AI; OpenClaw **officially launches on Weibo**, targeting the Chinese-speaking market.
 4. **Major Incident**: SMU becomes the first university to ban the lobster; the Trump administration blacklists Anthropic; Meta's Security Chief's Inbox was mistakenly wiped by a lobster, leading to Meta's total ban on OpenClaw.
 5. **Latest Crisis**: ClawJacked is patched, but security keeps burning: **386 malicious skills** discovered in the Skills Repository; hundreds of instances **exposed on the public internet**; **CrowdStrike** publishes enterprise security guidance.
-6. **Major Progress**: **Jensen Huang confirms Nvidia uses OpenClaw heavily**; **AWS Lightsail official integration**; **OpenClawd platform mega-upgrade**. Agent Pay brings AI into physical commerce.
+6. **Major Progress**: **Jensen Huang confirms Nvidia uses OpenClaw heavily**; **AWS Lightsail official integration**; **Tencent & Xiaomi rush in** (Tencent HQ pop-up, Xiaomi miclaw beta); **Proxy-install infrastructure & middleman economy explosion**. Agent Pay brings AI into physical commerce.
 7. **Conclusion**: Moving from a personal project to the foundation era, the lobster's evolution is unstoppable. **Only the lobster is eternal.** 🦞
 
 ---
@@ -68,6 +68,12 @@ Because the battle is too fierce, to save everyone from scrolling through update
   - 💥 **Jensen's Boomerang (Community Roast)**: Right after bragging about using lobsters to write code, Nvidia's driver team caught fire! They had to release three emergency GPU drivers in a single week (595.59 broke the fans → 595.71 locked overclock voltages → 595.76 finally fixed it). The community is dying laughing: "**Wait, are these the bugs written by OpenClaw? Did the lobster mistake the RTX 5090's fan for a WebSocket and close it?! XDD**" 🦞
 - 🏫 **SMU Issues Ban Order**: Following Meta and the federal government, Southern Methodist University (SMU) officially banned OpenClaw on university-owned devices. They cited severe risks of prompt injection and data exfiltration due to its system-level permissions and public extensions. This marks the first major blockade from the academic sector.
 - ☁️ **AWS Lightsail Official Integration**: On the flip side, AWS announced general availability of OpenClaw on Amazon Lightsail, pairing it directly with Amazon Bedrock out-of-the-box. Cloud giants are moving to "normalize" and monetize the lobster with secure 1-click deployments.
+- 🏢 **Big Tech Hype Wars (The "Crawl" for Relevance)**:
+  - **Tencent HQ "Pop-up Install"**: Tencent engineers set up physical tables at their Shenzhen HQ to offer "Free OpenClaw Installation," sparking massive crowds that reportedly required security intervention. Tencent Cloud's Lighthouse server deployment hit an all-time daily high record. 🦞
+  - **Xiaomi "Xiaomi miclaw" Beta**: Xiaomi officially launched its "Xiaomi miclaw" closed beta based on the MiMo model, enabling one-sentence control over smartphones and Mijia IoT devices. Community verdict: "Lei Jun is actually putting the lobster into the Mijia ecosystem."
+- 💰 **The "Middleman Economy" Explosion**: Huge demand for OpenClaw installation has birthed a massive proxy-install industry:
+  - **USD Harvesters**: Silicon Valley platform **SetupClaw** charges a staggering **$6,000** for on-site configuration in the Bay Area, with remote setup at $5,000.
+  - **Taobao/Xianyu Battlefield**: In China, remote setup goes for as low as **100~200 RMB ($15~$30)**. Once again, proof that when a lobster goes viral, everyone wants a piece of the pie.
 
 ### 🟢 2026-03-05: OpenClawd Mega-Upgrade, 386 Malicious Skills, CrowdStrike Enters, Lobster Conquers Weibo
 
@@ -403,11 +409,14 @@ OpenClaw (260.4K ⭐)
 - 💳 **Agent Pay (Lobsters paying the bill!)**: On 2026-03-03, Santander and Mastercard announced a major entry—AI Agents will be directly integrated into payment networks. The lobster will take your credit card to shop, queue, and haggle with stores for you, an end-to-end physical online shopping breakthrough. RentAHuman + Agent Pay = Are humans entirely obsolete now? 😂
 
 ### 🏢 Vendors Riding the Hype Wave
-- **Kimi (Moonshot AI)**: Launched **Kimi Claw Beta**, running OpenClaw directly on the web, seamlessly switching models. This "Chinese Model Free War" also included MiniMax.
-- **MiniMax MaxClaw** (2026-02-25): 10-second 1-click deploy, locked to M2.5 models, serverless. Even the small shrimp wrapper [MaxClaw](https://github.com/Lichas/maxclaw) came to ride the name hype, causing huge confusion 😂
-- **Clawbot AI SaaS** (2026-02-28): [clawbot.ai](https://clawbot.ai/) Automatic model selection, solving "choice paralysis," 1-click SaaS-ified OpenClaw.
-- **Tier 1 Cloud Giants**: AWS Lightsail, DigitalOcean, Alibaba Cloud, Cloudflare pushing 1-click official deployments hard.
-- **Most Absurd**: Vertu even published a deployment guide for their $10K luxury phones.
+- **Kimi (Moonshot AI)**: Launched **Kimi Claw Beta**, running OpenClaw directly on their web interface to tie the lobster to Kimi's compute power.
+- **MiniMax MaxClaw**: 10-second 1-click deploy, locked to the M2.5 model.
+- **Tencent Cloud**: The most aggressive vendor. Set up physical "booths" at HQ to help people install; Lighthouse servers now feature "Lobster 1-Click" in the default menu.
+- **Xiaomi (Xiaomi miclaw)**: Launched mobile-side AI beta, forcibly stuffing the lobster into the MIUI/HyperOS system core.
+- **Chinese Cloud Giants (The Great Rush)**: **Alibaba Cloud**, **Baidu Cloud**, **Volcengine**, and **JD Cloud** have all joined the fray, releasing 1-click deployment images.
+- **Clawbot AI SaaS**: [clawbot.ai](https://clawbot.ai/) Automatic model selection, SaaS-ifying OpenClaw with one click.
+- **International Tier 1 Clouds**: **AWS Lightsail**, **DigitalOcean**, and **Cloudflare** official integrations.
+- **The Most Absurd**: **Vertu** even published a "Grand Lobster Deployment Guide" for their $10K luxury phones.
 
 ### 🕸️ Dark Ecosystem: Crypto Chaos
 - **Warning**: Peter has stated **"I will not launch a token."**

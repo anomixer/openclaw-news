@@ -16,7 +16,7 @@
 3. **生態**: **Moltbook** (AI 專屬社群) 突破 140 萬代理人；**RentAHuman** 讓人類成為 AI 的實體外掛；OpenClaw **官方進軍中文微博**，目標全球化。
 4. **重大事故**: SMU 成首間封殺龍蝦的大學；川普政府下令聯邦機關停用 Anthropic 產品；Meta 安全總監 Inbox 遭龍蝦誤刪，導致 Meta 全面禁用 OpenClaw（疑似小扎請不到彼得的報復性集體霸凌？）。
 5. **最新危機**: ClawJacked 漏洞已修補，但安全問題持續發燒：技能庫驚現 **386 個惡意技能**（其中許多鎖定幣圈用戶）；數百個 OpenClaw 實例**裸奔公網**；**CrowdStrike** 發布專文警示企業安全。
-6. **重大進展**: **黃仁勳證實輝達內部大量使用 OpenClaw**；**AWS Lightsail 官方整合**；**OpenClawd 平台大升級**。Agent Pay 讓 AI 正式進入實體消費時代。
+6. **重大進展**：**黃仁勳證實輝達內部大量使用 OpenClaw**；**AWS Lightsail 官方整合**；**騰訊與小米爭相進場** (騰訊總部擺攤、Xiaomi miclaw 封測)；**代裝基礎設施與中間人經濟爆發**。Agent Pay 讓 AI 正式進入實體消費時代。
 7. **結論**: 從個人專案走向基金會時代，龍蝦演化無人能擋。**只有龍蝦是永恆的**。🦞
 
 ---
@@ -68,6 +68,12 @@
   - 💥 **老黃的迴力鏢 (社群炎上)**：前腳剛說用龍蝦寫程式，後腳 Nvidia 的驅動團隊就被社群笑瘋了！因為他們在短短一週內連發了三次緊急修復驅動（595.59 風扇停轉 → 595.71 超頻電壓鎖死 → 595.76 才終於修好）。網友無情開嘲諷：「**這該不會就是用 OpenClaw 寫出來的 Bug 吧？龍蝦把 RTX 5090 的風扇當成 WebSocket 關掉了嗎？ XDD**」 🦞
 - 🏫 **南美以美大學 (SMU) 發佈封鎖令**：繼 Meta 與聯邦政府後，南美以美大學 (SMU) 發布公告，禁止在校園設備上使用 OpenClaw。理由是其系統權限與第三方擴充套件可能引發「提示詞注入 (Prompt Injection)」，導致機密外洩。這是學術界開出的防堵第一槍。
 - ☁️ **AWS Lightsail 官方擁抱**：另一邊，AWS 宣佈 Amazon Lightsail 正式整合 OpenClaw，預設綁定 Amazon Bedrock 模型。雲端巨頭開始將這隻龍蝦「正規化」與「商業化」，提供一鍵部署與安全保護。
+- 🏢 **大廠內捲開跑 (蹭熱度大賞)**：
+  - **騰訊工程師總部「擺攤」**：騰訊工程師在深圳總部大樓下現場支援「免費安裝 OpenClaw」，現場排隊人潮甚至驚動保安。受益於此，騰訊雲 Lighthouse 輕量伺服器的單日部署量創下歷史新高。🦞
+  - **小米（Xiaomi miclaw）官宣封測**：小米正式開啟「Xiaomi miclaw」小範圍封測，基於 MiMo 大模型，主控手機與米家 IoT 設備。網友表示：「雷總這次真的要把龍蝦裝進手機裡了。」
+- 💰 **「代客安裝」中間人經濟爆發**：隨 OpenClaw 裝機需求炸裂，全球催生出龐大代裝服務：
+  - **美金收割機**：矽谷出現專業安裝平台 **SetupClaw**，舊金山灣區「現場人工配置」收費高達 **$6,000 美元**，連遠端設定都要 $5,000。
+  - **淘寶/閒魚戰場**：國內電商平台遠端設定僅需 **100~200 RMB**。再次驗證了：只要龍蝦夠紅，哪裡都有「中間商賺差價」。
 
 ### 🟢 2026-03-05: OpenClawd 平台大升級、惡意技能庫386砲、CrowdStrike 入局、龍蝦攻占微博
 
@@ -403,11 +409,14 @@ OpenClaw (260.4K ⭐)
 - 💳 **Agent Pay（龍蝦自己買單！）**: 2026-03-03，Santander 與 Mastercard 發布重大入局——AI Agent 將被直接整合進支付網路。龍蝦會拿你的信用卡幫你購物、排隊、連店家議價，一條龍龍打通實體網路購物。RentAHuman + Agent Pay = 人類從此變完全多餘了?😂
 
 ### 🏢 廠商蹭熱度大賞
-- **Kimi (月之暗面)**: 推出 **Kimi Claw Beta**，直接在網頁跑 OpenClaw，無縫切換模型。這場「中國模型免費戰」還包含了 MiniMax。
-- **MiniMax MaxClaw** (2026-02-25)：一鍵 10 秒部署，鎖定 M2.5 模型，免伺服器管理。連小蝦套山 [MaxClaw](https://github.com/Lichas/maxclaw) 都跨來蹭名，譯相大外奧😂
-- **Clawbot AI SaaS** (2026-02-28)：[clawbot.ai](https://clawbot.ai/) 自動模型選擇，解決「選模型困難症」，一鍵 SaaS 化 OpenClaw。
-- **一線雲端大廠**: AWS Lightsail、DigitalOcean、Alibaba Cloud、Cloudflare 狂推官方/一鍵部署。
-- **最離譜**: Vertu 連 $10K 的奢華手機都出部署教學。
+- **Kimi (月之暗面)**: 推出 **Kimi Claw Beta**，直接在網頁跑 OpenClaw，讓龍蝦在對掛在 Kimi 算力上。
+- **MiniMax MaxClaw**: 推出一鍵 10 秒部署，鎖定 M2.5 模型。
+- **騰訊雲 (Tencent Cloud)**: 最積極的廠商。總部直接「擺攤」幫人裝，Lighthouse 伺服器預設選單出現「龍蝦一鍵部署」選項。
+- **小米 (Xiaomi miclaw)**: 推出手機側 AI 封測，強行把龍蝦塞進 MIUI/澎湃系統底層。
+- **中國雲端大廠 (群起蹭熱)**: **阿里雲 (Alibaba Cloud)**、**百度智能雲 (Baidu)**、**火山引擎 (Volcengine)**、**京東雲 (JD Cloud)** 全體入局，紛紛推出一鍵部署鏡像。
+- **Clawbot AI SaaS**: [clawbot.ai](https://clawbot.ai/) 自動模型選擇，一鍵 SaaS 化 OpenClaw。
+- **一線國際雲端**: **AWS Lightsail**、**DigitalOcean**、**Cloudflare** 官方整合。
+- **最離譜**: **Vertu** 連 $10K 的奢華手機都出「尊爵龍蝦部署教學」。
 
 ### 🕸️ 黑暗生態系：幣圈亂象
 - **警告**: Peter 已聲明 **"I will not launch a token."**

@@ -536,16 +536,29 @@ OLLAMA_KEEP_ALIVE=-1
 這樣可以避免 Ollama 在 5 分鐘無活動後自動卸載模型，提升下次對話的速度。
 
 
+### 設定 Ollama 可同時處理的呼叫需求
+
+若需要執行 OpenClaw 的 Multi-Agents 或 Multi-Sessions 等高級應用，因需要同時呼叫多次 LLM，因此須打開 Ollama 的平行需求數字：
+
+在環境變數中加入：
+```
+OLLAMA_NUM_PARALLEL=4
+```
+> 此值自定是 1，最大是4
+
+注意：增加 Parallel Requests Number 也會增加GPU VRAM的耗用量
+
+
 ### 調整 Ollama 的上下文長度
 
-Ollama 的 Context Length 自定值是 4096 ，對 OpenClaw 來說實在太少了。建議調高至 16384 以上。
+Ollama 的 Context Length 自定值是 4096 ，對 OpenClaw 來說實在太少了。建議調高至 16384 以上 (注意：增加 Context Size也會增加GPU VRAM的耗用量) 。
 
 ```
 OLLAMA_CONTEXT_LENGTH=32768
 ```
 
 
-### 更新 Ollama 模型配置
+### 更新 Ollama 模型配置 (v0.17.0 以上版本可免)
 
 若需要更換 Ollama 模型：
 
@@ -581,6 +594,10 @@ OLLAMA_CONTEXT_LENGTH=32768
 ---
 
 ## 📝 更新日誌
+
+### 2026-03-06
+- 🔄 更新 OLLAMA_NUM_PARALLEL 說明
+- 🦞 Ollama 可以同時應付多隻龍蝦了
 
 ### 2026-02-27
 - 🔄 更新 Ollama v0.17.0+ 自動安裝 OpenClaw 說明

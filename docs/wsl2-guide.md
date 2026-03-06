@@ -719,7 +719,30 @@ launchctl setenv OLLAMA_KEEP_ALIVE "-1"
 然後重啟 Ollama 應用程式。 
 
 
-### 8.2 調整 Ollama 的上下文長度
+### 8.2 設定 Ollama 可同時處理的呼叫需求
+
+若需要執行 OpenClaw 的 Multi-Agents 或 Multi-Sessions 等高級應用，因需要同時呼叫多次 LLM，因此須打開 Ollama 的平行需求數字：
+
+```
+OLLAMA_NUM_PARALLEL=1 (自定值)
+OLLAMA_NUM_PARALLEL=4 (最大值)
+```
+
+請參考 8.1 的作法，在  `/etc/systemd/system/ollama.service` 的 [Service] 區段加入：
+
+```
+Environment="OLLAMA_NUM_PARALLEL=4"
+```
+
+MacOS用戶則是終端機執行：
+```
+launchctl setenv OLLAMA_NUM_PARALLEL "4"
+```
+
+注意：增加 Parallel Requests Number 也會增加GPU VRAM的耗用量
+
+
+### 8.3 調整 Ollama 的上下文長度
 
 Ollama 的 Context Length 自定值是 4096 ，對 OpenClaw 來說實在太少了。建議調高至 16384～32768 以上 (注意：增加 Context Size也會增加GPU VRAM的耗用量)，可以透過下列指令來修改模型。
 
@@ -756,7 +779,7 @@ glm-4.7-flash:latest    baa9f0d690c1    22 GB    100% GPU     32768      Forever
 注意看 CONTEXT 和 UNTIL 就可以了。
 
 
-### 8.3 更新 Ollama 模型配置
+### 8.4 更新 Ollama 模型配置 (v0.17.0 以上版本可免)
 
 若需要更換 Ollama 模型：
 
@@ -794,6 +817,10 @@ glm-4.7-flash:latest    baa9f0d690c1    22 GB    100% GPU     32768      Forever
 ---
 
 ## 11. 📝 更新日誌
+
+### 2026-03-06
+- 🔄 更新 OLLAMA_NUM_PARALLEL 說明
+- 🦞 Ollama 可以同時應付多隻龍蝦了
 
 ### 2026-02-27
 - 🔄 更新 Ollama v0.17.0+ 自動安裝 OpenClaw 說明
@@ -835,7 +862,7 @@ glm-4.7-flash:latest    baa9f0d690c1    22 GB    100% GPU     32768      Forever
 
 ---
 
-**最後更新**: 2026-02-27
+**最後更新**: 2026-03-06
 
 **原創 by anomixer**  
 

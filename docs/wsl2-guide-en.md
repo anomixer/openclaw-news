@@ -1,36 +1,58 @@
-# WSL2 Complete Installation Guide
+# Complete WSL2 Installation Guide
 
 **[中文版](wsl2-guide.md) | English**
 
-> This is a complete guide for installing OpenClaw + Ollama on WSL2 from scratch.
+> This is a complete guide to installing OpenClaw + Ollama from scratch in WSL2.
 
-> If your OS is Ubuntu / macOS, you can start directly from Step 2.
+> If your operating system is Ubuntu / macOS, you can start directly from step 2.
 
-> If you've already installed on native Windows, please prioritize reading: **[`docs/migration-guide-en.md`](migration-guide-en.md)**.
+> If you have already installed in a native Windows environment, please read this first: **[`migration-guide-en.md`](migration-guide-en.md)**.
 
 ---
 
 ## Table of Contents
 
-1. [Install WSL2](#1-install-wsl2)  
-2. [Install Ollama](#2-install-ollama)  
-3. [Install OpenClaw](#3-install-openclaw)  
-4. [Configure Gateway](#4-configure-gateway)  
-5. [Test and Verify](#5-test-and-verify)  
-6. [Advanced Configuration](#6-advanced-configuration)  
-7. [FAQ](#7-faq)
+1. [Install WSL2 (Start here if you use Windows 10/11)](#1-install-wsl2-start-here-if-you-use-windows-1011)
+   - [1.1 Enable WSL2](#11-enable-wsl2)
+   - [1.2 Initial Installation and Starting Ubuntu](#12-initial-installation-and-starting-ubuntu)
+   - [1.3 Enable systemd (Required)](#13-enable-systemd-required)
+   - [1.4 Switch to MCDM Mode for Data Center Cards (Optional)](#14-switch-to-mcdm-mode-for-data-center-cards-optional)
+   - [1.5 Install CUDA Driver for WSL Ubuntu (Required)](#15-install-cuda-driver-for-wsl-ubuntu-required)
+2. [Install Ollama (Start here if you use Linux or macOS)](#2-install-ollama-start-here-if-you-use-linux-or-macos)
+   - [2.1 Install Ollama](#21-install-ollama-install-inside-ubuntu-wsl--linux-not-under-windows)
+   - [2.2 Start Ollama Service](#22-start-ollama-service)
+   - [2.3 Verify Installation](#23-verify-installation)
+   - [2.4 Pull Models](#24-pull-models)
+3. [Install OpenClaw](#3-install-openclaw)
+   - [3.1 Re-install nvm and node.js v24](#31-re-install-nvm-and-nodejs-v24-recommended-for-new-openclaw)
+   - [3.2 Install OpenClaw CLI](#32-install-openclaw-cli)
+   - [3.3 Initial Onboarding](#33-initial-onboarding)
+   - [3.4 Configure OpenClaw to use Ollama](#34-configure-openclaw-to-use-ollama)
+4. [Advanced Configuration](#4-advanced-configuration)
+   - [4.1 Install Skills](#41-install-skills)
+   - [4.2 Memory Feature](#42-memory-feature)
+   - [4.3 Telegram Bot Setup](#43-telegram-bot-setup)
+   - [4.4 Pair Telegram Channel](#44-pair-telegram-channel)
+   - [4.5 Other Advanced Settings (Optional)](#45-other-advanced-settings-optional)
+5. [🗑️ Complete Removal Guide](#5-️-complete-removal-guide)
+6. [📄 Configuration File Reference](#6--configuration-file-reference)
+7. [🎯 Quick Reference](#7--quick-reference)
+8. [💡 Useful Tips](#8--useful-tips)
+9. [📚 Related Links](#9--related-links)
+10. [💬 Community Support](#10--community-support)
+11. [📝 Changelog](#11--changelog)
 
 ---
 
-Quick installation guide for OpenClaw with local LLM (Ollama) on Windows (WSL version).
+A complete step-by-step installation guide for Windows (WSL version) to quickly set up OpenClaw and a local LLM (Ollama).
 
 > ⚠️ **Version Requirements**: Ollama v0.15.4+ and OpenClaw 2026.2.5+
 
-## 1. Install WSL2 (If using Windows 10/11, start here)
+## 1. Install WSL2 (Start here if you use Windows 10/11)
 
 ### 1.1 Enable WSL2
 
-Open Command Prompt **as regular user**:
+Open Command Prompt as a **Regular User**:
 
 ```cmd
 # Install WSL2 and enable virtual environment
@@ -38,28 +60,28 @@ wsl --install
 wsl --update
 ```
 
-Follow prompts to **restart your computer**.
+Follow the prompts to **restart your computer**.
 
-### 1.2 First Installation and Launch Ubuntu
+### 1.2 Initial Installation and Starting Ubuntu
 
-After reboot, open Command Prompt **as regular user**:
+After restarting, open Command Prompt as a **Regular User**:
 
 ```cmd
 # Install Ubuntu 24.04
 wsl --install -d Ubuntu-24.04
 ```
 
-Follow prompts to set:
+Follow the prompts to configure:
 
-- Username (suggested to match Windows, personal preference)
-- Password (needed for sudo later)
+- Username (Recommended to match Windows, entirely personal preference)
+- Password (Needed later for sudo)
 
 
 ### 1.3 Enable systemd (Required)
 
-> ⚠️ Required step: OpenClaw Gateway needs systemd to run as a service.
+> ⚠️ Mandatory Action: OpenClaw Gateway requires systemd to run as a background service.
 
-In Ubuntu WSL terminal:
+Run in your Ubuntu WSL terminal:
 
 ```bash
 cd ~
@@ -69,57 +91,56 @@ systemd=true
 EOF
 ```
 
-(If prompted `[sudo] password for user:` enter the password you set above, same for future prompts)
+(If prompted with `[sudo] password for user:`, enter the password you created earlier, and do the same whenever you encounter it).
 
-Back to Windows Command Prompt, close WSL:
+Return to Windows Command Prompt and close WSL:
 
 ```cmd
 exit
 wsl --shutdown
 ```
 
-Open Ubuntu again (in Command Prompt, run `wsl`), and verify systemd is running:
-
+Start Ubuntu again (run `wsl` in Command Prompt) and verify systemd has started:
 
 ```bash
 systemctl --version
 ```
 
-Seeing version info means OK.
+If you see version information, it's OK.
 
 
 ### 1.4 Switch to MCDM Mode for Data Center Cards (Optional)
 
-⚠️ Important: If your GPU is GeForce, Quadro etc. "consumer cards with fans" (with display ports enabled by default), skip this step.
+⚠️ Important: If your graphics card is a GeForce, Quadro, or similar VGA Controller with a built-in cooling fan (with display port functionality enabled by default ex-factory), you can skip this step.
 
-⚠️ If your GPU is L2, L4, L40, RTX 6000 Blackwell Server Edition etc. Data Center specific versions (these "accelerator cards" have no fans, default as 3D Controller mode with display ports disabled, suitable for server environments). In Windows, NVIDIA Driver defaults to TCC (Tesla Compute Cluster) mode, which prevents Ubuntu WSL from accessing the card. You must switch to MCDM (Microsoft Compute Driver Model) mode.
+⚠️ If your graphics card is a Data Center-specific version like L2, L4, L40, RTX 6000 Blackwell Server Edition (these "accelerator cards" typically have passive fanless designs, with display ports disabled ex-factory, operating in 3D Controller mode optimized for server environments). Under Windows, the NVIDIA Driver runs in TCC (Tesla Compute Cluster) mode by default. This mode prevents the Ubuntu WSL environment from accessing the accelerator card, so it must be switched to MCDM (Microsoft Compute Driver Model) mode to function properly.
 
-Run Command Prompt **as Administrator**:
+Run Command Prompt as **Administrator**, then enter:
 
 ```cmd
-# Switch L4 to MCDM mode (-g 0 is GPU number, -dm 2 means MCDM)
+# Switch L4 to MCDM mode (-g 0 is the GPU ID, -dm 2 is MCDM)
 nvidia-smi -g 0 -dm 2
 ```
 
-After switching, restart is required.
+After switching, a system restart is required.
 
-To verify success, run `nvidia-smi` in Command Prompt and check if Driver-Model shows MCDM.
+To verify if the switch was successful, simply run `nvidia-smi` in the Command Prompt and check if the Driver-Model displays as MCDM.
 
 
-> To switch back to TCC mode later:
+> If you no longer need it, use the following command to switch back to TCC mode:
 
 ```cmd
-# Switch GPU 0 back to TCC mode (-dm 1 means TCC)
+# Switch GPU 0 back to TCC mode (-dm 1 is TCC)
 nvidia-smi -g 0 -dm 1
 ```
 
 ### 1.5 Install CUDA Driver for WSL Ubuntu (Required)
 
-> ⚠️ Required step: Ubuntu WSL also needs NVIDIA Driver installed to access Host Windows GPU resources.
+> ⚠️ Mandatory Action: The Linux environment under Ubuntu WSL also requires an NVIDIA Driver to access the graphics card resources on the Windows Host.
 
-Visit [NVIDIA CUDA Toolkit](https://developer.download.nvidia.com/compute/cuda/repos/wsl-ubuntu/x86_64/) to get the latest WSL-Ubuntu CUDA installation guide. Installer Type is recommended as deb (local).
+First, go to the [NVIDIA CUDA Toolkit](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=WSL-Ubuntu&target_version=2.0&target_type=deb_local) website and get the latest CUDA installation instructions for WSL-Ubuntu. For Installer Type, choosing deb (local) is recommended.
 
-For CUDA Toolkit 13.1 Update 1 example, run these commands in WSL:
+Taking CUDA Toolkit 13.1 Update 1 as an example, you need to run the following commands sequentially in WSL to install:
 ```bash
 cd ~
 wget https://developer.download.nvidia.com/compute/cuda/repos/wsl-ubuntu/x86_64/cuda-wsl-ubuntu.pin
@@ -131,41 +152,41 @@ sudo apt-get update
 sudo apt-get -y install cuda-toolkit-13-1
 ```
 
-After installing CUDA Toolkit, remember to set two environment variables. Use nano to edit `~/.bashrc`:
+After installing the CUDA Toolkit, remember to configure two environment variables. Open `~/.bashrc` using nano:
 
 ```bash
 nano ~/.bashrc
 ```
 
-Add to the last line:
+Add the following content at the very end:
 
 ```
 export PATH="$PATH:/usr/local/cuda/bin:$HOME/.npm-global:$HOME/node_modules/.bin"
 export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/cuda/lib64"
 ```
 
-> Note: The path above prepares for node and npm, which will be used later when installing OpenClaw.
+> Note: The node and npm paths have been added automatically above so they can be used later when installing OpenClaw.
 
-After editing, press `Ctrl+X`, `Y`, `Enter` to save.
+After editing, press `Ctrl+X`, `Y`, and `Enter` to save the file.
 
-Then type `exit` to leave WSL, run `wsl` to start Ubuntu, enter these commands to verify CUDA and Driver work properly:
+Next, type `exit` to leave WSL, then run `wsl` to restart Ubuntu, and type the following commands to verify CUDA and the Driver are functioning correctly:
 
 ```bash
 # Check if nvcc runs
 nvcc -V
-# Check if nvidia-smi works properly
+# Check if nvidia-smi functions properly
 nvidia-smi
 ```
 
-> Note: Tired at this point? Feeling WSL version isn't that simple? 😂😂😂
+> Note: Are you feeling tired by now? Didn't expect the WSL version to be this complicated, right? 😂😂😂
 
 ---
 
-## 2. Install Ollama (If using Linux or macOS, start directly here)
+## 2. Install Ollama (Start here if you use Linux or macOS)
 
-### 2.1 Install Ollama (Install in Ubuntu WSL / Linux, not in Windows)
+### 2.1 Install Ollama (Install inside Ubuntu WSL / Linux, not under Windows)
 
-After confirming GPU driver and Compute libraries are installed, open Linux Terminal and enter:
+After confirming that the GPU driver and Compute library are properly installed, please open your Linux Terminal and input:
 
 ```bash
 cd ~
@@ -176,7 +197,7 @@ curl -fsSL https://ollama.com/install.sh | sh
 
 ### 2.2 Start Ollama Service
 
-After Ollama installation completes, the service auto-enables. If not, run these commands:
+After installation, Ollama will automatically start its service. If it doesn't, you can run the following commands to start it:
 
 ```bash
 sudo systemctl enable ollama
@@ -191,9 +212,9 @@ ollama -v
 ```
 
 
-### 2.4 Pull Model
+### 2.4 Pull Models
 
-Refer to main README, choose one based on your GPU VRAM:
+Refer to the instructions in the main README and choose based on your graphics card's VRAM capacity:
 
 **Option A: GLM 4.7 Flash (Recommended, 20GB+ VRAM)**
 
@@ -211,7 +232,9 @@ ollama pull ministral-3:8b
 
 ## 3. Install OpenClaw
 
-### 3.1 First install nvm and node.js v24 (Recommended for new OpenClaw version)
+Note: If you installed Ollama v0.17.0+, this version will automatically install OpenClaw for you. Please jump directly to the **3.3 Initial Onboarding** section.
+
+### 3.1 Re-install nvm and node.js v24 (Recommended for new OpenClaw)
 
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
@@ -226,15 +249,15 @@ nvm use 24
 curl -fsSL https://openclaw.ai/install.sh | bash
 ```
 
-If the official installation script fails, please use npm install to install directly:
+If the official installation script fails, please install directly using npm:
 
 ```bash
 npm install openclaw@latest
 ```
 
-### 3.3 Initial Onboard
+### 3.3 Initial Onboarding
 
-After OpenClaw installation, it auto-enters Onboard mode. If not, run:
+After installing OpenClaw, it will automatically enter Onboard mode. If it doesn't, execute the following command:
 
 ```bash
 openclaw onboard
@@ -254,9 +277,9 @@ Onboarding mode
 > QuickStart (Configure details later via openclaw configure.)
 ```
 
-#### 3. Configure Model/Auth Provider
+#### 3. Setup Model/Auth Provider
 
-Choose to skip first, configure later:
+Choose to skip for now, we will configure this later:
 
 ```
 Model/auth provider
@@ -268,12 +291,12 @@ Filter models by provider
 Default model
 > Enter model manually 
 
-# Enter model name from above, e.g.: ollama/glm-4.7-flash
+# Input the model name you downloaded earlier, e.g.: ollama/glm-4.7-flash
 ```
 
 #### 4. Channel Configuration (Optional)
 
-You can choose **Skip for now** here, or directly configure Telegram. Example with configuration:
+You can select **Skip for now**, or configure Telegram immediately. Assuming we are doing the configuration:
 
 ```
 Select channel (QuickStart)
@@ -283,11 +306,11 @@ Enter Telegram bot token
 >>> 1234567890:ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789
 ```
 
-> 💡 How to get Token? See [Telegram Bot Setup](#telegram-bot-setup)
+> 💡 How to obtain a Token? Refer to [Telegram Bot Setup](#43-telegram-bot-setup).
 
 #### 5. Skills Store
 
-Choose Yes first, then Skip for now, then choose No for all API Key sections.
+Select Yes first, then Skip for now. For the API Key sections later, choose No for all of them.
 
 ```
 Configure skills now? (recommended)
@@ -319,8 +342,7 @@ Set ELEVENLABS_API_KEY for sag?
 ```
 
 
-#### 6. Enable Hooks (if appears)
-
+#### 6. Enable Hooks (if prompted)
 
 ```
 Enable hooks?
@@ -330,12 +352,12 @@ Enable hooks?
 > [+] 💾 session-memory (Save session context to memory when /new or /reset command is issued)
 ```
 
-Press **Space** to select all three, then press **Enter**.
+Press the **Spacebar** to select all three items, then press **Enter**.
 
 
-#### 7. Record Web UI Info
+#### 7. Record Web UI Information
 
-After installation:
+It will display the following after installation completes:
 
 ```
 Control UI:
@@ -345,34 +367,34 @@ Control UI:
   Gateway: reachable
 ```
 
-> 🔑 **Important**: Remember the URL with token!
+> 🔑 **Important**: Remember the URL with the token!
 
-#### 8. Install Shell / Hatch Bot (if appears)
+#### 8. Install Shell / Hatch Bot (if prompted)
 
 ```
 Enable bash shell completion for openclaw?
 > Yes
 ```
 
-For hatching your bot, TUI is recommended.
+How to hatch your bot, TUI is recommended.
 
 ```
 How do you want to hatch your bot?
 > ● Hatch in TUI (recommended)
 ```
 
-### 9. Configure OpenClaw to Use Ollama
+### 3.4 Configure OpenClaw to use Ollama
 
-At this point, OpenClaw will hatch the bot. Press Ctrl+C several times to stop, exit WSL (type `exit`), then enter WSL again (type `wsl`). Now OpenClaw is ready to use.
+At this time, OpenClaw will hatch the bot. Press Ctrl+C a few times to stop it. Exit WSL (type `exit`), then re-enter WSL (type `wsl`), and OpenClaw will finally be ready to use.
 
 ```
-# First stop OpenClaw Gateway service
+# First stop the OpenClaw Gateway service
 systemctl --user stop openclaw-gateway.service
 ```
 
-#### Let Ollama Apply Local Model to Run OpenClaw
+#### Letting Ollama apply the local model to run OpenClaw
 
-**Ollama v0.15.3+ New Feature**: Can configure OpenClaw's Ollama settings to apply local model.
+**Ollama v0.15.3+ New Feature**: You can configure OpenClaw's Ollama settings so it automatically applies the local model.
 
 ```
 ollama launch openclaw
@@ -400,14 +422,14 @@ Select models for OpenClaw: Type to filter...
 ↑/↓ navigate • space toggle • enter confirm • esc cancel
 ```
 
-After configuring the model, OpenClaw is ready to use. You can now chat with OpenClaw through Telegram and other IMs.
+After configuring the model, OpenClaw is officially ready. You can now communicate with it through IMs like Telegram.
 
-✅ **If AI responds normally, basic setup is complete!**
+✅ **If the AI replies normally, the basic setup is complete!**
 
-> 📝 **To change model later**: See **Practical Tips** below.
+> 📝 **Change models in the future**: Refer to **Useful Tips** section below.
 
 
-> 💡 **Suggestion**: After completion, restart your computer to ensure Gateway Service auto-starts properly on boot.
+> 💡 **Recommendation**: Restart your computer after executing this to verify the Gateway Service launches smoothly upon startup.
 
 ---
 
@@ -415,12 +437,12 @@ After configuring the model, OpenClaw is ready to use. You can now chat with Ope
 
 ### 4.1 Install Skills
 
-Now you're inside Linux (WSL2), so most skills should be recognized as available.
+Since you are now inside Linux (WSL2), most skills should be fully supported.
 
-Common process:
+Standard workflow:
 
 ```bash
-# Find skills
+# Search for skills
 clawhub search
 
 # Install
@@ -430,7 +452,7 @@ clawhub install <skill-name>
 openclaw doctor
 ```
 
-If you need Homebrew version skills, you can choose:
+If you need Homebrew-based skills, you can do this:
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -444,13 +466,13 @@ brew --version
 
 ### 4.2 Memory Feature
 
-In WSL2, the memory subsystem should work normally:
+In WSL2, the memory subsystem should be operational:
 
 ```bash
 openclaw memory status
 ```
 
-If there are issues, you can rebuild:
+In case of issues, you can rebuild it:
 
 ```bash
 openclaw memory rebuild
@@ -458,16 +480,14 @@ openclaw memory rebuild
 
 ---
 
-## 4️⃣ Advanced Configuration
+### 4.3 Telegram Bot Setup
 
-### Telegram Bot Setup
+#### Create a Telegram Bot
 
-#### Create Telegram Bot
+1. Search for and join **@BotFather** on Telegram.
 
-1. Search and add **@BotFather** on Telegram
-
-2. Send command `/newbot`, follow prompts to set bot name
-   - Example: `openclaw-bot` (change if name is taken)
+2. Send the `/newbot` command and follow the prompts to configure a bot name.
+   - For example: `openclaw-bot` (change if the name is occupied).
 
 3. **BotFather** will reply:
 
@@ -478,11 +498,11 @@ Use this token to access the HTTP API:
 1234567890:ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789
 ```
 
-> 🔑 **Remember this Token**, you'll need it for configuration!
+> 🔑 **Save this Token**, you'll need it for setup later!
 
-### Pair Telegram Channel
+### 4.4 Pair Telegram Channel
 
-1. In mobile Telegram bot channel, check for this message (if not, send any message)
+1. Enter your bot's chat channel on the mobile Telegram app to check if there is the following message (if not, send any arbitrary message)
 
 ```
 OpenClaw: access not configured.
@@ -491,7 +511,7 @@ Your Telegram user id: 1234567890
 Pairing code: abcdefgh
 ```
 
-2. On computer, enter WSL and run pairing command:
+2. Enter WSL on your PC and run the pairing command:
 
 ```cmd
 openclaw pairing approve telegram abcdefgh
@@ -499,13 +519,13 @@ openclaw pairing approve telegram abcdefgh
 
 (Replace `abcdefgh` with your pairing code)
 
-3. Send message again to test
+3. Send another message to test.
 
-✅ **Bot should respond normally now!** 🎉
+✅ **The Bot should now reply normally!** 🎉
 
-### Other Advanced Settings (Optional)
+### 4.5 Other Advanced Settings (Optional)
 
-Open WSL as regular user:
+Open WSL as a regular user:
 
 ```bash
 openclaw config
@@ -528,7 +548,7 @@ Enable web_search (Brave Search)?
 > ○ Yes / ● No
 ```
 
-> 💡 Requires Brave API Key (can apply separately), choose No for now
+> 💡 This requires a Brave API Key (can be applied separately), choose No for now.
 
 ```
 Enable web_fetch (keyless HTTP fetch)?
@@ -537,31 +557,31 @@ Enable web_fetch (keyless HTTP fetch)?
 
 ---
 
-## 🗑️ Complete Removal Guide
+## 5. 🗑️ Complete Removal Guide
 
-To completely remove OpenClaw / Moltbot / Clawdbot:
+If you need to completely remove OpenClaw / Moltbot / Clawdbot:
 
 ### Enter WSL
 
 ```bash
 # Complete removal (including all data)
 openclaw uninstall --all --yes --non-interactive
-# Or
+# OR
 moltbot uninstall --all --yes --non-interactive
-# Or
+# OR
 clawdbot uninstall --all --yes --non-interactive
 
-# Remove npm package
+# Remove npm packages
 npm uninstall -g openclaw
-# Or
+# OR
 npm uninstall -g moltbot
-# Or
+# OR
 npm uninstall -g clawdbot
 ```
 
 ---
 
-## 📄 Configuration File Reference
+## 6. 📄 Configuration File Reference
 
 ### File Path
 
@@ -569,7 +589,7 @@ npm uninstall -g clawdbot
 ~/.openclaw/openclaw.json
 ```
 
-### Configuration Example
+### Example Configuration
 
 ```json
 {
@@ -644,38 +664,38 @@ npm uninstall -g clawdbot
 
 ---
 
-## 🎯 Quick Reference
+## 7. 🎯 Quick Reference
 
 | Command | Purpose |
-|---------|---------|
+|------|------|
 | `ollama --version` | Check Ollama version |
-| `ollama pull <model>` | Pull model |
+| `ollama pull <model>` | Pull a model |
 | `ollama launch openclaw` | Configure OpenClaw to use Ollama |
-| `openclaw config` | Enter configuration interface |
-| `openclaw models list` | View currently configured model list |
+| `openclaw config` | Enter configuration UI |
+| `openclaw models list` | View list of currently configured models |
 | `openclaw gateway install` | Install Gateway service |
 | `openclaw gateway start` | Start Gateway service |
 | `openclaw pairing approve telegram <code>` | Pair Telegram channel |
-| `openclaw security audit --deep` | Deep security check |
+| `openclaw security audit --deep` | Deep security audit |
 | `openclaw uninstall --all` | Complete removal |
 
 ---
 
-## 💡 Practical Tips
+## 8. 💡 Useful Tips
 
-### 1. Prevent Ollama from Auto-unloading Models
+### 8.1 Prevent Ollama from automatically unloading models
 
-Ollama defaults to unload models after 5 minutes of inactivity. To improve next conversation speed, set to never unload.
+By default, Ollama automatically unloads models after 5 minutes of inactivity. To increase response speed for the next conversation, it's recommended to set it to never unload.
 
 #### Linux (Systemd):
 
-Run
+Run:
 
 ```
 sudo nano /etc/systemd/system/ollama.service
 ```
 
-Add in [Service] section:
+Add the following to the `[Service]` section:
 
 ```
 Environment="OLLAMA_KEEP_ALIVE=-1"
@@ -690,62 +710,85 @@ sudo systemctl restart ollama
 
 #### macOS:
 
-In terminal:
+Run via terminal::
 ```
 launchctl setenv OLLAMA_KEEP_ALIVE "-1"
 ```
 
-Then restart Ollama application.
+Then restart the Ollama application. 
 
 
-### 2. Adjust Ollama Context Length
+### 8.2 Configure Ollama for parallel requests
 
-Ollama's default Context Length is 4096, which is too small for OpenClaw. Recommended to increase to 16384~32768 (Note: increasing Context Size also increases GPU VRAM usage). You can modify the model with these commands:
+If you need OpenClaw's advanced applications like Multi-Agents or Multi-Sessions, you will need multiple concurrent LLM calls. Therefore, you must increase Ollama's parallel requests number:
 
 ```
-# Run Ollama and load model
+OLLAMA_NUM_PARALLEL=1 (Default value)
+OLLAMA_NUM_PARALLEL=4 (Maximum value)
+```
+
+Please refer to section 8.1 and add the following to the `[Service]` section of `/etc/systemd/system/ollama.service`:
+
+```
+Environment="OLLAMA_NUM_PARALLEL=4"
+```
+
+For macOS users, run this in your terminal:
+```
+launchctl setenv OLLAMA_NUM_PARALLEL "4"
+```
+
+Note: Increasing the Parallel Requests Number will also increase GPU VRAM consumption.
+
+
+### 8.3 Adjust Ollama's Context Length
+
+Ollama's default Context Length is 4096, which is too small for OpenClaw. It's recommended to adjust it to 16384~32768 or higher (Note: Increasing Context Size also increases GPU VRAM consumption). You can use the following commands to modify the model.
+
+```
+# Launch Ollama and load the model
 ollama run glm-4.7-flash:latest
 
-# Set context length (recommended 16384 or 32768)
+# Set context length (16384 or 32768 recommended)
 >>> /set parameter num_ctx 32768
 
-# Save new model, can enter original model name (glm-4.7-flash:latest) to update directly
+# Save the new model, you can reuse the old model name (glm-4.7-flash:latest) to overwrite directly
 >>> /save <model name>
 
 # Exit Ollama
 >>> /bye
 ```
 
-Verify Context Size update:
+Verify if the Context Size has updated:
 
 ```
-# Run Ollama and load model
+# Launch Ollama and load the model again
 ollama run glm-4.7-flash:latest
 
 # Exit Ollama
 >>> /bye
 
-# Check Ollama load status
+# Check Ollama's loaded processes
 ollama ps
 
 NAME                    ID              SIZE     PROCESSOR    CONTEXT    UNTIL
 glm-4.7-flash:latest    baa9f0d690c1    22 GB    100% GPU     32768      Forever
 ```
 
-Check CONTEXT and UNTIL.
+Just pay attention to the CONTEXT and UNTIL columns.
 
 
-### 3. Update Ollama Model Configuration
+### 8.4 Update Ollama Model Configuration (not required for v0.17.0+)
 
-To change Ollama model:
+If you need to switch Ollama models:
 
-1. Delete Ollama configuration file:
+1. Delete the Ollama config file:
 
    ```bash
    rm ~/.ollama/config/config.json
    ```
 
-2. Reconfigure:
+2. Re-run configuration:
 
    ```cmd
    ollama launch openclaw
@@ -753,63 +796,73 @@ To change Ollama model:
 
 ---
 
-## 📚 Related Links
+## 9. 📚 Related Links
 
-- [👍 Windows Basic Installation Guide](../README-EN.md)
-- [🔄 Migrate from Windows to WSL2](migration-guide-en.md)
-- [🤔 Why WSL2?](why-wsl2-en.md)
+- [👍 Basic Windows Installation Guide](../README-EN.md)
+- [🔄 Migrating from Windows to WSL2](migration-guide-en.md)
+- [🤔 Why do we need WSL2?](why-wsl2-en.md)
 
-- [🦙 Ollama Official Site](https://ollama.com/)
-- [🦞 OpenClaw Official Site](https://openclaw.ai/)
-- [🦞 OpenClaw Docs - Ollama Setup](https://docs.openclaw.ai/providers/ollama)
+- [🦙 Ollama Website](https://ollama.com/)
+- [🦞 OpenClaw Website](https://openclaw.ai/)
+- [🦞 OpenClaw Docs - Ollama Settings](https://docs.openclaw.ai/providers/ollama)
 - [🤖 Telegram BotFather](https://t.me/BotFather)
 
 ---
 
-## 💬 Community Support
+## 10. 💬 Community Support
 
-Questions? Welcome to submit on [GitHub Issues](https://github.com/anomixer/openclaw-setup/issues)!
+Facing issues? Feel free to open an issue on our [GitHub Issues](https://github.com/anomixer/openclaw-setup/issues) page!
 
 ---
 
-## 📝 Changelog
+## 11. 📝 Changelog
+
+### 2026-03-06
+- 🔄 Updated `OLLAMA_NUM_PARALLEL` instructions
+- 🦞 Ollama can handle multiple lobsters concurrently now
+
+### 2026-02-27
+- 🔄 Updated instructions for Ollama v0.17.0+ auto-installing OpenClaw
+- 🦞 Ollama is more tightly coupled with the lobster now
 
 ### 2026-02-21
-- 🚀 Updated Node installation method
-- 🆕 Support latest Ollama 0.16.1+ and OpenClaw 2026.2.21+ versions
+- 🚀 Updated Node.js installation instructions
+- 🆕 Support for the latest Ollama 0.16.1+ and OpenClaw 2026.2.21+
 
 ### 2026-02-13
-- 🚀 Updated WSL installation method
-- 🆕 Support latest Ollama 0.15.6+ and OpenClaw 2026.2.12+ versions
+- 🚀 Updated WSL installation instructions
+- 🆕 Support for the latest Ollama 0.15.6+ and OpenClaw 2026.2.12+
 
 ### 2026-02-05
-- 🚀 Changed to `cmd` quick install command, automated Node.js and npm installation
-- 🆕 Support latest OpenClaw 2026.2.5+ version
-- 📋 Reorganized table of contents and updated translation to `README-EN.md`
+- 🚀 Switched to `cmd` quick install command, automating Node.js and npm installation
+- 🆕 Support for the latest OpenClaw 2026.2.5+
+- 📋 Rebuilt TOC and updated translation in `README-EN.md`
 
 ### 2026-02-02
-- 🔄 Updated to Ollama v0.15.4+ version
-- ✨ Added `ollama launch openclaw` preconfiguration feature
-- 📖 Restructured documentation for better readability
-- ⚠️ Emphasized must use regular user account for installation
+- 🔄 Updated to Ollama v0.15.4+
+- ✨ Added `ollama launch openclaw` pre-configuration feature
+- 📖 Restructured docs to improve readability
+- ⚠️ Emphasized the requirement to install as a regular user
 
 ### 2026-01-30
 - 🦞 Repo renamed to openclaw-setup
-- 🌍 Added English version README
-- 💬 Added murmur.md roast file
+- 🌍 Added English README
+- 💬 Added murmur.md rant file
 
 
 ---
 
-## Related Links
+## 9. Related Links
 
-- [Main README](../README-EN.md) - Windows native guide
-- [Why WSL2?](why-wsl2-en.md) - Technical background
-- [Migrate from Windows to WSL2](migration-guide-en.md)
-- [WSL2 Official Documentation](https://learn.microsoft.com/windows/wsl/)
+- [Main README](../README-EN.md) - Native Windows tutorial
+- [Why do we need WSL2?](why-wsl2-en.md) - Technical background
+- [Migrating from Windows to WSL2](migration-guide-en.md)
+- [Official WSL2 Documentation](https://learn.microsoft.com/windows/wsl/)
 
 ---
 
-**Last Updated**: 2026-02-21  
-**Original by anomixer**  
+**Last Updated**: 2026-03-06
+
+**Originally by anomixer**  
+
 **Clawdbot → Moltbot → OpenClaw**

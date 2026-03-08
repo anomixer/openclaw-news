@@ -55,11 +55,13 @@ for (const [src, dest] of Object.entries(zhMaps)) {
     copyAndReplace(src, 'build_docs_zh/' + dest, zhReplacements);
 }
 if (fs.existsSync('pic')) fs.cpSync('pic', 'build_docs_zh/pic', { recursive: true });
+if (fs.existsSync('docs/custom.css')) fs.copyFileSync('docs/custom.css', 'build_docs_zh/custom.css');
 
 // Execute for EN
 for (const [src, dest] of Object.entries(enMaps)) {
     copyAndReplace(src, 'build_docs_en/' + dest, enReplacements);
 }
 if (fs.existsSync('pic')) fs.cpSync('pic', 'build_docs_en/pic', { recursive: true });
+if (fs.existsSync('docs/custom.css')) fs.copyFileSync('docs/custom.css', 'build_docs_en/custom.css');
 
 console.log('Docs preparation for MKDocs done (ZH and EN folders ready).');

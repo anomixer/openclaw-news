@@ -46,3 +46,6 @@ nav:
 
 docs_dir: build_docs_zh
 site_dir: site
+
+extra_css:
+  - custom.css

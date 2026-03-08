@@ -1,0 +1,26 @@
+/* Swap GitHub repo button with theme/language/search icons */
+.md-header__inner {
+  display: flex !important;
+}
+
+.md-header__source {
+  order: 0; /* Move GitHub button to the left of the other icons */
+}
+
+.md-header__option, 
+.md-select, 
+.md-search {
+  order: 1; /* Keep icons to the right of the GitHub button */
+}
+
+/* Ensure the title/tabs still stay on the left */
+.md-header__topic, 
+.md-header__nav {
+  order: -1;
+  flex-grow: 1;
+}
+
+/* Specific icon adjustment for Material theme */
+[data-md-component="search-query"] {
+  order: 2;
+}

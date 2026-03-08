@@ -1,6 +1,6 @@
 # 🦞 OpenClaw + 🦙 Ollama 安裝指南
 
-**中文版 | [English](README-EN.md)**
+**中文版 | [English](README-EN.md) | [網頁版](https://anomixer.github.io/openclaw-setup/setup/) | [Web-site Version](https://anomixer.github.io/openclaw-setup/en/setup/)**
 
 <p align="center">
     <picture>

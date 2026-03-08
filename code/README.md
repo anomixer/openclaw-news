@@ -71,4 +71,39 @@ mkdocs serve
 cd code
 npm install
 ```
-這會自動根據 `package.json` 安裝像 `@google/generative-ai` 這樣的依賴工具。
+---
+
+## 📅 龍蝦戰地日誌：日常更新流程 (Daily Workflow)
+
+當你有新的新聞想要更新到 `murmur.md` 並同步到網站時，請依照以下 3 個步驟：
+
+### 1. 產生毒舌日誌 (AI 生成)
+在 `code/` 目錄下執行以下指令（請確保已設定 `GEMINI_API_KEY`）：
+```powershell
+$env:GEMINI_API_KEY="你的金鑰"
+node generate_murmur.js "輸入今天的新聞摘要..."
+```
+*這會自動將中英文日誌插入到 `murmur.md` 與 `murmur-en.md` 的最上方。*
+
+### 2. 更新 Github Stars (可選)
+如果你也想順便更新星星排名與里程碑表格：
+```powershell
+$env:GITHUB_TOKEN="你的Token"
+node update_stars.js
+```
+
+### 3. 一鍵推送到 GitHub (自動佈署網頁)
+在專案根目錄執行：
+```bash
+git add .
+git commit -m "feat: update battlefield logs YYYY-MM-DD"
+git push origin main
+```
+
+**🚀 接下來呢？**
+推上去後，GitHub Actions 會自動被喚醒（約 1 分鐘內）：
+- 它會自動執行 `build_prep.js` 整理路徑。
+- 它會自動編製雙語 MkDocs 網站。
+- **網站會自動更新**： [https://anomixer.github.io/openclaw-setup/](https://anomixer.github.io/openclaw-setup/)
+
+*註：`README.md` 在網頁版會自動被重新命名為 `setup.md` 以避免與首頁衝突。*

@@ -1,6 +1,6 @@
 ﻿# 🦞 Murmur.md — OpenClaw Universal Battlefield Observation Log (Log Mode)
 
-**[Chinese](murmur.md) | English**
+**[中文版](murmur.md) | English**
 
 > **WARNING**: This file contains excessive complaints, conspiracy theories, and profound philosophical thoughts on lobsters.
 > 

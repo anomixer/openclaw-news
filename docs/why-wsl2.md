@@ -37,7 +37,7 @@ OpenClaw 的 memory 子系統（RAG / vector DB）在 Windows 原生環境常見
 
 ## Skills 相容性
 
-![The Matrix: Windows vs WSL2](matrix-claw-skills.png)
+![The Matrix: Windows vs WSL2](../pic/matrix-claw-skills.png)
 
 > *"你吞下藍色藥丸——留在原生 Windows，繼續相信你想相信的幻覺。你吞下紅色藥丸——安裝 WSL2，我會讓你看看 OpenClaw Skills 的兔子洞到底有多深……"* 💊🦞
 

@@ -1,0 +1,15 @@
+# Node.js 依賴
+node_modules/
+code/node_modules/
+
+# MkDocs 網站暫存與構建目錄
+site/
+build_docs/
+
+# 環境變數與個人設定 (以防萬一)
+.env
+.env.*
+
+# OS 產生的暫存檔
+.DS_Store
+Thumbs.db

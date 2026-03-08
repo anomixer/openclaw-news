@@ -1,0 +1,35 @@
+site_name: 🦞 OpenClaw Battlefield Log
+site_description: The chaotic, cynical, and utterly biased war log of the OpenClaw universe.
+site_url: ""
+
+theme:
+  name: material
+  logo: pic/clawbrian-explosion.png
+  favicon: pic/clawbrian-explosion.png
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+
+nav:
+  - 🦞 戰況日誌 (Murmur): index.md
+  - 🇬🇧 Murmur (English): murmur-en.md
+  - 📖 README: README.md
+  - 🇬🇧 README (English): README-EN.md
+  - 🛠️ 為什麼需要 WSL2: docs/why-wsl2.md
+  - 🇬🇧 Why WSL2: docs/why-wsl2-en.md
+
+docs_dir: build_docs

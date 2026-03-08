@@ -1,6 +1,6 @@
 ﻿# 🦞 Murmur.md — OpenClaw 宇宙戰地觀察日誌 (Log Mode)
 
-**中文版 | [English](murmur-en.md)**
+**中文版 | [English](murmur-en.md) | [網頁版](https://anomixer.github.io/openclaw-setup/) | [Web-site Version](https://anomixer.github.io/openclaw-setup/en/)**
 
 > **警告**: 本檔案包含大量吐槽、陰謀論、以及對龍蝦的深刻哲學思考。
 > 

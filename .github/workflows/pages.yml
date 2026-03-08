@@ -31,27 +31,16 @@ jobs:
         run: pip install mkdocs-material
 
       - name: Prepare build directory
-        run: |
-          mkdir build_docs
-          mkdir -p build_docs/docs
-          
-          # 將 murmur 作為首頁
-          cp murmur.md build_docs/index.md
-          cp murmur-en.md build_docs/murmur-en.md
-          cp README.md build_docs/README.md
-          cp README-EN.md build_docs/README-EN.md
-          mkdir -p build_docs/pic
-          cp -r pic/* build_docs/pic/ || true
-          
-          # 複製 docs 資料夾以保留相對路徑連結
-          cp -r docs/* build_docs/docs/ || true
-          
-          # 移除暫存檔
-          rm -rf build_docs/docs/agents-radar-temp || true
+        run: node code/build_prep.js
 
-      - name: Build with MkDocs
+      - name: Build ZH with MkDocs
         run: |
           cp code/mkdocs.yml mkdocs.yml
+          mkdocs build
+
+      - name: Build EN with MkDocs
+        run: |
+          cp code/mkdocs.en.yml mkdocs.yml
           mkdocs build
 
       - name: Upload artifact

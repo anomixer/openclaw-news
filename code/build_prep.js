@@ -17,7 +17,7 @@ function copyAndReplace(src, dest, replacements) {
 
 const zhMaps = {
     'murmur.md': 'index.md',
-    'README.md': 'README.md',
+    'README.md': 'setup.md',
     'docs/why-wsl2.md': 'docs/why-wsl2.md',
     'docs/wsl2-guide.md': 'docs/wsl2-guide.md',
     'docs/migration-guide.md': 'docs/migration-guide.md'
@@ -25,7 +25,7 @@ const zhMaps = {
 
 const enMaps = {
     'murmur-en.md': 'index.md',
-    'README-EN.md': 'README.md',
+    'README-EN.md': 'setup.md',
     'docs/why-wsl2-en.md': 'docs/why-wsl2.md',
     'docs/wsl2-guide-en.md': 'docs/wsl2-guide.md',
     'docs/migration-guide-en.md': 'docs/migration-guide.md'
@@ -33,13 +33,15 @@ const enMaps = {
 
 // For ZH, we mostly want to replace 'murmur.md' linked in README etc. to 'index.md'
 const zhReplacements = {
-    'murmur\\.md': 'index.md'
+    'murmur\\.md': 'index.md',
+    'README\\.md': 'setup.md'
 };
 
 // For EN, we want to strip the "-en" suffix so the paths are uniform across EN and ZH
 const enReplacements = {
     'murmur-en\\.md': 'index.md',
-    'README-EN\\.md': 'README.md',
+    'README-EN\\.md': 'setup.md',
+    'README\\.md': 'setup.md',
     'why-wsl2-en\\.md': 'why-wsl2.md',
     'wsl2-guide-en\\.md': 'wsl2-guide.md',
     'migration-guide-en\\.md': 'migration-guide.md'

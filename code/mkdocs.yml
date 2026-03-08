@@ -1,4 +1,4 @@
-site_name: 🦞 OpenClaw Battlefield Log
+site_name: 🦞 OpenClaw 宇宙戰地日誌 (含 🦙 Ollama 安裝指南)
 site_description: The chaotic, cynical, and utterly biased war log of the OpenClaw universe.
 site_url: ""
 
@@ -36,7 +36,7 @@ extra:
 
 nav:
   - 🦞 戰況日誌 (Murmur): index.md
-  - 📖 README (Windows Setup): README.md
+  - 📖 README (Windows Setup): setup.md
   - 🚀 WSL2 教學: docs/wsl2-guide.md
   - 🤔 為什麼需要 WSL2: docs/why-wsl2.md
   - 🔄 遷移指南: docs/migration-guide.md

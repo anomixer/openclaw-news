@@ -1,4 +1,4 @@
-site_name: 🦞 OpenClaw Battlefield Log
+site_name: 🦞 OpenClaw Battlefield Log (with 🦙 Ollama Setup)
 site_description: The chaotic, cynical, and utterly biased war log of the OpenClaw universe.
 site_url: ""
 
@@ -36,7 +36,7 @@ extra:
 
 nav:
   - 🦞 Battlefield Log (Murmur): index.md
-  - 📖 Windows Setup (README): README.md
+  - 📖 Windows Setup (README): setup.md
   - 🚀 WSL2 Guide: docs/wsl2-guide.md
   - 🤔 Why WSL2: docs/why-wsl2.md
   - 🔄 Migration Guide: docs/migration-guide.md

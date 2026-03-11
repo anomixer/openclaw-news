@@ -14,7 +14,7 @@
 1. **Protagonist**: **OpenClaw** (🔥 299.1K Stars, **officially confirmed past React**). GitHub All-Time #2 secured. The journey from 0 to 250K took only about **4 months** (Nov 2025 → Mar 2026)—React needed over a decade to reach the same number.
 2. **War Report**: **GPT-5.4 "Thinking" mode** targets office productivity with native spreadsheet integration; **Claude 4.6** hits a snag with Daylight Saving time shifts but remains the top vulnerability hunter for Mozilla.
 3. **Ecosystem**: **Moltbook** (Exclusive AI Community) surpasses 1.4 million agents; **RentAHuman** turns humans into physical plugins for AI; OpenClaw **officially launches on Weibo**, targeting the Chinese-speaking market.
-4. **Major Incident**: SMU becomes the first university to ban the lobster; the Trump administration blacklists Anthropic; Meta's Security Chief's Inbox was mistakenly wiped by a lobster, leading to Meta's total ban on OpenClaw.
+4. **Major Incident**: **Anthropic sues the US Government** over a "supply chain risk" designation after refusing military use for autonomous warfare; SMU bans OpenClaw; Meta's total ban continues.
 5. **Latest Crisis**: **GhostClaw** malware alert—malicious installers are targeting the community; security agencies warn of fake OpenClaw packages appearing on unauthorized platforms.
 6. **Major Progress**: **Tencent QClaw** official beta launched for one-click deployment; **Beelink** launches "Lobster Red" mini PCs; **Nvidia** introduces **NemoClaw** for enterprise agentic security.
 7. **Conclusion**: Moving from a personal project to the foundation era, the lobster's evolution is unstoppable. **Only the lobster is eternal.** 🦞
@@ -66,6 +66,7 @@
 Because the battle is too fierce, to save everyone from scrolling through updates from the beginning every day, this section is now in a "Date-Descending Log Stream" format.
 
 ### 🟢 2026-03-11: Sprinting to 300K & The "Lobster Red" Hardware Era 🚀🦞
+- **Anthropic Fights Back: Lawsuit Against US Gov!** ⚖️ Anthropic has filed lawsuits in response to being designated a "supply chain risk." CEO Dario Amodei claims the move is retaliation for their refusal to allow Claude to be used for "lethal autonomous warfare." A massive legal showdown between AI safety ethics and military ambition is now underway.
 
 - **Sprinting to 300K (299.1K Stars)!** We are a heartbeat away from the historical 300,000 star milestone. The global community is in a "Starring Frenzy," proving the Lobster's momentum is truly unstoppable. 🚀🦞
 - **Beelink "Lobster Red" Mini PCs**: 🏢♥️ Hardware giant Beelink has launched a dedicated mini PC series pre-installed with OpenClaw, finished in a signature "Lobster Red." Physical AI agents are now officially moving into your living room.

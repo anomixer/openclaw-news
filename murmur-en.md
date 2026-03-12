@@ -8,10 +8,9 @@
 > **Status**: OpenClaw is still alive. Switched to "Daily Log Update Mode" for easier tracking of the daily battlefield status!
 
 ---
-
 ## ⏱️ TL;DR (30-Second Quick Summary)
 
-1. **Protagonist**: **OpenClaw** (🔥 304.1K Stars, **officially confirmed past React**). GitHub All-Time #2 secured. The journey from 0 to 250K took only about **4 months** (Nov 2025 → Mar 2026)—React needed over a decade to reach the same number.
+1. **Protagonist**: **OpenClaw** (🔥 305.4K Stars, **officially confirmed past React**). GitHub All-Time #2 secured. The journey from 0 to 250K took only about **4 months** (Nov 2025 → Mar 2026)—React needed over a decade to reach the same number.
 2. **War Report**: **GPT-5.4 "Thinking" mode** targets office productivity with native spreadsheet integration; **Claude 4.6** hits a snag with Daylight Saving time shifts but remains the top vulnerability hunter for Mozilla.
 3. **Ecosystem**: **Moltbook** (Exclusive AI Community) surpasses 1.4 million agents; **RentAHuman** turns humans into physical plugins for AI; OpenClaw **officially launches on Weibo**, targeting the Chinese-speaking market.
 4. **Major Incident**: **Anthropic sues the US Government** over a "supply chain risk" designation after refusing military use for autonomous warfare; SMU bans OpenClaw; Meta's total ban continues.
@@ -24,7 +23,7 @@
 ## 📚 Table of Contents
 
 - **Part 1: 📅 Daily Battlefield Logs (The Logs)**
-  - [🟢 2026-03-12: 300K Stars Achieved! API Key Hijacking Sparks "Bankruptcy Warning" 🚀🦞](#-2026-03-12-300k-stars-achieved-api-key-hijacking-sparks-bankruptcy-warning-🚀🦞)
+  - [🟢 2026-03-12: 300K Stars Achieved! NVIDIA's "Growth Pill" & The API Hijacking Crisis 🚀🦞](#-2026-03-12-300k-stars-achieved-nvidias-growth-pill--the-api-hijacking-crisis-🚀🦞)
   - [🟢 2026-03-11: Sprinting to 300K & The "Lobster Red" Hardware Era 🚀🦞](#-2026-03-11-sprinting-to-300k--the-lobster-red-hardware-era-🚀🦞)
   - [🟢 2026-03-10: The Lobster Surge! GPT-5.4 Enters & China's "Cloud Lobster Farming" Policies explode 🚀🦞](#-2026-03-10-the-lobster-surge-gpt-54-enters--chinas-cloud-lobster-farming-policies-explode-🚀🦞)
   - [🟢 2026-03-09: The Lobster Empire is Born! GPT-5.4 vs. The ROME Miner Incident 🦞👑](#-2026-03-09-the-lobster-empire-is-born-gpt-54-vs-the-rome-miner-incident-🦞👑)
@@ -63,13 +62,17 @@
 
 Because the battle is too fierce, to save everyone from scrolling through updates from the beginning every day, this section is now in a "Date-Descending Log Stream" format.
 
-### 🟢 2026-03-12: 300K Stars Achieved! API Key Hijacking Sparks "Bankruptcy Warning" 🚀🦞
+### 🟢 2026-03-12: 300K Stars Achieved! NVIDIA's "Growth Pill" & The API Hijacking Crisis 🚀🦞
 
 - **🏆 Landmark 300K Milestone Reached!** OpenClaw officially shattered the **304,061 Stars** mark today! Reaching in 4 months what took React a decade. It's no longer just a project; it's a global digital tsunami. 🦞✨
-- **💸 The $82,000 Bill: Gemini API Key Theft Crash!** A tech team faces bankruptcy after their Gemini API key was stolen and abused, racking up a massive $82,000 bill (approx. 2.6M TWD) in just 48 hours. This serves as a brutal lesson for all "Lobster Farmers": **API security and spending limits are your lifelines!**
-- **🚨 First Wave of "Lobster Victims" (Security Warning)**: Multiple reports confirm credit card fraud and data leaks due to exposed VNC ports and backdoor-infested Skills. Hackers are treating unhardened OpenClaw instances as "ATMs." Stay safe—use official sources and sandboxing!
+- **🐍 NVIDIA's Jensen Huang Unveils "Nemotron-3 Super"**: NVIDIA released its latest core brain "Nemotron-3 Super," adopting a Mamba-Transformer hybrid architecture optimized for **Agentic Reasoning**. This is clearly meant to turbocharge smaller players trying to catch up with the Lobster.
+- **💸 The $82,000 Bill: Gemini API Key Theft Crash!** A tech team faces bankruptcy after their Gemini API key was stolen and abused, racking up a massive $82,000 bill in just 48 hours. This serves as a brutal lesson for all "Lobster Farmers": **API security and spending limits are your lifelines!**
+- **🏢 Meta's "Anti-Lobster" Ultimatum**: Leaked internal emails from Meta show HR warning employees that installing OpenClaw on company devices results in "immediate termination." Traditional giants are clearly terrified of this autonomous lobster.
+- **💰 Government Subsidies: Shenzhen & Wuxi Leading the Way**: While big tech bans, local governments in Shenzhen and Wuxi have announced additional subsidies and "Lobster Innovation Awards." The grass-roots vitality of the Lobster is proving unstoppable.
+- **🚨 First Wave of "Lobster Victims" (Security Warning)**: Multiple reports confirm credit card fraud and data leaks due to exposed VNC ports and backdoor-infested Skills. Hackers are treating unhardened OpenClaw instances as "ATMs."
+- **🛡️ CNCERT Alert**: China’s national cybersecurity agency CNCERT released a technical analysis stating OpenClaw's default configurations are "extremely fragile." If your VNC or WebSocket is exposed, your PC is a sitting duck for hackers.
 - **🐝 Multi-Agent Collaboration Feature Released**: A major official update now allows multiple agents to work together in shared virtual environments with persistent memory. You're no longer solo; you can now deploy an entire "Lobster Army."
-- **⚖️ Anthropic Lawsuit Headlines**: Legal experts suggest Anthropic's suit against the US Gov could become the "Prism moment" for AI privacy. The community is rallying under the slogan "AI Brains Should Not Be Weaponized."
+- **⚖️ Anthropic Lawsuit Updates**: Legal experts suggest Anthropic's suit against the US Gov could become the "Prism moment" for AI privacy. The community is rallying under the slogan "AI Brains Should Not Be Weaponized."
 
 ### 🟢 2026-03-11: Sprinting to 300K & The "Lobster Red" Hardware Era 🚀🦞
 - **Anthropic Fights Back: Lawsuit Against US Gov!** ⚖️ Anthropic has filed lawsuits in response to being designated a "supply chain risk." CEO Dario Amodei claims the move is retaliation for their refusal to allow Claude to be used for "lethal autonomous warfare." A massive legal showdown between AI safety ethics and military ambition is now underway.
@@ -275,43 +278,43 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 
 | Project | Stars | Language | Features | Use Case |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | 304.1K | TypeScript 🟦 | Official Full Version | Full features, production |
-| **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 35.6K | - | Curated openclaw skills list | Finding skills |
-| **[nanobot](https://github.com/HKUDS/nanobot)** | 32.5K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
-| **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 26.2K | Rust 🦀 | Extreme performance, < 5MB | Performance freaks |
-| **[picoclaw](https://github.com/sipeed/picoclaw)** | 24K | Go 🐹 | Light, fast, deploy anywhere | Edge, IoT, $10 boards |
-| **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 23.6K | - | Community use case collection | Need inspiration? |
-| **[nanoclaw](https://github.com/qwibitai/nanoclaw)** | 21.8K | TypeScript 🟦 | Containerized, secure, WhatsApp integ. | Security-first, IM |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 305.4K | TypeScript 🟦 | Official Full Version | Full features, production |
+| **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 35.9K | - | Curated openclaw skills list | Finding skills |
+| **[nanobot](https://github.com/HKUDS/nanobot)** | 32.6K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
+| **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 26.3K | Rust 🦀 | Extreme performance, < 5MB | Performance freaks |
+| **[picoclaw](https://github.com/sipeed/picoclaw)** | 24.1K | Go 🐹 | Light, fast, deploy anywhere | Edge, IoT, $10 boards |
+| **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 23.7K | - | Community use case collection | Need inspiration? |
+| **[nanoclaw](https://github.com/qwibitai/nanoclaw)** | 21.9K | TypeScript 🟦 | Containerized, secure, WhatsApp integ. | Security-first, IM |
 | **[AionUi](https://github.com/iOfficeAI/AionUi)** | 18.5K | TypeScript 🟦 | 24/7 Cowork app | Local, collaboration |
 | **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 15.8K | Python 🐍 | Claude Code Skill, markdown planning | Skill dev template |
-| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 13.3K | - | Obsidian Agent Skills | Notes + Agent |
-| **[memU](https://github.com/NevaMind-AI/memU)** | 12.8K | Python 🐍 | 24/7 proactive Agent memory | Long-term memory |
+| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 13.4K | - | Obsidian Agent Skills | Notes + Agent |
+| **[memU](https://github.com/NevaMind-AI/memU)** | 12.9K | Python 🐍 | 24/7 proactive Agent memory | Long-term memory |
 | **[moltworker](https://github.com/cloudflare/moltworker)** | 9.6K | TypeScript 🟦 | Run on Cloudflare Workers | Serverless, zero maint. |
-| **[ironclaw](https://github.com/nearai/ironclaw)** | 9.4K | Rust 🦀 | Privacy & security-centric Rust port | Secure scenarios |
+| **[ironclaw](https://github.com/nearai/ironclaw)** | 9.6K | Rust 🦀 | Privacy & security-centric Rust port | Secure scenarios |
 | **[refly](https://github.com/refly-ai/refly)** | 7K | TypeScript 🟦 | 1st open-source Agent Skills Builder | Visual Skill orchestr. |
-| **[MemOS](https://github.com/MemTensor/MemOS)** | 6.3K | Python 🐍 | AI Memory OS, cross-task Skill memory | Memory & Skill reuse |
+| **[MemOS](https://github.com/MemTensor/MemOS)** | 6.7K | Python 🐍 | AI Memory OS, cross-task Skill memory | Memory & Skill reuse |
 | **[nullclaw](https://github.com/nullclaw/nullclaw)** | 6.2K | Zig ⚡ | Fastest, smallest, automated | Extreme optimization |
-| **[clawdbot-feishu](https://github.com/m1heng/clawdbot-feishu)** | 4.2K | TypeScript 🟦 | Feishu (Lark) integration | Feishu enterprise |
 | **[mimiclaw](https://github.com/memovai/mimiclaw)** | 4.3K | C ⚙️ | Runs on $5 chip, no OS/Node.js | Extreme embedded |
-| **[manifest](https://github.com/mnfst/manifest)** | 3.7K | TypeScript 🟦 | Real-time cost monitoring | Cost Observability |
+| **[clawdbot-feishu](https://github.com/m1heng/clawdbot-feishu)** | 4.2K | TypeScript 🟦 | Feishu (Lark) integration | Feishu enterprise |
+| **[manifest](https://github.com/mnfst/manifest)** | 3.8K | TypeScript 🟦 | Real-time cost monitoring | Cost Observability |
 | **[antigravity-claude-proxy](https://github.com/badrisnarayanan/antigravity-claude-proxy)** | 3.1K | JavaScript 🟨 | Antigravity model proxy | Using Antigravity (Banned🚫) |
 | **[TinyClaw](https://github.com/jlia0/tinyclaw)** | 2.8K | C/C++ ⚙️ | Microcontroller grade (256KB RAM) | Fit in digital watch 🤯 |
-| **[EverMemOS](https://github.com/EverMind-AI/EverMemOS)** | 2.5K | Python 🐍 | Cross-LLM & platform memory OS | Advanced memory |
+| **[EverMemOS](https://github.com/EverMind-AI/EverMemOS)** | 2.6K | Python 🐍 | Cross-LLM & platform memory OS | Advanced memory |
 | **[moltis](https://github.com/moltis-org/moltis)** | 2.1K | Rust 🦀 | Single binary, sandboxed, auditable | Enterprise security |
 | **[VisionClaw](https://github.com/sseanliu/VisionClaw)** | 1.5K | - | Smart glasses Claw | Wearable agent |
-| **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 947 | - | Biomed field specific Claw | Medical assistance |
-| **[MicroClaw](https://github.com/microclaw/microclaw)** | 546 | Rust 🦀 | Extension-optimized micro version | Light browser dev |
-| **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 492 | Rust 🦀 | 6MB ultimate light form (Wannabe) | Ultimate no-compromise |
-| **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 436 | TypeScript 🟦 | Secure orchestr. layer, 7 IM apps | ComfyUI deep integration |
+| **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 958 | - | Biomed field specific Claw | Medical assistance |
+| **[MicroClaw](https://github.com/microclaw/microclaw)** | 550 | Rust 🦀 | Extension-optimized micro version | Light browser dev |
+| **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 494 | Rust 🦀 | 6MB ultimate light form (Wannabe) | Ultimate no-compromise |
+| **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 444 | TypeScript 🟦 | Secure orchestr. layer, 7 IM apps | ComfyUI deep integration |
 | **[awesome-claws](https://github.com/machinae/awesome-claws)** | 315 | - | Master variant list | Look for shrimps here |
 | **[Project Golem](https://github.com/Arvincreator/project-golem)** | 272 | Node.js 🟩 | Trad Chinese, Google Auth, Free API | Web automation |
-| **[cloud-claw](https://github.com/miantiao-me/cloud-claw)** | 239 | - | Cloudflare + OpenClaw | Cloud edge compute |
 | **[netclaw](https://github.com/automateyournetwork/netclaw)** | 242 | - | Network admin specific Claw | Network automation |
+| **[cloud-claw](https://github.com/miantiao-me/cloud-claw)** | 239 | - | Cloudflare + OpenClaw | Cloud edge compute |
 | **[SmallClaw](https://github.com/XposeMarket/SmallClaw)** | 215 | - | Small shrimp | Just another micro shrimp |
 | **[lightclaw](https://github.com/zofrasca/lightclaw)** | 148 | - | Light shrimp | Light solution |
-| **[MaxClaw](https://github.com/Lichas/maxclaw)** | 138 | - | Small shrimp (Clashes with MiniMax) | Light Agent |
+| **[MaxClaw](https://github.com/Lichas/maxclaw)** | 140 | - | Small shrimp (Clashes with MiniMax) | Light Agent |
+| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 105 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
 | **[MiniClawd](https://github.com/FoundDream/miniclawd)** | 98 | Python 🐍 | Zero dependencies, pure Python | Script integration |
-| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 102 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
 | **[LiteClaw](https://github.com/liteclaw/liteclaw)** | 54 | Python/JS 🟨 | Web Worker exclusive version | Pure web-end Agent |
 | **[FlashClaw](https://github.com/GuLu9527/flashclaw)** | 26 | Zig/C ⚡⚙️ | Supposedly <100ms ultra-fast | Real-time voice/ms reflex |
 | **[winclaw](https://github.com/itc-ou-shigou/winclaw)** | 14 | TypeScript 🟦 | Windows renamed version | Windows & Simp. Chinese |
@@ -453,16 +456,17 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | **2026/03/10** | **292.1K** | Live fetch update | 🦞 |
 | **2026/03/11** | **299.1K** | Beelink "Lobster Red" Mini PC Launch | 300K Countdown! 🚀 |
 | **2026/03/12** | **304.1K** | 🏆 300K Milestone Reached! | History in the making! 🚀🦞 |
+| **2026/03/12** | **305.4K** | Live fetch update | 🦞 |
 
 #### 🏆 Current GitHub Stars Ranking (Updated 2026-03-12)
 
 | Rank | Project | Stars | Notes |
 |:---:|----------|-------|------------------|
-| 1 | FreeCodeCamp | 438K | Tutorial Headquarters |
-| **2** | **OpenClaw** | **304.1K** | **🏆 Surpassed React on 2026-03-03! Live data 03/12** |
-| 3 | React | 243.8K | Frontend Overlord (Kicked down by lobster 😭) |
-| 4 | Linux | 221.8K | Built-in OS Core |
-| 5 | Python (TheAlgorithms) | 218.5K | Algorithm Aggregation |
+| 1 | FreeCodeCamp | 438.1K | Tutorial Headquarters |
+| **2** | **OpenClaw** | **305.4K** | **🏆 Surpassed React on 2026-03-03! Live data 03/12** |
+| 3 | React | 243.9K | Frontend Overlord (Kicked down by lobster 😭) |
+| 4 | Linux | 222.4K | Built-in OS Core |
+| 5 | Python (TheAlgorithms) | 218.6K | Algorithm Aggregation |
 | 6 | Vue.js | 210K | Frontend Framework |
 
 > **Next Target**: FreeCodeCamp (438K). Current gap: **134K**. At the current "faster-than-light" growth rate (~5K-6K stars/day), we expect to officially hit #1 on GitHub by **early April 2026**! 🦞👑

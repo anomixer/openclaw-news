@@ -14,3 +14,6 @@ build_docs_en/
 # OS 產生的暫存檔
 .DS_Store
 Thumbs.db
+
+# 佔存目錄
+tmp/

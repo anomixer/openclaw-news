@@ -1,4 +1,4 @@
-﻿# 🦞 Murmur.md — OpenClaw Universal Battlefield Observation Log (Log Mode)
+# 🦞 Murmur.md — OpenClaw Universal Battlefield Observation Log (Log Mode)
 
 **[中文版](murmur.md) | English | [網頁版](https://anomixer.github.io/openclaw-setup/) | [Web-site Version](https://anomixer.github.io/openclaw-setup/en/)**
 
@@ -35,12 +35,7 @@
   - [🟢 2026-03-03: v2026.3.2 Release & The First Year of AI Physical Consumption](#-2026-03-03-v202632-release--the-first-year-of-ai-physical-consumption)
   - [🟢 2026-03-02: Shrimp News Supreme: It's Just "Shrimply" Awesome~ 🤣🤣🤣](#-2026-03-02-shrimp-news-supreme-its-just-shrimply-awesome-)
   - [🟢 2026-03-01: Foundation Era · Security Hardening & Android Fully Open](#-2026-03-01-foundation-era--security-hardening--android-fully-open)
-  - [🟣 2026-02-27 ~ 28: The "ClawJacked" Crisis & Autonomous Dating Incident](#-2026-02-27--28-the-clawjacked-crisis--autonomous-dating-incident)
-  - [🔴 2026-02-26: High-Risk CVE Outbreak & Ecosystem Expansion](#-2026-02-26-high-risk-cve-outbreak--ecosystem-expansion)
-  - [🟡 2026-02-25: Ban Order & Remote Defense Line](#-2026-02-25-ban-order--remote-defense-line)
-  - [🟢 2026-02-20 ~ 24: Meta Joins the War & Variant Explosion](#-2026-02-20--24-meta-joins-the-war--variant-explosion)
-  - [🔵 Mid-Feb 2026: Peter Jumps Ship & Infrastructure Chaos](#-mid-feb-2026-peter-jumps-ship--infrastructure-chaos)
-  - [⚪ Early Feb 2026: Security Crisis & Model Expansion](#-early-feb-2026-security-crisis--model-expansion)
+  - [🔵 2026-02: The Month of the Exploding Lobster — From Peter's Departure to 230K Stars 🚀](#-2026-02-the-month-of-the-exploding-lobster--from-peters-departure-to-230k-stars-🚀)
   - [⚫ Late Jan 2026: Genesis](#-late-jan-2026-genesis)
 - **Part 2: 🛡️ Security Warzone & Enterprise Compliance (Security)**
   - [🕵️ Vidar Infostealer Threat](#️-vidar-infostealer-threat-2026-02-16)

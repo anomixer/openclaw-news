@@ -48,7 +48,7 @@ The official OpenClaw on DGX Spark instructions provide the following suggested 
 
 **Quick Tip**: 
 
-1. For beginners, start with **Claude Sonnet** for maximum stability. When handling massive project repos, switching to **Gemini 1.5 Pro** will feel like a different dimension.
+1. For beginners, start with **Claude Sonnet** for maximum stability. When handling massive project repos, switching to **Gemini Pro** will feel like a different dimension.
 
 2. **⚠️ Security Warning**: If you're using cloud models, guard your **API Keys** with your life! The recent $82,000 hijacking incident is a brutal wake-up call (see [Latest Crisis](../murmur-en.md#-2026-03-12-300k-stars-achieved-nvidias-growth-pill--the-api-hijacking-crisis-🚀🦞)); always set strict usage quotas.
 

@@ -20,16 +20,16 @@ OpenClaw is model-agnostic, but the community's "heart" is quite vocal. Here is 
 5 🏠 **Ollama (Local) — The "Privacy Guard"**:
   - **Why**: The latest version now supports **MiniMax**, **Kimi**, **GLM**, and **Qwen3**. Perfect for privacy-conscious developers wanting to explore the latest model ecosystem locally.
 
-#### 🧠 Field Notes: Model Parameters vs. "Lobster Power"
+#### 🧠 Local Players: Suggested models by GPU memory
 
-If you're torn between local and cloud, here's the collective wisdom from the Lobster farming community:
+| GPU memory | Suggested model | Model size | Notes |
+| :--- | :--- | :--- | :--- |
+| **8–12 GB** | qwen3-4B-Thinking-2507 | ~5GB | — |
+| **16 GB** | gpt-oss-20b | ~12GB | Lower latency, good for interactive use |
+| **24–48 GB** | Nemotron-3-Nano-30B-A3B | ~20GB | — |
+| **128 GB** | gpt-oss-120b | ~65GB | Best quality on DGX Spark (quantized); leaves ~63GB for context window and other processes; use 20B/30B if you prefer faster responses |
 
-| Parameters | Tier | Field Notes (Lobster Power) |
-| :--- | :--- | :--- |
-| **< 30B** (e.g., 9B, 14B, 27B) | 💬 Chatty | Great for chatting, but **fails to meet human "Agent" expectations**. Tool-calling logic is often broken. |
-| **30B - 70B** | 🛠️ Assistant | **Basic operations OK**. Competent for searches, reminders, and simple tasks. The "sweet spot" for mid-range local. |
-| **70B - 100B** | 💼 Professional | **Handles complex workflows**. Good for Office automation and business processes. Can write simple code, but struggles with large Skills. |
-| **> 100B+** (Cloud SOTA) | 🦞 **The Ultimate King** | **True Agentic Freedom**. Multimodal; handles coding/PRs/iteration solo. The only tier for "Set it and forget it" autonomy. |
+**Quality vs. latency**: The 120B model gives the best accuracy and capability but has higher per-token latency. If you prefer snappier replies, use **gpt-oss-20b** (or a 30B model) instead; both run comfortably on DGX Spark with plenty of memory headroom.
 
 **Lobster Insight**: Local is for privacy and thrift; Cloud is for true "Agentic Freedom." Unless you have 128GB+ RAM at home, leave the heavy lifting to the cloud brains. 🦞💡
 
@@ -37,7 +37,7 @@ If you're torn between local and cloud, here's the collective wisdom from the Lo
 
 1. For beginners, start with **Claude Sonnet** for maximum stability. When handling massive project repos, switching to **Gemini 1.5 Pro** will feel like a different dimension.
 
-2. **⚠️ Security Warning**: If you're using cloud models, guard your **API Keys** with your life! The recent $82,000 hijacking incident is a brutal wake-up call (see [Latest Crisis](../murmur-en.md#-2026-03-12-300k-stars-achieved-api-key-hijacking-sparks-bankruptcy-warning-🚀🦞)); always set strict usage quotas.
+2. **⚠️ Security Warning**: If you're using cloud models, guard your **API Keys** with your life! The recent $82,000 hijacking incident is a brutal wake-up call (see [Latest Crisis](../murmur-en.md#-2026-03-12-300k-stars-achieved-nvidias-growth-pill--the-api-hijacking-crisis-🚀🦞)); always set strict usage quotas.
 
 3. **Local Players**: The latest **Ollama** now supports the **MiniMax**, **Kimi**, **GLM**, and **Qwen3** families. This is ideal for users with **Mac mini (64GB+ RAM suggested)** or **DGX Spark (128GB)**, allowing you to forget about API bills entirely while ensuring maximum privacy. Even if you don't run them locally, their cloud APIs are extremely budget-friendly. It's the best option for Lobster Farmers to avoid bill shock. 🦞✨
 

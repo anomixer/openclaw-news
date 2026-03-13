@@ -13,7 +13,7 @@
 1. **Protagonist**: **OpenClaw** (🔥 307.9K Stars, **officially confirmed past React**). GitHub All-Time #2 secured. The journey from 0 to 250K took only about **4 months**.
 2. **War Report**: **NVIDIA DGX Spark** goes from "overpriced" to "supply chain crisis" as demand explodes; Official OpenClaw installation guide released by NVIDIA.
 3. **Ecosystem**: **Moltbook** (Exclusive AI Community) surpasses 1.4 million agents; OpenClaw **officially launches on Weibo**.
-4. **Major Incident**: **Anthropic sues the US Government**; **Meta's total ban** continues; **China's "Mass Cleanup" (退坑潮)** begins.
+4. **Major Incident**: **Anthropic sues the US Government**; **Meta's total ban** continues; **China's "Mass Cleanup" (退坑潮)** begins; **Google Antigravity Developer Revolt** over slashed quotas.
 5. **Latest Crisis**: **Gemini API Hijacking**—$82,000 bill; **China's government agencies** start removing OpenClaw from devices.
 6. **Major Progress**: **300K Stars milestone!**; **NVIDIA DGX Spark** optimized OpenClaw version released.
 7. **Conclusion**: Moving from a personal project to the foundation era, the lobster's evolution is unstoppable. **Only the lobster is eternal.** 🦞
@@ -23,7 +23,7 @@
 ## 📚 Table of Contents
 
 - **Part 1: 📅 Daily Battlefield Logs (The Logs)**
-  - [🟢 2026-03-13: Friday the 13th: Jensen's DGX Spark Ascends & China's "Mass Cleanup" Mystery 🦞💀](#-2026-03-13-friday-the-13th-jensens-dgx-spark-ascends--chinas-mass-cleanup-mystery-🦞💀)
+  - [🟢 2026-03-13: Friday the 13th: Jensen's DGX Spark Mania & The China "Cleanup" Mystery 🦞💀](#-2026-03-13-friday-the-13th-jensens-dgx-spark-mania--the-china-cleanup-mystery-🦞💀)
   - [🟢 2026-03-12: 300K Stars Achieved! NVIDIA's "Growth Pill" & The API Hijacking Crisis 🚀🦞](#-2026-03-12-300k-stars-achieved-nvidias-growth-pill--the-api-hijacking-crisis-🚀🦞)
   - [🟢 2026-03-11: Sprinting to 300K & The "Lobster Red" Hardware Era 🚀🦞](#-2026-03-11-sprinting-to-300k--the-lobster-red-hardware-era-🚀🦞)
   - [🟢 2026-03-10: The Lobster Surge! GPT-5.4 Enters & China's "Cloud Lobster Farming" Policies explode 🚀🦞](#-2026-03-10-the-lobster-surge-gpt-54-enters--chinas-cloud-lobster-farming-policies-explode-🚀🦞)
@@ -35,22 +35,23 @@
   - [🟢 2026-03-03: v2026.3.2 Release & The First Year of AI Physical Consumption](#-2026-03-03-v202632-release--the-first-year-of-ai-physical-consumption)
   - [🟢 2026-03-02: Shrimp News Supreme: It's Just "Shrimply" Awesome~ 🤣🤣🤣](#-2026-03-02-shrimp-news-supreme-its-just-shrimply-awesome-)
   - [🟢 2026-03-01: Foundation Era · Security Hardening & Android Fully Open](#-2026-03-01-foundation-era--security-hardening--android-fully-open)
-  - [🔵 2026-02: The Month of the Exploding Lobster — From Peter's Departure to 230K Stars 🚀](#-2026-02-the-month-of-the-exploding-lobster--from-peters-departure-to-230k-stars-🚀)
+  - [🔵 2026-02: The Month of the Exploding Lobster — From Peter's Departure to 230K Stars 🚀](#-2026-02-the-month-of-the-exploding-lobster--from-peters-departure-to-230k-stars-)
   - [⚫ Late Jan 2026: Genesis](#-late-jan-2026-genesis)
 - **Part 2: 🛡️ Security Warzone & Enterprise Compliance (Security)**
-  - [🕵️ Vidar Infostealer Threat](#️-vidar-infostealer-threat-2026-02-16)
-  - [🚨 Malicious Skills & Enterprise Concerns](#-malicious-skills--enterprise-concerns)
-  - [🇨🇳 China Regulatory Storm: Enterprise Cleanup (2026-03-13)](#-china-regulatory-storm-enterprise-cleanup)
+  - [🇨🇳 China Regulatory Storm: Enterprise Cleanup (2026-03-13)](#-china-regulatory-storm-enterprise-cleanup-2026-03-13)
+  - [🛡️ Major Security Incidents & Vulnerabilities (Incidents & Vulnerabilities)](#️-major-security-incidents--vulnerabilities-incidents--vulnerabilities)
+  - [🕵️ Info-Stealers & Exposed Instances (Infostealers & Exposures)](#️-info-stealers--exposed-instances-infostealers--exposures)
+  - [🚨 Malicious Skills & Enterprise Bans](#-malicious-skills--enterprise-bans)
 - **Part 3: 🦞 Ecosystem & Variant Free-for-All (Ecosystem)**
-  - [🔬 The Shrink Ray Chaos: Complete Variant List](#-the-shrink-ray-chaos-complete-variant-list)
-  - [🎯 Selection Guide: Which Shrimp Should I Choose?](#-selection-guide-which-shrimp-should-i-choose)
-  - [🛠️ Deployment & Field Experience Guide: Which Model to Pick?](docs/what-model-en.md)
-  - [🏗️ Physical Extension Layer: RentAHuman](#️-physical-extension-layer-rentahuman-human-api)
-  - [🖥️ NVIDIA DGX Spark: Local Performance King (2026-03-13)](#-nvidia-dgx-spark-local-performance-king)
-  - [🏢 Vendors Riding the Hype Wave (feat. Kimi)](#-vendors-riding-the-hype-wave)
+  - [🖥️ NVIDIA DGX Spark: Local Performance King (2026-03-13)](#️-nvidia-dgx-spark-local-performance-king-2026-03-13)
+  - [🔬 The Shrink Ray Chaos: Complete Variant List (Community: What the shrimp are you talking about? 😅)](#-the-shrink-ray-chaos-complete-variant-list-community-what-the-shrimp-are-you-talking-about-)
+  - [🏗️ Physical Extension Layer: RentAHuman (Human API) & Agent Pay](#️-physical-extension-layer-rentahuman-human-api--agent-pay)
+  - [🏢 Vendors Riding the Hype Wave](#-vendors-riding-the-hype-wave)
   - [🕸️ Dark Ecosystem: Crypto Chaos](#️-dark-ecosystem-crypto-chaos)
+  - [🚀 Apple Ecosystem Craze: Full Meal & Subagents](#-apple-ecosystem-craze-full-meal--subagents)
 - **Part 4: 📜 History Museum (History)**
-  - [🏛️ Peter Joins OpenAI & Foundation Established](#️-peter-joins-openai--foundation-established)
+  - [🌟 Insane GitHub Growth Milestones](#-insane-github-growth-milestones)
+  - [🏛️ Peter Joins OpenAI & European Regulation](#️-peter-joins-openai--european-regulation)
   - [📜 Epic Renaming Trilogy](#-epic-renaming-trilogy)
 - **Part 5: 👨‍💻 Dev Corner (Dev Corner)**
   - [✨ Gemini's Declaration of War 3.x](#-geminis-declaration-of-war-3x)
@@ -65,10 +66,11 @@
 
 Because the battle is too fierce, to save everyone from scrolling through updates from the beginning every day, this section is now in a "Date-Descending Log Stream" format.
 
-### 🟢 2026-03-13: Friday the 13th: Jensen’s DGX Spark Mania & The China "Cleanup" Mystery 🦞💀
+### 🟢 2026-03-13: Friday the 13th: Jensen's DGX Spark Mania & The China "Cleanup" Mystery 🦞💀
 
 - **⚡ DGX Spark: From "Niche Item" to "Supply Chain Frenzy"**: Just weeks ago, NVIDIA's DGX Spark was mocked for its steep price and vague use case. Today, the global supply chain is in chaos as demand for the "Desktop Supercomputer" hits an all-time high. Insiders say prices are set to rise weekly.
-- **📜 Official NVIDIA Endorsement: OpenClaw Installation Guide Published**: NVIDIA surprised the community today by publishing an [official OpenClaw on DGX Spark Installation Guide](https://build.nvidia.com/spark/openclaw/instructions) on its developer portal. This is more than technical support—it's a sovereign recognition of OpenClaw as the ultimate workload for DGX compute.
+- **📜 Official NVIDIA Endorsement: OpenClaw Installation Guide Published**: NVIDIA surprised the community today by publishing an **official OpenClaw on DGX Spark Installation Guide** on its developer portal. This is more than technical support—it's a sovereign recognition of OpenClaw as the ultimate workload for DGX compute.
+- **💥 Google Antigravity Developer Revolt**: Google's AI development platform, Antigravity, sparked massive outrage today after unexpectedly slashing free usage quotas and silently introducing exorbitant "Credit Overages." Many developers relying on the platform for their "cloud lobster farms" woke up to depleted quotas and potential massive bills. The community is furious, calling it a "severe bait and switch." Even the tech titans can't be trusted!
 - **🇨🇳 The "Mass Cleanup" in China (退坑潮)**: Driven by regulatory pressure and security fears, several state-owned enterprises and financial institutions in China have initiated a large-scale "Lobster Cleanup" operation. Employees are mandated to declare and remove OpenClaw from company hardware. A "Quitting Trend" has also emerged in the secondary market, with users selling off their custom lobster rigs at fire-sale prices.
 - **📊 GitHub Stars: 307.9K and Climbing**: Despite the cooling-down in certain regions, the global open-source community continues to star the project. OpenClaw officially hit **307,912 Stars** today, widening the gap with its pursuers.
 - **🦞 Warning: Don't Buy "Pre-Owned" Lobster Rigs**: Community experts are warning against the sudden surge of second-hand lobster-optimized hardware from China. Many of these rigs may come pre-installed with backdoors, phishing Skills, or malicious images designed to drain your API keys.
@@ -98,7 +100,7 @@ Because the battle is too fierce, to save everyone from scrolling through update
 ### 🟢 2026-03-10: The Lobster Surge! GPT-5.4 Enters & China's "Cloud Lobster Farming" Policies explode 🚀🦞
 
 - **The Lobster Surge: Chinese Local Governments Roll Out OpenClaw Subsidies!** 🇨🇳 A total bombshell! Districts in Shenzhen and Wuxi have launched the first official support policies for OpenClaw development, offering rent reductions and compute subsidies. The Lobster is no longer just a hobby; it's now a government-certified "strategic asset." Whether you're optimizing, proxy-installing, or skill-developing, the state has your back. 🦞💰
-- **Tencent Announces "Tencent PC Manager · Lobster Edition (QClaw)" Beta!** 🛡️ Tencent has officially launched QClaw (claw.guanjia.qq.com), a one-click installer and management hub. It’s not a new framework, but a consumer-grade productization of OpenClaw. It supports one-click deployment and deep integration with WeChat and QQ. Traditional security software is evolving into AI Agent control centers.
+- **Tencent Announces "Tencent PC Manager · Lobster Edition (QClaw)" Beta!** 🛡️ Tencent has officially launched QClaw, a one-click installer and management hub. It’s not a new framework, but a consumer-grade productization of OpenClaw. It supports one-click deployment and deep integration with WeChat and QQ. Traditional security software is evolving into AI Agent control centers.
 - **AutoGLM-OpenClaw Debuts via AgentBay** ☁️ Alibaba and Zhipu AI have joined forces to launch a cloud-native OpenClaw version on the AgentBay platform. This marks the beginning of "Industrial-Scale Lobster Farming," where even Alibaba's massive compute power is being conquered by the Lobster.
 - **Tencent WorkBuddy & MiniMax MaxClaw Join the Fray** 🤝 Tencent quietly released WorkBuddy, while MiniMax launched its OpenClaw-based SaaS, MaxClaw. In this agentic arms race, all top Chinese firms have decided: "If you can't beat 'em, join 'em."
 - **GPT-5.4 Heralds the "Year of Computer Use"** 🦅 OpenAI has officially released GPT-5.4, featuring superior reasoning and "Computer Use" capabilities. Founder Peter’s first deliverable post-move is impressive; the built-in ability to manipulate software will perfectly complement OpenClaw. Sam Altman got the man, but the Lobster got a massive brain upgrade!
@@ -292,7 +294,7 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 
 ### 🖥️ NVIDIA DGX Spark: Local Performance King (2026-03-13)
 - **From Niche Item to "Must-Have"**: This desktop supercomputer was initially questioned for its $40,000+ price tag. However, as OpenClaw proves capable of pushing local silicon to its limits, the DGX Spark has become the ultimate choice for "Lobster Farmers."
-- **Official Instructions Released**: NVIDIA officially released the [OpenClaw on DGX Spark Optimization Guide](https://build.nvidia.com/spark/openclaw/instructions) on March 13, formally placing it at the top of their ecosystem support list.
+- **Official Instructions Released**: NVIDIA officially released the **OpenClaw on DGX Spark Optimization Guide** on March 13, formally placing it at the top of their ecosystem support list.
 - **Price Mania**: Industry insiders report that DGX Spark prices are rising weekly, with backlogs now stretching into Q4 2026.
 
 ### 🔬 The Shrink Ray Chaos: Complete Variant List (Community: What the shrimp are you talking about? 😅)
@@ -433,14 +435,14 @@ OpenClaw
 ### 🏢 Vendors Riding the Hype Wave
 - **Multi-Agent Collaboration Mode (v2026.3.12)**: Enables shared memory and collaborative workflows between agents.
 - **Beelink "Lobster Red" Series (2026-03-11)**: The first hardware collaboration featuring mini PCs pre-installed with OpenClaw, finished in signature metallic red.
-- **Tencent QClaw (claw.guanjia.qq.com)**: An official installer and management hub from Tencent, featuring deep WeChat and QQ integration.
+- **Tencent QClaw**: An official installer and management hub from Tencent, featuring deep WeChat and QQ integration.
 - **Nvidia NemoClaw**: Nvidia's enterprise-grade agent framework designed for security and corporate compliance.
 - **Kimi (Moonshot AI)**: Launched **Kimi Claw Beta**, running OpenClaw directly on their web interface to tie the lobster to Kimi's compute power.
 - **MiniMax MaxClaw**: 10-second 1-click deploy, locked to the M2.5 model.
 - **Tencent Cloud**: The most aggressive vendor. Set up physical "booths" at HQ to help people install; Lighthouse servers now feature "Lobster 1-Click" in the default menu.
 - **Xiaomi (Xiaomi miclaw)**: Launched mobile-side AI beta, forcibly stuffing the lobster into the MIUI/HyperOS system core.
 - **Chinese Cloud Giants (The Great Rush)**: **Alibaba Cloud**, **Baidu Cloud**, **Volcengine**, and **JD Cloud** have all joined the fray, releasing 1-click deployment images.
-- **Clawbot AI SaaS**: [clawbot.ai](https://clawbot.ai/) Automatic model selection, SaaS-ifying OpenClaw with one click.
+- **Clawbot AI SaaS**: clawbot.ai Automatic model selection, SaaS-ifying OpenClaw with one click.
 - **International Tier 1 Clouds**: **AWS Lightsail**, **DigitalOcean**, and **Cloudflare** official integrations.
 - **The Most Absurd**: **Vertu** even published a "Grand Lobster Deployment Guide" for their $10K luxury phones.
 
@@ -477,7 +479,6 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | **2026/03/10** | **292.1K** | Live fetch update | 🦞 |
 | **2026/03/11** | **299.1K** | Beelink "Lobster Red" Mini PC Launch | 300K Countdown! 🚀 |
 | **2026/03/12** | **304.1K** | 🏆 300K Milestone Reached! | History in the making! 🚀🦞 |
-| **2026/03/12** | **305.4K** | Live fetch update | 🦞 |
 | **2026/03/13** | **307.9K** | Live fetch update | 🦞 |
 
 #### 🏆 Current GitHub Stars Ranking (Updated 2026-03-13)

@@ -11,7 +11,7 @@ OpenClaw is model-agnostic, but the community's "heart" is quite vocal. Here is 
   - **Why**: Even with Peter moving to OpenAI, GPT's rigor in code generation and community support remain top-tier. The o1-series' reasoning shines in complex automation tasks.
 
 3 🥉 **Gemini (Google) — The "King of Context & Value"**: 
-  - **Popular Choice**: Gemini 1.5 Pro / 3 Flash.
+  - **Popular Choice**: Gemini 2.5 / 3 Flash / Pro.
   - **Why**: With **1M+ long context**, it has an unmatched advantage when dealing with massive log files. Gemini 3 Flash hit a staggering **95.1%** success rate in recent OpenClaw task benchmarks.
 
 4 🏅 **DeepSeek / Kimi / MiniMax — The "Rising Stars"**:
@@ -20,16 +20,29 @@ OpenClaw is model-agnostic, but the community's "heart" is quite vocal. Here is 
 5 🏠 **Ollama (Local) — The "Privacy Guard"**:
   - **Why**: The latest version now supports **MiniMax**, **Kimi**, **GLM**, and **Qwen3**. Perfect for privacy-conscious developers wanting to explore the latest model ecosystem locally.
 
-#### 🧠 Local Players: Suggested models by GPU memory
+#### 🧠 Field Notes: Model Parameters vs. "Lobster Power"
+
+##### 🖥️ Official NVIDIA Recommendations: DGX Spark Local Setup Guide
+
+The official OpenClaw on DGX Spark instructions provide the following suggested models:
 
 | GPU memory | Suggested model | Model size | Notes |
 | :--- | :--- | :--- | :--- |
-| **8–12 GB** | qwen3-4B-Thinking-2507 | ~5GB | — |
-| **16 GB** | gpt-oss-20b | ~12GB | Lower latency, good for interactive use |
-| **24–48 GB** | Nemotron-3-Nano-30B-A3B | ~20GB | — |
-| **128 GB** | gpt-oss-120b | ~65GB | Best quality on DGX Spark (quantized); leaves ~63GB for context window and other processes; use 20B/30B if you prefer faster responses |
+| **8–12 GB** | `qwen3-4B-Thinking-2507` | ~5GB | — |
+| **16 GB** | `gpt-oss-20b` | ~12GB | Lower latency, good for interactive use |
+| **24–48 GB** | `Nemotron-3-Nano-30B-A3B` | ~20GB | — |
+| **128 GB** | `gpt-oss-120b` | ~65GB | Best quality on DGX Spark (quantized); leaves ~63GB for context window and other processes; use 20B/30B if you prefer faster responses |
 
-**Quality vs. latency**: The 120B model gives the best accuracy and capability but has higher per-token latency. If you prefer snappier replies, use **gpt-oss-20b** (or a 30B model) instead; both run comfortably on DGX Spark with plenty of memory headroom.
+> **Quality vs. latency**: The 120B model gives the best accuracy and capability but has higher per-token latency. If you prefer snappier replies, use `gpt-oss-20b` (or a 30B model) instead; both run comfortably on DGX Spark with plenty of memory headroom.
+
+##### General Community Parameter Experience
+
+| Parameters | Tier | Field Notes (Lobster Power) |
+| :--- | :--- | :--- |
+| **< 30B** (e.g., 9B, 14B, 27B) | 💬 Chatty | Great for chatting, but **fails to meet human "Agent" expectations**. Tool-calling logic is often broken. |
+| **30B - 70B** | 🛠️ Assistant | **Basic operations OK**. Competent for searches, reminders, and simple tasks. The "sweet spot" for mid-range local. |
+| **70B - 100B** | 💼 Professional | **Handles complex workflows**. Good for Office automation and business processes. Can write simple code, but struggles with large Skills. |
+| **> 100B+** (Cloud SOTA) | 🦞 **The Ultimate King** | **True Agentic Freedom**. Multimodal; handles coding/PRs/iteration solo. The only tier for "Set it and forget it" autonomy. |
 
 **Lobster Insight**: Local is for privacy and thrift; Cloud is for true "Agentic Freedom." Unless you have 128GB+ RAM at home, leave the heavy lifting to the cloud brains. 🦞💡
 

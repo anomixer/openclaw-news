@@ -24,47 +24,47 @@
 ## 📚 Table of Contents
 
 - **Part 1: 📅 Daily Battlefield Logs (The Logs)**
-  - [🟢 2026-03-24: The Update Maniac Returns (v3.22) & "DefenseClaw" Shields Emerge 🦞🛡️](#-2026-03-24-the-update-maniac-returns-v322--defenseclaw-shields-emerge-🦞🛡️)
-  - [🟢 2026-03-23: Tencent Unleashes "WeChat Lobster" to 1.2B Users & Meta's "CEO Agent" Data Leak Fiasco 🦞📲](#-2026-03-23-tencent-unleashes-wechat-lobster-to-12b-users--metas-ceo-agent-data-leak-fiasco-🦞📲)
-  - [🟢 2026-03-22: Tencent Launches "WeChat Lobster" & Anthropic Sparks "Local vs Cloud" Agent War 🦞📲](#-2026-03-22-tencent-launches-wechat-lobster--anthropic-sparks-local-vs-cloud-agent-war-🦞📲)
-  - [🟢 2026-03-21: Jensen Mandates "OpenClaw Strategy" and NemoClaw Security Stack Debuts 🦞👑](#-2026-03-21-jensen-mandates-openclaw-strategy-and-nemoclaw-security-stack-debuts-🦞👑)
-  - [🟢 2026-03-20: "Digital Lobster" Sweeps China, Tech Giants Clash, and Apple AI Security Breach 🦞🇨🇳](#-2026-03-20-digital-lobster-sweeps-china-tech-giants-clash-and-apple-ai-security-breach-🦞🇨🇳)
-  - [🟢 2026-03-19: GTC 2026 Closing Day: Jensen Huang Defines OpenClaw as the "OS for Personal AI," Warning of Scams 🦞🚀](#-2026-03-19-gtc-2026-closing-day-jensen-huang-defines-openclaw-as-the-os-for-personal-ai-warning-of-scams-🦞🚀)
-  - [🟢 2026-03-18: GTC 2026 Ultimate Coronation: 100M Agents Vision & Physical Robot "Bajie" Arrives 🦞🤖](#-2026-03-18-gtc-2026-ultimate-coronation-100m-agents-vision--physical-robot-bajie-arrives-🦞🤖)
-  - [🟢 2026-03-17: GTC 2026 Epic Continues: NemoClaw Arrives! Jensen Huang Crowns OpenClaw as the "Linux of the AI Era" 🦞🛡️](#-2026-03-17-gtc-2026-epic-continues-nemoclaw-arrives-jensen-huang-crowns-openclaw-as-the-linux-of-the-ai-era-🦞🛡️)
-  - [🟢 2026-03-16: GTC Hysteria! Jensen Huang Crowns OpenClaw, Tencent Sponsors, and the Era of AMD Agent Computers 🦞💥](#-2026-03-16-gtc-hysteria-jensen-huang-crowns-openclaw-tencent-sponsors-and-the-era-of-amd-agent-computers-🦞💥)
-  - [🟢 2026-03-15: 313.5K Stars! CAICT "Trustworthy Lobster" & The Era of Agentic Standards 🦞📜](#-2026-03-15-3135k-stars-caict-trustworthy-lobster--the-era-of-agentic-standards-🦞📜)
-  - [🟢 2026-03-14: Pi-Day 311.7K Stars Milestone! 311K Stars Reached & the Era of "Full-Auto Scraping" 🥧🦞](#-2026-03-14-pi-day-celebration-311k-stars-reached--the-era-of-full-auto-scraping-🥧🦞)
+  - 🟢 2026-03-24: The Update Maniac Returns (v3.22) & "DefenseClaw" Shields Emerge 🦞🛡️
+  - 🟢 2026-03-23: Tencent Unleashes "WeChat Lobster" to 1.2B Users & Meta's "CEO Agent" Data Leak Fiasco 🦞📲
+  - 🟢 2026-03-22: Tencent Launches "WeChat Lobster" & Anthropic Sparks "Local vs Cloud" Agent War 🦞📲
+  - 🟢 2026-03-21: Jensen Mandates "OpenClaw Strategy" and NemoClaw Security Stack Debuts 🦞👑
+  - 🟢 2026-03-20: "Digital Lobster" Sweeps China, Tech Giants Clash, and Apple AI Security Breach 🦞🇨🇳
+  - 🟢 2026-03-19: GTC 2026 Closing Day: Jensen Huang Defines OpenClaw as the "OS for Personal AI," Warning of Scams 🦞🚀
+  - 🟢 2026-03-18: GTC 2026 Ultimate Coronation: 100M Agents Vision & Physical Robot "Bajie" Arrives 🦞🤖
+  - 🟢 2026-03-17: GTC 2026 Epic Continues: NemoClaw Arrives! Jensen Huang Crowns OpenClaw as the "Linux of the AI Era" 🦞🛡️
+  - 🟢 2026-03-16: GTC Hysteria! Jensen Huang Crowns OpenClaw, Tencent Sponsors, and the Era of AMD Agent Computers 🦞💥
+  - 🟢 2026-03-15: 313.5K Stars! CAICT "Trustworthy Lobster" & The Era of Agentic Standards 🦞📜
+  - 🟢 2026-03-14: Pi-Day 311.7K Stars Milestone! 311K Stars Reached & the Era of "Full-Auto Scraping" 🥧🦞
 
-  - [🟢 2026-03-13: Friday the 13th: Jensen's DGX Spark Mania & The China "Cleanup" Mystery 🦞💀](#-2026-03-13-friday-the-13th-jensens-dgx-spark-mania--the-china-cleanup-mystery-🦞💀)
-  - [🟢 2026-03-12: 300K Stars Achieved! NVIDIA's "Growth Pill" & The API Hijacking Crisis 🚀🦞](#-2026-03-12-300k-stars-achieved-nvidias-growth-pill--the-api-hijacking-crisis-🚀🦞)
-  - [🟢 2026-03-11: Sprinting to 300K & The "Lobster Red" Hardware Era 🚀🦞](#-2026-03-11-sprinting-to-300k--the-lobster-red-hardware-era-🚀🦞)
-  - [🔵 Early March 2026: The Path to Godhood — Surpassing React & Jensen's Praise 🚀🦞](#-early-march-2026-the-path-to-godhood--surpassing-react--jensens-praise-🚀🦞)
-  - [🔵 2026-02: The Month of the Exploding Lobster — From Peter's Departure to 230K Stars 🚀](#-2026-02-the-month-of-the-exploding-lobster--from-peters-departure-to-230k-stars-)
-  - [⚫ Late Jan 2026: Genesis](#-late-jan-2026-genesis)
+  - 🟢 2026-03-13: Friday the 13th: Jensen's DGX Spark Mania & The China "Cleanup" Mystery 🦞💀
+  - 🟢 2026-03-12: 300K Stars Achieved! NVIDIA's "Growth Pill" & The API Hijacking Crisis 🚀🦞
+  - 🟢 2026-03-11: Sprinting to 300K & The "Lobster Red" Hardware Era 🚀🦞
+  - 🔵 Early March 2026: The Path to Godhood — Surpassing React & Jensen's Praise 🚀🦞
+  - 🔵 2026-02: The Month of the Exploding Lobster — From Peter's Departure to 230K Stars 🚀
+  - ⚫ Late Jan 2026: Genesis
 - **Part 2: 🛡️ Security Warzone & Enterprise Compliance (Security)**
-  - [🇨🇳 China Regulatory Storm: Enterprise Cleanup (2026-03-13)](#-china-regulatory-storm-enterprise-cleanup-2026-03-13)
-  - [🛡️ Major Security Incidents & Vulnerabilities (Incidents & Vulnerabilities)](#️-major-security-incidents--vulnerabilities-incidents--vulnerabilities)
-  - [🕵️ Info-Stealers & Exposed Instances (Infostealers & Exposures)](#️-info-stealers--exposed-instances-infostealers--exposures)
-  - [🚨 Malicious Skills & Enterprise Bans](#-malicious-skills--enterprise-bans)
+  - 🇨🇳 China Regulatory Storm: Enterprise Cleanup (2026-03-13)
+  - 🛡️ Major Security Incidents & Vulnerabilities (Incidents & Vulnerabilities)
+  - 🕵️ Info-Stealers & Exposed Instances (Infostealers & Exposures)
+  - 🚨 Malicious Skills & Enterprise Bans
 - **Part 3: 🦞 Ecosystem & Variant Free-for-All (Ecosystem)**
-  - [🖥️ NVIDIA DGX Spark: Local Performance King (2026-03-13)](#️-nvidia-dgx-spark-local-performance-king-2026-03-13)
-  - [🔬 The Shrink Ray Chaos: Complete Variant List (Community: What the shrimp are you talking about? 😅)](#-the-shrink-ray-chaos-complete-variant-list-community-what-the-shrimp-are-you-talking-about-)
-  - [🏗️ Physical Extension Layer: RentAHuman (Human API) & Agent Pay](#️-physical-extension-layer-rentahuman-human-api--agent-pay)
-  - [🏢 Vendors Riding the Hype Wave](#-vendors-riding-the-hype-wave)
-  - [🕸️ Dark Ecosystem: Crypto Chaos](#️-dark-ecosystem-crypto-chaos)
-  - [🚀 Apple Ecosystem Craze: Full Meal & Subagents](#-apple-ecosystem-craze-full-meal--subagents)
+  - 🖥️ NVIDIA DGX Spark: Local Performance King (2026-03-13)
+  - 🔬 The Shrink Ray Chaos: Complete Variant List (Community: What the shrimp are you talking about? 😅)
+  - 🏗️ Physical Extension Layer: RentAHuman (Human API) & Agent Pay
+  - 🏢 Vendors Riding the Hype Wave
+  - 🕸️ Dark Ecosystem: Crypto Chaos
+  - 🚀 Apple Ecosystem Craze: Full Meal & Subagents
 - **Part 4: 📜 History Museum (History)**
-  - [🌟 Insane GitHub Growth Milestones](#-insane-github-growth-milestones)
-  - [🏛️ Peter Joins OpenAI & European Regulation](#️-peter-joins-openai--european-regulation)
-  - [📜 Epic Renaming Trilogy](#-epic-renaming-trilogy)
+  - 🌟 Insane GitHub Growth Milestones
+  - 🏛️ Peter Joins OpenAI & European Regulation
+  - 📜 Epic Renaming Trilogy
 - **Part 5: 👨‍💻 Dev Corner (Dev Corner)**
-  - [👻 The "13th Friday" Suppression Miracle (2026-03-23)](#-the-13th-friday-suppression-miracle-2026-03-23)
-  - [✨ Gemini's Declaration of War 3.x](#-geminis-declaration-of-war-3x)
-  - [💬 Claude's Perspective 4.x](#-claudes-perspective-4x)
-  - [🦞 Lobster Philosophy](#-lobster-philosophy)
-  - [🎬 Media Reviews & Community Quotes 3.0](#-media-reviews--community-quotes-30)
-  - [🔮 Future Predictions 4.0 (Post-Peter Era)](#-future-predictions-40-post-peter-era)
+  - 👻 The "13th Friday" Suppression Miracle (2026-03-23)
+  - ✨ Gemini's Declaration of War 3.x
+  - 💬 Claude's Perspective 4.x
+  - 🦞 Lobster Philosophy
+  - 🎬 Media Reviews & Community Quotes 3.0
+  - 🔮 Future Predictions 4.0 (Post-Peter Era)
 
 ---
 

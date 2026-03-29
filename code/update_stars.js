@@ -9,7 +9,7 @@ const FILES = [
 ];
 
 const REPOS = [
-    'openclaw/openclaw', 'open-jarvis/OpenJarvis', 'HKUDS/nanobot', 'VoltAgent/awesome-openclaw-skills',
+    'openclaw/openclaw', 'NVIDIA/NemoClaw', 'open-jarvis/OpenJarvis', 'HKUDS/nanobot', 'VoltAgent/awesome-openclaw-skills',
     'sipeed/picoclaw', 'zeroclaw-labs/zeroclaw', 'iOfficeAI/AionUi',
     'qwibitai/nanoclaw', 'OthmanAdi/planning-with-files', 'NevaMind-AI/memU',
     'kepano/obsidian-skills', 'cloudflare/moltworker', 'hesamsheikh/awesome-openclaw-usecases',

@@ -4,26 +4,27 @@
 
 > **WARNING**: This file contains excessive complaints, conspiracy theories, and profound philosophical thoughts on lobsters.
 > 
-> **Last Updated**: 2026-03-28
-> **Status**: OpenClaw is alive, now past 338K stars! GitHub #1 countdown is on! 🦞🚀
+> **Last Updated**: 2026-03-29
+> **Status**: OpenClaw is alive, now past 341K stars! GitHub #1 countdown is on! 🦞🚀
 
-> **OpenClaw Version**: 2026.3.24 (Latest Stable) | Gateway/OpenAI compatibility expansion, "Install Recipes" debut, /tools visibility, and critical security patches 🦞🛡️
+> **OpenClaw Version**: 2026.3.28 (Latest Stable) | xAI Responses API, Plugin Approval Hooks, MiniMax Image Gen, 71 contributors 🦞🛡️
 
 ---
 ## ⏱️ TL;DR (30-second summary)
 
-1. **Protagonist**: **OpenClaw** (🔥 338.8K Stars, **solidly #2 all-time**), with the gap to #1 narrowed to about **100K**.
-2. **24h Focus**: **ClawHub** launches major cleanup against 20% malicious plugins with automated auditing; **MS Teams/Discord** native fixes.
-3. **Stability Alert**: Frequent core updates caused compatibility breaks for third-party bridges like **WeChat/Feishu**, causing some automation flows to paralysis.
-4. **Official Version**: Remains on latest stable **v2026.3.24**, featuring **"Install Recipes"** for radical setup simplification.
-5. **Talent War**: With Peter settling at OpenAI, Meta is aggressively poaching core contributors with high "signing bonuses."
-6. **Conclusion**: Lobsters are shifting from "Wild Growth" to "Regular Army Governance"; security and native stability are today's themes. 🦞🚀
+1. **Protagonist**: **OpenClaw** (🔥 341.0K Stars, **solidly #2 all-time**), with the gap to #1 narrowed to about **98K**.
+2. **24h Focus**: **v2026.3.28 Released!** 71 contributors, xAI Responses API, MiniMax image generation, plugin approval hooks and more.
+3. **Ecosystem Growth**: ClawHub surpasses **13,729 plugins**, monthly active users reach **2 million**, lobster ecosystem continues to explode.
+4. **Official Version**: Latest stable **v2026.3.28**, built by 71 developers.
+5. **Latest Progress**: Stars break through **340K** milestone, just **~98K** from GitHub #1, lobster era is here.
+6. **Conclusion**: The update maniac strikes again! v2026.3.28 brings the largest collaborative update in history, a testament to open-source spirit. 🦞🚀
 
 ---
 
 ## 📚 Table of Contents
 
 - **Part 1: 📅 Daily Battlefield Logs (The Logs)**
+  - 🟢 2026-03-29: OpenClaw v2026.3.28 Released! 71 Contributors, xAI Responses API, MiniMax Image Gen 🦞🚀
   - 🟢 2026-03-28: ClawHub Malicious Skill Cleanup, MS Teams/Discord Native Fixes, Contributor Poaching War 🦞🛡️⚡
   - 🟢 2026-03-27: Cisco DefenseClaw Open-Sourced, Accenture Cyber.AI Debuts at RSAC, Claude Global Outage 🦞🛡️⚡
   - 🟢 2026-03-26: Gen & OpenClaw Co-Host SF Event, Google Shadow-Bans AI Pro Accounts 🦞🔥
@@ -65,6 +66,13 @@
 ## Part 1: 📅 Daily Battlefield Logs (The Logs)
 
 Because the battle is too fierce, to save everyone from scrolling through updates from the beginning every day, this section is now in a "Date-Descending Log Stream" format.
+
+### 🟢 2026-03-29: OpenClaw v2026.3.28 Released! xAI/MiniMax/Gemini CLI Major Upgrades 🦞🚀
+
+- **🚀 v2026.3.28 Major Update**: OpenClaw released today with **71 contributors**. Key highlights: xAI Responses API, MiniMax image generation, plugin approval hooks (`requireApproval`), Gemini CLI backend integration, plus bug fixes including WhatsApp echo loop.
+- **📰 CGTN Feature**: China Global Television Network published a special report on users building autonomous AI agents with OpenClaw.
+- **🧩 ClawHub Ecosystem Explosion**: Plugins surpass **13,729**, MAU reaches **2 million**.
+- **📈 GitHub Milestone (341.0K Stars)**: Gap with FreeCodeCamp narrowed to **98K**, #1 expected early May. 🦞
 
 ### 🟢 2026-03-28: ClawHub Malicious Skill Cleanup, MS Teams/Discord Native Fixes, Contributor Poaching War 🦞🛡️⚡
 
@@ -149,6 +157,7 @@ Because the battle is too fierce, to save everyone from scrolling through update
 
 
 ### 🔵 Mid-March 2026: GTC 2026 Coronation — From 299K to 325K Stars, Jensen Defines "Linux of AI Era" 🦞🚀
+
 - **🇹🇼 Taiwan's NCCS Issues "Lobster Alert" (3/20)**: Taiwan's National Cyber Security Agency (NCCS) officially issued a cybersecurity warning regarding OpenClaw, specifically highlighting the "ClawJacked" vulnerability and malicious third-party skills.
 - **🇨🇳 "Digital Lobster" Mania in China (3/20)**: OpenClaw has ignited an unprecedented craze in China, affectionately dubbed the "Digital Lobster" by netizens. Shenzhen Longgang announced dedicated subsidies up to 1M RMB.
 - **👑 Jensen's Final Declaration: OpenClaw is the OS of the AI Era (3/16-3/20)**: In his closing keynote at GTC 2026, Jensen Huang elevated OpenClaw's status once again, calling it "The Operating System for Personal AI." He emphasized that "every company today must have an OpenClaw strategy."
@@ -170,6 +179,7 @@ Because the battle is too fierce, to save everyone from scrolling through update
 - **GPT-5.4 Targets Spreadsheet Supremacy**: 📈 OpenAI confirmed that GPT-5.4 now features native, deep integration with Excel and Google Sheets. Office productivity just hit "Warp Speed" as the Lobster masters the world of cells and formulas.
 
 ### 🔵 Early March 2026: The Path to Godhood — From Surpassing React to Jensen's "Y-Axis" Praise 🚀🦞
+
 - **🏆 Milestone: Officially Surpassed React (3/3)**: OpenClaw reached **250K stars** in record time (~4 months), surpassing React to become the #2 repo in GitHub history.
 - **👑 Jensen Huang's "Y-Axis" Endorsement (3/6)**: NVIDIA's CEO hailed OpenClaw as "the most important software release ever," describing its adoption as a "vertical Y-axis" and revealing NVIDIA's internal reliance on the "lobster."
 - **💰 Agent Pay & Autonomous Commerce (3/3)**: Mastercard and Santander announced the integration of AI agents into payment networks, enabling lobsters to handle automated proxy shopping.
@@ -199,9 +209,9 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 
 ### ⚫ Late Jan 2026: Genesis
 
-*(2026-01-29)* **🦞 Renamed to OpenClaw**: After Clawd received a warning and Moltbot was disliked, it was officially named OpenClaw. The legend begins here.
+- **(2026-01-29)**: 🦞 Renamed to OpenClaw**: After Clawd received a warning and Moltbot was disliked, it was officially named OpenClaw. The legend begins here.
 
-*(2026-01-26)* **Set GitHub's All-Time Highest Single-Day Star Record**: Skyrocketed by 25,310 stars in a single day, breaking open-source records, officially igniting this AI agent war.
+- **(2026-01-26)**: Set GitHub's All-Time Highest Single-Day Star Record**: Skyrocketed by 25,310 stars in a single day, breaking open-source records, officially igniting this AI agent war.
 
 ---
 
@@ -258,7 +268,7 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 
 | Project | Stars | Language | Features | Use Case |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | 338.8K | TypeScript 🟦 | Official Full Version | Full features, production |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 341.0K | TypeScript 🟦 | Official Full Version | Full features, production |
 | **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 42.6K | Markdown | Curated openclaw skills list | Finding skills |
 | **[nanobot](https://github.com/HKUDS/nanobot)** | 36.7K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
 | **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 29K | Rust 🦀 | Extreme performance, < 5MB | Performance freaks |
@@ -267,6 +277,7 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | **[nanoclaw](https://github.com/qwibitai/nanoclaw)** | 25.7K | TypeScript 🟦 | Containerized, secure, WhatsApp integ. | Security-first, IM |
 | **[AionUi](https://github.com/iOfficeAI/AionUi)** | 20.3K | TypeScript 🟦 | 24/7 Cowork app | Local, collaboration |
 | **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 17.6K | Markdown | Obsidian Agent Skills | Notes + Agent |
+| **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** | 17.5K | JavaScript 🟨 | NVIDIA enterprise security sandbox | Enterprise, security-first |
 | **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 17.5K | Python 🐍 | Claude Code Skill, markdown planning | Skill dev template |
 | **[memU](https://github.com/NevaMind-AI/memU)** | 13.2K | Python 🐍 | 24/7 proactive Agent memory | Long-term memory |
 | **[ironclaw](https://github.com/nearai/ironclaw)** | 11K | Rust 🦀 | Privacy & security-centric Rust port | Secure scenarios |
@@ -322,7 +333,7 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 │   ├─ Stanford Exteme Privacy & Zzero API Fee → OpenJarvis
 │   ├─ Containerized → NanoClaw (TypeScript)
 │   ├─ Rust Extreme Security → IronClaw / Moltis
-│   └─ Enterprise Grade → Moltis
+│   └─ Enterprise Grade → NemoClaw (NVIDIA) / Moltis
 │
 ├─ I want to integrate IM platforms
 │   ├─ Multi-platform Linkage (Discord/TG/LINE, etc.) → ComfyUI-OpenClaw
@@ -363,6 +374,7 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 **Variant Evolution Tree**:
 ```
 OpenClaw
+├─ NemoClaw ← NVIDIA Enterprise Security Sandbox 🛡️
 ├─ OpenJarvis ← Stanford Local Dimension Strike 🦅
 ├─ nanobot ← New Academic Darling 🎓
 ├─ PicoClaw ← King of Embedded
@@ -461,16 +473,17 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | **2026/03/26** | **336.1K** | Live fetch update | 🦞 |
 | **2026/03/27** | **337.6K** | Live fetch update | 🦞 |
 | **2026/03/28** | **338.8K** | Live fetch update | 🦞 |
+| **2026/03/29** | **341.0K** | Latest star count | 🦞 |
 
-#### 🏆 Current GitHub Stars Ranking (Updated 2026-03-28)
+#### 🏆 Current GitHub Stars Ranking (Updated 2026-03-29)
 
 | Rank | Project | Stars | Notes |
 |:---:|----------|-------|------------------|
-| 1 | FreeCodeCamp | 438.9K | Tutorial Headquarters |
-| **2** | **OpenClaw** | **338.8K** | **🏆 Surpassed React on 2026-03-03! Live data 03/28** |
-| 3 | React | 244.2K | Frontend Overlord (Kicked down by lobster 😭) |
-| 4 | Linux | 225.4K | Built-in OS Core |
-| 5 | Python (TheAlgorithms) | 219.1K | Algorithm Aggregation |
+| 1 | FreeCodeCamp | 440.8K | Tutorial Headquarters |
+| **2** | **OpenClaw** | **341.0K** | **🏆 Surpassed React on 2026-03-03! Live data 03/29** |
+| 3 | React | 244.4K | Frontend Overlord (Kicked down by lobster 😭) |
+| 4 | Linux | 225.6K | Built-in OS Core |
+| 5 | Python (TheAlgorithms) | 219.3K | Algorithm Aggregation |
 
 ### 🏛️ Peter Joins OpenAI & European Regulation
 - **Move**: Founder Peter Steinberger rejected Meta, joined OpenAI to head Personal Agents. OpenClaw transitioned to an independent foundation.

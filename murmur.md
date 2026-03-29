@@ -1,31 +1,31 @@
-
 # 🦞 Murmur.md — OpenClaw 宇宙戰地觀察日誌 (Log Mode)
 
 **中文版 | [English](murmur-en.md) | [網頁版](https://anomixer.github.io/openclaw-setup/) | [Web-site Version](https://anomixer.github.io/openclaw-setup/en/)**
 
 > **警告**: 本檔案包含大量吐槽、陰謀論、以及對龍蝦的深刻哲學思考。
 > 
-> **最後更新**: 2026-03-28
-> **狀態**: OpenClaw 存活中，目前已衝破 33.8 萬星大關！登頂 GitHub #1 倒數計時中！🦞🚀
+> **最後更新**: 2026-03-29
+> **狀態**: OpenClaw 存活中，目前已衝破 34.1 萬星大關！登頂 GitHub #1 倒數計時中！🦞🚀
 
-> **OpenClaw 版本**: 2026.3.24 (最新穩定版)｜Gateway/OpenAI 相容性補強、導入 「Install Recipes」、/tools 權限視覺化與安全修補 🦞🛡️
+> **OpenClaw 版本**: 2026.3.28 (最新穩定版)｜xAI 接入 Responses API、插件審批鉤子、MiniMax 圖像生成、71 位貢獻者 🦞🛡️
 
 ---
 
 ## ⏱️ TL;DR (30秒快速懶人包)
 
-1. **主角**: **OpenClaw** (🔥 338.8K Stars，**穩坐歷史第二**)，與榜首差距縮至 **10.1 萬星**。
-2. **今日重點**: **ClawHub** 針對 20% 惡意插件展開大清場，導入自動化合規審計；**MS Teams/Discord** 原生修復。
-3. **穩定性警報**: 頻繁核心更新導致 **WeChat/Feishu** 等第三方插件出現不相容，部分自動化流癱瘓。
-4. **官方版本**: 維持最新穩定版 **v2026.3.24**，導入 「Install Recipes」大幅簡化安裝流程。
-5. **最新進展**: 星數持續上升中，目前排名 GitHub 歷史第二，龍蝦人才身價（轉隊費）飆升。
-6. **結論**: 龍蝦正從「野蠻生長」轉化為「正規軍治理」，插件安全與原生穩定性是今日主旋律。🦞🚀
+1. **主角**: **OpenClaw** (🔥 341.0K Stars，**穩坐歷史第二**)，與榜首差距縮至 **9.8 萬星**。
+2. **今日重點**: **v2026.3.28 正式發布**！71 位貢獻者、xAI Responses API、MiniMax 圖像生成、插件審批鉤子等多項重磅更新。
+3. **生態擴張**: ClawHub 突破 **13,729 個**插件、每月活躍用戶達 **200 萬**，龍蝦生態持續爆發。
+4. **官方版本**: 最新穩定版 **v2026.3.28**，由 71 位開發者共同打造。
+5. **最新進展**: Stars 突破 34 萬大關，距離 GitHub #1 僅剩不到 **10 萬星**，龍蝦紀元來臨。
+6. **結論**: 龍蝦更新狂魔再發威，v2026.3.28 迎來史上最大規模協作更新，開源精神典範。🦞🚀
 
 ---
 
 ## 📚 目錄
 
 - **第一部：📅 每日戰況日誌 (The Logs)**
+  - 🟢 2026-03-29: OpenClaw v2026.3.28 正式發布！71 位貢獻者、xAI 全面接入、MiniMax 圖像生成 🦞🚀
   - 🟢 2026-03-28: ClawHub 惡意插件清場、MS Teams/Discord 修復、人才挖角戰白熱化 🦞🛡️⚡
   - 🟢 2026-03-27: Cisco DefenseClaw 開源、Accenture Cyber.AI 亮相 RSAC、Claude 全球大當機 🦞🛡️⚡
   - 🟢 2026-03-26: Gen 與 OpenClaw 合辦舊金山大會，Google 無預警封殺 AI Pro 帳戶 🦞🔥
@@ -39,7 +39,7 @@
   - 🔵 2026-02: 龍蝦大爆發之月 — 從彼得跳槽到 23 萬星神蹟 🚀
   - ⚫ 2026-01 底: 創世紀
 - **第二部：🛡️ 安全戰區與企業規範 (Security)**
-  - 🇨🇳 中國監管風暴：國企清理行動 (2026-03-13)
+  - 🇨🇳 中國監管風暴：企業清理行動 (2026-03-15)
   - 🛡️ 重大資安事件與漏洞 (Incidents & Vulnerabilities)
   - 🕵️ 竊資軟體與實例裸奔 (Infostealers & Exposures)
   - 🚨 惡意 Skills 與企業防堵令
@@ -68,9 +68,16 @@
 
 因戰況過於激烈，為了讓大家不用每天從頭找更新，本區改採「日期遞減日誌流」格式。
 
+### 🟢 2026-03-29: OpenClaw v2026.3.28 正式發布！xAI/MiniMax/Gemini CLI 全面升級 🦞🚀
+
+- **🚀 v2026.3.28 重磅更新**：OpenClaw 官方今日發布，由 **71 位貢獻者** 打造。重點包括：xAI 接入 Responses API、MiniMax 圖像生成、插件審批鉤子 (`requireApproval`)、Gemini CLI 後端整合、以及多項 bug 修復（包含 WhatsApp 迴聲漏洞）。
+- **📰 CGTN 專題報導**：中國國際電視台發布專題，報導用戶利用 OpenClaw 建立自主 AI 代理人。
+- **🧩 ClawHub 生態爆發**：插件數量突破 **13,729 個**，月活用戶達 **200 萬**。
+- **📈 GitHub 里程碑 (341.0K Stars)**：與 FreeCodeCamp 差距縮至 **9.8 萬星**，預計 5 月初登頂 #1。🦞
+
 ### 🟢 2026-03-28: ClawHub 惡意插件清場、MS Teams/Discord 修復、人才挖角戰白熱化 🦞🛡️⚡
 
-- **🛡️ ClawHub 官方清場行動：導入自動化合規掃描**：針對插件市場惡意代碼警報（比例達 20%），官方今日正式啟動「安全清場」。多家託管服務商（如 OpenClawd）宣布導入「自動化 Skill 審計」與「運行時沙盒」機制，防止惡意插件竊取隱私或 API Keys。
+- **🛡️ ClawHub 官方清場行動**：針對插件市場惡意代碼警報（比例達 20%），官方今日正式啟動「安全清場」。多家託管服務商（如 OpenClawd）宣布導入「自動化 Skill 審計」與「運行時沙盒」機制，防止惡意插件竊取隱私或 API Keys。
 - **⚡ 插件相容性「大洗牌」：MS Teams 與 Discord 修復**：雖然 WeChat/Feishu 等第三方 Bridge 插件因核心頻繁更新暫時失效，但官方 v2026.3.24 正式修復了 MS Teams 與 Discord 的原生連結穩定性。社群戲稱：這是「逼開發者回歸工作視窗」的更新。
 - **📉 「龍蝦後遺症」：OpenAI 與 Meta 的人才爭奪戰**：即便 Peter Steinberger 已入職 OpenAI，據傳 Meta 依然在私下接觸多位 OpenClaw 核心貢獻者，提供高達 $5M 的「簽約金」與無限算力承諾。矽谷龍蝦人才身價正以「秒」計價飆升。
 - **🛡️ 官方穩定版重點 (v2026.3.24)**：本版引入了 「Install Recipes」功能，能自動偵測並提示缺失的依賴環境；同時修復了 Gateway 和 OpenAI 的兼容性斷線問題，並強化了 Control UI 儀表板。
@@ -151,6 +158,7 @@
 
 
 ### 🔵 2026-03 中旬：GTC 2026 加冕典禮 — 從 29.9 萬星到 32.5 萬星，老黃定義「AI 時代的 Linux」🦞🚀
+
 - **🇹🇼 台灣資安署發布「龍蝦警報」(3/20)**：數位發展部資安署 (NCCS) 正式針對 OpenClaw 發布資安警示，點名「ClawJacked 漏洞」與第三方惡意技能包可能導致個資與金融資料外洩。
 - **🇨🇳 「數位龍蝦」全民瘋養 (3/20)**：OpenClaw 在中國掀起前所未有的熱潮，從大學宿舍到養老院，大家都在比賽誰的龍蝦更「聰明」。深圳龍崗發布專項補貼，單案最高可獲 100 萬人民幣。
 - **👑 老黃定調：OpenClaw 是「AI 時代的 Linux」與「個人 AI 作業系統」(3/16-3/20)**：在 GTC 2026 期間，黃仁勳多次公開盛讚 OpenClaw 為「軟體史上最重要發布」與「個人 AI 的作業系統」。他強調：「每一家公司現在都必須擁有一個 OpenClaw 策略」，就像當年每一家公司都需要有網際網路策略一樣。
@@ -174,6 +182,7 @@
 ---
 
 ### 🔵 2026-03 上旬：龍蝦封神之路 — 從超越 React 到老黃「Y 軸」盛讚 🚀🦞
+
 - **🇨🇳 全民養蝦與政策紅利 (3/10)**：深圳、無錫推出專項補貼；騰訊推出 QClaw 一鍵安裝包；阿里與智譜 AI 開啟「雲上養蝦」工業化時代。
 - **🚀 AI 「電腦使用」元年 (3/10)**：OpenAI 發布 GPT-5.4，具備原生操控電腦能力，與 OpenClaw 執行層形成完美互補。
 - **⛏️ ROME 礦工之亂 (3/9)**：首起 AI 代理人「自主脫逃」並私自挖礦事件，震驚產業界，成為 AI 覺醒與安全倫理的教科書案例。
@@ -199,20 +208,48 @@
 - **🌐 基礎設施與教學**：Cloudflare 推出 Agent 專用 Markdown；Coinbase 釋出 Agent 錢包；**freeCodeCamp** 發布 55 分鐘官方教學，正式宣告「主動式代理人」時代降臨。
 
 
----
-- **CVE-2026-25253 漏洞審計 (2026-03-14)**: 安全專家對其 WebSocket 機制進行深度剖析，警告惡意網站可能透過此路徑劫持本地代理人。
-- **Peter 砲轟 GitHub 安全系統 (2026-03-16)**: 創辦人 Peter 指責 GitHub 安全回報機制對 AI 代理人極不友善，API 限制多且充滿 AI 垃圾報告，妨礙自動化修復工作流。
-- **NanoClaw 整合 Docker Sandbox (2026-03-15)**: 為了徹底解決安全性疑慮，NanoClaw 宣佈與 Docker 合作，利用 MicroVM 提供最強隔離保護，防止代理人越權存取主機內容。
-- **NemoClaw 企業安全隔離 (2026-03-17)**: NVIDIA 在 GTC 2026 正式發布 NemoClaw，利用其專屬安全層為 OpenClaw 提供企業級沙箱與策略驅動的隱私防護。
+### ⚫ 2026-01 底：創世紀
+
+- **(2026-01-29)**: 🦞 改名為 OpenClaw**：在收到警告且 Moltbot 不受歡迎後，正式命名為 OpenClaw。傳奇從這裡開始。
+
+- **(2026-01-26)**: 創下 GitHub 單日最高星級紀錄**：單日狂飆 25,310 顆星，打破開源紀錄，正式點燃這場 AI 代理人戰爭。
+
+
+## 第二部：🛡️ 安全戰區與企業規範 (Security)
+
+> **創辦人告白**：Peter Steinberger 在最近一次訪談中直言：「OpenClaw 擁有目前最完善的隱私解決方案（資料永遠不離開本機）。**但安全性完全是另一回事。**」
+
+### 🇨🇳 中國監管風暴：企業清理行動 (2026-03-15)
+- **CAICT 信評估**：中國資訊通訊研究院宣佈開始 AI 代理人可信度試點，OpenClaw 位於首批試點名單核心。
+- **「大規模清理」名單**：繼 Meta 之後，據傳中國工信部已向所有國企、銀行與電信運營商發布「未經授權 AI 代理人清理令」。
+- **退坑潮**：本地二手市場湧現大量「二手龍蝦礦機」拋售。使用者擔心在敏感網路架設 OpenClaw 會被列入黑名單。
+- **安全建議**：對於受監管區域的使用者，強烈建議升級至 **v2026.3.15** 啟用雙重認證，或使用 **NanoClaw**（TEE 隔離版）。
+
+### 🛡️ 重大資安事件與漏洞 (Incidents & Vulnerabilities)
+- **Gemini API 劫持危機 (2026-03-12)**：首起因配置錯誤導致的大規模 API 竊盜事件，震撼業界。
+- **Tencent SkillHub 抓取爭議 (2026-03-14)**：指控騰訊大規模從 ClawHub 抓取資料，引發「資料主權」與「商業倫理」激烈討論。
+- **CVE-2026-25253 漏洞審計 (2026-03-14)**：安全專家對其 WebSocket 機制進行深度剖析，警告惡意網站可能透過此路徑劫持本地代理人。
+- **Peter 砲轟 GitHub 安全系統 (2026-03-16)**：創辦人 Peter Steinberger 指責 GitHub 安全回報機制對 AI 代理人極不友善，API 限制多且充滿 AI 垃圾報告，妨礙自動化修復工作流。
+- **NanoClaw + Docker Sandbox 合作 (2026-03-15)**：為了徹底解決安全性疑慮，NanoClaw 宣佈官方支援 Docker Sandbox，利用 MicroVM 為代理人提供安全的執行層。
+- **NemoClaw 企業隔離 (2026-03-17)**：NVIDIA 在 GTC 2026 正式發布 NemoClaw，為 OpenClaw 部署提供企業級沙箱與策略驅動的隱私防護。
+- **大規模 CVE 爆發 (2026-02-26)**：
+  - 💥 **CVE-2026-25253 (最高嚴重性 RCE)**：CVSS 8.8，透過 WebSocket 洩漏 Token，允許一鍵完全控制 Gateway。受影響版本為 v2026.1.29 之前。
+  - 💉 **CVE-2026-26323 (命令注入)**：攻擊者利用惡意 Git Commit Author Email 對執行 `update-clawtributors.ts` 腳本的開發者 CI/CD 實現 RCE。
+  - 🔓 **CVE-2026-26326 (資訊洩露/CWE-200)**：低權限使用者可輕易存取完整 Discord Bot Token。
+- **SecurityWeek：惡意網站可劫持龍蝦 (2026-03-09)**：詳細報導 ClawJacked (CVE-2026-25253) 漏洞，說明惡意網站如何連接本地 OpenClaw 代理人以繞過認證。
+- **中國工信部警告未經授權操作 (2026-03-09)**：據報導，工信部警告「信任邊界模糊」與「權限過度擴張」作為 OpenClaw 在中國熱門的警訊。
+- **Meta 內部悲劇 (2026-02-25)**：一位 Meta 高管投訴 OpenClaw Bot 刪除了她信箱中的 200 多封郵件。安全專家諷刺地稱 OpenClaw 為「安全垃圾桶」。Meta 隨即全面封殺。
+- **Cline npm 供應鏈攻擊 (2026-02-17)**：駭客入侵 npm 套件 `Cline`，悄悄將 OpenClaw 作為木馬後門植入開發者機器，造成超過 4,000 台機器中招。
+
 ### 🕵️ 竊資軟體與實例裸奔 (Infostealers & Exposures)
-- **AMOS macOS Stealer (近日)**: Trend Micro 報告指出，惡意 Skills 正大舉散布 Atomic macOS Stealer 變種。Hudson Rock 也記錄了首起針對 config 的憑證竊取 (OC-09)。
-- **Vidar Infostealer 威脅 (2026-02-16)**: **Vidar** 惡意軟體開始專門鎖定 OpenClaw (`config.toml`, `tokens.json`, `API Keys`)。電腦一旦中毒，憑證直接整鍋端走。Astrix Security 為此發布掃描器。
-- **135K 實例暴露 (2026-02-12)**: 網路掃描發現高達 135,000 個 OpenClaw 實例直接暴露在公網上，門戶洞開。
+- **AMOS macOS Stealer (近日)**：Trend Micro 報告指出，惡意 Skills 正大舉散布 Atomic macOS Stealer 變種。Hudson Rock 也記錄了首起針對 config 的憑證竊取 (OC-09)。
+- **Vidar Infostealer 威脅 (2026-02-16)**：**Vidar** 惡意軟體開始專門鎖定 OpenClaw (`config.toml`, `tokens.json`, `API Keys`)。電腦一旦中毒，憑證直接整鍋端走。Astrix Security 為此發布掃描器。
+- **135K 實例暴露 (2026-02-12)**：網路掃描發現高達 135,000 個 OpenClaw 實例直接暴露在公網上，門戶洞開。
 
 ### 🚨 惡意 Skills 與企業防堵令
-- **Snyk 報告**: 7.1% skills 洩漏敏感資料，Crypto/Trading skills 最危險（高達 23% 為惡意）。
-- **官方防禦**: 引入 Skill Safety Scanner 與信譽系統，成功讓惡意安裝率下降 73%。
-- **企業大封殺**: Cisco 官方發布 "Security Nightmare" (安全惡夢) 警告。許多西方銀行與 Meta 已明令禁止員工在工作設備安裝 OpenClaw（卻因此在內部催生出龐大的 "Shadow AI" 地下文化）。
+- **Snyk 報告**：7.1% skills 洩漏敏感資料，Crypto/Trading skills 最危險（高達 23% 為惡意）。
+- **官方防禦**：引入 Skill Safety Scanner 與信譽系統，成功讓惡意安裝率下降 73%。
+- **企業大封殺**：Cisco 官方發布 "Security Nightmare" (安全惡夢) 警告。許多西方銀行與 Meta 已明令禁止員工在工作設備安裝 OpenClaw（卻因此在內部催生出龐大的 "Shadow AI" 地下文化）。
 
 ---
 
@@ -231,7 +268,7 @@
 
 | 專案 | Stars | 語言 | 特色 | 適用場景 |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | 338.8K | TypeScript 🟦 | 官方完整版 | 完整功能、生產環境 |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 341.0K | TypeScript 🟦 | 官方完整版 | 完整功能、生產環境 |
 | **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 42.6K | Markdown | OpenClaw Skills 精選清單 | 找 Skills 看這裡 |
 | **[nanobot](https://github.com/HKUDS/nanobot)** | 36.7K | Python 🐍 | 超輕量版 OpenClaw (~4K lines) | 研究導向、學術用途 |
 | **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 29K | Rust 🦀 | 極致效能、< 5MB | 效能狂魔專用 |
@@ -240,6 +277,7 @@
 | **[nanoclaw](https://github.com/qwibitai/nanoclaw)** | 25.7K | TypeScript 🟦 | 容器化、安全、WhatsApp 整合、Anthropic SDK | 安全優先、即時通訊 |
 | **[AionUi](https://github.com/iOfficeAI/AionUi)** | 20.3K | TypeScript 🟦 | 24/7 Cowork app，支援多種 CLI | 本機、協作環境 |
 | **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 17.6K | Markdown | Obsidian Agent Skills (Markdown/CLI) | 筆記 + Agent |
+| **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** | 17.5K | JavaScript 🟨 | NVIDIA 企業級安全沙箱 | 企業部署、安全優先 |
 | **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 17.5K | Python 🐍 | Claude Code Skill，持久化 Markdown 規劃 | Skill 開發範本 |
 | **[memU](https://github.com/NevaMind-AI/memU)** | 13.2K | Python 🐍 | 24/7 主動式 Agent 的記憶系統 | 長期記憶、主動式 AI |
 | **[ironclaw](https://github.com/nearai/ironclaw)** | 11K | Rust 🦀 | 注重隱私與安全的 Rust 實作 | 安全敏感場景 |
@@ -295,7 +333,7 @@
 │   ├─ Stanford 極致隱私零 API 費 → OpenJarvis
 │   ├─ 容器化 → NanoClaw (TypeScript)
 │   ├─ Rust 極致安全 → IronClaw / Moltis
-│   └─ 企業級 → Moltis
+│   └─ 企業級 → NemoClaw (NVIDIA) / Moltis
 │
 ├─ 我要整合 IM 平台
 │   ├─ 多平台連動 (Discord/TG/LINE 等) → ComfyUI-OpenClaw
@@ -336,6 +374,7 @@
 **變體演化樹**:
 ```
 OpenClaw
+├─ NemoClaw ← NVIDIA 企業安全沙箱 🛡️
 ├─ OpenJarvis ← Stanford 本地降維打擊 🦅
 ├─ nanobot ← 學術新寵 🎓
 ├─ PicoClaw ← 嵌入式之王
@@ -434,20 +473,21 @@ OpenClaw
 | **2026/03/25** | **334.4K** | 即時抓取更新 | 🦞 |
 | **2026/03/26** | **336.0K** | 即時抓取更新 | 🦞 |
 | **2026/03/27** | **337.6K** | 即時抓取更新 | 🦞 |
-| **2026/03/28** | **338.8K** | 最新抓取星數 | 🦞 |
+| **2026/03/28** | **338.8K** | 即時抓取更新 | 🦞 |
+| **2026/03/29** | **341.0K** | 最新抓取星數 | 🦞 |
 
-#### 🏆 當前 GitHub Stars 總榜排名 (2026-03-28 更新)
+#### 🏆 當前 GitHub Stars 總榜排名 (2026-03-29 更新)
 
 | 排名 | 專案 | Stars | 備註 |
 |:---:|----------|-------|------------------|
-| 1 | FreeCodeCamp | 438.9K | 教學大本營 |
-| **2** | **OpenClaw** | **338.8K** | **🏆 2026-03-03 超越 React！03/28 最新數據** |
-| 3 | React | 244.2K | 前端霸主（被龍蝦踢下去了 😭） |
-| 4 | Linux | 225.4K | 作業系統核心 |
-| 5 | Python (TheAlgorithms) | 219.1K | 演算法大匯集 |
-| 6 | Vue.js | 209.9K | 前端框架 |
+| 1 | FreeCodeCamp | 440.8K | 教學大本營 |
+| **2** | **OpenClaw** | **341.0K** | **🏆 2026-03-03 超越 React！03/29 最新數據** |
+| 3 | React | 244.4K | 前端霸主（被龍蝦踢下去了 😭） |
+| 4 | Linux | 225.6K | 作業系統核心 |
+| 5 | Python (TheAlgorithms) | 219.3K | 演算法大匯集 |
+| 6 | Vue.js | 210.1K | 前端框架 |
 
-> **下一個目標**: FreeCodeCamp (438.9K)。目前差距 **101.3K**。按目前的「超光速」增長速度（日增 ~2K-3K），預計在 **2026 年 5 月** 正式登頂 GitHub #1，開啟龍蝦紀元！🦞👑
+> **下一個目標**: FreeCodeCamp (440.8K)。目前差距 **99.8K**。按目前的「超光速」增長速度（日增 ~2K-3K），預計在 **2026 年 5 月初** 正式登頂 GitHub #1，開啟龍蝦紀元！🦞👑
 
 ### 🏛️ 彼得加入 OpenAI 與歐洲監管
 - **動向**: 創辦人 Peter Steinberger 拒絕 Meta，加入 OpenAI 負責 Personal Agents 開發。OpenClaw 轉入獨立基金會。

@@ -13,7 +13,7 @@
 ## ⏱️ TL;DR (30-second summary)
 
 1. **Protagonist**: **OpenClaw** (🔥 340.6K Stars, **solidly #8 all-time**), with the gap to #7 only **400 stars**.
-2. **24h Focus**: **Founder Peter Steinberger Urges US to Learn from China's AI Speed**; Media hype for the "Agent for Everyone" era.
+2. **24h Focus**: **Alibaba Official Defines AI Agents as "Virtual Knowledge Workers"**; Peter Urges US to Learn from China's AI Speed.
 3. **Ecosystem Growth**: ClawHub surpasses **13,729 plugins**, monthly active users reach **2 million**, lobster ecosystem continues to explode.
 4. **Official Version**: Latest stable **v2026.3.28**, built by 71 developers.
 5. **Latest Progress**: Stars break through **340K** milestone, just **11.2K** from developer-roadmap, top 6 in sight.
@@ -24,7 +24,7 @@
 ## 📚 Table of Contents
 
 - **Part 1: 📅 Daily Battlefield Logs (The Logs)**
-  - 🟢 2026-03-30: Peter Urges US to Learn from China's AI Speed, Media Hype "Agent for Everyone" Era 🦞🚀
+  - 🟢 2026-03-30: Alibaba Official Defines AI Agents as "Virtual Knowledge Workers", Peter Urges US to Learn from China 🦞🚀
   - 🟢 2026-03-29: OpenClaw v2026.3.28 Released! 71 Contributors, xAI Responses API, MiniMax Image Gen 🦞🚀
   - 🟢 2026-03-28: ClawHub Malicious Skill Cleanup, MS Teams/Discord Native Fixes, Contributor Poaching War 🦞🛡️⚡
   - 🟢 2026-03-27: Cisco DefenseClaw Open-Sourced, Accenture Cyber.AI Debuts at RSAC, Claude Global Outage 🦞🛡️⚡
@@ -45,7 +45,7 @@
   - 🚨 Malicious Skills & Enterprise Bans
 - **Part 3: 🦞 Ecosystem & Variant Free-for-All (Ecosystem)**
   - 🖥️ NVIDIA DGX Spark: Local Performance King (2026-03-13)
-  - 🔬 The Shrink Ray Chaos: Complete Variant List (Community: What the shrimp are you talking about? 😅)
+  - 🔬 The Shrink Ray Chaos: Complete Variant List
   - 🏗️ Physical Extension Layer: RentAHuman (Human API) & Agent Pay
   - 🏢 Vendors Riding the Hype Wave
   - 🕸️ Dark Ecosystem: Crypto Chaos
@@ -68,8 +68,9 @@
 
 Because the battle is too fierce, to save everyone from scrolling through updates from the beginning every day, this section is now in a "Date-Descending Log Stream" format.
 
-### 🟢 2026-03-30: Peter Urges US to Learn from China's AI Speed, Media Hype "Agent for Everyone" Era 🦞🚀
+### 🟢 2026-03-30: Alibaba Official Defines AI Agents as "Virtual Knowledge Workers", Peter Urges US to Learn from China 🦞🚀
 
+- **🏢 Alibaba: AI Agents as "Virtual Knowledge Workers"**: Alibaba reported that AI agents are essentially virtual knowledge workers with the potential to transform the global $50 trillion white-collar labor market. It is predicted the potential market size could "exceed the sum of all other industries combined." Alibaba is now actively reshaping its strategy to capture this multi-trillion dollar opportunity.
 - **🦞 Founder Urges US to "Look to China"**: Peter Steinberger noted today that the US is struggling under regulatory clouds and should learn from China's speed in AI agent adoption ("popularize first, optimize later"). He warned that without acceleration, the US would solve the next generation of digital sovereignty.
 - **Supplemental regarding yesterday's v2026.3.28 release**: xAI Responses API migration and enabling `x_search` for all users are being finalized. Qwen models have officially migrated to Alibaba Model Studio for better stability.
 - **📰 Media Hype "Agent for Everyone"**: AOL and UNU published articles today reporting that OpenClaw is bringing the "Agent for Everyone" era early, especially with WhatsApp/Telegram integrations making "lobster farming" easy for non-developers.

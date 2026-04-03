@@ -4,26 +4,27 @@
 
 > **WARNING**: This file contains excessive complaints, conspiracy theories, and profound philosophical thoughts on lobsters.
 > 
-> **Last Updated**: 2026-04-02
-> **Status**: OpenClaw is alive, now past 345K stars! GitHub #7 and closing in on #6! 🦞🚀
+> **Last Updated**: 2026-04-03
+> **Status**: OpenClaw is alive, now past 346K stars! GitHub #7 and closing in on #6! 🦞🚀
 
-> **OpenClaw Version**: v2026.4.1 (Latest Stable) | Task Board, SearXNG Search, Security Guardrails 🦞🛡️
+> **OpenClaw Version**: v2026.4.2 (Latest Stable) | Standardized xAI Plugin Paths, Task Flow Substrate Restoration, Durable State Tracking 🦞🛡️
 
 ---
 ## ⏱️ TL;DR (30-second summary)
 
-1. **Protagonist**: **OpenClaw** (🔥 345K Stars, **ranked #7**), gap to #6 is **7K**.
-2. **24h Focus**: **v2026.4.1 Released**; China's CNIPA bans "Lobster-written patents"; Certik warns of "systemic collapse."
-3. **Official Update**: First native search (SearXNG), `/tasks` task board, and Bedrock Guardrails security integration.
-4. **Security Alert**: CNIPA warns of AI patent application risks; Certik discloses privilege hijacking; FSC mulls security guide.
-5. **Latest Progress**: 345K stars, narrowing gap to #6 `developer-roadmap` to just 7,000.
-6. **Conclusion**: Regulatory storm spreads from finance to IP; "honesty" and "security" become the primary mandates after the ecosystem explosion. 🦞🛡️
+1. **Protagonist**: **OpenClaw** (🔥 346K Stars, **ranked #7**), gap to #6 is **6K**.
+2. **24h Focus**: **v2026.4.2 Released**; xAI / Web-fetch plugin path standardization; Task Flow core substrate restoration.
+3. **Official Update**: Introduced `api.runtime.taskFlow` standard extension; xSearch authentication standardization; Firecrawl fallback mechanism optimization.
+4. **Security Alert**: ClawHub continues malicious plugin cleanup; Anthropic "leak" tremors persist as Claw-Code repository stars surge.
+5. **Latest Progress**: 346K stars, narrowing gap to #6 `developer-roadmap` to just 6,700.
+6. **Conclusion**: Ecosystem enters architecture optimization phase; plugin standardization and task durability become key to ensuring brain stability. 🦞🛡️
 
 ---
 
 ## 📚 Table of Contents
 
 - **Part 1: 📅 Daily Battlefield Logs (The Logs)**
+  - 🟢 2026-04-03: v2026.4.2 Released, Plugin Config Path Standardization, Task Flow Durable Substrate Restored 🦞🚀
   - 🟢 2026-04-02: v2026.4.1 Released, CNIPA Bans "Lobster Patent Drafting", Certik Warns of "Collapse" 🦞🚀
   - 🟢 2026-04-01: Supply Chain Poisoning & MEDIA Flaws, Anthropic Leak Sparks Claw-Code 🦞🔥
   - 🟢 2026-03-31: Google's "Agent Smith" Exposed, Chinese "One-Person Company" Lobster Frenzy 🦞🚀
@@ -72,6 +73,13 @@
 
 Because the battle is too fierce, to save everyone from scrolling through updates from the beginning every day, this section is now in a "Date-Descending Log Stream" format.
 
+### 🟢 2026-04-03: v2026.4.2 Released, Plugin Config Path Standardization, Task Flow Durable Substrate Restored 🦞🚀
+
+- **🚀 v2026.4.2 Officially Released**: The second key update of April. This release focuses on "Architectural Normalization", formally migrating xAI and Web-fetch (Firecrawl) configuration paths to plugin-owned standard paths and unifying authentication flows.
+- **🏗️ Task Flow Core Substrate Restored**: Fixed synchronization issues in Task Flow under high load. Introduced "Managed vs Mirrored" sync modes and Durable state tracking to ensure background tasks recover accurately even after restarts.
+- **🧩 Plugin Mechanism Evolution**: Introduced the `api.runtime.taskFlow` extension seam, allowing plugins to flexibly invoke task flows laterally without requiring manual owner identifiers for every call.
+- **📈 GitHub Milestone (346.1K Stars)**: Reached 346.1K stars, ranking GitHub #7. Narrowing gap to #6 `developer-roadmap` to just **6.7K**. The Lobster sprint is unstoppable. 🦞🚀
+
 ### 🟢 2026-04-02: v2026.4.1 Released, CNIPA Bans "Lobster Patent Drafting", Certik Warns of "Collapse" 🦞🚀
 
 - **🚀 v2026.4.1 Officially Released**: The first major update of April. Introduces a native `/tasks` board for background task visibility; bundles the SearXNG search plugin; integrates Amazon Bedrock Guardrails for enterprise-grade safety.
@@ -99,7 +107,8 @@ Because the battle is too fierce, to save everyone from scrolling through update
 ### 🟢 2026-03-30: Alibaba Official Defines AI Agents as "Virtual Knowledge Workers", Peter Urges US to Learn from China 🦞🚀
 
 - **🏢 Alibaba: AI Agents as "Virtual Knowledge Workers"**: Alibaba reported that AI agents are essentially virtual knowledge workers with the potential to transform the global $50 trillion white-collar labor market. It is predicted the potential market size could "exceed the sum of all other industries combined." Alibaba is now actively reshaping its strategy to capture this multi-trillion dollar opportunity.
-- **🦞 Founder Urges US to "Look to China"**: Peter Steinberger noted today that the US is struggling under regulatory clouds and should learn from China's speed in AI agent adoption ("popularize first, optimize later"). He warned that without acceleration, the US would solve the next generation of digital sovereignty.
+- **🦞 Founder Urges US to "Look to China"**: Peter Steinberger noted today that the US is struggling under regulatory clouds and should learn from China's speed in AI agent adoption ("popularize first, optimize later"). He warned that without acceleration, the US would lose the next generation of digital sovereignty.
+- **🇯🇵 Major Speech at ClawCon Tokyo**: Peter declared in Tokyo that 2026 is the inaugural year of "General AI Agents," which will fundamentally rewrite the logic of human-computer interaction. However, he also expressed fear regarding "malicious use of tools" and specifically noted the booming "OpenClaw simplified installation industry chain" (1-click scripts, pre-built images), warning these might open major security gaps without user awareness.
 - **Supplemental regarding yesterday's v2026.3.28 release**: xAI Responses API migration and enabling `x_search` for all users are being finalized. Qwen models have officially migrated to Alibaba Model Studio for better stability.
 - **📰 Media Hype "Agent for Everyone"**: AOL and UNU published articles today reporting that OpenClaw is bringing the "Agent for Everyone" era early, especially with WhatsApp/Telegram integrations making "lobster farming" easy for non-developers.
 - **📈 GitHub Milestone (340.6K Stars)**: Gap with #7 system-design-primer narrowed to **400 stars**. The OpenClaw Foundation is steadily marching toward the #1 spot in May.
@@ -306,7 +315,7 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 
 | Project | Stars | Language | Features | Use Case |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | 345.0K | TypeScript 🟦 | Official Full Version | Full features, production |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 346.1K | TypeScript 🟦 | Official Full Version | Full features, production |
 | **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 43.4K | Markdown | Curated openclaw skills list | Finding skills |
 | **[nanobot](https://github.com/HKUDS/nanobot)** | 37.3K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
 | **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 29K | Rust 🦀 | Extreme performance, < 5MB | Performance freaks |
@@ -502,37 +511,28 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | **2026/03/18** | **320.6K** | Live fetch update | 🦞 |
 | **2026/03/19** | **323.5K** | Live fetch update | 🦞 |
 | **2026/03/20** | **325.6K** | Live fetch update | 🦞 |
-| **2026/03/21** | **327.5K** | Live fetch update | 🦞 |
-| **2026/03/22** | **329.5K** | Live fetch update | 🦞 |
-| **2026/03/23** | **330.4K** | Live fetch update | 🦞 |
-| **2026/03/24** | **332.4K** | Live fetch update | 🦞 |
-| **2026/03/25** | **334.5K** | Live fetch update | 🦞 |
-| **2026/03/26** | **336.1K** | Live fetch update | 🦞 |
-| **2026/03/27** | **337.6K** | Live fetch update | 🦞 |
-| **2026/03/28** | **338.8K** | Live fetch update | 🦞 |
-| **2026/03/29** | **340.5K** | Live fetch update | 🦞 |
-| **2026/03/30** | **340.6K** | Live fetch update | 🦞 |
-| **2026/03/31** | **342K** | Live fetch update | 🦞 |
+| **2026/03/21~31** | **327.5K~342K** | Live fetch update | 🦞 |
 | **2026/04/01** | **343.2K** | Live fetch update | 🦞 |
 | **2026/04/02** | **345.0K** | Live fetch update | 🦞 |
+| **2026/04/03** | **346.1K** | Live fetch update | 🦞 |
 
-#### 🏆 Global GitHub Stars Ranking (Updated 2026-04-02)
+#### 🏆 Global GitHub Stars Ranking (Updated 2026-04-03)
 
 | Rank | Project | Stars | Notes |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 485.1K | Master programming by recreating things |
-| 2 | awesome | 450.6K | Resource Hub |
-| 3 | freeCodeCamp | 440.2K | Tutorial Hub |
-| 4 | public-apis | 417.9K | Collection of Free APIs |
-| 5 | free-programming-books | 384.8K | Books collection |
-| 6 | developer-roadmap | 352.0K | Learning Paths |
-| **7** | **OpenClaw** | **345.0K** | **🏆 Overtook React and Linux! Just 7K stars to #6!** |
-| 8 | system-design-primer | 341.0K | System Design Primer |
-| 9 | coding-interview-university | 300.2K | CS study plan |
-| 10 | React | 244.0K | Frontend Overlord |
-| 11 | Linux | 226.0K | Operating System Core |
+| 1 | build-your-own-x | 486.2K | Master programming by recreating things |
+| 2 | awesome | 451.5K | Resource Hub |
+| 3 | freeCodeCamp | 440.8K | Tutorial Hub |
+| 4 | public-apis | 418.5K | Collection of Free APIs |
+| 5 | free-programming-books | 385.5K | Books collection |
+| 6 | developer-roadmap | 352.8K | Learning Paths |
+| **7** | **OpenClaw** | **346.1K** | **🏆 Overtook React and Linux! Just 6.7K stars to #6!** |
+| 8 | system-design-primer | 341.5K | System Design Primer |
+| 9 | coding-interview-university | 300.5K | CS study plan |
+| 10 | React | 244.2K | Frontend Overlord |
+| 11 | Linux | 227.0K | Operating System Core |
 
-> **Next Goal**: developer-roadmap (352.0K). Current gap is **7.0K**. At the current growth rate of ~2K-3K/day, we expect to overtake this in **3 days** and break into the top 6! 🦞🚀
+> **Next Goal**: developer-roadmap (352.8K). Current gap is **6.7K**. At the current growth rate of ~1K-2K/day, we expect to overtake this in **4 days** and break into the top 6! 🦞🚀
 
 ### 🏛️ Peter Joins OpenAI & European Regulation
 - **Move**: Founder Peter Steinberger rejected Meta, joined OpenAI to head Personal Agents. OpenClaw transitioned to an independent foundation.

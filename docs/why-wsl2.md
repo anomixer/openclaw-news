@@ -1,150 +1,152 @@
-# 為什麼 Windows 使用者需要 WSL2？
+# 🤔 Why WSL2
 
-**中文版 | [English](why-wsl2-en.md)**
+**[中文版](why-wsl2-tw.md) | English**
 
-## 官方立場
+**[🏠 Back to News Log](../README.md) | [👉 Basic Windows Setup Guide](setup.md) | [🚀 Full WSL2 Setup Guide](wsl2-guide.md) | [🤔 Why WSL2](why-wsl2.md) | [🔄 Migration Guide](migration-guide.md) | [🧠 Model Selection](what-model.md)**
 
-OpenClaw 官方文件明確表示：
+## Official Position
+
+OpenClaw's official documentation clearly states:
 
 > "OpenClaw on Windows is recommended via WSL2 (Ubuntu recommended)... Native Windows might be trickier. WSL2 gives you the full Linux experience."
 
-這不是技術上「不能跑」，而是：
+This isn't about "can't run" technically, but rather:
 
-1. **原生 Windows 只是「技術預覽」狀態** - 有 `install.ps1` 但官方主力支援是 macOS/Linux/WSL2
-2. **Skills 生態以 Linux/macOS 為主** - 很多 skills 的 installer 需要 Homebrew、apt、或 Linux binary
-
----
-
-## Memory 功能問題
-
-OpenClaw 的 memory 子系統（RAG / vector DB）在 Windows 原生環境常見問題：
-
-### 技術層面的挑戰
-
-- **Embeddings 套件相容性**：某些 embeddings 套件（如 `onnxruntime-node`）在 Windows 需要額外 Visual C++ runtime
-- **路徑處理差異**：檔案路徑處理（`\` vs `/`）可能導致 memory 索引失敗
-- **原生模組編譯**：部分依賴需要 node-gyp + Visual Studio Build Tools
-
-### WSL2 的優勢
-
-在 WSL2 裡這些問題基本不存在，因為是標準 Linux 環境：
-
-✅ 標準 POSIX 路徑  
-✅ 完整的原生模組編譯工具鏈  
-✅ 與上游開發環境一致  
+1. **Native Windows is in "technical preview" status** - Has `install.ps1` but official support focuses on macOS/Linux/WSL2
+2. **Skills ecosystem is primarily Linux/macOS-based** - Many skill installers require Homebrew, apt, or Linux binaries
 
 ---
 
-## Skills 相容性
+## Memory Feature Issues
+
+OpenClaw's memory subsystem (RAG / vector DB) commonly has issues on native Windows:
+
+### Technical Challenges
+
+- **Embeddings package compatibility**: Some embeddings packages (like `onnxruntime-node`) require additional Visual C++ runtime on Windows
+- **Path handling differences**: File path handling (`\` vs `/`) may cause memory indexing failures
+- **Native module compilation**: Some dependencies require node-gyp + Visual Studio Build Tools
+
+### WSL2 Advantages
+
+In WSL2 these issues are essentially non-existent, as it's a standard Linux environment:
+
+✅ Standard POSIX paths  
+✅ Complete native module compilation toolchain  
+✅ Consistent with upstream development environment  
+
+---
+
+## Skills Compatibility
 
 ![The Matrix: Windows vs WSL2](../pic/matrix-claw-skills.png)
 
-> *"你吞下藍色藥丸——留在原生 Windows，繼續相信你想相信的幻覺。你吞下紅色藥丸——安裝 WSL2，我會讓你看看 OpenClaw Skills 的兔子洞到底有多深……"* 💊🦞
+> *"You take the blue pill -- you stay on native Windows, and you believe whatever you want to believe. You take the red pill -- you install WSL2 and I show you how deep the OpenClaw Skills rabbit hole goes..."* 💊🦞
 
-### Skills 的運作機制
+### How Skills Work
 
-Skills 的 `metadata.openclaw.os` 欄位與 installer 機制決定了可用性：
+The `metadata.openclaw.os` field and installer mechanism in skills determine availability:
 
 ```yaml
-os: ["darwin", "linux"]  # 很多 skills 只寫這兩個
+os: ["darwin", "linux"]  # Many skills only list these two
 installer:
-  type: brew             # Windows 上沒有 Homebrew
+  type: brew             # Homebrew doesn't exist on Windows
   package: some-tool
 ```
 
-### 原生 Windows 的限制
+### Native Windows Limitations
 
-在原生 Windows 上：
+On native Windows:
 
-❌ **OS gating**：skill 的 `os` 欄位沒有 `win32`，會被自動排除  
-❌ **Installer 缺失**：就算手動裝，`brew` 指令也不存在  
-❌ **Binary 不相容**：Linux/macOS 的執行檔無法在 Windows 上運行  
+❌ **OS gating**: If skill's `os` field doesn't include `win32`, it's automatically excluded  
+❌ **Missing installer**: Even if manually installed, the `brew` command doesn't exist  
+❌ **Binary incompatibility**: Linux/macOS executables can't run on Windows  
 
-### WSL2 的優勢
+### WSL2 Advantages
 
-在 WSL2 環境：
+In WSL2 environment:
 
-✅ **正確的平台識別**：`process.platform === 'linux'`，skills 被視為可用  
-✅ **完整的套件管理**：可以用 apt / Homebrew for Linux 安裝依賴  
-✅ **社群測試涵蓋**：大多數 skills 開發者會測試 Linux 環境  
+✅ **Correct platform identification**: `process.platform === 'linux'`, skills are recognized as available  
+✅ **Complete package management**: Can use apt / Homebrew for Linux to install dependencies  
+✅ **Community testing coverage**: Most skill developers test in Linux environments  
 
-### 實際影響範圍
+### Actual Impact Scope
 
-根據社群統計，約 **60-70% 的公開 skills** 需要以下之一：
+According to community statistics, approximately **60-70% of public skills** require one of:
 
-- Homebrew（macOS/Linux only）
-- apt/yum 等 Linux 套件管理器
-- Linux 專用的 CLI 工具（如 `jq`、`curl` 特定版本）
+- Homebrew (macOS/Linux only)
+- apt/yum or other Linux package managers
+- Linux-specific CLI tools (like `jq`, specific versions of `curl`)
 
 ---
 
-## Homebrew 問題
+## Homebrew Issue
 
-### 官方說明
+### Official Statement
 
-Homebrew 官方明確表示：
+Homebrew officially states:
 
 > "Homebrew does not support native Windows. You can use WSL to install Homebrew on Linux."
 
-### 為什麼不能移植到 Windows？
+### Why Can't It Be Ported to Windows?
 
-1. **依賴 Unix 工具鏈**：Homebrew 深度依賴 bash、make、gcc 等 Unix 工具
-2. **路徑假設**：許多 formula 假設 `/usr/local`、`/opt/homebrew` 等 Unix 路徑
-3. **符號連結**：Windows 的符號連結機制與 Unix 不同
+1. **Unix toolchain dependency**: Homebrew deeply depends on Unix tools like bash, make, gcc
+2. **Path assumptions**: Many formulas assume Unix paths like `/usr/local`, `/opt/homebrew`
+3. **Symbolic links**: Windows' symbolic link mechanism differs from Unix
 
-### 替代方案
+### Alternative Solutions
 
-| 方案 | 優點 | 缺點 |
-|------|------|------|
-| **Scoop / Chocolatey** | Windows 原生 | skills 不支援 |
-| **MSYS2 / Cygwin** | 提供 POSIX 環境 | 非官方 Homebrew 支援 |
-| **WSL2** | 真正的 Linux | 需要虛擬化支援 |
-
----
-
-## 效能考量
-
-### WSL2 的效能表現
-
-- **CPU 運算**：接近原生 Linux（~95-99% 效能）
-- **記憶體**：動態分配，與 Windows 共享
-- **磁碟 I/O**：WSL2 檔案系統內接近原生，跨檔案系統（`/mnt/c`）較慢
-
-### 最佳實踐
-
-✅ **推薦**：將 OpenClaw 相關檔案放在 WSL2 檔案系統內（`~/`）  
-⚠️ **避免**：頻繁存取 `/mnt/c` 下的檔案  
+| Solution | Pros | Cons |
+|----------|------|------|
+| **Scoop / Chocolatey** | Windows native | Skills don't support them |
+| **MSYS2 / Cygwin** | Provides POSIX environment | No official Homebrew support |
+| **WSL2** | Real Linux | Requires virtualization support |
 
 ---
 
-## 總結：何時該用 WSL2？
+## Performance Considerations
 
-### 使用 Windows 原生版的情境
+### WSL2 Performance
 
-✅ 只想快速體驗 OpenClaw + Ollama  
-✅ 不需要 skills / memory 進階功能  
-✅ 主要用途是聊天對話  
+- **CPU computation**: Close to native Linux (~95-99% performance)
+- **Memory**: Dynamic allocation, shared with Windows
+- **Disk I/O**: Close to native within WSL2 filesystem, slower across filesystems (`/mnt/c`)
 
-### 應該使用 WSL2 的情境
+### Best Practices
 
-✅ 需要完整的 memory 功能（RAG / 長期記憶）  
-✅ 想安裝社群 skills  
-✅ 需要穩定的生產環境  
-✅ 打算參與開發或除錯  
+✅ **Recommended**: Keep OpenClaw-related files within WSL2 filesystem (`~/`)  
+⚠️ **Avoid**: Frequent access to files under `/mnt/c`  
 
 ---
 
-## 參考資料
+## Summary: When to Use WSL2?
 
-- [OpenClaw 官方文件 - Windows 平台](https://docs.openclaw.ai/platforms/windows)
-- [Homebrew 官方說明](https://github.com/orgs/Homebrew/discussions/72)
-- [WSL2 官方文件](https://docs.microsoft.com/en-us/windows/wsl/)
+### Use Native Windows Version When
+
+✅ Just want to quickly try OpenClaw + Ollama  
+✅ Don't need skills / memory advanced features  
+✅ Primary use is chat conversations  
+
+### Should Use WSL2 When
+
+✅ Need complete memory functionality (RAG / long-term memory)  
+✅ Want to install community skills  
+✅ Need stable production environment  
+✅ Plan to participate in development or debugging  
 
 ---
 
-**回到**：[主要 README](../README.md) | [WSL2 安裝指南](wsl2-guide.md) | [遷移指南](migration-guide.md) | [部署指南](what-model.md)
+## References
+
+- [OpenClaw Official Documentation - Windows Platform](https://docs.openclaw.ai/platforms/windows)
+- [Homebrew Official Statement](https://github.com/orgs/Homebrew/discussions/72)
+- [WSL2 Official Documentation](https://docs.microsoft.com/en-us/windows/wsl/)
 
 ---
 
-**最後更新**: 2026-03-08  
+**Back to**: [🏠 Back to News Log](../README.md) | [👉 Basic Windows Setup Guide](setup.md) | [🚀 Full WSL2 Setup Guide](wsl2-guide.md) | [🔄 Migration Guide](migration-guide.md) | [🧠 Model Selection](what-model.md)
+
+---
+
+**Last Updated**: 2026-03-08
 **by anomixer**

@@ -1,6 +1,8 @@
 # 🦞 OpenClaw + 🦙 Ollama Installation Guide
 
-**[中文版](README.md) | English | [網頁版](https://anomixer.github.io/openclaw-setup/setup/) | [Web-site Version](https://anomixer.github.io/openclaw-setup/en/setup/)**
+**[中文版](setup-tw.md) | English**
+
+**[🏠 Back to News Log](../README.md) | [👉 Basic Windows Setup Guide](setup.md) | [🚀 Full WSL2 Setup Guide](wsl2-guide.md) | [🤔 Why WSL2](why-wsl2.md) | [🔄 Migration Guide](migration-guide.md) | [🧠 Model Selection](what-model.md)**
 
 <p align="center">
     <picture>
@@ -8,11 +10,6 @@
         <img src="https://raw.githubusercontent.com/openclaw/openclaw/main/docs/assets/openclaw-logo-text.png" alt="OpenClaw" width="500">
     </picture>
 </p>
-
-
----
-
-> 📰 **Latest OpenClaw Battle Status Daily Updates**: Highly recommended to read the [OpenClaw Universe Battlefield Observation Log 🦞](murmur-en.md) before installation.
 
 ---
 
@@ -29,10 +26,10 @@ You are currently viewing the **Native Windows Installation Guide**. This method
 
 **Recommendations:**
 - If you just want a **quick experience** of OpenClaw + Ollama → Continue reading the Native Windows Guide below.
-- If you need **full features** (memory, skills) → Please use the [WSL2 Installation Guide](docs/wsl2-guide-en.md).
-- Installed the Windows version but encountered issues → See [Migrating to WSL2](docs/migration-guide-en.md).
+- If you need **full features** (memory, skills) → Please use the [🚀 Full WSL2 Setup Guide](wsl2-guide.md).
+- Installed the Windows version but encountered issues → See [🔄 Migration Guide](migration-guide.md).
 
-📚 **More info**: [Why do we need WSL2?](docs/why-wsl2-en.md)
+📚 **More info**: [🤔 Why WSL2](why-wsl2.md)
 
 ---
 
@@ -153,7 +150,7 @@ ollama signin
 ollama pull gemini-3-flash-preview:cloud
 ```
 
-> 💡 **Tip**: Cloud models have usage limits, do not use them too frequently. See [Model Guide & Deployment](docs/what-model-en.md) for details.
+> 💡 **Tip**: Cloud models have usage limits, do not use them too frequently. See [🧠 Model Selection](what-model.md) for details.
 
 ---
 
@@ -577,10 +574,11 @@ If you need to change Ollama models:
 
 ## 📚 Related Links
 
-- [👍 Complete WSL2 Installation Guide](docs/wsl2-guide-en.md)
-- [🔄 Migrating from Windows to WSL2](docs/migration-guide-en.md)
-- [🤔 Why do we need WSL2?](docs/why-wsl2-en.md)
-- [🧠 Deployment & Field Experience Guide: Which Model to Pick?](docs/what-model-en.md)
+- [🏠 Back to News Log](../README.md)
+- [🚀 Full WSL2 Setup Guide](wsl2-guide.md)
+- [🔄 Migration Guide](migration-guide.md)
+- [🤔 Why WSL2](why-wsl2.md)
+- [🧠 Model Selection](what-model.md)
 
 - [🦙 Ollama Website](https://ollama.com/)
 - [🦞 OpenClaw Website](https://openclaw.ai/)
@@ -591,7 +589,7 @@ If you need to change Ollama models:
 
 ## 💬 Community Support
 
-Facing issues? Feel free to open an issue on our [GitHub Issues](https://github.com/anomixer/openclaw-setup/issues) page!
+Facing issues? Feel free to open an issue on our [GitHub Issues](https://github.com/anomixer/openclaw-news/issues) page!
 
 ---
 
@@ -606,14 +604,14 @@ Facing issues? Feel free to open an issue on our [GitHub Issues](https://github.
 - 🦞 Ollama is more tightly coupled with the lobster now
 
 ### 2026-02-13
-- 🔄 Sync update for README-EN.md
+- 🔄 Sync update for README.md
 - 📅 All file dates updated to 2026-02-13
 - 🦞 The lobster is eternal
 
 ### 2026-02-05
 - 🚀 Switched to `cmd` quick install command, automating Node.js and npm installation
 - 🆕 Support for the latest OpenClaw 2026.2.5+
-- 📋 Rebuilt TOC and updated translation in `README-EN.md`
+- 📋 Rebuilt TOC and updated translation in `README.md`
 
 ### 2026-02-02
 - 🔄 Updated to Ollama v0.15.4+
@@ -622,9 +620,9 @@ Facing issues? Feel free to open an issue on our [GitHub Issues](https://github.
 - ⚠️ Emphasized the requirement to install as a regular user
 
 ### 2026-01-30
-- 🦞 Repo renamed to openclaw-setup
+- 🦞 Repo renamed to openclaw-news
 - 🌍 Added English README
-- 💬 Added murmur.md rant file
+- 💬 Added murmur-tw.md rant file
 
 ---
 

@@ -36,14 +36,14 @@ jobs:
       - name: Prepare build directory
         run: node code/build_prep.js
 
-      - name: Build ZH with MkDocs
+      - name: Build Primary (EN) with MkDocs
         run: |
           cp code/mkdocs.yml mkdocs.yml
           mkdocs build
 
-      - name: Build EN with MkDocs
+      - name: Build Secondary (ZH) with MkDocs
         run: |
-          cp code/mkdocs.en.yml mkdocs.yml
+          cp code/mkdocs.tw.yml mkdocs.yml
           mkdocs build
 
       - name: Upload artifact

@@ -1,58 +1,60 @@
-# 從 Windows 遷移到 WSL2
+# 🔄 Migrating from Windows to WSL2
 
-**中文版 | [English](migration-guide-en.md)**
+**[中文版](migration-guide-tw.md) | English**
 
-> 如果你已經在 Windows 原生環境安裝過 OpenClaw,這份指南將幫你安全地遷移到 WSL2。
+**[🏠 Back to News Log](../README.md) | [👉 Basic Windows Setup Guide](setup.md) | [🚀 Full WSL2 Setup Guide](wsl2-guide.md) | [🤔 Why WSL2](why-wsl2.md) | [🔄 Migration Guide](migration-guide.md) | [🧠 Model Selection](what-model.md)**
 
----
-
-## 目錄
-
-1. [前置作業](#1-前置作業)
-2. [備份 Windows 設定](#2-備份-windows-設定)
-3. [安裝 WSL2](#3-安裝-wsl2)
-4. [在 WSL2 安裝 OpenClaw](#4-在-wsl2-安裝-openclaw)
-5. [還原設定](#5-還原設定)
-6. [測試與驗證](#6-測試與驗證)
-7. [清理舊安裝](#7-清理舊安裝)
-8. [後續使用](#8-後續使用)
+> If you've already installed OpenClaw on native Windows, this guide will help you safely migrate to WSL2.
 
 ---
 
-## 1. 前置作業
+## Table of Contents
 
-### 1.1 確認目前狀態
+1. [Prerequisites](#1-prerequisites)
+2. [Backup Windows Configuration](#2-backup-windows-configuration)
+3. [Install WSL2](#3-install-wsl2)
+4. [Install OpenClaw on WSL2](#4-install-openclaw-on-wsl2)
+5. [Restore Configuration](#5-restore-configuration)
+6. [Test and Verify](#6-test-and-verify)
+7. [Clean Up Old Installation](#7-clean-up-old-installation)
+8. [Daily Usage](#8-daily-usage)
 
-在 Windows Command Prompt：
+---
+
+## 1. Prerequisites
+
+### 1.1 Check Current Status
+
+In Windows Command Prompt:
 
 ```cmd
 openclaw --version
 openclaw status --all
 ```
 
-確認 OpenClaw 可以正常執行。
+Confirm OpenClaw is running properly.
 
-### 1.2 記錄重要資訊
+### 1.2 Record Important Information
 
-記下以下資訊（稍後需要）：
+Note down the following (you'll need them later):
 
 - Gateway token
-- Telegram bot token（如果有的話）
-- 你目前使用的模型名稱
+- Telegram bot token (if configured)
+- Your current model name
 
-可以從這裡查看：
+You can view them from:
 
 ```cmd
 type %USERPROFILE%\.openclaw\openclaw.json
 ```
 
-或直接用記事本開啟：`C:\Users\你的使用者名稱\.openclaw\openclaw.json`
+Or open with Notepad: `C:\Users\YourUsername\.openclaw\openclaw.json`
 
 ---
 
-## 2. 備份 Windows 設定
+## 2. Backup Windows Configuration
 
-在 Windows PowerShell：
+In Windows PowerShell:
 
 ```powershell
 $src = "$env:USERPROFILE\.openclaw"
@@ -60,45 +62,45 @@ $dst = "C:\openclaw-backup"
 Copy-Item $src $dst -Recurse -Force
 ```
 
-確認備份成功：
+Verify backup succeeded:
 
 ```powershell
 dir C:\openclaw-backup
 ```
 
-應該能看到：
+You should see:
 
 - `openclaw.json`
-- `.env`（如果有）
+- `.env` (if exists)
 - `skills/`
 - `credentials/`
 - `agents/`
 
 ---
 
-## 3. 安裝 WSL2
+## 3. Install WSL2
 
-### 3.1 啟用 WSL2
+### 3.1 Enable WSL2
 
-以 **系統管理員身份** 開啟 PowerShell：
+Open PowerShell **as Administrator**:
 
 ```powershell
 wsl --install -d Ubuntu-24.04
 ```
 
-**重新啟動電腦**。
+**Restart your computer**.
 
-### 3.2 設定 Ubuntu
+### 3.2 Configure Ubuntu
 
-重開後，Ubuntu 會自動啟動，依提示設定：
+After reboot, Ubuntu will auto-start. Follow prompts to set:
 
-- 使用者名稱
-- 密碼（記住，之後 sudo 要用）
+- Username
+- Password (remember it, you'll need it for sudo)
 
 
-### 3.3 啟用 systemd
+### 3.3 Enable systemd
 
-在 Ubuntu WSL 終端機：
+In Ubuntu WSL terminal:
 
 ```bash
 sudo tee /etc/wsl.conf >/dev/null <<'EOF'
@@ -107,93 +109,92 @@ systemd=true
 EOF
 ```
 
-回到 Windows PowerShell：
+Back to Windows PowerShell:
 
 ```powershell
 wsl --shutdown
 ```
 
-再次開啟 Ubuntu。
+Open Ubuntu again.
 
 ---
 
-## 4. 在 WSL2 安裝 OpenClaw 
+## 4. Install OpenClaw on WSL2
 
-請參考 [wsl2-guide.md](wsl2-guide.md) 內容
-
+Please refer to [🚀 Full WSL2 Setup Guide](wsl2-guide.md) for details.
 
 ---
 
-## 5. 還原設定
+## 5. Restore Configuration
 
-### 5.1 將檔案從 Windows 複製至 WSL
+### 5.1 Copy Files from Windows to WSL
 
-進入 WSL :
+In WSL:
 
 ```bash
-# 建立目錄
+# Create directory
 mkdir -p ~/.openclaw
 
-# 還原設定檔
+# Restore configuration
 cp /mnt/c/openclaw-backup/.openclaw/openclaw.json ~/.openclaw/
 cp /mnt/c/openclaw-backup/.openclaw/.env ~/.openclaw/ 2>/dev/null || true
 
-# 還原 credentials
+# Restore credentials
 cp -r /mnt/c/openclaw-backup/.openclaw/credentials ~/.openclaw/ 2>/dev/null || true
 ```
 
-> ⚠️ **注意**：不要直接拷貝 `skills/` 目錄，因為 Windows binary 在 Linux 無法使用。
+> ⚠️ **Note**: Do NOT copy the `skills/` directory directly, as Windows binaries won't work on Linux.
 
-### 5.2 重新配置 Ollama
+### 5.2 Reconfigure Ollama
 
 ```bash
 ollama launch openclaw
 ```
 
-選擇你想用的模型（建議與 Windows 版相同），確認修改。
+Select the model you want to use (preferably the same as Windows version), then confirm the changes.
 
 ---
 
-## 6. 測試與驗證
+## 6. Test and Verify
 
-### 6.1 檢查服務狀態
+### 6.1 Check Service Status
 
 ```bash
 openclaw status --all
 ```
 
-應該顯示：
+Should show:
 
 - ✅ Gateway: reachable
 - ✅ Ollama: connected
 
 
-### 6.2 執行診斷
+### 6.2 Run Diagnostics
 
 ```bash
 openclaw doctor
 ```
 
-檢查是否有任何警告或錯誤。
+Check for any warnings or errors.
 
 
-### 6.3 測試 Telegram（如果有配置）
+### 6.3 Test Telegram (if configured)
 
-向你的 Telegram bot 傳訊息，確認能正常回應。
+Send a message to your Telegram bot to confirm it responds normally.
 
-如果需要重新配對：
+If you need to re-pair:
 
 ```bash
-openclaw pairing approve telegram <配對碼>
+openclaw pairing approve telegram <pairing-code>
 ```
 
-### 6.4 測試 Memory 功能
+### 6.4 Test Memory Feature
 
 ```bash
 openclaw memory status
 ```
 
-如果顯示錯誤，執行：
+If errors occur, run:
 
 ```bash
 openclaw memory rebuild
@@ -202,60 +203,60 @@ openclaw memory rebuild
 
 ---
 
-## 7. 清理舊安裝
+## 7. Clean Up Old Installation
 
-### 7.1 確認 WSL2 版本完全正常
+### 7.1 Confirm WSL2 Version Works Properly
 
-在清理 Windows 版之前，**先確認 WSL2 版完全正常**：
+Before cleaning up Windows version, **confirm WSL2 version works completely**:
 
-- ✅ Web UI 可以連線
-- ✅ AI 能正常回應
-- ✅ Telegram 正常（如果有的話）
-- ✅ Memory 功能正常
+- ✅ Web UI can connect
+- ✅ AI responds normally
+- ✅ Telegram works (if configured)
+- ✅ Memory feature works
 
 
-### 7.2 移除 Windows 版本
+### 7.2 Remove Windows Version
 
-在 Windows PowerShell（**系統管理員身份**）：
+In Windows PowerShell (**as Administrator**):
 
 ```powershell
-# 移除 OpenClaw
+# Remove OpenClaw
 openclaw uninstall --all --yes --non-interactive
 
-# 移除 npm 套件
+# Remove npm package
 npm uninstall -g openclaw
 
-# 刪除設定檔（備份已存在 C:\openclaw-backup）
+# Delete configuration files (backup exists at C:\openclaw-backup)
 Remove-Item "$env:USERPROFILE\.openclaw" -Recurse -Force
 ```
 
 
-### 7.3 保留備份（建議）
+### 7.3 Keep Backup (Recommended)
 
-建議保留 `C:\openclaw-backup` 至少 1-2 週，確認 WSL2 版本穩定後再刪除。
+It's recommended to keep `C:\openclaw-backup` for at least 1-2 weeks until you confirm the WSL2 version is stable.
 
 ---
 
-## 8. 後續使用
+## 8. Daily Usage
 
-### 8.1 從 Windows 操作 WSL2
+### 8.1 Operating WSL2 from Windows
 
-以後想執行 OpenClaw 指令時，有兩種方式：
+When you want to run OpenClaw commands, you have two options:
 
-**方法 A：在 WSL 終端機裡**
+**Method A: Inside WSL Terminal**
 
 ```cmd
 wsl
 ```
 
-然後在 Ubuntu 裡執行：
+Then in Ubuntu:
 
 ```bash
 openclaw status --all
 openclaw doctor
 ```
 
-**方法 B：直接從 Command Prompt**
+**Method B: Directly from Command Prompt**
 
 ```cmd
 wsl openclaw status --all
@@ -263,93 +264,94 @@ wsl openclaw doctor
 wsl openclaw memory status
 ```
 
-### 8.2 管理 Gateway 服務
+### 8.2 Managing Gateway Service
 
-在 WSL 內：
+Inside WSL:
 
 ```bash
-# 查看狀態
+# Check status
 sudo systemctl status openclaw-gateway
 
-# 重啟
+# Restart
 sudo systemctl restart openclaw-gateway
 
-# 查看日誌
+# View logs
 journalctl -u openclaw-gateway -f
 ```
 
 
 ---
 
-## 常見問題
+## FAQ
 
-### Q: 還原後 Gateway 無法啟動？
+### Q: Gateway won't start after restoration?
 
 ```bash
-# 查看詳細日誌
+# View detailed logs
 journalctl -u openclaw-gateway -f
 
-# 重新安裝 Gateway
+# Reinstall Gateway
 openclaw gateway install
 ```
 
 
-### Q: Token 不對？
+### Q: Token doesn't match?
 
 ```bash
-# 查看正確的 token
+# View correct token
 cat ~/.openclaw/openclaw.json | grep -A 2 '"token"'
 ```
 
 
-### Q: Skills 無法安裝？
+### Q: Skills won't install?
 
-不要直接拷貝 Windows 的 skills，在 WSL2 重新安裝：
+Don't copy skills directly from Windows, reinstall them in WSL2:
 
 ```bash
 clawhub install <skill-name>
 ```
 
 
-### Q: Memory 功能異常？
+### Q: Memory feature issues?
 
 ```bash
-# 重建 memory 索引
+# Rebuild memory index
 openclaw memory rebuild
 
-# 檢查依賴
+# Check dependencies
 openclaw doctor --verbose
 ```
 
 
-### Q: 想同時保留 Windows 和 WSL2 版本？
+### Q: Want to keep both Windows and WSL2 versions?
 
-**不建議**，因為：
+**Not recommended**, because:
 
-- 兩邊會搶 18789 port
-- Gateway token / Telegram pairing 會衝突
-- 容易搞混設定
+- Both will compete for port 18789
+- Gateway token / Telegram pairing will conflict
+- Easy to mix up configurations
 
-如果真的需要，建議改其中一邊的 port：
+If you really need to, change the port on one side:
 
 ```bash
-# 在 WSL2 的 openclaw.json 裡
+# In WSL2's openclaw.json
 "gateway": {
-  "port": 18790  # 改成其他 port
+  "port": 18790  # Use a different port
 }
 ```
 
 
 ---
 
-## 相關連結
+## Related Links
 
-- [主 README](../README.md) - Windows 原生版教學
-- [為什麼需要 WSL2？](why-wsl2.md) - 技術說明
-- [WSL2 完整安裝指南](wsl2-guide.md) - 從零開始安裝
-- [🧠 部署與實戰經驗指南：該選哪個模型？](what-model.md)
+- [🏠 Back to News Log](../README.md)
+- [👉 Basic Windows Setup Guide](setup.md) - Windows native version guide
+- [🤔 Why WSL2](why-wsl2.md) - Technical explanation
+- [🚀 Full WSL2 Setup Guide](wsl2-guide.md) - Install from scratch
+- [🧠 Model Selection](what-model.md)
 
 ---
 
-**最後更新**: 2026-02-13  
+**Last Updated**: 2026-02-13  
 **by anomixer**

@@ -1,9 +1,9 @@
-site_name: 🦞 OpenClaw Battlefield Log (with 🦙 Ollama Setup)
+site_name: 🦞 OpenClaw 宇宙戰地日誌 (含 🦙 Ollama 安裝指南)
 site_description: The chaotic, cynical, and utterly biased war log of the OpenClaw universe.
 site_url: ""
 
-repo_url: https://github.com/anomixer/openclaw-setup
-repo_name: anomixer/openclaw-setup
+repo_url: https://github.com/anomixer/openclaw-news
+repo_name: anomixer/openclaw-news
 
 theme:
   name: material
@@ -31,22 +31,23 @@ theme:
 extra:
   alternate:
     - name: English
-      link: /openclaw-setup/en/
+      link: /openclaw-news/
       lang: en
     - name: 繁體中文
-      link: /openclaw-setup/
+      link: /openclaw-news/tw/
       lang: zh
 
 nav:
-  - 🦞 Battlefield Log (Murmur): index.md
-  - 📖 Windows Setup (README): setup.md
-  - 🎯 Model Selection: docs/what-model.md
-  - 🚀 WSL2 Guide: docs/wsl2-guide.md
-  - 🤔 Why WSL2: docs/why-wsl2.md
-  - 🔄 Migration Guide: docs/migration-guide.md
+  - 🦞 戰況日誌: index.md
+  - 👉 Windows 基礎安裝指南: docs/setup.md
+  - 🚀 WSL2 完整教學: docs/wsl2-guide.md
+  - 🤔 為什麼需要 WSL2: docs/why-wsl2.md
+  - 🔄 遷移指南: docs/migration-guide.md
+  - 🧠 模型選用指南: docs/what-model.md
 
-docs_dir: build_docs_en
-site_dir: site/en
+docs_dir: build_docs_zh
+site_dir: site/tw
 
 extra_css:
   - custom.css
+

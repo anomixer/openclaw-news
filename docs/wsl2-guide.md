@@ -1,87 +1,88 @@
-# WSL2 完整安裝指南
+# 🚀 Complete WSL2 Installation Guide
 
-**中文版 | [English](wsl2-guide-en.md)**
+**[中文版](wsl2-guide-tw.md) | English**
 
-> 這是從零開始在 WSL2 安裝 OpenClaw + Ollama 的完整指南。
+**[🏠 Back to News Log](../README.md) | [👉 Basic Windows Setup Guide](setup.md) | [🚀 Full WSL2 Setup Guide](wsl2-guide.md) | [🤔 Why WSL2](why-wsl2.md) | [🔄 Migration Guide](migration-guide.md) | [🧠 Model Selection](what-model.md)**
+> This is a complete guide to installing OpenClaw + Ollama from scratch in WSL2.
 
-> 若您的作業系統是 Ubuntu / macOS ，可以直接從第2步驟開始。
+> If your operating system is Ubuntu / macOS, you can start directly from step 2.
 
-> 如果你已經在 Windows 原生環境安裝過，請優先看：**[`docs/migration-guide.md`](migration-guide.md)**。
-
----
-
-## 目錄
-
-1. [安裝 WSL2 (若您使用 Windows 10/11，請從這裡開始)](#1-安裝-wsl2-若您使用-windows-1011請從這裡開始)
-   - [1.1 啟用 WSL2](#11-啟用-wsl2)
-   - [1.2 初次安裝並啟動 Ubuntu](#12-初次安裝並啟動-ubuntu)
-   - [1.3 啟用 systemd（必要）](#13-啟用-systemd必要)
-   - [1.4 若是 Data Center 卡，要切換成 MCDM 模式 (可選)](#14-若是-data-center-卡要切換成-mcdm-模式-可選)
-   - [1.5 安裝 WSL Ubuntu 專用的 CUDA Driver（必要）](#15-安裝-wsl-ubuntu-專用的-cuda-driver必要)
-2. [安裝 Ollama (若您使用 Linux 或 macOS，請直接這裡開始)](#2-安裝-ollama-若您使用-linux-或-macos請直接這裡開始)
-   - [2.1 安裝 Ollama](#21-安裝-ollama-裝進-ubuntu-wsl--linux-裡面別裝在-windows-下)
-   - [2.2 啟動 Ollama 服務](#22-啟動-ollama-服務)
-   - [2.3 驗證安裝](#23-驗證安裝)
-   - [2.4 拉模型](#24-拉模型)
-3. [安裝 OpenClaw](#3-安裝-openclaw)
-   - [3.1 先安裝 nvm 與 node.js v24](#31-先安裝-nvm-與-nodejs-v24-新版-openclaw-建議)
-   - [3.2 安裝 OpenClaw CLI](#32-安裝-openclaw-cli)
-   - [3.3 初始化 Onboard](#33-初始化-onboard)
-   - [3.4 設定 OpenClaw 使用 Ollama](#34-設定-openclaw-使用-ollama)
-4. [進階配置](#4-進階配置)
-   - [4.1 安裝 Skills](#41-安裝-skills)
-   - [4.2 Memory 功能](#42-memory-功能)
-   - [4.3 Telegram Bot 設定](#43-telegram-bot-設定)
-   - [4.4 配對 Telegram 頻道](#44-配對-telegram-頻道)
-   - [4.5 其他進階設定 (可選)](#45-其他進階設定-可選)
-5. [🗑️ 完整移除指南](#5-️-完整移除指南)
-6. [📄 配置檔案參考](#6--配置檔案參考)
-7. [🎯 快速參考](#7--快速參考)
-8. [💡 實用技巧](#8--實用技巧)
-9. [📚 相關連結](#9--相關連結)
-10. [💬 社群支援](#10--社群支援)
-11. [📝 更新日誌](#11--更新日誌)
+> If you have already installed in a native Windows environment, please read this first: **[🔄 Migration Guide](migration-guide.md)**.
 
 ---
 
-Windows (WSL 版) 快速安裝 OpenClaw 與本地端 LLM (Ollama) 的完整步驟指南。
+## Table of Contents
 
-> ⚠️ **版本需求**: Ollama v0.15.4+ 與 OpenClaw 2026.2.5+
+1. [Install WSL2 (Start here if you use Windows 10/11)](#1-install-wsl2-start-here-if-you-use-windows-1011)
+   - [1.1 Enable WSL2](#11-enable-wsl2)
+   - [1.2 Initial Installation and Starting Ubuntu](#12-initial-installation-and-starting-ubuntu)
+   - [1.3 Enable systemd (Required)](#13-enable-systemd-required)
+   - [1.4 Switch to MCDM Mode for Data Center Cards (Optional)](#14-switch-to-mcdm-mode-for-data-center-cards-optional)
+   - [1.5 Install CUDA Driver for WSL Ubuntu (Required)](#15-install-cuda-driver-for-wsl-ubuntu-required)
+2. [Install Ollama (Start here if you use Linux or macOS)](#2-install-ollama-start-here-if-you-use-linux-or-macos)
+   - [2.1 Install Ollama](#21-install-ollama-install-inside-ubuntu-wsl--linux-not-under-windows)
+   - [2.2 Start Ollama Service](#22-start-ollama-service)
+   - [2.3 Verify Installation](#23-verify-installation)
+   - [2.4 Pull Models](#24-pull-models)
+3. [Install OpenClaw](#3-install-openclaw)
+   - [3.1 Re-install nvm and node.js v24](#31-re-install-nvm-and-nodejs-v24-recommended-for-new-openclaw)
+   - [3.2 Install OpenClaw CLI](#32-install-openclaw-cli)
+   - [3.3 Initial Onboarding](#33-initial-onboarding)
+   - [3.4 Configure OpenClaw to use Ollama](#34-configure-openclaw-to-use-ollama)
+4. [Advanced Configuration](#4-advanced-configuration)
+   - [4.1 Install Skills](#41-install-skills)
+   - [4.2 Memory Feature](#42-memory-feature)
+   - [4.3 Telegram Bot Setup](#43-telegram-bot-setup)
+   - [4.4 Pair Telegram Channel](#44-pair-telegram-channel)
+   - [4.5 Other Advanced Settings (Optional)](#45-other-advanced-settings-optional)
+5. [🗑️ Complete Removal Guide](#5-️-complete-removal-guide)
+6. [📄 Configuration File Reference](#6--configuration-file-reference)
+7. [🎯 Quick Reference](#7--quick-reference)
+8. [💡 Useful Tips](#8--useful-tips)
+9. [📚 Related Links](#9--related-links)
+10. [💬 Community Support](#10--community-support)
+11. [📝 Changelog](#11--changelog)
 
-## 1. 安裝 WSL2 (若您使用 Windows 10/11，請從這裡開始)
+---
 
-### 1.1 啟用 WSL2
+A complete step-by-step installation guide for Windows (WSL version) to quickly set up OpenClaw and a local LLM (Ollama).
 
-以 **一般使用者身份** 開啟 Command Prompt:
+> ⚠️ **Version Requirements**: Ollama v0.15.4+ and OpenClaw 2026.2.5+
+
+## 1. Install WSL2 (Start here if you use Windows 10/11)
+
+### 1.1 Enable WSL2
+
+Open Command Prompt as a **Regular User**:
 
 ```cmd
-# 安裝 WSL2 並開啟 虛擬環境
+# Install WSL2 and enable virtual environment
 wsl --install
 wsl --update
 ```
 
-依提示 **重新啟動電腦**。
+Follow the prompts to **restart your computer**.
 
-### 1.2 初次安裝並啟動 Ubuntu
+### 1.2 Initial Installation and Starting Ubuntu
 
-重開機後，以 **一般使用者身份** 開啟 Command Prompt:
+After restarting, open Command Prompt as a **Regular User**:
 
 ```cmd
-# 安裝 Ubuntu 24.04
+# Install Ubuntu 24.04
 wsl --install -d Ubuntu-24.04
 ```
 
-依提示設定：
+Follow the prompts to configure:
 
-- 使用者名稱（建議與 Windows 相同，純個人喜好）
-- 密碼（之後 sudo 要用）
+- Username (Recommended to match Windows, entirely personal preference)
+- Password (Needed later for sudo)
 
 
-### 1.3 啟用 systemd（必要）
+### 1.3 Enable systemd (Required)
 
-> ⚠️ 必做步驟：OpenClaw Gateway 需要 systemd 才能當服務常駐。
+> ⚠️ Mandatory Action: OpenClaw Gateway requires systemd to run as a background service.
 
-在 Ubuntu WSL 終端機執行：
+Run in your Ubuntu WSL terminal:
 
 ```bash
 cd ~
@@ -91,57 +92,56 @@ systemd=true
 EOF
 ```
 
-(若提示 `[sudo] password for user:` 需要密碼時，輸入上面的密碼即可，後面碰到也是一樣)
+(If prompted with `[sudo] password for user:`, enter the password you created earlier, and do the same whenever you encounter it).
 
-回到 Windows Command Prompt，並關閉WSL：
+Return to Windows Command Prompt and close WSL:
 
 ```cmd
 exit
 wsl --shutdown
 ```
 
-再次開啟 Ubuntu (在 Command Prompt 下，執行 `wsl` 即可)，並確認 systemd 有啟動：
-
+Start Ubuntu again (run `wsl` in Command Prompt) and verify systemd has started:
 
 ```bash
 systemctl --version
 ```
 
-看到版本資訊就 OK。
+If you see version information, it's OK.
 
 
-### 1.4 若是 Data Center 卡，要切換成 MCDM 模式 (可選)
+### 1.4 Switch to MCDM Mode for Data Center Cards (Optional)
 
-⚠️ 重要：若您的顯示卡是 GeForce、Quadro 等這類「有風扇設計」的VGA Controller (出廠時設定為顯示埠功能打開)，請直接略過本步驟。
+⚠️ Important: If your graphics card is a GeForce, Quadro, or similar VGA Controller with a built-in cooling fan (with display port functionality enabled by default ex-factory), you can skip this step.
 
-⚠️ 若您的顯示卡是 L2、L4、L40、RTX 6000 Blackwell Server Edition 等這類 Data Center 專用的版本 (這類「加速卡」的特徵都是無風扇設計，出廠時設定為 3D Controller 模式，顯示卡埠功能關閉，適合伺服器環境)。在 Windows 環境下，NVIDIA Driver 自定會以 TCC (Tesla Compute Cluster) 模式來運作，此模式會讓 Ubuntu WSL 環境無法存取到這張加速卡，因此必須切換成 MCDM (Microsoft Compute Driver Model) 模式，才能正常運作。
+⚠️ If your graphics card is a Data Center-specific version like L2, L4, L40, RTX 6000 Blackwell Server Edition (these "accelerator cards" typically have passive fanless designs, with display ports disabled ex-factory, operating in 3D Controller mode optimized for server environments). Under Windows, the NVIDIA Driver runs in TCC (Tesla Compute Cluster) mode by default. This mode prevents the Ubuntu WSL environment from accessing the accelerator card, so it must be switched to MCDM (Microsoft Compute Driver Model) mode to function properly.
 
-請以 **系統管理員** 執行 Command Prompt ，然後下:
+Run Command Prompt as **Administrator**, then enter:
 
 ```cmd
-# 將 L4 切換到 MCDM 模式 (-g 0 為 GPU 編號，-dm 2 代表 MCDM)
+# Switch L4 to MCDM mode (-g 0 is the GPU ID, -dm 2 is MCDM)
 nvidia-smi -g 0 -dm 2
 ```
 
-切換完成後，需要重新開機。
+After switching, a system restart is required.
 
-驗證是否切換成功，只需要在 Command Prompt 下，執行 `nvidia-smi`檢視 Driver-Model 那邊顯示為 MCDM ，就等於切換完成。
+To verify if the switch was successful, simply run `nvidia-smi` in the Command Prompt and check if the Driver-Model displays as MCDM.
 
 
-> 若日後不需要用到時，再下以下命令切回 TCC 模式:
+> If you no longer need it, use the following command to switch back to TCC mode:
 
 ```cmd
-# 將 GPU 0 切換回 TCC 模式 (-dm 1 代表 TCC)
+# Switch GPU 0 back to TCC mode (-dm 1 is TCC)
 nvidia-smi -g 0 -dm 1
 ```
 
-### 1.5 安裝 WSL Ubuntu 專用的 CUDA Driver（必要）
+### 1.5 Install CUDA Driver for WSL Ubuntu (Required)
 
-> ⚠️ 必做步驟：Ubuntu WSL 下也是需要安裝 NVIDIA Driver ，才能存取到 Host Windows 端的顯示卡資源。
+> ⚠️ Mandatory Action: The Linux environment under Ubuntu WSL also requires an NVIDIA Driver to access the graphics card resources on the Windows Host.
 
-先到 [NVIDIA CUDA Toolkit](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=WSL-Ubuntu&target_version=2.0&target_type=deb_local) 網站，取得最新 WSL-Ubuntu 的 CUDA 安裝指引，其中 Installer Type 建議選 deb (local) 來安裝。
+First, go to the [NVIDIA CUDA Toolkit](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=WSL-Ubuntu&target_version=2.0&target_type=deb_local) website and get the latest CUDA installation instructions for WSL-Ubuntu. For Installer Type, choosing deb (local) is recommended.
 
-以 CUDA Toolkit 13.1 Update 1 為例，需要在 WSL 下，執行以下的指令來依次安裝:
+Taking CUDA Toolkit 13.1 Update 1 as an example, you need to run the following commands sequentially in WSL to install:
 ```bash
 cd ~
 wget https://developer.download.nvidia.com/compute/cuda/repos/wsl-ubuntu/x86_64/cuda-wsl-ubuntu.pin
@@ -153,41 +153,41 @@ sudo apt-get update
 sudo apt-get -y install cuda-toolkit-13-1
 ```
 
-裝完 CUDA Toolkit 之後，記得設定兩個環境變數，先使用 nano 修改 `~/.bashrc` 檔案：
+After installing the CUDA Toolkit, remember to configure two environment variables. Open `~/.bashrc` using nano:
 
 ```bash
 nano ~/.bashrc
 ```
 
-在最後一行那邊加入以下內容:
+Add the following content at the very end:
 
 ```
 export PATH="$PATH:/usr/local/cuda/bin:$HOME/.npm-global:$HOME/node_modules/.bin"
 export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/cuda/lib64"
 ```
 
-> 註: 上面路徑有預先幫 node, npm 打好，以便稍後安裝 OpenClaw 時用到
+> Note: The node and npm paths have been added automatically above so they can be used later when installing OpenClaw.
 
-改好之後，按 `Ctrl+X`、`Y`、`Enter`鈕，把檔案存回。
+After editing, press `Ctrl+X`, `Y`, and `Enter` to save the file.
 
-接著 輸入 `exit` 離開 WSL ，再跑 `wsl` 啟動 Ubuntu ，輸入以下指令以驗證 CUDA 和 Driver 是否正常運作:
+Next, type `exit` to leave WSL, then run `wsl` to restart Ubuntu, and type the following commands to verify CUDA and the Driver are functioning correctly:
 
 ```bash
-# 檢查 nvcc 是否執行
+# Check if nvcc runs
 nvcc -V
-# 檢查 nvidia-smi 是否正常運作
+# Check if nvidia-smi functions properly
 nvidia-smi
 ```
 
-> 註：進行到這邊累了嗎? 感覺 WSL 版本沒那麼簡單吧? 😂😂😂
+> Note: Are you feeling tired by now? Didn't expect the WSL version to be this complicated, right? 😂😂😂
 
 ---
 
-## 2. 安裝 Ollama (若您使用 Linux 或 macOS，請直接這裡開始)
+## 2. Install Ollama (Start here if you use Linux or macOS)
 
-### 2.1 安裝 Ollama (裝進 Ubuntu WSL / Linux 裡面，別裝在 Windows 下)
+### 2.1 Install Ollama (Install inside Ubuntu WSL / Linux, not under Windows)
 
-確認有安裝好 GPU 驅動程式和 Compute 函式庫之後，請開啟 Linux Terminal ，輸入：
+After confirming that the GPU driver and Compute library are properly installed, please open your Linux Terminal and input:
 
 ```bash
 cd ~
@@ -196,9 +196,9 @@ curl -fsSL https://ollama.com/install.sh | sh
 ```
 
 
-### 2.2 啟動 Ollama 服務
+### 2.2 Start Ollama Service
 
-Ollama 安裝完成後，會自己啟用服務。若沒有的話，可以執行以下指令來啟用。
+After installation, Ollama will automatically start its service. If it doesn't, you can run the following commands to start it:
 
 ```bash
 sudo systemctl enable ollama
@@ -206,24 +206,24 @@ sudo systemctl start ollama
 ```
 
 
-### 2.3 驗證安裝
+### 2.3 Verify Installation
 
 ```bash
 ollama -v
 ```
 
 
-### 2.4 拉模型
+### 2.4 Pull Models
 
-參考主 README 裡面的說明，依照你顯示卡的 VRAM 容量，選一個：
+Refer to the instructions in the main README and choose based on your graphics card's VRAM capacity:
 
-**選項 A：GLM 4.7 Flash（推薦，20GB+ VRAM）**
+**Option A: GLM 4.7 Flash (Recommended, 20GB+ VRAM)**
 
 ```bash
 ollama pull glm-4.7-flash
 ```
 
-**選項 B：Ministral 3:8b（輕量，8GB+ VRAM）**
+**Option B: Ministral 3:8b (Lightweight, 8GB+ VRAM)**
 
 ```bash
 ollama pull ministral-3:8b
@@ -231,11 +231,11 @@ ollama pull ministral-3:8b
 
 ---
 
-## 3. 安裝 OpenClaw
+## 3. Install OpenClaw
 
-註：若您安裝的是 Ollama v0.17.0+，該版本會自動幫您安裝好 OpenClaw，請直接跳至 **3.3 初始化 Onboard** 章節。
+Note: If you installed Ollama v0.17.0+, this version will automatically install OpenClaw for you. Please jump directly to the **3.3 Initial Onboarding** section.
 
-### 3.1 先安裝 nvm 與 node.js v24 (新版 OpenClaw 建議)
+### 3.1 Re-install nvm and node.js v24 (Recommended for new OpenClaw)
 
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
@@ -244,43 +244,43 @@ nvm install 24
 nvm use 24
 ```
 
-### 3.2 安裝 OpenClaw CLI
+### 3.2 Install OpenClaw CLI
 
 ```bash
 curl -fsSL https://openclaw.ai/install.sh | bash
 ```
 
-若使用官方安裝腳本失敗，請改使用 npm install 方式直接安裝
+If the official installation script fails, please install directly using npm:
 
 ```bash
 npm install openclaw@latest
 ```
 
-### 3.3 初始化 Onboard
+### 3.3 Initial Onboarding
 
-OpenClaw 安裝完成後，會自動進入 Onboard 模式。若沒有的話，可以執行以下指令:
+After installing OpenClaw, it will automatically enter Onboard mode. If it doesn't, execute the following command:
 
 ```bash
 openclaw onboard
 ```
 
-#### 1. 安全確認
+#### 1. Security Confirmation
 
 ```
 I understand this is powerful and inherently risky. Continue?
 > Yes
 ```
 
-#### 2. Onboarding 模式
+#### 2. Onboarding Mode
 
 ```
 Onboarding mode
 > QuickStart (Configure details later via openclaw configure.)
 ```
 
-#### 3. 設定模型/認證提供者
+#### 3. Setup Model/Auth Provider
 
-先選擇跳過，後面再設定：
+Choose to skip for now, we will configure this later:
 
 ```
 Model/auth provider
@@ -292,12 +292,12 @@ Filter models by provider
 Default model
 > Enter model manually 
 
-#輸入上述的模型名稱，例如: ollama/glm-4.7-flash
+# Input the model name you downloaded earlier, e.g.: ollama/glm-4.7-flash
 ```
 
-#### 4. 頻道配置（可選）
+#### 4. Channel Configuration (Optional)
 
-這裡可以先選擇 **Skip for now**，或直接配置 Telegram，這裡以有配置為例：
+You can select **Skip for now**, or configure Telegram immediately. Assuming we are doing the configuration:
 
 ```
 Select channel (QuickStart)
@@ -307,11 +307,11 @@ Enter Telegram bot token
 >>> 1234567890:ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789
 ```
 
-> 💡 如何取得 Token？請參考 [Telegram Bot 設定](#telegram-bot-設定)
+> 💡 How to obtain a Token? Refer to [Telegram Bot Setup](#43-telegram-bot-setup).
 
-#### 5. 技能商店
+#### 5. Skills Store
 
-先選 Yes，然後 Skip for now ，後面 API Key 的部份都先選 No 。
+Select Yes first, then Skip for now. For the API Key sections later, choose No for all of them.
 
 ```
 Configure skills now? (recommended)
@@ -343,7 +343,7 @@ Set ELEVENLABS_API_KEY for sag?
 ```
 
 
-#### 6. 啟用 Hooks (若出現的話)
+#### 6. Enable Hooks (if prompted)
 
 ```
 Enable hooks?
@@ -353,12 +353,12 @@ Enable hooks?
 > [+] 💾 session-memory (Save session context to memory when /new or /reset command is issued)
 ```
 
-按**空白鍵**選擇全部三項，再按 **Enter**。
+Press the **Spacebar** to select all three items, then press **Enter**.
 
 
-#### 7. 記錄 Web UI 資訊
+#### 7. Record Web UI Information
 
-安裝完成後會顯示：
+It will display the following after installation completes:
 
 ```
 Control UI:
@@ -368,40 +368,40 @@ Control UI:
   Gateway: reachable
 ```
 
-> 🔑 **重要**: 記住帶 token 的 URL！
+> 🔑 **Important**: Remember the URL with the token!
 
-#### 8. 安裝 Shell / 孵化 Bot (若出現的話)
+#### 8. Install Shell / Hatch Bot (if prompted)
 
 ```
 Enable bash shell completion for openclaw?
 > Yes
 ```
 
-如何孵化您的機器人，建議 TUI 。
+How to hatch your bot, TUI is recommended.
 
 ```
 How do you want to hatch your bot?
 > ● Hatch in TUI (recommended)
 ```
 
-### 3.4 設定 OpenClaw 使用 Ollama
+### 3.4 Configure OpenClaw to use Ollama
 
-此時，OpenClaw 會孵化機器人，此時先按 Ctrl+C 鈕數次停止，先退出 WSL (輸入 `exit`)，然後再進入 WSL (輸入 `wsl`)，此時 OpenClaw 就可以使用了。
+At this time, OpenClaw will hatch the bot. Press Ctrl+C a few times to stop it. Exit WSL (type `exit`), then re-enter WSL (type `wsl`), and OpenClaw will finally be ready to use.
 
 ```
-# 先停止 OpenClaw Gateway 服務
+# First stop the OpenClaw Gateway service
 systemctl --user stop openclaw-gateway.service
 ```
 
-#### 讓 Ollama 套用本地端模型，去執行 OpenClaw
+#### Letting Ollama apply the local model to run OpenClaw
 
-**Ollama v0.15.3+ 新功能**: 可配置 OpenClaw 的 Ollama 設定，讓其套用本地模型。
+**Ollama v0.15.3+ New Feature**: You can configure OpenClaw's Ollama settings so it automatically applies the local model.
 
 ```
 ollama launch openclaw
 ```
 
-選擇您的 Model:
+Select your Model:
 
 ```
 Select models for OpenClaw: Type to filter...
@@ -423,57 +423,57 @@ Select models for OpenClaw: Type to filter...
 ↑/↓ navigate • space toggle • enter confirm • esc cancel
 ```
 
-設定好模型之後， OpenClaw 就能正式使用了。此時就可以透過 Telegram 等 IM 來與OpenClaw 交談了。
+After configuring the model, OpenClaw is officially ready. You can now communicate with it through IMs like Telegram.
 
-✅ **若 AI 正常回覆，基本設定完成！**
+✅ **If the AI replies normally, the basic setup is complete!**
 
-> 📝 **日後更換模型**: 請參考下方 **實用技巧**。
+> 📝 **Change models in the future**: Refer to **Useful Tips** section below.
 
 
-> 💡 **建議**: 執行完後，先重新啟動電腦，確保 Gateway Service 正常開機自動啟動。
+> 💡 **Recommendation**: Restart your computer after executing this to verify the Gateway Service launches smoothly upon startup.
 
 ---
 
-## 4. 進階配置
+## 4. Advanced Configuration
 
-### 4.1 安裝 Skills
+### 4.1 Install Skills
 
-現在你已在 Linux（WSL2）內，所以大部分 skills 都能判定為可用。
+Since you are now inside Linux (WSL2), most skills should be fully supported.
 
-常見流程：
+Standard workflow:
 
 ```bash
-# 找 skills
+# Search for skills
 clawhub search
 
-# 安裝
+# Install
 clawhub install <skill-name>
 
-# 檢查
+# Check
 openclaw doctor
 ```
 
-如果有需要 Homebrew 版本的 skills，你可以選擇：
+If you need Homebrew-based skills, you can do this:
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-# 加到 PATH
+# Add to PATH
 echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> ~/.bashrc
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 brew --version
 ```
 
-### 4.2 Memory 功能
+### 4.2 Memory Feature
 
-在 WSL2 下，memory 子系統應該正常：
+In WSL2, the memory subsystem should be operational:
 
 ```bash
 openclaw memory status
 ```
 
-有問題可以重建：
+In case of issues, you can rebuild it:
 
 ```bash
 openclaw memory rebuild
@@ -481,16 +481,16 @@ openclaw memory rebuild
 
 ---
 
-### 4.3 Telegram Bot 設定
+### 4.3 Telegram Bot Setup
 
-#### 建立 Telegram 機器人
+#### Create a Telegram Bot
 
-1. 在 Telegram 搜尋並加入 **@BotFather**
+1. Search for and join **@BotFather** on Telegram.
 
-2. 發送指令 `/newbot`，依提示設定機器人名稱
-   - 例如：`openclaw-bot`（若名稱被佔用請更換）
+2. Send the `/newbot` command and follow the prompts to configure a bot name.
+   - For example: `openclaw-bot` (change if the name is occupied).
 
-3. **BotFather** 會回覆：
+3. **BotFather** will reply:
 
 ```
 Done. Congratulations on your new bot...
@@ -499,11 +499,11 @@ Use this token to access the HTTP API:
 1234567890:ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789
 ```
 
-> 🔑 **記住這個 Token**，稍後配置時需要！
+> 🔑 **Save this Token**, you'll need it for setup later!
 
-### 4.4 配對 Telegram 頻道
+### 4.4 Pair Telegram Channel
 
-1. 進入手機 Telegram 中的 bot 頻道，查看是否有下列訊息 （若沒有，請發送任意訊息)
+1. Enter your bot's chat channel on the mobile Telegram app to check if there is the following message (if not, send any arbitrary message)
 
 ```
 OpenClaw: access not configured.
@@ -512,34 +512,34 @@ Your Telegram user id: 1234567890
 Pairing code: abcdefgh
 ```
 
-2. 在電腦上進入 WSL ，執行配對指令：
+2. Enter WSL on your PC and run the pairing command:
 
 ```cmd
 openclaw pairing approve telegram abcdefgh
 ```
 
-（將 `abcdefgh` 替換成你的配對碼）
+(Replace `abcdefgh` with your pairing code)
 
-3. 再次發送訊息測試
+3. Send another message to test.
 
-✅ **Bot 應該可以正常回覆了！** 🎉
+✅ **The Bot should now reply normally!** 🎉
 
-### 4.5 其他進階設定 (可選)
+### 4.5 Other Advanced Settings (Optional)
 
-以一般使用者身份開啟 WSL：
+Open WSL as a regular user:
 
 ```bash
 openclaw config
 ```
 
-#### Gateway 位置
+#### Gateway Location
 
 ```
 Where will the Gateway run?
 > ● Local (this machine)
 ```
 
-#### Web 工具配置
+#### Web Tools Configuration
 
 ```
 Select sections to configure
@@ -549,7 +549,7 @@ Enable web_search (Brave Search)?
 > ○ Yes / ● No
 ```
 
-> 💡 需要 Brave API Key（可另外申請），暫時選 No
+> 💡 This requires a Brave API Key (can be applied separately), choose No for now.
 
 ```
 Enable web_fetch (keyless HTTP fetch)?
@@ -558,39 +558,39 @@ Enable web_fetch (keyless HTTP fetch)?
 
 ---
 
-## 5. 🗑️ 完整移除指南
+## 5. 🗑️ Complete Removal Guide
 
-若需要完全移除 OpenClaw / Moltbot / Clawdbot：
+If you need to completely remove OpenClaw / Moltbot / Clawdbot:
 
-### 進入 WSL
+### Enter WSL
 
 ```bash
-# 完整移除（包含所有資料）
+# Complete removal (including all data)
 openclaw uninstall --all --yes --non-interactive
-# 或
+# OR
 moltbot uninstall --all --yes --non-interactive
-# 或
+# OR
 clawdbot uninstall --all --yes --non-interactive
 
-# 移除 npm 套件
+# Remove npm packages
 npm uninstall -g openclaw
-# 或
+# OR
 npm uninstall -g moltbot
-# 或
+# OR
 npm uninstall -g clawdbot
 ```
 
 ---
 
-## 6. 📄 配置檔案參考
+## 6. 📄 Configuration File Reference
 
-### 檔案路徑
+### File Path
 
 ```
 ~/.openclaw/openclaw.json
 ```
 
-### 配置範例
+### Example Configuration
 
 ```json
 {
@@ -665,44 +665,44 @@ npm uninstall -g clawdbot
 
 ---
 
-## 7. 🎯 快速參考
+## 7. 🎯 Quick Reference
 
-| 指令 | 用途 |
+| Command | Purpose |
 |------|------|
-| `ollama --version` | 檢查 Ollama 版本 |
-| `ollama pull <model>` | 拉取模型 |
-| `ollama launch openclaw` | 配置 OpenClaw 使用 Ollama |
-| `openclaw config` | 進入配置介面 |
-| `openclaw models list` | 檢視目前配置的模型列表 |
-| `openclaw gateway install` | 安裝 Gateway 服務 |
-| `openclaw gateway start` | 啟動 Gateway 服務 |
-| `openclaw pairing approve telegram <code>` | 配對 Telegram 頻道 |
-| `openclaw security audit --deep` | 安全性深度檢查 |
-| `openclaw uninstall --all` | 完整移除 |
+| `ollama --version` | Check Ollama version |
+| `ollama pull <model>` | Pull a model |
+| `ollama launch openclaw` | Configure OpenClaw to use Ollama |
+| `openclaw config` | Enter configuration UI |
+| `openclaw models list` | View list of currently configured models |
+| `openclaw gateway install` | Install Gateway service |
+| `openclaw gateway start` | Start Gateway service |
+| `openclaw pairing approve telegram <code>` | Pair Telegram channel |
+| `openclaw security audit --deep` | Deep security audit |
+| `openclaw uninstall --all` | Complete removal |
 
 ---
 
-## 8. 💡 實用技巧
+## 8. 💡 Useful Tips
 
-### 8.1 防止 Ollama 自動卸載模型
+### 8.1 Prevent Ollama from automatically unloading models
 
-Ollama 自定 5 分鐘無活動後自動卸載模型，為提升下次對話的速度，建議設定成永不卸載。
+By default, Ollama automatically unloads models after 5 minutes of inactivity. To increase response speed for the next conversation, it's recommended to set it to never unload.
 
 #### Linux (Systemd):
 
-執行
+Run:
 
 ```
 sudo nano /etc/systemd/system/ollama.service
 ```
 
-在 [Service] 區段加入：
+Add the following to the `[Service]` section:
 
 ```
 Environment="OLLAMA_KEEP_ALIVE=-1"
 ```
 
-重載並重啟：
+Reload and restart:
 
 ```
 sudo systemctl daemon-reload
@@ -711,85 +711,85 @@ sudo systemctl restart ollama
 
 #### macOS:
 
-終端機執行：
+Run via terminal::
 ```
 launchctl setenv OLLAMA_KEEP_ALIVE "-1"
 ```
 
-然後重啟 Ollama 應用程式。 
+Then restart the Ollama application. 
 
 
-### 8.2 設定 Ollama 可同時處理的呼叫需求
+### 8.2 Configure Ollama for parallel requests
 
-若需要執行 OpenClaw 的 Multi-Agents 或 Multi-Sessions 等高級應用，因需要同時呼叫多次 LLM，因此須打開 Ollama 的平行需求數字：
+If you need OpenClaw's advanced applications like Multi-Agents or Multi-Sessions, you will need multiple concurrent LLM calls. Therefore, you must increase Ollama's parallel requests number:
 
 ```
-OLLAMA_NUM_PARALLEL=1 (自定值)
-OLLAMA_NUM_PARALLEL=4 (最大值)
+OLLAMA_NUM_PARALLEL=1 (Default value)
+OLLAMA_NUM_PARALLEL=4 (Maximum value)
 ```
 
-請參考 8.1 的作法，在  `/etc/systemd/system/ollama.service` 的 [Service] 區段加入：
+Please refer to section 8.1 and add the following to the `[Service]` section of `/etc/systemd/system/ollama.service`:
 
 ```
 Environment="OLLAMA_NUM_PARALLEL=4"
 ```
 
-MacOS用戶則是終端機執行：
+For macOS users, run this in your terminal:
 ```
 launchctl setenv OLLAMA_NUM_PARALLEL "4"
 ```
 
-注意：增加 Parallel Requests Number 也會增加GPU VRAM的耗用量
+Note: Increasing the Parallel Requests Number will also increase GPU VRAM consumption.
 
 
-### 8.3 調整 Ollama 的上下文長度
+### 8.3 Adjust Ollama's Context Length
 
-Ollama 的 Context Length 自定值是 4096 ，對 OpenClaw 來說實在太少了。建議調高至 16384～32768 以上 (注意：增加 Context Size也會增加GPU VRAM的耗用量)，可以透過下列指令來修改模型。
+Ollama's default Context Length is 4096, which is too small for OpenClaw. It's recommended to adjust it to 16384~32768 or higher (Note: Increasing Context Size also increases GPU VRAM consumption). You can use the following commands to modify the model.
 
 ```
-# 執行 Ollama 並載入模型
+# Launch Ollama and load the model
 ollama run glm-4.7-flash:latest
 
-# 設定上下文長度 (建議 16384 或 32768)
+# Set context length (16384 or 32768 recommended)
 >>> /set parameter num_ctx 32768
 
-# 儲存新模型，可輸入原先模型名稱 (glm-4.7-flash:latest) 直接更新
+# Save the new model, you can reuse the old model name (glm-4.7-flash:latest) to overwrite directly
 >>> /save <model name>
 
-# 離開 Ollama
+# Exit Ollama
 >>> /bye
 ```
 
-驗證是否更新 Context Size:
+Verify if the Context Size has updated:
 
 ```
-# 執行 Ollama 並載入模型
+# Launch Ollama and load the model again
 ollama run glm-4.7-flash:latest
 
-# 離開 Ollama
+# Exit Ollama
 >>> /bye
 
-# 檢視 Ollama 載入狀況
+# Check Ollama's loaded processes
 ollama ps
 
 NAME                    ID              SIZE     PROCESSOR    CONTEXT    UNTIL
 glm-4.7-flash:latest    baa9f0d690c1    22 GB    100% GPU     32768      Forever
 ```
 
-注意看 CONTEXT 和 UNTIL 就可以了。
+Just pay attention to the CONTEXT and UNTIL columns.
 
 
-### 8.4 更新 Ollama 模型配置 (v0.17.0 以上版本可免)
+### 8.4 Update Ollama Model Configuration (not required for v0.17.0+)
 
-若需要更換 Ollama 模型：
+If you need to switch Ollama models:
 
-1. 刪除 Ollama 配置檔：
+1. Delete the Ollama config file:
 
    ```bash
    rm ~/.ollama/config/config.json
    ```
 
-2. 重新執行配置：
+2. Re-run configuration:
 
    ```cmd
    ollama launch openclaw
@@ -797,74 +797,75 @@ glm-4.7-flash:latest    baa9f0d690c1    22 GB    100% GPU     32768      Forever
 
 ---
 
-## 9. 📚 相關連結
+## 9. 📚 Related Links
 
-- [👍 Windows 基本安裝指南](../README.md)
-- [🔄 從 Windows 遷移到 WSL2](migration-guide.md)
-- [🤔 為什麼需要 WSL2?](why-wsl2.md)
-- [🧠 部署與實戰經驗指南：該選哪個模型？](what-model.md)
+- [🏠 Back to News Log](../README.md)
+- [👉 Basic Windows Setup Guide](setup.md)
+- [🔄 Migration Guide](migration-guide.md)
+- [🤔 Why WSL2](why-wsl2.md)
+- [🧠 Model Selection](what-model.md)
 
-- [🦙 Ollama 官網](https://ollama.com/)
-- [🦞 OpenClaw 官網](https://openclaw.ai/)
-- [🦞 OpenClaw 文件 - Ollama 設定](https://docs.openclaw.ai/providers/ollama)
+- [🦙 Ollama Website](https://ollama.com/)
+- [🦞 OpenClaw Website](https://openclaw.ai/)
+- [🦞 OpenClaw Docs - Ollama Settings](https://docs.openclaw.ai/providers/ollama)
 - [🤖 Telegram BotFather](https://t.me/BotFather)
 
 ---
 
-## 10. 💬 社群支援
+## 10. 💬 Community Support
 
-遇到問題？歡迎在 [GitHub Issues](https://github.com/anomixer/openclaw-setup/issues) 提出！
+Facing issues? Feel free to open an issue on our [GitHub Issues](https://github.com/anomixer/openclaw-news/issues) page!
 
 ---
 
-## 11. 📝 更新日誌
+## 11. 📝 Changelog
 
 ### 2026-03-06
-- 🔄 更新 OLLAMA_NUM_PARALLEL 說明
-- 🦞 Ollama 可以同時應付多隻龍蝦了
+- 🔄 Updated `OLLAMA_NUM_PARALLEL` instructions
+- 🦞 Ollama can handle multiple lobsters concurrently now
 
 ### 2026-02-27
-- 🔄 更新 Ollama v0.17.0+ 自動安裝 OpenClaw 說明
-- 🦞 Ollama 跟龍蝦更綁定了
+- 🔄 Updated instructions for Ollama v0.17.0+ auto-installing OpenClaw
+- 🦞 Ollama is more tightly coupled with the lobster now
 
 ### 2026-02-21
-- 🚀 更新 Node 安裝方法
-- 🆕 支援最新 Ollama 0.16.1+ 與 OpenClaw 2026.2.21+ 版本
+- 🚀 Updated Node.js installation instructions
+- 🆕 Support for the latest Ollama 0.16.1+ and OpenClaw 2026.2.21+
 
 ### 2026-02-13
-- 🚀 更新 WSL 安裝方法
-- 🆕 支援最新 Ollama 0.15.6+ 與 OpenClaw 2026.2.12+ 版本
+- 🚀 Updated WSL installation instructions
+- 🆕 Support for the latest Ollama 0.15.6+ and OpenClaw 2026.2.12+
 
 ### 2026-02-05
-- 🚀 改用 `cmd` 快速安裝指令，自動化安裝 Node.js 與 npm
-- 🆕 支援最新 OpenClaw 2026.2.5+ 版本
-- 📋 重編目錄並更新翻譯至 `README-EN.md`
+- 🚀 Switched to `cmd` quick install command, automating Node.js and npm installation
+- 🆕 Support for the latest OpenClaw 2026.2.5+
+- 📋 Rebuilt TOC and updated translation in `README.md`
 
 ### 2026-02-02
-- 🔄 更新至 Ollama v0.15.4+ 版本
-- ✨ 新增 `ollama launch openclaw` 預配置功能
-- 📖 重構文件結構，提升可讀性
-- ⚠️ 強調必須使用一般使用者身份安裝
+- 🔄 Updated to Ollama v0.15.4+
+- ✨ Added `ollama launch openclaw` pre-configuration feature
+- 📖 Restructured docs to improve readability
+- ⚠️ Emphasized the requirement to install as a regular user
 
 ### 2026-01-30
-- 🦞 Repo 重新命名為 openclaw-setup
-- 🌍 新增英文版 README
-- 💬 新增 murmur.md 吐槽檔案
+- 🦞 Repo renamed to openclaw-news
+- 🌍 Added English README
+- 💬 Added murmur-tw.md rant file
 
 
 ---
 
-## 9. 相關連結
+## 9. Related Links
 
-- [主 README](../README.md) - Windows 原生教學
-- [為什麼需要 WSL2？](why-wsl2.md) - 技術背景
-- [從 Windows 遷移到 WSL2](migration-guide.md)
-- [WSL2 官方文件](https://learn.microsoft.com/windows/wsl/)
+- [👉 Basic Windows Setup Guide](setup.md) - Native Windows tutorial
+- [🤔 Why WSL2](why-wsl2.md) - Technical background
+- [🔄 Migration Guide](migration-guide.md)
+- [Official WSL2 Documentation](https://learn.microsoft.com/windows/wsl/)
 
 ---
 
-**最後更新**: 2026-03-06
+**Last Updated**: 2026-03-06
 
-**原創 by anomixer**  
+**Originally by anomixer**  
 
 **Clawdbot → Moltbot → OpenClaw**

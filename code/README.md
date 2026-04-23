@@ -7,7 +7,7 @@
 ### 1. `generate_murmur.js`: 混合動力龍蝦產生器 (毒舌代筆)
 
 負責呼叫 Google Gemini API，讓 AI 扮演毒舌戰地記者「anomixer」，自動把客觀的日常新聞轉化為充斥陰謀論、吹捧龍蝦與猛酸傳統大廠的戰況日誌。
-它會自動產生中文與英文兩種版本，**並會自動插入到 `murmur.md` 和 `murmur-en.md` 裡面最新的 `### 🟢` 標題下方！**
+它會自動產生中文與英文兩種版本，**並會自動插入到 `murmur-tw.md` 和 `murmur.md` 裡面最新的 `### 🟢` 標題下方！**
 
 #### 使用方式
 1. 確認已經安裝完套件 (`npm install`)
@@ -26,7 +26,7 @@ node generate_murmur.js
 # 餵給它今天想紀錄的新聞，AI 會根據你提供的資訊進行毒舌評論。
 node generate_murmur.js "今天的新聞: Apple 準備推出自己的代理人..."
 ```
-執行完畢後，它不但會自動寫入日誌內容，還會**自動更新 `murmur.md` 的目錄 (Table of Contents)**。你可以直接使用 `git diff` 檢查確認。
+執行完畢後，它不但會自動寫入日誌內容，還會**自動更新 `murmur-tw.md` 的目錄 (Table of Contents)**。你可以直接使用 `git diff` 檢查確認。
 
 ### 2. `update_stars.js`: Github Stars 自動更新器
 
@@ -51,7 +51,7 @@ node update_stars.js
 
 ## 🌐 關於網站佈署 (MkDocs)
 
-我們已經整合了 [MkDocs Material](https://squidfunk.github.io/mkdocs-material/)，能將 `murmur.md` 轉化為酷炫的情報網站。
+我們已經整合了 [MkDocs Material](https://squidfunk.github.io/mkdocs-material/)，能將 `murmur-tw.md` 轉化為酷炫的情報網站。
 
 - **設定檔**: `mkdocs.yml` (用來設定網站標題、顏色主題、以及左側菜單架構)
 - **自動化佈署**: 只要你將內容 `git push` 到 GitHub 的 `main` 或 `murmur-runner` 分支，GitHub Actions (`.github/workflows/pages.yml`) 就會自動在背後將它編譯並發布至 **GitHub Pages**。
@@ -80,7 +80,7 @@ npm install
 
 ## 📅 龍蝦戰地日誌：日常更新流程 (Daily Workflow)
 
-當你有新的新聞想要更新到 `murmur.md` 並同步到網站時，請依照以下 3 個步驟：
+當你有新的新聞想要更新到 `murmur-tw.md` 並同步到網站時，請依照以下 3 個步驟：
 
 ### 1. 產生毒舌日誌 (AI 生成)
 在 `code/` 目錄下執行以下指令（請確保已設定 `GEMINI_API_KEY`）：
@@ -88,7 +88,7 @@ npm install
 $env:GEMINI_API_KEY="你的金鑰"
 node generate_murmur.js "輸入今天的新聞摘要..."
 ```
-*這會自動將中英文日誌插入到 `murmur.md` 與 `murmur-en.md` 的最上方。*
+*這會自動將中英文日誌插入到 `murmur-tw.md` 與 `murmur.md` 的最上方。*
 
 ### 2. 更新 Github Stars (可選)
 如果你也想順便更新星星排名與里程碑表格：
@@ -109,6 +109,6 @@ git push origin main
 推上去後，GitHub Actions 會自動被喚醒（約 1 分鐘內）：
 - 它會自動執行 `build_prep.js` 整理路徑。
 - 它會自動編製雙語 MkDocs 網站。
-- **網站會自動更新**： [https://anomixer.github.io/openclaw-setup/](https://anomixer.github.io/openclaw-setup/)
+- **網站會自動更新**： [https://anomixer.github.io/openclaw-news/](https://anomixer.github.io/openclaw-news/)
 
-*註：`README.md` 在網頁版會自動被重新命名為 `setup.md` 以避免與首頁衝突。*
+*註：`README-tw.md` 在網頁版會自動被重新命名為 `setup.md` 以避免與首頁衝突。*

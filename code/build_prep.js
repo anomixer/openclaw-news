@@ -90,13 +90,13 @@ for (const [src, dest] of Object.entries(zhMaps)) {
     copyAndReplace(src, 'build_docs_zh/' + dest, zhReplacements, true);
 }
 if (fs.existsSync('pic')) fs.cpSync('pic', 'build_docs_zh/pic', { recursive: true });
-if (fs.existsSync('docs/custom.css')) fs.copyFileSync('docs/custom.css', 'build_docs_zh/custom.css');
+if (fs.existsSync('assets')) fs.cpSync('assets', 'build_docs_zh/assets', { recursive: true });
 
 // Execute for EN
 for (const [src, dest] of Object.entries(enMaps)) {
     copyAndReplace(src, 'build_docs_en/' + dest, enReplacements, false);
 }
 if (fs.existsSync('pic')) fs.cpSync('pic', 'build_docs_en/pic', { recursive: true });
-if (fs.existsSync('docs/custom.css')) fs.copyFileSync('docs/custom.css', 'build_docs_en/custom.css');
+if (fs.existsSync('assets')) fs.cpSync('assets', 'build_docs_en/assets', { recursive: true });
 
 console.log('Docs preparation for MKDocs done (ZH and EN folders ready).');

@@ -13,6 +13,11 @@ theme:
     - navigation.tabs
     - toc.integrate
   palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -26,7 +31,7 @@ theme:
       primary: teal
       toggle:
         icon: material/brightness-4
-        name: Switch to light mode
+        name: Switch to system preference
 
 extra:
   alternate:
@@ -49,4 +54,10 @@ docs_dir: build_docs_en
 site_dir: site
 
 extra_css:
-  - custom.css
+  - assets/custom.css
+
+extra_javascript:
+  - assets/lang-redirect.js
+
+markdown_extensions:
+  - attr_list

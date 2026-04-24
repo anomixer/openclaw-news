@@ -44,7 +44,6 @@
   - 🟢 2026-04-13: v2026.4.12-beta.1 Released, CVE-2026-33579 Security Heat, Stars Surge to 355.7K 🦞🚀
   - 🟢 2026-04-12: v2026.4.11 Released, Bubble Rendering, ChatGPT Import, Stars Surge to 355.2K 🦞🚀
   - 🟢 2026-04-11: v2026.4.10 Released, Active Memory Plugin, Stars Hold Strong at #6 Globally (354.4K) 🦞🚀
-  - 🔵 Mid-April 2026: Big Tech Warfare & Massive Code Leaks — From OpenAI's $100B Funding to the Birth of Microsoft Lobster PC 🦞🔥
   - 🔵 Early April 2026: Storm of Plagiarism & Bans — From Surpassing React to Anthropic's Nuclear Option 🦞🔥
   - 🔵 Late March 2026: The Lobster War Intensifies — Surging from 327K to 342K Stars, Giant Bans vs. OSS Counter-Strike 🦞🔥
   - 🔵 Mid-March 2026: GTC 2026 Coronation — From 299K to 325K Stars, Jensen Defines "Linux of AI Era" 🦞🚀
@@ -273,31 +272,6 @@ Because the battle is too fierce, to save everyone from scrolling through update
 - **🌍 Ecosystem Dynamics**: The addition of **Active Memory** means the lobster is no longer just "waiting for orders" but has gained a preliminary "proactive service awareness," and beginning to prepare relevant background info before the user even asks.
 
 ---
-
-### 🔵 Mid-April 2026: Big Tech Warfare & Massive Code Leaks — From OpenAI's $100B Funding to the Birth of Microsoft Lobster PC 🦞🔥
-
-- **💰 OpenAI Achieves $122.2 Billion Funding Miracle (4/20)**: Completed the largest funding round in AI history with a $852 billion valuation, cementing a massive capital moat for the agentic war.
-- **🚨 Anthropic Suffers Massive 510K-Line Core Code Leak (4/20)**: leaked source code revealed critical prompt injection vulnerabilities, forcing controversial mandatory selfie verification.
-- **💻 Microsoft Deeply Integrates OpenClaw (Lobster PC) (4/18)**: Announced native integration of OpenClaw into the Windows PC core, signaling the arrival of the OS-level agent era.
-- **🔮 Zuck (Zuckerberg) Predicts "2026 Full-Code AI-fication" (4/19)**: Meta CEO predicts AI will write 90% of production code by year-end 2026, forcing a radical shift in developer roles.
-- **🛡️ Anthropic Launches Claude Mythos Defensive Model (4/17)**: A dedicated security research model launched in response to the code leak, focusing on proactive vulnerability detection and auto-patching.
-- **🚀 Hermes-Agent Breaks 100K Stars & Unlocks YOLO Mode (4/20)**: OpenClaw's primary technical rival reached a major milestone, introducing aggressive autonomous permissions that spark security debates.
-- **🚨 Meta Restructures "Applied AI" Division with 8,000 Layoffs (4/18)**: A total pivot toward autonomous agents, highlighting big tech's commitment to the "Agent OS" landscape.
-- **🔊 xAI Releases Grok STT API at Disruptive Pricing (4/18)**: Elon Musk launched Speech-to-Text with market-shaking prices, accelerating multimodal agent adoption.
-- **⚖️ OpenAI Backs AI Liability Immunity Legislation (4/18)**: Pushing for legal protections to reduce corporate risks associated with agent-driven incidents, sparking ethical debates.
-- **🛡️ OpenClaw v2026.4.15 Announces Full Claude Opus 4.7 Support (4/17)**: Significant optimizations in reasoning speed and image understanding; cross-agent routing reaches maturity.
-- **🔊 Google Gemini 3.1 Flash TTS Integration (4/16)**: Ultra-low latency voice tech enables "Lobsters" to engage in natural emotional dialogue, opening the voice-agent era.
-- **🚨 Anthropic Mandates Gov ID & Selfie Verification (4/16)**: An extreme measure to combat unauthorized 3rd-party connections, slammed by privacy advocates globally.
-- **🔬 OpenAI Debuts GPT-Rosalind for Scientific Frontiers (4/17)**: A specialized model for life sciences, signaling the deep integration of agents into professional research.
-- **📊 Nvidia Defines "Cost per Token" as the New Standard (4/17)**: Blackwell architecture slashes token costs by 35x, officially replacing FLOPS as the benchmark for compute efficiency.
-- **🏢 HubSpot Launches Fleet of 4 Enterprise AI Agents (4/16)**: Demonstrating the explosion of autonomous automation in marketing and customer service.
-- **🕸️ Cloudflare Mesh Solution Released (4/16)**: A secure access protocol designed for agents to bridge cloud brains with on-premise enterprise data.
-- **🧠 OpenClaw "Active Memory" Plugin Debuts (4/14)**: Proactive context extraction mechanism that shifts agents from "reactive" to "proactive service" mode.
-- **🇹🇼 PwC Taiwan Releases Enterprise AI Report (4/15)**: Reports 91% of Taiwanese firms are deploying autonomous agents, with agentic infra becoming the core of digital transformation.
-- **🤫 "Zero Token" (openclaw-zero-token) Movement Emerges (4/13)**: A technical counter-strike by the community against subscription blocks, offering low-cost "lobster-rearing" solutions.
-- **🧹 ClawHub Launches "ClawHavoc" Massive Sweep (4/20)**: Officials removed over 2,400 malicious skills in one go, significantly hardening the ecosystem's security boundaries.
-- **💻 Beelink SER5 MAX Becomes the Ultimate Budget "Lobster PC" (4/15)**: Cost-effective local compute drives a surge in offline OpenClaw deployments.
-- **🌋 Bytedance Volcano Engine Launches OpenClaw Asia Mirror (4/11)**: Optimizing Skill download speeds for Asian developers, highlighting the localization of the agent ecosystem.
 
 ### 🔵 Early April 2026: Storm of Plagiarism & Bans — From Surpassing React to Anthropic's Nuclear Option 🦞🔥
 

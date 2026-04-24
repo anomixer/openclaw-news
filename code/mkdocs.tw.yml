@@ -13,20 +13,25 @@ theme:
     - navigation.tabs
     - toc.integrate
   palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: 切換為亮色模式
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: teal
       toggle:
         icon: material/brightness-7
-        name: Switch to dark mode
+        name: 切換為暗黑模式
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: teal
       toggle:
         icon: material/brightness-4
-        name: Switch to light mode
+        name: 切換為跟隨系統偏好
 
 extra:
   alternate:
@@ -49,5 +54,11 @@ docs_dir: build_docs_zh
 site_dir: site/tw
 
 extra_css:
-  - custom.css
+  - assets/custom.css
+
+extra_javascript:
+  - assets/lang-redirect.js
+
+markdown_extensions:
+  - attr_list
 

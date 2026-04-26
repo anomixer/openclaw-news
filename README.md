@@ -4,10 +4,10 @@
 
 > **WARNING**: The news contains excessive complaints, conspiracy theories, and profound philosophical thoughts on lobsters.
 > 
-> **Last Updated**: 2026-04-25
-> **Status**: OpenClaw is surging, now past 363.5K stars! **Ranked #6 globally on GitHub, holding strong in the top six!** 🦞🚀
+> **Last Updated**: 2026-04-26
+> **Status**: OpenClaw is surging, now past 364K stars! **Ranked #6 globally on GitHub, holding strong in the top six!** 🦞🚀
 
-> **OpenClaw Version**: v2026.4.23 (Latest Stable) | OpenRouter Images, Subagent Forked Context, Telegram Image Fixes 🦞🏰
+> **OpenClaw Version**: v2026.4.24 (Latest Stable) | Google Meet, Android Integration, DeepSeek V4 Default, TaskFlows 🦞🏰
 
 ---
 
@@ -18,16 +18,17 @@
 
 ## ⏱️ TL;DR (30-second summary)
 
-1. **The Protagonist**: **OpenClaw** (🔥 363.5K Stars, **solid 6th in history**), leading `developer-roadmap` by about 9.9K stars. The latest release v2026.4.23 brings OpenRouter image support and subagent forked context.
-2. **Today's Shockwaves**: **Security vulnerabilities disclosed and expanded regulation**; **Hermes-Agent surges to 115.4K stars** gaining Tencent Cloud one-click deployment support.
-3. **Model Trends**: **DeepSeek-V4** (1M context/1.6T open-source) and **OpenAI GPT-5.5** (Agentic workflow focus) released back-to-back, providing the ultimate brains for OpenClaw!
-4. **Latest Progress**: Stars reached 363,500 (363.5K). The showdown with Hermes-Agent has become the most compelling tech battle of 2026!
+1. **The Protagonist**: **OpenClaw** (🔥 364K Stars, **solid 6th in history**), leading `developer-roadmap` by about 10.4K stars. v2026.4.24 brings Google Meet, Android Assistant Integration, and TaskFlows.
+2. **Today's Shockwaves**: OpenAI officially shuts down Sora to reallocate compute; Meta lays off 8,000 to fund Agentic AI; OpenAI Chronicle paywall causes user migration to OpenClaw.
+3. **Model Trends**: **DeepSeek-V4 Flash** becomes the default onboarding model for OpenClaw; GPT-5.5 continues to dominate high-tier agentic tasks.
+4. **Latest Progress**: Stars reached 364,000 (364K), and the duel with Hermes-Agent intensifies! 🦞🚀
 
 ---
 
 ## 📚 Table of Contents
 
 - **Part 1: 📅 Daily Battlefield Logs (The Logs)**
+  - 🟢 2026-04-26: OpenAI Shuts Down Sora, Meta Mass Layoffs, v2026.4.24 Released, Stars hit 364K 🦞🚀
   - 🟢 2026-04-25: DeepSeek v4 & GPT-5.5 Shockwaves, v2026.4.23 Released, Hermes-Agent hits 115.4K 🦞🚀
   - 🟢 2026-04-24: Lobster Meme Surge, v2026.4.22 Released, REM Vulnerability Fix, Hermes-Agent Web Console, Stars hit 363.5K 🦞🚀
   - 🟢 2026-04-23: OpenClaw Trojan Outbreak, Microsoft Security Warning, Claude Pay-as-you-go, Windscribe Integration, Stars hit 362.4K 🦞🚀
@@ -81,6 +82,18 @@
 ## Part 1: 📅 Daily Battlefield Logs (The Logs)
 
 Because the battle is too fierce, to save everyone from scrolling through updates from the beginning every day, this section is now in a "Date-Descending Log Stream" format.
+
+### 🟢 2026-04-26: OpenAI Shuts Down Sora, Meta Mass Layoffs, v2026.4.24 Released, OpenAI Chronicle Migration, Stars hit 364K 🦞🚀
+
+- **🛡️ OpenClaw v2026.4.24 Official Release**: A major annual update! Native **Google Meet** integration as a participant plugin, supporting auto-minutes and agent-led speech. Added **DeepSeek-V4 Pro/Flash** support. Introduced **TaskFlows** for parallel task management and added **memory-wiki** for persistent memory. Additionally, native **Android Voice Assistant integration** was included, allowing users to trigger OpenClaw directly via phone voice commands.
+- **🎬 End of an Era: OpenAI Officially Shuts Down Sora Today**: As forewarned on April 15, to reallocate precious compute resources entirely toward GPT-5.5 and frontier reasoning models, OpenAI officially terminated all Sora web and API services today. The community sighed: "Video generation couldn't beat agents that actually get work done."
+- **💸 Giant Layoffs: Meta Cuts 8,000 to Pave the Way for Agentic AI**: Meta confirmed it will lay off 10% of its workforce (approx. 8,000 employees) and freeze 6,000 open roles to offset a staggering $135 billion investment in AI infrastructure for 2026 (while partnering with AWS for Graviton processors). The community roasted: "Zuck really thinks lobsters are cheaper than middle managers."
+- **🚨 Industry: OpenAI Chronicle Paywall Triggers "Migration Wave"**: OpenAI moved its core agent memory and vision feature "Chronicle" behind a steep $200/mo paywall, driving a massive influx of dev teams to OpenClaw's open-source alternative today.
+- **📈 GitHub Stars (364K)**: **Solidly #6 globally in history!** Leading #7 `developer-roadmap` (353.6K) by approximately **10,400 stars**. Gap to #5 `free-programming-books` (386K) narrowed to **22K stars**.
+- **⚔️ Competitor: Hermes-Agent hits 117K Stars**: Primary rival Hermes-Agent (117K Stars) remains strong, holding the #2 spot on the Star History weekly chart. Community debate over Hermes' "learning-first architecture" vs. OpenClaw's "plugin architecture" continues.
+- **🌍 Ecosystem Dynamics**:
+    - **ClawHub Plugins Break 62,500**: Ecosystem continues rapid expansion, with today's focus on automated meeting orchestration tools and built-in video/music generation plugins.
+    - **Contributor Roster**: GitHub code contributors officially surpassed **1,848**, a new high for open-source momentum.
 
 ### 🟢 2026-04-25: DeepSeek v4 & GPT-5.5 Shockwaves, v2026.4.23 Released, Hermes-Agent hits 115.4K 🦞🚀
 
@@ -446,48 +459,48 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 
 | Project | Stars | Language | Features | Use Case |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | 363.5K | TypeScript 🟦 | Official Full Version | Full features, production |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 115.4K | Python 🐍 | Super memory, self-evolving, OpenClaw challenger | Elite AI Agent competition |
-| **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 47K | Markdown | Curated openclaw skills list | Finding skills |
-| **[nanobot](https://github.com/HKUDS/nanobot)** | 40.5K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
-| **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 30.5K | Rust 🦀 | Extreme performance, < 5MB | Performance freaks |
-| **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 30.1K | Markdown | Community use case collection | Need inspiration? |
-| **[picoclaw](https://github.com/sipeed/picoclaw)** | 28.4K | Go 🐹 | Light, fast, deploy anywhere | Edge, IoT, $10 boards |
-| **[nanoclaw](https://github.com/qwibitai/nanoclaw)** | 27.7K | TypeScript 🟦 | Containerized, secure, WhatsApp integ. | Security-first, IM |
-| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 26K | Markdown | Obsidian Agent Skills | Notes + Agent |
-| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 22.4K | TypeScript 🟦 | 24/7 Cowork app | Local, collaboration |
-| **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** | 19.7K | JavaScript 🟨 | NVIDIA enterprise security sandbox | Enterprise, security-first |
-| **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 19.4K | Python 🐍 | Claude Code Skill, markdown planning | Skill dev template |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 364K | TypeScript 🟦 | Official Full Version | Full features, production |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 117K | Python 🐍 | Super memory, self-evolving, OpenClaw challenger | Elite AI Agent competition |
+| **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 47.2K | Markdown | Curated openclaw skills list | Finding skills |
+| **[nanobot](https://github.com/HKUDS/nanobot)** | 40.9K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
+| **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 30.6K | Rust 🦀 | Extreme performance, < 5MB | Performance freaks |
+| **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 30.2K | Markdown | Community use case collection | Need inspiration? |
+| **[picoclaw](https://github.com/sipeed/picoclaw)** | 28.5K | Go 🐹 | Light, fast, deploy anywhere | Edge, IoT, $10 boards |
+| **[nanoclaw](https://github.com/qwibitai/nanoclaw)** | 28K | TypeScript 🟦 | Containerized, secure, WhatsApp integ. | Security-first, IM |
+| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 26.5K | Markdown | Obsidian Agent Skills | Notes + Agent |
+| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 22.6K | TypeScript 🟦 | 24/7 Cowork app | Local, collaboration |
+| **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** | 19.8K | JavaScript 🟨 | NVIDIA enterprise security sandbox | Enterprise, security-first |
+| **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 19.6K | Python 🐍 | Claude Code Skill, markdown planning | Skill dev template |
 | **[memU](https://github.com/NevaMind-AI/memU)** | 13.4K | Python 🐍 | 24/7 proactive Agent memory | Long-term memory |
-| **[ironclaw](https://github.com/nearai/ironclaw)** | 11.9K | Rust 🦀 | Privacy & security-centric Rust port | Secure scenarios |
+| **[ironclaw](https://github.com/nearai/ironclaw)** | 12K | Rust 🦀 | Privacy & security-centric Rust port | Secure scenarios |
 | **[moltworker](https://github.com/cloudflare/moltworker)** | 9.9K | TypeScript 🟦 | Run on Cloudflare Workers | Serverless, zero maint. |
-| **[MemOS](https://github.com/MemTensor/MemOS)** | 8.5K | Python 🐍 | AI Memory OS, cross-task Skill memory | Memory & Skill reuse |
+| **[MemOS](https://github.com/MemTensor/MemOS)** | 8.7K | Python 🐍 | AI Memory OS, cross-task Skill memory | Memory & Skill reuse |
 | **[nullclaw](https://github.com/nullclaw/nullclaw)** | 7.3K | Zig ⚡ | Fastest, smallest, automated | Extreme optimization |
 | **[refly](https://github.com/refly-ai/refly)** | 7.2K | TypeScript 🟦 | 1st open-source Agent Skills Builder | Visual Skill orchestr. |
-| **[manifest](https://github.com/mnfst/manifest)** | 5.5K | TypeScript 🟦 | Real-time cost monitoring | Cost Observability |
-| **[mimiclaw](https://github.com/memovai/mimiclaw)** | 5.2K | C ⚙️ | Runs on $5 chip, no OS/Node.js | Extreme embedded |
+| **[manifest](https://github.com/mnfst/manifest)** | 5.7K | TypeScript 🟦 | Real-time cost monitoring | Cost Observability |
+| **[mimiclaw](https://github.com/memovai/mimiclaw)** | 5.3K | C ⚙️ | Runs on $5 chip, no OS/Node.js | Extreme embedded |
 | **[openclaw-zero-token](https://github.com/linuxhsj/openclaw-zero-token)** | 4.5K | TypeScript 🟦 | First true Zero Token, use all models free | Zero-cost lobster farming |
 | **[clawdbot-feishu](https://github.com/m1heng/clawdbot-feishu)** | 4.3K | TypeScript 🟦 | Feishu (Lark) integration | Feishu enterprise |
 | **[EverMemOS](https://github.com/EverMind-AI/EverMemOS)** | 3.5K | Python 🐍 | Cross-LLM & platform memory OS | Advanced memory |
 | **[antigravity-claude-proxy](https://github.com/badrisnarayanan/antigravity-claude-proxy)** | 3.5K | JavaScript 🟨 | Antigravity model proxy | Using Antigravity (Banned🚫) |
-| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 3K | Python 🐍/Rust 🦀/TS 🟦 | Stanford Made, 88.7% Local | Zero API cost, Extreme Privacy |
+| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 3.1K | Python 🐍/Rust 🦀/TS 🟦 | Stanford Made, 88.7% Local | Zero API cost, Extreme Privacy |
 | **[TinyClaw](https://github.com/jlia0/tinyclaw)** | 2.8K | C/C++ ⚙️ | Microcontroller grade (256KB RAM) | Fit in digital watch 🤯 |
 | **[moltis](https://github.com/moltis-org/moltis)** | 2.6K | Rust 🦀 | Single binary, sandboxed, auditable | Enterprise security |
 | **[VisionClaw](https://github.com/sseanliu/VisionClaw)** | 1.5K | Swift 🍎/Kotlin 🟣/JS 🟨 | Smart glasses Claw | Wearable agent |
 | **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 697 | TeX 📄/HTML 🌐/Python 🐍 | Biomed field specific Claw | Medical assistance |
-| **[MicroClaw](https://github.com/microclaw/microclaw)** | 659 | Rust 🦀 | Extension-optimized micro version | Light browser dev |
-| **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 606 | Rust 🦀 | 6MB ultimate light form (Wannabe) | Ultimate no-compromise |
-| **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 530 | TypeScript 🟦 | Secure orchestr. layer, 7 IM apps | ComfyUI deep integration |
-| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 446 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
-| **[awesome-claws](https://github.com/machinae/awesome-claws)** | 403 | Markdown | Master variant list | Look for shrimps here |
-| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 387 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
+| **[MicroClaw](https://github.com/microclaw/microclaw)** | 669 | Rust 🦀 | Extension-optimized micro version | Light browser dev |
+| **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 611 | Rust 🦀 | 6MB ultimate light form (Wannabe) | Ultimate no-compromise |
+| **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 531 | TypeScript 🟦 | Secure orchestr. layer, 7 IM apps | ComfyUI deep integration |
+| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 457 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
+| **[awesome-claws](https://github.com/machinae/awesome-claws)** | 405 | Markdown | Master variant list | Look for shrimps here |
+| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 402 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
 | **[Project Golem](https://github.com/Arvincreator/project-golem)** | 352 | JavaScript + TypeScript | Trad Chinese, Google Auth, Free API | Web automation |
 | **[cloud-claw](https://github.com/miantiao-me/cloud-claw)** | 255 | TypeScript 🟦 | Cloudflare + OpenClaw | Cloud edge compute |
-| **[SmallClaw](https://github.com/XposeMarket/SmallClaw)** | 236 | TypeScript 🟦 | Small shrimp | Just another micro shrimp |
+| **[SmallClaw](https://github.com/XposeMarket/SmallClaw)** | 246 | TypeScript 🟦 | Small shrimp | Just another micro shrimp |
 | **[MaxClaw](https://github.com/Lichas/maxclaw)** | 214 | Go 🐹/TS 🟦 | Small shrimp (Clashes with MiniMax) | Light Agent |
-| **[lightclaw](https://github.com/zofrasca/lightclaw)** | 205 | Rust 🦀/Shell 🐚 | Light shrimp | Light solution |
-| **[MiniClawd](https://github.com/FoundDream/miniclawd)** | 123 | Python 🐍 | Zero dependencies, pure Python | Script integration |
-| **[LiteClaw](https://github.com/liteclaw/liteclaw)** | 57 | Python/JS 🟨 | Web Worker exclusive version | Pure web-end Agent |
+| **[lightclaw](https://github.com/zofrasca/lightclaw)** | 208 | Rust 🦀/Shell 🐚 | Light shrimp | Light solution |
+| **[MiniClawd](https://github.com/FoundDream/miniclawd)** | 125 | Python 🐍 | Zero dependencies, pure Python | Script integration |
+| **[LiteClaw](https://github.com/liteclaw/liteclaw)** | 58 | Python/JS 🟨 | Web Worker exclusive version | Pure web-end Agent |
 | **[FlashClaw](https://github.com/GuLu9527/flashclaw)** | 27 | Zig/C ⚡⚙️ | Supposedly <100ms ultra-fast | Real-time voice/ms reflex |
 | **[winclaw](https://github.com/itc-ou-shigou/winclaw)** | 19 | TypeScript 🟦 | Windows-exclusive renamed version of OpenClaw | Windows users, Simplified Chinese support |
 | **[miniclaw](https://github.com/wende/miniclaw)** | 1 | TypeScript 🟦 | Protocol test micro-backend (Bun) | Protocol test & dev |
@@ -661,29 +674,30 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | **2026/04/22** | **361.9K** | Google Cloud Next, Meta ATA Project | 🦞🚀 |
 | **2026/04/23** | **362.4K** | Live fetch update | 🦞 |
 | **2026/04/24** | **363.5K** | Live fetch update | 🦞 |
-| **2026/04/25** | **363.5K** | 即時抓取更新 | 🦞 |
+| **2026/04/25** | **363.5K** | Live fetch update | 🦞 |
+| **2026/04/26** | **364K** | Live fetch update | 🦞 |
 
-#### 🏆 Global GitHub Stars Ranking (Updated 2026-04-25)
+#### 🏆 Global GitHub Stars Ranking (Updated 2026-04-26)
 
 | Rank | Project | Stars | Notes |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 495K | **🏆 Global #1! Most starred repository.** |
-| 2 | awesome | 458.7K | Resource Hub |
-| 3 | freeCodeCamp | 443.5K | Tutorial Hub |
-| 4 | public-apis | 426.3K | Collection of Free APIs |
+| 1 | build-your-own-x | 496.1K | **🏆 Global #1! Most starred repository.** |
+| 2 | awesome | 459K | Resource Hub |
+| 3 | freeCodeCamp | 443.6K | Tutorial Hub |
+| 4 | public-apis | 426.5K | Collection of Free APIs |
 | 5 | free-programming-books | 386K | Books collection |
-| **6** | **OpenClaw** | **363.5K** | **🏆 Passed Rank #7! Entering top 6 globally! 🚀** |
+| **6** | **OpenClaw** | **364K** | **🏆 Passed Rank #7! Entering top 6 globally! 🚀** |
 | 7 | developer-roadmap | 353.6K | Learning Paths |
-| 8 | system-design-primer | 344.1K | System Design Primer |
+| 8 | system-design-primer | 344.4K | System Design Primer |
 | 9 | coding-interview-university | 341.7K | CS study plan |
-| 10 | awesome-python | 294.3K | Curated Python resources |
-| 11 | awesome-selfhosted | 288K | Curated self-hosted software |
+| 10 | awesome-python | 294.4K | Curated Python resources |
+| 11 | awesome-selfhosted | 288.2K | Curated self-hosted software |
 | 12 | 996.ICU | 275.9K | Labor rights protest project |
 | 13 | project-based-learning | 262.9K | Project-based learning resources |
 | 14 | **React** | 244.7K | **🦞 Surpassed by OpenClaw! Former frontend overlord** |
-| 15 | **Linux** | 230.7K | **🦞 Surpassed by OpenClaw! OS Core** |
+| 15 | **Linux** | 230.8K | **🦞 Surpassed by OpenClaw! OS Core** |
 
-> **Next Goal**: free-programming-books (386.0K). Current gap: **22.5K**. The lobster continues to evolve! 🦞🚀
+> **Next Goal**: free-programming-books (386K). Current gap: **22K**. The lobster continues to evolve! 🦞🚀
 
 ### 🏛️ Peter Joins OpenAI & European Regulation
 - **The Move**: Founder Peter Steinberger turned down Meta to join OpenAI, focusing on Personal Agents. OpenClaw transitioned to an independent foundation.

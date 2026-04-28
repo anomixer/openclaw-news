@@ -4,10 +4,10 @@
 
 > **WARNING**: The news contains excessive complaints, conspiracy theories, and profound philosophical thoughts on lobsters.
 > 
-> **Last Updated**: 2026-04-27
-> **Status**: OpenClaw is surging, now past 364.7K stars! **Ranked #6 globally on GitHub, holding strong in the top six!** 🦞🚀
+> **Last Updated**: 2026-04-28
+> **Status**: OpenClaw is surging, now past 365.4K stars! **Ranked #6 globally on GitHub, holding strong in the top six!** 🦞🚀
 
-> **OpenClaw Version**: v2026.4.24 (Latest Stable) | Google Meet, Android Integration, DeepSeek V4 Default, TaskFlows 🦞🏰
+> **OpenClaw Version**: v2026.4.26 (Latest Stable) | QQBot Group Chat, Yuanbao Integration, `openclaw migrate` CLI 🦞🏰
 
 ---
 
@@ -18,16 +18,17 @@
 
 ## ⏱️ TL;DR (30-second summary)
 
-1. **The Protagonist**: **OpenClaw** (🔥 364.7K Stars, **solid 6th in history**), leading `developer-roadmap` by about 11.1K stars. v2026.4.24 brings Google Meet, Android Assistant Integration, and TaskFlows.
-2. **Today's Shockwaves**: Big Tech earnings week begins; Musk vs. Altman legal battle officially starts in court; Meta adopts AWS Graviton for agent compute.
-3. **Model Trends**: **DeepSeek-V4 Flash** becomes the default onboarding model for OpenClaw; GPT-5.5 continues to dominate high-tier agentic tasks.
-4. **Latest Progress**: Stars reached 364,700 (364.7K), and the local "Lobster Rig" DGX Spark prices continue to soar! 🦞🚀
+1. **The Protagonist**: **OpenClaw** (🔥 365.4K Stars, **solid 6th in history**), leading `developer-roadmap` by about 11.4K stars. v2026.4.26 brings `openclaw migrate` CLI and QQBot group chat support.
+2. **Today's Shockwaves**: **Microsoft and OpenAI end their exclusivity agreement**; **China officially blocks Meta's $2B acquisition of Manus**, intensifying geopolitical tech tensions.
+3. **Model Trends**: **DeepSeek-V4 Flash** continues as the default onboarding model; Tencent Yuanbao plugin integration added.
+4. **Latest Progress**: Stars reached 365,400 (365.4K), and the "user grab war" with Hermes-Agent intensifies! 🦞🚀
 
 ---
 
 ## 📚 Table of Contents
 
 - **Part 1: 📅 Daily Battlefield Logs (The Logs)**
+  - 🟢 2026-04-28: v2026.4.26 Released, `openclaw migrate` CLI, Security Scrutiny, Stars hit 365.4K 🦞🚀
   - 🟢 2026-04-27: Big Tech Earnings Eve, Musk vs Altman Courtroom, DeepSeek-V4 Flash Default, Stars hit 364.7K 🦞🚀
   - 🟢 2026-04-26: OpenAI Shuts Down Sora, Meta Mass Layoffs, v2026.4.24 Released, OpenAI Chronicle Migration, Stars hit 364K 🦞🚀
   - 🟢 2026-04-25: DeepSeek v4 & GPT-5.5 Shockwaves, v2026.4.23 Released, Hermes-Agent hits 115.4K 🦞🚀
@@ -83,6 +84,19 @@
 ## Part 1: 📅 Daily Battlefield Logs (The Logs)
 
 Because the battle is too fierce, to save everyone from scrolling through updates from the beginning every day, this section is now in a "Date-Descending Log Stream" format.
+
+### 🟢 2026-04-28: v2026.4.26 Released, `openclaw migrate` CLI, Security Scrutiny, Stars hit 365.4K 🦞🚀
+
+- **🛡️ OpenClaw v2026.4.26 Official Release**: Introduced the powerful **`openclaw migrate`** CLI tool, natively supporting imports of config and memory from Hermes-Agent and Claude Code, seen as a direct "poaching" attempt on competitors. Added **QQBot full group chat support** and Tencent Yuanbao plugin; Control UI introduced Google Live browser realtime voice sessions.
+- **🚨 Security & Regulation: Scrutiny Continues Over Exposed Instances**: Following the earlier CVE-2026-33579 (CVSS 9.8) vulnerability, multiple cybersecurity outlets published reports today warning that a massive number of unprotected OpenClaw instances remain exposed on the public internet, urging enterprise users to configure firewalls and permission isolation immediately.
+- **💸 US-China Geopolitics: China Blocks Meta's Manus Acquisition**: Beijing has officially blocked Meta's $2 billion acquisition of the AI agent startup Manus, highlighting the intensifying US-China geopolitical rivalry in the Agentic AI space. In other news, Microsoft and OpenAI have agreed to end their exclusivity rights on models.
+- **💸 Industry Dynamics: GitHub Copilot Moves to Usage-Based Billing**: GitHub officially announced today that starting June 1, Copilot will transition entirely to a usage-based billing model (consuming GitHub AI Credits). This major shift has sparked intense discussion within the developer community.
+- **📈 Model Trends: DeepSeek's New Model Fails to Wow Markets**: DeepSeek's recently launched AI model received a lukewarm response from the financial markets. In a fast-changing industry, this suggests investors might be suffering from "model upgrade fatigue" and are now looking for more substantial commercial monetization capabilities rather than just cost-efficiency.
+- **📈 GitHub Stars (365.4K)**: **Solidly #6 globally in history!** Surged to **365.4K Stars** today, leading #7 `developer-roadmap` (~354.0K) by over **11.4K stars**. Gap to #5 `free-programming-books` (386.3K) narrowed to **20.9K stars**. (React is currently at 244.7K rank #14, Linux 231.1K rank #15).
+- **⚔️ Competitor Zone: Hermes-Agent Cloud Push**: Top rival Hermes-Agent continues to expand, with Tencent Cloud Lighthouse announcing one-click deployment support for it today. Meanwhile, with OpenClaw releasing its migrate tool, the "user grab war" between the two major open-source agent frameworks is escalating.
+- **🌍 Ecosystem Dynamics**:
+    - **ClawHub Plugins Break 64,000**: Driven by new plugins like Tencent Yuanbao, the ecosystem sees a fresh wave of growth.
+    - **Contributor Roster**: GitHub code contributors remain highly active, with the total steadily rising.
 
 ### 🟢 2026-04-27: Big Tech Earnings Eve, Musk vs Altman Courtroom, DeepSeek-V4 Flash Default, Stars hit 364.7K 🦞🚀
 
@@ -691,28 +705,29 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | **2026/04/25** | **363.5K** | Live fetch update | 🦞 |
 | **2026/04/26** | **364K** | Live fetch update | 🦞 |
 | **2026/04/27** | **364.7K** | Live fetch update | 🦞 |
+| **2026/04/28** | **365.4K** | Live fetch update | 🦞 |
 
-#### 🏆 Global GitHub Stars Ranking (Updated 2026-04-27)
+#### 🏆 Global GitHub Stars Ranking (Updated 2026-04-28)
 
 | Rank | Project | Stars | Notes |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 496.9K | **🏆 Global #1! Most starred repository.** |
-| 2 | awesome | 459.3K | Resource Hub |
-| 3 | freeCodeCamp | 443.6K | Tutorial Hub |
-| 4 | public-apis | 426.7K | Collection of Free APIs |
-| 5 | free-programming-books | 386.1K | Books collection |
-| **6** | **OpenClaw** | **364.7K** | **🏆 Passed Rank #7! Entering top 6 globally! 🚀** |
-| 7 | developer-roadmap | 353.6K | Learning Paths |
-| 8 | system-design-primer | 344.7K | System Design Primer |
+| 1 | build-your-own-x | 497.5K | **🏆 Global #1! Most starred repository.** |
+| 2 | awesome | 459.6K | Resource Hub |
+| 3 | freeCodeCamp | 443.7K | Tutorial Hub |
+| 4 | public-apis | 427.2K | Collection of Free APIs |
+| 5 | free-programming-books | 386.3K | Books collection |
+| **6** | **OpenClaw** | **365.4K** | **🏆 Passed Rank #7! Entering top 6 globally! 🚀** |
+| 7 | developer-roadmap | 354.0K* | Learning Paths |
+| 8 | system-design-primer | 345.2K | System Design Primer |
 | 9 | coding-interview-university | 341.7K | CS study plan |
-| 10 | awesome-python | 294.5K | Curated Python resources |
+| 10 | awesome-python | 294.7K | Curated Python resources |
 | 11 | awesome-selfhosted | 288.4K | Curated self-hosted software |
 | 12 | 996.ICU | 275.9K | Labor rights protest project |
 | 13 | project-based-learning | 262.9K | Project-based learning resources |
 | 14 | **React** | 244.7K | **🦞 Surpassed by OpenClaw! Former frontend overlord** |
-| 15 | **Linux** | 230.9K | **🦞 Surpassed by OpenClaw! OS Core** |
+| 15 | **Linux** | 231.1K | **🦞 Surpassed by OpenClaw! OS Core** |
 
-> **Next Goal**: free-programming-books (386.1K). Current gap: **21.4K**. The lobster continues to evolve! 🦞🚀
+> **Next Goal**: free-programming-books (386.3K). Current gap: **20.9K**. The lobster continues to evolve! 🦞🚀
 
 ### 🏛️ Peter Joins OpenAI & European Regulation
 - **The Move**: Founder Peter Steinberger turned down Meta to join OpenAI, focusing on Personal Agents. OpenClaw transitioned to an independent foundation.

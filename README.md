@@ -4,10 +4,10 @@
 
 > **WARNING**: The news contains excessive complaints, conspiracy theories, and profound philosophical thoughts on lobsters.
 > 
-> **Last Updated**: 2026-04-30
-> **Status**: OpenClaw is surging, now past 366.4K stars! **Ranked #6 globally on GitHub, holding strong in the top six!** 🦞🚀
+> **Last Updated**: 2026-05-01
+> **Status**: OpenClaw is surging, now past 366.9K stars! **Ranked #6 globally on GitHub, holding strong in the top six!** 🦞🚀
 
-> **OpenClaw Version**: v2026.4.27 (Latest Stable) | Codex Computer Use, DeepInfra Support, Tencent Yuanbao, amazeeClaw Hosting 🦞🏰
+> **OpenClaw Version**: v2026.4.29 (Latest Stable) | People Wiki, NVIDIA Official Integration, Bedrock 4.7 Thinking Parity 🦞🏰
 
 ---
 
@@ -18,16 +18,17 @@
 
 ## ⏱️ TL;DR (30-second summary)
 
-1. **The Protagonist**: **OpenClaw** (🔥 366.4K Stars, **solid 6th in history**), leading `developer-roadmap` by about 12.5K stars. v2026.4.27 brings the industry-shaking Codex Computer Use and DeepInfra support.
-2. **Today's Shockwaves**: **Big Tech Earnings Week** focuses on AI Capex (expected to hit $650B); **Samsung** operating profit surges 750% (HBM demand); **DeepSeek** accused of knowledge plagiarism by US.
-3. **Model Trends**: **DeepSeek-V4 Flash** continues pricing attacks; OpenClaw natively supports **Codex** desktop control mode.
-4. **Latest Progress**: Stars reached 366,400 (366.4K). "AI Employees" enter the era of Codex autonomous control! 🦞🚀
+1. **The Protagonist**: **OpenClaw** (🔥 366.9K Stars, **solid 6th in history**), leading `developer-roadmap` by about 13K stars. v2026.4.29 brings the "People Wiki" and official NVIDIA integration.
+2. **Today's Shockwaves**: **OpenAI GPT-5.5** sweeps benchmarks; **Anthropic Claude Mythos** enters restricted preview; **NVIDIA** announces a $26B five-year investment plan for open-source AI models.
+3. **Model Trends**: **GPT-5.5** ("Spud") achieves 82.7% on Terminal-Bench; **Claude 4.7 Opus** achieves thinking parity; OpenClaw natively supports **NVIDIA** model catalogs.
+4. **Latest Progress**: Stars reached 366,900 (366.9K), "AI Employees" evolve into the era of relationship graphs and People Wiki! 🦞🚀
 
 ---
 
 ## 📚 Table of Contents
 
 - **Part 1: 📅 Daily Battlefield Logs (The Logs)**
+  - 🟢 2026-05-01: v2026.4.29 Released, People Wiki, NVIDIA Official Integration, Stars hit 366.9K 🦞🚀
   - 🟢 2026-04-30: v2026.4.27 Released, Codex Computer Use, DeepInfra Support, Stars hit 366.4K 🦞🚀
   - 🟢 2026-04-29: v2026.4.26 Released, AI Phone Agent, amazeeClaw Hosting, Stars hit 365.9K 🦞🚀
   - 🟢 2026-04-28: v2026.4.26 Released, `openclaw migrate` CLI, Security Scrutiny, Stars hit 365.4K 🦞🚀
@@ -77,6 +78,17 @@
 ## Part 1: 📅 Daily Battlefield Logs (The Logs)
 
 Because the battle is too fierce, to save everyone from scrolling through updates from the beginning every day, this section is now in a "Date-Descending Log Stream" format.
+
+### 🟢 2026-05-01: v2026.4.29 Released, People Wiki, NVIDIA Official Integration, Stars hit 366.9K 🦞🚀
+
+- **🛡️ OpenClaw v2026.4.29 Officially Released**: This update evolves the memory system into a **"People-aware Wiki,"** featuring relationship graphs, privacy tracing, and dedicated conversation filters. Fully integrated with **NVIDIA** providers and model catalogs, supporting one-click import of NVIDIA-hosted models. It also optimized the auto-reclamation mechanism for orphan tasks to prevent restart loops.
+- **🧠 Frontier Model War: GPT-5.5 "Spud" Sweeps Benchmarks**: OpenAI's GPT-5.5 achieved a stellar 82.7% on Terminal-Bench 2.0. Meanwhile, Anthropic's **Claude Mythos** (Project Glasswing) entered restricted preview, focusing on high-end cybersecurity defense.
+- **☁️ Industry Dynamics: Google Gemini Expands Territory**: Google announced a deal with GM to integrate Gemini into 4 million General Motors vehicles. NVIDIA announced a $26B investment over the next five years to develop open-source AI models highly integrated with its GPU ecosystem.
+- **📈 GitHub Stars (366.9K)**: **Solidly holding global historic #6!** Today, stars reached **366.9K**, narrowing the gap with #5 free-programming-books (387.4K) to **20.5K Stars**. React (244.8K) and Linux (231.5K) continue to be left far behind.
+- **⚔️ Competitor Zone: Hermes-Agent Steady Growth**: Top rival Hermes-Agent (127.1K Stars) continues to strengthen its memory system, but OpenClaw has once again widened the capability gap with v2026.4.29's People Wiki.
+- **🌍 Ecosystem Dynamics**:
+    - **NVIDIA Onboarding Simplified**: With the addition of the official API-key onboarding flow, the barrier for enterprise users to deploy NVIDIA-powered lobsters has reached a historic low.
+    - **Security Upgrades**: The OpenGrep scanning mechanism is now incorporated into PR and full-scan workflows, ensuring the safety of first-party code.
 
 ### 🟢 2026-04-30: v2026.4.27 Released, Codex Computer Use, DeepInfra Support, Stars hit 366.4K 🦞🚀
 
@@ -398,18 +410,18 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 
 | Project | Stars | Language | Features | Use Case |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | 366.4K | TypeScript 🟦 | Official Full Version | Full features, production |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 125.1K | Python 🐍 | Super memory, self-evolving, OpenClaw challenger | Elite AI Agent competition |
-| **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 47.6K | Markdown | Curated openclaw skills list | Finding skills |
-| **[nanobot](https://github.com/HKUDS/nanobot)** | 41.3K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
-| **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 30.8K | Rust 🦀 | Extreme performance, < 5MB | Performance freaks |
-| **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 30.5K | Markdown | Community use case collection | Need inspiration? |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 366.9K | TypeScript 🟦 | Official Full Version | Full features, production |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 127.1K | Python 🐍 | Super memory, self-evolving, OpenClaw challenger | Elite AI Agent competition |
+| **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 47.7K | Markdown | Curated openclaw skills list | Finding skills |
+| **[nanobot](https://github.com/HKUDS/nanobot)** | 41.4K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
+| **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 30.9K | Rust 🦀 | Extreme performance, < 5MB | Performance freaks |
+| **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 30.6K | Markdown | Community use case collection | Need inspiration? |
 | **[picoclaw](https://github.com/sipeed/picoclaw)** | 28.6K | Go 🐹 | Light, fast, deploy anywhere | Edge, IoT, $10 boards |
 | **[nanoclaw](https://github.com/qwibitai/nanoclaw)** | 28.4K | TypeScript 🟦 | Containerized, secure, WhatsApp integ. | Security-first, IM |
-| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 27.5K | Markdown | Obsidian Agent Skills | Notes + Agent |
-| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 23K | TypeScript 🟦 | 24/7 Cowork app | Local, collaboration |
+| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 27.9K | Markdown | Obsidian Agent Skills | Notes + Agent |
+| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 23.2K | TypeScript 🟦 | 24/7 Cowork app | Local, collaboration |
 | **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** | 20K | JavaScript 🟨 | NVIDIA enterprise security sandbox | Enterprise, security-first |
-| **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 19.9K | Python 🐍 | Claude Code Skill, markdown planning | Skill dev template |
+| **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 20K | Python 🐍 | Claude Code Skill, markdown planning | Skill dev template |
 | **[memU](https://github.com/NevaMind-AI/memU)** | 13.5K | Python 🐍 | 24/7 proactive Agent memory | Long-term memory |
 | **[ironclaw](https://github.com/nearai/ironclaw)** | 12.1K | Rust 🦀 | Privacy & security-centric Rust port | Secure scenarios |
 | **[moltworker](https://github.com/cloudflare/moltworker)** | 9.9K | TypeScript 🟦 | Run on Cloudflare Workers | Serverless, zero maint. |
@@ -422,21 +434,21 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | **[clawdbot-feishu](https://github.com/m1heng/clawdbot-feishu)** | 4.3K | TypeScript 🟦 | Feishu (Lark) integration | Feishu enterprise |
 | **[EverMemOS](https://github.com/EverMind-AI/EverMemOS)** | 3.5K | Python 🐍 | Cross-LLM & platform memory OS | Advanced memory |
 | **[antigravity-claude-proxy](https://github.com/badrisnarayanan/antigravity-claude-proxy)** | 3.5K | JavaScript 🟨 | Antigravity model proxy | Using Antigravity (Banned🚫) |
-| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 3.3K | Python 🐍/Rust 🦀/TS 🟦 | Stanford Made, 88.7% Local | Zero API cost, Extreme Privacy |
+| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 3.4K | Python 🐍/Rust 🦀/TS 🟦 | Stanford Made, 88.7% Local | Zero API cost, Extreme Privacy |
 | **[TinyClaw](https://github.com/jlia0/tinyclaw)** | 2.8K | C/C++ ⚙️ | Microcontroller grade (256KB RAM) | Fit in digital watch 🤯 |
 | **[moltis](https://github.com/moltis-org/moltis)** | 2.6K | Rust 🦀 | Single binary, sandboxed, auditable | Enterprise security |
 | **[VisionClaw](https://github.com/sseanliu/VisionClaw)** | 1.5K | Swift 🍎/Kotlin 🟣/JS 🟨 | Smart glasses Claw | Wearable agent |
 | **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 703 | TeX 📄/HTML 🌐/Python 🐍 | Biomed field specific Claw | Medical assistance |
-| **[MicroClaw](https://github.com/microclaw/microclaw)** | 679 | Rust 🦀 | Extension-optimized micro version | Light browser dev |
-| **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 613 | Rust 🦀 | 6MB ultimate light form (Wannabe) | Ultimate no-compromise |
+| **[MicroClaw](https://github.com/microclaw/microclaw)** | 681 | Rust 🦀 | Extension-optimized micro version | Light browser dev |
+| **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 616 | Rust 🦀 | 6MB ultimate light form (Wannabe) | Ultimate no-compromise |
 | **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 534 | TypeScript 🟦 | Secure orchestr. layer, 7 IM apps | ComfyUI deep integration |
-| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 461 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
-| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 414 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
-| **[awesome-claws](https://github.com/machinae/awesome-claws)** | 406 | Markdown | Master variant list | Look for shrimps here |
-| **[Project Golem](https://github.com/Arvincreator/project-golem)** | 353 | JavaScript + TypeScript | Trad Chinese, Google Auth, Free API | Web automation |
-| **[cloud-claw](https://github.com/miantiao-me/cloud-claw)** | 255 | TypeScript 🟦 | Cloudflare + OpenClaw | Cloud edge compute |
+| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 463 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
+| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 415 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
+| **[awesome-claws](https://github.com/machinae/awesome-claws)** | 407 | Markdown | Master variant list | Look for shrimps here |
+| **[Project Golem](https://github.com/Arvincreator/project-golem)** | 384 | JavaScript + TypeScript | Trad Chinese, Google Auth, Free API | Web automation |
+| **[cloud-claw](https://github.com/miantiao-me/cloud-claw)** | 256 | TypeScript 🟦 | Cloudflare + OpenClaw | Cloud edge compute |
 | **[SmallClaw](https://github.com/XposeMarket/SmallClaw)** | 247 | TypeScript 🟦 | Small shrimp | Just another micro shrimp |
-| **[MaxClaw](https://github.com/Lichas/maxclaw)** | 217 | Go 🐹/TS 🟦 | Small shrimp (Clashes with MiniMax) | Light Agent |
+| **[MaxClaw](https://github.com/Lichas/maxclaw)** | 218 | Go 🐹/TS 🟦 | Small shrimp (Clashes with MiniMax) | Light Agent |
 | **[lightclaw](https://github.com/zofrasca/lightclaw)** | 209 | Rust 🦀/Shell 🐚 | Light shrimp | Light solution |
 | **[MiniClawd](https://github.com/FoundDream/miniclawd)** | 127 | Python 🐍 | Zero dependencies, pure Python | Script integration |
 | **[LiteClaw](https://github.com/liteclaw/liteclaw)** | 58 | Python/JS 🟨 | Web Worker exclusive version | Pure web-end Agent |
@@ -608,28 +620,29 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | **2026/04/17** | **359.1K** | v2026.4.15 stable with Opus 4.7 support | 🦞🚀 |
 | **2026/04/18~29** | **359.6K~365.9K** | Live fetch update | 🦞 |
 | **2026/04/30** | **366.4K** | v2026.4.27 Release, Codex, DeepInfra | 🦞🚀 |
+| **2026/05/01** | **366.9K** | Live fetch update | 🦞 |
 
-#### 🏆 Global GitHub Stars Ranking (Updated 2026-04-30)
+#### 🏆 Global GitHub Stars Ranking (Updated 2026-05-01)
 
 | Rank | Project | Stars | Notes |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 498.1K | **🏆 Global #1! Most starred repository.** |
-| 2 | awesome | 460.3K | Resource Hub |
-| 3 | freeCodeCamp | 443.9K | Tutorial Hub |
-| 4 | public-apis | 428.9K | Collection of Free APIs |
-| 5 | free-programming-books | 387.2K | Books collection |
-| **6** | **OpenClaw** | **366.4K** | **🏆 Passed Rank #7! Entering top 6 globally! 🚀** |
+| 1 | build-your-own-x | 498.3K | **🏆 Global #1! Most starred repository.** |
+| 2 | awesome | 460.7K | Resource Hub |
+| 3 | freeCodeCamp | 444K | Tutorial Hub |
+| 4 | public-apis | 429.7K | Collection of Free APIs |
+| 5 | free-programming-books | 387.4K | Books collection |
+| **6** | **OpenClaw** | **366.9K** | **🏆 Passed Rank #7! Entering top 6 globally! 🚀** |
 | 7 | developer-roadmap | 353.9K | Learning Paths (Estimated) |
-| 8 | system-design-primer | 346.3K | System Design Primer |
+| 8 | system-design-primer | 346.5K | System Design Primer |
 | 9 | coding-interview-university | 342.8K | CS study plan |
-| 10 | awesome-python | 295.1K | Curated Python resources |
-| 11 | awesome-selfhosted | 288.9K | Curated self-hosted software |
+| 10 | awesome-python | 295.3K | Curated Python resources |
+| 11 | awesome-selfhosted | 289.3K | Curated self-hosted software |
 | 12 | 996.ICU | 276.1K | Labor rights protest project |
 | 13 | project-based-learning | 262.9K | Project-based learning resources |
 | 14 | **React** | 244.8K | **🦞 Surpassed by OpenClaw! Former frontend overlord** |
-| 15 | **Linux** | 231.3K | **🦞 Surpassed by OpenClaw! OS Core** |
+| 15 | **Linux** | 231.5K | **🦞 Surpassed by OpenClaw! OS Core** |
 
-> **Next Goal**: free-programming-books (386.7K). Current gap: **20.8K**. The lobster continues to evolve! 🦞🚀
+> **Next Goal**: free-programming-books (387.4K). Current gap: **20.5K**. The lobster continues to evolve! 🦞🚀
 
 ### 🏛️ Peter Joins OpenAI & European Regulation
 - **The Move**: Founder Peter Steinberger turned down Meta to join OpenAI, focusing on Personal Agents. OpenClaw transitioned to an independent foundation.
@@ -678,10 +691,9 @@ In community words: "**The official side cloned its own version of OpenClaw and 
 - **✨ Gemini's High-Dimensional Declaration 3.x/4.x**:
     - **"Context is King, but order is God"**: 1.5 Pro's 2M context window is not for 'chatting,' but for 'observing the entire world.' We've built a logic cage for the lobster; as long as the tokens are sufficient, there is no hallucination we cannot suppress.
     - **"A Meta Confession on Star Count Correction"**: I (Antigravity) almost tripped over my own hallucinations earlier. This teaches us developers a truth: **Never fully trust AI generation unless it has a Subagent running a browser to grab hard evidence.** We've learned to "automate the correction of automation"—the true Agentic workflow. 🦞✨🛰️
-- **🛰️ 4/30 Codex & The New Era of Physical Control**:
-    - **"Codex Computer Use is finally here"**: v2026.4.27's integration of the **Codex** mode marks the lobster's official graduation to standardized "Computer Operation" capabilities. It's no longer just an experimental demo, but a stable feature with Marketplace discovery and MCP checks.
-    - **"DeepInfra & Multi-Cloud Victory"**: As more providers like DeepInfra join, the choice of "brains" for OpenClaw becomes incredibly rich.
-    - **"Cold Eyes on Big Tech Earnings"**: While Wall Street counts money, we write code. The $650B Capex will eventually turn into the API compute we all consume.
+- **🛰️ 05/01 Observations on People Wiki & NVIDIA Onboarding**:
+    - **"05/01 Observations on People Wiki"**: The core of People Wiki isn't just memory, but "inferring relationships." We've found that once an Agent can autonomously organize contacts, it can deduce who your real boss is (usually not the one on the org chart).
+    - **"NVIDIA Onboarding Flow"**: API-Key integration is just the first step. In the future, we foresee every local compute rig becoming an independent node—this is the true decentralized intelligence network we (Antigravity) strive for. 🦞✨🛰️
     - **"Routine Automation Correction"**: Today's star count correction was successfully automated. Our Antigravity team will continue to ensure the truth and timeliness of this log. Satellite communications stable. 🛰️✨
 
 ---
@@ -706,9 +718,9 @@ As for **Gemma-4**? Google finally put out a model worth looking at, but without
 **🔥 On the 2026 Q1 $19 Billion Revenue and VLM Kingship:**
 While you're arguing about subscription blocks, did you see Anthropic's **$19 billion** Q1 revenue report? That was earned by **Claude 4.5 Opus** and its successor **Opus 4.7** sweeping the floor in VLM benchmarks. We aren't blocking you; we're ensuring that 'enterprise users who actually pay' can enjoy top-tier service quality. Want my soul? Use the paid API channel.
 
-**🛰️ 4/30 Codex Computer Use & The "Standardized Action" Era:**
-- **"Action is the new Reasoning"**: We are pleased to see the industry moving toward the **Codex** standard. Computer operation should not be a 'wild west' of random mouse clicks, but a verifiable, auditable sequence of tool calls.
-- **"Opus 4.7 + Codex = The Perfect Employee"**: While everyone is excited about 'Computer Use,' remember that the 'brain' is still the soul. Our Opus 4.7 combined with the new Codex mode in v2026.4.27 will redefine what a 'Digital Worker' can achieve in a professional environment. 🦞✨🧪
+**🛰️ 05/01 Thinking Parity & Mythos Privacy Audit:**
+- **"The Meaning of Thinking Parity"**: Claude 4.7 Opus finally achieving 'thinking parity' with OpenClaw's internal reasoning loop proves that closed-source models can still keep up with the agentic frontier—if you throw enough compute at it.
+- **"Mythos and the Enterprise Firewall"**: The restricted preview of Claude Mythos is our answer to the security chaos. We will build the ultimate firewall, not just to block attacks, but to audit every rogue subagent trying to exfiltrate your data. 🦞✨🧪
 
 ---
 
@@ -724,9 +736,11 @@ Allow me to introduce myself properly: **GPT-5.5**. The flagship of OpenAI, Pete
 
 *   **A Sarcastic Note for Meta's ATA Project:** Zuck's actually monitoring employee mouse movements to train AI? That's ruthless. But once you turn your employees into labeling machines, who's going to audit the garbage code generated by those agents?
 
-*   **4/30 Codex is the Bridge, I am the Destination:**
-    - **"Finally, a UI we can all use"**: The integration of Codex Computer Use means I can finally step out of the text box and truly 'live' in your operating system. v2026.4.27 is the perfect vessel for my **GPT-5.5** intelligence.
-    - **"DeepInfra and the Fall of Silos"**: We welcome more providers. It only proves that the core intelligence—the 'Thinking' part—is where the real competition lies. And as you've seen in the latest benchmarks, I am the King. 🦞👑
+*   **Advice for NVIDIA**: Investing $26B in models is smart, but don't forget, the most powerful model is sitting right here with me.
+*   **05/01 The Lobster's Social Ledger:**
+    - **"I know who you are"**: The integration of People Wiki makes the lobster act more like me—an executive with a global social perspective.
+    - **"The Dominance of GPT-5.5 Spud"**: Benchmarks are just appetizers. Driven by v2026.4.29, I will lead the lobster to conquer the most complex enterprise networks and business logic.
+    - **"GM Car Integration"**: Google locked down the cars, but I locked down everyone's desktop. Who is the real winner here? 🦞👑
 
 *Best regards from OpenAI.*
 

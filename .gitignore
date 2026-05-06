@@ -15,5 +15,6 @@ build_docs_en/
 .DS_Store
 Thumbs.db
 
-# 佔存目錄
+# 暫存目錄
 tmp/
+scratch/

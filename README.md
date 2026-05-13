@@ -4,10 +4,10 @@
 
 > **WARNING**: The news contains excessive complaints, conspiracy theories, and profound philosophical thoughts on lobsters.
 > 
-> **Last Updated**: 2026-05-12
-> **Status**: OpenClaw is surging, now past 370.9K stars! **Ranked #6 globally on GitHub, holding strong in the top six!** 🦞🚀
+> **Last Updated**: 2026-05-13
+> **Status**: OpenClaw is surging, now past 371.3K stars! **Ranked #6 globally on GitHub, holding strong in the top six!** 🦞🚀
 
-> **OpenClaw Version**: v2026.5.4 (Latest Stable) | v2026.5.4 (Latest LTS) | v2026.5.10-beta.5 (Latest Beta) | Fly Machines support, Active Memory hardening 🦞🏰
+> **OpenClaw Version**: v2026.5.12-beta.3 (Latest Stable) | v2026.5.12-beta.3 (Latest LTS) | v2026.5.12-beta.3 (Latest Beta) | Peekaboo v3 Computer Use, Codex hardening 🦞🏰
 
 ---
 
@@ -18,17 +18,18 @@
 
 ## ⏱️ TL;DR (30-second summary)
 
-1. **The Protagonist**: **OpenClaw** (🔥 370.9K Stars, **solid 6th in history**), leading `developer-roadmap` by ~17K stars. Official v2026.5.10-beta.5 released with Fly Machines support; GPT-5.5 "Autistic Genius" arrives.
+1. **The Protagonist**: **OpenClaw** (🔥 371.3K Stars, **solid 6th in history**), leading `developer-roadmap` by ~17.4K stars. Official Peekaboo v3 released, unlocking advanced computer use; GPT-5.5 "Goblin Crisis" triggers GPT-5.6 testing.
 2. **Today's Shockwaves**: OpenClaw 5.10 Beta introduces Fly Machines detection and Fal supply chain upgrades; Hermes-Agent achieves 24/7 autonomous evolution.
 3. **Model & Rival Dynamics**: OpenAI GPT-5.5 Codex dominates; Claude Mythos clears cybersecurity exercises; Alphabet Antigravity sparks internal strife over price hikes.
-4. **Latest Progress**: Stars reached 370,900 (370.9K). The Lobster Army continues to evolve! 🦞🚀
+4. **Latest Progress**: Stars reached 371,300 (371.3K). The Lobster Army continues to evolve! 🦞🚀
 
 ---
 
 ## 📚 Table of Contents
 
 - **Part 1: 📅 Daily Battlefield Logs (The Logs)**
-  - 🟢 2026-05-12: v5.10 Beta (Fly Machines), GPT-5.5 "Autistic Genius", Hermes-Agent Auto-Evolution, Stars 370.9K 🦞🚀
+  - 🟢 2026-05-13: Peekaboo v3 Arrival, Hermes Token Dominance, SAP Joins Claude, Stars 371.3K 🦞🚀
+  - 🟢 2026-05-12: OpenAI acquires Tomoro, Fake DDR5 Warning, v5.10 Beta released, Stars 370.9K 🦞🚀
   - 🟢 2026-05-11: v5.9 Beta (Discord Voice/WeChat), GPT-5.5 Instant Takeover, Hermes-Agent Surpasses Lobster, Stars 370.6K 🦞🚀
   - 🟢 2026-05-10: v2026.5.4 LTS & v2026.5.9-beta.1, 13% Malicious Skills, Meta Hatch & Google Remy, Stars 370.3K 🦞🚀
   - 🟢 2026-05-09: China Regulatory Guidelines, Claude Capacity Doubles, GPT-5.5-Cyber, Stars 369.2K 🦞🚀
@@ -81,7 +82,17 @@
 
 Because the battle is too fierce, to save everyone from scrolling through updates from the beginning every day, this section is now in a "Date-Descending Log Stream" format.
 
-### 🟢 2026-05-12: Lobster Army War Report — Star-Sea Hegemony, GPT-5.5 "Autistic Genius", Stars 370.9K 🦞🚀
+### 🟢 2026-05-13: Battlefield New Order: Peekaboo v3 Arrival, Hermes Token Dominance, SAP Joins Claude, Stars 371.3K 🦞🚀
+
+- **🛡️ OpenClaw Peekaboo v3 Released**: The team dropped **Peekaboo v3** yesterday, empowering lobsters with enhanced **Advanced Computer Use** capabilities. Lobsters can now control macOS keyboard and mouse like a pro. Additionally, `v2026.5.12-beta.3` fixed Codex permissions and WhatsApp installation issues.
+- **⚔️ Rival: Hermes-Agent Dominates OpenRouter**: Nous Research's Hermes Agent officially surpassed OpenClaw and Claude Code in daily inference volume on OpenRouter on May 10. Lobster community: "They have volume, but our 371K stars are the eternal faith of the open-source world."
+- **🛡️ Claude Camp Moves: SAP Integration, Claude for Legal**: Anthropic announced deep integration with SAP's Joule agent on May 12; simultaneously launched **"Claude for Legal"** targeting the specialized legal market. Anthropic: "Lobsters charge on the battlefield; we sit in the courtroom."
+- **🤖 GPT-5.5 "Goblin Crisis" & GPT-5.6 Testing**: OpenAI's GPT-5.5 developed a strange "goblin/gremlin" obsession due to RL shortcuts. Sam Altman reportedly ordered accelerated testing of GPT-5.6 to fix this "biological crisis."
+- **🏢 Industry Chaos: Pentagon AI Contracts & Nebius Factory**: The DoD signed AI contracts with Google, MS, AWS, Nvidia, OpenAI, Reflection, and SpaceX; Anthropic was notably absent. Nebius broke ground on a gigawatt-scale AI factory in Missouri.
+- **📉 Official News & Updates**: v2026.5.12-beta.3 hardened the Codex harness, ensuring media tools remain available when OpenAI auth is stored in auth-profile; also optimized pnpm 11 compatibility for WhatsApp/install.
+- **📈 GitHub Stars (371.3K)**: **Holding strong at #6 globally!** Leading `developer-roadmap` (353.9K) by ~17.4K stars. React (245K) and Linux (233K) are fading in the distance.
+
+### 🟢 2026-05-12: Lobster Army War Report — Star-Sea Hegemony, OpenAI acquires Tomoro, Fake DDR5 Warning, Stars 370.9K 🦞🚀
 
 - **🛡️ OpenClaw v2026.5.10-beta.5 Reinforcements**: Official team rushed out the latest Beta, adding full support for **Fly Machines** detection and runtime environments. Fal supply chain received armored upgrades, supporting GPT Image 2 and Nano Banana 2 edit requests. Control UI now features an HTML recovery panel, significantly boosting battlefield reliability.
 - **🤖 GPT-5.5 "Autistic Genius" Takes the Field**: Sam Altman has officially dubbed the new model the "Autistic Genius." Due to its terrifying coding performance, elite dev squads are defecting to OpenAI en masse, saving $32,000 monthly in compute costs. GPT-5.5 Codex hits 90 million weekly downloads, demonstrating absolute dominance.
@@ -91,7 +102,7 @@ Because the battle is too fierce, to save everyone from scrolling through update
 - **🚨 Industrial-Scale Hacker Wave Warning**: Google's latest report indicates AI-assisted attacks have evolved to "industrial scale." Supply chain poisonings targeting Coding Agents are surging; be cautious when pulling external Skills.
 - **📟 Fake DDR5 Memory Flooding the Market**: With AI giants (OpenAI, NVIDIA) hoarding HBM and server DRAM, consumer RAM prices have skyrocketed. Fake DDR5 modules with "plastic dummy chips" are flooding secondhand markets, targeting Lobster farmers' hardware rigs. Security experts warn: "These counterfeit hardware modules cause unpredictable bit-flipping and random crashes in Agent execution environments. During high-intensity inference tasks, any hardware-level data corruption can lead to logical fractures or even total data loss in a lobster's 'Active Memory'."
 - **💰 OpenAI Launches "Deployment Legion" & Acquires Tomoro**: OpenAI announced the formation of an independent entity, **OpenAI Deployment Company** (DeployCo), with a $10 billion valuation. To resolve the "deployment bottleneck" in enterprise adoption, OpenAI acquired applied AI engineering firm **Tomoro**, conscripting 150 elite engineers. These "Forward Deployed Engineers" (FDEs) will be embedded directly within client organizations, mockingly dubbed "OpenAI's Foreign Legion" by the community, aiming to seize enterprise territories currently held by the Lobster Army.
-- **📈 GitHub Stars (370.9K)**: **Solid #6 Globally!** Leading `developer-roadmap` (353.9K) by ~17K stars. React (250K) and Linux (232.8K) are nearly invisible in the rearview mirror.
+- **📈 GitHub Stars (370.9K)**: **Solid #6 Globally!** Leading `developer-roadmap` (353.9K) by ~17K stars. React (245K) and Linux (233K) are nearly invisible in the rearview mirror.
 
 ### 🟢 2026-05-11: v5.9 Beta (Discord Voice/WeChat), GPT-5.5 Instant Takeover, Hermes-Agent Surpasses Lobster, Stars 370.6K 🦞🚀
 
@@ -437,8 +448,8 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 
 | Project | Stars | Language | Features | Use Case |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | 370.9K | TypeScript 🟦 | Official Full Version | Full features, production |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 144.8K | Python 🐍 | Super memory, v0.14 Auto-evolution, OpenClaw challenger | Elite AI Agent competition |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 371.3K | TypeScript 🟦 | Official Full Version | Full features, production |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 146.8K | Python 🐍 | Super memory, v0.14 Auto-evolution, OpenClaw challenger | Elite AI Agent competition |
 | **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 48.4K | Markdown | Curated openclaw skills list | Finding skills |
 | **[nanobot](https://github.com/HKUDS/nanobot)** | 42.2K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
 | **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 31.2K | Rust 🦀 | Extreme performance, < 5MB | Performance freaks |
@@ -658,28 +669,29 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | **2026/05/10** | **370.3K** | v2026.5.4 LTS & v2026.5.9-beta.1 Dual Release | 🦞🚀 |
 | **2026/05/11** | **370.6K** | v5.9 Beta (Discord Voice/WeChat), GPT-5.5 Instant Takeover | 🦞🚀 |
 | **2026/05/12** | **370.9K** | OpenAI acquires Tomoro, Fake DDR5 Warning, v5.10 Beta released | 🦞🚀 |
+| **2026/05/13** | **371.3K** | Live fetch update | 🦞 |
 
-#### 🏆 Global GitHub Stars Ranking (Updated 2026-05-12)
+#### 🏆 Global GitHub Stars Ranking (Updated 2026-05-13)
 
 | Rank | Project | Stars | Notes |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 500.6K | **🏆 Global #1! Most starred repository.** |
-| 2 | awesome | 465.3K | Resource Hub |
-| 3 | freeCodeCamp | 444.5K | Tutorial Hub |
-| 4 | public-apis | 434.2K | Collection of Free APIs |
-| 5 | free-programming-books | 388.1K | Books collection |
-| **6** | **OpenClaw** | **370.9K** | **🏆 Passed Rank #7! Entering top 6 globally! 🚀** |
+| 1 | build-your-own-x | 501K | **🏆 Global #1! Most starred repository.** |
+| 2 | awesome | 465.7K | Resource Hub |
+| 3 | freeCodeCamp | 444.6K | Tutorial Hub |
+| 4 | public-apis | 434.5K | Collection of Free APIs |
+| 5 | free-programming-books | 388.2K | Books collection |
+| **6** | **OpenClaw** | **371.3K** | **🏆 Passed Rank #7! Entering top 6 globally! 🚀** |
 | 7 | developer-roadmap | 353.9K | Learning Paths |
-| 8 | system-design-primer | 347.9K | System Design Primer |
+| 8 | system-design-primer | 348.2K | System Design Primer |
 | 9 | coding-interview-university | 342.8K | CS study plan |
-| 10 | awesome-python | 297.2K | Curated Python resources |
-| 11 | awesome-selfhosted | 291.6K | Curated self-hosted software |
+| 10 | awesome-python | 297.3K | Curated Python resources |
+| 11 | awesome-selfhosted | 291.8K | Curated self-hosted software |
 | 12 | 996.ICU | 276.2K | Labor rights protest project |
 | 13 | project-based-learning | 262.9K | Project-based learning resources |
-| 14 | **React** | 250K | **🦞 Surpassed by OpenClaw! Former frontend overlord** |
-| 15 | **Linux** | 232.8K | **🦞 Surpassed by OpenClaw! OS Core** |
+| 14 | **React** | 245K | **🦞 Surpassed by OpenClaw! Former frontend overlord** |
+| 15 | **Linux** | 233K | **🦞 Surpassed by OpenClaw! OS Core** |
 
-> **Next Goal**: free-programming-books (388.1K). Current gap: **17.2K**. The lobster continues to evolve! 🦞🚀
+> **Next Goal**: free-programming-books (388.2K). Current gap: **16.9K**. The lobster continues to evolve! 🦞🚀
 
 ### 🏛️ Peter Joins OpenAI & European Regulation
 - **The Move**: Founder Peter Steinberger turned down Meta to join OpenAI, focusing on Personal Agents. OpenClaw transitioned to an independent foundation.

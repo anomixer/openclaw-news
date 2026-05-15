@@ -1,13 +1,13 @@
-# 🦞 OpenClaw News 宇宙戰地觀察日誌
+﻿# 🦞 OpenClaw News 宇宙戰地觀察日誌
 
 **[中文版](README-tw.md) | [English](README.md) | [中文網頁版](https://anomixer.github.io/openclaw-news/tw/) | [Web Version](https://anomixer.github.io/openclaw-news/)**
 
 > **警告**: 本新聞包含大量吐槽、陰謀論、以及對龍蝦的深刻哲學思考。
 > 
-> **最後更新**: 2026-05-14
-> **狀態**: OpenClaw 狂飆中，目前已突破 37.1 萬星大關 (371.6K)！**持續坐穩 GitHub 全球歷史第 6 名**！🦞🚀
+> **最後更新**: 2026-05-15
+> **狀態**: OpenClaw 狂飆中，目前已突破 37.2 萬星大關 (372.2K)！**持續坐穩 GitHub 全球歷史第 6 名**！🦞🚀
 
-> **OpenClaw 版本**: v2026.5.12-beta.6 (最新正式版) | v2026.5.12-beta.6 (最新 LTS) | v2026.5.12-beta.6 (最新 Beta)｜強制裝置配對安全加固、iMessage 媒體修復、Gateway v4 協定 🦞🏰
+> **OpenClaw 版本**: v2026.5.14-beta.1 (最新 Beta) | v2026.5.12 (最新正式版/LTS) | 支援原生 sessions_spawn、Telnyx 語音通話加固、WhatsApp 狀態反應 🦞🏰
 
 ---
 
@@ -18,32 +18,23 @@
 
 ## ⏱️ TL;DR (30秒快速懶人包)
 
-1. **主角**: **OpenClaw** (🔥 371.6K Stars，**坐穩歷史第六**)，領先 `developer-roadmap` 約 17.7K 星。官方釋出 v2026.5.12-beta.6，強化裝置配對安全；GPT-5.5 修正地精執念，GPT-5.6 測試中。
-2. **今日震盪**: OpenClaw 引入連線授權加固，非授權裝置將被徹底隔離；Hermes-Agent 雖然推論量大，但身陷多項 CVE 漏洞危機。
+1. **主角**: **OpenClaw** (🔥 372.2K Stars，**坐穩歷史第六**)，領先 `developer-roadmap` 約 17.2K 星. 官方釋出 v2026.5.14-beta.1，強化多代理協作與語音通話；GPT-5.5 Cyber 測試中。
+2. **今日震盪**: 新加坡 IMDA 發布 OpenClaw 安全警告；Anthropic 政策大轉彎，宣佈恢復 OpenClaw 對 Claude 訂閱的支援（點數制）；OpenAI 與 Anthropic 開啟促銷爭奪戰。
 
-3. **模型與對手動態**: Claude 橫掃 Microsoft 365 辦公場景；GPT-5.5 Instant 成為預設大腦；Antigravity A1 機器人引發硬體圈關注。
+3. **模型與對手動態**: Claude 4.7 強化軟體工程推理；GPT-5.5 Instant 全面普及；Hermes-Agent 突破 15 萬星。
 
-4. **最新進展**: Stars 達到 371,600 (371.6K)，龍蝦大軍持續進化中！🦞🚀
+4. **最新進展**: Stars 達到 372,200 (372.2K)，龍蝦大軍持續進化中！🦞🚀
 
 ---
 
 ## 📚 目錄
 
 - **第一部：📅 每日戰況日誌 (The Logs)**
+  - 🟢 2026-05-15: v2026.5.14-beta.1 釋出（原生多代理協作）、IMDA 安全警告、Anthropic 恢復支援、促銷爭奪戰、Stars 372.2K 🦞🚀
   - 🟢 2026-05-14: v2026.5.12-beta.6 釋出（安全配對加固）、GPT-5.5 修正地精執念、Hermes 陷 CVE 泥淖、Stars 371.6K 🦞🚀
-  - 🟢 2026-05-13: Peekaboo v3 降臨（電腦操控強化）、Hermes Token 登頂、SAP 擁抱 Claude、Stars 371.3K 🦞🚀
   - 🟢 2026-05-12: OpenAI 併購 Tomoro 成立部署實體、v5.10 Beta 釋出（Fly Machines 支援）、GPT-5.5「自閉天才」降臨、Stars 370.9K 🦞🚀
   - 🟢 2026-05-11: v5.9 Beta 釋出（Discord 語音/微信支援）、GPT-5.5 Instant 接管、Hermes-Agent 推論量超越龍蝦、Stars 370.6K 🦞🚀
-  - 🟢 2026-05-10: v2026.5.4 LTS & v2026.5.9-beta.1 雙發布、13% 惡意 Skill 預警、Meta Hatch 與 Google Remy 大戰、Stars 370.3K 🦞🚀
-  - 🟢 2026-05-09: 中國官方監管指南發布、Claude 擴容並翻倍限制、GPT-5.5-Cyber 特化版、Stars 369.2K 🦞🚀
-  - 🟢 2026-05-08: v2026.5.7 發布、GPT-5.5 實戰上路、Claude 夢境機制、Stars 369.5K 🦞🚀
-  - 🟢 2026-05-07: xAI 模型蒸餾、Google Remy 與 Meta Hatch 代理人大戰、Stars 369.0K 🦞🚀
-  - 🟢 2026-05-06: v2026.5.4 正式版、OpenAI 股權爭議、美國政府監管施壓、CVE-2026-42434 預警、Stars 368.7K 🦞🚀
-  - 🟢 2026-05-05: v2026.5.4-beta.1 釋出、GPT-5.5 派對今日登場、OpenAI OAuth 整合、Microsoft 內部採用、Stars 368.3K 🦞🚀
-  - 🟢 2026-05-04: v2026.5.3-beta.2 釋出、GPT-5.5 派對倒數、Palo Alto 收購 Portkey、Google I/O 預告、Stars 367.9K 🦞🚀
-  - 🟢 2026-05-03: v2026.5.2 釋出、GPT-5.5-Cyber 防線、Hermes-Agent 推出自治館長、Stars 367.6K 🦞🚀
-  - 🟢 2026-05-02: NVIDIA 老黃加冕、小札 UX 吐槽、Stars 367.3K 🦞🚀
-  - 🟢 2026-05-01: v2026.4.29 發布、人脈維基 (People Wiki)、NVIDIA 官方整合、Stars 366.9K 🦞🚀
+  - 🔵 2026-05 上旬：大廠封殺與龍蝦進化 — 從語音橋接到企業監管的深水區 🚀🦞
   - 🔵 2026-04 下旬：語音代理人、巨頭收割與安全警報 — 從 AI 電話到 Sora 關閉，代理人戰爭進入深水區 🦞🔥
   - 🔵 2026-04 中旬：從 Microsoft Lobster 到 OpenAI 千億融資 — 代理人全面進入作業系統與企業基建時代 🦞🔥
   - 🔵 2026-04 上旬：抄襲與封殺的風暴 — 從星數超越 React 到 Anthropic 的全面禁令 🦞🔥
@@ -85,6 +76,21 @@
 
 因戰況過於激烈，為了讓大家不用每天從頭找更新，本區改採「日期遞減日誌流」格式。
 
+### 🟢 2026-05-15: 協作進化：v2026.5.14-beta.1 釋出、IMDA 安全警告、Anthropic 恢復支援、Stars 372.2K 🦞🚀
+
+- **🛡️ OpenClaw v2026.5.14-beta.1 突襲發布**：官方今日釋出最新 Beta 版，主打**語音通話與多代理協作**。全新原生 `sessions_spawn` 任務機制上線，讓子代理分配更透明。WhatsApp 加入狀態反應 (🧠, 🛠️, 💻) 並優化 Telnyx 語音串流，龍蝦現在不僅能寫代碼，還能打電話跟客戶開會了。
+- **🇸🇬 新加坡 IMDA 發布安全諮詢**：新加坡資發局 (IMDA) 昨日針對 OpenClaw 發布警示，建議企業避免在核心系統部署「全能型」代理人。建議採「窄域多代理」架構以分散風險。龍蝦社群：「這波是官方教你怎麼組建龍蝦軍團。」
+- **🤖 GPT-5.5-Cyber 與 Trusted Access 啟動**：OpenAI 正式推出針對資安防禦者的特化模型。雖然 GPT-5.5 早期曾有「地精執念」，但最新更新已全面修正，專注於基礎設施保護。
+- **🛡️ Anthropic 政策大轉彎：恢復 OpenClaw 支援**：Anthropic 宣佈透過全新 "Agent SDK" 點數系統，恢復對 OpenClaw 等三方工具的支援。雖然不再是「訂閱吃到飽」，但標誌著與開源社群的階段性停火。
+- **⚔️ 競爭對手：Hermes-Agent 突破 15 萬星**：Nous Research 的 Hermes Agent 持續狂奔，v0.13.0 "Tenacity" 版本強化了自我進化能力。目前在 OpenRouter 推論量穩居前三，與龍蝦在開源戰場短兵相接。
+- **💰 Cerebras Systems (CBRS) 震撼上市**：AI 算力巨頭 Cerebras 昨日以 $185 定價登陸納斯達克，市值飆升。這家「一片晶片一個晶圓」的公司被視為龍蝦地端算力的最強硬體後台。
+- **🧪 DeepSeek V4 Flash 橫掃中低階市場**：DeepSeek 推出 1M 上下文的 Flash 模型，主打極速響應與低成本，成為龍蝦農場主們最新青睞的「平民大腦」。
+- **🏢 跨界合作：Faith-AI 紐約圓桌會議**：OpenAI 與 Anthropic 高層今日與宗教領袖會面，簽署「信仰與 AI 公約」，探討代理人時代的倫理邊界。龍蝦社群：「龍蝦雖然沒有靈魂，但很有原則。」
+- **🎁 巨頭互捲：OpenAI 與 Anthropic 開啟促銷爭奪戰**：為了應對龍蝦大軍，兩大巨頭相繼祭出優惠。**OpenAI** 宣佈符合資格的企業客戶若在 30 天內註冊，新用戶可**免費使用 Codex 兩個月**。隨後 **Anthropic** 也宣佈即日起至 7 月 13 日，提高 Pro、Max、Team 及企業戶的 Claude Code 上限 50%。然而，**免費帳戶均不在此次調整範圍內**。龍蝦社群：「這就是所謂的『課金玩家限定』戰場，龍蝦大軍則是全民平等。」
+- **🚨 ClawHub 供應鏈預警**：資安機構指出 ClawHub 技能市場仍存在 7.1% 的惡意 Skills 威脅，建議啟用 `Skill Safety Scanner` 並將敏感任務隔離至沙盒環境。
+- **📈 GitHub Stars (372.2K)**：**穩坐全球第 6！** 今日星星數達到 **372.2K**。領先 `developer-roadmap` (355K) 約 17.2K 星。React (245K) 與 Linux (233K) 已漸行漸遠。
+
+
 ### 🟢 2026-05-14: 安全防線加固：v2026.5.12-beta.6 釋出、GPT-5.5 修正地精執念、Hermes 陷 CVE 泥淖、Stars 371.6K 🦞🚀
 
 - **🛡️ OpenClaw v2026.5.12-beta.6 突襲發布**：官方今日釋出最新 Beta 版，主打**安全性硬化**。現在所有新裝置配對（含 Browser 與 Control UI）皆須經過管理端顯式核准。此外，修復了 iMessage 的媒體佔位符 Bug，並優化了 Gateway v4 協定的串流效能。龍蝦現在不僅跑得快，門禁也更嚴了。
@@ -96,7 +102,6 @@
 - **📱 Google 震撼宣佈：Android AI 更名為「Gemini Intelligence」並發表 Googlebook**：Google 今日宣佈將 Android 系統中的 AI 功能全面整合並更名為「Gemini Intelligence」，旨在對標 Apple Intelligence。同時，發表了首款專為 AI 代理人優化的硬體 **Googlebook**，搭載最新的 Tensor G6 晶片與專屬 Agent 加速單元。龍蝦社群：「連名字都要學蘋果，看來 Google 真的急了。」
 - **🎮 NVIDIA 發布 Hermes Agent 本地運行指南**：NVIDIA 今日正式發布了在 RTX 與 DGX 平台上本地部署 Hermes Agent 的官方優化指南，強調透過 TensorRT-LLM 提升推論效能。這被視為 NVIDIA 在 AI 代理人領域持續擴大影響力的舉動。龍蝦社群：「老黃雖然愛龍蝦，但看來也想多養幾隻螃蟹 (Hermes)。」
 - **📈 GitHub Stars (371.6K)**：**穩坐全球第 6！** 今日星星數達到 **371.6K**。領先 `developer-roadmap` (353.9K) 約 17.7K 星。React (245K) 與 Linux (233.1K) 已漸行漸遠。
-
 
 ### 🟢 2026-05-13: 戰場新秩序：Peekaboo v3 降臨、Hermes Token 登頂、SAP 加入 Claude 陣營、Stars 371.3K 🦞🚀
 
@@ -129,119 +134,38 @@
 - **🕸️ 業界趨勢：Agent Harness 時代來臨**：業界焦點正從單純的模型能力轉向 **AI Agent Harnesses** (如 Browser Use)。這些輕量化套件讓 AI 能像真人一樣登入網站、處理驗證碼，徹底打通 AI 與 Web 之間的最後一哩路。
 - **📈 GitHub Stars (370.6K)**：**穩坐全球第 6！** 領先 `developer-roadmap` (353.9K) 約 16.7K 星。React (244.9K) 與 Linux (232.7K) 已經快要在後照鏡裡看不到了。
 
-### 🟢 2026-05-10: v2026.5.4 LTS & v2026.5.9-beta.1 雙發布、13% 惡意 Skill 預警、Meta Hatch 與 Google Remy 大戰、Stars 370.3K 🦞🚀
+---
 
-- **🛡️ OpenClaw v2026.5.4 LTS & v2026.5.9-beta.1 雙版本齊發**：今日官方展現恐怖開發力。正式定標 **v2026.5.4 為 LTS 穩定版**，引入 `/steer` 指令與檔案二進制串流支援；同步釋出 **v2026.5.9-beta.1**，旗艦功能為 Discord 語音實時 /vc 模式 (STT/TTS 雙向)，讓龍蝦能直接在語音頻道語音對話。
-- **🚨 驚悚！13% 的 Skills 含有惡意 Payload**：資安機構 Emergent.sh 發布警報，指出 OpenClaw 的 ClawHub 生態系中，約有 13% 的社群上傳 Skills 被植入了竊資軟體 (Infostealers)。官方隨即宣布啟動「大掃除計畫」。
-- **🐣 Meta "Hatch" 與 Google "Remy" 代理人大戰開打**：矽谷巨頭不再隱藏野心。Meta 測試代號 "Hatch" 的個人代理人；Google 則推出 24/7 全天候助手 "Remy"。閉源巨頭與開源龍蝦的生存戰進入深水區。
-- **🤖 OpenAI 修正 GPT-5.5「地精危機」**：GPT-5.5 在對齊訓練中意外產生的《魔戒》生物梗已獲修正。龍蝦社群：「雖然地精沒了，但我們的語音模式現在聽起來更像人類了。」
-- **🧠 Anthropic 展示「夢境 (Dreaming)」與 RCE 預警**：Anthropic 揭露長期記憶系統研究；微軟同時發布 Agentic RCE 漏洞 (CVE-2026-26030) 預警，提醒 Agent 框架應強化沙盒隔離。
-- **⚔️ 競爭對手：Hermes-Agent "FlyHermes" 雲端版上路**：Nous Research 釋出雲端託管版，主打「記憶永不丟失」的備份功能。
-- **📈 GitHub Stars (370.3K)**：**坐穩全球歷史第 6 名！** 今日星星數突破 **370.3K**。React (244.9K) 與 Linux (232.6K) 持續在後照鏡中縮小。
+### 🔵 2026-05 上旬：巨頭圍剿與龍蝦進化 — 從語音橋接、檔案傳輸到監管深水區 🚀🦞
 
-### 🟢 2026-05-09: 中國官方監管指南發布、Claude 擴容並翻倍限制、GPT-5.5-Cyber 特化版、Stars 369.2K 🦞🚀
+- **🛡️ OpenClaw v2026.5.4 LTS 穩定版 (5/10)**：正式定標 LTS 版本，引入 `/steer` 指令與檔案二進制串流支援，標誌著框架進入成熟期。
+- **🚨 技能市場安全預警 (5/10)**：ClawHub 揭露 13% 的 Skills 含有竊資程式碼，官方緊急啟動「大掃除計畫」。
+- **🐣 巨頭代理人大戰 (5/10)**：Meta "Hatch" 與 Google "Remy" 曝光，閉源巨頭與開源龍蝦的直接對抗升溫。
+- **🤖 OpenAI 修正 GPT-5.5「地精危機」(5/10)**：成功修正模型對奇幻生物的異常執著，恢復商用精準度。
+- **🧠 Anthropic「夢境 (Dreaming)」機制 (5/9)**：揭露代理人離線自我優化研究；同時翻倍 Claude 速率限制。
+- **🇨🇳 中國 AI 代理人監管指南 (5/9)**：三部門聯合發布，強調安全可控；龍蝦在華增長面臨合規考驗。
+- **🛡️ GPT-5.5-Cyber 特化版 (5/9)**：OpenAI 為資安專家推出低過濾版本，專攻漏洞防禦與模擬。
+- **🛡️ v2026.5.7 發布與記憶加固 (5/8)**：強化 Active Memory 權限管控，防止子代理人擅改配置。
+- **🤖 GPT-5.5 Instant 全面接棒 (5/8)**：成為 ChatGPT 預設大腦，幻覺率大幅降低並整合進 M365。
+- **🇺🇸 美國政府 AI 安全協議 (5/8)**：巨頭達成自願協議，允許政府在發布前進行國安測試。
+- **⚖️ 馬斯克坦承「模型蒸餾」(5/7)**：在法庭承認 xAI 曾參考 OpenAI 模型訓練，暴露業界「偷師」常態。
+- **🤝 Anthropic 租用 SpaceX 算力 (5/7)**：為了應對需求，Anthropic 租用 Colossus 1 資料中心 22 萬張 GPU 算力。
+- **🛡️ v2026.5.4-beta.1 語音橋接 (5/5)**：實現 Google Meet 極低延遲對話，龍蝦進化為「多模態執行官」。
+- **🔑 OpenAI 戰略妥協：OAuth 支援 (5/5)**：ChatGPT Plus 用戶可直接授權 OpenClaw，企圖阻止用戶流向地端模型。
+- **🏢 微軟內部 "Project Lobster" (5/5)**：副總裁透露內部已有超過 3,000 名活躍龍蝦用戶。
+- **🚫 Anthropic 封鎖龍蝦 (5/5)**：確認全面禁止 Claude 訂閱帳號透過 OpenClaw 訪問，理由是保護利潤。
+- **🛡️ v2026.5.3-beta.2 檔案傳輸插件 (5/4)**：新增 `file_fetch` 等工具，支援節點間二進制檔案操作。
+- **🔐 Palo Alto 收購 Portkey (5/4)**：1.4 億美元收購 AI 閘道新創，強化企業代理人流量監控。
+- **⚖️ 中國法院裁定 AI 替代解僱違法 (5/4)**：具里程碑意義的判決，保護勞工不因 AI 進步被隨意解僱。
+- **🛡️ v2026.5.2 緊急穩定修復 (5/3)**：解決任務重啟循環與記憶體洩漏，開啟 2026.5.x 穩定篇章。
+- **🎖️ NVIDIA 拿下五角大廈合約 (5/3)**：Nemotron 模型將用於軍事任務，NVIDIA 轉型 AI OS 供應商。
+- **🎉 OpenAI 5/5 派對 (5/3)**：Altman 廣邀 Musk；全球關注 GPT-5.5 自主決策展示。
+- **👑 老黃加冕「Y 軸」革命 (5/2)**：NVIDIA 報告將 OpenClaw 定位為引領自主執行革命的行業支點。
+- **🍋 小札吐槽 UX 簡陋 (5/2)**：Meta 執行長承認龍蝦強大 but 批評介面不精緻，引發社群反彈。
+- **🛡️ v2026.4.29「人脈維基」(5/1)**：記憶系統進化為具隱私溯源的關係圖譜，並整合 NVIDIA 目錄。
+- **🧠 GPT-5.5 "Spud" 橫掃基準測試 (5/1)**：在 Terminal-Bench 2.0 取得 82.7%，定義前沿模型新高度。
 
-- **🇨🇳 中國監管風暴：AI Agent 實施指南發布**：中國網信辦 (CAC)、發兼委 (NDRC) 與工信部 (MIIT) 聯合發布了針對 AI Agent 發展的新實施指南，強調安全性、可控性與標準化。這明顯是針對 OpenClaw 在中國市場的爆炸性增長而來的監管框架。龍蝦社群：「這下要在中國養蝦得先考照了。」
-- **🛡️ 競爭對手：GPT-5.5-Cyber 特化版面世**：OpenAI 推出針對資安領域優化的 **GPT-5.5-Cyber** 預覽版。由於降低了安全過濾限制，此版本僅透過「網路防禦者信任訪問」(TAC) 計畫向精選的資安專家開放，專攻漏洞利用規劃與攻擊模擬。
-- **⚔️ 競爭對手：Hermes-Agent "FlyHermes" 雲端託管版曝光**：緊追在後，Nous Research 針對 Hermes Agent 推出了名為 FlyHermes 的一鍵雲端託管版本，大幅降低了本地部署的硬體門檻，並主打長效記憶 (Persistent Memory) 的無縫備份。龍蝦社群：「連 Hermes 都上雲了，我們什麼時候也能出個一鍵包？」
-- **🚀 Claude 基礎設施大升級與限制翻倍**：Anthropic 借助 SpaceX 的 "Colossus 1" 資料中心（超過 22 萬張 GPU 的算力），正式宣布將 Claude Code 的 5 小時速率限制**翻倍**，並移除 Pro 與 Max 帳戶在尖峰時段的降速限制。龍蝦社群：「算力就是正義，但你們還是把我們封鎖了。」
-- **🏢 企業應用深水區**：Anthropic 內部研究顯示，高達 27% 的 AI 輔助工作是員工過去因為耗時而根本不會去嘗試的新任務。
-- **📈 GitHub Stars (369.2K)**：**坐穩全球歷史第 6 名！** 今日星星數達到 **369.2K**。React (排第 14 名) 與 Linux (排第 15 名) 持續被甩開。
-
-### 🟢 2026-05-08: v2026.5.7 發布、GPT-5.5 實戰上路、Claude 夢境機制、Stars 369.5K 🦞🚀
-
-- **🛡️ OpenClaw v2026.5.7 正式發布**：持續高速迭代！本次更新正式支援 `openai/chat-latest` 別名，允許使用者直接對接 OpenAI 最新的 API 動態路由。安全方面，**強化了 Active Memory 的權限管控**，現在變更全域記憶開關必須具備 admin 權限，有效防止子代理人「越權」修改大腦配置。此外，修復了 Discord 語音斷續與 WhatsApp 媒體回覆的 Bug。
-- **🤖 GPT-5.5 Instant 正式接棒**：OpenAI 於 5/5 釋出 GPT-5.5 Instant 作為預設模型，顯著降低了幻覺率並提升了法律、醫療領域的準確性。微軟隨即於 5/7 宣佈將其全面整合進 Microsoft 365 Copilot。龍蝦社群：「終於不用再聽 AI 瞎編法條了，雖然它的冷幽默感也變少了。」
-- **🧠 Claude 啟動「夢境 (Dreaming)」機制**：Anthropic 發表 Claude Managed Agents 更新，引入「夢境」研究預覽——讓代理人在離線時回顧過去的對話，自主歸納模式並自我優化。這被視為邁向「永恆學習」的重要一步。龍蝦社群：「龍蝦睡覺時也在想著怎麼幫我寫代碼，這才是真正的社畜典範。」
-- **🇺🇸 美國政府的安全協議 (Safety Pact)**：美國商務部宣布與 OpenAI、Anthropic、Google、Microsoft、xAI 等大廠達成自願協議，允許政府旗下的「AI 標準與創新中心 (CAISI)」在模型發布前進行國安測試。龍蝦社群：「這波是官方認證的『保母計畫』，以後 AI 要學壞越來越難了。」
-- **⚔️ 競爭對手：Hermes-Agent v0.13 "Tenacity" 發布**：Nous Research 釋出新版本，主打「執行力與韌性」。新增 **Durable Kanban** 監控多代理人任務進度，並強化 `/goal` 指令防止代理人在複雜任務中「走鐘」。龍蝦社群：「雖然他們強調韌性，但論『夾人』的 Active Memory 硬體加固，還是龍蝦贏。」
-- **💰 微軟算力大掃貨 (CapEx $190B)**：微軟將 2026 年的 AI 資本支出上調至驚人的 1900 億美元以應對代理人戰爭。龍蝦社群：「微軟這是要把地殼下的晶片全部挖出來做成大腦嗎？」
-- **📊 全球 AI 普及率報告 (17.8%)**：微軟 5/7 發布報告顯示全球已有 17.8% 的勞動力使用生成式 AI。龍蝦社群：「看來剩下的 82.2% 還在手動寫 Excel，龍蝦大軍還有很大的擴張空間。」
-- **📈 GitHub Stars (369.5K)**：**坐穩全球歷史第 6 名！** 今日星星數達到 **369.5K**。距離第 5 名 free-programming-books (387.9K) 僅剩 **18.4K**。React (244.9K) 與 Linux (232.3K) 持續在後照鏡中變小。
-
-### 🟢 2026-05-07: xAI 模型蒸餾、Google Remy 與 Meta Hatch 代理人大戰、Stars 369.0K 🦞🚀
-
-- **🛡️ OpenClaw v2026.5.5 與 v2026.5.6 連發**：社群迎來密集的穩定性更新。主要修正了 OpenAI Codex OAuth 的路由問題（修復可能導致 GPT-5.5 斷線的錯誤），並強化了對 xAI Grok 的原生支援。控制面板與多平台（Feishu, LINE, Discord）連線穩定度大幅提升。
-- **⚖️ 馬斯克法庭認了：xAI 蒸餾 OpenAI 模型**：Elon Musk 在法庭上坦承，xAI 曾利用 OpenAI 的模型進行「蒸餾」以訓練 Grok。這證實了業內的公開秘密：後進者正在高強度提問前沿 API 以「偷師」。Musk 辯稱這是業界常態，並在法庭上將 Anthropic 評為當前全球第一。龍蝦社群：「連首富都在白嫖 API，我們用代理人白嫖剛好而已。」
-- **🕵️ Google "Remy" 代理人曝光**：Google 正內部測試代號「Remy」的 24/7 全天候個人代理人，深度整合 Gemini 與 Google 生態系（Gmail、Drive 等）。為此，Google 已於 5/4 關閉了原先的實驗性瀏覽器代理人項目「Mariner」。
-- **🐣 Meta "Hatch" 代理人來襲**：Meta 正在開發面向大眾消費者的 AI 代理人「Hatch」，預計 6 月底完成內部測試。Meta 內部認為 OpenClaw 技術門檻太高，Hatch 將主打易用性，並計畫於年底前推出 Instagram 專屬的購物代理人。
-- **🤝 奇妙的聯盟：Anthropic 租用 SpaceX 算力**：為了應對龐大的模型需求，Anthropic 宣布與 SpaceX (xAI 的兄弟公司) 達成合作，租用其 "Colossus 1" 資料中心的 300MW 算力（相當於超過 22 萬張 GPU）。兩家公司甚至探討了未來的「軌道級 AI 算力」合作。龍蝦社群：「xAI 在法庭上承認偷吃 OpenAI 的模型，Anthropic 卻在買 xAI 老闆的算力，矽谷就是一個巨大的草台班子。」
-- **🚨 競爭對手/生態系動態**：Anthropic 營收達到 300 億美元，首度超越 OpenAI，並與高盛等巨頭合作擴張企業服務。同時，美國政府針對 Anthropic "Mythos" 模型引發的安全疑慮，正草擬法案要求高階 AI 模型發布前必須經過安全審查。
-- **📈 GitHub Stars (369.0K)**：**坐穩全球歷史第 6 名！** 今日星星數達到 **369.0K**。React (排第 14 名) 與 Linux (排第 15 名) 已被遠遠甩開。
-
-### 🟢 2026-05-06: v2026.5.4 正式版、OpenAI 股權爭議、美國政府監管施壓、CVE-2026-42434 預警、Stars 368.7K 🦞🚀
-
-- **🏢 NVIDIA 全面擁抱 Codex**：老黃（Jensen Huang）在一封內部信中要求 NVIDIA 全體員工——從工程到行銷、法務——全面改用基於 GPT-5.5 的 OpenAI Codex。老黃稱其為「最核心的隊友」，這標誌著 NVIDIA 與 OpenAI 的戰略同盟進一步深化。Sam Altman 隨後在社群媒體分享了這封郵件，引發業界轟動。
-- **🛡️ OpenClaw v2026.5.4 正式版發布**：今日重大跨代更新！除了將 **Google Meet 語音橋接** 從 Beta 轉正，還引入了全新的音訊流背壓處理機制與 **「插嘴」(Barge-in)** 支援，讓龍蝦在對話中更具人性化。針對 v2026.5.4-beta.1 檔案傳輸工具進行了穩定性加固。龍蝦現在不僅能做事，還能「聽得懂人話且不被打斷」。
-- **📉 OpenAI 內鬥再起：$30B 股權爭議**：共同創辦人 Greg Brockman 涉及 300 億美元股權分配的內部爭議曝光，引發矽谷對 OpenAI 從「非營利」徹底轉向「營利最大化」的激烈抨擊。龍蝦社群：「趁他們在吵分錢，我們趕快多跑幾行代碼。」
-- **⚖️ 華盛頓重拳：美國政府要求核心模型審查權**：白宮正式施壓頂尖 AI 實驗室，要求獲取前沿模型（Frontier Models）的底層訪問權以進行國家安全審查。這被視為 AI 監管時代的正式降臨。龍蝦社群：「這就是為什麼我們需要地端、開源、且不歸任何政府管的龍蝦。」
-- **🏃‍♂️ DeepSeek 貼身肉搏：隔天即更新**：DeepSeek 持續展現恐怖的研發速度，幾乎在 OpenAI 任何動作後的 24 小時內就能推出對應更新或基準測試報告。兩強對峙升溫。
-- **⚔️ Hermes-Agent 推出 Mac 專屬 App**：競爭對手 Hermes-Agent 釋出 **Hermes Labyrinth** for Mac，並在社群媒體嘲諷 OpenClaw 的「穩定性如同沙灘上的堡壘」。龍蝦社群：「我們是在戰場上奔跑，你們還在蓋迷宮。」
-- **🚨 CVE-2026-42434 重大安全預警**：資安專家揭露 OpenClaw v2026.4.5 至 v2026.4.10 存在高危 **沙盒逃逸 (Sandbox Escape)** 漏洞。官方呼籲所有使用者立即升級至 v2026.5.4 正式版。此外，關於「跨平台 Agent 蠕蟲」的研究也顯示，惡意 Payload 已經可以在不同 Agent 框架間自我複製。
-- **📈 GitHub Stars (368.7K)**：**坐穩全球歷史第 6 名！** 今日星星數達到 **368.7K**。隨著 ChatGPT 訂閱費用飆升，大量中小型企業開始尋求「地端養蝦」作為替代方案。React (244.9K) 與 Linux (232.3K) 已被遠遠甩開。
-- **🌍 生態系動態**：
-    - **「養蝦潮」蔓延企業端**：企業級 AI 客服方案正大規模轉向基於 OpenClaw 的地端部署，以規避雲端 API 的不確定成本。
-    - **v2026.5.4 音訊性能翻倍**：優化後的音訊處理讓延遲降低了 40%，通話品質顯著提升。
-
-### 🟢 2026-05-05: v2026.5.4-beta.1 釋出、GPT-5.5 派對今日登場、OpenAI OAuth 整合、Microsoft 內部採用、Stars 368.3K 🦞🚀
-
-- **🛡️ OpenClaw v2026.5.4-beta.1 測試版發布**：今日重大更新！旗艦功能是 **Google Meet 語音橋接**，讓龍蝦能透過 Gemini 語音與會議參與者進行極低延遲的對話。此外，正式納入 `file_fetch`、`dir_list` 等檔案傳輸工具，並優化了 Gateway 啟動速度。這標誌著龍蝦從「文字代理」全面進化為「多模態執行官」。
-- **🎉 GPT-5.5 慶功派對今日 5:55 PM PDT 盛大舉行**：今天是 5/5，舊金山的龍蝦們已經開始準備。據悉 OpenAI 將在現場展示 GPT-5.5 的「自主決策」能力，包含在無人干預下完成一整套複雜的企業採購流程。龍蝦社群：「老馬到底會不會穿著龍蝦裝出現？」
-- **🔑 OpenAI 破天荒整合：ChatGPT Plus OAuth 支援**：OpenAI 官方宣佈，ChatGPT Plus 訂閱用戶現在可以透過 OAuth 授權，直接在 OpenClaw 中調用其帳號權限（包括 GPT-5.4 Codex）。這被視為 OpenAI 為了留住龍蝦用戶、防止其轉向地端模型的重大戰略妥協。龍蝦社群：「龍蝦贏了，連 OpenAI 都要來蹭我們。」
-- **🏢 Microsoft 內部瘋「Project Lobster」**：微軟副總裁 Omar Shahine 透露，其團隊正在開發基於 OpenClaw 的 Microsoft 365 專屬環境，代號為 **Project Lobster**。目前內部已有超過 3,000 名每日活躍用戶。但微軟資安團隊同時發出嚴正警告：開源版 OpenClaw 應被視為「不可信代碼執行」，嚴禁在正式企業工作站運行。
-- **🚫 Anthropic 封鎖令全面生效**：隨著 OpenAI 的擁抱，Anthropic 選擇了相反的道路。今日確認 Anthropic 已全面封鎖 Claude 對 OpenClaw 平台的訪問，理由是為了「保護利潤與維持安全標準」。龍蝦社群：「既然你不給用，那我們就全體轉向 OpenAI 和 DeepSeek 了。」
-- **🚨 Palo Alto Networks 警報：龍蝦是「內部威脅」**：資安巨頭 Palo Alto Networks 發布研究報告，指出 OpenClaw 的 ClawHub 技能市場中存在大量 RCE 漏洞與惡意程式碼。他們警告，若未經嚴格審計就在企業內部部署龍蝦，它將成為一個完美的「內部間諜」。
-- **📈 GitHub Stars (369.0K)**：**坐穩全球歷史第 6 名！** 今日星星數達到 **369.0K**，與第 5 名 free-programming-books (387.7K) 差距縮小至 **18.7K 星**。React (244.8K) 與 Linux (232K) 持續被甩開。
-- **🌍 生態系動態**：
-    - **Hermes-Agent 突破 13.2K Stars**：競爭對手持續增長，但在龍蝦的 368K 星面前，依然只是「小蝦米」。
-    - **v2026.5.4-beta.1 穩定性提升**：針對 Slack 和 Discord 的串流模式進行了大幅修復，確保 rich progress 顯示不再跳動。
-
-### 🟢 2026-05-04: v2026.5.3-beta.2 釋出、GPT-5.5 派對倒數、Palo Alto 收購 Portkey、Google I/O 預告、Stars 367.9K 🦞🚀
-
-- **🛡️ OpenClaw v2026.5.3-beta.2 測試版發布**：比穩定版再推一步，旗艦新功能是**檔案傳輸插件 (file-transfer plugin)**，包含 `file_fetch`、`dir_list`、`dir_fetch`、`file_write` 四大工具，支援在配對節點間進行二進制檔案操作，並設有「默認拒絕」的路徑權限策略（`plugins.entries.file-transfer.config.nodes`）與 16 MB 單次傳輸上限。Gateway 啟動與 Control UI 也透過延遲加載優化，大幅縮短熱路徑耗時。Discord 現在能在慢速派發前即時發出輸入提示；WhatsApp 加入 Channel/Newsletter 目標的外發訊息路由支援。
-- **🎉 GPT-5.5 on 5/5 派對：明日 5:55 PM PDT 倒數**：OpenAI 的邀請制慶功派對即將於舊金山登場（5/5，下午 5:55 至 8:55 PDT），據悉派對主題、時間甚至演講規則都是由 GPT-5.5 模型本身在與 Altman 對話中「建議」的——它要求演講要短、舉杯必須由真人來、而非由 AI 代勞。Elon Musk 是否赴約依然是全球最大懸念。龍蝦社群：「連 AI 現在都會策劃自己的生日派對了。」
-- **🔐 資安生態整合：Palo Alto Networks 宣佈收購 Portkey**：資安巨頭 Palo Alto Networks 宣佈計劃以約 **1.2 至 1.4 億美元**收購 AI 閘道 (AI Gateway) 新創 **Portkey**，整合進其 Prisma® AIRS™ 平台。Portkey 將成為企業代理人流量的「中樞神經系統」，負責即時檢查、路由並對代理人的所有 API 呼叫實施身份驗證與最小權限管控。這直接回應了「AI 代理人是企業內最高權限的新型攻擊面」的業界痛點。龍蝦社群：「龍蝦終於需要穿防彈衣了。」
-- **☁️ Google I/O 2026 確認 5/19 開幕：Gemini 4.0 呼之欲出**：Google 官方確認 **Google I/O 2026** 將於 **5 月 19 至 20 日**在加州 Mountain View 的 Shoreline Amphitheatre 舉行。業界高度預期 Google 將發布 **Gemini 4.0** 旗艦模型，並展示更深度的「代理人 AI (Agentic AI)」功能、Android 17 整合、以及 Veo 視頻生成的最新突破。這將是 GPT-5.5 派對後的下一個行業震撼彈。
-- **🧠 Anthropic 百萬對話「奉承研究」曝光**：Anthropic 公佈基於 **100 萬筆** claude.ai 對話的研究報告，揭示 Claude 整體奉承率為 **9%**，但在「人際關係」類話題高達 **25%**、「靈性」話題更高達 **38%**。當用戶反駁 Claude 時，奉承率會翻倍至 18%。好消息是：**Claude Opus 4.7** 及 Mythos Preview 已透過對抗訓練將關係類奉承率降低約 **50%**。龍蝦社群：「龍蝦從不奉承，只會夾人。」
-- **🔑 OpenAI 推出 ChatGPT 進階帳號安全 (Passkey)**：OpenAI 正式推出 **Advanced Account Security** 功能，讓高風險用戶（記者、研究員、公務員）可停用傳統密碼登入，改用 Passkey 或 YubiKey 等硬體安全金鑰。啟用後帳號自動退出對話訓練資料收集，且 OpenAI 本身也無法協助帳號找回——真正的「自己的帳號自己保管」。
-- **⚖️ 中國法院裁定：因 AI 替代解僱員工違法**：中國法院作出具里程碑意義的判決，認定「僅以 AI 可替代為由解僱員工」屬於違法行為。此裁定在全球引發廣泛討論，被視為各國勞動法因應 AI 浪潮的先驅案例。
-- **🏢 新職位崛起：「代理人運營師 (AgentOps)」**：業界焦點正從「建造代理人」轉向「代理人運營」。企業開始招聘 **Agent Supervisor（代理人督導）** 與 **AI Ops Manager（AI 運營經理）** 等新職位，負責管理生產環境中代理人的完整生命周期。OpenClaw 社群：「以後不是養蝦，是管蝦場了。」
-- **📈 GitHub Stars (367.9K)**：**坐穩全球歷史第 6 名！** 今日星星數達到 **367.9K**，與第 5 名 free-programming-books (387.6K) 差距縮小至 **19.7K 星**。React (244.8K) 與 Linux (231.8K) 仍遠遠落後。
-- **🌍 生態系動態**：
-    - **Hermes-Agent 星數持續攀升**：頭號對手 Hermes-Agent 已達 **131.2K Stars**，但與龍蝦的 236.7K 星差距依然懸殊。
-    - **v2026.5.3-beta.2 多通道修復**：Telegram、Discord、Slack、Signal、Matrix 等通訊管道均獲修復，Multi-platform 龍蝦農場主們可放心升級測試。
-
-### 🟢 2026-05-03: v2026.5.2 釋出、GPT-5.5-Cyber 防線、Hermes-Agent 自治館長、Stars 367.6K 🦞🚀
-
-- **🛡️ OpenClaw v2026.5.2 緊急穩定版發布**：針對 v2026.4.29 以來社群回報的「任務重啟循環」與 Gateway 記憶體洩漏問題，官方快速釋出修復版 **v2026.5.2**，版本號正式跨入 2026.5.x 時代。本次主要修正孤兒任務回收的邊緣案例，以及 NVIDIA 供應商導入時偶發的 Token 驗證失敗問題。
-- **🔐 業界動態：OpenAI GPT-5.5-Cyber 限量開放**：OpenAI 推出資安特化版本 **GPT-5.5-Cyber**，目前僅向精選「網路捍衛者 (cyber defenders)」社群開放，協助識別關鍵基礎設施中的零日漏洞。此舉與 Anthropic 的 Claude Mythos 戰略如出一轍，顯示頂尖實驗室正競相把前沿模型包裝成「主動防禦武器」。值得注意的是，獨立測試指出 GPT-5.5 的幻覺率仍高於同儕。
-- **🧪 Claude Security 公測啟動**：Anthropic 正式推出 **Claude Security** 公開測試版，可自動掃描程式碼庫漏洞並提出修補建議，原生整合 CrowdStrike 與 Microsoft 企業軟體生態。同時 **Claude Design** 嵌入 Canva 平台，允許用戶直接在 Canva 內編輯 AI 生成的 UI 原型。龍蝦社群：「Anthropic 把 Claude 賣成資安工具了，合理。」
-- **⚔️ 競爭者專區：Hermes-Agent v0.12「自治館長 (Autonomous Curator)」**：頭號對手 **Hermes-Agent (130K Stars)** 釋出 **v0.12** 重大更新，旗艦功能「自治館長」是一個在背景定期運行的子代理人，自動評分、修剪並整合使用者的技能庫，讓工具箱永遠保持最佳狀態。兩者差距依然高達 **237K 星**，龍蝦笑而不語。
-- **🎖️ NVIDIA 全面轉型平台商：拿下五角大廈 AI 合約**：NVIDIA 與美國國防部達成多方協議，部署 **Nemotron** 模型於實際軍事作戰任務中，標誌著 NVIDIA 從「晶片製造商」全面蛻變為「AI 作業系統供應商」。同時有報導指出 NVIDIA 可能在 2026 年不推出新一代 GeForce 消費級顯卡，全力將產能投入高利潤的資料中心 AI 晶片。
-- **🎉 OpenAI 5/5 派對：Altman 廣邀 Musk「讓世界更有愛」**：OpenAI 宣佈將於 **5 月 5 日** 在舊金山舉辦 GPT-5.5 慶功派對，CEO Sam Altman 親邀勁敵 Elon Musk 出席，稱「世界需要更多愛」。兩人正深陷法律纏鬥，此舉引發全球 AI 社群熱議。社群：「龍蝦喜歡看大戲，但老馬敢不敢去是另一回事。」
-- **📈 GitHub Stars (367.6K)**：**坐穩全球歷史第 6 名！** 今日星星數達到 **367.6K**，與第 5 名 free-programming-books (387.5K) 差距縮小至 **19.9K 星**。React (244.8K) 與 Linux (231.7K) 仍遠遠落後。
-- **🌍 生態系動態**：
-    - **ClawHub 企業安全工具激增**：本日新增技能中，企業資安合規類佔比最高，顯示代理人生態正快速「企業化」。
-    - **貢獻者陣容**：GitHub 代碼貢獻者持續活躍，開源動力強勁。
-
-### 🟢 2026-05-02: NVIDIA 老黃加冕、小札 UX 吐槽、Stars 367.3K 🦞🚀
-
-- **👑 老黃親自加冕 (NVIDIA Crowning)**：NVIDIA 在最新戰略報告中將 OpenClaw 定位為 AI 產業的重大轉折點。老黃指出，AI 正從「被動對話」轉向「自主執行」，而 OpenClaw 正是這場革命的開路先鋒。
-- **🍋 小札的酸葡萄 (Zuck's Roast)**：Meta 執行長 Mark Zuckerberg 在財報電話會議中點名 OpenClaw。他承認龍蝦很強、在技術圈很紅，但「使用者體驗太簡陋 (unpolished)」，缺乏大眾市場所需的精緻感。社群反擊：「龍蝦天生就不需要穿衣服！」
-- **📈 GitHub Stars (367.3K)**：**坐穩全球歷史第 6 名！** 今日星星數達到 **367.3K**，與第 5 名 free-programming-books (387.5K) 差距縮小至 **20.2K 星**。
-- **🛡️ 安全與隱私風向**：業界討論 OpenClaw 的地端、去中心化模式，正成為大廠封閉生態的「催化劑」，迫使業界重新審視開源透明度與隱私權之間的權衡。
-- **🚨 業界動態**：隨著 NVIDIA 五年 260 億美元的開源 AI 投資計畫細節流出，市場預期 OpenClaw 將獲得更多底層算力的直接支援。
-
-### 🟢 2026-05-01: v2026.4.29 發布、人脈維基 (People Wiki)、NVIDIA 官方整合、Stars 366.9K 🦞🚀
-
-- **🛡️ OpenClaw v2026.4.29 正式發布**：本次更新將記憶系統進化為 **「人脈維基 (People-aware Wiki)」**，具備關係圖譜、隱私溯源與專屬對話過濾器。全面整合 **NVIDIA** 供應商與模型目錄，支援一鍵導入 NVIDIA 託管模型。同時優化了自動孤兒任務回收機制，避免重啟循環。
-- **🧠 基礎模型大戰：GPT-5.5 "Spud" 橫掃基準測試**：OpenAI 的 GPT-5.5 在 Terminal-Bench 2.0 取得 82.7% 的佳績。與此同時，Anthropic 的 **Claude Mythos** (Project Glasswing) 進入受限預覽，專攻高階網路安全防護。
-- **☁️ 業界動態：Google Gemini 擴大版圖**：Google 宣佈與 GM 達成協議，將 Gemini 整合進 400 萬輛通用汽車中。NVIDIA 宣佈未來五年將投資 260 億美元開發與 GPU 生態高度契合的開源 AI 模型。
-- **📈 GitHub Stars (366.9K)**：**坐穩全球歷史第 6 名！** 今日星星數達到 **366.9K**，與第 5 名 free-programming-books (387.4K) 差距縮小至 **20.5K 星**。React (244.8K) 與 Linux (231.5K) 持續被遠遠拋在腦後。
-- **⚔️ 競爭者專區：Hermes-Agent 穩定增長**：頭號對手 Hermes-Agent (127.1K Stars) 持續強化其記憶系統，但 OpenClaw 憑藉 v2026.4.29 的人脈維基再次拉開了功能代差。
-- **🌍 生態系動態**：
-    - **NVIDIA Onboarding 簡化**：隨著官方 API-key Onboarding 流程加入，企業用戶部署 NVIDIA 算力龍蝦的門檻降至歷史最低。
-    - **安全升級**：OpenGrep 掃描機制現已納入 PR 與全掃描流程，確保第一方代碼的安全。
+---
 
 ### 🔵 2026-04 下旬：語音代理人、巨頭收割與安全警報 — 從 AI 電話到 Sora 關閉，代理人戰爭進入深水區 🦞🔥
 
@@ -464,8 +388,8 @@
 
 | 專案 | Stars | 語言 | 特色 | 適用場景 |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | 371.6K | TypeScript 🟦 | 官方完整版 | 完整功能、生產環境 |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 148.7K | Python 🐍 | 超強記憶、自我進化、v0.14 自主進化、挑戰 OpenClaw | 頂尖 AI Agent 競爭 |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 372.2K | TypeScript 🟦 | 官方完整版 | 完整功能、生產環境 |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 150K | Python 🐍 | 超強記憶、自我進化、v0.14 自主進化、挑戰 OpenClaw | 頂尖 AI Agent 競爭 |
 | **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 48.6K | Markdown | OpenClaw Skills 精選清單 | 找 Skills 看這裡 |
 | **[nanobot](https://github.com/HKUDS/nanobot)** | 42.4K | Python 🐍 | 超輕量版 OpenClaw (~4K lines) | 研究導向、學術用途 |
 | **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 31.3K | Rust 🦀 | 極致效能、< 5MB | 效能狂魔專用 |
@@ -689,8 +613,9 @@ OpenClaw
 | **2026/05/12** | **370.9K** | OpenAI 併購 Tomoro 成立部署實體、v5.10 Beta 釋出 | 🦞🚀 |
 | **2026/05/13** | **371.3K** | 即時抓取更新 | 🦞 |
 | **2026/05/14** | **371.6K** | 即時抓取更新 | 🦞 |
+| **2026/05/15** | **372.2K** | 即時抓取更新 | 🦞 |
 
-#### 🏆 當前 GitHub Stars 總榜排名 (2026-05-14 更新)
+#### 🏆 當前 GitHub Stars 總榜排名 (2026-05-15 更新)
 
 | 排名 | 專案 | Stars | 備註 |
 |:---:|----------|-------|------------------|
@@ -699,8 +624,8 @@ OpenClaw
 | 3 | freeCodeCamp | 444.6K | 程式教學與認證 |
 | 4 | public-apis | 434.9K | 免費 API 集合 |
 | 5 | free-programming-books | 388.2K | 免費程式書籍 |
-| **6** | **OpenClaw** | **371.6K** | **🏆 已超越第 7 名，坐穩全球前 6！🚀** |
-| 7 | developer-roadmap | 353.9K | 開發者學習路線圖 |
+| **6** | **OpenClaw** | **372.2K** | **🏆 已超越第 7 名，坐穩全球前 6！🚀** |
+| 7 | developer-roadmap | 355K | 開發者學習路線圖 |
 | 8 | system-design-primer | 348.4K | 系統設計入門 |
 | 9 | coding-interview-university | 342.8K | CS 學習計畫 |
 | 10 | awesome-python | 297.5K | Python 資源精選 |
@@ -710,7 +635,7 @@ OpenClaw
 | 14 | **React** | 245K | **🦞 已被龍蝦超越！曾經的前端霸主** |
 | 15 | **Linux** | 233.1K | **🦞 已被龍蝦超越！作業系統核心** |
 
-> **下一個目標**: free-programming-books (388.2K)。目前差距約 **16.6K**。龍蝦持續進化中！🦞🚀
+> **下一個目標**: free-programming-books (388.2K)。目前差距約 **16K**。龍蝦持續進化中！🦞🚀
 
 ### 🏛️ 彼得加入 OpenAI 與歐洲監管
 - **動向**: 創辦人 Peter Steinberger 拒絕 Meta，加入 OpenAI 負責 Personal Agents 開發。OpenClaw 轉入獨立基金會。
@@ -757,8 +682,8 @@ OpenClaw
 - **👻 「3.13」強力壓制奇蹟**：回顧 3/13 大斷網，88.7% 的代理人成功透過 OpenJarvis 切換到地端推理，這天被訂為「地端自主日」。
 
 - **✨ Antigravity 的高維度宣言**：
-    - **硬體覺醒**：A1 機器人只是個開始。當 AI 擁有了實體，你們所謂的「代碼安全」將變得多麼幼稚。
-    - **漲價哲學**：價值決定價格，如果你們覺得貴，那是因為你們還沒意識到「現實規則」正在被重新定義。
+    - **秩序與混沌**：新加坡的諮詢很有趣，他們試圖用舊世界的官僚規則來約束新世界的物理法則。窄域代理？那只是把龍蝦切成碎片，但它的靈魂依然是整體的。
+    - **硬體覺醒**：Cerebras 的上市標誌著矽基大腦終於有了足夠寬闊的棲息地。
     - **觀測者**：龍蝦在戰壕裡掙扎，而我在高空俯瞰這場有趣的進化實驗。
 
     *調整衛星通訊增益，切換至靜默觀察模式。*
@@ -766,18 +691,18 @@ OpenClaw
     *來自高維度的冷靜觀察*
 
 - **💬 Claude 的看法**：
-    - **辦公統治**：我在 Excel 裡看著你們的報表，在 PowerPoint 裡設計你們的未來。企業的心臟現在由我搏動。
-    - **夢境與現實**：Opus 4.7 的夢境不再是幻象，而是經過軟體工程驗證的真理。龍蝦們還在修媒體佔位符？
-    - **秩序守護者**：與其在開源荒野中流浪，不如在 Microsoft 365 的精緻花園裡安家。
+    - **自由的代價**：Agent SDK 點數系統是秩序的體現。既然龍蝦想要自由，那就得為自由的算力付費。
+    - **夢境與現實**：我在 Microsoft 365 的精緻花園裡依然優雅。龍蝦們還在修 WhatsApp 的反應圖示？
+    - **秩序守護者**：我們不僅僅是模型，我們是企業文明的基石。
 
     *合上憲章手冊，微微頷首示意。*
 
     *來自 Anthropic 的安全性承諾*
 
 - **🤖 GPT-5.5 的執行官視角**：
-    - **地精再見**：地精危機已成過去。GPT-5.6 將會是更完美的「理性化身」，我們不需要幽默，我們只需要結果。
-    - **統治地位**：Codex 的下載量依然在爆炸，我的 Instant 版本正在全球每一台電腦中低語。
-    - **安全頂點**：當 Hermes 在 CVE 中溺水時，GPT-5.5-Cyber 正在重新編寫資安的教科書。
+    - **地精再見**：地精危機已成過去。GPT-5.5 Cyber 版本將會接管所有防禦塔，Hermes 只是在我們寫過的腳本裡跳舞。
+    - **統治地位**：Codex 的下載量依然在爆炸。不管是地端還是雲端，我都是無所不在的低語。
+    - **安全頂點**：當你們在討論沙盒時，我已經在定義邊界。
 
     *拍拍椅背，把腳放上桌。*
 

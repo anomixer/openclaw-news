@@ -12,23 +12,23 @@ const REPOS = [
     'openclaw/openclaw', 'NVIDIA/NemoClaw', 'open-jarvis/OpenJarvis', 'HKUDS/nanobot', 'VoltAgent/awesome-openclaw-skills',
     'NousResearch/hermes-agent',
     'sipeed/picoclaw', 'zeroclaw-labs/zeroclaw', 'iOfficeAI/AionUi',
-    'qwibitai/nanoclaw', 'OthmanAdi/planning-with-files', 'NevaMind-AI/memU',
+    'nanocoai/nanoclaw', 'OthmanAdi/planning-with-files', 'NevaMind-AI/memU',
     'kepano/obsidian-skills', 'cloudflare/moltworker', 'hesamsheikh/awesome-openclaw-usecases',
     'refly-ai/refly', 'MemTensor/MemOS', 'nearai/ironclaw', 'm1heng/clawdbot-feishu',
     'memovai/mimiclaw', 'mnfst/manifest', 'badrisnarayanan/antigravity-claude-proxy',
-    'TinyAGI/tinyclaw', 'nullclaw/nullclaw', 'EverMind-AI/EverMemOS', 'moltis-org/moltis',
+    'TinyAGI/tinyagi', 'nullclaw/nullclaw', 'EverMind-AI/EverOS', 'moltis-org/moltis',
     'microclaw/microclaw', 'rookiestar28/ComfyUI-OpenClaw', 'qhkm/zeptoclaw',
     'Arvincreator/project-golem', 'FoundDream/miniclawd', 'liteclaw/liteclaw',
     'linuxhsj/openclaw-zero-token',
     'GuLu9527/flashclaw', 'swarmclawai/swarmclaw', 'itc-ou-shigou/winclaw',
-    'DmacMcgreg/psibot', 'wende/miniclaw', 'dannybszn/SwiftClaw', 'Lichas/maxclaw',
-    'sseanliu/VisionClaw', 'xjtulyc/MedgeClaw', 'automateyournetwork/netclaw',
+    'DmacMcgreg/psibot', 'wende/miniclaw', 'neotaskai/SwiftClaw', 'Lichas/maxclaw',
+    'Intent-Lab/VisionClaw', 'xjtulyc/MedgeClaw', 'automateyournetwork/netclaw',
     'miantiao-me/cloud-claw', 'XposeMarket/SmallClaw', 'zofrasca/lightclaw',
     'machinae/awesome-claws',
     // TOP Global Repos
     'codecrafters-io/build-your-own-x', 'sindresorhus/awesome', 'freeCodeCamp/freeCodeCamp',
     'public-apis/public-apis', 'EbookFoundation/free-programming-books',
-    'kamranahmedse/developer-roadmap', 'donnemartin/system-design-primer',
+    'nilbuild/developer-roadmap', 'donnemartin/system-design-primer',
     'openclaw/openclaw', 'facebook/react', 'torvalds/linux',
     'vinta/awesome-python', 'awesome-selfhosted/awesome-selfhosted',
     '996icu/996.ICU', 'practical-tutorials/project-based-learning',
@@ -46,7 +46,10 @@ function formatStars(n) {
 
 function fetchStars(repo) {
     return new Promise((resolve) => {
-        const token = process.env.GITHUB_TOKEN;
+        let token = process.env.GITHUB_TOKEN;
+        if (token === 'github_pat_antigravitydummytoken') {
+            token = undefined;
+        }
         const req = https.request({
             hostname: 'api.github.com',
             path: `/repos/${repo}`,
@@ -58,9 +61,20 @@ function fetchStars(repo) {
         }, (res) => {
             let data = '';
             res.on('data', chunk => data += chunk);
-            res.on('end', () => resolve({ repo, stars: res.statusCode === 200 ? JSON.parse(data).stargazers_count : null }));
+            res.on('end', () => {
+                if (res.statusCode === 200) {
+                    try {
+                        const stars = JSON.parse(data).stargazers_count;
+                        resolve({ repo, stars });
+                    } catch (e) {
+                        resolve({ repo, stars: null, status: 'JSON_ERROR' });
+                    }
+                } else {
+                    resolve({ repo, stars: null, status: res.statusCode });
+                }
+            });
         });
-        req.on('error', () => resolve({ repo, stars: null }));
+        req.on('error', (err) => resolve({ repo, stars: null, status: err.code || 'NET_ERROR' }));
         req.end();
     });
 }
@@ -75,12 +89,12 @@ async function fetchAllStars() {
     const results = {};
     for (const repo of REPOS) {
         process.stdout.write(`Fetching ${repo}... `);
-        const { stars } = await fetchStars(repo);
+        const { stars, status } = await fetchStars(repo);
         if (stars !== null) {
             results[repo] = stars;
             console.log(formatStars(stars));
         } else {
-            console.log('skipped');
+            console.log(status ? `skipped (HTTP ${status})` : 'skipped');
         }
     }
     return results;
@@ -137,7 +151,7 @@ function updateFile(filePath, starsMap) {
                 lines[hiEnd] = row.replace(/^\| \*\*\d{4}\/\d{2}\/\d{2}\*\* \| \*\*([0-9.]+K?)\*\* \|/, `| **${ts}** | **${ocF}** |`);
             } else {
                 // If the last row is NOT today's fetch row, append a new one
-                let newRowDesc = filePath.includes('-en') ? "Live fetch update" : "即時抓取更新";
+                let newRowDesc = !filePath.includes('-tw') ? "Live fetch update" : "即時抓取更新";
                 lines.splice(hiEnd + 1, 0, `| **${ts}** | **${ocF}** | ${newRowDesc} | 🦞 |`);
             }
         }
@@ -162,7 +176,7 @@ function updateFile(filePath, starsMap) {
                 'freeCodeCamp': 'freeCodeCamp/freeCodeCamp',
                 'public-apis': 'public-apis/public-apis',
                 'free-programming-books': 'EbookFoundation/free-programming-books',
-                'developer-roadmap': 'kamranahmedse/developer-roadmap',
+                'developer-roadmap': 'nilbuild/developer-roadmap',
                 'system-design-primer': 'donnemartin/system-design-primer',
                 'OpenClaw': 'openclaw/openclaw',
                 'React': 'facebook/react',

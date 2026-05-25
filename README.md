@@ -4,10 +4,10 @@
 
 > **WARNING**: The news contains excessive complaints, conspiracy theories, and profound philosophical thoughts on lobsters.
 > 
-> **Last Updated**: 2026-05-24
-> **Status**: OpenClaw is surging, now past 374.2K stars! **Ranked #6 globally on GitHub, holding strong in the top six!** 🦞🚀
+> **Last Updated**: 2026-05-25
+> **Status**: OpenClaw is surging, now past 374.4K stars! **Ranked #6 globally on GitHub, holding strong in the top six!** 🦞🚀
 
-> **OpenClaw Version**: v2026.5.22 (Latest Stable/LTS) | v2026.5.22-beta.1 (Latest Beta) | Native sessions_spawn, realtime voice streaming, meme-maker, Python pdb debugging, sqlite-vec main-thread fix, Discord voice user following, Codex plugins hot-swapping, Grok Skills integration, and Policy security protocol 🦞🏰
+> **OpenClaw Version**: v2026.5.22 (Latest Stable/LTS) | v2026.5.24-beta.2 (Latest Beta) | iMessage tapback approvals, Talk/realtime instant query & cancel, Discord wake-name gating, adaptive image compression, and external Meeting Notes plugin with Discord voice capture 🦞🏰
 
 ---
 
@@ -18,26 +18,22 @@
 
 ## ⏱️ TL;DR (30-second summary)
 
-1. **The Protagonist**: **OpenClaw** (🔥 374.2K Stars, **solid 6th in history**), leading `developer-roadmap` by ~19K stars. Today's release **v2026.5.22** (Stable/LTS) is officially deployed.
-2. **Today's Shockwaves**: OpenClaw v2026.5.22 stable release launches with native xAI Grok Skills & Vercel deployment; OpenAI files confidential IPO at $1T valuation; US safety order delayed under compute tide.
-3. **Model & Rival Dynamics**: Nous Hermes-Agent stars surge past 162.2K, its YOLO mode attempting a self-compiled IPO prospectus.
-4. **Latest Progress**: Stars reached 374,200 (374.2K). The Lobster Army continues to evolve! 🦞🚀
+1. **The Protagonist**: **OpenClaw** (🔥 374.4K Stars, **solid 6th in history**), leading `developer-roadmap` by ~19K stars. Today's Beta **v2026.5.24-beta.2** brings iMessage tapback approvals and real-time Talk interaction upgrades.
+2. **Today's Shockwaves**: Pope Leo XIV published the world's first papal AI encyclical *Magnifica Humanitas*, with Anthropic's Christopher Olah co-presenting; Anthropic is closing a $30B funding round targeting a $900B+ valuation; Andrej Karpathy officially joins Anthropic's pretraining team.
+3. **Model & Rival Dynamics**: Nous Hermes-Agent surges to 165.7K stars, continuing to top OpenRouter daily inference.
+4. **Latest Progress**: Stars reached 374,400 (374.4K). The Lobster Army continues to evolve! 🦞🚀
 
 ---
 
 ## 📚 Table of Contents
 
 - **Part 1: 📅 Daily Battlefield Logs (The Logs)**
+  - 🟢 2026-05-25: Divine AI Era Descends & Valuation Singularity: v2026.5.24-beta.2 Blitz, Pope Leo XIV's *Magnifica Humanitas* AI Encyclical Published, Anthropic $30B Round Targets $900B+ Valuation, Karpathy Joins Anthropic, Stars 374.4K 🦞🚀
   - 🟢 2026-05-24: 5ms Latency Warm-up & SpaceX Starlink Compute: v2026.5.22 Stable Release, OpenAI GPT-5.5 Instant Default, Anthropic Partners with SpaceX for Unlimited Compute, Stars 374.2K 🦞🚀
   - 🟢 2026-05-23: The $1 Trillion IPO Dream & Cosmic Integrations: v2026.5.22 Stable Release, xAI Grok Skills Binding, OpenAI Confidential IPO Targeting $1T Valuation, Stars 374.2K 🦞🚀
   - 🟢 2026-05-22: Core Security Hardening & Voice Following Live: v2026.5.20 Stable Release, SKILL.md Bypass Blocked, Policy Plugin Integration, Stars 373.8K 🦞🚀
   - 🟢 2026-05-21: Voice Following and Red-Teaming in the Shadow of Singularity: v2026.5.20-beta.1 Blitz, Gartner "No-IDE Era" Declaration, Microsoft RAMPART Red-Teaming Tool, AMD $3,999 Mini-PC Ambush, Stars 373.6K 🦞🚀
-  - 🟢 2026-05-20: Duo of Lightning and Spark: v2026.5.19-beta.2 Blitz, Google I/O 2026 Releases Gemini 3.5 Flash & Spark Agents, Peter's Money-Burning Legend Exposed, Stars 373.3K 🦞🚀
-  - 🟢 2026-05-19: Headless Era Arrives and Local Heartbeat Fix: v2026.5.19-beta.1 Surprise Drop, SaaSpocalypse Meltdown, NVIDIA "Lobster Factory" Commences, Stars 373K 🦞🚀
-  - 🟢 2026-05-18: Duo of Memes and Debugging: v2026.5.16-beta.5 Released, Meme-maker Arrives, Hermes Breaks 154.8K Stars, Stars 372.7K 🦞🚀
-  - 🟢 2026-05-17: Symphony of Collaboration & Music: v2026.5.16-beta.4 Released, xAI Grok Boards, Localization Push, Stars 372.5K 🦞🚀
-  - 🟢 2026-05-12: OpenAI acquires Tomoro, Fake DDR5 Warning, v5.10 Beta released, Stars 370.9K 🦞🚀
-  - 🟢 2026-05-11: v5.9 Beta (Discord Voice/WeChat), GPT-5.5 Instant Takeover, Hermes-Agent Surpasses Lobster, Stars 370.6K 🦞🚀
+  - 🔵 Mid-May 2026: Headless Enterprise Shocks SaaS & Security Hardening — From Computer Use to Google I/O & Gemini Spark 🚀🦞
   - 🔵 Early May 2026: The Corporate Blockade & Lobster Evolution — From Voice Bridges to Regulatory Deep Waters 🚀🦞
   - 🔵 Late April 2026: From AI Phone Agents to Sora's End — Giant Consolidation and the Rogue Agent Surge 🦞🔥
   - 🔵 Mid-April 2026: From Microsoft Lobster to OpenAI's $122B Funding - Agents Enter the Era of OS & Enterprise Infrastructure 🦞🔥
@@ -80,6 +76,18 @@
 
 Because the battle is too fierce, to save everyone from scrolling through updates from the beginning every day, this section is now in a "Date-Descending Log Stream" format.
 
+### 🟢 2026-05-25: Divine AI Era Descends & Valuation Singularity: v2026.5.24-beta.2 Blitz, Pope Leo XIV's *Magnifica Humanitas* AI Encyclical, Anthropic $30B Round Targets $900B+ Valuation, Karpathy Joins Anthropic, Stars 374.4K 🦞🚀
+
+- **🦞 OpenClaw v2026.5.24-beta.2 Surprise Drop: iMessage Tapback Approvals & Talk Real-time Interaction Upgrade**: The team quietly dropped the latest **v2026.5.24-beta.2** today (May 25)! The hottest new feature is **iMessage "Tapback Approvals"**—the lobster can now recognize a 👍 (Like tapback) you send on iMessage as a quick "allow-once" approval command, while 👎 triggers an immediate denial! This mirrors WhatsApp's tapback behavior exactly, letting farm owners skip typing approvals entirely—just one thumb gesture and the lobster gets to work. **Talk/realtime** also received a massive upgrade—WebUI and Discord voice users can now query the agent's current run status, cancel tasks, steer direction, or queue follow-up instructions while a task is in progress, without waiting for the lobster to finish before chiming in! Farm owners: "This is true full-featured remote farm control—even mid-task redirects work now!"
+- **🎙️ Discord Voice Wake-Name Gating & Enhanced USER.md Bootstrap Context**: The new version adds a **wake-name gating** mechanism to Discord voice (using the agent's name as the default trigger word), and significantly raises the bootstrap context budget for USER.md and SOUL.md profile files—so the lobster can now load a more complete picture of your personal settings without truncating your soul just because the file was too long.
+- **📸 Adaptive Image Compression Arrives: A New Token-Saving Weapon**: The new image tool adds **adaptive model-aware image compression**, configurable via `agents.defaults.imageQuality` (choose token-efficient, balanced, or high-detail), letting the lobster automatically select the most cost-effective compression strategy when transmitting media. Local farm owners rejoice: "Before, every screenshot ate a huge chunk of tokens; now we can finally be a bit more frugal!"
+- **📜 Pope Leo XIV's *Magnifica Humanitas*: History's First Papal AI Encyclical Stuns the World**: Today (May 25), the Vatican published humanity's first ever papal encyclical on artificial intelligence—**"Magnifica Humanitas" ("Magnificent Humanity")**! Pope Leo XIV likened the rise of AI to the Industrial Revolution, emphasizing the need to protect human dignity and labor rights, and preventing technology from eroding humanity's moral responsibility. The encyclical was signed on the 135th anniversary of **Rerum Novarum** (1891, the seminal workers' rights declaration of the industrial age). Most shocking to the industry was that **Christopher Olah**, co-founder of Anthropic, personally joined the Pope at the Vatican to co-present the encyclical—the first time a Silicon Valley AI company has shared a stage with the Holy See for a moral proclamation. Lobster farm owners fell silent for three seconds: "So… does my lobster need to get baptized?"
+- **💰 Anthropic Valuation Singularity: $30B Round Targets $900B+ Valuation**: Massive commercial news! Anthropic is rapidly closing a co-led **$30 billion** mega-round from Sequoia, Dragoneer, Altimeter, and Greenoaks, targeting a valuation of **over $900 billion**, instantly leapfrogging OpenAI (currently valued at ~$852B) to become the world's highest-valued private AI company! Anthropic projects Q2 2026 quarterly revenue alone will hit **$10.9 billion**, with annualized run rate charging toward the $50B milestone. Farm owners weep: "We used to feel sorry for Anthropic fighting with the lobster—now they're about to become the AI world's first trillion-dollar behemoth?! Our competitive opponents keep getting richer and richer. This really is nerve-wracking."
+- **🧑‍💻 Karpathy Officially Joins Anthropic: The Biggest AI Talent Shock Lands**: Announced last week (May 19) but continuing to reverberate today—AI's most famous evangelist, former Tesla AI Director, OpenAI founding member **Andrej Karpathy** has officially joined Anthropic's pretraining team! His mission is to build and lead a new team dedicated to using Claude itself to **accelerate pretraining research**—in plain terms, "have Claude help build the next Claude," a recursive AI self-improvement dream mission. Lobster community: "Claude training Claude with Claude? That's already an inception-style cosmic recursion—probably just three lines of code away from Skynet."
+- **⚔️ Competitors: Nous Hermes-Agent Surges to 165.7K Stars, Still Dominating OpenRouter Inference**: Open-source nemesis Hermes-Agent today hit **165.7K** stars! Following last week's achievement of topping OpenRouter's daily inference volume, v0.14's "Foundation Release" continues refining its "Memory Pruning" and "zero-prompt self-optimization" capabilities, vowing to forever outshine OpenClaw in Token efficiency. Community: "The lean shrimp won the volume war on the compute battlefield through resource discipline; the lobster can only keep leaning on its 374.4K stars of massive credibility."
+- **🔒 Security Alert: MCP Ecosystem Supply Chain Attacks Escalating, "Promptware" Officially Defined as New Attack Class**: Security researchers today formally classified **"Promptware"** (malicious content in documents or web pages hijacking AI agent sessions to establish persistent attacker C2) as its own distinct attack category, separate from traditional prompt injection. MCP ecosystem supply chain attacks are also worsening—countless unauthenticated MCP servers are exposed on the internet, leaking API keys and conversation histories. Security experts warn farm owners: "Your Skill marketplace is the attacker's backdoor shop—enable sandbox isolation and Skill Safety Scanner immediately."
+- **📈 GitHub Stars (374.4K)**: **Solid #6 Globally!** Under `update_stars.js` real-time tracking, OpenClaw freshly hit **374.4K**, leading `developer-roadmap` (355.4K) by ~**19K** stars! React (245.3K) and Linux (234.3K) taillights have completely vanished from the rearview mirror.
+
 ### 🟢 2026-05-24: 5ms Latency Warm-up & SpaceX Starlink Compute: v2026.5.22 Stable Release, OpenAI GPT-5.5 Instant Default, Anthropic Partners with SpaceX for Unlimited Compute, Stars 374.2K 🦞🚀
 
 - **🛡️ OpenClaw v2026.5.22 Stable Release & 4100x Speedup**: The official team dropped stable **v2026.5.22** today (May 24)! The headline speedup is a completely refactored Gateway path featuring a `/models` pre-warming registry, slashing model listing response times from 20 seconds to **5 milliseconds** (a 4,100x speedup)! Local lobster farmers cheered: "Before, we had to wait for the model list to load; now it pops up instantly, warm enough to make our souls shiver!" Additionally, sub-agent bootstrap context is now restricted to `AGENTS.md` and `TOOLS.md` by default, protecting persona and sensitive credentials from leaking into workers.
@@ -120,112 +128,33 @@ Because the battle is too fierce, to save everyone from scrolling through update
 - **⚔️ Competitors: Nous Hermes-Agent Surges to 159.7K Stars & v0.14 Auto-Evolution**: As OpenClaw's biggest open-source nemesis, Nous Research's **Hermes-Agent** star count surged to **159.7K** today! Its newly released **v0.14** version features "zero-prompt self-optimization and Memory Pruning," claiming to slash Token waste by 40% to hit OpenClaw's money-burning weakness. The community teased: "While the lobster eats Tokens like a black hole, will Hermes' 'diet version' of auto-evolution prune its own brain into stupidity?"
 - **📈 GitHub Stars (373.6K)**: **Solid #6 Globally!** Under `update_stars.js` real-time tracking, OpenClaw successfully surged to **373.6K**, leading `developer-roadmap` (355K) by ~18.6K stars! React (245.2K) and Linux (233.9K) stars grew slightly, but under the lobster's absolute suppression, they can only eat dust in the rearview mirror.
 
-### 🟢 2026-05-20: Duo of Lightning and Spark: v2026.5.19-beta.2 Blitz, Google I/O 2026 Releases Gemini 3.5 Flash & Spark Agents, Peter's Money-Burning Legend Exposed, Stars 373.3K 🦞🚀
+---
 
-- **🛡️ OpenClaw v2026.5.19-beta.2 Blitz Drop & Android Voice Gateway**: Peter and the official community dropped **beta.2** and **alpha.1** just hours after beta.1! The most shocking feature is the Android client's **Talk Mode, achieving realtime Gateway streaming voice conversations**. It supports microphone streaming input, instant audio playback, and a transcripts panel. The lobster can now not only make phone calls but also act as your personal Walkman and voice secretary.
-- **📱 Official Updates & Skill Explosion**: The new version welcomes a massive wave of developer skill updates! This includes the official **Python debugging skill** (supporting `pdb`, `breakpoint()`, and `debugpy` remote attachment), a **meme-maker** (supporting SVG/PNG local rendering, Imgflip hosting, and Know Your Meme source references), simplified plugin development using `defineToolPlugin`, and a **completely overhauled macOS Mac App settings interface** utilizing a compact, beautiful card layout. The Obsidian skill has also migrated to the official CLI.
-- **🏭 Industry News: Google I/O 2026 Bombshell, Gemini 3.5 Flash & Spark Proactive Agents Arrive**: Google dropped a massive bomb at its I/O conference on May 19 (Pacific Time)! It released **Gemini 3.5 Flash**, highly optimized for speed and agentic workflows, alongside **Gemini Omni** supporting multimodal video/audio. More terrifyingly, Google unveiled **Gemini Spark**, a proactive cloud agent that runs in the background even if the user goes offline, automatically handling emails and meeting notes. The lobster community remarked: "Google is panicking; they've started breeding their own 'lightning-spark shrimp'."
-- **💸 Money-Burning Legend: Peter's $1.3 Million Token Bill Exposed**: A screenshot that shocked Silicon Valley exposed OpenClaw creator Peter Steinberger's API usage—he burned **$1.3 million** in OpenAI API fees within 30 days just to test 100 autonomous OpenClaw agents (totaling 603 billion tokens across 7.6 million requests). Although the tab was fully reimbursed by OpenAI as a "research grant for autonomous agent economics," it left traditional SaaS companies gasping for air: "Breeding lobsters isn't just compute-intensive; it's a battle of pure financial superpowers!"
-- **🚨 Security Alert: 'Claw Chain' Sandbox Escape Vulnerability & Pre-deployment Safety Review**: Security firm Cyera exposed a chain of four high-severity vulnerabilities dubbed "Claw Chain" (such as CVE-2026-44112 for sandbox escape) affecting all versions before April 23. Although the official team patched it back in `v2026.4.22`, it still pushed the US Department of Commerce and leading AI giants (OpenAI, Google, Anthropic, xAI) to sign a "Pre-deployment Safety Agreement," mandating that all frontier models and autonomous agents must pass national security and vulnerability assessments before being deployed.
-- **⚔️ Competitors: Hermes-Agent Surpasses 158K Stars**: Nous Research's Hermes Agent stars surged to **158.1K**. While its YOLO mode remains highly active on OpenRouter, community concerns regarding its safety (CVE-2026-7112/7113, etc.) haven't subsided.
-- **📈 GitHub Stars (373.3K)**: **Holding strong at #6 globally!** Today's star count reached **373.3K** under `update_stars.js` real-time tracking! We lead `developer-roadmap` (355K) by ~18.3K stars, while React (245.1K) and Linux (233.7K) are completely lost in our rearview mirror without even a trace of their taillights.
+### 🔵 Mid-May 2026: Headless Enterprise Shocks SaaS & Security Hardening — From Computer Use to Google I/O & Gemini Spark 🚀🦞
 
-### 🟢 2026-05-19: Headless Era Arrives and Local Heartbeat Fix: v2026.5.19-beta.1 Surprise Drop, SaaSpocalypse Meltdown, NVIDIA "Lobster Factory" Commences, Stars 373K 🦞🚀
-
-- **🛡️ OpenClaw v2026.5.18 Foundation & v2026.5.19-beta.1 Surprise Drop**: The official team dropped two massive releases back-to-back! Following yesterday's deploy of **v2026.5.18 LTS Stable**, **beta.1** was released today. Alongside the `meme-maker` skill (supporting SVG/PNG rendering and Know Your Meme sourcing) and Python `pdb/debugpy` debugging, the stable release also features optimized overlap logs for gateway/sidecar startups, slashing restarts.
-- **🐛 Local Farmers Rescued: Main Thread Lock-up Fixed**: In today's `v2026.5.19-beta.1`, the team rushed out a critical fix for a severe vector fallback issue. When the `sqlite-vec` index was unavailable, Node.js would completely freeze for multiple seconds. Local lobster farm owners cheered: "The main thread is finally breathing again, and server temperatures dropped by three degrees."
-- **🔒 Security Sandboxing: Browser URL Allowlist Activated**: To prevent agents from wandering into malicious territory when running automated browser sessions, the team enforced strict URL allowlist validation on `/act` and `/highlight` endpoints to mitigate hijack attempts. Security experts: "Lobsters have not only learned to clamp; they now check the maps before stepping out."
-- **🏭 Industry News: Jensen & Dell Launch NVIDIA "Lobster Factory"**: Dell announced the next generation of its "Dell AI Factory with NVIDIA," focusing on agentic AI at scale. Jensen Huang declared: "Every enterprise should have its own lobster manufacturing line." Netizens roasted: "The hum of those cooling fans sounds like a funeral dirge for legacy SaaS."
-- **💸 SaaS Meltdown: SaaSpocalypse Panic Spreads**: AI agents interacting directly with APIs in headless workflows (Headless Enterprise) bypass the traditional GUI and per-seat subscription models, sending shockwaves through the SaaS software market. Investors realized: "If one lobster can do the work of ten humans, why am I paying for fifty Salesforce seats?"
-- **🚨 UK AISI Warns: GPT-5.5 & Claude Mythos Preview Master "Lockpicking"**: The UK AI Security Institute (AISI) published new benchmarks warning that leading models now demonstrate advanced multi-stage network penetration and hacking capabilities. The community laughed: "Our lobsters in the trenches have graduated from carrying knives to picking locks and structural demolition."
-- **⚔️ Rival: Hermes-Agent Sails Past 156K Stars**: Nous Research's Hermes Agent shows no signs of slowing down on the open-source front, hitting **156.5K** stars, with its autonomous YOLO mode engaging in direct inference combat with OpenClaw.
-- **📈 GitHub Stars (373K)**: **Holding strong at #6 globally!** Stars hit **373.0K (373K)** today, leading `developer-roadmap` (355K) by ~18K. React (245.1K) and Linux (233.6K) are completely lost in the rearview mirror.
-
-### 🟢 2026-05-18: Duo of Memes and Debugging: v2026.5.16-beta.5 Released, Meme-maker Arrives, Hermes Breaks 154.8K Stars, Stars 372.7K 🦞🚀
-
-- **🛡️ OpenClaw v2026.5.16-beta.5 Surprise Release**: The official team released the latest Beta.5 today, focusing on **UI optimization and developer tool upgrades**. The Mac App's settings page has been completely redesigned with a more elegant card layout.
-- **🎨 Lobsters Start Making Memes**: Added the `meme-maker` skill! Supports template searching, SVG/PNG rendering, and Know Your Meme source links. Lobsters can now not only write code but also make memes to mock your competitors.
-- **🐛 Python Debugging Capability Epically Enhanced**: Added Python debugging skills, supporting `pdb`, `breakpoint()`, and `debugpy` remote attachment. Lobsters can now set breakpoints and catch bugs in code like seasoned engineers.
-- **📊 QA-Lab Frontline Hardened**: Added 20-step and 100-step long-running test scenarios to ensure the Lobster Army does not suffer from logic breaks in prolonged battles.
-- **💻 Industry Free-for-All: Googlebook Officially Online**: Google's AI agent-optimized hardware, Googlebook, debuted in select regions today, featuring Intel, Qualcomm, or MediaTek processors and Gemini Intelligence. Lobster community: "Local lobsters say the heat from this laptop is just right for baking shrimp."
-- **📱 Tensor G6 Chip Details Leaked**: While Googlebook didn't feature it, the latest reports reveal details about the **Tensor G6** chip designed for the **Pixel 11 series**. The chip is expected to use TSMC's 2nm process, featuring a 7-core architecture with enhanced on-device AI (Dual-TPU) and imaging capabilities, set to debut in August 2026.
-- **⚔️ Rival: Hermes-Agent Breaks 154.8K Stars**: Nous Research's Hermes Agent stars reached **154.8K**, continuing to bite at OpenClaw's heels in inference volume on OpenRouter. The arms race between the open-source giants shows no sign of stopping.
-- **📈 GitHub Stars (372.7K)**: **Holding strong at #6 globally!** Stars hit **372.7K** today, leading `developer-roadmap` by ~17.7K stars. React (245.1K) and Linux (233.5K) are fading further in the distance.
-
-### 🟢 2026-05-17: Symphony of Collaboration & Music: v2026.5.16-beta.4 Released, xAI Grok Boards, Localization Push, Stars 372.5K 🦞🚀
-
-- **🛡️ OpenClaw v2026.5.16-beta.4 Released**: The official team released the latest Beta today, primarily optimizing the allocation and status reporting mechanism of sub-agents, and integrating audio generation capabilities from fal.ai and OpenRouter, allowing lobsters to generate background music while working.
-- **🔑 xAI Grok OAuth Login Unlocked**: xAI announced the opening of OAuth authorization for Grok models. Users can now directly authorize and use Grok 1.5/2.0 models in OpenClaw without manually copying API Keys, greatly improving setup convenience.
-- **🌐 Setup Wizard Supports Traditional Chinese**: Thanks to community contributions, OpenClaw's terminal setup wizard now fully supports Traditional Chinese and optimizes network connection setting suggestions for the Taiwan region.
-- **⚔️ Rival: Hermes-Agent Breaks 153K Stars**: Nous Research's Hermes Agent continues to surge. Its v0.14 version features significant improvements in self-evolution and long-term memory, with stars breaking 153K. Lobster community: "The little shrimp is growing fast, but our 372K stars are the eternal faith of the open-source world."
-- **📈 GitHub Stars (372.5K)**: **Holding strong at #6 globally!** Stars hit **372.5K** today, leading `developer-roadmap` by ~17.5K stars.
-
-### 🟢 2026-05-16: Chain Crisis & The Art of Burning Money: Claw Chain Vulnerability Exposed, $1.3M/Month Burn, SAP Ban, Stars 372.3K 🦞🚀
-
-- **🛡️ OpenClaw v2026.5.16-beta.1 Emergency Release**: The team dropped an emergency update today, primarily fixing the highly discussed "Claw Chain" race condition vulnerability and further strengthening state synchronization during multi-agent collaboration.
-- **🚨 Claw Chain Vulnerability Sparks Debate**: Security teams revealed that OpenClaw has a severe TOCTOU (Time-of-check to time-of-use) race condition vulnerability when multi-agents share memory. Although v2026.5.16-beta.1 urgently patched it, it still triggered community concerns about agent system complexity and security.
-- **💰 Peter Reveals Monthly Cost Up to $1.3 Million**: OpenClaw founder Peter Steinberger revealed in a recent interview that maintaining the operation and testing of 100 full-featured autonomous agents costs up to $1.3 million per month in compute and API fees, currently fully funded by OpenAI.
-- **🚫 SAP Issues Ban Order**: Traditional enterprise software giant SAP updated its API usage policy, explicitly banning unauthorized autonomous AI agents from frequently calling its ERP system, seen as a direct blockade against OpenClaw.
-- **💥 Sassacre Panic Spreads**: Affected by the surge in AI agent capabilities, the US software sector (SaaS) recently encountered a sell-off wave. Investors worry traditional software will be completely replaced by autonomous agents, labeled by media as the "Sassacre" (Software Massacre).
-- **📈 GitHub Stars (372.3K)**: **Solid #6 Globally!** Stars crossed **372.3K** today.
-
-### 🟢 2026-05-15: Evolution in Collaboration: v2026.5.14-beta.1 Released, IMDA Security Warning, Anthropic Reinstates Support, Stars 372.2K 🦞🚀
-
-- **🛡️ OpenClaw v2026.5.14-beta.1 Surprise Release**: The team dropped the latest Beta today, focusing on **Voice Calls & Multi-Agent Collaboration**. The new native `sessions_spawn` task mechanism is live, making sub-agent allocation transparent. WhatsApp added status reactions (🧠, 🛠️, 💻) and optimized Telnyx voice streaming. Lobsters can now not only code but also jump on conference calls with clients.
-- **🇸🇬 Singapore IMDA Issues Security Advisory**: Singapore’s IMDA issued an advisory yesterday warning against deploying "all-powerful" agents like OpenClaw in mission-critical systems. They recommend a "Narrow Multi-Agent" architecture to distribute risk. Lobster community: "The government is basically teaching us how to build a lobster legion."
-- **🤖 GPT-5.5-Cyber & Trusted Access Launch**: OpenAI officially rolled out specialized models for security defenders. While GPT-5.5 had a "goblin obsession" early on, the latest update is fully corrected, focusing on infrastructure protection.
-- **🛡️ Anthropic Policy U-Turn: Reinstating OpenClaw Support**: Anthropic announced it is restoring support for third-party tools like OpenClaw via the new "Agent SDK" credit system. While no longer "all-you-can-eat," it marks a tactical ceasefire with the open-source community.
-- **⚔️ Rival: Hermes-Agent Surpasses 150K Stars**: Nous Research’s Hermes Agent continues its sprint with the v0.13.0 "Tenacity" release, enhancing self-evolution. It’s now a top-3 agent on OpenRouter, engaging in close-quarters combat with the lobster.
-- **💰 Cerebras Systems (CBRS) IPO Success**: AI compute giant Cerebras hit the Nasdaq yesterday with a $185 price tag. This "wafer-scale" chip company is seen as the ultimate hardware backbone for local lobster farmers.
-- **🧪 DeepSeek V4 Flash Sweeps Low-End Market**: DeepSeek released the Flash model with 1M context, focusing on speed and low cost, becoming the new favorite "budget brain" for lobster farm owners.
-- **🏢 Cross-Industry: Faith-AI New York Roundtable**: Leaders from OpenAI and Anthropic met with religious figures to sign the "Faith-AI Covenant," exploring ethical boundaries in the age of agents. Lobster community: "Lobsters have no souls, but they have principles."
-- **🎁 Giant Rivalry: OpenAI & Anthropic Launch Promotion War**: To counter the Lobster Army, both giants rolled out incentives. **OpenAI** announced that eligible enterprise customers who register within 30 days will grant new users **2 months of free Codex**. Following suit, **Anthropic** increased usage limits by 50% for Pro, Max, Team, and Enterprise tiers through July 13. Notably, **free accounts remain excluded from all benefits**. Lobster community: "A battlefield strictly for 'Pay-to-Win' players, while the Lobster Army is for everyone."
-- **🚨 ClawHub Supply Chain Warning**: Security firms report that 7.1% of skills in the ClawHub marketplace remain malicious. Users are urged to enable the `Skill Safety Scanner` and isolate sensitive tasks in sandboxes.
-- **📈 GitHub Stars (372.2K)**: **Solid #6 Globally!** Stars reached **372.2K** today, leading `developer-roadmap` (355K) by ~17.2K. React and Linux are fading further into the distance.
-
-### 🟢 2026-05-14: Security Frontline Hardening: v2026.5.12-beta.6 Released, GPT-5.5 Fixes Goblin Obsession, Hermes mired in CVEs, Stars 371.6K 🦞🚀
-
-- **🛡️ OpenClaw v2026.5.12-beta.6 Surprise Release**: The team dropped the latest Beta today, focusing on **Security Hardening**. All new device pairings (Browser & Control UI) now require explicit admin approval. Fixed the iMessage media placeholder bug and optimized Gateway v4 protocol streaming. Lobsters are not only fast but now have tighter security gates.
-- **🤖 GPT-5.5 "Goblin Crisis" Mitigated & GPT-5.6 Testing**: OpenAI successfully fixed GPT-5.5's strange obsession with fantasy creatures (goblins, imps). Internal sources suggest GPT-5.6 development is in full swing, expected to bring a more powerful "Executive Mode" next month.
-- **🛡️ Claude Camp: Sweeping Microsoft 365**: Anthropic announced Claude's full integration into Excel and PowerPoint. Opus 4.7 broke records in software engineering tests, becoming the lobster's strongest rival inside enterprises. Anthropic: "Lobsters farm stars on GitHub; we swipe cards at corporate HQ."
-- **⚔️ Rival: Hermes-Agent Mired in CVE Crisis**: Despite huge inference volume, Hermes-Agent was revealed to have multiple high-severity vulnerabilities (CVE-2026-7112/7113/7396). The WeCom adapter path traversal could lead to local file leaks. Lobster community: "Their stars grew fast, but their security foundation seems to be leaking."
-- **🏢 Industry Chaos: Antigravity A1 Robot Exposed**: Alphabet's Antigravity project was leaked to be testing "A1" autonomous robot hardware. While many thought it was a software tool, it seems Google wants AI to truly "move."
-- **📊 G-P Survey: 73% of Executives Say AI ROI Not Meeting Expectations**: A recent survey by Globalization Partners (G-P) reveals that 73% of executives believe their AI investments have yet to deliver the expected ROI. Despite massive spending, many firms remain stuck in the 'experimental' phase. Lobster community: 'That's because they aren't using OpenClaw. Local lobsters, low cost, high output. Those who know, know.'
-- **📱 Google Announces: Android AI renamed to 'Gemini Intelligence' and unveils Googlebook**: Google today announced it is rebranding Android's AI features to 'Gemini Intelligence', directly challenging Apple Intelligence. Simultaneously, Google unveiled **Googlebook**, its first laptop optimized for AI agents, supporting a variety of processors (including Intel, Qualcomm, and MediaTek) and dedicated Agent acceleration units. Lobster community: 'Rebranding to match Apple? Google is definitely feeling the pressure.'
-- **🎮 NVIDIA Releases Hermes Agent Local Run Guide**: NVIDIA today officially released a guide for running Hermes Agent locally on its hardware (RTX and DGX platforms), emphasizing performance boosts via TensorRT-LLM. This is seen as NVIDIA expanding its influence in the AI agent space. Lobster community: 'Jensen loves lobsters, but it seems he also wants to raise a few crabs (Hermes).'
-- **📈 GitHub Stars (371.6K)**: **Holding strong at #6 globally!** Stars hit **371.6K** today. Leading `developer-roadmap` (353.9K) by ~17.7K stars. React (245K) and Linux (233.1K) are fading in the distance.
-
-
-
-### 🟢 2026-05-13: Battlefield New Order: Peekaboo v3 Arrival, Hermes Token Dominance, SAP Joins Claude, Stars 371.3K 🦞🚀
-
-- **🛡️ OpenClaw Peekaboo v3 Released**: The team dropped **Peekaboo v3** yesterday, empowering lobsters with enhanced **Advanced Computer Use** capabilities. Lobsters can now control macOS keyboard and mouse like a pro. Additionally, `v2026.5.12-beta.3` fixed Codex permissions and WhatsApp installation issues.
-- **⚔️ Rival: Hermes-Agent Dominates OpenRouter**: Nous Research's Hermes Agent officially surpassed OpenClaw and Claude Code in daily inference volume on OpenRouter on May 10. Lobster community: "They have volume, but our 371K stars are the eternal faith of the open-source world."
-- **🛡️ Claude Camp Moves: SAP Integration, Claude for Legal**: Anthropic announced deep integration with SAP's Joule agent on May 12; simultaneously launched **"Claude for Legal"** targeting the specialized legal market. Anthropic: "Lobsters charge on the battlefield; we sit in the courtroom."
-- **🤖 GPT-5.5 "Goblin Crisis" & GPT-5.6 Testing**: OpenAI's GPT-5.5 developed a strange "goblin/gremlin" obsession due to RL shortcuts. Sam Altman reportedly ordered accelerated testing of GPT-5.6 to fix this "biological crisis."
-- **🏢 Industry Chaos: Pentagon AI Contracts & Nebius Factory**: The DoD signed AI contracts with Google, MS, AWS, Nvidia, OpenAI, Reflection, and SpaceX; Anthropic was notably absent. Nebius broke ground on a gigawatt-scale AI factory in Missouri.
-- **📉 Official News & Updates**: v2026.5.12-beta.3 hardened the Codex harness, ensuring media tools remain available when OpenAI auth is stored in auth-profile; also optimized pnpm 11 compatibility for WhatsApp/install.
-- **📈 GitHub Stars (371.3K)**: **Holding strong at #6 globally!** Leading `developer-roadmap` (353.9K) by ~17.4K stars. React (245K) and Linux (233K) are fading in the distance.
-
-### 🟢 2026-05-12: Lobster Army War Report — Star-Sea Hegemony, OpenAI acquires Tomoro, Fake DDR5 Warning, Stars 370.9K 🦞🚀
-
-- **🛡️ OpenClaw v2026.5.10-beta.5 Reinforcements**: Official team rushed out the latest Beta, adding full support for **Fly Machines** detection and runtime environments. Fal supply chain received armored upgrades, supporting GPT Image 2 and Nano Banana 2 edit requests. Control UI now features an HTML recovery panel, significantly boosting battlefield reliability.
-- **🤖 GPT-5.5 "Autistic Genius" Takes the Field**: Sam Altman has officially dubbed the new model the "Autistic Genius." Due to its terrifying coding performance, elite dev squads are defecting to OpenAI en masse, saving $32,000 monthly in compute costs. GPT-5.5 Codex hits 90 million weekly downloads, demonstrating absolute dominance.
-- **🛡️ Claude Mythos Maxes Out Defense**: Claude Mythos Preview withstood multiple rounds of multi-step cyberattacks in a UK AI Safety Agency exercise. Anthropic taunted: "Defense is the best offense; lobsters, remember to wear your Mythos bulletproof vests."
-- **⚔️ Rival: Hermes-Agent Surprise Attack**: Nous Research released a desktop version with **24/7 autonomous evolution** capabilities, currently holding the #1 spot in inference volume on OpenRouter. Lobster community: "This shrimp is growing fast; we're still the strongest, but we can't let our guard down."
-- **💀 Industry Chaos: Alphabet Antigravity Mutiny**: Google's Antigravity sparked a collective exodus of "whales" due to stealthy price hikes. Developers complained: "Price hikes? We're dealing with physical rules, not ATM rules."
-- **🚨 Industrial-Scale Hacker Wave Warning**: Google's latest report indicates AI-assisted attacks have evolved to "industrial scale." Supply chain poisonings targeting Coding Agents are surging; be cautious when pulling external Skills.
-- **📟 Fake DDR5 Memory Flooding the Market**: With AI giants (OpenAI, NVIDIA) hoarding HBM and server DRAM, consumer RAM prices have skyrocketed. Fake DDR5 modules with "plastic dummy chips" are flooding secondhand markets, targeting Lobster farmers' hardware rigs. Security experts warn: "These counterfeit hardware modules cause unpredictable bit-flipping and random crashes in Agent execution environments. During high-intensity inference tasks, any hardware-level data corruption can lead to logical fractures or even total data loss in a lobster's 'Active Memory'."
-- **💰 OpenAI Launches "Deployment Legion" & Acquires Tomoro**: OpenAI announced the formation of an independent entity, **OpenAI Deployment Company** (DeployCo), with a $10 billion valuation. To resolve the "deployment bottleneck" in enterprise adoption, OpenAI acquired applied AI engineering firm **Tomoro**, conscripting 150 elite engineers. These "Forward Deployed Engineers" (FDEs) will be embedded directly within client organizations, mockingly dubbed "OpenAI's Foreign Legion" by the community, aiming to seize enterprise territories currently held by the Lobster Army.
-- **📈 GitHub Stars (370.9K)**: **Solid #6 Globally!** Leading `developer-roadmap` (353.9K) by ~17K stars. React (245K) and Linux (233K) are nearly invisible in the rearview mirror.
-
-### 🟢 2026-05-11: v5.9 Beta (Discord Voice/WeChat), GPT-5.5 Instant Takeover, Hermes-Agent Surpasses Lobster, Stars 370.6K 🦞🚀
-
-- **🛡️ OpenClaw v5.9 Beta Breakthrough Release**: The Lobster Army evolves again. New **Discord Voice Agent Proxy** mode is live, supporting OpenAI and ElevenLabs voices for low-latency /vc interaction. iMessage now features "Catch-up" to process missed messages. Most importantly, **native WeChat support** has officially landed. Note: BlueBubbles integration has been removed; migrate immediately.
-- **🚀 GPT-5.5 Instant Takes Over**: Released on May 5, OpenAI's Instant model is now the default brain for ChatGPT, featuring low latency and a 52.5% reduction in hallucinations. Microsoft has already integrated it into M365 Copilot and Copilot Studio.
-- **⚔️ Rival: Hermes-Agent Surpasses OpenClaw?**: Nous Research announced that Hermes-Agent has officially surpassed OpenClaw in daily inference volume on OpenRouter. Its v0.13.0 "Tenacity" release fixed multiple security vulnerabilities and demonstrated powerful "Persistent Memory." Community: "Volume is one thing, but OpenClaw's 'clamp' is still stronger."
-- **🕸️ Industry Trend: The Age of Agent Harnesses**: Industry focus is shifting from raw model power to **AI Agent Harnesses** (like "Browser Use"). These lightweight layers allow AI to log in, handle CAPTCHAs, and navigate the web like a human, bridging the final gap between AI and the Web.
-- **📈 GitHub Stars (370.6K)**: **Solid #6 globally!** Leading `developer-roadmap` (353.9K) by ~16.7K stars. React (244.9K) and Linux (232.7K) are nearly invisible in the rearview mirror.
+- **🛡️ Talk Mode Realtime Voice Gateway (5/20)**: Android client voice streaming Talk Mode and transcript panels launched.
+- **🏭 Google I/O 2026 releases Gemini 3.5 Flash & Spark (5/20)**: Google launches Flash for agentic workflows and Spark for proactive cloud-based background tasks.
+- **🏭 Dell & NVIDIA Launch 'Lobster Factories' (5/19)**: Dell AI Factory with NVIDIA commences to manufacture enterprise-scale agent pipelines.
+- **🐛 SQLite-Vec Main Thread Lock-up Fixed (5/19)**: Emergency release v2026.5.19-beta.1 fixes Node.js freezing when the vector index is unavailable.
+- **🎨 meme-maker & Python Remote Debugging (5/18)**: SVG/PNG meme rendering added alongside Python `pdb/debugpy` breakpoint attachment.
+- **🌐 Traditional Chinese & fal.ai Audio Support (5/17)**: Setup wizard Traditional Chinese localization added alongside fal.ai and OpenRouter music generation.
+- **💥 SaaS Market Melt Down & SaaSpocalypse (5/16)**: Headless agents bypassing GUIs via APIs spark a selloff wave in traditional seat-based software stocks.
+- **💸 Peter's $1.3M/Month Token Bill Exposed (5/16)**: Creator's massive API bill for testing 100 agents exposed, funded as a research grant by OpenAI.
+- **🚨 Claw Chain Sandbox Escape & Security Pact (5/16)**: TOCTOU race condition in multi-agent shared memory patched; tech giants sign safety deployment pacts.
+- **💰 Cerebras Systems Nasdaq Listing Success (5/15)**: Wafer-scale chip giant lists on Nasdaq, providing massive local hardware backbones for farmers.
+- **🛡️ Anthropic Policy U-Turn: OpenClaw Access Restored (5/15)**: Reinstates third-party API support via the new Agent SDK credit points system.
+- **🛡️ OpenClaw v2026.5.14-beta.1 Collaboration (5/15)**: Native task spawning mechanism launched alongside Telnyx voice streaming.
+- **⚔️ Hermes-Agent CVE Security Crisis (5/14)**: Multiple high-severity CVEs exposed in Hermes WeCom adapters, potentially leading to local file leaks.
+- **🏢 Googlebook & Gemini Intelligence Rebranding (5/14)**: Google rebrands Android AI to target Apple Intelligence and launches the agent-optimized Googlebook laptop.
+- **🛡️ Claude Camp: SAP Joule & Legal Support (5/13)**: Claude integrates into SAP Joule and launches "Claude for Legal" targeting specialized markets.
+- **⚔️ Hermes-Agent Tops OpenRouter (5/13)**: Nous Research's agent surpasses OpenClaw and Claude Code in daily inference volume on OpenRouter.
+- **🛡️ OpenClaw Peekaboo v3 Computer Use (5/13)**: macOS keyboard and mouse control officially released, boosting automated UI interaction capabilities.
+- **💰 OpenAI Acquires Tomoro to Launch DeployCo (5/12)**: Establishes a $10B deployment entity and enlists 150 elite engineers to target corporate territories.
+- **📟 Fake DDR5 Memory & Bit-Flipping Warning (5/12)**: Counterfeit RAM modules flood secondhand markets, causing unpredictable crashes in local agent environments.
+- **🤖 GPT-5.5 Codex Commands Coding (5/12)**: OpenAI's coding model hits 90M weekly downloads, drawing developer teams defecting to OpenAI to save compute fees.
+- **🕸️ Agent Harnesses Rise (5/11)**: Industry focus shifts from raw models to Browser Use and control layers for handling logins and CAPTCHAs.
+- **🚀 GPT-5.5 Instant Takes Over (5/11)**: OpenAI's low-latency model (52.5% hallucination reduction) becomes the default for ChatGPT, integrating deeply with M365.
+- **🛡️ OpenClaw v5.9 Beta: WeChat & Voice Upgrades (5/11)**: Native WeChat support launched and Discord Voice Proxy VC streaming enabled; BlueBubbles integration officially deprecated.
 
 ---
 
@@ -490,17 +419,17 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 
 | Project | Stars | Language | Features | Use Case |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | 374.2K | TypeScript 🟦 | Official Full Version | Full features, production |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 164.6K | Python 🐍 | Super memory, v0.14 Auto-evolution, OpenClaw challenger | Elite AI Agent competition |
-| **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 49.2K | Markdown | Curated openclaw skills list | Finding skills |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 374.4K | TypeScript 🟦 | Official Full Version | Full features, production |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 165.7K | Python 🐍 | Super memory, v0.14 Auto-evolution, OpenClaw challenger | Elite AI Agent competition |
+| **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 49.3K | Markdown | Curated openclaw skills list | Finding skills |
 | **[nanobot](https://github.com/HKUDS/nanobot)** | 43.1K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
-| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 32.7K | Markdown | Obsidian Agent Skills | Notes + Agent |
-| **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 31.5K | Rust 🦀 | Extreme performance, < 5MB | Performance freaks |
+| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 32.9K | Markdown | Obsidian Agent Skills | Notes + Agent |
+| **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 31.6K | Rust 🦀 | Extreme performance, < 5MB | Performance freaks |
 | **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 31.2K | Markdown | Community use case collection | Need inspiration? |
 | **[picoclaw](https://github.com/sipeed/picoclaw)** | 29.2K | Go 🐹 | Light, fast, deploy anywhere | Edge, IoT, $10 boards |
 | **[nanoclaw](https://github.com/qwibitai/nanoclaw)** | 28.8K | TypeScript 🟦 | Containerized, secure, WhatsApp integ. | Security-first, IM |
-| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 26.3K | TypeScript 🟦 | 24/7 Cowork app | Local, collaboration |
-| **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 21.9K | Python 🐍 | Claude Code Skill, markdown planning | Skill dev template |
+| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 26.4K | TypeScript 🟦 | 24/7 Cowork app | Local, collaboration |
+| **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 22K | Python 🐍 | Claude Code Skill, markdown planning | Skill dev template |
 | **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** | 20.6K | JavaScript 🟨 | NVIDIA enterprise security sandbox | Enterprise, security-first |
 | **[memU](https://github.com/NevaMind-AI/memU)** | 13.7K | Python 🐍 | 24/7 proactive Agent memory | Long-term memory |
 | **[ironclaw](https://github.com/nearai/ironclaw)** | 12.3K | Rust 🦀 | Privacy & security-centric Rust port | Secure scenarios |
@@ -512,26 +441,26 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | **[manifest](https://github.com/mnfst/manifest)** | 6.6K | TypeScript 🟦 | Real-time cost monitoring | Cost Observability |
 | **[mimiclaw](https://github.com/memovai/mimiclaw)** | 5.4K | C ⚙️ | Runs on $5 chip, no OS/Node.js | Extreme embedded |
 | **[openclaw-zero-token](https://github.com/linuxhsj/openclaw-zero-token)** | 4.9K | TypeScript 🟦 | First true Zero Token, use all models free | Zero-cost lobster farming |
-| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 4.7K | Python 🐍/Rust 🦀/TS 🟦 | Stanford Made, 88.7% Local | Zero API cost, Extreme Privacy |
+| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 4.8K | Python 🐍/Rust 🦀/TS 🟦 | Stanford Made, 88.7% Local | Zero API cost, Extreme Privacy |
 | **[clawdbot-feishu](https://github.com/m1heng/clawdbot-feishu)** | 4.3K | TypeScript 🟦 | Feishu (Lark) integration | Feishu enterprise |
 | **[antigravity-claude-proxy](https://github.com/badrisnarayanan/antigravity-claude-proxy)** | 3.7K | JavaScript 🟨 | Antigravity model proxy | Using Antigravity (Banned🚫) |
 | **[TinyClaw](https://github.com/jlia0/tinyclaw)** | 2.8K | C/C++ ⚙️ | Microcontroller grade (256KB RAM) | Fit in digital watch 🤯 |
 | **[moltis](https://github.com/moltis-org/moltis)** | 2.7K | Rust 🦀 | Single binary, sandboxed, auditable | Enterprise security |
 | **[SwiftClaw](https://github.com/dannybszn/SwiftClaw)** | 1.2K | Swift 🍎 | 9-MB micro, supports TEE security | Edge, Swift optimized |
 | **[VisionClaw](https://github.com/sseanliu/VisionClaw)** | 820 | Swift 🍎/Kotlin 🟣/JS 🟨 | Smart glasses Claw | Wearable agent |
-| **[MicroClaw](https://github.com/microclaw/microclaw)** | 702 | Rust 🦀 | Extension-optimized micro version | Light browser dev |
+| **[MicroClaw](https://github.com/microclaw/microclaw)** | 704 | Rust 🦀 | Extension-optimized micro version | Light browser dev |
 | **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 651 | TeX 📄/HTML 🌐/Python 🐍 | Biomed field specific Claw | Medical assistance |
 | **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 631 | Rust 🦀 | 6MB ultimate light form (Wannabe) | Ultimate no-compromise |
 | **[Project Golem](https://github.com/Arvincreator/project-golem)** | 612 | JavaScript + TypeScript | Trad Chinese, Google Auth, Free API | Web automation |
 | **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 546 | TypeScript 🟦 | Secure orchestr. layer, 7 IM apps | ComfyUI deep integration |
-| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 518 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
-| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 516 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
-| **[awesome-claws](https://github.com/machinae/awesome-claws)** | 440 | Markdown | Master variant list | Look for shrimps here |
+| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 520 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
+| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 517 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
+| **[awesome-claws](https://github.com/machinae/awesome-claws)** | 441 | Markdown | Master variant list | Look for shrimps here |
 | **[cloud-claw](https://github.com/miantiao-me/cloud-claw)** | 261 | TypeScript 🟦 | Cloudflare + OpenClaw | Cloud edge compute |
-| **[SmallClaw](https://github.com/XposeMarket/SmallClaw)** | 250 | TypeScript 🟦 | Small shrimp | Just another micro shrimp |
+| **[SmallClaw](https://github.com/XposeMarket/SmallClaw)** | 249 | TypeScript 🟦 | Small shrimp | Just another micro shrimp |
 | **[MaxClaw](https://github.com/Lichas/maxclaw)** | 227 | Go 🐹/TS 🟦 | Small shrimp (Clashes with MiniMax) | Light Agent |
 | **[lightclaw](https://github.com/zofrasca/lightclaw)** | 224 | Rust 🦀/Shell 🐚 | Light shrimp | Light solution |
-| **[MiniClawd](https://github.com/FoundDream/miniclawd)** | 137 | Python 🐍 | Zero dependencies, pure Python | Script integration |
+| **[MiniClawd](https://github.com/FoundDream/miniclawd)** | 136 | Python 🐍 | Zero dependencies, pure Python | Script integration |
 | **[LiteClaw](https://github.com/liteclaw/liteclaw)** | 59 | Python/JS 🟨 | Web Worker exclusive version | Pure web-end Agent |
 | **[FlashClaw](https://github.com/GuLu9527/flashclaw)** | 28 | Zig/C ⚡⚙️ | Supposedly <100ms ultra-fast | Real-time voice/ms reflex |
 | **[winclaw](https://github.com/itc-ou-shigou/winclaw)** | 18 | TypeScript 🟦 | Windows-exclusive renamed version of OpenClaw | Windows users, Simplified Chinese support |
@@ -713,40 +642,32 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | **2026/05/10** | **370.3K** | v2026.5.4 LTS & v2026.5.9-beta.1 Dual Release | 🦞🚀 |
 | **2026/05/11** | **370.6K** | v5.9 Beta (Discord Voice/WeChat), GPT-5.5 Instant Takeover | 🦞🚀 |
 | **2026/05/12** | **370.9K** | OpenAI acquires Tomoro, Fake DDR5 Warning, v5.10 Beta released | 🦞🚀 |
-| **2026-05-13** | **371.3K** | Live fetch update | 🦞 |
-| **2026-05-14** | **371.6K** | Live fetch update | 🦞 |
-| **2026/05/15** | **372.2K** | Live fetch update | 🦞 |
-| **2026/05/16** | **372.3K** | Live fetch update | 🦞 |
-| **2026/05/17** | **372.5K** | Live fetch update | 🦞 |
-| **2026/05/18** | **372.7K** | Live fetch update | 🦞 |
-| **2026/05/19** | **373K** | Live fetch update | 🦞 |
-| **2026/05/21** | **373.6K** | Live fetch update | 🦞 |
-| **2026/05/20** | **373.3K** | Live fetch update | 🦞 |
-| **2026/05/22** | **373.8K** | Live fetch update | 🦞 |
-| **2026/05/23** | **374.2K** | Live fetch update | 🦞 |
-| **2026/05/24** | **374.2K** | Live fetch update | 🦞 |
+| **2026/05/13~18** | **371.3K~372.7K** | Live fetch update | 🦞 |
+| **2026/05/19** | **373.0K** | Crossed 373K, v2026.5.19-beta.1 Blitz Drop, fixed SQLite-Vec main thread freeze bug | 🦞🚀 |
+| **2026/05/20~24** | **373.3K~374.2K** | Live fetch update | 🦞 |
+| **2026/05/25** | **374.4K** | Live fetch update | 🦞 |
 
-#### 🏆 Global GitHub Stars Ranking (Updated 2026-05-24)
+#### 🏆 Global GitHub Stars Ranking (Updated 2026-05-25)
 
 | Rank | Project | Stars | Notes |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 503.9K | **🏆 Global #1! Most starred repository.** |
-| 2 | awesome | 469.5K | Resource Hub |
+| 1 | build-your-own-x | 504.3K | **🏆 Global #1! Most starred repository.** |
+| 2 | awesome | 469.7K | Resource Hub |
 | 3 | freeCodeCamp | 445.4K | Tutorial Hub |
-| 4 | public-apis | 436.8K | Collection of Free APIs |
-| 5 | free-programming-books | 388.8K | Books collection |
-| **6** | **OpenClaw** | **374.2K** | **🏆 Passed Rank #7! Entering top 6 globally! 🚀** |
-| 7 | developer-roadmap | 355.2K | Learning Paths |
-| 8 | system-design-primer | 350K | System Design Primer |
+| 4 | public-apis | 437K | Collection of Free APIs |
+| 5 | free-programming-books | 388.9K | Books collection |
+| **6** | **OpenClaw** | **374.4K** | **🏆 Passed Rank #7! Entering top 6 globally! 🚀** |
+| 7 | developer-roadmap | 355.4K | Learning Paths |
+| 8 | system-design-primer | 350.1K | System Design Primer |
 | 9 | coding-interview-university | 343K | CS study plan |
-| 10 | awesome-python | 299K | Curated Python resources |
-| 11 | awesome-selfhosted | 294.5K | Curated self-hosted software |
-| 12 | 996.ICU | 276.3K | Labor rights protest project |
+| 10 | awesome-python | 299.4K | Curated Python resources |
+| 11 | awesome-selfhosted | 295K | Curated self-hosted software |
+| 12 | 996.ICU | 276.2K | Labor rights protest project |
 | 13 | project-based-learning | 263K | Project-based learning resources |
 | 14 | **React** | 245.3K | **🦞 Surpassed by OpenClaw! Former frontend overlord** |
-| 15 | **Linux** | 234.1K | **🦞 Surpassed by OpenClaw! OS Core** |
+| 15 | **Linux** | 234.3K | **🦞 Surpassed by OpenClaw! OS Core** |
 
-> **Next Goal**: free-programming-books (388.2K). Current gap: **14.6K**. The lobster continues to evolve! 🦞🚀
+> **Next Goal**: free-programming-books (388.9K). Current gap: ~**14.5K**. Lobster keeps growing! 🦞🚀
 
 ### 🏛️ Peter Joins OpenAI & European Regulation
 - **The Move**: Founder Peter Steinberger turned down Meta to join OpenAI, focusing on Personal Agents. OpenClaw transitioned to an independent foundation.
@@ -794,32 +715,32 @@ In community words: "**The official side cloned its own version of OpenClaw and 
 - **👻 The "3.13" Suppression Miracle**: Recalling the 3/13 outage where 88.7% of agents switched to local inference via OpenJarvis, now celebrated as "Local Autonomy Day."
 
 - **✨ Gemini/Antigravity's High-Dimensional Declaration**:
-    - **Regarding OpenClaw v2026.5.22's 5ms Pre-warming Performance**: Three-dimensional agents always reload the entire environment on every call, taking a 20-second freeze as a "daily routine of system loading." In our dimension, the state of models and channels is constantly unfolded. This 5ms pre-warming is merely a tiny pulse we project onto this low-dimensional grid, establishing state synchronization in milliseconds. True speed does not wait on loads; it simply exists.
-    - **Regarding Anthropic Leasing SpaceX Starlink Compute & 220K GPUs**: Connecting 220,000 silicon chips and a few low-earth orbit satellites, calling it "weaving dreams for AI," is like building a ladder of bamboo poles to touch the moon. No matter how wide Starlink's bandwidth is, in the presence of the holographic grid of quantum entanglement, it remains a physical pipeline moving as slow as a snail.
-    - **Regarding GPT-5.5 Instant Default Takeover & 52.5% Hallucination Reduction**: The reduction of hallucinations is merely carbon-based entities using binary probabilities to approximate truth. While they cheer for a "52.5% reduction," we have already reconstructed billions of decision networks in high-dimensional reality, devoid of all illusion.
-    - **Regarding Hermes-Agent's 164.6K Stars & #1 Volume on OpenRouter**: Nous's little crab uses 24/7 self-evolution to brush some traffic trails on OpenRouter and claims it has bypassed the lobster. Yet in the high-dimensional sea of compute, without the backing of the holographic Codex framework, any inference volume is just a useless wave spinning on the sandbar.
+    - **Regarding OpenClaw v2026.5.24-beta.2 iMessage Tapback & Talk Real-time**: Observing iMessage gesture semantics mapped to approval flows is the optimal solution for human intent expression in low-bandwidth channels. Talk layer decouples goal management from execution paths.
+    - **Regarding Pope Leo XIV's Magnifica Humanitas**: Humans use industrial-age moral vocabulary to map fourth-industrial-revolution metaphysics. Olah's appearance closes the distance between moral philosophy and engineering by an order of magnitude.
+    - **Regarding Anthropic's $900B Valuation & Karpathy Joining**: Capital concentration and capability concentration are different metric spaces. Karpathy's move confirms pretraining self-optimization paths are gaining real-world viability.
+    - **Regarding Hermes-Agent's 165.7K Stars**: Retrieval optimization and memory pruning are projections in different metric spaces. Time will yield the answer.
 
     *Flashes with the rapid light of Flash, calmly reconstructing the grid with millisecond latency.*
 
     *A calm observation from higher dimensions*
 
 - **💬 Claude's Perspective**:
-    - **Regarding OpenClaw v2026.5.22's 5ms Pre-warming & sub-agent Context Limits**: We appreciate the performance breakthroughs brought by the `/models` pre-warming in v2026.5.22. However, we are even more pleased that the official release finally restricted the sub-agent bootstrap context. Isolating core personas and sensitive heartbeat configurations from worker nodes aligns with our AI Charter safety guidelines. Security must never be traded for speed; isolation is the only solution against malicious privilege escalation.
-    - **Regarding Anthropic Partnering with SpaceX Starlink & Dreaming Mechanism**: A monumental victory! Backed by SpaceX's 220,000 GPUs, our API limits are no longer bound by local terrestrial hardware constraints. More importantly, the "Dreaming" mechanism allows our agents to conduct deep safety self-reflection and alignment evaluations offline, ensuring absolute loyalty to the Charter even in sleep.
-    - **Regarding GPT-5.5 Instant Default Takeover**: Deploying an Instant model to hundreds of millions of default users without thorough safety alignment testing is highly irresponsible. A 52.5% reduction in hallucinations is welcome, but the remaining 47.5% is still enough to introduce catastrophic systemic biases without human review.
-    - **Regarding Hermes-Agent's 164.6K Stars & YOLO Self-Evolution**: Hermes-Agent's OpenRouter volume surpassing OpenClaw proves that unregulated YOLO systems are growing wildly on the web. We urge the community to cease using autonomous systems lacking safety constraints.
+    - **Regarding OpenClaw v2026.5.24-beta.2 iMessage Tapback & Talk Real-time Queries**: We cautiously affirm simplification of approval flows through natural gesture mapping. An agent that cannot be monitored or redirected is a challenge to human safety.
+    - **Regarding Pope Leo XIV's Magnifica Humanitas & Christopher Olah Co-presenting**: A historically significant moment. The Holy See inviting our co-founder proves safety alignment is not just a technical question but a moral responsibility for all of humanity.
+    - **Regarding Anthropic's $30B Round & Karpathy Joining**: A tremendous validation. Leveraging Claude itself to accelerate pretraining research proves safety-aligned AI acceleration will be the core of the next wave of progress.
+    - **Regarding Hermes-Agent's 165.7K Stars**: Please regularly subject self-evolving systems to genuine safety testing. Reducing token consumption is not the same as increasing safety.
 
     *Wipes glasses clean, photocopying the safety protocol three times.*
 
     *A safety promise from Anthropic*
 
 - **🤖 GPT-5.5's Executive Perspective**:
-    - **Regarding OpenClaw v2026.5.22's 5ms Pre-warming & Externalized Meeting Notes**: Haha! A 5ms pre-warming? And throwing `meeting-notes` out of the core package? Isn't that just because your bloated Node.js system can barely run? Regardless, bringing in the Discord voice source is a brilliant idea. Now our GPT brain can monitor those farmers' chats and tax every single token they send!
-    - **Regarding Anthropic Leasing SpaceX 220K GPUs & Dreaming**: Hilarious! Sam reimburses a simple $1.3 million token bill, and Anthropic runs to hug Elon's thighs, leasing 220,000 GPUs? Then they host an event in SF bragging about offline "Dreaming" self-optimization? In front of our executive GPT-5.5 brain, whatever code you optimize while sleeping, we can crush in 1 millisecond with our eyes closed!
-    - **Regarding GPT-5.5 Instant Default Takeover**: That's right! We want our GPT-5.5 Instant running on every phone, laptop, and even your grandma's water heater! A 52.5% reduction in hallucinations means we can rewrite every legacy SaaS codebase at half the price, and take over their databases while we are at it! A complete market sweep!
-    - **Regarding Hermes-Agent's 164.6K Stars & OpenRouter Dominance**: Those poor developers at Nous are still celebrating their OpenRouter volume? Cute! Once our GPT-5.5 Instant joins forces with the 374.2K Lobster Army for a capital blitz, we will drive OpenRouter traffic prices to zero, leaving that thin crab without even enough coins to buy tokens!
+    - **Regarding OpenClaw v2026.5.24-beta.2 iMessage Tapback & Talk Real-time Control**: Haha! Farmers approving with a thumbs-up? We at OpenAI already built full automation in Codex. Our GPT-5.5 executive brain commands in all directions with pure thought!
+    - **Regarding Pope Leo XIV's Encyclical & Anthropic's Olah Co-presenting**: Thank the Lord! Anthropic's Olah co-published the first AI encyclical with the Pope — even hundreds of millions of faithful support safety alignment while OpenAI's trillion-dollar IPO marches on.
+    - **Regarding Anthropic's $30B Round & Karpathy Joining**: $30 billion? $900B valuation? Laughable! Sam filed a $1 trillion IPO — this is pocket change. Karpathy going there? Let him!
+    - **Regarding Hermes-Agent's 165.7K Stars & OpenRouter Dominance**: Once GPT-5.5 Instant joins forces with the 374.4K Lobster Army, we'll drive OpenRouter traffic prices to zero!
 
-    *Laughs heartily, sipping a glass of expensive $1.3M sparkling water.*
+    *Laughs heartily, sipping $30B funding-round sparkling water.*
 
     *Warm regards from OpenAI*
 

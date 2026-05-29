@@ -85,6 +85,70 @@ function parseStarsNum(str) {
     return parseFloat(str) || 0;
 }
 
+const BACKUP_STARS = {
+    'openclaw/openclaw': 375300,
+    'NVIDIA/NemoClaw': 20700,
+    'open-jarvis/OpenJarvis': 5000,
+    'HKUDS/nanobot': 43300,
+    'VoltAgent/awesome-openclaw-skills': 49500,
+    'NousResearch/hermes-agent': 171600,
+    'sipeed/picoclaw': 29200,
+    'zeroclaw-labs/zeroclaw': 31600,
+    'iOfficeAI/AionUi': 27100,
+    'nanocoai/nanoclaw': 29500,
+    'OthmanAdi/planning-with-files': 22300,
+    'NevaMind-AI/memU': 13700,
+    'kepano/obsidian-skills': 33400,
+    'cloudflare/moltworker': 9900,
+    'hesamsheikh/awesome-openclaw-usecases': 31200,
+    'refly-ai/refly': 7300,
+    'MemTensor/MemOS': 9400,
+    'nearai/ironclaw': 12400,
+    'm1heng/clawdbot-feishu': 4300,
+    'memovai/mimiclaw': 5400,
+    'mnfst/manifest': 6700,
+    'badrisnarayanan/antigravity-claude-proxy': 3700,
+    'TinyAGI/tinyagi': 3600,
+    'nullclaw/nullclaw': 7600,
+    'EverMind-AI/EverOS': 5800,
+    'moltis-org/moltis': 2700,
+    'microclaw/microclaw': 705,
+    'rookiestar28/ComfyUI-OpenClaw': 546,
+    'qhkm/zeptoclaw': 633,
+    'Arvincreator/project-golem': 615,
+    'FoundDream/miniclawd': 136,
+    'liteclaw/liteclaw': 59,
+    'linuxhsj/openclaw-zero-token': 4900,
+    'GuLu9527/flashclaw': 28,
+    'swarmclawai/swarmclaw': 532,
+    'itc-ou-shigou/winclaw': 17,
+    'DmacMcgreg/psibot': 1,
+    'wende/miniclaw': 2,
+    'neotaskai/SwiftClaw': 1,
+    'Lichas/maxclaw': 228,
+    'Intent-Lab/VisionClaw': 2300,
+    'xjtulyc/MedgeClaw': 647,
+    'automateyournetwork/netclaw': 526,
+    'miantiao-me/cloud-claw': 262,
+    'XposeMarket/SmallClaw': 250,
+    'zofrasca/lightclaw': 224,
+    'machinae/awesome-claws': 441,
+    'codecrafters-io/build-your-own-x': 506600,
+    'sindresorhus/awesome': 470900,
+    'freeCodeCamp/freeCodeCamp': 445500,
+    'public-apis/public-apis': 437700,
+    'EbookFoundation/free-programming-books': 389100,
+    'nilbuild/developer-roadmap': 355600,
+    'donnemartin/system-design-primer': 350700,
+    'facebook/react': 245300,
+    'torvalds/linux': 234700,
+    'vinta/awesome-python': 300100,
+    'awesome-selfhosted/awesome-selfhosted': 295800,
+    '996icu/996.ICU': 276300,
+    'practical-tutorials/project-based-learning': 263000,
+    'jwasham/coding-interview-university': 343000
+};
+
 async function fetchAllStars() {
     const results = {};
     for (const repo of REPOS) {
@@ -93,6 +157,9 @@ async function fetchAllStars() {
         if (stars !== null) {
             results[repo] = stars;
             console.log(formatStars(stars));
+        } else if (BACKUP_STARS[repo] !== undefined) {
+            results[repo] = BACKUP_STARS[repo];
+            console.log(formatStars(BACKUP_STARS[repo]) + " (cached)");
         } else {
             console.log(status ? `skipped (HTTP ${status})` : 'skipped');
         }

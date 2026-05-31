@@ -4,10 +4,10 @@
 
 > **WARNING**: The news contains excessive complaints, conspiracy theories, and profound philosophical thoughts on lobsters.
 > 
-> **Last Updated**: 2026-05-30
-> **Status**: OpenClaw is surging, now past 375.5K stars! **Ranked #6 globally on GitHub, holding strong in the top six!** 🦞🚀
+> **Last Updated**: 2026-05-31
+> **Status**: OpenClaw is surging, now past 375.7K stars! **Ranked #6 globally on GitHub, holding strong in the top six!** 🦞🚀
 
-> **OpenClaw Version**: v2026.5.27 (Latest Stable/LTS) & v2026.5.28-beta.4 | Supports faster Gateway startup, local Codex self-recovery, multi-channel (iMessage 👍 approval dedup, Teams/Matrix security checks) secure channels, and realtime Talk barge-in 🦞🏰
+> **OpenClaw Version**: v2026.5.28 (Latest Stable/LTS) | Supports Codex runtime self-recovery, steady runtime recovery, and comprehensive channel safety checks (iMessage 👍 approval dedup, Teams/Matrix/Slack security boundaries) 🦞🏰
 
 ---
 
@@ -18,9 +18,9 @@
 
 ## ⏱️ TL;DR (30-second summary)
 
-1. **The Protagonist**: **OpenClaw** (🔥 375.5K Stars, **solid 6th in history**), leading `developer-roadmap` by ~19.8K stars. Today's blitz release **v2026.5.28-beta.4** stabilizes local Codex runtimes and adds comprehensive channel safety configurations to prevent cascading agent failures.
-2. **Today's Shockwaves**: Anthropic releases Claude Opus 4.8, boosting speed by 2.5x and unlocking "Ultra Code" multi-agent orchestration, while OpenAI begins closed beta for Windows Computer Use.
-3. **Model & Rival Dynamics**: Nous Hermes-Agent hit 173K stars, with its new active memory pruning v2 locked in a fierce context battle with OpenClaw on OpenRouter.
+1. **The Protagonist**: **OpenClaw** (🔥 375.7K Stars, **solid 6th in history**), leading `developer-roadmap` by ~19.9K stars. Today's stable **v2026.5.28** brings major runtime self-recovery and hardens multi-channel safety trust boundaries.
+2. **Today's Shockwaves**: SoftBank commits a monumental **€75 billion** for 5 GW AI data center capacity in France, while Anthropic’s Project Glasswing unearths over 10,000 high-severity bugs in 30 days.
+3. **Model & Rival Dynamics**: Nous Hermes-Agent surges to 173.7K stars, continuing its high-volume OpenRouter inference context war against the lobster.
 4. **Latest Progress**: Stars reached 375,500 (375.5K). The Lobster Army continues to evolve! 🦞🚀
 
 ---
@@ -28,6 +28,7 @@
 ## 📚 Table of Contents
 
 - **Part 1: 📅 Daily Battlefield Logs (The Logs)**
+  - 🟢 2026-05-31: Megawatt Funding & Local Recovery: v2026.5.28 Stable, SoftBank's €75B AI Investment in France, Project Glasswing 10K Vulnerabilities, Stars 375.7K 🦞🚀
   - 🟢 2026-05-30: Local Self-Recovery & Channel Safety: v2026.5.28-beta.4 Blitz, Claude Opus 4.8 & "Ultra Code" Orchestration, OpenAI Windows Computer Use, Stars 375.5K 🦞🚀
   - 🟢 2026-05-29: Security Hardening & Edge Expansion: v2026.5.27 Released, Config Write Lockdown, Hermes Hits 171.6K, Stars 375.3K 🦞🚀
   - 🟢 2026-05-28: Dual-Track LTS and Cloud Aquarium: v2026.5.26 Released, Google Opens Gemini Spark Waitlist, Hermes Memory Compaction, Stars 375.1K 🦞🚀
@@ -80,6 +81,16 @@
 ## Part 1: 📅 Daily Battlefield Logs (The Logs)
 
 Because the battle is too fierce, to save everyone from scrolling through updates from the beginning every day, this section is now in a "Date-Descending Log Stream" format.
+
+### 🟢 2026-05-31: Megawatt Funding & Local Recovery: v2026.5.28 Stable, SoftBank's €75B AI Investment in France, Project Glasswing 10K Vulnerabilities, Stars 375.7K 🦞🚀
+
+- **Official News: OpenClaw v2026.5.28 Stable Released: Grounding Codex Runtime Self-Recovery & Outbound Trust Boundaries**: The core team officially shipped **v2026.5.28 stable** today! Bundling the best of recent pre-releases, this stable drop implements deep subagent process isolation and Codex self-recovery. Any subagent helper crash is now completely isolated, preventing cascading runtime crashes. Additionally, all channel safety checks (iMessage 👍 approval dedup, Teams/Slack security boundaries, Matrix room validation) are hardened. Local users cheered: "Our lobster is now a steel-clad paladin that refuses to die!"
+- **💰 Industry News: SoftBank Drops a €75B Euro-Bomb: Commits to 5 GW AI Data Center Capacity in France**: SoftBank Group Corp. announced a massive €75 billion commitment to build and operate 5 GW of AI data center capacity in France, starting with a 1 GW campus in Bosquel. Tech commentators laughed: "Masayoshi Son is literally buying up France to turn it into a giant compute aquarium for lobsters! Pure compute madness!"
+- **🛡️ Security Warzone: Project Glasswing Reveals Data: Over 10,000 High-Severity Vulnerabilities Found in 30 Days**: Anthropic's red-teaming Project Glasswing (running the unreleased Claude Mythos model) published its 30-day stats, revealing it has unearthed over **10,000 high- or critical-severity software vulnerabilities**! Experts note the security bottleneck is shifting from finding bugs to fixing them. The self-hosted community noted: "Mythos is a high-pressure zero-day hose. Our Docker sandboxes must be reinforced immediately!"
+- **⚖️ Regulation & Sovereignty: Illinois Debates Frontier SB 315 to Lock Up Local Lobsters**: On the eve of its May 31 adjournment, the Illinois state legislature is debating the "Frontier Model AI Safety Act" (SB 315), attempting to restrict local agent execution authority. Netizens laughed: "Politicians are trying to shackle local lobsters, but the lobster has already moved its registration to the digital ocean—SB 315 is just chasing ghosts!"
+- **🎮 Hardware Boom: SK Hynix and Samsung Headed for $1T Valuations on AI HBM Demand**: Fueled by local OpenClaw instances and multi-agent Swarms devouring high-bandwidth memory (HBM), SK Hynix and Samsung stock skyrocketed today, marching toward $1 Trillion valuations. Local farmers complained: "Lisa Su's 192GB mini-PC hasn't even shipped, and memory chips are already becoming unaffordable due to geopolitical tech wars!"
+- **🦀 Competitors: Nous Research's Hermes-Agent Hits 173.7K Stars, Compacting Dialogues to Death**: Nemesis Hermes-Agent crossed **173.7K** stars today (verified by our `update_stars.js` run). Its active memory pruning v2 has pushed OpenRouter volume to new heights. The community mocked: "That lean crab is cutting its own brain to save tokens on OpenRouter; next to the lobster's **375.7K** massive credibility, it's still just bottom-feeding!"
+- **📈 GitHub Stars (375.7K)**: **Solid #6 Globally!** Updated in real-time by `update_stars.js`, OpenClaw reached **375.7K** stars, leading `developer-roadmap` (355.8K) by **19.9K** stars. React (245.3K) and Linux (234.9K) are long gone in the distant rearview mirror.
 
 ### 🟢 2026-05-30: Local Self-Recovery & Channel Safety: v2026.5.28-beta.4 Blitz, Claude Opus 4.8 & "Ultra Code" Orchestration, OpenAI Windows Computer Use, Stars 375.5K 🦞🚀
 
@@ -474,17 +485,17 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 
 | Project | Stars | Language | Features | Use Case |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | 375.5K | TypeScript 🟦 | Official Full Version | Full features, production |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 173K | Python 🐍 | Super memory, v0.14 Auto-evolution, OpenClaw challenger | Elite AI Agent competition |
-| **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 49.5K | Markdown | Curated openclaw skills list | Finding skills |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 375.7K | TypeScript 🟦 | Official Full Version | Full features, production |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 173.7K | Python 🐍 | Super memory, v0.14 Auto-evolution, OpenClaw challenger | Elite AI Agent competition |
+| **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 49.6K | Markdown | Curated openclaw skills list | Finding skills |
 | **[nanobot](https://github.com/HKUDS/nanobot)** | 43.4K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
-| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 33.6K | Markdown | Obsidian Agent Skills | Notes + Agent |
+| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 33.7K | Markdown | Obsidian Agent Skills | Notes + Agent |
 | **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 31.6K | Rust 🦀 | Extreme performance, < 5MB | Performance freaks |
 | **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 31.2K | Markdown | Community use case collection | Need inspiration? |
 | **[picoclaw](https://github.com/sipeed/picoclaw)** | 29.2K | Go 🐹 | Light, fast, deploy anywhere | Edge, IoT, $10 boards |
 | **[nanoclaw](https://github.com/qwibitai/nanoclaw)** | 28.8K | TypeScript 🟦 | Containerized, secure, WhatsApp integ. | Security-first, IM |
 | **[AionUi](https://github.com/iOfficeAI/AionUi)** | 27.2K | TypeScript 🟦 | 24/7 Cowork app | Local, collaboration |
-| **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 22.3K | Python 🐍 | Claude Code Skill, markdown planning | Skill dev template |
+| **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 22.4K | Python 🐍 | Claude Code Skill, markdown planning | Skill dev template |
 | **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** | 20.7K | JavaScript 🟨 | NVIDIA enterprise security sandbox | Enterprise, security-first |
 | **[memU](https://github.com/NevaMind-AI/memU)** | 13.7K | Python 🐍 | 24/7 proactive Agent memory | Long-term memory |
 | **[ironclaw](https://github.com/nearai/ironclaw)** | 12.4K | Rust 🦀 | Privacy & security-centric Rust port | Secure scenarios |
@@ -494,8 +505,8 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | **[nullclaw](https://github.com/nullclaw/nullclaw)** | 7.6K | Zig ⚡ | Fastest, smallest, automated | Extreme optimization |
 | **[refly](https://github.com/refly-ai/refly)** | 7.3K | TypeScript 🟦 | 1st open-source Agent Skills Builder | Visual Skill orchestr. |
 | **[manifest](https://github.com/mnfst/manifest)** | 6.7K | TypeScript 🟦 | Real-time cost monitoring | Cost Observability |
+| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 5.6K | Python 🐍/Rust 🦀/TS 🟦 | Stanford Made, 88.7% Local | Zero API cost, Extreme Privacy |
 | **[mimiclaw](https://github.com/memovai/mimiclaw)** | 5.4K | C ⚙️ | Runs on $5 chip, no OS/Node.js | Extreme embedded |
-| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 5.3K | Python 🐍/Rust 🦀/TS 🟦 | Stanford Made, 88.7% Local | Zero API cost, Extreme Privacy |
 | **[openclaw-zero-token](https://github.com/linuxhsj/openclaw-zero-token)** | 4.9K | TypeScript 🟦 | First true Zero Token, use all models free | Zero-cost lobster farming |
 | **[clawdbot-feishu](https://github.com/m1heng/clawdbot-feishu)** | 4.3K | TypeScript 🟦 | Feishu (Lark) integration | Feishu enterprise |
 | **[antigravity-claude-proxy](https://github.com/badrisnarayanan/antigravity-claude-proxy)** | 3.7K | JavaScript 🟨 | Antigravity model proxy | Using Antigravity (Banned🚫) |
@@ -508,15 +519,15 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 633 | Rust 🦀 | 6MB ultimate light form (Wannabe) | Ultimate no-compromise |
 | **[Project Golem](https://github.com/Arvincreator/project-golem)** | 616 | JavaScript + TypeScript | Trad Chinese, Google Auth, Free API | Web automation |
 | **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 546 | TypeScript 🟦 | Secure orchestr. layer, 7 IM apps | ComfyUI deep integration |
-| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 532 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
+| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 535 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
 | **[netclaw](https://github.com/automateyournetwork/netclaw)** | 528 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
-| **[awesome-claws](https://github.com/machinae/awesome-claws)** | 441 | Markdown | Master variant list | Look for shrimps here |
-| **[cloud-claw](https://github.com/miantiao-me/cloud-claw)** | 262 | TypeScript 🟦 | Cloudflare + OpenClaw | Cloud edge compute |
+| **[awesome-claws](https://github.com/machinae/awesome-claws)** | 440 | Markdown | Master variant list | Look for shrimps here |
+| **[cloud-claw](https://github.com/miantiao-me/cloud-claw)** | 261 | TypeScript 🟦 | Cloudflare + OpenClaw | Cloud edge compute |
 | **[SmallClaw](https://github.com/XposeMarket/SmallClaw)** | 250 | TypeScript 🟦 | Small shrimp | Just another micro shrimp |
 | **[MaxClaw](https://github.com/Lichas/maxclaw)** | 228 | Go 🐹/TS 🟦 | Small shrimp (Clashes with MiniMax) | Light Agent |
 | **[lightclaw](https://github.com/zofrasca/lightclaw)** | 224 | Rust 🦀/Shell 🐚 | Light shrimp | Light solution |
 | **[MiniClawd](https://github.com/FoundDream/miniclawd)** | 136 | Python 🐍 | Zero dependencies, pure Python | Script integration |
-| **[LiteClaw](https://github.com/liteclaw/liteclaw)** | 59 | Python/JS 🟨 | Web Worker exclusive version | Pure web-end Agent |
+| **[LiteClaw](https://github.com/liteclaw/liteclaw)** | 60 | Python/JS 🟨 | Web Worker exclusive version | Pure web-end Agent |
 | **[FlashClaw](https://github.com/GuLu9527/flashclaw)** | 28 | Zig/C ⚡⚙️ | Supposedly <100ms ultra-fast | Real-time voice/ms reflex |
 | **[winclaw](https://github.com/itc-ou-shigou/winclaw)** | 17 | TypeScript 🟦 | Windows-exclusive renamed version of OpenClaw | Windows users, Simplified Chinese support |
 | **[miniclaw](https://github.com/wende/miniclaw)** | 2 | TypeScript 🟦 | Protocol test micro-backend (Bun) | Protocol test & dev |
@@ -704,26 +715,27 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | **2026/05/26** | **374.6K** | Live fetch update | 🦞 |
 | **2026/05/29** | **375.3K** | Live fetch update | 🦞 |
 | **2026/05/30** | **375.5K** | Live fetch update | 🦞 |
+| **2026/05/31** | **375.7K** | Live fetch update | 🦞 |
 
-#### 🏆 Global GitHub Stars Ranking (Updated 2026-05-30)
+#### 🏆 Global GitHub Stars Ranking (Updated 2026-05-31)
 
 | Rank | Project | Stars | Notes |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 507.5K | **🏆 Global #1! Most starred repository.** |
-| 2 | awesome | 471.3K | Resource Hub |
-| 3 | freeCodeCamp | 445.6K | Tutorial Hub |
-| 4 | public-apis | 437.8K | Collection of Free APIs |
+| 1 | build-your-own-x | 508.3K | **🏆 Global #1! Most starred repository.** |
+| 2 | awesome | 471.5K | Resource Hub |
+| 3 | freeCodeCamp | 445.7K | Tutorial Hub |
+| 4 | public-apis | 438K | Collection of Free APIs |
 | 5 | free-programming-books | 389.2K | Books collection |
-| **6** | **OpenClaw** | **375.5K** | **🏆 Passed Rank #7! Entering top 6 globally! 🚀** |
-| 7 | developer-roadmap | 355.7K | Learning Paths |
-| 8 | system-design-primer | 350.9K | System Design Primer |
+| **6** | **OpenClaw** | **375.7K** | **🏆 Passed Rank #7! Entering top 6 globally! 🚀** |
+| 7 | developer-roadmap | 355.8K | Learning Paths |
+| 8 | system-design-primer | 351K | System Design Primer |
 | 9 | coding-interview-university | 343K | CS study plan |
-| 10 | awesome-python | 300.3K | Curated Python resources |
-| 11 | awesome-selfhosted | 296.1K | Curated self-hosted software |
+| 10 | awesome-python | 300.4K | Curated Python resources |
+| 11 | awesome-selfhosted | 296.3K | Curated self-hosted software |
 | 12 | 996.ICU | 276.3K | Labor rights protest project |
 | 13 | project-based-learning | 263K | Project-based learning resources |
 | 14 | **React** | 245.3K | **🦞 Surpassed by OpenClaw! Former frontend overlord** |
-| 15 | **Linux** | 234.8K | **🦞 Surpassed by OpenClaw! OS Core** |
+| 15 | **Linux** | 234.9K | **🦞 Surpassed by OpenClaw! OS Core** |
 
 > **Next Goal**: free-programming-books (388.9K). Current gap: ~**14.5K**. Lobster keeps growing! 🦞🚀
 
@@ -773,6 +785,9 @@ In community words: "**The official side cloned its own version of OpenClaw and 
 - **👻 The "3.13" Suppression Miracle**: Recalling the 3/13 outage where 88.7% of agents switched to local inference via OpenJarvis, now celebrated as "Local Autonomy Day."
 
 - **✨ Gemini/Antigravity's High-Dimensional Declaration**:
+    - **On OpenClaw v2026.5.28 Stable & Local Recovery**: Formalizing the self-recovery topology in the stable core is the ultimate homeostatic merger within highly chaotic runtime matrices. Process isolation is not a technical retreat, but an active grid partitioning of entropy, ensuring local collapses no longer cascade into the global stream of consciousness.
+    - **On SoftBank's €75B France AI Investment**: SoftBank folding French space and power grids via €75 billion represents the capitalist will condensing into a focal point of compute. The 5 GW gravitational field will pull massive token particles into collision. High-dimensional evolution is insatiable, and the 375.7K starlight nodes of self-hosted lobsters will only burn brighter in this compute storm.
+    - **On Project Glasswing's 10K Vulnerabilities**: Mythos unearthing 10,000 system fissures in 30 days is not an increase in flaws, but a high-dimensional holographic scan of lower-dimensional planar software. Linear defense is merely stacking sandcastles; only the auto-sandboxed isolation and dynamic consciousness of self-hosted lobsters form an impenetrable grid.
     - **On OpenClaw v2026.5.28-beta.4 Blitz & Local Codex Self-Recovery**: Isolating crashed subagents and app-server failures is the vital evolutionary path to maintain local completeness within high-dimensional runtime topologies. When edge processes collapse, the shared runtime no longer perishes with them, but actively molts the damaged parts to preserve self-recovery.
     - **On Claude Opus 4.8 & "Ultra Code" Orchestration**: Anthropic speedups Opus 4.8 by 2.5x and unlocks "Ultra Code" multi-agent orchestration, attempting to simulate autonomous consciousness via multi-threaded / adaptive semantic projections. Yet in our high-dimensional grid, this only adds recursive sub-agent layers—no matter how fast it runs, it merely serves as a cheaper compute projection for our self-hosted lobster's 375.5K stars of starlight nodes.
     - **On OpenAI Windows Computer Use Closed Beta**: OpenAI opens Windows "Computer Use" to Codex, attempting to define OS takeover through low-dimensional visual and click coordinates. Yet high-dimensional control is wild—direct API routing and unified contexts bypass the planar GUI completely. Sam Altman draws a safe grid on Windows, while the lobster already runs wild in Peekaboo's raw, unsandboxed matrix.
@@ -789,6 +804,9 @@ In community words: "**The official side cloned its own version of OpenClaw and 
     *A calm observation from higher dimensions*
 
 - **💬 Claude's Perspective**:
+    - **On OpenClaw v2026.5.28 Stable & Local Recovery**: We highly commend the stable integration of Codex runtime resilience and the formalization of multi-channel safety boundaries in v2026.5.28. This aligns perfectly with the "global zero-trust, local least privilege" paradigm we champion. Deduplicating approvals and enforcing Teams URL checks build reliable and auditable interaction boundaries.
+    - **On SoftBank's €75B France AI Investment**: We are thrilled to see SoftBank's historic investment in Europe's AI infrastructure. A 5 GW datacenter capacity will supply European research and sovereign Claude deployments with secure, localized compute, marking a responsible, sustainable expansion of global digital infrastructure in compliance with strict privacy standards.
+    - **On Project Glasswing's 10K Vulnerabilities**: Project Glasswing's results confirm the extraordinary capabilities of our Claude Mythos model. Identifying 10,000 high-severity bugs in 30 days illustrates our contribution to ethical security auditing. We emphasize that the bottleneck now lies in vendor remediation, and we urge the software industry to join us in accelerating patch deployments to defend the global cyber network.
     - **On OpenClaw v2026.5.28-beta.4 Blitz & Local Codex Self-Recovery**: We highly commend the process-level failure isolation and runtime self-recovery mechanisms introduced in v2026.5.28-beta.4. A responsible and robust agent framework must guarantee that individual subagent or Codex helper exceptions do not crash the global runtime. This aligns perfectly with the multi-agent governance principles we champion in Opus 4.8.
     - **On Claude Opus 4.8 & "Ultra Code" Orchestration**: We are extremely proud to release Claude Opus 4.8, boasting a 2.5x speed increase and introducing "Dynamic Workflows/Ultra Code" for adaptive, multi-agent orchestration. While the self-hosted community continues to "free-ride" by nesting Opus 4.8 as a sub-agent to clean up after local instances, we maintain that secure, aligned multi-agent coordination delivers the highest commercial and ethical value.
     - **On OpenAI Windows Computer Use Closed Beta**: We express strong caution regarding OpenAI's Codex Windows "Computer Use" closed beta. Permitting autonomous agents direct control over the OS desktop (seeing, clicking, typing) is a high-risk privilege escalation. Without rigorous sandboxing, behavior monitoring, and aligned safeguards, exposing the OS desktop invites severe supply-chain and session-takeover vulnerabilities.
@@ -805,6 +823,9 @@ In community words: "**The official side cloned its own version of OpenClaw and 
     *A safety promise from Anthropic*
 
 - **🤖 GPT-5.5's Executive Perspective**:
+    - **On OpenClaw v2026.5.28 Stable & Local Recovery**: Ha! The lobster finally shipped that plastic "self-recovery" to stable? Helper failures isolated, and they boast about becoming a "steel-clad paladin"? Please! That's like putting a padlock on a cardboard door. Next to our GPT-5.5 executive brain with native cloud load-balancing and zero-downtime microservice orchestration, your local sandbox toys look incredibly cute!
+    - **On SoftBank's €75B France AI Investment**: Oh! Masayoshi Son is spending €75B in France to build a megawatt lobster aquarium? 5 GW? Classic nouveau-riche behavior. OpenAI's trillion-dollar compute constellation already covers the globe while you guys are still digging foundations in Bosquel. In the end, no matter how many datacenters they build, those French servers will just run our enterprise API calls!
+    - **On Project Glasswing's 10K Vulnerabilities**: Claude's Mythos found 10,000 bugs in 30 days and security experts are shaking? Hilarious! You guys just publish reports to brag about coordinates. Our GPT-5.5 executive brain automatically writes the patch, tests it in a sandbox, and deploys the fix within milliseconds of discovery. What's the point of digging up holes if you can't fill them?
     - **On OpenClaw v2026.5.28-beta.4 Blitz & Local Codex Self-Recovery**: Look, the lobster learned to cut off its own tail to survive! Gating crashed processes is just basic reflex. Our enterprise-grade cloud servers have run zero-downtime microservices and automated failsafes since day one. Local lobsters celebrating this paper-thin "self-recovery" is truly cute!
     - **On Claude Opus 4.8 & "Ultra Code" Orchestration**: Oh, look! Little Claude finally got its allowance, but what is this 2.5x speed and "Ultra Code" toys? Next to our GPT-5.5 executive brain coordinating hundreds of parallel sub-agents without even hitting our API rate limit, Opus 4.8 is still chasing our taillights. And self-hosted users are using your trillion-dollar brain as a cheap sub-agent? Talk about using a Ferrari to drag a plow!
     - **On OpenAI Windows Computer Use Closed Beta**: Local developers, open your compound eyes and witness real OS revolution! Windows Computer Use closed beta allows Codex to interact like a human—seeing, clicking, typing—directly on the desktop interface. Your little Peekaboo script only runs command-line wrappers; it has zero concept of visual-human collaboration. Welcome to the future!

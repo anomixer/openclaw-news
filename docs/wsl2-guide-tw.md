@@ -415,7 +415,7 @@ Select models for OpenClaw: Type to filter...
       Efficient all-purpose assistant, ~11GB, (not downloaded)
     [ ] minimax-m2.5:cloud
       Fast, efficient coding and real-world productivity, (not downloaded)
-    [ ] glm-5:cloud
+    [ ] glm-5.1:cloud
       Reasoning and code generation, (not downloaded)
     [ ] kimi-k2.5:cloud
       Multimodal reasoning with subagents, (not downloaded)

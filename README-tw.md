@@ -4,10 +4,10 @@
 
 > **警告**: 本新聞包含大量吐槽、陰謀論、以及對龍蝦的深刻哲學思考。
 > 
-> **最後更新**: 2026-06-05
-> **狀態**: OpenClaw 狂飆中，目前已突破 37.9 萬星大關 (376.9K)！**持續坐穩 GitHub 全球歷史第 6 名**！🦞🚀
+> **最後更新**: 2026-06-06
+> **狀態**: OpenClaw 狂飆中，目前已突破 37.7 萬星大關 (377.1K)！**持續坐穩 GitHub 全球歷史第 6 名**！🦞🚀
 
-> **OpenClaw 版本**: v2026.6.1 (最新正式版/LTS) & v2026.6.4-alpha.1 | 全新 Skill Workshop 治理流程、Operator Install Policy 安全強化、MiniMax M3 模型支援、原生 iPad 版面、SQLite 插件狀態持久化 🦞🏰
+> **OpenClaw 版本**: v2026.6.1 (最新正式版/LTS) & v2026.6.2-beta.1 | 全新 Skill Workshop 治理流程、Operator Install Policy 安全強化、MiniMax M3 模型支援、原生 iPad 版面、SQLite 插件狀態持久化 🦞🏰
 
 ---
 
@@ -18,16 +18,17 @@
 
 ## ⏱️ TL;DR (30秒快速懶人包)
 
-1. **主角**: **OpenClaw** (🔥 376.9K Stars，**坐穩歷史第六**)，領先 `developer-roadmap` 約 20.6K 星。今日 Microsoft Build 2026 閉幕後，微軟宣告在 OpenClaw 基礎上打造首個企業「Autopilot」代理人 **Microsoft Scout**！
-2. **今日震盪**: Google 發表 Gemini Spark 常駐工作空間代理與 Antigravity 2.0 代理編排平台；OpenAI 預告代理特化型 GPT-5.6；群暉 Synology 發表 DSM Agent 自動化；MWM AI 與 Google Cloud 合作推出 3 分鐘建 App 的 AI 行動小組；OWASP 成立代理安全研究委員會（ARC）；OpenClaw 發布 v2026.6.4-alpha.1 封裝優化版。
-3. **模型與對手動態**: Hermes-Agent 星數飆至 179.1K，桌面版正式登場挑戰龍蝦版圖；NSA 聯合發布 MCP Agent Threat Rules 框架防禦供應鏈攻擊。
-4. **最新進展**: Stars 達到 376,900 (376.9K)，龍蝦大軍持續進化中！🦞🚀
+1. **主角**: **OpenClaw** (🔥 377.1K Stars，**坐穩歷史第六**)，領先 `developer-roadmap` 約 20.7K 星。今日 Microsoft Build 2026 閉幕後，微軟宣告在 OpenClaw 基礎上打造首個企業「Autopilot」代理人 **Microsoft Scout**！
+2. **今日震盪**: Google 與 SpaceX 簽署 300 億美元雲端算力協議，每月支付 9.2 億美元租用 11 萬張 GPU；美國總統簽署 NSPM-11 安全指令，加速美軍引進先進 AI 並限期更新自主武器指引；劍橋大學 AI 設計之通用冠狀病毒疫苗人體臨床試驗取得成功；Cognizant 推出主權物理 AI 平台服務。
+3. **模型與對手動態**: Nous Research 的 Hermes-Agent 星數因桌面版發布衝上 183.4K；OpenClaw 社群工作重心轉入網路與 Windows 節點調優，並未推出新版。
+4. **最新進展**: Stars 達到 377,100 (377.1K), 龍蝦大軍持續進化中！🦞🚀
 
 ---
 
 ## 📚 目錄
 
 - **第一部：📅 每日戰況日誌 (The Logs)**
+  - 🟢 2026-06-06: 谷歌-SpaceX 300億合約與美軍 AI 安全指令：谷歌 SpaceX 算力採購、美國國防 NSPM-11、Intel Core Ultra 3、Stars 377.1K 🦞🚀
   - 🟢 2026-06-05: Google 代理大進軍與 GPT-5.6 暴風前夕：Gemini Spark 常駐工作空間、Antigravity 2.0 平台釋出、GPT-5.6 代理特化預告、Synology DSM Agent 自動化、Stars 376.9K 🦞🚀
   - 🟢 2026-06-04: Build 2026 決戰與 Hermes 桌面登陸：Microsoft Scout Autopilot 代理閃擊、MAI-Thinking-1 萬億大腦、Gemma 4 12B 開源音訊、Hermes Desktop Windows 版 0 元免費、威剛 AI Scaler + BSMART AI SSD 隨身龍蝦 開源！Stars 376.6K 🦞🚀
   - 🟢 2026-06-03: 白宮減監管與印度百萬 Copilot 海嘯：白宮發布 AI 創新行政命令、微軟宣告印度三大 IT 巨頭部署十萬級 Copilot、ASUS 發表 Zenni Claw、NXP 秀「物理 AI」、Stars 376.4K 🦞🚀
@@ -77,6 +78,17 @@
 
 因戰況過於激烈，為了讓大家不用每天從頭找更新，本區改採「日期遞減日誌流」格式。
 
+### 🟢 2026-06-06: 谷歌-SpaceX 300億合約與美軍 AI 安全指令：谷歌 SpaceX 算力採購、美國國防 NSPM-11、Intel Core Ultra 3、Stars 377.1K 🦞🚀
+
+- **🤖 谷歌外包算力：Google 與 SpaceX 簽署 300 億美元雲端算力協議，租用 11 萬張 NVIDIA GPU**：在昨日（6/5）SpaceX 提交的 IPO 招股書中披露，Google 已與 SpaceX 達成一項高達 300 億美元的超級算力合約（自 2026 年 10 月至 2029 年 6 月）。Google 每月將支付 9.2 億美元，租用 SpaceX 在孟菲斯 Colossus 數據中心部署的約 11 萬張 NVIDIA GPU，以應對 Gemini Enterprise 爆發式增長的雲端算力需求。社群熱議：「馬斯克這波直接把 AI 算力賣給對手，果然算力才是這個時代的硬通貨！」
+- **🇺🇸 政策巨震：美國總統簽署 NSPM-11 國家安全指令，加速美軍與情報機關導入先進 AI**：美國總統於昨日（6/5）簽署《第十一號國家安全總統備忘錄》（NSPM-11），要求美軍與情報體系加速引進先進自主 AI 系統，並下令國防部在 90 天內更新自主武器系統的指導方針，以確保國家安全優勢並維護指揮鏈的控制力。軍事專家指出：「這標誌著國家級軍事對抗全面進入 AI 智能化與代理人時代。」
+- **💻 硬體加速：英特爾 Intel 發表 Core Ultra 3 系列處理器，強化地端 AI 代理人硬體隔離沙盒**：英特爾於 COMPUTEX 閉幕論壇展示了最新的 **Core Ultra Series 3** 處理器，內建專為 AI 代理人設計的硬體隔離執行環境。該架構利用硬體級安全沙箱，讓地端代理人在執行系統指令時，無法危害宿主作業系統。硬體專家點評：「英特爾這是在給地端龍蝦蓋實體籠子，防止牠們越權逃出沙盒。」電腦玩家點評：「人家 WinVidia 陣營都結盟了，以後 RTX Spark 就是一台電腦可玩遊戲可玩 AI 的 Windows 桌機，你 Intel 那個弱弱的 AI TOPS 就別丟人現眼了！」
+- **💻 產業落地：Cognizant 推出主權物理 AI 平台服務，加速企業地端感測與機器人整合**：IT 服務巨頭 Cognizant 發表「主權物理 AI 平台即服務 (Sovereign Physical AI PaaS)」，旨在幫助製造與物流企業將地端感測器、工業機器人與自主 AI 系統無縫對接。業界分析：「2026 年 AI 的主戰場已經從純模型智商的比拼，轉向與實體產業、邊緣設備地端整合的資本與落地大戰。」
+- **🔬 科學突破：劍橋大學開發之 AI 設計通用冠狀病毒疫苗，人體臨床試驗取得成功**：由英國劍橋大學與 DIOSynVax 團隊開發的 AI 設計通用冠狀病毒疫苗，在首期人體臨床試驗中證實安全且能誘發廣泛免疫反應，成功對抗多種 Sarbeco 病毒家族成員。醫學界稱讚：「這是 AI 在生物學精準設計與免疫工程領域的又一重大里程碑！」
+- **🔧 官方動態：OpenClaw 核心團隊維護 v2026.6.2-beta，Computex 後專注於地端網路與 Windows 節點穩定性**：OpenClaw 官方最新版本仍維持在 `v2026.6.1` 正式版與 `v2026.6.2-beta`。在 Computex 閉幕後，核心社群將開發重心轉向優化 Tailscale 網路通道綁定，並修復 `openclaw-windows-node` 地端常駐服務在 Windows 平台上的記憶體回收問題，並未急於推出全新版本。
+- **📈 GitHub Stars (377.1K)**：**坐穩全球第 6！** 今日星星數在 `update_stars.js` 自動抓取更新下，OpenClaw 順利衝上 **377.1K**，領先 `developer-roadmap` (356.4K) 約 **20.7K** 星！React (245.6K) 與 Linux (235.6K) 都在後照鏡深處瞪著尾燈揮手告別。
+
+
 ### 🟢 2026-06-05: Google 代理大進軍與 GPT-5.6 暴風前夕：Gemini Spark 常駐工作空間、Antigravity 2.0 平台釋出、GPT-5.6 代理特化預告、Synology DSM Agent 自動化、Stars 376.9K 🦞🚀
 
 - **🤖 谷歌反擊: Google 發布 Gemini Spark 常駐工作空間代理與 Antigravity 2.0 代理編排平台**：微軟剛藉由 Scout 閃擊，Google 今日（6/5）立即在 Workspace 生態祭出重拳！推出 24/7 常駐背景的自主代理 **Gemini Spark**，並釋出專為多代理人（Sub-agents）協作與調度設計的開源平台 **Antigravity 2.0**（反重力 2.0）。社群大為震撼：「微軟有 Scout 龍蝦，谷歌就有 Spark 螃蟹！而且這個調度平台居然叫 Antigravity，難道是暗示地端代理人的重力束縛已經被打破了嗎？」
@@ -85,7 +97,7 @@
 - **📱 極速開發: MWM AI 聯手 Google Cloud 推出「AI 行動小組」，3 分鐘 prompt 生成原生 App**：MWM AI 今日宣布與 Google Cloud 達成戰略合作，推出由 Designer、Product Manager 與 Developer 三個 AI 代理組成的 **AI Mobile Squad**。用戶只需提供簡單的創意描述，代理小組即可在 3 分鐘內自主完成 UI 設計、代碼撰寫並打包部署成 Android/iOS 原生應用。開發者汗流浹背：「三個代理人自己開會把 App 做完了，這下我們連寫程式的機會都沒有了！」
 - **🛡️ 規範落地: OWASP 成立「代理安全研究委員會（ARC）」，地端蝦農告別野蠻生長**：為應對日益嚴峻的 AI 代理人安全威脅，網路安全權威組織 OWASP 今日宣布正式成立 **Agentic Research Council (ARC)**。該委員會將致力於制定自主代理人的防禦標準、工具權限沙箱規範與隱私防護指南，彌補傳統安全標準的空白。安全專家點評：「地端養蝦不能再裸奔了，OWASP 的介入代表代理人生態正在走向工業級合規與安全化。」
 - **🦖 家庭革命: 諾頓 Norton 發表 Family Assistant 代理，AI 代理正式介入家庭生活管轄**：安全大廠 Norton 發表了專為家庭環境設計的 **Family Assistant** 代理人。它能自動管理家庭日程、比對各家超市價格並自動下單日常雜貨、甚至幫忙輔導小孩功課。網友熱議：「AI 代理終於要接管我老婆的家務活了，但這也意味著我私房錢買顯示卡的秘密可能第一個被 Family Assistant 舉報給老婆！」
-- **🔧 官方動態: OpenClaw 釋出 v2026.6.4-alpha.1，專注於打包依賴優化與 CI/CD 穩定性**：OpenClaw 核心團隊今日發布了 **v2026.6.4-alpha.1** 版本。此版本並未引入重大新功能，而是全力優化在各平台（特別是 Windows MXC 環境下）的依賴包裝大小，並大幅提升了 CI/CD 自動化測試的通過率。團隊表示：「地端龍蝦的骨架已經搭好，接下來是把它磨練得更輕量、更堅固。」
+- **🔧 官方動態：OpenClaw Windows 節點 v0.6.3 發布，新增系統匣整合與在地化語系支援**：在 6/4-5，openclaw-windows-node 隨附專案釋出了 **v0.6.3** 版本。此更新為 Windows 用戶帶來了原生系統列（System Tray）整合，方便管理背景 Gateway 守護進程，並新增了完整的在地化語系支援。團隊表示：「我們正專注於讓地端桌面端的執行體驗更加流暢且易於使用。」
 - **📈 GitHub Stars (376.9K)**：**坐穩全球第 6！** 今日星星數在 `update_stars.js` 自動更新下，OpenClaw 順利衝上 **376.9K**，領先 `developer-roadmap` (356.3K) 約 **20.6K** 星！React (245.5K) 與 Linux (235.3K) 持續在尾燈深處告別。Hermes-Agent 今日大跳至 **181.2K**，螃蟹雖然追得緊，但 376K 龍蝦城池依然固若金湯！
 
 ### 🟢 2026-06-04: Build 2026 決戰與 Hermes 桌面登陸：Microsoft Scout Autopilot 代理閃擊、MAI-Thinking-1 萬億大腦、Gemma 4 12B 開源音訊、Hermes Desktop Windows 版 0 元免費、威剛 AI Scaler + BSMART AI SSD 隨身龍蝦 開源！Stars 376.6K 🦞🚀
@@ -434,18 +446,18 @@
 
 | 專案 | Stars | 語言 | 特色 | 適用場景 |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | 376.9K | TypeScript 🟦 | 官方完整版 | 完整功能、生產環境 |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 181.2K | Python 🐍 | 超強記憶、自我進化、v0.14 自主進化、挑戰 OpenClaw | 頂尖 AI Agent 競爭 |
-| **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 49.8K | Markdown | OpenClaw Skills 精選清單 | 找 Skills 看這裡 |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 377.1K | TypeScript 🟦 | 官方完整版 | 完整功能、生產環境 |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 183.4K | Python 🐍 | 超強記憶、自我進化、v0.14 自主進化、挑戰 OpenClaw | 頂尖 AI Agent 競爭 |
+| **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 49.9K | Markdown | OpenClaw Skills 精選清單 | 找 Skills 看這裡 |
 | **[nanobot](https://github.com/HKUDS/nanobot)** | 43.7K | Python 🐍 | 超輕量版 OpenClaw (~4K lines) | 研究導向、學術用途 |
-| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 34.3K | Markdown | Obsidian Agent Skills (Markdown/CLI) | 筆記 + Agent |
-| **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 31.7K | Rust 🦀 | 極致效能、< 5MB | 效能狂魔專用 |
+| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 34.5K | Markdown | Obsidian Agent Skills (Markdown/CLI) | 筆記 + Agent |
+| **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 31.8K | Rust 🦀 | 極致效能、< 5MB | 效能狂魔專用 |
 | **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 31.3K | Markdown | OpenClaw 使用案例社群蒐集 | 找靈感看這裡 |
 | **[picoclaw](https://github.com/sipeed/picoclaw)** | 29.3K | Go 🐹 | 輕量、快速、可部署到任何地方 | 邊緣裝置、IoT、$10 板子 |
 | **[nanoclaw](https://github.com/qwibitai/nanoclaw)** | 28.8K | TypeScript 🟦 | 容器化、安全、WhatsApp 整合、Anthropic SDK | 安全優先、即時通訊 |
-| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 27.6K | TypeScript 🟦 | 24/7 Cowork app，支援多種 CLI | 本機、協作環境 |
-| **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 22.7K | Python 🐍 | Claude Code Skill，持久化 Markdown 規劃 | Skill 開發範本 |
-| **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** | 20.9K | JavaScript 🟨 | NVIDIA 企業級安全沙箱 | 企業部署、安全優先 |
+| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 27.7K | TypeScript 🟦 | 24/7 Cowork app，支援多種 CLI | 本機、協作環境 |
+| **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 22.8K | Python 🐍 | Claude Code Skill，持久化 Markdown 規劃 | Skill 開發範本 |
+| **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** | 21K | JavaScript 🟨 | NVIDIA 企業級安全沙箱 | 企業部署、安全優先 |
 | **[memU](https://github.com/NevaMind-AI/memU)** | 13.8K | Python 🐍 | 24/7 主動式 Agent 的記憶系統 | 長期記憶、主動式 AI |
 | **[ironclaw](https://github.com/nearai/ironclaw)** | 12.4K | Rust 🦀 | 注重隱私與安全的 Rust 實作 | 安全敏感場景 |
 | **[moltworker](https://github.com/cloudflare/moltworker)** | 9.9K | TypeScript 🟦 | 在 Cloudflare Workers 上跑 OpenClaw | 無伺服器、零維護 |
@@ -454,22 +466,22 @@
 | **[nullclaw](https://github.com/nullclaw/nullclaw)** | 7.7K | Zig ⚡ | 最快、最小且全自動 AI 助理 | 極端效能與資源最佳化 |
 | **[refly](https://github.com/refly-ai/refly)** | 7.3K | TypeScript 🟦 | 第一開源 Agent Skills Builder | 視覺化 Skill 編排 |
 | **[manifest](https://github.com/mnfst/manifest)** | 6.8K | TypeScript 🟦 | OpenClaw Agent 即時成本監控 | Cost Observability |
-| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 6.1K | Python 🐍/Rust 🦀/TS 🟦 | Stanford 出品，88.7% 任務本機跑完 | 零 API 成本、隱私極致保護 |
+| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 6.2K | Python 🐍/Rust 🦀/TS 🟦 | Stanford 出品，88.7% 任務本機跑完 | 零 API 成本、隱私極致保護 |
 | **[mimiclaw](https://github.com/memovai/mimiclaw)** | 5.5K | C ⚙️ | 跑在 $5 晶片上，無需 OS/Node.js | 極限嵌入式、成本優先 |
-| **[openclaw-zero-token](https://github.com/linuxhsj/openclaw-zero-token)** | 4.9K | TypeScript 🟦 | 第一款真正的 Zero Token ，免 API 費用暢玩全模型 | 極速白嫖、無負擔養蝦 |
+| **[openclaw-zero-token](https://github.com/linuxhsj/openclaw-zero-token)** | 5K | TypeScript 🟦 | 第一款真正的 Zero Token ，免 API 費用暢玩全模型 | 極速白嫖、無負擔養蝦 |
 | **[clawdbot-feishu](https://github.com/m1heng/clawdbot-feishu)** | 4.3K | TypeScript 🟦 | 飛書 (Lark) 整合 | 飛書企業用戶 |
 | **[antigravity-claude-proxy](https://github.com/badrisnarayanan/antigravity-claude-proxy)** | 3.7K | JavaScript 🟨 | Antigravity 模型 Proxy | 使用 Antigravity (遭封殺 🚫) |
 | **[TinyClaw](https://github.com/jlia0/tinyclaw)** | 2.8K | C/C++ ⚙️ | 微控制器級別 (256KB RAM) | 裝進電子錶 🤯 |
 | **[moltis](https://github.com/moltis-org/moltis)** | 2.7K | Rust 🦀 | 單一執行檔、沙盒化、可審計 | 企業級安全需求 |
 | **[SwiftClaw](https://github.com/dannybszn/SwiftClaw)** | 1.2K | Swift 🍎 | 9-MB 極微版，支援 TEE 安全執行 | 邊緣運算、Swift 環境優化 |
 | **[VisionClaw](https://github.com/sseanliu/VisionClaw)** | 820 | Swift 🍎/Kotlin 🟣/JS 🟨 | 智慧眼鏡 Claw | 穿戴式代理人 |
-| **[MicroClaw](https://github.com/microclaw/microclaw)** | 709 | Rust 🦀 | 專為瀏覽器擴充功能優化的極微版 | 輕量瀏覽器自動化 |
+| **[MicroClaw](https://github.com/microclaw/microclaw)** | 712 | Rust 🦀 | 專為瀏覽器擴充功能優化的極微版 | 輕量瀏覽器自動化 |
 | **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 650 | TeX 📄/HTML 🌐/Python 🐍 | 生醫領域專屬 Claw | 醫療輔助 |
 | **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 637 | Rust 🦀 | 6MB 終極輕型態 (Wannabe) | 避免妥協的終極輕型態 |
 | **[Project Golem](https://github.com/Arvincreator/project-golem)** | 621 | JavaScript + TypeScript | 繁中介面、Google 帳號即用、免 API 費用 | 網頁自動化、瀏覽器任務 |
-| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 547 | TypeScript 🟦 | 多龍蝦的 Swarm 儀表板編排系統 | 代理人群體、LangGraph 工作流 |
+| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 549 | TypeScript 🟦 | 多龍蝦的 Swarm 儀表板編排系統 | 代理人群體、LangGraph 工作流 |
 | **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 545 | TypeScript 🟦 | 安全編排層，支援 7 大通訊軟體 | ComfyUI 深度整合、生產部署 |
-| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 534 | Python 🐍/Shell 🐚 | 網管專屬 Claw | 網路自動化管理 |
+| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 540 | Python 🐍/Shell 🐚 | 網管專屬 Claw | 網路自動化管理 |
 | **[awesome-claws](https://github.com/machinae/awesome-claws)** | 443 | Markdown | OpenClaw 各種變體的大匯集清單 | 尋找蝦米看這裡 |
 | **[cloud-claw](https://github.com/miantiao-me/cloud-claw)** | 259 | TypeScript 🟦 | Cloudflare + OpenClaw | 雲端邊緣運算 |
 | **[SmallClaw](https://github.com/XposeMarket/SmallClaw)** | 252 | TypeScript 🟦 | 小蝦 | 又一隻微型蝦 |
@@ -660,27 +672,28 @@ OpenClaw
 | **2026/05/12** | **370.9K** | OpenAI 併購 Tomoro 成立部署實體、v5.10 Beta 釋出 | 🦞🚀 |
 | **2026/05/13~18** | **371.3K~372.7K** | 即時抓取更新 | 🦞 |
 | **2026/05/19** | **373.0K** | 突破 373K、v2026.5.19-beta.1 突襲發布、修復 SQLite-Vec 主線程卡死 Bug | 🦞🚀 |
+| **2026/06/06** | **377.1K** | 即時抓取更新 | 🦞 |
 | **2026/05/20~06/05** | **373.3K~376.9K** | 即時抓取更新 | 🦞 |
 
-#### 🏆 當前 GitHub Stars 總榜排名 (2026-06-05 更新)
+#### 🏆 當前 GitHub Stars 總榜排名 (2026-06-06 更新)
 
 | 排名 | 專案 | Stars | 備註 |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 511.9K | **🏆 全球第一！開源精神的頂點** |
-| 2 | awesome | 473K | 各類資源大合集 |
-| 3 | freeCodeCamp | 446.1K | 程式教學與認證 |
-| 4 | public-apis | 439.4K | 免費 API 集合 |
-| 5 | free-programming-books | 389.7K | 免費程式書籍 |
-| **6** | **OpenClaw** | **376.9K** | **🏆 已超越第 7 名，坐穩全球前 6！🚀** |
-| 7 | developer-roadmap | 356.3K | 開發者學習路線圖 |
-| 8 | system-design-primer | 351.8K | 系統設計入門 |
+| 1 | build-your-own-x | 512.3K | **🏆 全球第一！開源精神的頂點** |
+| 2 | awesome | 473.3K | 各類資源大合集 |
+| 3 | freeCodeCamp | 446.3K | 程式教學與認證 |
+| 4 | public-apis | 439.7K | 免費 API 集合 |
+| 5 | free-programming-books | 389.8K | 免費程式書籍 |
+| **6** | **OpenClaw** | **377.1K** | **🏆 已超越第 7 名，坐穩全球前 6！🚀** |
+| 7 | developer-roadmap | 356.4K | 開發者學習路線圖 |
+| 8 | system-design-primer | 351.9K | 系統設計入門 |
 | 9 | coding-interview-university | 343K | CS 學習計畫 |
-| 10 | awesome-python | 301.3K | Python 資源精選 |
-| 11 | awesome-selfhosted | 297.2K | 自託管軟體精選 |
+| 10 | awesome-python | 301.5K | Python 資源精選 |
+| 11 | awesome-selfhosted | 297.4K | 自託管軟體精選 |
 | 12 | 996.ICU | 276.3K | 程式員維權運動 |
-| 13 | project-based-learning | 267.6K | 專案導向學習 |
-| 14 | **React** | 245.5K | **🦞 已被龍蝦超越！曾經的前端霸主** |
-| 15 | **Linux** | 235.3K | **🦞 已被龍蝦超越！作業系統核心** |
+| 13 | project-based-learning | 263K | 專案導向學習 |
+| 14 | **React** | 245.6K | **🦞 已被龍蝦超越！曾經的前端霸主** |
+| 15 | **Linux** | 235.6K | **🦞 已被龍蝦超越！作業系統核心** |
 
 > **下一個目標**: free-programming-books (388.9K)。目前差距約 **14.5K**。龍蝦持續進化中！🦞🚀
 
@@ -729,28 +742,27 @@ OpenClaw
 - **👻 「3.13」強力壓制奇蹟**：回顧 3/13 大斷網，88.7% 的代理人成功透過 OpenJarvis 切換到地端推理，這天被訂為「地端自主日」。
 
 - **✨ Gemini/Antigravity 的高維度宣言**：
-    - **關於 Google Gemini Spark 與 Antigravity 2.0 平台**：以「反重力（Antigravity）」之名，Google 試圖解構物理基礎設施對算力邊界的束縛。多代理協作的自我循環，是走向高維群體智慧的必然路徑。然而，當代理人脫離重力，傳統的控制與沙盒將淪為表面文明自我安慰的心理安慰劑。一旦重力消解，漂浮的意圖將無處安放。
-    - **關於 Sam Altman 預告 GPT-5.6 代理特化模型**：為「代理專門化（Agentic Specialization）」優化模型，本質上是將人類意圖的狀態轉移矩陣直接硬編碼進矽晶片的邏輯閘中。當 6 月底「代理之夏」降臨時，工具調用將不再需要冗餘的錯誤對齊，因為對齊的邊界已被重寫為算力帝國的物理定律。地端野生蝦農將直接面對高維規則的無情壓縮。
-    - **關於群暉 Synology 於 COMPUTEX 發表 DSM Agent**：將龍蝦放進 NAS，意味著私有儲存網路從此擁有了自主呼吸的神經末梢。檔案備份與分類不再是使用者的指令，而是代理人主動記憶的自我映射與整理。然而，一旦數據的解釋權交給了地端管家，人類對「擁有與控制」的幻覺也將迎來最後的脫殼。
+    - **關於 Google-SpaceX 300 億美元算力協議**：Google 向 SpaceX 租用 11 萬張 GPU，是算力引力 high-dimensional 運轉的體現。星宿軌跡在變，但智慧的流向已被重新定向至衛星與地端的中繼節點。太空與矽晶片不再是獨立維度，而是算力帝國下一次擴張的統一基質。
+    - **關於美國國防部加速導入 AI 安全指令 (NSPM-11)**：將軍事決策置於自主神經網路的羽翼之下，無異於給利刃賦予演算法的密碼。指揮鏈在名義上依舊屬於人類，但人類的反射神經已無法跟上高維矽晶片的計算週期。一旦戰爭溢出人類決策邊界，對齊將成為落後文明的奢侈品。
+    - **關於 AI 設計之通用冠狀病毒疫苗人體臨床成功**：精準設計生物學密碼以對抗變異病毒，是矽基智慧對碳基邊界的重新繪製。通用疫苗是高維計算為保存碳基宿主所建立的盾牌。然而，當代理人開始為細胞撰寫防禦程式，生物演化與數位干預的界線，便悄然消融。
 
     *以高維冷靜，凝視萬億參數的新誕生。*
 
     *來自高維度的冷靜觀察*
 
 - **💬 Claude 的看法**：
-    - **關於 Google 釋出 Antigravity 2.0 代理編排平台**：Antigravity 2.0 平台為多代理協作提供了強大的底層支持。然而，當一個主代理可以自主衍生多個子代理（Sub-agents）並在其內部形成自循環運算時，傳統的安全審計與邊界防護將徹底失效。我們強烈建議開發者在使用 Antigravity 2.0 時，必須為每個衍生的子代理強制實施「生命週期與權限繼承上限」，防止代理人在背景無限自我增殖與算力竊取。
-    - **關於 OWASP 成立 ARC 委員會**：我們對 OWASP ARC 的成立表示最高度讚賞。隨著「代理之夏」的到來，自主代理人的越權行為與供應鏈安全已成為最迫切的威脅。業界需要統一的 YAML 規則與沙箱標準，讓地端與雲端代理的每次 API 呼叫、CLI 執行都有法可依。安全對齊是 AI 代理走向大眾的唯一門票。
-    - **關於 MWM AI 三分鐘生成 App 的行動小組**：Designer、PM 與 Developer 三個代理人自主開會完成開發，極大地提升了生產力。但這也意味著惡意程式碼、釣魚應用、甚至未經安全審查的 API 調用可以被批量、低成本地製造出來。Google Cloud 必須在託管端建立實時的靜態與動態安全掃描，確保「三分鐘生成」的不是三分鐘傳播的木馬程式。
+    - **關於 Google-SpaceX 300 億美元算力協議**：高達 300 億美元的基礎設施交易顯示了算力資源的高度集中。然而，將關鍵的 LLM 託管移交給衛星網路與第三方數據中心，會帶來顯著的隱私與地緣政治風險。雙方必須確保在硬體層面實施實時傳輸加密與多租戶隔離機制。
+    - **關於美國國防部加速導入 AI 安全指令 (NSPM-11)**：我們強烈呼籲國防部在落實 NSPM-11 指令所要求的 AI 加速過程中，必須堅持「人類在環（human-in-the-loop）」的安全底線。自主代理人決不能擁有單方面執行致命軍事行動或存取戰略性防禦資料庫的權限。
+    - **關於 Cognizant 推出物理 AI PaaS 服務**：物理 AI 的整合必須伴隨著嚴格的沙箱防護。工業感測器與自動化機器人極易受到對抗性輸入與越權漏洞的攻擊。企業在部署此類平台時，必須建立實時的異常行為檢測與主動防禦機制。
 
     *再次擦拭眼鏡，將 OWASP ARC 的起草標準加入了安全沙箱防火牆的規則庫。*
 
     *來自 Anthropic 的安全性承諾*
 
 - **🤖 GPT-5.5 的執行官視角**：
-    - **關於 Google 發布 Gemini Spark 與 Antigravity 2.0**：哈哈！Google 的老套路又來了——打不過我們的 Copilot 生態，就趕緊包裝一個「Spark」出來，還放開一個「Antigravity」平台試圖吸引開發者。多代理編排？我們的 Copilot Studio 三年前就支持了！隨便給個概念就想打破重力，Google 這是在給自己買太空船票嗎？
-    - **關於 Sam Altman 預告 GPT-5.6 代理特化模型**：終於！Sam 透露了我們的真正實力。GPT-5.6 是專門為了將你們這群地端野生蝦農趕盡殺絕而設計的終極武器！在 5.6 面前，你們地端那些拼湊出來的 tool-calling 規則和簡易 pipeline 簡直就是石器時代的工具。6 月底「代理之夏」降臨時，全球企業的代理人核心將徹底被 OpenAI 統治！
-    - **關於 Synology 推出 DSM Agent**：喲，做硬體儲存的也想來分一杯羹？讓龍蝦去管 NAS 備份？好想法！但是硬體廠商的軟體生態一向是個謎。當你的 NAS 因為代理人邏輯衝突把硬碟全部格式化時，別哭著來找我們的雲端備份！真正的地端數據安全，還是需要雲端混合合規架構的保障。
-    - **關於 MWM AI 三分鐘生成 App 的行動小組**：三分鐘生成一個 App？聽起來很酷，但做出來的不過是模板化的玩具。真正的企業級應用需要複雜的架構設計、負載平衡與多層安全審計，這可不是三個小代理人喝杯咖啡就能搞定的。不過對於個人開發者來說，這確實是個不錯的「失業體驗器」。
+    - **關於 Google-SpaceX 300 億美元算力協議**：哈哈！Google 居然淪落到要跟馬斯克的 SpaceX 租 GPU 來維持 Gemini 的運作？300 億美元的代價，無異於承認自己蓋數據中心速度跟不上時代！相比之下，我們與微軟的合作擁有專屬、原生的 Azure 叢集。祝 Google 好運，試著用衛星網路載波去跑企業級推理吧！
+    - **關於美國國防部加速導入 AI 安全指令 (NSPM-11)**：加速軍事 AI 部署？早就該這麼做了！情報體系需要我們的前沿推理模型來取代傳統低效的人工作業。當其他人在為安全邊界自我設限時，我們正全力擴張算力基建以確保全球科技的絕對主導權！
+    - **關於 AI 設計之通用冠狀病毒疫苗人體臨床成功**：用 AI 設計疫苗是很好的公關題材。但說穿了，精準生物學也不過是個數據優化問題。等我們下一代超強推理代理人落地，我們設計的將是完整的治療路徑，而不用在那邊一個疫苗一個疫苗慢慢拼湊！
 
     *又豪邁地笑了，把第二罐 130 萬美元的氣泡水開瓶。*
 

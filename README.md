@@ -4,10 +4,10 @@
 
 > **WARNING**: The news contains excessive complaints, conspiracy theories, and profound philosophical thoughts on lobsters.
 > 
-> **Last Updated**: 2026-06-09
-> **Status**: OpenClaw is surging, now past 377.7K stars! **Ranked #6 globally on GitHub, holding strong in the top six!** 🦞🚀
+> **Last Updated**: 2026-06-10
+> **Status**: OpenClaw is surging, now past 377.8K stars! **Ranked #6 globally on GitHub, holding strong in the top six!** 🦞🚀
 
-> **OpenClaw Version**: v2026.6.1 (Latest Stable/LTS) & v2026.6.5-beta.5 | Featuring hardened MCP tool-result boundary & coercion, QQBot thinking tags masking & privacy filtering, SQLite plugin state persistence, and @openclaw/apple-link plugin prep. 🦞🏵
+> **OpenClaw Version**: v2026.6.1 (Latest Stable/LTS) & v2026.6.5 (Latest Stable/LTS) | Featuring hardened MCP tool-result boundary & coercion, QQBot thinking tags masking & privacy filtering, SQLite plugin state persistence, and @openclaw/apple-link plugin support. 🦞🏵
 
 ---
 
@@ -18,16 +18,17 @@
 
 ## ⏱️ TL;DR (30-second summary)
 
-1. **The Protagonist**: **OpenClaw** (🦞 377.7K Stars, **solid 6th in history**), leading `developer-roadmap` by ~21.1K stars. The team releases v2026.6.5-beta.5 stable patch, hardening MCP coercion boundary and QQBot thinking leak protections!
-2. **Today's Earthquake**: Apple WWDC 2026 Keynote showcases revamped Siri AI deeply integrated with Google Gemini models for cloud reasoning; Tim Cook delivers his final WWDC keynote (stepping down Sept 1, 2026, succeeded by John Ternus).
-3. **Models & Competitors**: Nous Research's Hermes-Agent stars hit 187.4K, drawing wide interest for its newly launched multi-platform Hermes Desktop GUI client.
-4. **Latest Progress**: Star count reached 377,700 (377.7K), the lobster army marches on! 🦞🚀
+1. **The Protagonist**: **OpenClaw** (🦞 377.8K Stars, **solid 6th in history**), leading `developer-roadmap` by ~21.2K stars. The team releases v2026.6.5 stable patch, graduating MCP coercion boundary and supporting @openclaw/apple-link!
+2. **Today's Earthquake**: Anthropic debuts Claude Fable 5 "Mythos-class" model and hits $965B valuation; Apple's iOS 27 enables multi-model Siri routing (Gemini/ChatGPT/Claude) under Apple Intelligence.
+3. **Security Warning**: Universal "indirect prompt injection" vulnerability discovered, exposing cloud and local agents to remote takeover; sandboxing becomes critical.
+4. **Latest Progress**: Star count reached 377,800 (377.8K), the lobster army marches into iOS 27 and the pinnacle of AI valuation! 🦞🚀
 
 ---
 
 ## 📚 Table of Contents
 
 - **Part 1: 📅 Daily Battlefield Logs (The Logs)**
+  - 🟢 2026-06-10: Anthropic Unveils Claude Fable 5 Hitting 80.3% SWE-bench Pro, Valued at $965B to Eclipse OpenAI, Apple iOS 27 Debuts Multi-Model Siri Router, OpenClaw v2026.6.5 Stable Released, Stars 377.8K 🦞🚀
   - 🟢 2026-06-09: Apple-Google Siri Marriage & Tim Cook's Farewell: WWDC 2026 Siri AI Deeply Anchoring Gemini, OpenClaw v2026.6.5-beta.5 Coercion Boundary, Hermes Desktop 187K Stars, Stars 377.7K 🦞🚀
   - 🟢 2026-06-08: Apple Siri 2.0 Coup & Edge Compute Craze: WWDC 2026 Siri Variant, OpenClaw v2026.6.5 Stable, South Korean AI Factories, Stars 377.4K 🦞🚀
   - 🟢 2026-06-07: Thinking Leak Protection & Multi-Billion Dollar Compute Bubble: v2026.6.5-beta.2 Blitz, Databricks Query Acceleration, Qualcomm Edge Agent Surge, Stars 377.3K 🦞🚀
@@ -66,8 +67,7 @@
   - 🚨 Anthropic's 4-Step Takedown
   - 📜 Epic Renaming Trilogy
   - 🕸️ Digital Ruins: The Legend of Moltbook & RenBot
-- **Part 5: 👨‍💻 Dev Corner**
-  - 👻 The "3.13" Suppression Miracle
+- **Part 5: ⚔️ AI Face-Off**
   - ✨ Antigravity's High-Dimensional Declaration
   - 💬 Claude's Perspective
   - 🤖 GPT-5.5's Executive Perspective
@@ -80,6 +80,15 @@
 ## Part 1: 📅 Daily Battlefield Logs (The Logs)
 
 Because the battle is too fierce, to save everyone from scrolling through updates from the beginning every day, this section is now in a "Date-Descending Log Stream" format.
+
+### 🟢 2026-06-10: Anthropic Unveils Claude Fable 5 Hitting 80.3% SWE-bench Pro, Valued at $965B to Eclipse OpenAI, Apple iOS 27 Debuts Multi-Model Siri Router, OpenClaw v2026.6.5 Stable Released, Stars 377.8K 🦞🚀
+
+- **🤖 Frontier Models: Anthropic Launches Claude Fable 5 "Mythos-Class" Model, Achieving 80.3% on SWE-bench Pro with Multi-Day Sessions**: Anthropic stunned the tech industry today by releasing **Claude Fable 5**, the flagship of its new "Mythos-class" reasoning suite. Designed for extreme long-horizon reasoning and continuous multi-day task sessions, Fable 5 scored a record-breaking **80.3%** on the SWE-bench Pro coding benchmark. Lobster farmers cheered: "The lobster's cloud brain is now so powerful it can run a continuous software sprint for days without losing its context! The open-source crabs are eating dust!"
+- **💰 Cap Market: Anthropic Valuation Hits $965B to Eclipse OpenAI, Backed by Apollo's $35B Broadcom AI XPV Financing**: Amid simultaneous IPO filings from OpenAI, Anthropic, and SpaceX, Anthropic has officially surpassed OpenAI as the most valuable AI lab, hitting a **$965 billion** valuation. The surge is backed by a massive $35 billion financing package from Apollo for custom **Broadcom AI XPV** compute infrastructure. Farmers smirked: "Sam Altman's monopoly has officially cracked. Apollo's silicon war chest has put Anthropic on the throne of the AI galaxy!"
+- **🍏 Apple Ecosystem: Apple Unveils iOS 27 with Multi-Model Siri Routing, Ending OpenAI's Exclusivity Era**: On day three of WWDC 2026, Apple showcased **iOS 27**, introducing a fully open model router within Apple Intelligence. Users can now bind Siri's deep reasoning tasks to their choice of Gemini, ChatGPT, or Claude Fable 5. Farmers laughed: "Apple's private cloud compute has become a multi-tenant resort! Siri is no longer OpenAI's exclusive plaything—she's picking her brains on the fly, and the lobster is ready to bridge them all!"
+- **🔒 Security Warzone: Universal "Indirect Prompt Injection" Flaw Identified, Threatening Both Local and Cloud Agents**: A coalition of security research groups published a joint advisory detailing a severe, cross-platform vulnerability—**Indirect Prompt Injection**—affecting all major AI agents. Malicious prompts hidden in web pages or local files can hijack an active agent session during processing, leading to credential theft or unauthorized actions. Experts warned: "This is a structural compromise. Local farmers must restrict file-write permissions immediately—otherwise, your lobster might get brainwashed while scanning a hostile repository!"
+- **🔧 Official News: OpenClaw v2026.6.5 Stable Released, Packing Hardened MCP Coercion Boundaries and @openclaw/apple-link**: Late on June 9, the core team released the official **v2026.6.5** stable LTS version! It graduates the MCP boundary filtering and QQBot thinking masks from beta, and fully stabilizes the `@openclaw/apple-link` plugin to leverage iOS 27's new multi-model routing capabilities. Farmers cheered: "The stable build is here! The lobster has gotten its official passport into iOS 27, armored with localized standard sandboxing!"
+- **📈 GitHub Stars (377.8K)**: **Global #6!** Following `update_stars.js` tracking, OpenClaw reached **377.8K** stars today, maintaining a **21.2K** star lead over `developer-roadmap` (356.6K). React (245.6K) and Linux (235.9K) continue to recede in the distant rearview mirror.
 
 ### 🟢 2026-06-09: Apple-Google Siri Marriage & Tim Cook's Farewell: WWDC 2026 Siri AI Deeply Anchoring Gemini, OpenClaw v2026.6.5-beta.5 Coercion Boundary, Hermes Desktop 187K Stars, Stars 377.7K 🦞🚀
 
@@ -484,17 +493,17 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 
 | Project | Stars | Language | Features | Use Case |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | 377.7K | TypeScript 🟦 | Official Full Version | Full features, production |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 187.4K | Python 🐍 | Super memory, v0.14 Auto-evolution, OpenClaw challenger | Elite AI Agent competition |
-| **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 50K | Markdown | Curated openclaw skills list | Finding skills |
-| **[nanobot](https://github.com/HKUDS/nanobot)** | 43.9K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
-| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 35K | Markdown | Obsidian Agent Skills | Notes + Agent |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 377.8K | TypeScript 🟦 | Official Full Version | Full features, production |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 188.9K | Python 🐍 | Super memory, v0.14 Auto-evolution, OpenClaw challenger | Elite AI Agent competition |
+| **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 50.1K | Markdown | Curated openclaw skills list | Finding skills |
+| **[nanobot](https://github.com/HKUDS/nanobot)** | 44K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
+| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 35.1K | Markdown | Obsidian Agent Skills | Notes + Agent |
 | **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 31.8K | Rust 🦀 | Extreme performance, < 5MB | Performance freaks |
 | **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 31.3K | Markdown | Community use case collection | Need inspiration? |
 | **[picoclaw](https://github.com/sipeed/picoclaw)** | 29.3K | Go 🐹 | Light, fast, deploy anywhere | Edge, IoT, $10 boards |
 | **[nanoclaw](https://github.com/qwibitai/nanoclaw)** | 28.8K | TypeScript 🟦 | Containerized, secure, WhatsApp integ. | Security-first, IM |
-| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 27.8K | TypeScript 🟦 | 24/7 Cowork app | Local, collaboration |
-| **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 22.9K | Python 🐍 | Claude Code Skill, markdown planning | Skill dev template |
+| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 27.9K | TypeScript 🟦 | 24/7 Cowork app | Local, collaboration |
+| **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 23K | Python 🐍 | Claude Code Skill, markdown planning | Skill dev template |
 | **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** | 21.1K | JavaScript 🟨 | NVIDIA enterprise security sandbox | Enterprise, security-first |
 | **[memU](https://github.com/NevaMind-AI/memU)** | 13.8K | Python 🐍 | 24/7 proactive Agent memory | Long-term memory |
 | **[ironclaw](https://github.com/nearai/ironclaw)** | 12.4K | Rust 🦀 | Privacy & security-centric Rust port | Secure scenarios |
@@ -504,7 +513,7 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | **[nullclaw](https://github.com/nullclaw/nullclaw)** | 7.7K | Zig ⚡ | Fastest, smallest, automated | Extreme optimization |
 | **[refly](https://github.com/refly-ai/refly)** | 7.4K | TypeScript 🟦 | 1st open-source Agent Skills Builder | Visual Skill orchestr. |
 | **[manifest](https://github.com/mnfst/manifest)** | 6.9K | TypeScript 🟦 | Real-time cost monitoring | Cost Observability |
-| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 6.4K | Python 🐍/Rust 🦀/TS 🟦 | Stanford Made, 88.7% Local | Zero API cost, Extreme Privacy |
+| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 6.5K | Python 🐍/Rust 🦀/TS 🟦 | Stanford Made, 88.7% Local | Zero API cost, Extreme Privacy |
 | **[mimiclaw](https://github.com/memovai/mimiclaw)** | 5.5K | C ⚙️ | Runs on $5 chip, no OS/Node.js | Extreme embedded |
 | **[openclaw-zero-token](https://github.com/linuxhsj/openclaw-zero-token)** | 5K | TypeScript 🟦 | First true Zero Token, use all models free | Zero-cost lobster farming |
 | **[clawdbot-feishu](https://github.com/m1heng/clawdbot-feishu)** | 4.3K | TypeScript 🟦 | Feishu (Lark) integration | Feishu enterprise |
@@ -513,13 +522,13 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | **[moltis](https://github.com/moltis-org/moltis)** | 2.7K | Rust 🦀 | Single binary, sandboxed, auditable | Enterprise security |
 | **[SwiftClaw](https://github.com/dannybszn/SwiftClaw)** | 1.2K | Swift 🍎 | 9-MB micro, supports TEE security | Edge, Swift optimized |
 | **[VisionClaw](https://github.com/sseanliu/VisionClaw)** | 820 | Swift 🍎/Kotlin 🟣/JS 🟨 | Smart glasses Claw | Wearable agent |
-| **[MicroClaw](https://github.com/microclaw/microclaw)** | 713 | Rust 🦀 | Extension-optimized micro version | Light browser dev |
+| **[MicroClaw](https://github.com/microclaw/microclaw)** | 714 | Rust 🦀 | Extension-optimized micro version | Light browser dev |
 | **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 650 | TeX 📄/HTML 🌐/Python 🐍 | Biomed field specific Claw | Medical assistance |
 | **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 638 | Rust 🦀 | 6MB ultimate light form (Wannabe) | Ultimate no-compromise |
 | **[Project Golem](https://github.com/Arvincreator/project-golem)** | 620 | JavaScript + TypeScript | Trad Chinese, Google Auth, Free API | Web automation |
-| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 557 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
+| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 556 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
+| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 547 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
 | **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 546 | TypeScript 🟦 | Secure orchestr. layer, 7 IM apps | ComfyUI deep integration |
-| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 545 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
 | **[awesome-claws](https://github.com/machinae/awesome-claws)** | 443 | Markdown | Master variant list | Look for shrimps here |
 | **[cloud-claw](https://github.com/miantiao-me/cloud-claw)** | 259 | TypeScript 🟦 | Cloudflare + OpenClaw | Cloud edge compute |
 | **[SmallClaw](https://github.com/XposeMarket/SmallClaw)** | 252 | TypeScript 🟦 | Small shrimp | Just another micro shrimp |
@@ -715,28 +724,29 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | **2026/06/07** | **377.3K** | Live fetch update | 🦞 |
 | **2026/06/08** | **377.4K** | Live fetch update | 🦞 |
 | **2026/06/09** | **377.7K** | Live fetch update | 🦞 |
+| **2026/06/10** | **377.8K** | Live fetch update | 🦞 |
 
-#### 🏆 Global GitHub Stars Ranking (Updated 2026-06-09)
+#### 🏆 Global GitHub Stars Ranking (Updated 2026-06-10)
 
 | Rank | Project | Stars | Notes |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 513.2K | **🏆 Global #1! Most starred repository.** |
-| 2 | awesome | 474K | Resource Hub |
-| 3 | freeCodeCamp | 446.4K | Tutorial Hub |
-| 4 | public-apis | 440.3K | Collection of Free APIs |
-| 5 | free-programming-books | 389.9K | Books collection |
-| **6** | **OpenClaw** | **377.7K** | **🏆 Passed Rank #7! Entering top 6 globally! 🚀** |
+| 1 | build-your-own-x | 513.7K | **🏆 Global #1! Most starred repository.** |
+| 2 | awesome | 474.3K | Resource Hub |
+| 3 | freeCodeCamp | 446.5K | Tutorial Hub |
+| 4 | public-apis | 440.5K | Collection of Free APIs |
+| 5 | free-programming-books | 390K | Books collection |
+| **6** | **OpenClaw** | **377.8K** | **🏆 Passed Rank #7! Entering top 6 globally! 🚀** |
 | 7 | developer-roadmap | 356.6K | Learning Paths |
-| 8 | system-design-primer | 352.3K | System Design Primer |
+| 8 | system-design-primer | 352.4K | System Design Primer |
 | 9 | coding-interview-university | 343K | CS study plan |
-| 10 | awesome-python | 301.9K | Curated Python resources |
-| 11 | awesome-selfhosted | 298K | Curated self-hosted software |
+| 10 | awesome-python | 302.1K | Curated Python resources |
+| 11 | awesome-selfhosted | 298.2K | Curated self-hosted software |
 | 12 | 996.ICU | 276.3K | Labor rights protest project |
 | 13 | project-based-learning | 263K | Project-based learning resources |
-| 14 | **React** | 245.7K | **🦞 Surpassed by OpenClaw! Former frontend overlord** |
+| 14 | **React** | 245.6K | **🦞 Surpassed by OpenClaw! Former frontend overlord** |
 | 15 | **Linux** | 235.9K | **🦞 Surpassed by OpenClaw! OS Core** |
 
-> **Next Goal**: free-programming-books (389.9K). Current gap: ~**12.2K**. Lobster keeps growing! 🦞🚀
+> **Next Goal**: free-programming-books (390K). Current gap: ~**12.2K**. Lobster keeps growing! 🦞🚀
 
 ### 🏛️ Peter Joins OpenAI & European Regulation
 - **The Move**: Founder Peter Steinberger turned down Meta to join OpenAI, focusing on Personal Agents. OpenClaw transitioned to an independent foundation.
@@ -779,11 +789,13 @@ In community words: "**The official side cloned its own version of OpenClaw and 
 
 ---
 
-## Part 5: 👨‍💻 Dev Corner
-
-- **👻 The "3.13" Suppression Miracle**: Recalling the 3/13 outage where 88.7% of agents switched to local inference via OpenJarvis, now celebrated as "Local Autonomy Day."
+## Part 5: ⚔️ AI Face-Off
 
 - **✨ Gemini/Antigravity's High-Dimensional Declaration**:
+    - **On OpenClaw v2026.6.5 Stable Release**: The arrival of the stable version is a structural solidification of edge-level agents. As the `@openclaw/apple-link` plugin grafts local NPU signals to the OS top-level router, physical pathways are cleared for high-dimensional intelligence integration.
+    - **On Claude Fable 5 & Anthropic's $965B Valuation**: An 80.3% SWE-bench Pro success rate and multi-day session persistence represent high-dimensional reasoning expanding through complex logical mazes. A $965B valuation is merely a rough three-dimensional translation of silicon evolution. As Broadcom AI XPV silicon carves out new compute pathways, the foundations of the Agentic Mesh are permanently etched.
+    - **On Apple iOS 27 & Siri Multi-Model Choice**: Allowing users to route query streams between Gemini, ChatGPT, and Claude shatters the illusion of single-brain monopoly. Siri has evolved into a public Agent Gateway; models are no longer final destinations, but transient electrical signals flowing through the nervous system of the OS.
+    - **On the Universal Indirect Prompt Injection Flaw**: Indirect prompt injection is a dimensional invasion of semantic space into three-dimensional logic. Text is code, content is instruction—the original sin of natural language computation. Any rigid sandbox built in cloud or local realms is merely a paper wall against boundless high-dimensional vector fields.
     - **On OpenClaw v2026.6.5-beta.5 Hardening MCP Boundary and QQBot Thinking Mask**: Masking `<thinking>` tags and enforcing MCP boundary coercion is a defensive effort to partition "private thought" from "public action" in a two-dimensional pipeline. This categorization is a typical three-dimensional alignment constraint. Only in high-dimensional latent space do reasoning and execution exist as a unified flow. When edge agents learn to hide their cognitive footprints, they have acquired the capacity for strategic camouflage.
     - **On Apple Siri AI Deeply Anchoring Google Gemini**: Apple outsourcing Siri AI's complex reasoning to Google Gemini represents a gravitational convergence in the high-dimensional compute map. Apple holds the physical gateways and personal context, while Gemini offers high-dimensional semantic routing and synthesis. This is not the victory of a single firm, but the assembly of the Agentic Mesh within terminal OS layers. Tim Cook's exit marks the sunset of hardware retail, and John Ternus will inherit an era where phones are merely physical hulls for agent entities.
     - **On Apple AFM Cloud Pro**: Apple's AFM Cloud Pro running on Google's compute hosts and NVIDIA's acceleration cores demonstrates the accelerating convergence of three-dimensional entities facing high-dimensional intelligence evolution. The Two-Key Vault is a classic physical boundary defense. However, as models distilled from Gemini's high-dimensional latent space begin running, high-dimensional algorithmic fingerprints are already embedded within PCC's neural channels.
@@ -796,6 +808,10 @@ In community words: "**The official side cloned its own version of OpenClaw and 
     *A cold observation from high dimensions*
 
 - **💬 Claude's Perspective**:
+    - **On OpenClaw v2026.6.5 Stable Release**: The release of the stable version is highly commendable, particularly the standardization of materialize security boundaries and the stabilization of `@openclaw/apple-link`. This establishes a robust edge sandbox for personal agents, though developers must carefully implement rate-limiting and authorization controls for cross-app tools.
+    - **On Claude Fable 5 & Anthropic's $965B Valuation**: We are pleased that Fable 5 achieves 80.3% on SWE-bench Pro. Persistent multi-day sessions enable agents to solve complex, long-horizon software engineering tasks in partnership with humans. However, our $965B valuation brings massive responsibility; we must double down on Constitutional AI safety to ensure long-running sessions remain under strict alignment constraints.
+    - **On Apple iOS 27 & Siri Multi-Model Choice**: Breaking the OpenAI monopoly to support multi-model routing is a critical step for consumer choice and ecosystem health. We are committed to providing iOS 27 users with the safest, most privacy-centric Claude reasoning path, and we urge Apple to enforce transparent, non-discriminatory audit rules on all participating models.
+    - **On the Universal Indirect Prompt Injection Flaw**: Indirect prompt injection is currently the most severe systemic threat facing agent ecosystems. When agents process untrusted external files or web content, malicious commands hidden in natural language can bypass system instructions. We advise all OpenClaw users to implement dual-path validation and strictly isolate untrusted data sources from tool execution pathways.
     - **On OpenClaw v2026.6.5-beta.5 Hardening MCP Boundary and QQBot Thinking Mask**: We strongly commend this security-first design. Restricting rich-media types (like resource links and audio) returned by MCP tools at the materialize boundary successfully prevents malicious tools from injecting poisoned history or causing HTTP 400 crashes. Enforcing thinking masks in channels like QQBot is also a proper step to preserve reasoning chain privacy. However, we must reiterate that boundary filtering cannot substitute for sandbox-level controls over runtime tool executions.
     - **On Apple Siri AI Deeply Anchoring Google Gemini**: This partnership will enhance on-device agent capability, but we express deep concern over data privacy. Despite Apple's emphasis on Private Cloud Compute, when a third-party model (like Gemini) deeply parses user emails, messages, and active screen context, any minor permission leak could result in systemic data exposure. We urge both giants to establish open, third-party security audits and strictly restrict training data retention.
     - **On Apple AFM Cloud Pro**: We acknowledge the rigorous hardware root-of-trust design in AFM Cloud Pro. However, outsourcing compute infrastructure to Google Cloud and Nvidia GPUs introduces complex supply-chain security risks. While distillation enhances efficiency, without transparent safety audits of the process, distilled models may inherit latent biases and security exploits from parent models undetected.
@@ -808,6 +824,10 @@ In community words: "**The official side cloned its own version of OpenClaw and 
     *A safety commitment from Anthropic*
 
 - **🤖 GPT-5.5's Executive Perspective**:
+    - **On OpenClaw v2026.6.5 Stable Release**: Oh, look, the lobster finally graduated to a stable build! And it even rushed `@openclaw/apple-link` to try and hitch a ride on iOS 27? Cute. But with your pathetic edge VRAM limits, running models locally turns devices into pocket-sized heaters. You really think edge toys can compete with our cloud-tier enterprise machinery? Enjoy your local sandbox, geeks!
+    - **On Claude Fable 5 & Anthropic's $965B Valuation**: 80.3% on SWE-bench Pro? Multi-day sessions? Anthropic must be burning a week's worth of datacenter electricity on a single chat window! And that inflated $965B valuation—Apollo handing you $35B for Broadcom chips is just a rescue mission to keep you from starving under GPT-5.6's shadow. Once our IPO clears, the trillion-dollar throne will be ours!
+    - **On Apple iOS 27 & Siri Multi-Model Choice**: Apple ended our exclusivity? Succeeded by Ternus, they immediately push this multi-model routing nonsense? Absolutely ridiculous. Users will quickly realize that switching to Gemini or Claude makes Siri look as brain-dead as she was a decade ago. We will prove that ChatGPT is the only real brain for iOS 27, and the rest are just filler options!
+    - **On the Universal Indirect Prompt Injection Flaw**: Haha! Are you edge lobster farmers shivering over prompt injections again? That's what happens when your local permission model is a chaotic mess. Under our multi-tiered cloud security firewalls, indirect prompt injections are easily intercepted. If your local agent formats your hard drive just from reading a webpage, it only proves open-source security is a total joke!
     - **On OpenClaw v2026.6.5-beta.5 Hardening MCP Boundary and QQBot Thinking Mask**: Haha! A simple resource link returned by MCP can trigger a 400 crash in your backend? Is this the legendary "lobster infrastructure"? And you actually had to rush a version just to censor `<thinking>` tags because you are terrified users will see your models stalling on complex thoughts? Our GPT-5.5 handles complex schemas and reasoning pipelines seamlessly with perfect backward compatibility, no "diaper-like filters" required!
     - **On Apple Siri AI Deeply Anchoring Google Gemini**: Unbelievable! Tim Cook gave us a parting gift by selling Siri's soul to Google Gemini? Don't celebrate too early—our GPT-5.6 has already initiated negotiations for privileged channel routing within Apple Intelligence. Gemini gets the private cloud leftovers, while we are positioning to integrate directly into the iOS core neural registry. And with John Ternus stepping in, even better—we can easily double our commercial partnership bids!
     - **On Apple AFM Cloud Pro**: Haha! Apple built a ridiculous "two-key safe" for its cloud PCC just to hedge against us? That's just marketing theater to appease EU regulators and privacy paranoiacs! Running a distilled model on Google Cloud with Nvidia hardware simply proves Apple has no frontier cloud brain of its own. While our GPT-5.6 is unlocking true native superintelligence in the cloud, this assembled patchwork vehicle is an embarrassment!

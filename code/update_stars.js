@@ -86,21 +86,21 @@ function parseStarsNum(str) {
 }
 
 const BACKUP_STARS = {
-    'openclaw/openclaw': 377100,
-    'NVIDIA/NemoClaw': 21000,
+    'openclaw/openclaw': 378400,
+    'NVIDIA/NemoClaw': 21200,
     'open-jarvis/OpenJarvis': 6200,
     'HKUDS/nanobot': 43700,
-    'VoltAgent/awesome-openclaw-skills': 49900,
-    'NousResearch/hermes-agent': 183400,
+    'VoltAgent/awesome-openclaw-skills': 50200,
+    'NousResearch/hermes-agent': 192100,
     'sipeed/picoclaw': 29300,
     'zeroclaw-labs/zeroclaw': 31800,
-    'iOfficeAI/AionUi': 27700,
+    'iOfficeAI/AionUi': 28200,
     'nanocoai/nanoclaw': 29700,
-    'OthmanAdi/planning-with-files': 22800,
+    'OthmanAdi/planning-with-files': 23100,
     'NevaMind-AI/memU': 13800,
-    'kepano/obsidian-skills': 34500,
+    'kepano/obsidian-skills': 35400,
     'cloudflare/moltworker': 9900,
-    'hesamsheikh/awesome-openclaw-usecases': 31300,
+    'hesamsheikh/awesome-openclaw-usecases': 31400,
     'refly-ai/refly': 7300,
     'MemTensor/MemOS': 9600,
     'nearai/ironclaw': 12400,
@@ -112,7 +112,7 @@ const BACKUP_STARS = {
     'nullclaw/nullclaw': 7700,
     'EverMind-AI/EverOS': 7000,
     'moltis-org/moltis': 2700,
-    'microclaw/microclaw': 712,
+    'microclaw/microclaw': 717,
     'rookiestar28/ComfyUI-OpenClaw': 545,
     'qhkm/zeptoclaw': 637,
     'Arvincreator/project-golem': 621,
@@ -120,30 +120,30 @@ const BACKUP_STARS = {
     'liteclaw/liteclaw': 61,
     'linuxhsj/openclaw-zero-token': 5000,
     'GuLu9527/flashclaw': 28,
-    'swarmclawai/swarmclaw': 549,
+    'swarmclawai/swarmclaw': 578,
     'itc-ou-shigou/winclaw': 18,
     'DmacMcgreg/psibot': 1,
     'wende/miniclaw': 2,
     'neotaskai/SwiftClaw': 1,
     'Lichas/maxclaw': 228,
     'Intent-Lab/VisionClaw': 2400,
-    'xjtulyc/MedgeClaw': 650,
+    'xjtulyc/MedgeClaw': 654,
     'automateyournetwork/netclaw': 540,
     'miantiao-me/cloud-claw': 259,
-    'XposeMarket/SmallClaw': 252,
+    'XposeMarket/SmallClaw': 251,
     'zofrasca/lightclaw': 223,
     'machinae/awesome-claws': 443,
-    'codecrafters-io/build-your-own-x': 512300,
-    'sindresorhus/awesome': 473300,
-    'freeCodeCamp/freeCodeCamp': 446300,
-    'public-apis/public-apis': 439700,
+    'codecrafters-io/build-your-own-x': 514800,
+    'sindresorhus/awesome': 475200,
+    'freeCodeCamp/freeCodeCamp': 446700,
+    'public-apis/public-apis': 441100,
     'EbookFoundation/free-programming-books': 389800,
-    'nilbuild/developer-roadmap': 356400,
-    'donnemartin/system-design-primer': 351900,
+    'nilbuild/developer-roadmap': 356900,
+    'donnemartin/system-design-primer': 352800,
     'facebook/react': 245600,
-    'torvalds/linux': 235600,
-    'vinta/awesome-python': 301500,
-    'awesome-selfhosted/awesome-selfhosted': 297400,
+    'torvalds/linux': 236300,
+    'vinta/awesome-python': 302600,
+    'awesome-selfhosted/awesome-selfhosted': 298800,
     '996icu/996.ICU': 276300,
     'practical-tutorials/project-based-learning': 263000,
     'jwasham/coding-interview-university': 343000
@@ -206,11 +206,11 @@ function updateFile(filePath, starsMap) {
         const ocF = formatStars(ocStars);
         let hiEnd = -1;
         for (let i = 0; i < lines.length; i++) {
-            if (/^\| \*\*\d{4}\/\d{2}\/\d{2}\*\* \|/.test(lines[i])) hiEnd = i;
+            if (/^\| \*\*\d{4}\/\d{2}\/\d{2}/.test(lines[i])) hiEnd = i;
         }
         if (hiEnd !== -1) {
             let row = lines[hiEnd];
-            let m = row.match(/^\| \*\*(\d{4}\/\d{2}\/\d{2})\*\* \|/);
+            let m = row.match(/^\| \*\*(\d{4}\/\d{2}\/\d{2})/);
             let lastDate = m ? m[1] : null;
 
             if (lastDate === ts && (row.includes('即時抓取更新') || row.includes('Live fetch update'))) {

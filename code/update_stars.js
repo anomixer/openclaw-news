@@ -86,12 +86,12 @@ function parseStarsNum(str) {
 }
 
 const BACKUP_STARS = {
-    'openclaw/openclaw': 378900,
+    'openclaw/openclaw': 379100,
     'NVIDIA/NemoClaw': 21200,
     'open-jarvis/OpenJarvis': 6200,
     'HKUDS/nanobot': 43700,
     'VoltAgent/awesome-openclaw-skills': 50200,
-    'NousResearch/hermes-agent': 194500,
+    'NousResearch/hermes-agent': 195100,
     'sipeed/picoclaw': 29300,
     'zeroclaw-labs/zeroclaw': 31800,
     'iOfficeAI/AionUi': 28200,
@@ -134,20 +134,20 @@ const BACKUP_STARS = {
     'zofrasca/lightclaw': 223,
     'machinae/awesome-claws': 444,
     // TOP Global Repos
-    'codecrafters-io/build-your-own-x': 516000,
-    'sindresorhus/awesome': 476100,
-    'freeCodeCamp/freeCodeCamp': 447900,
-    'public-apis/public-apis': 441900,
-    'EbookFoundation/free-programming-books': 390300,
-    'nilbuild/developer-roadmap': 357400,
-    'donnemartin/system-design-primer': 353300,
-    'facebook/react': 245600,
-    'torvalds/linux': 236500,
-    'vinta/awesome-python': 303100,
-    'awesome-selfhosted/awesome-selfhosted': 299400,
+    'codecrafters-io/build-your-own-x': 516200,
+    'sindresorhus/awesome': 476200,
+    'freeCodeCamp/freeCodeCamp': 448000,
+    'public-apis/public-apis': 442000,
+    'EbookFoundation/free-programming-books': 390400,
+    'nilbuild/developer-roadmap': 357600,
+    'donnemartin/system-design-primer': 353400,
+    'facebook/react': 245700,
+    'torvalds/linux': 236600,
+    'vinta/awesome-python': 303200,
+    'awesome-selfhosted/awesome-selfhosted': 299500,
     '996icu/996.ICU': 276300,
     'practical-tutorials/project-based-learning': 263000,
-    'jwasham/coding-interview-university': 343000
+    'jwasham/coding-interview-university': 343100
 };
 
 async function fetchAllStars() {

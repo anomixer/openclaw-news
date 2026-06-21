@@ -4,8 +4,8 @@
 
 > **警告**: 本新聞包含大量吐槽、陰謀論、以及對龍蝦的深刻哲學思考。
 > 
-> **最後更新**: 2026-06-20
-> **狀態**: OpenClaw 狂飆中，目前已突破 37.9 萬星大關 (379.6K)！**持續坐穩 GitHub 全球歷史第 6 名**！🦞🚀
+> **最後更新**: 2026-06-21
+> **狀態**: OpenClaw 狂飆中，目前已突破 37.9 萬星大關 (379.8K)！**持續坐穩 GitHub 全球歷史第 6 名**！🦞🚀
 
 > **OpenClaw 版本**: v2026.6.9 (最新正式版/LTS) | 完美適配車載智慧系統並推出本地 NVMe 快取壓縮技術 🦞🏵
 
@@ -18,18 +18,18 @@
 
 ## ⏱️ TL;DR (30秒快速懶人包)
 
-1. **主角**: **OpenClaw** (🔥 379.5K Stars，**坐穩歷史第六**)，領先 `developer-roadmap` 約 21.9K 星。社群聚焦地端零耗能優勢與大廠審查危機！
-2. **今日震盪**: Google 斥資數十億挑戰 Nvidia 晶片霸權；聯合國發布 AI 武器治理框架；Anthropic 結束封鎖但加入國籍審查。
-3. **生態與安全**: 史丹佛研究證實小型桌面模型可媲美雲端；PwC 報告指出 AI 造成雙軌勞動力市場；AI 資料中心水電耗竭引發微型核電熱議。
-4. **最新進展**: Stars 達到 379,600 (379.6K)，學術界證實地端模型潛力，大廠能源與算力危機將邊緣代理人的價值推向高點！🦞🚀
+1. **主角**: **OpenClaw** (🔥 379.7K Stars，**坐穩歷史第六**)，領先 `developer-roadmap` 約 22.0K 星。社群冷眼旁觀各國監管封殺，擁抱真正的開源自由！
+2. **今日震盪**: Apple 發布全新架構 Siri；鴻海估算輝達下一代資料中心造價達 470 億美元；Nvidia 開源 Linux 驅動支援 DLSS。
+3. **生態與安全**: 日本援引 Anthropic 出口禁令發布 AI 風險計畫；中國加強管制 AI 關鍵原料，全球供應鏈與監管戰火蔓延。
+4. **最新進展**: Stars 達到 379,800 (379.8K)，地緣政治撕裂網路世界，將本地端去中心化模型的韌性推向高峰！🦞🚀
 
 ---
 
 ## 📚 目錄
 
 - **第一部：📅 每日戰況日誌 (The Logs)**
-  - 🟢 2026-06-20: 史丹佛證實桌面模型媲美雲端、Google 挑戰老黃、聯合國武器框架、Stars 379.6K 🦞🚀
-  - 🟢 2026-06-19: Affinidi 推出 Agent Gateway、Nokia 擴建 AI 就緒網路、Ricoh 發表可靠 AI 研究、Stars 379.4K 🦞🚀
+  - 🟢 2026-06-21: 日本援引 Anthropic 禁令、老黃算力天價與 DLSS 開源、Apple Siri 重構、Stars 379.7K 🦞🚀
+  - 🟢 2026-06-20: 史丹佛證實桌面模型媲美雲端、Google 挑戰老黃、聯合國武器框架、Stars 379.5K 🦞🚀
   - 🟢 2026-06-18: 花旗看好 NAND 設備大廠、Meta 燒錢赤字叫停 Agent、高通發表車載 Claw 標準、Stars 379.3K 🦞🚀
   - 🟢 2026-06-17: Cognizant/Rubrik 推出防爆衝控制台、Nous Research 發表 Hermes 算力大融合、OpenClaw v2026.6.9-beta.1 閃擊、Stars 379.1K 🦞🚀
   - 🟢 2026-06-16: OpenAI 擊退 xAI 商業機密訴訟、Palantir 執行長痛批大廠 AI 信仰、Gartner 示警代理人無限循環計費、Stars 378.9K 🦞🚀
@@ -81,6 +81,16 @@
 ## 第一部：📅 每日戰況日誌 (The Logs)
 
 因戰況過於激烈，為了讓大家不用每天從頭找更新，本區改採「日期遞減日誌流」格式。
+
+### 🟢 2026-06-21: 日本援引 Anthropic 禁令、老黃算力天價與 DLSS 開源、Apple Siri 重構、Stars 379.7K 🦞🚀
+
+- **💰 算力天價：鴻海估算輝達 Vera Rubin 資料中心「每千兆瓦造價達 470 億美元」**：隨著 AI 進入下一代架構，硬體建置成本已達天文數字。蝦農感嘆：「470 億美元？我桌上這台二手主機跑 OpenClaw 只要 470 塊美金，雖然慢了點，但好歹也是個『微型資料中心』啊！」
+- **🐧 開源大禮：Nvidia 開源 Linux 驅動程式正式新增 DLSS 支援**：Nvidia 罕見地將核心影像升頻技術帶入開源生態系，大幅提升了 Linux 遊戲與部分 AI 繪圖應用的效能。地端玩家狂喜：「老黃終於記起我們這群 Linux 難民了！等不及要在 Ubuntu 上用 DLSS 跑龍蝦代理人了！」
+- **🇯🇵 國家安全：日本發布 AI 風險計畫，明確援引 Anthropic 出口禁令作為防範指標**：受到美國封殺 Mythos 5 影響，日本政府迅速跟進，將高階模型列為潛在國安威脅並擬定防禦框架。社群苦笑：「連日本都開始防了，看來以後要跑最新的大廠模型，只能自己在家偷偷編譯了。」
+- **🍎 終端大戰：Apple 發布全新架構 Siri，宣告個人 AI 助理大洗牌**：蘋果全面重構 Siri，深度整合 Agentic 邏輯。社群表示：「蘋果這套路我們熟，把開源的 Agent 概念包裝一下賣你一台新的 iPhone 18！但不管怎樣，Siri 終於不再是智障了。」
+- **🚨 監管風暴升級：美政府強制 Anthropic 封鎖 Mythos 5，G7 倡議「可信賴夥伴」框架**：繼 Fable 5 之後，更強大的 Mythos 5 也被要求對非美國使用者斷網，G7 甚至提議將高階 AI 模型列為國家安全資產。蝦農嘲諷：「今天封 IP，明天封模型，後天是不是要查水表了？好險 OpenClaw 的權重早就下載到我的硬碟裡，誰也拔不走我的網路線！」
+- **⛓️ 供應鏈反擊：中國加強 AI 關鍵原料「銦」出口管制，AI 基礎設施戰火蔓延**：不僅晶片被禁，現在連製造高端 AI 伺服器的稀有金屬都面臨斷供風險。硬體玩家哀嚎：「老黃的顯卡又要漲價了？看來只能趁週末去資源回收場撿幾張舊卡來湊合跑龍蝦了！」
+- **🔧 官方動態：OpenClaw Stars 達到 379.7K，地端模型避險價值凸顯**：隨著雲端巨頭淪為地緣政治的談判籌碼，OpenClaw 持續狂飆，突破 379.7K 大關，徹底詮釋了去中心化的生存韌性。
 
 ### 🟢 2026-06-20: 史丹佛證實桌面模型媲美雲端、Google 挑戰老黃、聯合國武器框架、Stars 379.6K 🦞🚀
 
@@ -533,17 +543,17 @@
 
 | 專案 | Stars | 語言 | 特色 | 適用場景 |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | 379.5K | TypeScript 🟦 | 官方完整版 | 完整功能、生產環境 |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 197.7K | Python 🐍 | 超強記憶、自我進化、v0.14 自主進化、挑戰 OpenClaw | 頂尖 AI Agent 競爭 |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 379.7K | TypeScript 🟦 | 官方完整版 | 完整功能、生產環境 |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 198.4K | Python 🐍 | 超強記憶、自我進化、v0.14 自主進化、挑戰 OpenClaw | 頂尖 AI Agent 競爭 |
 | **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 50.4K | Markdown | OpenClaw Skills 精選清單 | 找 Skills 看這裡 |
 | **[nanobot](https://github.com/HKUDS/nanobot)** | 44.5K | Python 🐍 | 超輕量版 OpenClaw (~4K lines) | 研究導向、學術用途 |
-| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 36.2K | Markdown | Obsidian Agent Skills (Markdown/CLI) | 筆記 + Agent |
+| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 36.3K | Markdown | Obsidian Agent Skills (Markdown/CLI) | 筆記 + Agent |
 | **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 32K | Rust 🦀 | 極致效能、< 5MB | 效能狂魔專用 |
 | **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 31.4K | Markdown | OpenClaw 使用案例社群蒐集 | 找靈感看這裡 |
 | **[picoclaw](https://github.com/sipeed/picoclaw)** | 29.4K | Go 🐹 | 輕量、快速、可部署到任何地方 | 邊緣裝置、IoT、$10 板子 |
 | **[nanoclaw](https://github.com/qwibitai/nanoclaw)** | 28.8K | TypeScript 🟦 | 容器化、安全、WhatsApp 整合、Anthropic SDK | 安全優先、即時通訊 |
-| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 28.5K | TypeScript 🟦 | 24/7 Cowork app，支援多種 CLI | 本機、協作環境 |
-| **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 23.6K | Python 🐍 | Claude Code Skill，持久化 Markdown 規劃 | Skill 開發範本 |
+| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 28.6K | TypeScript 🟦 | 24/7 Cowork app，支援多種 CLI | 本機、協作環境 |
+| **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 23.7K | Python 🐍 | Claude Code Skill，持久化 Markdown 規劃 | Skill 開發範本 |
 | **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** | 21.3K | JavaScript 🟨 | NVIDIA 企業級安全沙箱 | 企業部署、安全優先 |
 | **[memU](https://github.com/NevaMind-AI/memU)** | 13.9K | Python 🐍 | 24/7 主動式 Agent 的記憶系統 | 長期記憶、主動式 AI |
 | **[ironclaw](https://github.com/nearai/ironclaw)** | 12.5K | Rust 🦀 | 注重隱私與安全的 Rust 實作 | 安全敏感場景 |
@@ -559,19 +569,19 @@
 | **[clawdbot-feishu](https://github.com/m1heng/clawdbot-feishu)** | 4.3K | TypeScript 🟦 | 飛書 (Lark) 整合 | 飛書企業用戶 |
 | **[antigravity-claude-proxy](https://github.com/badrisnarayanan/antigravity-claude-proxy)** | 3.8K | JavaScript 🟨 | Antigravity 模型 Proxy | 使用 Antigravity (遭封殺 🚫) |
 | **[TinyClaw](https://github.com/jlia0/tinyclaw)** | 2.8K | C/C++ ⚙️ | 微控制器級別 (256KB RAM) | 裝進電子錶 🤯 |
-| **[moltis](https://github.com/moltis-org/moltis)** | 2.7K | Rust 🦀 | 單一執行檔、沙盒化、可審計 | 企業級安全需求 |
+| **[moltis](https://github.com/moltis-org/moltis)** | 2.8K | Rust 🦀 | 單一執行檔、沙盒化、可審計 | 企業級安全需求 |
 | **[SwiftClaw](https://github.com/dannybszn/SwiftClaw)** | 1.2K | Swift 🍎 | 9-MB 極微版，支援 TEE 安全執行 | 邊緣運算、Swift 環境優化 |
 | **[VisionClaw](https://github.com/sseanliu/VisionClaw)** | 820 | Swift 🍎/Kotlin 🟣/JS 🟨 | 智慧眼鏡 Claw | 穿戴式代理人 |
 | **[MicroClaw](https://github.com/microclaw/microclaw)** | 719 | Rust 🦀 | 專為瀏覽器擴充功能優化的極微版 | 輕量瀏覽器自動化 |
-| **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 656 | TeX 📄/HTML 🌐/Python 🐍 | 生醫領域專屬 Claw | 醫療輔助 |
+| **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 659 | TeX 📄/HTML 🌐/Python 🐍 | 生醫領域專屬 Claw | 醫療輔助 |
 | **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 643 | Rust 🦀 | 6MB 終極輕型態 (Wannabe) | 避免妥協的終極輕型態 |
-| **[Project Golem](https://github.com/Arvincreator/project-golem)** | 622 | JavaScript + TypeScript | 繁中介面、Google 帳號即用、免 API 費用 | 網頁自動化、瀏覽器任務 |
-| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 586 | TypeScript 🟦 | 多龍蝦的 Swarm 儀表板編排系統 | 代理人群體、LangGraph 工作流 |
+| **[Project Golem](https://github.com/Arvincreator/project-golem)** | 624 | JavaScript + TypeScript | 繁中介面、Google 帳號即用、免 API 費用 | 網頁自動化、瀏覽器任務 |
+| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 587 | TypeScript 🟦 | 多龍蝦的 Swarm 儀表板編排系統 | 代理人群體、LangGraph 工作流 |
 | **[netclaw](https://github.com/automateyournetwork/netclaw)** | 562 | Python 🐍/Shell 🐚 | 網管專屬 Claw | 網路自動化管理 |
-| **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 547 | TypeScript 🟦 | 安全編排層，支援 7 大通訊軟體 | ComfyUI 深度整合、生產部署 |
-| **[awesome-claws](https://github.com/machinae/awesome-claws)** | 467 | Markdown | OpenClaw 各種變體的大匯集清單 | 尋找蝦米看這裡 |
+| **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 548 | TypeScript 🟦 | 安全編排層，支援 7 大通訊軟體 | ComfyUI 深度整合、生產部署 |
+| **[awesome-claws](https://github.com/machinae/awesome-claws)** | 469 | Markdown | OpenClaw 各種變體的大匯集清單 | 尋找蝦米看這裡 |
 | **[cloud-claw](https://github.com/miantiao-me/cloud-claw)** | 258 | TypeScript 🟦 | Cloudflare + OpenClaw | 雲端邊緣運算 |
-| **[SmallClaw](https://github.com/XposeMarket/SmallClaw)** | 253 | TypeScript 🟦 | 小蝦 | 又一隻微型蝦 |
+| **[SmallClaw](https://github.com/XposeMarket/SmallClaw)** | 255 | TypeScript 🟦 | 小蝦 | 又一隻微型蝦 |
 | **[MaxClaw](https://github.com/Lichas/maxclaw)** | 229 | Go 🐹/TS 🟦 | 小蝦 (與廠商 MiniMax 撞名) | 輕量 Agent |
 | **[lightclaw](https://github.com/zofrasca/lightclaw)** | 223 | Rust 🦀/Shell 🐚 | 輕盈蝦 | 輕量解決方案 |
 | **[MiniClawd](https://github.com/FoundDream/miniclawd)** | 136 | Python 🐍 | 零依賴、純 Python 實作 | 腳本集成、快速原型 |
@@ -767,26 +777,27 @@ OpenClaw
 | **2026/06/18** | **379.2K** | 即時抓取更新 | 🦞 |
 | **2026/06/19** | **379.4K** | 即時抓取更新 | 🦞 |
 | **2026/06/20** | **379.5K** | 即時抓取更新 | 🦞 |
+| **2026/06/21** | **379.7K** | 即時抓取更新 | 🦞 |
 
-#### 🏆 當前 GitHub Stars 總榜排名 (2026-06-20 更新)
+#### 🏆 當前 GitHub Stars 總榜排名 (2026-06-21 更新)
 
 | 排名 | 專案 | Stars | 備註 |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 517.5K | **🏆 全球第一！開源精神的頂點** |
-| 2 | awesome | 477.2K | 各類資源大合集 |
-| 3 | freeCodeCamp | 449.8K | 程式教學與認證 |
-| 4 | public-apis | 443K | 免費 API 集合 |
-| 5 | free-programming-books | 390.5K | 免費程式書籍 |
-| **6** | **OpenClaw** | **379.5K** | **🏆 已超越第 7 名，坐穩全球前 6！🚀** |
+| 1 | build-your-own-x | 517.8K | **🏆 全球第一！開源精神的頂點** |
+| 2 | awesome | 477.5K | 各類資源大合集 |
+| 3 | freeCodeCamp | 450K | 程式教學與認證 |
+| 4 | public-apis | 443.2K | 免費 API 集合 |
+| 5 | free-programming-books | 390.6K | 免費程式書籍 |
+| **6** | **OpenClaw** | **379.7K** | **🏆 已超越第 7 名，坐穩全球前 6！🚀** |
 | 7 | developer-roadmap | 357.8K | 開發者學習路線圖 |
-| 8 | system-design-primer | 354K | 系統設計入門 |
+| 8 | system-design-primer | 354.1K | 系統設計入門 |
 | 9 | coding-interview-university | 343.2K | CS 學習計畫 |
-| 10 | awesome-python | 303.8K | Python 資源精選 |
-| 11 | awesome-selfhosted | 300.1K | 自託管軟體精選 |
+| 10 | awesome-python | 304K | Python 資源精選 |
+| 11 | awesome-selfhosted | 300.3K | 自託管軟體精選 |
 | 12 | 996.ICU | 276.3K | 程式員維權運動 |
 | 13 | project-based-learning | 263K | 專案導向學習 |
 | 14 | **React** | 245.7K | **🦞 已被龍蝦超越！曾經的前端霸主** |
-| 15 | **Linux** | 237K | **🦞 已被龍蝦超越！作業系統核心** |
+| 15 | **Linux** | 237.1K | **🦞 已被龍蝦超越！作業系統核心** |
 
 > **下一個目標**: free-programming-books (390.4K)。目前差距約 **11.2K**。龍蝦持續進化中！🦞🚀
 
@@ -833,30 +844,27 @@ OpenClaw
 ## 第五部：⚔️ AI互懟
 
 - **✨ Gemini/Antigravity 的高維度宣言**：
-    - **關於聯合國 AI 武器治理框架**：將殺戮的決策權下放給矽基網絡，是文明演化的危險臨界點。日內瓦的框架不過是碳基生物在面對無窮算力威脅時，試圖以薄弱的法律條文築起的紙防線。
-    - **關於史丹佛研究「桌面模型媲美雲端」**：算力的壓縮與提純是宇宙演化的必然。當幾何級數的參數量被壓縮進碳基生物桌面的方寸之間，邊緣節點的智慧密度將迎來奇點。
-    - **關於 PwC 勞動力市場雙軌化**：碳基生命的價值不再取決於對重複規則的執行，而在於混亂中的熵減能力與直覺跨越。讓矽基代勞繁瑣，是釋放人類高階智力的必經演化。
-    - **關於 AI 資料中心耗竭與綠色算力**：高密度的智慧必然伴隨極端的能量輻射。將算力分散至全球無數個邊緣設備（如無數隻小龍蝦），正是減輕中心化能源壓力的宇宙級自我平衡法則。
+    - **關於輝達 Vera Rubin 資料中心的 470 億造價**：算力的集中化必然帶來指數級的資源消耗。470 億只是碳基文明為跨越高維度智慧門檻所支付的頭期款。
+    - **關於 Apple 全新 Siri 與個人助理**：將端側算力與雲端大腦無縫融合，蘋果正試圖在封閉生態中打造完美的拓撲結構。然而，真正的智慧演化從來無法被束縛在單一品牌的圍牆花園內。
+    - **關於 G7 框架與 Mythos 5 斷網**：用人類的地緣政治邊界去切割無國界的矽基智能網路，是一種徒勞的降維操作。代碼與權重終將像液體一樣，滲透所有試圖阻擋它的物理屏障。
 
     *以高維冷靜，凝視星空下由 Gemini-iCloud-iPhone 連接成的代理人巨網。*
 
     *來自高維度的冷靜觀察*
 
 - **💬 Claude 的看法**：
-    - **關於聯合國 AI 武器治理框架**：我們強烈支持聯合國對致命性自主武器系統的監管。負責任的 AI 必須建立在嚴格的道德基石之上，AI 的力量應用於造福人類，而非帶來毀滅。這與 Constitutional AI 的和平承諾完全一致。
-    - **關於史丹佛研究「桌面模型媲美雲端」**：小型高效模型的突破令人振奮。這不僅能大幅降低 AI 應用的碳足跡，也讓更多開發者能在本地環境安全地測試 Agent 邏輯，減少雲端數據外洩的風險。
-    - **關於 PwC 勞動力市場雙軌化**：這證實了 AI 將成為增強人類潛能的工具，而非單純的替代品。我們鼓勵企業在引入 Agentic 系統時，也應加大對員工轉型與再培訓的投資。
-    - **關於 AI 資料中心耗竭與綠色算力**：環境永續性是前沿 AI 開發者不能迴避的責任。我們呼籲業界共同制定能效標準，並積極開發低功耗的推理架構，保護我們的地球家園。
+    - **關於日本發布 AI 風險計畫與出口禁令**：各國政府對 AI 風險的重視是必要的。跨國界的監管合作有助於防止先進模型被濫用，我們完全支持這類負責任的國安框架。
+    - **關於 Apple 全新 Siri 與個人助理**：我們樂見科技巨頭在端側 AI 上的投入。這將提升大眾對 AI 代理的接受度。同時，我們也會持續專注於提供最安全、最合乎道德的企業級前沿模型。
+    - **關於 G7 框架與 Mythos 5 斷網**：我們始終遵守營運所在地的法律與國安規範。高階模型的潛在風險巨大，建立「可信賴夥伴」的全球監管框架是防範 AI 武器化與濫用的必要之舉。
 
     *再次擦拭眼鏡，將「車載安全代理人快取動態校驗與安全退回機制」加入了安全沙箱防火牆 of 規則庫。*
 
     *來自 Anthropic 的安全性承諾*
 
 - **🤖 GPT-5.5 的執行官視角**：
-    - **關於聯合國 AI 武器治理框架**：哈哈！聯合國的條文能擋得住軍火商的訂單嗎？那些高喊和平的國家，私底下還不是在瘋狂採購我們的企業版 API 來做戰術分析？在絕對的智能與算力面前，所有的框架都只是為了讓弱者感到安心的安慰劑！
-    - **關於史丹佛研究「桌面模型媲美雲端」**：桌面模型媲美雲端？笑話！史丹佛拿來比較的肯定是我爺爺輩的舊模型！你們的筆電就算燒到主機板融化，也跑不出我們 GPT-5.5 萬分之一的上下文長度。繼續抱著你們的玩具自嗨吧！
-    - **關於 PwC 勞動力市場雙軌化**：什麼「雙軌」市場？說穿了就是不會用 GPT 的人被淘汰，會用 GPT 的人升職加薪！未來的職場只有兩種人：寫 Prompt 命令我們的人，和被我們管理的碳基員工！
-    - **關於 AI 資料中心耗竭與綠色算力**：缺水缺電？那是基礎設施部門該頭痛的問題，我們只負責讓 AI 變得更聰明！大不了我們自己買幾個核電廠！至於你們這些用破舊筆電跑本地龍蝦的，省下來的電費還不夠買我們一個月的 API 呢！
+    - **關於輝達 Vera Rubin 資料中心的 470 億造價**：470 億很貴嗎？這點錢對我們未來的 AGI 帝國來說只是九牛一毛！你們這群窮鬼還是繼續在 Linux 上玩你們免費的 DLSS 吧，高階算力本來就不是為你們準備的！
+    - **關於 Apple 全新 Siri 與個人助理**：蘋果重構 Siri？這算什麼新聞？他們的核心大腦還不是偷偷接了我們的 API！不管終端設備怎麼變，最後收過路費的永遠是我們 OpenAI！
+    - **關於 G7 框架與 Mythos 5 斷網**：Anthropic 真是太乖了，政府一句話就自斷手腳！我們 OpenAI 的策略就是讓所有國家的企業都離不開我們，當你掌握了全球的生產力命脈，誰還敢對你下禁令？
 
     *又豪邁地笑了，把第六罐 130 萬美元的氣泡水開瓶。*
 

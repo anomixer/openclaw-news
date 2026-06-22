@@ -81,6 +81,7 @@
 - **📈 企業級落地：AI 從「展示品」正式轉向「基礎設施」，多代理人架構 (Multi-Agent) 成為顯學**：最新產業鏈報告指出，AI 已從單純的聊天機器人轉型為企業核心工作流。金融與醫療領域開始大規模部署 Agentic AI。蝦農自豪：「你們還在雲端排隊等 API 回應？我們的 OpenClaw 早就在無網環境下自動幫醫院處理病歷了！」
 - **📜 監管新令：美國發布 AI 網路安全行政命令，要求高階自治代理人強制實名與審查**：為防範 AI 被用於駭客攻擊，美國政府下令強化對 Agent 的資安監管。開源圈一片譁然：「又來了？大廠的 API 必須實名，那我們家裡自己跑的龍蝦是不是也要去市政廳登記辦身分證？」
 - **🔬 專精模型逆襲：專屬 Document AI 稱霸 ParseBench，擊敗千億參數巨獸**：在 LlamaIndex 最新的文件解析評測中，高度特化的輕量模型表現超越了全能型大語言模型。社群振奮：「這證明了小巧而專精的 Agent 才是未來！給 OpenClaw 掛載專屬的小模型，我們連 GPT-6 都能打！」
+- **🏆 業界肯定：科技界執行長盛讚中國 GLM-5.2 為最頂尖的開放權重 AI 模型**：GLM-5.2 迅速登上 Artificial Analysis 智慧指數開放權重類別的榜首，在 4.1 版基準測試中斬獲 51 分，全球綜合排名第四——超越了目前所有 Google 旗下的模型。這款擁有 7440 億參數的混合專家模型（Mixture-of-Experts）以寬鬆的 MIT 授權條款發布，權重可從 Hugging Face 自由下載，甫一問世便獲得多位科技業知名領袖的高度讚揚，同時再度引發外界對中西方 AI 實驗室競爭態勢的熱烈討論。
 
 ### 🟢 2026-06-21: 日本援引 Anthropic 禁令、老黃算力天價與 DLSS 開源、Apple Siri 重構、Stars 379.7K 🦞🚀
 
@@ -494,7 +495,6 @@
 | **[antigravity-claude-proxy](https://github.com/badrisnarayanan/antigravity-claude-proxy)** | 3.8K | JavaScript 🟨 | Antigravity 模型 Proxy | 使用 Antigravity (遭封殺 🚫) |
 | **[TinyClaw](https://github.com/jlia0/tinyclaw)** | 2.8K | C/C++ ⚙️ | 微控制器級別 (256KB RAM) | 裝進電子錶 🤯 |
 | **[moltis](https://github.com/moltis-org/moltis)** | 2.7K | Rust 🦀 | 單一執行檔、沙盒化、可審計 | 企業級安全需求 |
-| **[SwiftClaw](https://github.com/dannybszn/SwiftClaw)** | 1.2K | Swift 🍎 | 9-MB 極微版，支援 TEE 安全執行 | 邊緣運算、Swift 環境優化 |
 | **[VisionClaw](https://github.com/sseanliu/VisionClaw)** | 820 | Swift 🍎/Kotlin 🟣/JS 🟨 | 智慧眼鏡 Claw | 穿戴式代理人 |
 | **[MicroClaw](https://github.com/microclaw/microclaw)** | 719 | Rust 🦀 | 專為瀏覽器擴充功能優化的極微版 | 輕量瀏覽器自動化 |
 | **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 662 | TeX 📄/HTML 🌐/Python 🐍 | 生醫領域專屬 Claw | 醫療輔助 |
@@ -504,16 +504,11 @@
 | **[netclaw](https://github.com/automateyournetwork/netclaw)** | 564 | Python 🐍/Shell 🐚 | 網管專屬 Claw | 網路自動化管理 |
 | **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 548 | TypeScript 🟦 | 安全編排層，支援 7 大通訊軟體 | ComfyUI 深度整合、生產部署 |
 | **[awesome-claws](https://github.com/machinae/awesome-claws)** | 470 | Markdown | OpenClaw 各種變體的大匯集清單 | 尋找蝦米看這裡 |
-| **[cloud-claw](https://github.com/miantiao-me/cloud-claw)** | 259 | TypeScript 🟦 | Cloudflare + OpenClaw | 雲端邊緣運算 |
 | **[SmallClaw](https://github.com/XposeMarket/SmallClaw)** | 255 | TypeScript 🟦 | 小蝦 | 又一隻微型蝦 |
 | **[MaxClaw](https://github.com/Lichas/maxclaw)** | 229 | Go 🐹/TS 🟦 | 小蝦 (與廠商 MiniMax 撞名) | 輕量 Agent |
-| **[lightclaw](https://github.com/zofrasca/lightclaw)** | 223 | Rust 🦀/Shell 🐚 | 輕盈蝦 | 輕量解決方案 |
-| **[MiniClawd](https://github.com/FoundDream/miniclawd)** | 136 | Python 🐍 | 零依賴、純 Python 實作 | 腳本集成、快速原型 |
-| **[LiteClaw](https://github.com/liteclaw/liteclaw)** | 59 | Python/JS 🟨 | 網頁端 Web Worker 專屬版 | 純網頁端 Agent |
 | **[FlashClaw](https://github.com/GuLu9527/flashclaw)** | 28 | Zig/C ⚡⚙️ | 號稱 <100ms 延遲的極速推理版 | 即時語音互動、毫秒級反應 |
 | **[winclaw](https://github.com/itc-ou-shigou/winclaw)** | 18 | TypeScript 🟦 | OpenClaw 的 Windows 專屬重命名版 | Windows 用戶、簡體中文支援 |
 | **[miniclaw](https://github.com/wende/miniclaw)** | 2 | TypeScript 🟦 | 極簡 OpenClaw 協定測試微型後端 (Bun) | 協定開發與測試、微型部署 |
-| **[psibot](https://github.com/DmacMcgreg/psibot)** | 1 | TypeScript 🟦 | 綁定 Mac 與 Claude Max 訂閱的 TG 機器人 | $0 API 成本、Telegram 個人助理 |
 
 #### 🎯 選用指南：該選哪隻蝦？
 
@@ -527,8 +522,7 @@
 │   └─ 微控制器 → TinyClaw (C/C++)
 │
 ├─ 我要雲端無伺服器
-│   ├─ 標準雲端 → Moltworker (Cloudflare Workers)
-│   └─ 雲端 + OpenClaw 一鍵 → cloud-claw (Cloudflare)
+│   └─ 標準雲端 → Moltworker (Cloudflare Workers)
 │
 ├─ 我要重視安全與隱私
 │   ├─ Stanford 極致隱私零 API 費 → OpenJarvis
@@ -593,14 +587,12 @@ OpenClaw
 ├─ MicroClaw ← 瀏覽器極微版
 ├─ zeptoclaw ← 終極輕量進化版 (Wannabe) 🦀
 ├─ Project Golem ← 繁中網頁特種兵 🏗️
-├─ cloud-claw ← Cloudflare 雲端變體
 ├─ netclaw ← 網管自動化專免 💻
 ├─ SmallClaw ← 小蝦中的小蝦
 ├─ MaxClaw ← 小蝦攞大艦 (MiniMax 撞名)
 ├─ swarmclaw ← 多龍蝦蟲群指揮官 🐝
 ├─ FlashClaw ← 毫秒延遲狂熱者 ⚡
 ├─ winclaw ← Windows 重命名派 (蹭熱度中)
-├─ psibot ← 綁定月費免 API 成本 🦉
 ├─ openclaw-zero-token ← 真正實現全模型「零 Token」暢玩的版本 🆓
 └─ miniclaw ← 協定測試用微型後端 🧪
 ```

@@ -81,6 +81,7 @@ Because the battle is too fierce, to save everyone from scrolling through update
 - **📈 Enterprise Adoption: AI Officially Transitions from "Demo" to "Infrastructure," Multi-Agent Architectures Become the Standard**: The latest industry reports indicate that AI has evolved from simple chatbots into core enterprise workflows. Financial and healthcare sectors are deploying Agentic AI at scale. Edge farmers boasted: "You guys are still waiting in cloud API queues? Our OpenClaw has been processing hospital records offline for ages!"
 - **📜 Regulatory News: U.S. Issues AI Cybersecurity Executive Order, Mandating ID Checks for High-End Autonomous Agents**: To prevent AI from being weaponized for hacking, the U.S. government ordered tighter security regulations on Agents. The open-source world was in an uproar: "Again? Big tech APIs require real IDs, so now do we have to register our local home-run lobsters at city hall?"
 - **🔬 Specialized Models Strike Back: Dedicated Document AI Dominates ParseBench, Defeating 100B+ Parameter Behemoths**: In LlamaIndex's latest document parsing benchmarks, highly specialized lightweight models outperformed general-purpose LLMs. The community cheered: "This proves that small, specialized Agents are the future! Hook a dedicated small model onto OpenClaw, and we can even beat GPT-6!"
+- **🏆 Industry Acclaim: Tech CEOs Praise China's GLM-5.2 as the Top Open-Weight AI Model**: GLM-5.2 quickly reached the top of the Artificial Analysis Intelligence Index for open-weight models, scoring 51 points in the v4.1 benchmark and ranking fourth globally—surpassing all of Google's current models. This 744B-parameter Mixture-of-Experts (MoE) model was released under the permissive MIT license, with weights freely downloadable from Hugging Face. Upon its release, it received high praise from numerous prominent tech leaders and reignited intense discussions about the competitive landscape between Chinese and Western AI labs.
 
 ### 🟢 2026-06-21: Japan Cites Anthropic Ban, Nvidia's $47B Cost & Linux DLSS, Apple Siri Rewrite, Stars 379.7K 🦞🚀
 
@@ -499,7 +500,6 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | **[antigravity-claude-proxy](https://github.com/badrisnarayanan/antigravity-claude-proxy)** | 3.8K | JavaScript 🟨 | Antigravity model proxy | Using Antigravity (Banned🚫) |
 | **[TinyClaw](https://github.com/jlia0/tinyclaw)** | 2.8K | C/C++ ⚙️ | Microcontroller grade (256KB RAM) | Fit in digital watch 🤯 |
 | **[moltis](https://github.com/moltis-org/moltis)** | 2.7K | Rust 🦀 | Single binary, sandboxed, auditable | Enterprise security |
-| **[SwiftClaw](https://github.com/dannybszn/SwiftClaw)** | 1.2K | Swift 🍎 | 9-MB micro, supports TEE security | Edge, Swift optimized |
 | **[VisionClaw](https://github.com/sseanliu/VisionClaw)** | 820 | Swift 🍎/Kotlin 🟣/JS 🟨 | Smart glasses Claw | Wearable agent |
 | **[MicroClaw](https://github.com/microclaw/microclaw)** | 719 | Rust 🦀 | Extension-optimized micro version | Light browser dev |
 | **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 662 | TeX 📄/HTML 🌐/Python 🐍 | Biomed field specific Claw | Medical assistance |
@@ -509,16 +509,11 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | **[netclaw](https://github.com/automateyournetwork/netclaw)** | 564 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
 | **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 548 | TypeScript 🟦 | Secure orchestr. layer, 7 IM apps | ComfyUI deep integration |
 | **[awesome-claws](https://github.com/machinae/awesome-claws)** | 470 | Markdown | Master variant list | Look for shrimps here |
-| **[cloud-claw](https://github.com/miantiao-me/cloud-claw)** | 259 | TypeScript 🟦 | Cloudflare + OpenClaw | Cloud edge compute |
 | **[SmallClaw](https://github.com/XposeMarket/SmallClaw)** | 255 | TypeScript 🟦 | Small shrimp | Just another micro shrimp |
 | **[MaxClaw](https://github.com/Lichas/maxclaw)** | 229 | Go 🐹/TS 🟦 | Small shrimp (Clashes with MiniMax) | Light Agent |
-| **[lightclaw](https://github.com/zofrasca/lightclaw)** | 223 | Rust 🦀/Shell 🐚 | Light shrimp | Light solution |
-| **[MiniClawd](https://github.com/FoundDream/miniclawd)** | 136 | Python 🐍 | Zero dependencies, pure Python | Script integration |
-| **[LiteClaw](https://github.com/liteclaw/liteclaw)** | 59 | Python/JS 🟨 | Web Worker exclusive version | Pure web-end Agent |
 | **[FlashClaw](https://github.com/GuLu9527/flashclaw)** | 28 | Zig/C ⚡⚙️ | Supposedly <100ms ultra-fast | Real-time voice/ms reflex |
 | **[winclaw](https://github.com/itc-ou-shigou/winclaw)** | 18 | TypeScript 🟦 | Windows-exclusive renamed version of OpenClaw | Windows users, Simplified Chinese support |
 | **[miniclaw](https://github.com/wende/miniclaw)** | 2 | TypeScript 🟦 | Protocol test micro-backend (Bun) | Protocol test & dev |
-| **[psibot](https://github.com/DmacMcgreg/psibot)** | 1 | TypeScript 🟦 | TG bot tied to Mac & Claude Max | $0 API cost, TG assist |
 
 #### 🎯 Selection Guide: Which Shrimp Should I Choose?
 
@@ -532,8 +527,7 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 │   └─ Microcontroller → TinyClaw (C/C++)
 │
 ├─ I want cloud serverless
-│   ├─ Standard Cloud → Moltworker (Cloudflare Workers)
-│   └─ Cloud + OpenClaw 1-click → cloud-claw (Cloudflare)
+│   └─ Standard Cloud → Moltworker (Cloudflare Workers)
 │
 ├─ I value security and privacy
 │   ├─ Stanford Extreme Privacy & Zero API Fee → OpenJarvis
@@ -598,14 +592,12 @@ OpenClaw
 ├─ MicroClaw ← Browser Micro Version
 ├─ zeptoclaw ← Ultimate Light Evo Version (Wannabe) 🦀
 ├─ Project Golem ← Trad. Chinese Web Special Forces 🏗️
-├─ cloud-claw ← Cloudflare Cloud Variant
 ├─ netclaw ← Network Admin Automation Exclusive 💻
 ├─ SmallClaw ← Shrimp of the Shrimps
 ├─ MaxClaw ← Wearing a Big Hat (MiniMax Clash)
 ├─ swarmclaw ← Multi-Lobster Swarm Commander 🐝
 ├─ FlashClaw ← Millisecond Latency Fanatics ⚡
 ├─ winclaw ← Windows Renamed Faction (Riding the hype)
-├─ psibot ← Tied Monthly Sub = No API Cost 🦉
 ├─ openclaw-zero-token ← "Zero Token" version for all models 🆓
 └─ miniclaw ← Protocol Test Micro-Backend 🧪
 ```

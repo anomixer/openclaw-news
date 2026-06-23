@@ -86,7 +86,7 @@ function parseStarsNum(str) {
 }
 
 const BACKUP_STARS = {
-    'openclaw/openclaw': 380000,
+    'openclaw/openclaw': 380200,
     'NVIDIA/NemoClaw': 21200,
     'open-jarvis/OpenJarvis': 6200,
     'HKUDS/nanobot': 43700,

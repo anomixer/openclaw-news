@@ -1,15 +1,17 @@
 #!/usr/bin/env node
 /**
- * generate_murmur.js
+ * generate_news.js
  * 
  * 用法:
  *   $env:GEMINI_API_KEY="AIzaSy..."
- *   node generate_murmur.js "今天的新聞: Apple..."
+ *   node generate_news.js "今天的新聞: Apple..."
  * 
  * 功能:
  *   1. 呼叫 Gemini API，寫出毒舌戰地記者日誌。
  *   2. 分別產生中文與英文版本。
- *   3. 自動將生成的內容插入 murmur.md 與 murmur-en.md 每天的第一個日誌區塊（### 🟢）上方！
+ *   3. 自動將生成的內容插入 README-tw.md 與 README.md 每天的第一個日誌區塊（### 🟢）上方！
+ * 
+ * 修正說明: 配合 repo 改名為 openclaw-news，將 murmur.md/murmur-en.md 改為 README-tw.md/README.md。
  */
 
 const fs = require('fs');
@@ -149,8 +151,8 @@ async function generateLogs() {
         console.log(logEn);
 
         // 寫入到檔案
-        const mdPathZh = path.join(__dirname, '..', 'murmur.md');
-        const mdPathEn = path.join(__dirname, '..', 'murmur-en.md');
+        const mdPathZh = path.join(__dirname, '..', 'README-tw.md');
+        const mdPathEn = path.join(__dirname, '..', 'README.md');
 
         injectLog(mdPathZh, logZh);
         injectLog(mdPathEn, logEn);

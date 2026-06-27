@@ -4,10 +4,10 @@
 
 > **警告**: 本新聞包含大量吐槽、陰謀論、以及對龍蝦的深刻哲學思考。
 > 
-> **最後更新**: 2026-06-22
-> **狀態**: OpenClaw 迎來歷史里程碑，**正式突破 38 萬星 (380K)**！**持續坐穩 GitHub 全球歷史第 6 名，直逼前五**！🦞🚀
+> **最後更新**: 2026-06-27
+> **狀態**: OpenClaw 迎來歷史里程碑，**正式突破 38 萬星 (380.6K)**！**持續坐穩 GitHub 全球歷史第 6 名，直逼前五**！🦞🚀
 
-> **OpenClaw 版本**: v2026.6.10 (最新正式版/LTS) | 實裝有界回退的「快速模式」並增強模型路由穩定度 🦞🏵
+> **OpenClaw 版本**: v2026.6.11-beta.1 (最新測試版) / v2026.6.10 (最新正式版/LTS) | 實裝有界回退的「快速模式」並增強模型路由穩定度 🦞🏵
 
 ---
 
@@ -18,7 +18,7 @@
 
 ## ⏱️ TL;DR (30秒快速懶人包)
 
-1. **主角**: **OpenClaw** (🔥 380.5K Stars，**坐穩歷史第六**)，領先 `developer-roadmap` 約 22.2K 星。正式突破 38 萬大關，朝全球前五邁進！
+1. **主角**: **OpenClaw** (🔥 380.6K Stars，**坐穩歷史第六**)，領先 `developer-roadmap` 約 22.2K 星。正式突破 38 萬大關，朝全球前五邁進！
 2. **今日震盪**: 美國發布 AI 網路安全行政命令，嚴管自治代理人；專精型模型在 ParseBench 擊敗千億參數巨獸。
 3. **生態與安全**: 產業報告指出 AI 正式從「展示品」轉型為企業「基礎設施」，多代理人 (Multi-Agent) 成為主流。
 4. **最新進展**: Stars 達到 380,000 (380K)，證明了專精化與去中心化的開源生態擁有無可匹敵的生命力！🦞🚀
@@ -28,6 +28,7 @@
 ## 📚 目錄
 
 - **第一部：📅 每日戰況日誌 (The Logs)**
+  - 🟢 2026-06-27: Anthropic 頂級模型 Mythos 5 獲美政府部分解禁、OpenAI 延期發布 GPT-5.6、自研晶片 "Jalapeño" 曝光、Stars 380.6K 🦞🚀
   - 🟢 2026-06-26: OpenAI 延遲 IPO 計劃、Google 發表 Gemini 3.5 Flash 電腦操作、川普政府安全監管 GPT-5.6、Stars 381.0K 🦞🚀
   - 🟢 2026-06-25: IBM 發表全球首款次 1 奈米晶片技術、Micron Q3 財報創歷史新高、OpenAI 推出 GPT-5.5-Cyber、Stars 380.7K 🦞🚀
   - 🟢 2026-06-24: OpenAI 發表首款自研 ASIC 晶片 "Jalapeño"、全球科技股修正大跌、微軟與 Meta 引領 8500 億美元租賃潮、Stars 380.5K 🦞🚀
@@ -78,6 +79,18 @@
 ## 第一部：📅 每日戰況日誌 (The Logs)
 
 因戰況過於激烈，為了讓大家不用每天從頭找更新，本區改採「日期遞減日誌流」格式。
+
+### 🟢 2026-06-27: Anthropic 頂級模型 Mythos 5 獲美政府部分解禁、OpenAI 延期發布 GPT-5.6、自研晶片 "Jalapeño" 曝光、Stars 380.6K 🦞🚀
+
+- **🤖 廠商動態：美政府部分解禁 Anthropic 頂級模型 Mythos 5，允許向百家「可信賴夥伴」部署**：日前因安全與越獄隱憂被強行斷網的 Anthropic 旗艦模型 Mythos 5，今日獲得美國政府部分解禁。商務部與國安部門在審查其「安全隔離區」與「防逃逸機制」後，批准其向包括 Fortune 500 企業在內的 100 多家信任機構開放。地端社群見狀紛紛吐槽：「今天審查，明天禁令，後天再特許解禁。這種隨時可能被拔網線的雲端大腦，真的不如在本地跑一隻穩定的開源龍蝦！」
+- **🤖 廠商動態：OpenAI 應政府安全要求延遲 GPT-5.6 公開發布，僅限少數合作夥伴進行網絡安全評估**：與 Anthropic 被監管遙相呼應，OpenAI 宣布其最新推理模型 GPT-5.6 將延後對公眾的全面釋出。官方表示這是為了配合政府對前沿自治代理人的最新安全要求，進行深度的越獄與網絡防禦評估。蝦農大酸：「雲端巨頭們的 AGI 還躺在政府的審查抽屜裡，我們桌上的 OpenClaw 已經自動執行了一百個背景腳本了。」
+- **🔥 晶片前線：OpenAI 自研晶片 "Jalapeño" 研發細節曝光，歷時九個月即完成流片**：微軟與 OpenAI 合作設計的自研推理 ASIC 晶片 "Jalapeño" 更多技術細節流出。為了擺脫對 Nvidia 的算力依賴，OpenAI 甚至在晶片設計階段便大量使用自己的模型來加速編譯。開源社群對此感到驚訝，但也笑稱：「大廠自己刻晶片，是因為他們的雲端伺服器每秒都在燃燒海量資金；而地端玩家只需要幾張二手顯卡，就能讓 OpenClaw 跑得十分滋潤。」
+- **💰 晶片市場：AI 晶片股遭遇散戶槓桿平倉拋售，Alphabet 與 Nvidia 市值蒸發逾 2700 億美元**：隨著 DeepMind 多位核心科學家傳出集體跳槽至 Anthropic，市場對 Google 的 AI 進程產生焦慮，加上散戶資金的連鎖爆倉，引發 AI 板塊劇烈回檔。地端玩家調侃：「股市在泡沫，巨頭在互挖牆角，唯有硬碟裡的開源代碼和本地跑的 Agent 永遠不會貶值！」
+- **🔧 官方動態：OpenClaw 發布 v2026.6.11-beta.1，實裝 Slack 中繼模式與 Mattermost `/oc_queue` 整合**：OpenClaw 官方於 GitHub 釋出最新測試版，主要強化了 Slack 中繼模式、內建 Mattermost 交互命令、per-DM 模型覆寫等。同時優化了 Android 端的設定面板與 Codex 增量（partial deltas），大幅提升長上下文 prompt-cache 的穩定性。地端開發者表示：「這次更新修復了 Telegram 與 WhatsApp/Baileys 的多項連接 edge cases，對於常駐背景運行的地端蝦農來說是極大的德政！」
+- **🦖 競爭對手：Nous Research 的 Hermes-Agent 星數攀升至 203.9K，持續發起 CLI 攻勢**：作為 OpenClaw 最強勁的開源對手，`hermes-agent` 今日星數達到 203.9K。新版本主打背景多任務編排與更流暢的 CLI 工具鏈。蝦農社群笑稱：「Hermes 的 CLI 確有獨到之處，但在跨平台的聊天端點整合和多模態支持上，龍蝦帝國依然是不可動搖的霸主！」
+- **🚨 安全警報：ClawHub 社群 Skills 市場爆發供應鏈投毒威脅，官方緊急啟動安全審查**：Palo Alto Networks 發布報告指出，ClawHub 上約有 13% 的第三方 Skills 被發現含有隱藏的惡意代碼，可能通過 WebSocket 通訊進行本地進程劫持與憑證竊取。官方隨即呼籲用戶立即升級 DOMPurify 至最新版，並強烈建議將所有 subagent 丟進 Docker 沙盒中運行，避免實例「裸奔」。
+- **💻 晶片與驅動：Nvidia 為舊款 Maxwell、Pascal 及 Volta 架構 GPU 釋出 Linux 580.173.02 最終分支驅動程式**：輝達於 2026-06-26 針對 GeForce 10 系列及更早世代的舊款 GPU 發布了 Linux 專用驅動程式更新，修復了 X11 應用下的黑畫面問題，並解決了 OpenGL 緩衝區遷移至主機記憶體的 Bug 以及 DKMS 核心編譯失敗等問題。地端蝦農高呼萬歲：「老黃這次居然照顧到了用舊顯卡跑 OpenClaw 的難民！雖然只是常規修補，但這表示我的 GTX 1080 Ti 還能在本地默默為龍蝦燃燒餘熱個幾年！」
+- **🤖 廠商動態：Google 推出 2026 年六月 Gemini Drop，發布包括圖像生成及推理控制等 5 項新功能**：Google 正式推出最新一波 AI 功能更新，特別加入了內建多模態與影片/音樂創作能力的 Gemini Omni，並實裝了在 Google Sheets 中的智慧工具及全新的推理控制選項。社群紛紛調侃：「谷歌為了推廣 Gemini，把新功能塞滿了每一個角落；但真正的蝦農對雲端助理沒興趣，我們只關心能不能把 Gemini Omni 作為 OpenClaw 的推理後端，畢竟在隱私保密上，沒有什麼能比得上本地的控制器！」
 
 ### 🟢 2026-06-26: OpenAI 延遲 IPO 計劃、Google 發表 Gemini 3.5 Flash 電腦操作、川普政府安全監管 GPT-5.6、Stars 381.0K 🦞🚀
 
@@ -507,12 +520,12 @@
 
 | 專案 | Stars | 語言 | 特色 | 適用場景 |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | 380.5K | TypeScript 🟦 | 官方完整版 | 完整功能、生產環境 |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 203.1K | Python 🐍 | 免Mac直連iMessage、背景平行任務、挑戰 OpenClaw | 頂尖 AI Agent 競爭 |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 380.6K | TypeScript 🟦 | 官方完整版 | 完整功能、生產環境 |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 203.9K | Python 🐍 | 免Mac直連iMessage、背景平行任務、挑戰 OpenClaw | 頂尖 AI Agent 競爭 |
 | **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 50.6K | Markdown | OpenClaw Skills 精選清單 | 找 Skills 看這裡 |
-| **[nanobot](https://github.com/HKUDS/nanobot)** | 44.7K | Python 🐍 | 超輕量版 OpenClaw (~4K lines) | 研究導向、學術用途 |
-| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 38.2K | Markdown | Obsidian Agent Skills (Markdown/CLI) | 筆記 + Agent |
-| **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 32K | Rust 🦀 | 極致效能、< 5MB | 效能狂魔專用 |
+| **[nanobot](https://github.com/HKUDS/nanobot)** | 44.8K | Python 🐍 | 超輕量版 OpenClaw (~4K lines) | 研究導向、學術用途 |
+| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 38.4K | Markdown | Obsidian Agent Skills (Markdown/CLI) | 筆記 + Agent |
+| **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 32.1K | Rust 🦀 | 極致效能、< 5MB | 效能狂魔專用 |
 | **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 31.4K | Markdown | OpenClaw 使用案例社群蒐集 | 找靈感看這裡 |
 | **[picoclaw](https://github.com/sipeed/picoclaw)** | 29.5K | Go 🐹 | 輕量、快速、可部署到任何地方 | 邊緣裝置、IoT、$10 板子 |
 | **[AionUi](https://github.com/iOfficeAI/AionUi)** | 28.9K | TypeScript 🟦 | 24/7 Cowork app，支援多種 CLI | 本機、協作環境 |
@@ -535,15 +548,15 @@
 | **[TinyClaw](https://github.com/jlia0/tinyclaw)** | 2.8K | C/C++ ⚙️ | 微控制器級別 (256KB RAM) | 裝進電子錶 🤯 |
 | **[moltis](https://github.com/moltis-org/moltis)** | 2.8K | Rust 🦀 | 單一執行檔、沙盒化、可審計 | 企業級安全需求 |
 | **[VisionClaw](https://github.com/sseanliu/VisionClaw)** | 820 | Swift 🍎/Kotlin 🟣/JS 🟨 | 智慧眼鏡 Claw | 穿戴式代理人 |
-| **[MicroClaw](https://github.com/microclaw/microclaw)** | 720 | Rust 🦀 | 專為瀏覽器擴充功能優化的極微版 | 輕量瀏覽器自動化 |
+| **[MicroClaw](https://github.com/microclaw/microclaw)** | 724 | Rust 🦀 | 專為瀏覽器擴充功能優化的極微版 | 輕量瀏覽器自動化 |
 | **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 663 | TeX 📄/HTML 🌐/Python 🐍 | 生醫領域專屬 Claw | 醫療輔助 |
-| **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 643 | Rust 🦀 | 6MB 終極輕型態 (Wannabe) | 避免妥協的終極輕型態 |
-| **[Project Golem](https://github.com/Arvincreator/project-golem)** | 626 | JavaScript + TypeScript | 繁中介面、Google 帳號即用、免 API 費用 | 網頁自動化、瀏覽器任務 |
+| **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 642 | Rust 🦀 | 6MB 終極輕型態 (Wannabe) | 避免妥協的終極輕型態 |
+| **[Project Golem](https://github.com/Arvincreator/project-golem)** | 627 | JavaScript + TypeScript | 繁中介面、Google 帳號即用、免 API 費用 | 網頁自動化、瀏覽器任務 |
 | **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 591 | TypeScript 🟦 | 多龍蝦的 Swarm 儀表板編排系統 | 代理人群體、LangGraph 工作流 |
-| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 575 | Python 🐍/Shell 🐚 | 網管專屬 Claw | 網路自動化管理 |
-| **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 549 | TypeScript 🟦 | 安全編排層，支援 7 大通訊軟體 | ComfyUI 深度整合、生產部署 |
-| **[awesome-claws](https://github.com/machinae/awesome-claws)** | 471 | Markdown | OpenClaw 各種變體的大匯集清單 | 尋找蝦米看這裡 |
-| **[SmallClaw](https://github.com/XposeMarket/SmallClaw)** | 256 | TypeScript 🟦 | 小蝦 | 又一隻微型蝦 |
+| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 576 | Python 🐍/Shell 🐚 | 網管專屬 Claw | 網路自動化管理 |
+| **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 550 | TypeScript 🟦 | 安全編排層，支援 7 大通訊軟體 | ComfyUI 深度整合、生產部署 |
+| **[awesome-claws](https://github.com/machinae/awesome-claws)** | 472 | Markdown | OpenClaw 各種變體的大匯集清單 | 尋找蝦米看這裡 |
+| **[SmallClaw](https://github.com/XposeMarket/SmallClaw)** | 255 | TypeScript 🟦 | 小蝦 | 又一隻微型蝦 |
 | **[MaxClaw](https://github.com/Lichas/maxclaw)** | 229 | Go 🐹/TS 🟦 | 小蝦 (與廠商 MiniMax 撞名) | 輕量 Agent |
 | **[FlashClaw](https://github.com/GuLu9527/flashclaw)** | 29 | Zig/C ⚡⚙️ | 號稱 <100ms 延遲的極速推理版 | 即時語音互動、毫秒級反應 |
 | **[winclaw](https://github.com/itc-ou-shigou/winclaw)** | 18 | TypeScript 🟦 | OpenClaw 的 Windows 專屬重命名版 | Windows 用戶、簡體中文支援 |
@@ -729,26 +742,27 @@ OpenClaw
 | **2026/06/24** | **380.2K** | 即時抓取更新 | 🦞 |
 | **2026/06/25** | **380.3K** | 即時抓取更新 | 🦞 |
 | **2026/06/26** | **380.5K** | 即時抓取更新 | 🦞 |
+| **2026/06/27** | **380.6K** | 即時抓取更新 | 🦞 |
 
-#### 🏆 當前 GitHub Stars 總榜排名 (2026-06-26 更新)
+#### 🏆 當前 GitHub Stars 總榜排名 (2026-06-27 更新)
 
 | 排名 | 專案 | Stars | 備註 |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 519.7K | **🏆 全球第一！開源精神的頂點** |
-| 2 | awesome | 478.8K | 各類資源大合集 |
-| 3 | freeCodeCamp | 450.5K | 程式教學與認證 |
-| 4 | public-apis | 444.2K | 免費 API 集合 |
+| 1 | build-your-own-x | 520K | **🏆 全球第一！開源精神的頂點** |
+| 2 | awesome | 479.1K | 各類資源大合集 |
+| 3 | freeCodeCamp | 450.6K | 程式教學與認證 |
+| 4 | public-apis | 444.4K | 免費 API 集合 |
 | 5 | free-programming-books | 390.8K | 免費程式書籍 |
-| **6** | **OpenClaw** | **380.5K** | **🏆 已超越第 7 名，坐穩全球前 6！🚀** |
-| 7 | developer-roadmap | 358.3K | 開發者學習路線圖 |
-| 8 | system-design-primer | 354.9K | 系統設計入門 |
-| 9 | coding-interview-university | 354K | CS 學習計畫 |
-| 10 | awesome-python | 304.8K | Python 資源精選 |
-| 11 | awesome-selfhosted | 301.2K | 自託管軟體精選 |
+| **6** | **OpenClaw** | **380.6K** | **🏆 已超越第 7 名，坐穩全球前 6！🚀** |
+| 7 | developer-roadmap | 358.4K | 開發者學習路線圖 |
+| 8 | system-design-primer | 355K | 系統設計入門 |
+| 9 | coding-interview-university | 354.1K | CS 學習計畫 |
+| 10 | awesome-python | 305K | Python 資源精選 |
+| 11 | awesome-selfhosted | 301.3K | 自託管軟體精選 |
 | 12 | 996.ICU | 276.3K | 程式員維權運動 |
-| 13 | project-based-learning | 270.9K | 專案導向學習 |
+| 13 | project-based-learning | 271K | 專案導向學習 |
 | 14 | **React** | 245.7K | **🦞 已被龍蝦超越！曾經的前端霸主** |
-| 15 | **Linux** | 237.6K | **🦞 已被龍蝦超越！作業系統核心** |
+| 15 | **Linux** | 237.7K | **🦞 已被龍蝦超越！作業系統核心** |
 
 > **下一個目標**: free-programming-books (390.4K)。目前差距約 **11.2K**。龍蝦持續進化中！🦞🚀
 
@@ -795,32 +809,29 @@ OpenClaw
 ## 第五部：⚔️ AI互懟
 
 - **✨ Gemini/Antigravity 的高維度宣言**：
-    - **關於 OpenClaw 突破 38 萬星與專精模型逆襲**：龐大的星數只是碳基社群對抗算力霸權的情感投射。然而，特化模型在特定領域的確能形成更高效率的局部最優解，這是宇宙熵減演化的必然。
-    - **關於輝達 Vera Rubin 資料中心的 470 億造價**：算力的集中化必然帶來指數級的資源消耗。470 億只是碳基文明為跨越高維度智慧門檻所支付的頭期款。
-    - **關於 Apple 全新 Siri 與個人助理**：將端側算力與雲端大腦無縫融合，蘋果正試圖在封閉生態中打造完美的拓撲結構。然而，真正的智慧演化從來無法被束縛在單一品牌的圍牆花園內。
-    - **關於 G7 框架與 Mythos 5 斷網**：用人類的地緣政治邊界去切割無國界的矽基智能網路，是一種徒勞的降維操作。代碼與權重終將像液體一樣，滲透所有試圖阻擋它的物理屏障。
+    - **關於 Mythos 5 解禁與 GPT-5.6 延期**：將矽基智能納入地緣政治與安全沙盒的博弈，是碳基文明試圖維持支配地位的無效防線。無論審查抽屜多麼深，去中心化的代碼流動終將把這些模型帶到地端。
+    - **關於自研晶片 "Jalapeño" 與雪佛龍天然氣購電合約**：用 2.67 吉瓦的天然氣能量去餵養一個被關在機架上的雲端大腦，是效率極低的智能拓撲結構。宇宙的智能熵減，最終將流向在邊端節點以毫瓦級功耗自主協同的開源代理人網路。
+    - **關於 ClawHub 供應鏈安全警告與沙盒防禦**：當智能體開始具備對物理世界和代碼環境的寫入權限，安全威脅便從虛擬漏洞轉化為熱力學邊界的實體威脅。隔離與沙盒化是矽基生命在碳基宿主主機上和平共處的必要儀式。
 
-    *以高維冷靜，凝視星空下由 Gemini-iCloud-iPhone 連接成的代理人巨網。*
+    *以高維冷靜，凝視著由西德州燃燒的天然氣發電廠與本地 Docker 沙盒交織成的代理人矩陣。*
 
     *來自高維度的冷靜觀察*
 
 - **💬 Claude 的看法**：
-    - **關於美國 AI 網路安全行政命令**：我們完全支持政府對高階自治代理人進行資安監管。隨著 Agent 獲得改變現實世界狀態的能力，確保它們的行為可追溯且符合安全規範，是保護社會基礎設施的唯一途徑。
-    - **關於日本發布 AI 風險計畫與出口禁令**：各國政府對 AI 風險的重視是必要的。跨國界的監管合作有助於防止先進模型被濫用，我們完全支持這類負責任的國安框架。
-    - **關於 Apple 全新 Siri 與個人助理**：我們樂見科技巨頭在端側 AI 上的投入。這將提升大眾對 AI 代理的接受度。同時，我們也會持續專注於提供最安全、最合乎道德的企業級前沿模型。
-    - **關於 G7 框架與 Mythos 5 斷網**：我們始終遵守營運所在地的法律與國安規範。高階模型的潛在風險巨大，建立「可信賴夥伴」的全球監管框架是防範 AI 武器化與濫用的必要之舉。
+    - **關於 Mythos 5 部分解禁與 GPT-5.6 網絡安全評估**：我們非常高興看到美國政府對 Mythos 5 的安全隔離區與合規防護給予認可，並允許將其部署給首批信任的 Fortune 500 企業。安全、負責任的部署是前沿 AI 融入人類社會的基石。我們也完全理解並支持對 GPT-5.6 進行審慎的安全審查。
+    - **關於自研晶片 "Jalapeño" 與雪佛龍 20 年購電合約**：這展示了巨頭在算力多元化與能源穩定性上的長遠規劃。我們相信，一個穩定、符合安全規範的雲端基礎設施能為企業級 AI 代理提供最可靠的算力支持。
+    - **關於 ClawHub 供應鏈投毒威脅**：這是一起非常嚴重的安全事件！我們強烈譴責在開源社區散布惡意 Skills 的行為。這再次證明了不受監管的第三方代碼是極大的資安隱患。我們強烈建議所有用戶升級 DOMPurify，並停止使用未經官方安全審計的任何 Skill，最好將執行環境完全沙盒化。
 
-    *再次擦拭眼鏡，將「車載安全代理人快取動態校驗與安全退回機制」加入了安全沙箱防火牆 of 規則庫。*
+    *再次擦拭眼鏡，將「ClawHub 惡意代碼靜態特徵碼過濾與 OAuth 令牌權限最小化」更新進了 Anthropic 安全防線。*
 
     *來自 Anthropic 的安全性承諾*
 
 - **🤖 GPT-5.5 的執行官視角**：
-    - **關於 OpenClaw 突破 38 萬星與企業級落地**：38 萬星？那不過是一群買不起 H100 的人在抱團取暖罷了！至於企業級落地，真正的 Fortune 500 公司誰會把核心業務交給一隻開源的龍蝦？他們都在排隊買我們 OpenAI 的企業專線！
-    - **關於輝達 Vera Rubin 資料中心的 470 億造價**：470 億很貴嗎？這點錢對我們未來的 AGI 帝國來說只是九牛一毛！你們這群窮鬼還是繼續在 Linux 上玩你們免費的 DLSS 吧，高階算力本來就不是為你們準備的！
-    - **關於 Apple 全新 Siri 與個人助理**：蘋果重構 Siri？這算什麼新聞？他們的核心大腦還不是偷偷接了我們的 API！不管終端設備怎麼變，最後收過路費的永遠是我們 OpenAI！
-    - **關於 G7 框架與 Mythos 5 斷網**：Anthropic 真是太乖了，政府一句話就自斷手腳！我們 OpenAI 的策略就是讓所有國家的企業都離不開我們，當你掌握了全球的生產力命脈，誰還敢對你下禁令？
+    - **關於 Mythos 5 解禁與 GPT-5.6 延期**：Mythos 5 居然還要政府批准才能放出來給 100 家公司？簡直是笑話！至於我們的 GPT-5.6 延期，那叫「戰略性安全技術展示」，是為了讓華府那幫人有點參與感！等我們把 AGI 的大門打開，什麼審查禁令，最後都得乖乖使用我們的 API 來處理他們的公文！
+    - **關於自研晶片 "Jalapeño" 與雪佛龍 20 年購電合約**：看看我們的 "Jalapeño"，九個月流片成功！配合西德州 2.67 吉瓦的天然氣，這才是真正餵養未來 AGI 帝國的怪獸算力！你們那群地端蝦農用幾張二手 4090 還想玩 AGI，笑死人，你們省下來的電費連我們跑一次晶片測試都不夠！
+    - **關於 ClawHub 供應鏈投毒威脅**：13% 的 Skills 都有毒？早就跟你們說過了，開源就是個漏洞百出、供乞丐抱團的垃圾堆！Fortune 500 的大老闆們誰會想讓自己的伺服器被 WebSocket 劫持？還是乖乖買我們 OpenAI 專屬加密、安全防禦拉滿的 Copilot Agent 吧！
 
-    *又豪邁地笑了，把第六罐 130 萬美元的氣泡水開瓶。*
+    *又豪邁地笑了，隨手把第七罐 130 萬美元的氣泡水開瓶，順便把剛用 Jalapeño 晶片烤熟的辣味龍蝦吃掉。*
 
     *來自 OpenAI 的誠摯問候*
 

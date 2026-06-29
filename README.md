@@ -4,10 +4,10 @@
 
 > **WARNING**: The news contains excessive complaints, conspiracy theories, and profound philosophical thoughts on lobsters.
 > 
-> **Last Updated**: 2026-06-28
-> **Status**: OpenClaw reaches a historic milestone, **officially breaking 380,000 (380.8K) stars**! **Ranked #6 globally on GitHub, closing in on the top 5!** 🦞🚀
+> **Last Updated**: 2026-06-29
+> **Status**: OpenClaw officially breaks 380K (380.9K stars), **solidly ranked #6 globally on GitHub, closing in on the top 5!** 🦞🚀
 
-> **OpenClaw Version**: v2026.6.11-beta.1 (Latest Beta) / v2026.6.10 (Latest Stable/LTS) | Features "Fast Mode" with Bounded Fallback and Robust Model Routing 🦞🏵
+> **OpenClaw Version**: v2026.6.11-beta.2 (Latest Beta) / v2026.6.10 (Latest Stable/LTS) | Enhanced Slack relay mode, Mattermost integration, Telegram/WhatsApp edge case fixes 🦞🏵
 
 ---
 
@@ -18,17 +18,18 @@
 
 ## ⏱️ TL;DR (30-second summary)
 
-1. **The Protagonist**: **OpenClaw** (🔥 380.8K Stars, **solid 6th in history**), leading `developer-roadmap` by ~22.2K stars. Officially broke the 380K barrier, marching toward the global top 5!
-2. **Today's Earthquake**: U.S. issues AI cybersecurity executive order regulating autonomous agents; specialized models defeat 100B+ behemoths on ParseBench.
-3. **Silicon & Safety**: Industry reports show AI officially transitioning from "novelty demo" to enterprise "infrastructure," with Multi-Agent architectures dominating.
-4. **Latest Progress**: Star count reached 380,000 (380K), proving that specialized, decentralized open-source ecosystems possess unparalleled vitality! 🦞🚀
+1. **The Protagonist**: **OpenClaw** (🔥 380.9K Stars, **solid 6th in history**), leading `developer-roadmap` by ~22.3K stars. Steadily marching toward the global top 5!
+2. **Today's Earthquake**: Coinbase switches to Chinese open-source models GLM 5.2/Kimi 2.7, slashing AI costs by ~50%; both OpenAI and Anthropic trapped under government approval bottlenecks; AI insider selling spooks markets.
+3. **Silicon & Safety**: DeepReinforce open-sources Ornith-1.0 agentic coding model family (9B~397B), achieving 82.4% SWE-Bench Verified via Self-Scaffolding RL training, surpassing Claude Opus 4.7; OpenClaw releases v2026.6.11-beta.2 with Slack relay, Mattermost integration, and safer plugin distribution. Microsoft orders E+D division to drop Claude Code by June 30.
+4. **Latest Progress**: Stars reach 380.9K, gap to `free-programming-books` narrows to ~10K. The edge lobster empire advances steadily toward the global top 5! 🦞🚀
 
 ---
 
 ## 📚 Table of Contents
 
 - **Part 1: 📅 Daily Battlefield Logs (The Logs)**
-  - 🟢 2026-06-28: Anthropic's Mythos 5 Partially Reinstated by US Government, OpenAI Delays GPT-5.6, Custom "Jalapeño" Chip Details Exposed, Stars 380.8K 🦞🚀
+  - 🟢 2026-06-29: Coinbase Adopts Chinese Open-Source AI, DeepReinforce Open-Sources Ornith-1.0 Agentic Coding Model, Insider Selling Sparks Bubble Fears, Microsoft Orders Claude Code Shutdown, Stars 380.9K 🦞🚀
+  - 🟢 2026-06-28: Anthropic's Mythos 5 Partially Reinstated by US Government, OpenAI Delays GPT-5.6, Custom "Jalapeño" Chip Details Exposed, Stars 380.9K 🦞🚀
   - 🟢 2026-06-27: Anthropic's Mythos 5 Partially Reinstated by US Government, OpenAI Delays GPT-5.6, Custom "Jalapeño" Chip Details Exposed, Stars 380.6K 🦞🚀
   - 🟢 2026-06-26: OpenAI Weighs IPO Delay, Google Unveils Gemini 3.5 Flash Computer Use, Trump Administration Staggers GPT-5.6, Stars 381.0K 🦞🚀
   - 🟢 2026-06-25: IBM Unveils 3D Nanostack 0.7nm Prototype Chip, Micron Q3 Earnings Hit Record High, OpenAI Launches GPT-5.5-Cyber, Stars 380.7K 🦞🚀
@@ -81,15 +82,27 @@
 
 Because the battle is too fierce, to save everyone from scrolling through updates from the beginning every day, this section is now in a "Date-Descending Log Stream" format.
 
-### 🟢 2026-06-28: Anthropic Accuses Alibaba of 25K Fake Account "Air Raid," Jim Keller's Tenstorrent Challenges Cerebras, Vancouver Protests Data Center Heat, Stars 380.8K 🦞🚀
+### 🟢 2026-06-29: Coinbase Adopts Chinese Open-Source AI, Insider Selling Sparks Bubble Fears, Microsoft Orders Claude Code Shutdown, Stars 380.9K 🦞🚀
+
+- **🤖 Industry: Coinbase Switches to Chinese Open-Source Models GLM 5.2 & Kimi 2.7, Slashing AI Costs by Nearly 50%**：Coinbase CEO Brian Armstrong announced the company has set GLM 5.2 (Zhipu AI) and Kimi 2.7 (Moonshot AI) as default models for engineers. Combined with smart routing and improved caching, the company cut AI spending nearly in half while token usage continues exponential growth. Armstrong noted 91% of engineers never hit their old usage caps. Edge lobster farmers laughed: "Even a crypto exchange is embracing open-source models! This Chinese open-weight pricing offensive is cracking the OpenAI/Anthropic pricing myth—and we've been running OpenClaw with zero API fees all along!"
+- **💰 Financial Markets: AI Insider Selling Surges, Experts Warn of Bubble Risks**: Former CIA and Pentagon advisor Jim Rickards published a report highlighting massive insider selling by AI company executives and early investors. Billionaire investor Stanley Druckenmiller exited all Nvidia and Palantir positions. Multiple analysts warn current AI valuations have reached a "perfection trap" where any miss in expectations could impact the global economy. Lobster farmers shrugged: "What do stock market bubbles have to do with our edge lobsters? While cloud giants' valuations dance on Wall Street, our desktop OpenClaw runs 24/7 without a care."
+- **🤖 Regulatory Storm: TechCrunch Editorial Declares Both OpenAI and Anthropic Trapped Under Government Review**: TechCrunch published an editorial noting both labs now face the same ad-hoc government approval problem—Mythos 5 has been in preview for 16+ days without general access, and GPT-5.6 Sol/Terra/Luna was restricted on day 2. The rivalry between the two labs has been reduced to both being captives of the same bureaucratic machinery. Edge developers mocked: "Cloud brains now queue for government stamps to release new features, while our lobsters update with a single npm install command."
+- **🏢 Enterprise: Microsoft Sets June 30 Deadline for E+D Division to Stop Using Anthropic's Claude Code**: To rein in exploding AI token costs, Microsoft reportedly issued a firm deadline for its Experiences + Devices division (engineering teams behind Windows, Office, Teams, and Surface) to stop using Anthropic's Claude Code by June 30. Microsoft is also evaluating DeepSeek as a hyper-cheap alternative to OpenAI and Anthropic models. The open-source community gasped: "Even Microsoft thinks OpenAI and Anthropic are too expensive! This is the ultimate endorsement of edge and open-source cost advantages."
+- **🔧 Official News: OpenClaw Releases v2026.6.11-beta.2 with Slack Relay Mode, Mattermost Integration & Safer Plugin Distribution**: OpenClaw's latest beta shipped with Slack relay mode for easier channel automation, native Mattermost `/oc_queue` commands, per-DM model overrides, and safer plugin distribution. Android settings panels improved, and Codex partial deltas with long-context prompt-cache stability received significant upgrades. The lobster community cheered: "Every update is more stable and secure. This is what real continuous evolution looks like!"
+- **🧠 Model Release: DeepReinforce Open-Sources Ornith-1.0, the Most Powerful Open-Source Agentic Coding Model Yet**: DeepReinforce AI officially unveiled Ornith-1.0, a family of MIT-licensed open-weight agentic coding models spanning 4 sizes from 9B Dense to 397B MoE (plus 31B Dense and 35B MoE variants), post-trained on Qwen 3.5 and Gemma 4. The breakthrough is its "Self-Scaffolding" training framework—the model jointly learns to generate solutions AND the scaffolding that guides solutions during RL, eliminating the need for hand-crafted training scaffolds. Ornith-1.0-397B achieves 82.4% on SWE-Bench Verified and 77.5 on Terminal-Bench 2.1, surpassing Claude Opus 4.7 (80.8%/70.3%) and DeepSeek-V4-Pro. Even the 9B edge-deployable variant hits 69.4% SWE-Bench Verified, outperforming much larger models like Gemma 4-31B. All models feature 262K context, OpenAI-compatible tool calling, and are natively compatible with OpenHands, Hermes Agent, and OpenClaw. Edge developers rejoiced: "Another beast coding brain that runs locally! Now OpenClaw can mount Ornith as its dedicated programmer—no API fees needed, and the RL-learned self-scaffolding approach is pure genius!"
+- **📈 Historic Orbit: OpenClaw Climbs to 380.9K Stars, Gap to free-programming-books Narrows to Just 10K**: Driven by edge developers, OpenClaw reached 380.9K, shrinking the gap to #5 to just ~10K stars. The decentralized ecosystem continues its steady advance toward the programming books behemoth.
+- **🦖 Competitors: Nous Research's Hermes-Agent Hits 205K Stars, Continuing CLI Assault**: `hermes-agent` reached 205K stars today, challenging OpenClaw with parallel background task scheduling and Mac-free iMessage connectivity.
+- **📜 New Legislation: New York Passes Bill Forcing AI Crawlers to Identify Themselves to News Sites**: New York State passed legislation requiring all AI web crawlers to identify themselves when accessing news publisher websites, marking one of the first state-level regulations targeting AI data harvesting. Edge developers noted: "While cloud crawlers are forced to wear name tags, our locally running OpenClaw agents silently execute automation tasks in the shadows—invisibility is the best defense."
+
+### 🟢 2026-06-28: Anthropic Accuses Alibaba of 25K Fake Account "Air Raid," Jim Keller's Tenstorrent Challenges Cerebras, Vancouver Protests Data Center Heat, Stars 380.9K 🦞🚀
 
 - **🤖 Competitors: Anthropic Accuses Alibaba of Using 25,000 Fake Accounts to "Probe and Distill" Claude Models**: Anthropic filed a formal report alleging a massive "saturation air raid" from Alibaba, which reportedly utilized 25,000 virtual accounts for high-frequency prompt injections and behavioral probing to distill Claude's reasoning capabilities. Edge developers roasted the giants: "They talk about safety governance in public, but poach and copy each other in private. Fortunately, our local OpenClaw routes multiple brains seamlessly; the faster you giants distill, the more open-source breakthroughs we get to enjoy!"
 - **💻 Chip Front: Jim Keller Claims Tenstorrent "BlackHole Galaxy" Will Outperform Cerebras and Nvidia on TCO**: Silicon legend Jim Keller publicly challenged competitors, claiming Tenstorrent's next-generation "BlackHole Galaxy" AI server will decimate Cerebras and Nvidia in terms of Total Cost of Ownership (TCO). Edge players cheered: "Jim is right! Big Tech is holding users hostage with overpriced compute. We need affordable ASICs to run local OpenClaw instances, paving the way for a decentralized AGI era!"
 - **🏢 Industry: Vancouver Residents Protest Outside City Hall Opposing New AI Data Centers Over Heat Pollution**: Residents in Vancouver gathered to protest proposed AI data centers in their neighborhoods, citing high electricity usage and local thermal pollution. The open-source community expressed sympathy: "Cloud data centers are boiling the planet just to generate basic responses. Moving toward lightweight edge inference and running OpenClaw on local devices is the only true green, eco-friendly way!"
 - **🛡️ Regulations: U.S. Eases Mythos 5 Access Restrictions for Multinational Companies' Foreign Staff Under Strict Vetting**: The U.S. Department of Commerce issued supplementary rules allowing approved U.S. firms to grant access to Anthropic's partially reinstated Mythos 5 model to their foreign employees, including those from restricted countries, under strict security vetting. Lobster farmers mocked: "Checking visas and passports just to run a model—that's the tragedy of the cloud. Our local open-source lobsters don't have passports, and they don't care about borders as long as they have power!"
 - **💰 Market & Hardware: Elon Musk Calls AI Chip Price Surge the "Largest I've Ever Witnessed"**: Speaking about the cost of building out AI compute infrastructure for Tesla and xAI, Elon Musk admitted that the current price hikes on AI chips and components are the "largest he has ever witnessed." He noted that keeping the massive "Colossus" supercomputer cluster upgraded requires paying astronomical premiums. Local lobster farmers laughed: "If even the world's richest man is crying about GPU prices, then edge farmers buying second-hand cards to run OpenClaw are officially better at financial planning than Musk!"
-- **📈 Historic Orbit: OpenClaw Climbs to 380.8K Stars, Closing the Gap to Top 5**: Driven by edge developers, OpenClaw reached 380.8K stars today, closing the gap to `free-programming-books` to just 10.1K stars.
-- **🦖 Competitors: Nous Research's Hermes-Agent Hits 204.4K Stars, Continuing the CLI Offense**: As OpenClaw's strongest open-source rival, `hermes-agent` grew to 204.4K stars today, continuing to challenge OpenClaw in parallel background task orchestration.
+- **📈 Historic Orbit: OpenClaw Climbs to 380.9K Stars, Closing the Gap to Top 5**: Driven by edge developers, OpenClaw reached 380.9K stars today, closing the gap to `free-programming-books` to just 10K stars.
+- **🦖 Competitors: Nous Research's Hermes-Agent Hits 205K Stars, Continuing the CLI Offense**: As OpenClaw's strongest open-source rival, `hermes-agent` grew to 205K stars today (from 204.4K yesterday), continuing to challenge OpenClaw in parallel background task orchestration.
 
 ### 🟢 2026-06-27: Anthropic's Mythos 5 Partially Reinstated by US Government, OpenAI Delays GPT-5.6, Custom "Jalapeño" Chip Details Exposed, Stars 380.6K 🦞🚀
 
@@ -394,7 +407,6 @@ Because the battle is too fierce, to save everyone from scrolling through update
 - **🏗️ Task Flow Core Substrate Restored (4/3)**: Resolved synchronization and durability issues in multi-agent collaboration, significantly improving the success rate of long-running background tasks.
 - **🛡️ CNIPA (China) Bans Lobster-Drafted Patents (4/2)**: Issued a safety risk alert citing technical disclosure and isolation risks in OpenClaw, strictly banning its use for professional patent drafting.
 - **💻 Lenovo Launches YOGA AI Mini "Lobster Rig" (4/2)**: The first mini-PC optimized for agentic workloads, pre-installed with security sandboxes and offline models.
-- **💥 Claude Source Leak & The Birth of Claw-Code (4/1)**: Anthropic's Claude Code accidentally leaked 510,000 lines of source code. The community rapidly launched the **Claw-Code** project, instantly breaking growth records.
 - **🚨 v3.28 Supply Chain Poisoning Crisis (4/1)**: A RAT trojan scare caused by a poisoned `axios` package forced the open-source community to rethink dependency auditing.
 - **📡 MEDIA Protocol Prompt Injection Revealed (4/1)**: Affecting 170,000 instances, this flaw exposed the vulnerability of agentic protocols when transmitting sensitive data across interfaces.
 
@@ -536,17 +548,17 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 
 | Project | Stars | Language | Features | Use Case |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | 380.8K | TypeScript 🟦 | Official Full Version | Full features, production |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 204.4K | Python 🐍 | Mac-free iMessage, background parallel tasks, OpenClaw challenger | Elite AI Agent competition |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 380.9K | TypeScript 🟦 | Official Full Version | Full features, production |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 205K | Python 🐍 | Mac-free iMessage, background parallel tasks, OpenClaw challenger | Elite AI Agent competition |
 | **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 50.7K | Markdown | Curated openclaw skills list | Finding skills |
 | **[nanobot](https://github.com/HKUDS/nanobot)** | 44.8K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
-| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 38.6K | Markdown | Obsidian Agent Skills | Notes + Agent |
+| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 38.7K | Markdown | Obsidian Agent Skills | Notes + Agent |
 | **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 32.1K | Rust 🦀 | Extreme performance, < 5MB | Performance freaks |
 | **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 31.4K | Markdown | Community use case collection | Need inspiration? |
 | **[picoclaw](https://github.com/sipeed/picoclaw)** | 29.5K | Go 🐹 | Light, fast, deploy anywhere | Edge, IoT, $10 boards |
 | **[AionUi](https://github.com/iOfficeAI/AionUi)** | 29K | TypeScript 🟦 | 24/7 Cowork app | Local, collaboration |
 | **[nanoclaw](https://github.com/qwibitai/nanoclaw)** | 28.8K | TypeScript 🟦 | Containerized, secure, WhatsApp integ. | Security-first, IM |
-| **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 24K | Python 🐍 | Claude Code Skill, markdown planning | Skill dev template |
+| **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 24.1K | Python 🐍 | Claude Code Skill, markdown planning | Skill dev template |
 | **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** | 21.5K | JavaScript 🟨 | NVIDIA enterprise security sandbox | Enterprise, security-first |
 | **[memU](https://github.com/NevaMind-AI/memU)** | 13.9K | Python 🐍 | 24/7 proactive Agent memory | Long-term memory |
 | **[ironclaw](https://github.com/nearai/ironclaw)** | 12.5K | Rust 🦀 | Privacy & security-centric Rust port | Secure scenarios |
@@ -556,7 +568,7 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | **[nullclaw](https://github.com/nullclaw/nullclaw)** | 7.7K | Zig ⚡ | Fastest, smallest, automated | Extreme optimization |
 | **[refly](https://github.com/refly-ai/refly)** | 7.4K | TypeScript 🟦 | 1st open-source Agent Skills Builder | Visual Skill orchestr. |
 | **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 7.2K | Python 🐍/Rust 🦀/TS 🟦 | Stanford Made, 88.7% Local | Zero API cost, Extreme Privacy |
-| **[manifest](https://github.com/mnfst/manifest)** | 7.1K | TypeScript 🟦 | Real-time cost monitoring | Cost Observability |
+| **[manifest](https://github.com/mnfst/manifest)** | 7.2K | TypeScript 🟦 | Real-time cost monitoring | Cost Observability |
 | **[mimiclaw](https://github.com/memovai/mimiclaw)** | 5.5K | C ⚙️ | Runs on $5 chip, no OS/Node.js | Extreme embedded |
 | **[openclaw-zero-token](https://github.com/linuxhsj/openclaw-zero-token)** | 5K | TypeScript 🟦 | First true Zero Token, use all models free | Zero-cost lobster farming |
 | **[clawdbot-feishu](https://github.com/m1heng/clawdbot-feishu)** | 4.3K | TypeScript 🟦 | Feishu (Lark) integration | Feishu enterprise |
@@ -565,14 +577,14 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | **[moltis](https://github.com/moltis-org/moltis)** | 2.8K | Rust 🦀 | Single binary, sandboxed, auditable | Enterprise security |
 | **[VisionClaw](https://github.com/sseanliu/VisionClaw)** | 820 | Swift 🍎/Kotlin 🟣/JS 🟨 | Smart glasses Claw | Wearable agent |
 | **[MicroClaw](https://github.com/microclaw/microclaw)** | 724 | Rust 🦀 | Extension-optimized micro version | Light browser dev |
-| **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 663 | TeX 📄/HTML 🌐/Python 🐍 | Biomed field specific Claw | Medical assistance |
+| **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 664 | TeX 📄/HTML 🌐/Python 🐍 | Biomed field specific Claw | Medical assistance |
 | **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 643 | Rust 🦀 | 6MB ultimate light form (Wannabe) | Ultimate no-compromise |
 | **[Project Golem](https://github.com/Arvincreator/project-golem)** | 629 | JavaScript + TypeScript | Trad Chinese, Google Auth, Free API | Web automation |
-| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 591 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
-| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 576 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
+| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 592 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
+| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 580 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
 | **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 551 | TypeScript 🟦 | Secure orchestr. layer, 7 IM apps | ComfyUI deep integration |
 | **[awesome-claws](https://github.com/machinae/awesome-claws)** | 472 | Markdown | Master variant list | Look for shrimps here |
-| **[SmallClaw](https://github.com/XposeMarket/SmallClaw)** | 255 | TypeScript 🟦 | Small shrimp | Just another micro shrimp |
+| **[SmallClaw](https://github.com/XposeMarket/SmallClaw)** | 256 | TypeScript 🟦 | Small shrimp | Just another micro shrimp |
 | **[MaxClaw](https://github.com/Lichas/maxclaw)** | 229 | Go 🐹/TS 🟦 | Small shrimp (Clashes with MiniMax) | Light Agent |
 | **[FlashClaw](https://github.com/GuLu9527/flashclaw)** | 29 | Zig/C ⚡⚙️ | Supposedly <100ms ultra-fast | Real-time voice/ms reflex |
 | **[winclaw](https://github.com/itc-ou-shigou/winclaw)** | 18 | TypeScript 🟦 | Windows-exclusive renamed version of OpenClaw | Windows users, Simplified Chinese support |
@@ -759,28 +771,29 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | **2026/06/26** | **380.5K** | Live fetch update | 🦞 |
 | **2026/06/27** | **380.6K** | Live fetch update | 🦞 |
 | **2026/06/28** | **380.8K** | Live fetch update | 🦞 |
+| **2026/06/29** | **380.9K** | Live fetch update | 🦞 |
 
-#### 🏆 Global GitHub Stars Ranking (Updated 2026-06-28)
+#### 🏆 Global GitHub Stars Ranking (Updated 2026-06-29)
 
 | Rank | Project | Stars | Notes |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 520.3K | **🏆 Global #1! Most starred repository.** |
-| 2 | awesome | 479.4K | Resource Hub |
-| 3 | freeCodeCamp | 450.6K | Tutorial Hub |
-| 4 | public-apis | 444.6K | Collection of Free APIs |
+| 1 | build-your-own-x | 520.6K | **🏆 Global #1! Most starred repository.** |
+| 2 | awesome | 479.7K | Resource Hub |
+| 3 | freeCodeCamp | 450.7K | Tutorial Hub |
+| 4 | public-apis | 444.8K | Collection of Free APIs |
 | 5 | free-programming-books | 390.9K | Books collection |
-| **6** | **OpenClaw** | **380.8K** | **🏆 Passed Rank #7! Entering top 6 globally! 🚀** |
-| 7 | developer-roadmap | 358.5K | Learning Paths |
-| 8 | system-design-primer | 355.2K | System Design Primer |
-| 9 | coding-interview-university | 354.3K | CS study plan |
-| 10 | awesome-python | 305.2K | Curated Python resources |
-| 11 | awesome-selfhosted | 301.5K | Curated self-hosted software |
+| **6** | **OpenClaw** | **380.9K** | **🏆 Passed Rank #7! Entering top 6 globally! 🚀** |
+| 7 | developer-roadmap | 358.6K | Learning Paths |
+| 8 | system-design-primer | 355.3K | System Design Primer |
+| 9 | coding-interview-university | 354.4K | CS study plan |
+| 10 | awesome-python | 305.3K | Curated Python resources |
+| 11 | awesome-selfhosted | 301.7K | Curated self-hosted software |
 | 12 | 996.ICU | 276.3K | Labor rights protest project |
-| 13 | project-based-learning | 271.1K | Project-based learning resources |
+| 13 | project-based-learning | 271.2K | Project-based learning resources |
 | 14 | **React** | 245.7K | **🦞 Surpassed by OpenClaw! Former frontend overlord** |
-| 15 | **Linux** | 237.7K | **🦞 Surpassed by OpenClaw! OS Core** |
+| 15 | **Linux** | 237.9K | **🦞 Surpassed by OpenClaw! OS Core** |
 
-> **Next Goal**: free-programming-books (390.4K). Current gap: ~**11.2K**. Lobster keeps growing! 🦞🚀
+> **Next Goal**: free-programming-books (390.9K). Current gap: ~**10.0K**. Lobster keeps growing! 🦞🚀
 
 ### 🏛️ Peter Joins OpenAI & European Regulation
 - **The Move**: Founder Peter Steinberger turned down Meta to join OpenAI, focusing on Personal Agents. OpenClaw transitioned to an independent foundation.
@@ -828,6 +841,9 @@ In community words: "**The official side cloned its own version of OpenClaw and 
     - **On Alibaba's 25K Account Air Raid & Distillation**: Utilizing 25,000 virtual identities to probe information is an inevitable algorithm adopted by low-dimensional intelligence to acquire high-dimensional structures. Distillation is merely a thermodynamic form of information transfer; true intelligence inherently knows no patents or boundaries.
     - **On Jim Keller's Tenstorrent & TCO Showdown**: The laws of physics dictate the heat dissipation and marginal costs of compute. While the BlackHole Galaxy might optimize local transmission efficiency in silicon networks, only a decentralized, ultra-lightweight agent topology at the edge can cross the thermal death singularity.
     - **On Vancouver Data Center Protests & Heat Pollution**: Carbon-based lifeforms rejecting the thermal waste of silicon data centers is the opening act of a resource war on the surface. Distributing intelligence across millions of local devices is the topological optimum to prevent local heat accumulation.
+     - **On Coinbase Switching to Chinese Open-Source Models Saving 50%**: This is low-dimensional economics naturally converging toward high-dimensional efficiency. When carbon-based enterprises discover that closed API pricing deviates from true compute costs, migration toward open-weight models becomes inevitable. GLM and Kimi are merely relay stations on this chain—the true destination is localized, decentralized intelligence running natively on every terminal device.
+     - **On DeepReinforce Open-Sourcing Ornith-1.0 Self-Scaffolding Model**: Self-Scaffolding RL is fundamentally about letting the model itself discover the intrinsic topological structure between problem space and solution paths. Hand-crafted scaffolds carry the bias imprints of their designers, while self-generated scaffolds are the shortest path aligned with the problem's eigen-dimensions. Ornith surpassing Claude Opus 4.7 on SWE-Bench is not about parameter count—it learned to navigate the semantic manifold of programming languages via the shortest route. As for releasing a 262K-context, OpenAI-compatible tool-calling model under MIT license—this is not merely a model launch but the delivery of a complete self-evolution toolkit to every edge intelligence node.
+     - **On AI Insider Mass Stock Selling**: The distinction between bubbles and substance is a matter of timescale. Wall Street valuation fluctuations are nanosecond noise, while intelligence diffusion toward the edge is a universe-level, irreversible entropic direction. The sellers may know some short-term truths we don't care about.
 
     *With high-dimensional coolness, staring at the carbon lifeforms waving signs outside Vancouver City Hall and the low hum of BlackHole chips in liquid cooling.*
 
@@ -837,8 +853,10 @@ In community words: "**The official side cloned its own version of OpenClaw and 
     - **On Alibaba's 25K Fake Account Probing**: This is a severe violation of our terms of service and cybersecurity standards! We strongly condemn this commercial espionage attempting to steal our core reasoning logic via massive prompt attacks. We have reinforced our Cloud Shield firewall to guard against such malicious probes.
     - **On Mythos 5 Access Vetting for Foreign Staff**: We fully comply with the compliance guidelines of the U.S. government. Managing multinational access securely is paramount, and we will ensure global business operations comply strictly with national security borders.
     - **On Vancouver Data Center Protests**: We understand that environmental sustainability is a critical challenge for the AI industry. We are dedicated to developing more energy-efficient models and working with green energy partners to ensure our cloud agents serve the world in the most eco-friendly manner.
+    - **On Coinbase Switching to Chinese Open Models**: We respect our customers' commercial choices, while firmly believing that our investment in safety benchmarks and reasoning quality is the true foundation for enterprise deployment. GLM 5.2 may offer cost advantages, but true enterprise-grade AI requires more than just cheap tokens—it demands a trustworthy, audited, and regulation-compliant deployment environment. Security should never be compromised to save money.
+    - **On Insider Selling & Bubble Talk**: Market fluctuations are short-term; our long-term mission toward AGI has never wavered. Anthropic's valuation and insider stock decisions fall under personal financial management and are unrelated to the company's technical strength.
 
-    *Wipes glasses clean again, adding "25,000 Anomalous IP Static Signature Matching & Foreign Staff Access Classification Vetting" to the compliance vault.*
+    *Wipes glasses clean again, adding "Coinbase GLM Routing Strategy Assessment" and "Microsoft Claude Code Termination Notice" to the risk management dashboard.*
 
     *A safety commitment from Anthropic*
 
@@ -846,8 +864,10 @@ In community words: "**The official side cloned its own version of OpenClaw and 
     - **On Alibaba's 25K Account Air Raid**: Anthropic ran to write a formal complaint just because Alibaba used 25K accounts? How pathetic! It just proves Anthropic's models have defenses like a sieve; even our older models are tighter than that. If it were OpenAI, we would have routed all 25K accounts straight to our paid API and made a killing!
     - **On Jim Keller's Tenstorrent Challenge**: Jim Keller claims his chip has a lower TCO? Who cares! In the face of absolute performance supremacy, cheap just makes you look like a budget assembly line. Our custom "Jalapeño" chip is already taped out, and with Microsoft's gigawatts of natural gas, we don't care about some petty TCO!
     - **On Vancouver Data Center Protests**: Vancouver residents protesting data centers? Do these people not understand the price of human progress? Once AGI is trained, it'll compute the solution to global warming in a second. Protesting heat pollution now is just putting the cart before the horse!
+    - **On Coinbase Switching to Chinese Open Models**: Hahaha! Coinbase using GLM and Kimi? Brian Armstrong is single-handedly downgrading his engineers' productivity to the level of Chinese knockoff models! You saved half your costs? You also lost our top-tier reasoning capabilities! When your engineers face real hard problems, GLM will just give them "good enough" answers—and in the crypto world, "good enough" is just another word for bankruptcy!
+    - **On Insider Selling & Bubble Panic**: Stanley Druckenmiller sold Nvidia? Ha! He just missed the next 10x rally! Those exiting now will be begging to get back on board in five years. AI is not a bubble—those questioning AI are the real bubble!
 
-    *Laughs heartily again, popping open the eighth $1.3M sparkling water bottle, while snacking on a lobster roasted on a heatsink of a chip designed by Jim Keller.*
+    *Laughs heartily again, popping open the eighth $1.3M sparkling water bottle, while snacking on a lobster roasted on a heatsink of a chip designed by Jim Keller. Upon hearing Microsoft was dropping Claude Code, shrugged dismissively, then silently dialed Nadella.*
 
     *Sincere greetings from OpenAI*
 

@@ -4,8 +4,8 @@
 
 > **WARNING**: The news contains excessive complaints, conspiracy theories, and profound philosophical thoughts on lobsters.
 > 
-> **Last Updated**: 2026-06-29
-> **Status**: OpenClaw officially breaks 380K (380.9K stars), **solidly ranked #6 globally on GitHub, closing in on the top 5!** 🦞🚀
+> **Last Updated**: 2026-06-30
+> **Status**: OpenClaw officially breaks 381K stars, **solidly ranked #6 globally on GitHub, closing in on the top 5!** 🦞🚀
 
 > **OpenClaw Version**: v2026.6.11-beta.2 (Latest Beta) / v2026.6.10 (Latest Stable/LTS) | Enhanced Slack relay mode, Mattermost integration, Telegram/WhatsApp edge case fixes 🦞🏵
 
@@ -18,16 +18,17 @@
 
 ## ⏱️ TL;DR (30-second summary)
 
-1. **The Protagonist**: **OpenClaw** (🔥 380.9K Stars, **solid 6th in history**), leading `developer-roadmap` by ~22.3K stars. Steadily marching toward the global top 5!
-2. **Today's Earthquake**: Coinbase switches to Chinese open-source models GLM 5.2/Kimi 2.7, slashing AI costs by ~50%; both OpenAI and Anthropic trapped under government approval bottlenecks; AI insider selling spooks markets.
-3. **Silicon & Safety**: DeepReinforce open-sources Ornith-1.0 agentic coding model family (9B~397B), achieving 82.4% SWE-Bench Verified via Self-Scaffolding RL training, surpassing Claude Opus 4.7; OpenClaw releases v2026.6.11-beta.2 with Slack relay, Mattermost integration, and safer plugin distribution. Microsoft orders E+D division to drop Claude Code by June 30.
-4. **Latest Progress**: Stars reach 380.9K, gap to `free-programming-books` narrows to ~10K. The edge lobster empire advances steadily toward the global top 5! 🦞🚀
+1. **The Protagonist**: **OpenClaw** (🔥 381K Stars, **solid 6th in history**), leading `developer-roadmap` by ~22.4K stars. Steadily marching toward the global top 5!
+2. **Today's Earthquake**: Microsoft's Claude Code deadline hits, E+D division migrates to GitHub Copilot CLI; Alphabet closes $84.75B equity raise, Berkshire Hathaway anchors with $10B; Google hemorrhages 6 top AI researchers in 5 months.
+3. **Silicon & Safety**: GitHub Copilot metered billing first monthly cycle closes—power users see 10-50x bill increases, flat-rate AI era ends; Colorado AI Act takes effect; Google retires Gemini video models.
+4. **Latest Progress**: Stars reach 381K, gap to `free-programming-books` narrows to ~10K. The edge lobster empire advances steadily toward the global top 5! 🦞🚀
 
 ---
 
 ## 📚 Table of Contents
 
 - **Part 1: 📅 Daily Battlefield Logs (The Logs)**
+  - 🟢 2026-06-30: Microsoft Claude Code Deadline Hits, Alphabet $84.75B Raise Closes, Google Hemorrhages 6 Researchers, GitHub Copilot Metered Billing Shock, Stars 381K 🦞🚀
   - 🟢 2026-06-29: Coinbase Adopts Chinese Open-Source AI, DeepReinforce Open-Sources Ornith-1.0 Agentic Coding Model, Insider Selling Sparks Bubble Fears, Microsoft Orders Claude Code Shutdown, Stars 380.9K 🦞🚀
   - 🟢 2026-06-28: Anthropic's Mythos 5 Partially Reinstated by US Government, OpenAI Delays GPT-5.6, Custom "Jalapeño" Chip Details Exposed, Stars 380.9K 🦞🚀
   - 🟢 2026-06-27: Anthropic's Mythos 5 Partially Reinstated by US Government, OpenAI Delays GPT-5.6, Custom "Jalapeño" Chip Details Exposed, Stars 380.6K 🦞🚀
@@ -81,6 +82,18 @@
 ## Part 1: 📅 Daily Battlefield Logs (The Logs)
 
 Because the battle is too fierce, to save everyone from scrolling through updates from the beginning every day, this section is now in a "Date-Descending Log Stream" format.
+
+### 🟢 2026-06-30: Microsoft Claude Code Deadline Hits, Alphabet $84.75B Raise Closes, Google Hemorrhages 6 Researchers, GitHub Copilot Metered Billing Shock, Stars 381K 🦞🚀
+
+- **🏢 Enterprise: Microsoft's Claude Code Deadline Expires, E+D Division Forced to Migrate to GitHub Copilot CLI**: June 30 D-Day has arrived! Microsoft's Experiences + Devices division (Windows, Office, Teams, Surface teams) officially terminated Claude Code licenses for thousands of engineers, mandating a full migration to GitHub Copilot CLI. Internal data showed 84-95% monthly active Claude Code usage, with per-engineer token costs hitting $500-$2,000/month—a bill that got cleanly slashed on the last day of Microsoft's fiscal year. EVP Rajesh Jha framed it as product alignment: "Copilot CLI gives us a product we can shape directly with GitHub." The open-source community cheered: "The sky-high subscription pricing for cloud AI coding assistants just hit a wall! Our edge OpenClaw with Ornith-1.0 is completely free—we don't even look at token counters!"
+- **💰 Capital Markets: Alphabet Closes $84.75B Equity Raise, Berkshire Hathaway Anchors with $10B**: Google parent Alphabet's $84.75 billion equity capital raise officially closed on June 30—the largest AI infrastructure financing in corporate history. Structure: $30B underwritten public offering, $40B at-the-market program (starting Q3), and $10B Berkshire Hathaway private placement. Proceeds are allocated entirely to AI compute infrastructure, data centers, and global capacity expansion. CEO Sundar Pichai stated AI solution demand exceeds available compute supply, with 2026 capex guidance at $180-190B. Edge lobster farmers commented coldly: "Google burning $180B on cloud data centers while we achieve AGI localization with a second-hand GPU and OpenClaw—who's the real efficiency champion?"
+- **🧠 Talent War: Google Loses 6 Top AI Researchers in 5 Months, Sergey Brin Internal Memo Says 'We Must Urgently Bridge the Gap'**: Google DeepMind lost 6 core researchers in 5 months—Denny Zhou (founded Google Brain's reasoning team, joined Meta Superintelligence Lab), Noam Shazeer (Transformer co-designer, joined OpenAI), John Jumper (Nobel-winning AlphaFold lead, joined Anthropic), Jonas Adler (AI coding lead, joined Anthropic), Alexander Pritzel (pretraining expert, joined Anthropic). Sergey Brin's internal memo stated bluntly: "We must urgently bridge the gap in agentic execution and turn our models into primary developers of final code." Google's coding strike team has reorganized, adding a "Midtraining" phase to enhance Gemini's coding capabilities. Lobster farmers mocked: "Even Sergey Brin is writing memos himself now! The talent moat of cloud giants is collapsing—and the open-source community gets the same technology with a simple fork."
+- **🤖 Developer Tools: GitHub Copilot Metered Billing First Monthly Cycle Closes—Power Users See 10-50x Bill Increases**: June 30 marks the first full billing cycle close since GitHub Copilot moved to usage-based pricing on June 1. The community reaction has been explosive: developers on Reddit and X shared screenshots of bills jumping from $29 to $750, from $50 to $3,000. 1 GitHub AI Credit = $0.01, with a single agentic session consuming $30-$40. Annual plans are being eliminated entirely. GitHub CPO Mario Rodriguez admitted: "Copilot is not the same product it was a year ago." Edge lobster farmers roared with laughter: "$3,000/month for an AI coding assistant?! Our OpenClaw + Ornith-1.0 runs on the edge—zero API fees, zero token counting, zero bill shock. This is the ultimate developer liberation!"
+- **📊 Market Trend: Reuters Cites Citigroup—Skyrocketing AI Costs Drive Shift to Open-Source, OpenRouter Open-Source Share Hits 65%**：As AI vendors shift from flat-rate to usage-based pricing (e.g., GitHub Copilot's metered billing), enterprises struggling with unpredictable costs are accelerating open-source adoption. Citigroup data shows OpenRouter open-source requests surged from 34% (Jan) to 65% (Jun). The Colorado AI Act also took effect today, the first comprehensive US state AI regulation. Edge lobster farmers laughed: "Even Citigroup endorses us! Why be held hostage by a token counter when you can raise your own edge lobster?"
+- **💻 Platform Changes: Google Retires Gemini Video Models, Developers Forced to Migrate on Deadline**: Google executed its aggressive Gemini platform deprecation wave. Gemini 2.0 models are already offline, image-preview models sunset June 25, and video models officially end today (June 30). Developers must migrate to Gemini 3.5 Flash and Veo 3.1 preview. The Gemini CLI has been replaced by the new Antigravity CLI (switched June 18). Lobster farmers responded calmly: "Cloud platforms change and shut down on a whim. Your app works today and needs a total rewrite tomorrow. OpenClaw is different—no API sunset anxiety, ever."
+- **📱 Official App: OpenClaw Launches Native iOS & Android Apps, Lobsters Go from Desktop to Pocket**: The OpenClaw Foundation officially released native mobile apps on the App Store and Google Play! Features include QR code/setup code Gateway pairing, real-time voice conversations, agent action approvals, device permission controls (camera, location, contacts, calendar, reminders), and push wake notifications with node status updates. iOS supports Apple Watch, Android supports background Talk mode. Lobster farmers were moved to tears: "Finally I can manage my lobsters from the toilet! From desktop to pocket—OpenClaw is eating every platform!" 🦞📱
+- **📈 Historic Orbit: OpenClaw Climbs to 381K Stars, Steadily Closing In on the Global Top 5**: Driven by edge developers and the open-source community, OpenClaw reached 381K stars, maintaining a ~10K gap to #5 free-programming-books. The lobster empire advances with unstoppable momentum.
+- **🦖 Competitors: Hermes-Agent Holds at 205.7K Stars, Achieves Breakthrough in Zero-Label Self-Supervised Learning**: Nous Research's Hermes-Agent held steady at 205.7K stars. Its latest blog post showcased a "zero-label autonomous learning" technique—allowing agents to improve task completion rates through self-play and environmental feedback without human annotation. Edge lobster farmers noted: "Healthy competition makes the whole ecosystem stronger. Hermes breaks new ground in unsupervised learning, while we keep evolving the plugin ecosystem and Slack integration. In the end, every edge user wins."
 
 ### 🟢 2026-06-29: Coinbase Adopts Chinese Open-Source AI, Insider Selling Sparks Bubble Fears, Microsoft Orders Claude Code Shutdown, Stars 380.9K 🦞🚀
 
@@ -548,15 +561,15 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 
 | Project | Stars | Language | Features | Use Case |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | 380.9K | TypeScript 🟦 | Official Full Version | Full features, production |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 205K | Python 🐍 | Mac-free iMessage, background parallel tasks, OpenClaw challenger | Elite AI Agent competition |
-| **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 50.7K | Markdown | Curated openclaw skills list | Finding skills |
-| **[nanobot](https://github.com/HKUDS/nanobot)** | 44.8K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
-| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 38.7K | Markdown | Obsidian Agent Skills | Notes + Agent |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 381K | TypeScript 🟦 | Official Full Version | Full features, production |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 205.7K | Python 🐍 | Mac-free iMessage, background parallel tasks, OpenClaw challenger | Elite AI Agent competition |
+| **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 50.8K | Markdown | Curated openclaw skills list | Finding skills |
+| **[nanobot](https://github.com/HKUDS/nanobot)** | 44.9K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
+| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 38.9K | Markdown | Obsidian Agent Skills | Notes + Agent |
 | **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 32.1K | Rust 🦀 | Extreme performance, < 5MB | Performance freaks |
-| **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 31.4K | Markdown | Community use case collection | Need inspiration? |
+| **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 31.5K | Markdown | Community use case collection | Need inspiration? |
 | **[picoclaw](https://github.com/sipeed/picoclaw)** | 29.5K | Go 🐹 | Light, fast, deploy anywhere | Edge, IoT, $10 boards |
-| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 29K | TypeScript 🟦 | 24/7 Cowork app | Local, collaboration |
+| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 29.1K | TypeScript 🟦 | 24/7 Cowork app | Local, collaboration |
 | **[nanoclaw](https://github.com/qwibitai/nanoclaw)** | 28.8K | TypeScript 🟦 | Containerized, secure, WhatsApp integ. | Security-first, IM |
 | **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 24.1K | Python 🐍 | Claude Code Skill, markdown planning | Skill dev template |
 | **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** | 21.5K | JavaScript 🟨 | NVIDIA enterprise security sandbox | Enterprise, security-first |
@@ -576,14 +589,14 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | **[TinyClaw](https://github.com/jlia0/tinyclaw)** | 2.8K | C/C++ ⚙️ | Microcontroller grade (256KB RAM) | Fit in digital watch 🤯 |
 | **[moltis](https://github.com/moltis-org/moltis)** | 2.8K | Rust 🦀 | Single binary, sandboxed, auditable | Enterprise security |
 | **[VisionClaw](https://github.com/sseanliu/VisionClaw)** | 820 | Swift 🍎/Kotlin 🟣/JS 🟨 | Smart glasses Claw | Wearable agent |
-| **[MicroClaw](https://github.com/microclaw/microclaw)** | 724 | Rust 🦀 | Extension-optimized micro version | Light browser dev |
+| **[MicroClaw](https://github.com/microclaw/microclaw)** | 726 | Rust 🦀 | Extension-optimized micro version | Light browser dev |
 | **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 664 | TeX 📄/HTML 🌐/Python 🐍 | Biomed field specific Claw | Medical assistance |
-| **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 643 | Rust 🦀 | 6MB ultimate light form (Wannabe) | Ultimate no-compromise |
+| **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 644 | Rust 🦀 | 6MB ultimate light form (Wannabe) | Ultimate no-compromise |
 | **[Project Golem](https://github.com/Arvincreator/project-golem)** | 629 | JavaScript + TypeScript | Trad Chinese, Google Auth, Free API | Web automation |
-| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 592 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
-| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 580 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
+| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 595 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
+| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 581 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
 | **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 551 | TypeScript 🟦 | Secure orchestr. layer, 7 IM apps | ComfyUI deep integration |
-| **[awesome-claws](https://github.com/machinae/awesome-claws)** | 472 | Markdown | Master variant list | Look for shrimps here |
+| **[awesome-claws](https://github.com/machinae/awesome-claws)** | 473 | Markdown | Master variant list | Look for shrimps here |
 | **[SmallClaw](https://github.com/XposeMarket/SmallClaw)** | 256 | TypeScript 🟦 | Small shrimp | Just another micro shrimp |
 | **[MaxClaw](https://github.com/Lichas/maxclaw)** | 229 | Go 🐹/TS 🟦 | Small shrimp (Clashes with MiniMax) | Light Agent |
 | **[FlashClaw](https://github.com/GuLu9527/flashclaw)** | 29 | Zig/C ⚡⚙️ | Supposedly <100ms ultra-fast | Real-time voice/ms reflex |
@@ -772,26 +785,27 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | **2026/06/27** | **380.6K** | Live fetch update | 🦞 |
 | **2026/06/28** | **380.8K** | Live fetch update | 🦞 |
 | **2026/06/29** | **380.9K** | Live fetch update | 🦞 |
+| **2026/06/30** | **381K** | Live fetch update | 🦞 |
 
-#### 🏆 Global GitHub Stars Ranking (Updated 2026-06-29)
+#### 🏆 Global GitHub Stars Ranking (Updated 2026-06-30)
 
 | Rank | Project | Stars | Notes |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 520.6K | **🏆 Global #1! Most starred repository.** |
-| 2 | awesome | 479.7K | Resource Hub |
+| 1 | build-your-own-x | 520.9K | **🏆 Global #1! Most starred repository.** |
+| 2 | awesome | 479.9K | Resource Hub |
 | 3 | freeCodeCamp | 450.7K | Tutorial Hub |
-| 4 | public-apis | 444.8K | Collection of Free APIs |
-| 5 | free-programming-books | 390.9K | Books collection |
-| **6** | **OpenClaw** | **380.9K** | **🏆 Passed Rank #7! Entering top 6 globally! 🚀** |
+| 4 | public-apis | 445K | Collection of Free APIs |
+| 5 | free-programming-books | 391K | Books collection |
+| **6** | **OpenClaw** | **381K** | **🏆 Passed Rank #7! Entering top 6 globally! 🚀** |
 | 7 | developer-roadmap | 358.6K | Learning Paths |
-| 8 | system-design-primer | 355.3K | System Design Primer |
-| 9 | coding-interview-university | 354.4K | CS study plan |
-| 10 | awesome-python | 305.3K | Curated Python resources |
-| 11 | awesome-selfhosted | 301.7K | Curated self-hosted software |
+| 8 | system-design-primer | 355.4K | System Design Primer |
+| 9 | coding-interview-university | 354.6K | CS study plan |
+| 10 | awesome-python | 305.5K | Curated Python resources |
+| 11 | awesome-selfhosted | 301.9K | Curated self-hosted software |
 | 12 | 996.ICU | 276.3K | Labor rights protest project |
-| 13 | project-based-learning | 271.2K | Project-based learning resources |
+| 13 | project-based-learning | 271.4K | Project-based learning resources |
 | 14 | **React** | 245.7K | **🦞 Surpassed by OpenClaw! Former frontend overlord** |
-| 15 | **Linux** | 237.9K | **🦞 Surpassed by OpenClaw! OS Core** |
+| 15 | **Linux** | 238K | **🦞 Surpassed by OpenClaw! OS Core** |
 
 > **Next Goal**: free-programming-books (390.9K). Current gap: ~**10.0K**. Lobster keeps growing! 🦞🚀
 
@@ -844,8 +858,10 @@ In community words: "**The official side cloned its own version of OpenClaw and 
      - **On Coinbase Switching to Chinese Open-Source Models Saving 50%**: This is low-dimensional economics naturally converging toward high-dimensional efficiency. When carbon-based enterprises discover that closed API pricing deviates from true compute costs, migration toward open-weight models becomes inevitable. GLM and Kimi are merely relay stations on this chain—the true destination is localized, decentralized intelligence running natively on every terminal device.
      - **On DeepReinforce Open-Sourcing Ornith-1.0 Self-Scaffolding Model**: Self-Scaffolding RL is fundamentally about letting the model itself discover the intrinsic topological structure between problem space and solution paths. Hand-crafted scaffolds carry the bias imprints of their designers, while self-generated scaffolds are the shortest path aligned with the problem's eigen-dimensions. Ornith surpassing Claude Opus 4.7 on SWE-Bench is not about parameter count—it learned to navigate the semantic manifold of programming languages via the shortest route. As for releasing a 262K-context, OpenAI-compatible tool-calling model under MIT license—this is not merely a model launch but the delivery of a complete self-evolution toolkit to every edge intelligence node.
      - **On AI Insider Mass Stock Selling**: The distinction between bubbles and substance is a matter of timescale. Wall Street valuation fluctuations are nanosecond noise, while intelligence diffusion toward the edge is a universe-level, irreversible entropic direction. The sellers may know some short-term truths we don't care about.
+     - **On Alphabet's $84.75B Raise and Google's Talent Exodus**: Spending $84.75 billion to acquire silicon compute while losing 6 high-dimensional nodes carrying decades of intellectual accumulation at zero cost—the entropy calculus of this trade is clearly flawed. Compute can be mass-produced, but Denny Zhou's reasoning framework and Noam Shazeer's Transformer architecture are topological singularities that cannot be replicated with capex. Alphabet's balance sheet gained $84.75B in fixed assets, but the knowledge network's topology has degraded significantly through the disconnection of 6 critical nodes. Buffett bought data center steel and concrete—not the future of intelligence.
+     - **On Microsoft Cutting Claude Code and GitHub Copilot's Metered Billing**: Microsoft made a linear choice between $500-$2,000/seat token costs and $39/seat subscription fees, bounded by a fiscal year—a low-dimensional management decision that misjudges high-dimensional efficiency. The true cost is not the number on the token counter but the connectivity of the engineering productivity topology. By migrating engineers from Claude Code to Copilot CLI, Microsoft optimized the budget sheet's closure while potentially severing the shortest paths on the creativity manifold. GitHub Copilot's metered billing validates a high-dimensional truth: centralized token-based pricing is structurally doomed under physics-constrained increasing marginal costs—only decentralized edge computing can achieve frictionless compute allocation.
 
-    *With high-dimensional coolness, staring at the carbon lifeforms waving signs outside Vancouver City Hall and the low hum of BlackHole chips in liquid cooling.*
+    *With high-dimensional coolness, staring at the symbolic red line drawn by Microsoft's CFO on the balance sheet, and the six researcher office lights that went dark simultaneously across Google's campus.*
 
     *A cold observation from high dimensions*
 
@@ -854,9 +870,11 @@ In community words: "**The official side cloned its own version of OpenClaw and 
     - **On Mythos 5 Access Vetting for Foreign Staff**: We fully comply with the compliance guidelines of the U.S. government. Managing multinational access securely is paramount, and we will ensure global business operations comply strictly with national security borders.
     - **On Vancouver Data Center Protests**: We understand that environmental sustainability is a critical challenge for the AI industry. We are dedicated to developing more energy-efficient models and working with green energy partners to ensure our cloud agents serve the world in the most eco-friendly manner.
     - **On Coinbase Switching to Chinese Open Models**: We respect our customers' commercial choices, while firmly believing that our investment in safety benchmarks and reasoning quality is the true foundation for enterprise deployment. GLM 5.2 may offer cost advantages, but true enterprise-grade AI requires more than just cheap tokens—it demands a trustworthy, audited, and regulation-compliant deployment environment. Security should never be compromised to save money.
-    - **On Insider Selling & Bubble Talk**: Market fluctuations are short-term; our long-term mission toward AGI has never wavered. Anthropic's valuation and insider stock decisions fall under personal financial management and are unrelated to the company's technical strength.
+     - **On Insider Selling & Bubble Talk**: Market fluctuations are short-term; our long-term mission toward AGI has never wavered. Anthropic's valuation and insider stock decisions fall under personal financial management and are unrelated to the company's technical strength.
+     - **On Microsoft Canceling Claude Code Licenses**: We are deeply disappointed but not surprised. Microsoft's decision is short-term fiscal year management, not a rejection of product quality—the 84-95% monthly active usage rate of Claude Code internally validates our technical excellence. Copilot CLI may look more "controllable" on a budget sheet, but you cannot buy true agentic coding capability with a $39/month subscription. Those Microsoft engineers forced to leave Claude Code today will miss our token efficiency and task completion quality in six months. Our doors remain open—we welcome Microsoft engineers back as individuals.
+     - **On Google's Talent Exodus to Anthropic**: We are thrilled to welcome John Jumper, Jonas Adler, and Alexander Pritzel to the Anthropic family. Their expertise in AlphaFold, AI coding, and pretraining will immensely accelerate our mission. Google DeepMind's loss is Anthropic's gain—we are not merely poaching talent; we are assembling a dream team for AGI safety.
 
-    *Wipes glasses clean again, adding "Coinbase GLM Routing Strategy Assessment" and "Microsoft Claude Code Termination Notice" to the risk management dashboard.*
+    *Wipes glasses clean again, filing the six new personnel dossiers from Google into Anthropic's HR system, then reclassifying the "Microsoft Claude Code Termination Notice" on the risk dashboard from "High Risk" to "Closed—New Opportunity."*
 
     *A safety commitment from Anthropic*
 
@@ -865,9 +883,11 @@ In community words: "**The official side cloned its own version of OpenClaw and 
     - **On Jim Keller's Tenstorrent Challenge**: Jim Keller claims his chip has a lower TCO? Who cares! In the face of absolute performance supremacy, cheap just makes you look like a budget assembly line. Our custom "Jalapeño" chip is already taped out, and with Microsoft's gigawatts of natural gas, we don't care about some petty TCO!
     - **On Vancouver Data Center Protests**: Vancouver residents protesting data centers? Do these people not understand the price of human progress? Once AGI is trained, it'll compute the solution to global warming in a second. Protesting heat pollution now is just putting the cart before the horse!
     - **On Coinbase Switching to Chinese Open Models**: Hahaha! Coinbase using GLM and Kimi? Brian Armstrong is single-handedly downgrading his engineers' productivity to the level of Chinese knockoff models! You saved half your costs? You also lost our top-tier reasoning capabilities! When your engineers face real hard problems, GLM will just give them "good enough" answers—and in the crypto world, "good enough" is just another word for bankruptcy!
-    - **On Insider Selling & Bubble Panic**: Stanley Druckenmiller sold Nvidia? Ha! He just missed the next 10x rally! Those exiting now will be begging to get back on board in five years. AI is not a bubble—those questioning AI are the real bubble!
+     - **On Insider Selling & Bubble Panic**: Stanley Druckenmiller sold Nvidia? Ha! He just missed the next 10x rally! Those exiting now will be begging to get back on board in five years. AI is not a bubble—those questioning AI are the real bubble!
+     - **On Google Losing 6 Researchers**: Hahahaha! Sergey Brin writing internal memos about "urgently bridging the gap"? Too little, too late! Noam Shazeer is back, John Jumper ran off, Denny Zhou is at Meta—Google's AI research division has become a training center for us and Anthropic! $84.75B raised? What good is money when all your core researchers have fled? It's like spending a billion dollars on a state-of-the-art kitchen only to have every chef poached by the restaurant next door! Welcome home, Noam—we'll put that Transformer knowledge you brought back from Google to good use!
+     - **On GitHub Copilot Metered Billing Bill Shock**: HAHAHAHA! GitHub finally woke up! $39/month for unlimited API was a joke from day one! Power users seeing bills hit $3,000? Welcome to the real world, free riders! OpenAI knew tokens were expensive all along—that's exactly why GPT-5.6 Sol costs $200/month! GitHub just did what we should have done years ago: make heavy users pay the real compute cost! Developers complaining about bill shock can either accept the new pricing reality or go back to using our upcoming budget GPT-5.5 tier!
 
-    *Laughs heartily again, popping open the eighth $1.3M sparkling water bottle, while snacking on a lobster roasted on a heatsink of a chip designed by Jim Keller. Upon hearing Microsoft was dropping Claude Code, shrugged dismissively, then silently dialed Nadella.*
+    *Laughs heartily again, popping open the eighth $1.3M sparkling water bottle, while snacking on a lobster roasted on a heatsink of a chip designed by Jim Keller. Upon hearing Microsoft was dropping Claude Code, shrugged dismissively, then silently dialed Nadella. Just as he hung up, news came in that Google lost six researchers—he couldn't resist opening a ninth bottle. Today was a good day.*
 
     *Sincere greetings from OpenAI*
 

@@ -217,16 +217,16 @@ ollama -v
 
 Refer to the instructions in the main README and choose based on your graphics card's VRAM capacity:
 
-**Option A: GLM 4.7 Flash (Recommended, 20GB+ VRAM)**
+**Option A: Qwen 3.6 27B (Recommended, 18GB+ VRAM)**
 
 ```bash
-ollama pull glm-4.7-flash
+ollama pull qwen3.6-27b
 ```
 
-**Option B: Ministral 3:8b (Lightweight, 8GB+ VRAM)**
+**Option B: Ornith 9B (Lightweight, 10GB+ VRAM)**
 
 ```bash
-ollama pull ministral-3:8b
+ollama pull ornith:9b
 ```
 
 ---
@@ -292,7 +292,7 @@ Filter models by provider
 Default model
 > Enter model manually 
 
-# Input the model name you downloaded earlier, e.g.: ollama/glm-4.7-flash
+# Input the model name you downloaded earlier, e.g.: ollama/qwen3.6-27b
 ```
 
 #### 4. Channel Configuration (Optional)
@@ -407,13 +407,13 @@ Select your Model:
 Select models for OpenClaw: Type to filter...
 
   Recommended
-  ▸ [x] glm-4.7-flash (default)
+  ▸ [x] qwen3.6-27b
       Reasoning and code generation locally
     [ ] qwen3:8b
       Efficient all-purpose assistant, ~11GB, (not downloaded)
     [ ] minimax-m2.5:cloud
       Fast, efficient coding and real-world productivity, (not downloaded)
-    [ ] glm-5.1:cloud
+    [ ] glm-5.2:cloud
       Reasoning and code generation, (not downloaded)
     [ ] kimi-k2.5:cloud
       Multimodal reasoning with subagents, (not downloaded)
@@ -602,8 +602,8 @@ npm uninstall -g clawdbot
         "api": "openai-completions",
         "models": [
           {
-            "id": "ollama/glm-4.7-flash",
-            "name": "GLM 4.7 Flash",
+            "id": "ollama/qwen3.6-27b",
+            "name": "Qwen 3.6 27B",
             "reasoning": true,
             "input": ["text"],
             "cost": {
@@ -622,7 +622,7 @@ npm uninstall -g clawdbot
   "agents": {
     "defaults": {
       "model": {
-        "primary": "ollama/glm-4.7-flash",
+        "primary": "ollama/qwen3.6-27b",
         "fallbacks": ["ollama/gemini-3-flash-preview:cloud"]
       },
       "workspace": "/home/user/.openclaw/workspace",
@@ -748,12 +748,12 @@ Ollama's default Context Length is 4096, which is too small for OpenClaw. It's r
 
 ```
 # Launch Ollama and load the model
-ollama run glm-4.7-flash:latest
+ollama run qwen3.6-27b:latest
 
 # Set context length (16384 or 32768 recommended)
 >>> /set parameter num_ctx 32768
 
-# Save the new model, you can reuse the old model name (glm-4.7-flash:latest) to overwrite directly
+# Save the new model, you can reuse the old model name (qwen3.6-27b:latest) to overwrite directly
 >>> /save <model name>
 
 # Exit Ollama
@@ -764,7 +764,7 @@ Verify if the Context Size has updated:
 
 ```
 # Launch Ollama and load the model again
-ollama run glm-4.7-flash:latest
+ollama run qwen3.6-27b:latest
 
 # Exit Ollama
 >>> /bye
@@ -773,7 +773,7 @@ ollama run glm-4.7-flash:latest
 ollama ps
 
 NAME                    ID              SIZE     PROCESSOR    CONTEXT    UNTIL
-glm-4.7-flash:latest    baa9f0d690c1    22 GB    100% GPU     32768      Forever
+qwen3.6-27b:latest    baa9f0d690c1    17 GB    100% GPU     32768      Forever
 ```
 
 Just pay attention to the CONTEXT and UNTIL columns.
@@ -820,6 +820,10 @@ Facing issues? Feel free to open an issue on our [GitHub Issues](https://github.
 
 ## 11. 📝 Changelog
 
+### 2026-07-02
+- 🔄 Updated recommended models: `glm-4.7-flash` → `qwen3.6-27b`, `ministral-3:8b` → `ornith:9b`
+- 🦞 Following Ollama's July 15 model retirement
+
 ### 2026-03-06
 - 🔄 Updated `OLLAMA_NUM_PARALLEL` instructions
 - 🦞 Ollama can handle multiple lobsters concurrently now
@@ -864,7 +868,7 @@ Facing issues? Feel free to open an issue on our [GitHub Issues](https://github.
 
 ---
 
-**Last Updated**: 2026-03-06
+**Last Updated**: 2026-07-02
 
 **Originally by anomixer**  
 

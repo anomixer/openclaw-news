@@ -110,8 +110,8 @@ Although OpenClaw theoretically supports any OpenAI-compatible model, community 
 
 | Model Series | Model Name | VRAM Req | Size | Best For |
 |---------|---------|----------|------|---------|
-| **GLM** | `glm-4.7-flash` | 20GB+ | 19GB | Fast response, automation |
-| **Ministral** | `ministral-3:8b` | 8GB+ | 6GB | Lightweight, daily use |
+| **Qwen** | `qwen3.6-27b` | 18GB+ | 17GB | Reasoning, code generation |
+| **Ornith** | `ornith:9b` | 10GB+ | 9GB | Lightweight, daily use |
 | **GPT-OSS** | `gpt-oss-20b` | 16GB+ | - | Open source ecosystem exclusive |
 
 > ⚠️ **Known Issues**: `qwen2.5` and `qwen3` currently have compatibility issues and are temporarily not recommended!
@@ -120,23 +120,23 @@ Although OpenClaw theoretically supports any OpenAI-compatible model, community 
 
 Choose a suitable model based on your graphics card's VRAM:
 
-#### Option A: GLM 4.7 Flash (Recommended)
+#### Option A: Qwen 3.6 27B (Recommended)
 
 ```cmd
-ollama pull glm-4.7-flash
+ollama pull qwen3.6-27b
 ```
 
-- Model Size: 19GB
-- Suitable for: GPUs with 20GB+ VRAM
+- Model Size: 17GB
+- Suitable for: GPUs with 18GB+ VRAM
 
-#### Option B: Ministral 3:8b (Lightweight)
+#### Option B: Ornith 9B (Lightweight)
 
 ```cmd
-ollama pull ministral-3:8b
+ollama pull ornith:9b
 ```
 
-- Model Size: 6GB
-- Suitable for: GPUs with 8GB+ VRAM
+- Model Size: 9GB
+- Suitable for: GPUs with 10GB+ VRAM
 
 ### Configure Cloud Models (Optional)
 
@@ -204,7 +204,7 @@ Filter models by provider
 Default model
 > Enter model manually 
 
-# Enter the model name mentioned above, e.g., ollama/glm-4.7-flash
+# Enter the model name mentioned above, e.g., ollama/qwen3.6-27b
 ```
 
 #### 4. Channel Configuration (Optional)
@@ -441,8 +441,8 @@ npm uninstall -g clawdbot
         "api": "openai-completions",
         "models": [
           {
-            "id": "ollama/glm-4.7-flash",
-            "name": "GLM 4.7 Flash",
+            "id": "ollama/qwen3.6-27b",
+            "name": "Qwen 3.6 27B",
             "reasoning": true,
             "input": ["text"],
             "cost": {
@@ -461,7 +461,7 @@ npm uninstall -g clawdbot
   "agents": {
     "defaults": {
       "model": {
-        "primary": "ollama/glm-4.7-flash",
+        "primary": "ollama/qwen3.6-27b",
         "fallbacks": ["ollama/gemini-3-flash-preview:cloud"]
       },
       "workspace": "C:\\Users\\USER\\.openclaw\\workspace",
@@ -595,6 +595,10 @@ Facing issues? Feel free to open an issue on our [GitHub Issues](https://github.
 
 ## 📝 Changelog
 
+### 2026-07-02
+- 🔄 Updated recommended models: `glm-4.7-flash` → `qwen3.6-27b`, `ministral-3:8b` → `ornith:9b`
+- 🦞 Following Ollama's July 15 model retirement
+
 ### 2026-03-06
 - 🔄 Updated `OLLAMA_NUM_PARALLEL` instructions
 - 🦞 Ollama can handle multiple lobsters concurrently now
@@ -626,7 +630,7 @@ Facing issues? Feel free to open an issue on our [GitHub Issues](https://github.
 
 ---
 
-**Last Updated**: 2026-02-27
+**Last Updated**: 2026-07-02
 
 **Originally by anomixer**  
 

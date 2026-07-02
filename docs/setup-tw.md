@@ -110,8 +110,8 @@ winget install python
 
 | 模型系列 | 模型名稱 | VRAM 需求 | 大小 | 適合場景 |
 |---------|---------|----------|------|---------|
-| **GLM** | `glm-4.7-flash` | 20GB+ | 19GB | 快速回應、自動化 |
-| **Ministral** | `ministral-3:8b` | 8GB+ | 6GB | 輕量級、日常使用 |
+| **Qwen** | `qwen3.6-27b` | 18GB+ | 17GB | 推理、程式生成 |
+| **Ornith** | `ornith:9b` | 10GB+ | 9GB | 輕量級、日常使用 |
 | **GPT-OSS** | `gpt-oss-20b` | 16GB+ | - | 開源生態專用 |
 
 > ⚠️ **已知問題**: `qwen2.5` 和 `qwen3` 目前有相容性問題，暫時不建議使用！
@@ -120,23 +120,23 @@ winget install python
 
 根據你的顯卡 VRAM 選擇合適的模型：
 
-#### 選項 A: GLM 4.7 Flash（推薦）
+#### 選項 A: Qwen 3.6 27B（推薦）
 
 ```cmd
-ollama pull glm-4.7-flash
+ollama pull qwen3.6-27b
 ```
 
-- 模型大小：19GB
-- 適合：vRAM 為 20GB 以上顯卡
+- 模型大小：17GB
+- 適合：vRAM 為 18GB 以上顯卡
 
-#### 選項 B: Ministral 3:8b（輕量版）
+#### 選項 B: Ornith 9B（輕量版）
 
 ```cmd
-ollama pull ministral-3:8b
+ollama pull ornith:9b
 ```
 
-- 模型大小：6GB
-- 適合：vRAM 為 8GB 以上顯卡
+- 模型大小：9GB
+- 適合：vRAM 為 10GB 以上顯卡
 
 ### 配置雲端模型（可選）
 
@@ -204,7 +204,7 @@ Filter models by provider
 Default model
 > Enter model manually 
 
-#輸入上述的模型名稱，例如: ollama/glm-4.7-flash
+#輸入上述的模型名稱，例如: ollama/qwen3.6-27b
 ```
 
 #### 4. 頻道配置（可選）
@@ -440,8 +440,8 @@ npm uninstall -g clawdbot
         "api": "openai-completions",
         "models": [
           {
-            "id": "ollama/glm-4.7-flash",
-            "name": "GLM 4.7 Flash",
+            "id": "ollama/qwen3.6-27b",
+            "name": "Qwen 3.6 27B",
             "reasoning": true,
             "input": ["text"],
             "cost": {
@@ -460,7 +460,7 @@ npm uninstall -g clawdbot
   "agents": {
     "defaults": {
       "model": {
-        "primary": "ollama/glm-4.7-flash",
+        "primary": "ollama/qwen3.6-27b",
         "fallbacks": ["ollama/gemini-3-flash-preview:cloud"]
       },
       "workspace": "C:\\Users\\USER\\.openclaw\\workspace",
@@ -594,6 +594,10 @@ OLLAMA_CONTEXT_LENGTH=32768
 
 ## 📝 更新日誌
 
+### 2026-07-02
+- 🔄 更新推薦模型：`glm-4.7-flash` → `qwen3.6-27b`，`ministral-3:8b` → `ornith:9b`
+- 🦞 因應 Ollama 7/15 模型淘汰通知
+
 ### 2026-03-06
 - 🔄 更新 OLLAMA_NUM_PARALLEL 說明
 - 🦞 Ollama 可以同時應付多隻龍蝦了
@@ -625,7 +629,7 @@ OLLAMA_CONTEXT_LENGTH=32768
 
 ---
 
-**最後更新**: 2026-02-27
+**最後更新**: 2026-07-02
 
 **原創 by anomixer**  
 

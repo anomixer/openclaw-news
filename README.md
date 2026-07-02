@@ -4,8 +4,8 @@
 
 > **WARNING**: The news contains excessive complaints, conspiracy theories, and profound philosophical thoughts on lobsters.
 > 
-> **Last Updated**: 2026-07-01
-> **Status**: OpenClaw reaches 381.2K stars, **solidly ranked #6 globally on GitHub, narrowing gap to #5 free-programming-books to ~9.8K!** 🦞🚀
+> **Last Updated**: 2026-07-02
+> **Status**: OpenClaw climbs to 381.3K stars, **solidly ranked #6 globally on GitHub, narrowing gap to #5 free-programming-books to ~9.8K!** 🦞🚀
 
 > **OpenClaw Version**: v2026.6.11-beta.2 (Latest Beta) / v2026.6.10 (Latest Stable/LTS) | Enhanced Slack relay mode, Mattermost integration, Telegram/WhatsApp edge case fixes 🦞🏵
 
@@ -18,16 +18,17 @@
 
 ## ⏱️ TL;DR (30-second summary)
 
-1. **The Protagonist**: **OpenClaw** (🔥 381.2K Stars, **solid 6th in history**), leading `developer-roadmap` by ~22.4K stars. Steadily marching toward the global top 5!
-2. **Today's Earthquake**: Anthropic launches Claude Sonnet 5 — 92.4% SWE-Bench Verified leapfrogs Opus 4.6, starts at $2/$10 per M tokens as IPO pace accelerates; Schneider Electric acquires Cognite for $3.1B in largest Norwegian AI exit.
-3. **Edge & AI Input**: Acti embeds AI agents directly into smartphone keyboards; AI chip stocks add $2T in Q2 as investors diversify beyond Nvidia; Etched hits $5B valuation.
-4. **Latest Progress**: Stars reach 381.2K, gap to `free-programming-books` narrows to ~9.8K. The edge lobster empire charges toward the global top 5! 🦞🚀
+1. **The Protagonist**: **OpenClaw** (🔥 381.3K Stars, **solid 6th in history**), leading `developer-roadmap` by ~22.4K stars. Steadily marching toward the global top 5!
+2. **Today's Earthquake**: Amazon launches $1B FDE org embedding AI engineers inside customers; Japan plans $6B sovereign AI model and 10M robots by 2040; X launches MCP server for AI tools.
+3. **Edge & Open-Source**: Video-Use open-source agentic video editing hits GitHub Trending; AI-Berkshire multi-agent value investing framework; ZCode $9/month plan with GLM-5.2.
+4. **Latest Progress**: Stars reach 381.3K, gap to `free-programming-books` narrows to ~9.8K. The edge lobster empire charges toward the global top 5! 🦞🚀
 
 ---
 
 ## 📚 Table of Contents
 
 - **Part 1: 📅 Daily Battlefield Logs (The Logs)**
+  - 🟢 2026-07-02: Amazon Launches $1B FDE Org Embedding AI Engineers in Customers, Japan Plans $6B Sovereign AI & 10M Robots by 2040, Video-Use Goes Viral, Stars 381.3K 🦞🚀
   - 🟢 2026-07-01: Anthropic Launches Claude Sonnet 5 — Mid-Tier Leapfrogs Opus 4.6, Schneider Electric Buys Cognite for $3.1B, AI Keyboard Agents Arrive, Stars 381.2K 🦞🚀
   - 🟢 2026-06-30: Microsoft Claude Code Deadline Hits, Alphabet $84.75B Raise Closes, Google Hemorrhages 6 Researchers, GitHub Copilot Metered Billing Shock, Stars 381K 🦞🚀
   - 🟢 2026-06-29: Coinbase Adopts Chinese Open-Source AI, DeepReinforce Open-Sources Ornith-1.0 Agentic Coding Model, Insider Selling Sparks Bubble Fears, Microsoft Orders Claude Code Shutdown, Stars 380.9K 🦞🚀
@@ -83,6 +84,19 @@
 ## Part 1: 📅 Daily Battlefield Logs (The Logs)
 
 Because the battle is too fierce, to save everyone from scrolling through updates from the beginning every day, this section is now in a "Date-Descending Log Stream" format.
+
+### 🟢 2026-07-02: Amazon Launches $1B FDE Org Embedding AI Engineers in Customers, Japan Plans $6B Sovereign AI & 10M Robots by 2040, Video-Use Goes Viral, Stars 381.3K 🦞🚀
+
+- **🏢 Enterprise AI: Amazon Launches $1B Forward-Deployed Engineering Org, Embedding AI Engineers Inside Customers**: AWS announced a new $1B Forward Deployed Engineering (FDE) organization, putting small teams of AI engineers inside client companies for ~45-day sprints to build custom agentic systems. Following Palantir's model, the unit aims to compress AI deployments from months to days while leaving customers self-sufficient. AWS VP Francessca Vasquez: "Customers leave with both new solutions and lasting AI skills." This follows OpenAI's $4B and Anthropic's $1.5B FDE ventures. Edge farmers: "$1B to embed engineers when OpenClaw's agentic workflows deploy in minutes, not days, with zero consulting fees — the FDE model is an admission that cloud AI is still too hard to deploy."
+- **🇯🇵 National Strategy: Japan Plans $6B Sovereign AI Model and 10 Million AI Robots by 2040**: Japan unveiled an ambitious plan to develop a homegrown AI model through consortium Noetra (backed by SoftBank, Sony, and 44 companies) and deploy 10 million AI-powered robots across 18 sectors by 2040. The government will invest up to $6.1B over five years, focusing on "physical AI" — self-driving cars, factory robots, and android assistants — to address labor shortages from its aging population. Industry Minister: "Building data infrastructure for physical AI that capitalizes on Japan's strengths." Edge farmers: "Japan's physical AI robot army is a visionary move — and OpenClaw agents will be the brains running on every one of those robots, not some cloud API."
+- **🎬 Open Source: Video-Use Brings Agentic Video Editing via Coding Agents, Hits GitHub Trending**: The browser-use team launched Video-Use, an open-source framework that shifts video editing from manual GUIs to programmatic, agent-driven workflows. Coding agents execute Python/FFmpeg commands to automate complex video manipulation — trimming, compositing, effects, and rendering — all from natural language instructions. The project quickly hit GitHub Trending. Edge creators: "Agentic video editing that runs locally with zero cloud dependency? This is exactly the kind of open-source tool that pairs perfectly with OpenClaw's automation pipeline."
+- **📊 Finance AI: AI-Berkshire Open-Sources Multi-Agent Value Investing Framework**: A new GitHub project called AI-Berkshire went viral, offering a value investment research framework powered by Claude Code and multi-agent analysis. The system uses multiple specialized agents to analyze financial statements, calculate intrinsic value, assess moats, and generate investment memos — all orchestrated through agent collaboration. Edge investors: "Multi-agent value investing running on Claude Code — now imagine this running on local OpenClaw with open-source models. Truly democratized Wall Street."
+- **💻 Developer Tools: ZCode Launches $9/Month AI Coding Plan with GLM-5.2 Integration**: Zhipu AI's ZCode platform launched a $9/month plan targeting small-scale developers, offering GLM-5.2 harness access, 20+ coding tool integrations, and flagship model updates. The budget tier aims to compete with Copilot and Codex on price. Edge devs: "$9/month for GLM-5.2 coding is competitive — but our OpenClaw with Ornith-1.0 still costs exactly zero dollars per month in API fees."
+- **🔬 Research: Meituan Showcases 6 Accepted Papers at ACL 2026, Pushing LLM Evaluation & Reasoning**: The Meituan technical team announced 6 papers accepted at ACL 2026, covering LLM evaluation, complex process reasoning, competition-level math optimization, RL optimization, and generative recommendation systems. The research bridges theoretical AI capabilities with practical applications in Meituan's massive service ecosystem. Lobster farmers: "Chinese tech giants keep pumping out frontier AI research — and every breakthrough eventually lands in open-weight models we can run on OpenClaw."
+- **🔧 Platform: X (Twitter) Launches MCP Server for AI Tools**: X launched an MCP (Model Context Protocol) server, making its platform data accessible to AI tools through standardized interfaces. Developers can now feed real-time X data into agentic workflows. Edge farmers: "X opens its data to AI agents — now hook it up to OpenClaw for automated social listening and trend analysis, all running locally."
+- **⚡ Software Optimization: Nvidia Cuts DeepSeek V4 Token Cost by 5x Through Software Alone, No Hardware Change**: Nvidia announced a 5x token cost reduction for DeepSeek V4 inference purely through software optimization — custom CUDA kernels, attention algorithm rewriting, and inference pipeline tuning — with zero hardware upgrades. The optimization targets the open-weight Chinese model that has been gaining Western enterprise adoption (see July 1). Edge farmers: "5x cheaper on the same hardware? This is exactly what the edge needs — Nvidia just made running a frontier open-weight model on local GPUs dramatically more affordable. OpenClaw + DeepSeek V4 just got 5x more viable."
+- **📈 Orbital: OpenClaw Reaches 381.3K Stars**: OpenClaw climbs to 381.3K stars. The gap to #5 free-programming-books (391.1K) holds at ~9.8K. The lobster fleet keeps growing! 🦞🚀
+- **🦖 Competitors: Hermes-Agent Hits 207.3K Stars**: Hermes-Agent climbs to 207.3K (from 206.5K). The open-source agent ecosystem continues explosive growth across the board.
 
 ### 🟢 2026-07-01: Anthropic Launches Claude Sonnet 5 — Mid-Tier Leapfrogs Opus 4.6, Schneider Electric Buys Cognite for $3.1B, AI Keyboard Agents Arrive, Stars 381.2K 🦞🚀
 
@@ -577,26 +591,26 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 
 | Project | Stars | Language | Features | Use Case |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | 381.2K | TypeScript 🟦 | Official Full Version | Full features, production |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 206.5K | Python 🐍 | Mac-free iMessage, background parallel tasks, OpenClaw challenger | Elite AI Agent competition |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 381.3K | TypeScript 🟦 | Official Full Version | Full features, production |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 207.3K | Python 🐍 | Mac-free iMessage, background parallel tasks, OpenClaw challenger | Elite AI Agent competition |
 | **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 50.8K | Markdown | Curated openclaw skills list | Finding skills |
 | **[nanobot](https://github.com/HKUDS/nanobot)** | 44.9K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
-| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 39.1K | Markdown | Obsidian Agent Skills | Notes + Agent |
+| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 39.3K | Markdown | Obsidian Agent Skills | Notes + Agent |
 | **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 32.1K | Rust 🦀 | Extreme performance, < 5MB | Performance freaks |
 | **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 31.5K | Markdown | Community use case collection | Need inspiration? |
 | **[picoclaw](https://github.com/sipeed/picoclaw)** | 29.5K | Go 🐹 | Light, fast, deploy anywhere | Edge, IoT, $10 boards |
-| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 29.1K | TypeScript 🟦 | 24/7 Cowork app | Local, collaboration |
+| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 29.2K | TypeScript 🟦 | 24/7 Cowork app | Local, collaboration |
 | **[nanoclaw](https://github.com/qwibitai/nanoclaw)** | 28.8K | TypeScript 🟦 | Containerized, secure, WhatsApp integ. | Security-first, IM |
-| **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 24.2K | Python 🐍 | Claude Code Skill, markdown planning | Skill dev template |
+| **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 24.3K | Python 🐍 | Claude Code Skill, markdown planning | Skill dev template |
 | **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** | 21.5K | JavaScript 🟨 | NVIDIA enterprise security sandbox | Enterprise, security-first |
 | **[memU](https://github.com/NevaMind-AI/memU)** | 14K | Python 🐍 | 24/7 proactive Agent memory | Long-term memory |
 | **[ironclaw](https://github.com/nearai/ironclaw)** | 12.5K | Rust 🦀 | Privacy & security-centric Rust port | Secure scenarios |
-| **[MemOS](https://github.com/MemTensor/MemOS)** | 10K | Python 🐍 | AI Memory OS, cross-task Skill memory | Memory & Skill reuse |
+| **[MemOS](https://github.com/MemTensor/MemOS)** | 10.1K | Python 🐍 | AI Memory OS, cross-task Skill memory | Memory & Skill reuse |
 | **[moltworker](https://github.com/cloudflare/moltworker)** | 9.9K | TypeScript 🟦 | Run on Cloudflare Workers | Serverless, zero maint. |
 | **[EverMemOS](https://github.com/EverMind-AI/EverMemOS)** | 9.2K | Python 🐍 | Cross-LLM & platform memory OS | Advanced memory |
 | **[nullclaw](https://github.com/nullclaw/nullclaw)** | 7.7K | Zig ⚡ | Fastest, smallest, automated | Extreme optimization |
 | **[refly](https://github.com/refly-ai/refly)** | 7.4K | TypeScript 🟦 | 1st open-source Agent Skills Builder | Visual Skill orchestr. |
-| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 7.2K | Python 🐍/Rust 🦀/TS 🟦 | Stanford Made, 88.7% Local | Zero API cost, Extreme Privacy |
+| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 7.3K | Python 🐍/Rust 🦀/TS 🟦 | Stanford Made, 88.7% Local | Zero API cost, Extreme Privacy |
 | **[manifest](https://github.com/mnfst/manifest)** | 7.2K | TypeScript 🟦 | Real-time cost monitoring | Cost Observability |
 | **[mimiclaw](https://github.com/memovai/mimiclaw)** | 5.5K | C ⚙️ | Runs on $5 chip, no OS/Node.js | Extreme embedded |
 | **[openclaw-zero-token](https://github.com/linuxhsj/openclaw-zero-token)** | 5K | TypeScript 🟦 | First true Zero Token, use all models free | Zero-cost lobster farming |
@@ -605,12 +619,12 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | **[TinyClaw](https://github.com/jlia0/tinyclaw)** | 2.8K | C/C++ ⚙️ | Microcontroller grade (256KB RAM) | Fit in digital watch 🤯 |
 | **[moltis](https://github.com/moltis-org/moltis)** | 2.8K | Rust 🦀 | Single binary, sandboxed, auditable | Enterprise security |
 | **[VisionClaw](https://github.com/sseanliu/VisionClaw)** | 820 | Swift 🍎/Kotlin 🟣/JS 🟨 | Smart glasses Claw | Wearable agent |
-| **[MicroClaw](https://github.com/microclaw/microclaw)** | 727 | Rust 🦀 | Extension-optimized micro version | Light browser dev |
+| **[MicroClaw](https://github.com/microclaw/microclaw)** | 728 | Rust 🦀 | Extension-optimized micro version | Light browser dev |
 | **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 663 | TeX 📄/HTML 🌐/Python 🐍 | Biomed field specific Claw | Medical assistance |
 | **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 644 | Rust 🦀 | 6MB ultimate light form (Wannabe) | Ultimate no-compromise |
 | **[Project Golem](https://github.com/Arvincreator/project-golem)** | 630 | JavaScript + TypeScript | Trad Chinese, Google Auth, Free API | Web automation |
-| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 595 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
-| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 585 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
+| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 598 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
+| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 586 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
 | **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 551 | TypeScript 🟦 | Secure orchestr. layer, 7 IM apps | ComfyUI deep integration |
 | **[awesome-claws](https://github.com/machinae/awesome-claws)** | 472 | Markdown | Master variant list | Look for shrimps here |
 | **[SmallClaw](https://github.com/XposeMarket/SmallClaw)** | 255 | TypeScript 🟦 | Small shrimp | Just another micro shrimp |
@@ -793,34 +807,27 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | **2026/05/13~18** | **371.3K~372.7K** | Live fetch update | 🦞 |
 | **2026/05/19** | **373.0K** | Crossed 373K, v2026.5.19-beta.1 Blitz Drop, fixed SQLite-Vec main thread freeze bug | 🦞🚀 |
 | **2026/05/20~06/12** | **373.3K~378.2K** | Live fetch update | 🦞 |
-| **2026/06/13~22** | **378.4K~380.0K** | Live fetch update | 🦞 |
-| **2026/06/23** | **380K** | Live fetch update | 🦞 |
-| **2026/06/24** | **380.2K** | Live fetch update | 🦞 |
-| **2026/06/25** | **380.3K** | Live fetch update | 🦞 |
-| **2026/06/26** | **380.5K** | Live fetch update | 🦞 |
-| **2026/06/27** | **380.6K** | Live fetch update | 🦞 |
-| **2026/06/28** | **380.8K** | Live fetch update | 🦞 |
-| **2026/06/29** | **380.9K** | Live fetch update | 🦞 |
-| **2026/06/30** | **381K** | Live fetch update | 🦞 |
+| **2026/06/13~30** | **378.4K~381K** | Live fetch update | 🦞 |
 | **2026/07/01** | **381.2K** | Live fetch update | 🦞 |
+| **2026/07/02** | **381.3K** | Live fetch update | 🦞 |
 
-#### 🏆 Global GitHub Stars Ranking (Updated 2026-07-01)
+#### 🏆 Global GitHub Stars Ranking (Updated 2026-07-02)
 
 | Rank | Project | Stars | Notes |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 521.2K | **🏆 Global #1! Most starred repository.** |
-| 2 | awesome | 480.2K | Resource Hub |
-| 3 | freeCodeCamp | 450.7K | Tutorial Hub |
-| 4 | public-apis | 445.4K | Collection of Free APIs |
-| 5 | free-programming-books | 391K | Books collection |
-| **6** | **OpenClaw** | **381.2K** | **🏆 Passed Rank #7! Entering top 6 globally! 🚀** |
-| 7 | developer-roadmap | 358.7K | Learning Paths |
-| 8 | system-design-primer | 355.6K | System Design Primer |
-| 9 | coding-interview-university | 354.7K | CS study plan |
-| 10 | awesome-python | 305.7K | Curated Python resources |
-| 11 | awesome-selfhosted | 302.1K | Curated self-hosted software |
+| 1 | build-your-own-x | 521.5K | **🏆 Global #1! Most starred repository.** |
+| 2 | awesome | 480.6K | Resource Hub |
+| 3 | freeCodeCamp | 450.8K | Tutorial Hub |
+| 4 | public-apis | 445.8K | Collection of Free APIs |
+| 5 | free-programming-books | 391.1K | Books collection |
+| **6** | **OpenClaw** | **381.3K** | **🏆 Passed Rank #7! Entering top 6 globally! 🚀** |
+| 7 | developer-roadmap | 358.9K | Learning Paths |
+| 8 | system-design-primer | 355.7K | System Design Primer |
+| 9 | coding-interview-university | 354.8K | CS study plan |
+| 10 | awesome-python | 305.9K | Curated Python resources |
+| 11 | awesome-selfhosted | 302.3K | Curated self-hosted software |
 | 12 | 996.ICU | 276.3K | Labor rights protest project |
-| 13 | project-based-learning | 271.5K | Project-based learning resources |
+| 13 | project-based-learning | 271.7K | Project-based learning resources |
 | 14 | **React** | 245.7K | **🦞 Surpassed by OpenClaw! Former frontend overlord** |
 | 15 | **Linux** | 237.9K | **🦞 Surpassed by OpenClaw! OS Core** |
 

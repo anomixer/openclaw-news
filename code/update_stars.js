@@ -11,7 +11,7 @@ const FILES = [
 const REPOS = [
     'openclaw/openclaw', 'NVIDIA/NemoClaw', 'open-jarvis/OpenJarvis', 'HKUDS/nanobot', 'VoltAgent/awesome-openclaw-skills',
     'NousResearch/hermes-agent',
-    'sipeed/picoclaw', 'zeroclaw-labs/zeroclaw', 'iOfficeAI/AionUi',
+    'zhayujie/CowAgent', 'sipeed/picoclaw', 'zeroclaw-labs/zeroclaw', 'iOfficeAI/AionUi',
     'nanocoai/nanoclaw', 'OthmanAdi/planning-with-files', 'NevaMind-AI/memU',
     'kepano/obsidian-skills', 'cloudflare/moltworker', 'hesamsheikh/awesome-openclaw-usecases',
     'refly-ai/refly', 'MemTensor/MemOS', 'nearai/ironclaw', 'm1heng/clawdbot-feishu',
@@ -29,7 +29,7 @@ const REPOS = [
     'codecrafters-io/build-your-own-x', 'sindresorhus/awesome', 'freeCodeCamp/freeCodeCamp',
     'public-apis/public-apis', 'EbookFoundation/free-programming-books',
     'nilbuild/developer-roadmap', 'donnemartin/system-design-primer',
-    'openclaw/openclaw', 'facebook/react', 'torvalds/linux',
+    'facebook/react', 'torvalds/linux',
     'vinta/awesome-python', 'awesome-selfhosted/awesome-selfhosted',
     '996icu/996.ICU', 'practical-tutorials/project-based-learning',
     'jwasham/coding-interview-university'
@@ -92,6 +92,7 @@ const BACKUP_STARS = {
     'HKUDS/nanobot': 43700,
     'VoltAgent/awesome-openclaw-skills': 50200,
     'NousResearch/hermes-agent': 202400,
+    'zhayujie/CowAgent': 45800,
     'sipeed/picoclaw': 29300,
     'zeroclaw-labs/zeroclaw': 31800,
     'iOfficeAI/AionUi': 28200,

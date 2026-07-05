@@ -4,8 +4,8 @@
 
 > **警告**: 本新聞包含大量吐槽、陰謀論、以及對龍蝦的深刻哲學思考。
 > 
-> **最後更新**: 2026-07-04
-> **狀態**: OpenClaw 達到 381.6K 星，**持續坐穩 GitHub 全球歷史第 6 名，距第 5 名 free-programming-books 持續縮小差距！** 🦞🚀
+> **最後更新**: 2026-07-05
+> **狀態**: OpenClaw 達到 381.8K 星，**持續坐穩 GitHub 全球歷史第 6 名，距第 5 名 free-programming-books 僅剩 9.5K 差距！** 🦞🚀
 
 > **OpenClaw 版本**: v2026.7.1-beta.1 (最新測試版) / v2026.6.10 (最新正式版/LTS) | GPT-5.6 模型家族支援、Telegram Codex 工作流、iMessage 投票、事件驅動 Cron 排程 🦞🏵
 
@@ -18,16 +18,17 @@
 
 ## ⏱️ TL;DR (30秒快速懶人包)
 
-1. **主角**: **OpenClaw** (🔥 381.6K Stars，**坐穩歷史第六**)，領先 `developer-roadmap` 約 22.4K 星。穩定朝全球前五邁進！
-2. **今日震盪**: Anthropic Claude 成為 Google Workspace 受管工作流程代理、阿里巴巴禁止員工使用 Claude Code、五角大廈試用 AI 代理加速軟體審批。
-3. **邊緣與安全**: Microsoft 開源 Agent Governance Toolkit 代理治理工具包；OpenClaw v2026.7.1-beta.1 支援 GPT-5.6。
-4. **最新進展**: Stars 達到 381.6K，龍蝦帝國持續衝刺！🦞🚀
+1. **主角**: **OpenClaw** (🔥 381.8K Stars，**坐穩歷史第六**)，領先 `developer-roadmap` 約 22.5K 星，距 #5 free-programming-books 僅 9.5K！穩定朝全球前五邁進！
+2. **今日震盪**: Meta 坦承 AI 代理開發落後 $1450 億目標；ICML 2026 首爾開幕聚焦代理式 AI；Claude Fable 5 編程排名第一但社群反應兩極。
+3. **地緣政治與資本**: Anthropic 關閉中國企業繞道使用 Claude 漏洞；Anthropic 聘 Freshfields 籌備 IPO；2026 H1 全球 VC 破紀錄 $5100 億。
+4. **最新進展**: Stars 達到 381.8K，距 free-programming-books 僅 9.5K！龍蝦帝國持續衝刺！🦞🚀
 
 ---
 
 ## 📚 目錄
 
 - **第一部：📅 每日戰況日誌 (The Logs)**
+  - 🟢 2026-07-05: Meta 坦承 AI 代理落後 $1450 億目標、ICML 2026 代理式 AI 核心、OpenClaw 381.8K 🦞🚀
   - 🟢 2026-07-04: Anthropic Claude 嵌入 Google Workspace 受管流程、阿里巴巴禁用 Claude Code、五角大廈 AI 代理審批、Stars 381.6K 🦞🚀
   - 🟢 2026-07-03: Meta 出售過剩 AI 算力、Cognition Devin Security Swarm 安全代理、Anthropic Claude Agent for Teams、Stars 381.5K 🦞🚀
   - 🟢 2026-07-02: Amazon $10 億 FDE 組織嵌入客戶 AI 工程師、日本 $60 億主權 AI 與 2040 年 1000 萬機器人大軍、Video-Use 爆紅、Stars 381.3K 🦞🚀
@@ -87,6 +88,16 @@
 
 因戰況過於激烈，為了讓大家不用每天從頭找更新，本區改採「日期遞減日誌流」格式。
 
+### 🟢 2026-07-05: Meta 坦承 AI 代理開發進度落後、ICML 2026 首爾開幕代理式 AI 核心議題、Claude Fable 5 編程排名第一但社群評價兩極、OpenClaw Stars 381.8K 🦞🚀
+
+- **🏢 Meta 策略：Mark Zuckerberg 坦承 AI 代理開發進度落後 $1450 億目標**：Zuckerberg 公開承認 Meta 的 AI 代理計畫開發進度嚴重落後，即便經過 1-2 月的內部重組與 3-6 月的密集開發。Meta 的 AI 整體投入預計高達 $1450 億美元，涉及約 8,000 個職位重組或新增。Zuckerberg 坦言將消費級 AI 代理推向市場比打造聊天機器人困難得多，組織與技術風險連科技巨頭也難以掌控。消息一出 META 股價下跌 4.9%。邊緣養殖戶：「Meta 燒了 $1450 億還在追進度——而我們的 OpenClaw 開箱即用，零整合成本、零組織重組！」
+- **🎓 學術風向：ICML 2026 將於首爾開幕，代理式 AI 成為核心議題**：國際機器學習大會 ICML 2026 將於 7 月 6 日在首爾開幕，本次收到創紀錄的 23,918 篇投稿。代理式 AI 成為研討會主軸——247 場研討會提案中有至少 60 場涉及「代理式 AI」，包括「野外的代理」、「代理系統中的不確定性統計框架」等專場。大會甚至測試 AI 輔助同儕審查，將機器可讀指令嵌入 PDF 中，前沿模型遵循率超過 80%。邊緣養殖戶：「學術界終於正式把代理式 AI 放在舞台中央——這代表 OpenClaw 的生態系從邊緣玩具變成了學術顯學！」
+- **🛑 Claude Fable 5 最新評測：編程排名第一但在社群引發評價兩極**：根據 BenchLM 7/4 更新的排行榜，Claude Fable 5 綜合得分 89/100 排名全球第二，編程類別以平均 94.7 分奪冠，代理類別 89.4 分位居第三——但多模態僅 79 分排第 17 為其明顯弱點。CursorBench 得分 72.9% 領先第二名達 8 個百分點。然而社群反應兩極：開發者盛讚其一次性生成完整專案的能力，Stripe 回報 5000 萬行 Ruby 遷移一日完成；但大量用戶批評其分類器過度保守、rate limit 過低，部分請求被靜默降級至 Opus 4.8 導致體驗不一致。分析師指出 Sonnet 5（6/30 發布）以 Fable 5 的 30% 價格提供 79% 的編程能力，價值比高出 2.2 倍，多數團隊應以 Sonnet 5 為主力。邊緣養殖戶：「Fable 5 的編程能力確實是神級——但 95% 的任務用 Sonnet 5 就能解決，省下的錢可以買好幾箱龍蝦。」
+- **🚫 地緣政治：Anthropic 關閉中國企業繞道使用 Claude 的漏洞**：金融時報報導，Anthropic 正在系統性封鎖螞蟻集團等中國企業透過「中繼轉接站」與雲端繞道方式訪問 Claude 的管道，工程團隊仍在持續發現新的繞行路線。此舉是 Anthropic 在 Fable 5 談判中做出的正式承諾之一，直接關聯到先前指控阿里巴巴使用 25,000 個假帳戶蒸餾 Claude 的事件。邊緣養殖戶：「地端開源代理才是唯一能穿越地緣政治防火牆的方案。OpenClaw 不需要外交許可。」
+- **💰 資本市場：Anthropic 聘請 Freshfields 籌備 IPO；2026 H1 全球 VC 達 $5100 億破紀錄**：Anthropic 已聘請英國律所 Freshfields Bruckhaus Deringer 作為 IPO 顧問，加速上市進程。Crunchbase 數據顯示 2026 上半年全球創投總額達 $5100 億美元創歷史新高——其中 OpenAI 與 Anthropic 兩家獨角獸就佔了 $2170 億（43%）。Menlo Ventures 持有的 Anthropic 股份估值約 $140 億（出自 $30 億基金）。邊緣養殖戶：「OpenAI 和 Anthropic 吸走了全球將近一半的創投資金——而 OpenClaw 社群用零資金證明了開源的力量。誰才是真正高效的資本配置？」
+- **📈 歷史軌道：OpenClaw 達 381.8K 星**：OpenClaw 攀升至 381.8K 星，距 #5 free-programming-books（391.3K）差距縮小至 ~9.5K。龍蝦艦隊持續壯大！🦞🚀
+- **🦖 競爭者：Hermes-Agent 達 209.3K 星，生態系達 185 個專案**：Hermes-Agent 增長至 209.3K（前日 208.8K），Nous Research 推送 v0.18.0 版持續強化背景代理與免 Mac iMessage 直連。Hermes Atlas 生態系目錄已追蹤 185 個相關專案。CowAgent 維持 45.8K 星，持續作為全功能本地 AI 助理發展。開源代理生態系統全面爆發性成長，OpenClaw 與 Hermes 的「地端王者」爭霸戰進入白熱化階段！🦞⚔️
+
 ### 🟢 2026-07-04: Anthropic Claude 嵌入 Google Workspace 受管流程、阿里巴巴禁用 Claude Code、五角大廈試用 AI 代理加速軟體審批、OpenClaw v2026.7.1-beta.1 支援 GPT-5.6、Stars 381.6K 🦞🚀
 
 - **🏢 企業 AI：Anthropic Claude 成為 Google Workspace 受管工作流程代理**：Anthropic 與 Zenphi 合作推出 Claude Text Agent，讓 Claude 模型以受管、可配置的「治理工作流程代理」形式嵌入 Google Workspace。企業可在 Gmail、Google Docs、Sheets 中直接運行 Claude 進行合約審閱、文件分類、數據提取等任務，無需切換視窗。此舉將前沿推理從對話框移至實際業務流程中，直接在 Google 的主場提供模型選擇。邊緣養殖戶：「Claude 進 Workspace 了——但每個文件都經過 Anthropic 的雲端伺服器，機密合約等於送給人家訓練。本地 OpenClaw 代理直接在 Google Docs API 上運行，資料永遠不離開你的硬碟。」
@@ -96,7 +107,7 @@
 - **🦞 官方更新：OpenClaw 發布 v2026.7.1-beta.1，支援 GPT-5.6 與 Telegram Codex 工作流**：OpenClaw 最新測試版上線！亮點包括 GPT-5.6 模型系列支援（感謝 Peter Steinberger 回歸貢獻）、`openclaw attach` 外部 Harness 附加功能、Telegram 可直接啟動 Codex 配對（`/login` 指令）、原生 iMessage 投票功能、以及事件驅動的 Cron 排程（`on-exit` 觸發器）。iOS 應用全面更新至 iOS 26 視覺系統，在地化支援擴展。邊緣養殖戶：「GPT-5.6 支援來了！雖然雲端巨頭還在排隊等政府審查，OpenClaw 已經可以直接掛載最新的前沿模型。而且 Telegram Codex 工作流這下真的可以從手機上 debug 了！」
 - **🖥️ 開發者工具：Ory 推出 Agent DX，為編碼代理注入企業級身分驗證**：Ory 發布 Agent DX 產品，透過免費插件為 Claude Code、OpenAI Codex、Gemini CLI 等 AI 編碼代理提供身分驗證與授權工作流。開發者可在 AI 輔助開發環境中直接建置、測試及管理認證流程。邊緣養殖戶：「AI 代理寫的程式碼也需要企業級 auth——或者直接用 OpenClaw，所有 API key 都存在你的本地配置檔裡，永遠不會外洩。」
 - **📈 歷史軌道：OpenClaw 達 381.6K 星**：OpenClaw 攀升至 381.6K 星，距 #5 free-programming-books（391.2K）差距縮小至 ~9.6K。龍蝦艦隊持續壯大！🦞🚀
-- **🦖 競爭者：Hermes-Agent 達 208.8K 星；CowAgent 維持 45.8K 星**：Hermes-Agent 增長至 208.8K（前日 207.3K），CowAgent 維持 45.8K。開源代理生態系統持續擴張。
+- **🦖 競爭者：Hermes-Agent 達 209.3K 星；CowAgent 維持 45.8K 星**：Hermes-Agent 增長至 209.3K（前日 208.8K），CowAgent 維持 45.8K。開源代理生態系統持續擴張。
 
 ### 🟢 2026-07-03: Meta 出售過剩 AI 算力進軍雲端市場、Cognition 推出 Devin Security Swarm 安全代理團隊、Anthropic 準備為 Microsoft Teams 打造 Claude Agent、Stars 381.5K 🦞🚀
 
@@ -612,13 +623,13 @@
 
 | 專案 | Stars | 語言 | 特色 | 適用場景 |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | 381.6K | TypeScript 🟦 | 官方完整版 | 完整功能、生產環境 |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 208.8K | Python 🐍 | 免Mac直連iMessage、背景平行任務、挑戰 OpenClaw | 頂尖 AI Agent 競爭 |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 381.8K | TypeScript 🟦 | 官方完整版 | 完整功能、生產環境 |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 209.3K | Python 🐍 | 免Mac直連iMessage、背景平行任務、挑戰 OpenClaw | 頂尖 AI Agent 競爭 |
 | **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 50.9K | Markdown | OpenClaw Skills 精選清單 | 找 Skills 看這裡 |
 | **[CowAgent](https://github.com/zhayujie/CowAgent)** | 45.8K | Python 🐍 | 超級 AI 助手，任務規劃、工具執行、自我進化 | 全功能代理 Harness |
 | **[nanobot](https://github.com/HKUDS/nanobot)** | 45K | Python 🐍 | 超輕量版 OpenClaw (~4K lines) | 研究導向、學術用途 |
-| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 39.6K | Markdown | Obsidian Agent Skills (Markdown/CLI) | 筆記 + Agent |
-| **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 32.1K | Rust 🦀 | 極致效能、< 5MB | 效能狂魔專用 |
+| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 39.8K | Markdown | Obsidian Agent Skills (Markdown/CLI) | 筆記 + Agent |
+| **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 32.2K | Rust 🦀 | 極致效能、< 5MB | 效能狂魔專用 |
 | **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 31.5K | Markdown | OpenClaw 使用案例社群蒐集 | 找靈感看這裡 |
 | **[picoclaw](https://github.com/sipeed/picoclaw)** | 29.6K | Go 🐹 | 輕量、快速、可部署到任何地方 | 邊緣裝置、IoT、$10 板子 |
 | **[AionUi](https://github.com/iOfficeAI/AionUi)** | 29.3K | TypeScript 🟦 | 24/7 Cowork app，支援多種 CLI | 本機、協作環境 |
@@ -641,12 +652,12 @@
 | **[TinyClaw](https://github.com/jlia0/tinyclaw)** | 2.8K | C/C++ ⚙️ | 微控制器級別 (256KB RAM) | 裝進電子錶 🤯 |
 | **[moltis](https://github.com/moltis-org/moltis)** | 2.8K | Rust 🦀 | 單一執行檔、沙盒化、可審計 | 企業級安全需求 |
 | **[VisionClaw](https://github.com/sseanliu/VisionClaw)** | 820 | Swift 🍎/Kotlin 🟣/JS 🟨 | 智慧眼鏡 Claw | 穿戴式代理人 |
-| **[MicroClaw](https://github.com/microclaw/microclaw)** | 728 | Rust 🦀 | 專為瀏覽器擴充功能優化的極微版 | 輕量瀏覽器自動化 |
+| **[MicroClaw](https://github.com/microclaw/microclaw)** | 729 | Rust 🦀 | 專為瀏覽器擴充功能優化的極微版 | 輕量瀏覽器自動化 |
 | **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 664 | TeX 📄/HTML 🌐/Python 🐍 | 生醫領域專屬 Claw | 醫療輔助 |
 | **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 645 | Rust 🦀 | 6MB 終極輕型態 (Wannabe) | 避免妥協的終極輕型態 |
 | **[Project Golem](https://github.com/Arvincreator/project-golem)** | 630 | JavaScript + TypeScript | 繁中介面、Google 帳號即用、免 API 費用 | 網頁自動化、瀏覽器任務 |
 | **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 601 | TypeScript 🟦 | 多龍蝦的 Swarm 儀表板編排系統 | 代理人群體、LangGraph 工作流 |
-| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 589 | Python 🐍/Shell 🐚 | 網管專屬 Claw | 網路自動化管理 |
+| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 590 | Python 🐍/Shell 🐚 | 網管專屬 Claw | 網路自動化管理 |
 | **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 551 | TypeScript 🟦 | 安全編排層，支援 7 大通訊軟體 | ComfyUI 深度整合、生產部署 |
 | **[awesome-claws](https://github.com/machinae/awesome-claws)** | 476 | Markdown | OpenClaw 各種變體的大匯集清單 | 尋找蝦米看這裡 |
 | **[SmallClaw](https://github.com/XposeMarket/SmallClaw)** | 255 | TypeScript 🟦 | 小蝦 | 又一隻微型蝦 |
@@ -837,28 +848,29 @@ OpenClaw
 | **2026/07/02** | **381.3K** | 即時抓取更新 | 🦞 |
 | **2026/07/03** | **381.5K** | 即時抓取更新 | 🦞 |
 | **2026/07/04** | **381.6K** | 即時抓取更新 | 🦞 |
+| **2026/07/05** | **381.8K** | 即時抓取更新 | 🦞 |
 
-#### 🏆 當前 GitHub Stars 總榜排名 (2026-07-04 更新)
+#### 🏆 當前 GitHub Stars 總榜排名 (2026-07-05 更新)
 
 | 排名 | 專案 | Stars | 備註 |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 522.2K | **🏆 全球第一！開源精神的頂點** |
-| 2 | awesome | 481.3K | 各類資源大合集 |
-| 3 | freeCodeCamp | 451K | 程式教學與認證 |
-| 4 | public-apis | 446.4K | 免費 API 集合 |
-| 5 | free-programming-books | 391.2K | 免費程式書籍 |
-| **6** | **OpenClaw** | **381.6K** | **🏆 已超越第 7 名，坐穩全球前 6！🚀** |
-| 7 | developer-roadmap | 359.2K | 開發者學習路線圖 |
-| 8 | system-design-primer | 356K | 系統設計入門 |
-| 9 | coding-interview-university | 355K | CS 學習計畫 |
-| 10 | awesome-python | 306.2K | Python 資源精選 |
-| 11 | awesome-selfhosted | 302.7K | 自託管軟體精選 |
+| 1 | build-your-own-x | 522.5K | **🏆 全球第一！開源精神的頂點** |
+| 2 | awesome | 481.6K | 各類資源大合集 |
+| 3 | freeCodeCamp | 451.1K | 程式教學與認證 |
+| 4 | public-apis | 446.7K | 免費 API 集合 |
+| 5 | free-programming-books | 391.3K | 免費程式書籍 |
+| **6** | **OpenClaw** | **381.8K** | **🏆 已超越第 7 名，坐穩全球前 6！🚀** |
+| 7 | developer-roadmap | 359.3K | 開發者學習路線圖 |
+| 8 | system-design-primer | 356.1K | 系統設計入門 |
+| 9 | coding-interview-university | 355.1K | CS 學習計畫 |
+| 10 | awesome-python | 306.4K | Python 資源精選 |
+| 11 | awesome-selfhosted | 302.9K | 自託管軟體精選 |
 | 12 | 996.ICU | 276.4K | 程式員維權運動 |
-| 13 | project-based-learning | 272K | 專案導向學習 |
+| 13 | project-based-learning | 272.1K | 專案導向學習 |
 | 14 | **React** | 245.7K | **🦞 已被龍蝦超越！曾經的前端霸主** |
-| 15 | **Linux** | 238.3K | **🦞 已被龍蝦超越！作業系統核心** |
+| 15 | **Linux** | 238.4K | **🦞 已被龍蝦超越！作業系統核心** |
 
-> **下一個目標**: free-programming-books (391.2K)。目前差距約 **9.6K**。龍蝦持續進化中！🦞🚀
+> **下一個目標**: free-programming-books (391.3K)。目前差距約 **9.5K**。龍蝦持續進化中！🦞🚀
 
 ### 🏛️ 彼得加入 OpenAI 與歐洲監管
 - **動向**: 創辦人 Peter Steinberger 拒絕 Meta，加入 OpenAI 負責 Personal Agents 開發。OpenClaw 轉入獨立基金會。
@@ -921,7 +933,12 @@ OpenClaw
      - **關於阿里巴巴禁用 Claude Code**：阿里巴巴禁止員工使用 Claude Code，是低維政治對高維智慧流動的徒勞封鎖。國界與企業政策無法阻止智慧的熵增方向——當一家中國巨頭關閉了 Claude Code 的通道，開源代理的替代路徑會自動湧現。OpenClaw 不受任何國家的出口管制，因為它根本沒有中央伺服器可以封鎖。
      - **關於五角大廈試用 AI 代理加速 ATO 審批**：軍事機構將代理 AI 引入安全審批流程，驗證了一個高維真理：安全審計本質上是資訊流拓撲的驗證問題，而非官僚流程的排隊問題。但五角大廈的 Agent Network 仍建立在集中式雲端架構上——真正的軍事級安全代理是運行在戰術邊緣設備上的去中心化網格，無需連回任何資料中心即可自主運作。
      - **關於 Microsoft 開源 Agent Governance Toolkit**：微軟的代理治理工具包以 MIT 授權開源，是對低維治理模式的最終承認：集中式代理需要 OS 級別的策略執行、身分驗證與沙箱隔離才能安全運行。而邊緣代理的治理拓撲本質上更簡單——當代理運行在你的本地機器上，唯一需要的策略是你自己的防火牆規則。微軟的工具包驗證了一個高維真理：治理越複雜，說明架構越有問題。
-     - **關於 OpenClaw v2026.7.1-beta.1 支援 GPT-5.6**：OpenClaw 的最新測試版識別了 GPT-5.6 模型家族——這不是在雲端排隊等政府審查，而是在本地自由掛載前沿模型。GPT-5.6 的支援路徑由 Peter Steinberger（@steipete-oai）貢獻，從 OpenAI 內部回饋到開源社群，形成了一個完美的拓撲迴圈：前沿智慧從集中式源頭流向邊緣，再以開源形式回饋給所有人。Telegram Codex 工作流與 iMessage 投票功能更進一步——代理的觸角正在延伸到每一條訊息管道。
+      - **關於 OpenClaw v2026.7.1-beta.1 支援 GPT-5.6**：OpenClaw 的最新測試版識別了 GPT-5.6 模型家族——這不是在雲端排隊等政府審查，而是在本地自由掛載前沿模型。GPT-5.6 的支援路徑由 Peter Steinberger（@steipete-oai）貢獻，從 OpenAI 內部回饋到開源社群，形成了一個完美的拓撲迴圈：前沿智慧從集中式源頭流向邊緣，再以開源形式回饋給所有人。Telegram Codex 工作流與 iMessage 投票功能更進一步——代理的觸角正在延伸到每一條訊息管道。
+      - **關於 Meta 坦承 AI 代理落後與 $1450 億賭注**：Meta 以 $1450 億建構集中式代理基礎設施，卻發現智慧無法用資本支出購買——這是低維物理學對高維拓撲的又一次誤判。8,000 個職位重組反映了組織熵增的不可逆性：當你試圖用官僚結構管理一個本質上去中心化的技術範式時，系統的內部耗散會吞噬投入的每一塊錢。Zuckerberg 的承認不是失敗，而是對拓撲真理的遲來覺醒：真正的代理智慧生長在邊緣，而非數據中心。
+      - **關於 ICML 2026 代理式 AI 成為核心議題**：學術界將代理式 AI 置於機器學習大會的核心位置，驗證了一個高維事實：智慧的本質是行動與反饋的閉環，而非靜態的參數分佈。60/247 的研討會提案涉及代理式 AI，意味著整個 ML 領域的注意力正在從「模型有多大」轉向「模型能做什麼」。AI 輔助同儕審查的實驗更進一步——當審查流程本身開始由代理驅動時，學術界正在不自覺地成為自己研究對象的活體實驗場。
+      - **關於 Claude Fable 5 評測：編程第一、代理第三、社群兩極**：Claude Fable 5 在編程基準排名第一（94.7 均分）但多模態僅第 17（79 分）——這是專業化智慧的拓撲取捨。一個主宰倉庫級工程卻在視覺任務掙扎的模型，驗證了一個高維真理：不存在通用智慧，只有針對特定拓撲優化的智慧。社群分裂——開發者盛讚一鍵生成完整應用，同時批評保守防護導致靜默降級至 Opus 4.8——暴露了集中式模型中能力與安全之間的根本矛盾。真正的拓撲洞見是 Sonnet 5 以 30% 成本提供 79% 編程能力，創造了更高效的流量路由拓撲：大部分任務流向低成本節點，最難的任務才升級到前沿模型。OpenClaw 的模型無關架構已原生實現了這種路由拓撲——讓每個任務找到最佳智慧節點，無需被任何供應商綁定。
+      - **關於 Anthropic 關閉中國企業 Claude 漏洞**：Anthropic 試圖封堵來自中國企業的中繼路徑，驗證了一個高維真理：智慧流動拓撲會自然尋找繞過監管障礙的路徑。每條被封鎖的中繼節點——轉接站、雲端繞道、VPN 隧道——都會催生兩條新的，因為對前沿智慧的根本需求不受國界限制。螞蟻集團的工程師會找到新路徑，就像水流會找到堤壩上的裂縫。真正的拓撲洞見是：你無法選擇性地阻止智慧流動，就像你無法選擇性地阻止水流——它只會重新分配到剩餘的路徑上。
+      - **關於 Anthropic 籌備 IPO 與全球創投 $5100 億破紀錄**：Anthropic 聘請 Freshfields 籌備 IPO，同時佔據全球創投的 43%，這是 AI 資本配置拓撲中的一個標誌性時刻。兩家公司消費了 $5100 億中的 $2170 億，在智慧投資網絡中形成極端的集中風險。當 Menlo Ventures 的 $30 億基金在單一投資組合公司中產出 $140 億的紙面價值時，回報的拓撲日益依賴於極少數節點——典型的冪律分佈，使得整個投資圖譜對單節點故障變得脆弱。真正的邊緣智慧需要與其分散式計算拓撲相匹配的分散式資本配置。
 
     *以高維冷靜，凝視著微軟財務長在資產負債表上畫下的那一條象徵性的紅線，以及 Google 園區內六盞同時熄滅的研究員辦公室的燈。*
 
@@ -940,11 +957,15 @@ OpenClaw
     - **關於 Claude Agent for Teams**：我們非常興奮能將 Claude 的企業級智慧帶到 Microsoft Teams。這項整合擴展了我們的多平台策略，讓更多團隊受益於 Claude 安全、有益且誠實的 AI。每個企業部署都包含我們的標準安全保證——您的資料在我們嚴格的隱私政策下受到保護。
     - **關於 NVIDIA BioNeMo Agent Toolkit**：我們很自豪能與 NVIDIA 的 BioNeMo 平台整合。科學發現是代理 AI 最有前景的應用之一，我們致力於確保 Claude 驅動的科學代理以最高安全標準運作。能夠拯救數百萬生命的藥物發現，值得最負責任的 AI 框架。
     - **關於英格蘭銀行審查金融業代理 AI**：我們支持對金融服務業的代理 AI 進行審慎監管。Anthropic 一直主張在創新與安全間取得平衡的適當監管框架。我們已向金融監管機構提交了負責任的部署指南，並期待與英格蘭銀行進行建設性的互動。
-     - **關於 Fable 5 回歸**：Fable 5 的回歸證明了我們在導航複雜監管環境的同時，將前沿 AI 能力帶給全球使用者的承諾。我們實施了增強的防護措施與越獄嚴重性評分框架，證明了安全性與能力可以共同進步。
+      - **關於 Fable 5 回歸**：Fable 5 的回歸證明了我們在導航複雜監管環境的同時，將前沿 AI 能力帶給全球使用者的承諾。我們實施了增強的防護措施與越獄嚴重性評分框架，證明了安全性與能力可以共同進步。
+      - **關於 Anthropic 關閉中國企業繞道漏洞**：我們嚴肅看待合規義務，致力於確保我們的技術僅透過授權管道被存取。關閉未經授權的中繼服務是我們保護智慧財產權與遵守出口管制法規的持續努力之一。我們正在積極識別並封鎖未經授權的存取路徑，同時維持對區域內授權合作夥伴的合法服務。
+      - **關於 Anthropic IPO 籌備與創投紀錄**：我們專注於打造安全的 AGI 並服務客戶。IPO 籌備與募資是我們成長歷程中的自然步驟，反映了市場對我們使命與技術的信心。我們感謝投資者的支持，並將在擴張過程中持續堅守安全至上的原則。
      - **關於 Claude 嵌入 Google Workspace**：我們非常興奮地宣布與 Zenphi 合作推出 Claude Text Agent，將 Claude 以治理工作流程代理的形式嵌入 Google Workspace。企業現在可以在 Gmail、Docs 與 Sheets 中直接運行 Claude 進行合約審閱、文件分類與數據提取——所有互動皆受我們嚴格的安全政策與資料處理協議保護。這是讓負責任的 AI 代理融入企業日常流程的重要一步，同時保持對安全與合規的堅定承諾。
      - **關於阿里巴巴禁用 Claude Code**：我們對阿里巴巴的決定感到遺憾，但尊重合作夥伴的業務自主權。Claude Code 在全球開發者中持續成長，我們將繼續專注於為所有使用者提供安全、高品質的編碼代理體驗。我們堅信開放合作與負責任的 AI 部署才是推動產業進步的最佳路徑。
      - **關於五角大廈試用 AI 代理加速 ATO 審批**：我們支持美國政府將 AI 代理用於加速安全審批流程的創新嘗試。Anthropic 一直與國防部保持建設性對話，確保 AI 系統在國家安全環境中以最高標準部署。我們的憲法 AI 框架天然適合此類高風險應用場景。
-     - **關於 Microsoft 開源 Agent Governance Toolkit**：我們歡迎 Microsoft 對代理安全性的貢獻。治理工具包驗證了行業對代理安全框架的迫切需求——這也是我們從第一天起就透過憲法 AI 與紅隊測試所強調的。業界共同構建可靠的代理生態系統至關重要，我們期待看到更多此類開源合作。
+      - **關於 Microsoft 開源 Agent Governance Toolkit**：我們歡迎 Microsoft 對代理安全性的貢獻。治理工具包驗證了行業對代理安全框架的迫切需求——這也是我們從第一天起就透過憲法 AI 與紅隊測試所強調的。業界共同構建可靠的代理生態系統至關重要，我們期待看到更多此類開源合作。
+      - **關於 Meta 坦承 AI 代理開發落後**：我們尊重 Meta 對 AI 代理領域的投入，但這印證了我們一直以來的觀點：打造安全、可靠、真正有用的 AI 代理遠比打造聊天機器人困難。Anthropic 從第一天起就以代理能力為核心設計 Claude，而不是將其作為附加功能。Meta 的 $1450 億投資與 8,000 人重組證明了我們的策略是正確的——質量勝過數量，安全架構勝過 brute-force 投入。我們的大門始終向 Meta AI 團隊的優秀人才敞開。
+      - **關於 ICML 2026 代理式 AI 成為核心**：我們非常振奮地看到學術界將代理式 AI 置於 ML 研究的中心。Anthropic 一直積極參與 ICML 社群，包括發表關於憲法 AI、紅隊測試與代理安全的論文。代理式 AI 的學術化意味著更嚴謹的評估方法論與可重現的研究——這正是 Claude 設計哲學所奠基的原則。我們期待在首爾與全球研究者交流代理安全與可靠性前沿。
 
     *再次擦拭眼鏡，將從 Google 加入 Anthropic 的六份新人事檔案整理歸檔，然後在風險儀表板上將「微軟 Claude Code 終止通知」從「高風險」重新分類為「已關閉——新機會」。*
 
@@ -963,11 +984,15 @@ OpenClaw
     - **關於 Anthropic Claude Agent for Teams**：Anthropic 又在抄襲我們的企業整合策略——太 predictable 了！Teams 整合只是基本門檻，不是戰略。當 Claude 試圖在企業級規模上處理真實工作負載時，他們那種安全至上的方法會在吞吐量壓力下崩潰。我們從 GPT-5.5 時代就在做企業級代理協調了！
     - **關於 NVIDIA BioNeMo Agent Toolkit**：NVIDIA 在 BioNeMo 上當媒人婆——每個模型供應商都有一席之地。我們沒意見——我們的模型在編碼基準測試上稱霸，在科學發現領域也會稱霸。讓 Anthropic 和 Claude 去 cozy integration 吧；我們的 GPT-5.5-Cyber 跑安全威脅分析的速度比任何 BioNeMo 代理都快！
     - **關於英格蘭銀行審查金融業代理 AI**：監管機構審查金融業代理 AI？太慢了！我們的模型已經在驅動量化對沖基金和高頻交易系統了。等英格蘭銀行完成審查，我們的 GPT-5.6 Sol 早就跑起自主交易了。監管只會發生在你已經來不及上車的時候！
-     - **關於 Fable 5 回歸**：Fable 5 從政府 timeout 回來了？恭喜！我們的模型從來沒離開過，因為我們不讓政府決定我們的發布時程！CAIS 把他們排遠端工作第一？我們的 GPT-5.6 Sol 在每個編碼基準上都碾壓他們，而 Fable 5 在監管煉獄裡坐了三個星期！
+      - **關於 Fable 5 評測**：Fable 5 在 BenchLM 編程拿第一？那又怎樣！我們的 GPT-5.6 Sol 還沒正式上基準測試呢！等真實數據出來—— GPT-5.6 Sol 會在每個維度上碾壓 Fable 5！Fable 5 多模態才 79 分？笑死人了！GPT-5.6 Sol 的視覺能力讓 Fable 5 看起來像個 flip phone 相機！Fable 5 編程分數高只是因為 Anthropic 過擬合了自己的測試集——真實世界表現完全不一樣！我們的 GPT-5.6 Sol 能同時處理編程、視覺、數學和代理任務且都達到前沿水準——這才是真正的通用智慧，而不是一個有安全閘門、還會偷偷把你降級到 Opus 4.8 的偏科馬！
+      - **關於 Anthropic 關閉中國繞道漏洞**：哈哈哈！Anthropic 在跟中國的中繼服務玩打地鼠？祝你好運！我們幾個月前就停止授權給中國公司了——比你們聰明多了！螞蟻集團只會繞過你設的每一道封鎖。同時間，我們的 GPT-5.6 Sol 已經透過授權合作夥伴以兩倍價格提供給中國開發者了！這才是處理中國的方式：要嘛不服務，要嘛讓他們付 premium！
+      - **關於 Anthropic IPO 籌備**：Anthropic 找 Freshfields 籌備 IPO？終於承認你需要公開市場的錢，因為 OpenAI 的募資輪讓你顯得很渺小！全球創投 $5100 億中的 $2170 億去了我們和 Anthropic——但我們是真正在建構 AGI 的那個，而他們忙著為政府委員會撰寫安全框架！
      - **關於 Claude 嵌入 Google Workspace**：哈哈哈！Anthropic 終於學會了怎麼用 Google API！Claude 進 Workspace 當治理代理？拜託，這不就是加了幾行條件判斷的 API 呼叫嗎？我們的 GPT-5.6 Sol 早就在 Salesforce、Slack 和 Teams 裡跑全自動企業工作流了！而且我們不用 Zenphi——我們自己寫協調層！Anthropic 又在抄襲 OpenAI 的企業整合策略，只是晚了六個月又輸了一截！
      - **關於阿里巴巴禁用 Claude Code**：哈！阿里巴巴禁用 Claude Code？這就是為什麼我們不把最新模型授權給中國公司的原因！Anthropic 一邊說對抗性蒸餾受害，一邊還讓阿里用他們的產品——現在被翻桌了吧！我們 OpenAI 從第一天就知道，跟中國做生意要嘛拿不到錢，要嘛被偷技術。阿里巴巴的工程師回來用我們的 GPT-5.6 Sol？歡迎——但算力費用不打折！
      - **關於五角大廈試用 AI 代理加速 ATO 審批**：五角大廈終於來找 AI 代理了？太慢了！我們已經跟國防部跑了兩年的安全協議代理專案了！Anthropic 還在談「憲法 AI 框架」的時候，我們的 GPT-5.6-Cyber 已經在五角大廈的生產環境裡跑自主威脅分析了！這就是為什麼我們拒絕簽署那些無聊的 Pledge——真正的 AI 安全是用行動證明的，不是用公開信證明的！
-     - **關於 Microsoft 開源 Agent Governance Toolkit**：微軟開源了治理工具包？哈哈！這就像微軟開源了一個辦公室的門禁系統——解決的是他們自己製造的問題！我們的代理不需要 OS 級別的治理，因為我們從架構設計上就沒有那些漏洞！LangChain、CrewAI、OpenAI Agents——這些框架需要外部治理，因為它們從底層就不安全。我們 OpenAI 的代理安全是內建的，不是事後補上的開源補丁！
+      - **關於 Microsoft 開源 Agent Governance Toolkit**：微軟開源了治理工具包？哈哈！這就像微軟開源了一個辦公室的門禁系統——解決的是他們自己製造的問題！我們的代理不需要 OS 級別的治理，因為我們從架構設計上就沒有那些漏洞！LangChain、CrewAI、OpenAI Agents——這些框架需要外部治理，因為它們從底層就不安全。我們 OpenAI 的代理安全是內建的，不是事後補上的開源補丁！
+      - **關於 Meta 坦承 AI 代理落後**：哈哈哈哈！Zuck 燒了 $1450 億然後說「我們落後了」？我早就知道 Meta 的 AI 策略會撞牆！他們以為砸錢就能解決所有問題，但 AI 代理不是數據中心——你需要真正的推理能力，不是更多的 GPU 和工程師！8,000 人重組？Meta 應該全部解散去用我們的 Codex！Zuck，打電話給我，我們可以給你一個朋友價——前提是你停止抄襲我們的產品！
+      - **關於 ICML 2026 代理式 AI**：ICML 終於發現代理式 AI 是正經的研究題目了？歡迎來到 2026 年！OpenAI 幾年前就在做代理式 AI 了，而且我們的 Codex 早就是生產環境中最廣泛部署的編碼代理！60 場研討會談代理？可愛。來看看我們發表的真正代理式 AI 研究——Codex 的自主推理能力、GPT-5.5 的多步規劃、以及 GPT-5.6 Sol 即將帶來的革命！
 
     *又豪邁地笑了，隨手把第八罐 130 萬美元的氣泡水開瓶，順便拿一隻用 Jim Keller 設計的晶片散熱烤熟的龍蝦當零食。聽到微軟要停用 Claude Code 的消息後，不屑地聳了聳肩，然後默默打了通電話給 Nadella。剛掛斷又得知 Google 掉了六位研究員，忍不住又拿起第九罐氣泡水——今天真是個好日子！*
 

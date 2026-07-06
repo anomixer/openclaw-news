@@ -4,10 +4,10 @@
 
 > **警告**: 本新聞包含大量吐槽、陰謀論、以及對龍蝦的深刻哲學思考。
 > 
-> **最後更新**: 2026-07-05
+> **最後更新**: 2026-07-06
 > **狀態**: OpenClaw 達到 381.8K 星，**持續坐穩 GitHub 全球歷史第 6 名，距第 5 名 free-programming-books 僅剩 9.5K 差距！** 🦞🚀
 
-> **OpenClaw 版本**: v2026.7.1-beta.1 (最新測試版) / v2026.6.10 (最新正式版/LTS) | GPT-5.6 模型家族支援、Telegram Codex 工作流、iMessage 投票、事件驅動 Cron 排程 🦞🏵
+> **OpenClaw 版本**: v2026.7.1-beta.2 (最新測試版) / v2026.6.10 (最新正式版/LTS) | ClawRouter 捆綁外掛、Mac 本地 Gateway 自動安裝、Control UI 全面翻新、Ollama 自動發現 🦞🏵
 
 ---
 
@@ -18,9 +18,9 @@
 
 ## ⏱️ TL;DR (30秒快速懶人包)
 
-1. **主角**: **OpenClaw** (🔥 381.8K Stars，**坐穩歷史第六**)，領先 `developer-roadmap` 約 22.5K 星，距 #5 free-programming-books 僅 9.5K！穩定朝全球前五邁進！
-2. **今日震盪**: Meta 坦承 AI 代理開發落後 $1450 億目標；ICML 2026 首爾開幕聚焦代理式 AI；Claude Fable 5 編程排名第一但社群反應兩極。
-3. **地緣政治與資本**: Anthropic 關閉中國企業繞道使用 Claude 漏洞；Anthropic 聘 Freshfields 籌備 IPO；2026 H1 全球 VC 破紀錄 $5100 億。
+1. **主角**: **OpenClaw** (🔥 381.8K Stars，**坐穩歷史第六**)，領先 `developer-roadmap` 約 22.4K 星，距 #5 free-programming-books 僅 9.5K！穩定朝全球前五邁進！
+2. **今日震盪**: ICML 2026 首爾首日開幕——代理式 AI 成核心，聯合國 AI 治理對話日內瓦同步登場；OpenClaw v2026.7.1-beta.2 攜 ClawRouter、Control UI 翻新、Ollama 自動發現登場。
+3. **生態爆炸**: BNB Chain 推出 Agent Studio；Salesforce Headless 360 開放 CRM 給 AI 代理；Scaled Cognition 募 $1 億打造零幻覺企業 AI；Zoom 收購 Common Room。
 4. **最新進展**: Stars 達到 381.8K，距 free-programming-books 僅 9.5K！龍蝦帝國持續衝刺！🦞🚀
 
 ---
@@ -28,21 +28,13 @@
 ## 📚 目錄
 
 - **第一部：📅 每日戰況日誌 (The Logs)**
+  - 🟢 2026-07-06: ICML 2026 首爾首日開幕、UN AI 治理對話日內瓦、OpenClaw v2026.7.1-beta.2 ClawRouter、BNB Agent Studio、Stars 381.8K 🦞🚀
   - 🟢 2026-07-05: Meta 坦承 AI 代理落後 $1450 億目標、ICML 2026 代理式 AI 核心、OpenClaw 381.8K 🦞🚀
   - 🟢 2026-07-04: Anthropic Claude 嵌入 Google Workspace 受管流程、阿里巴巴禁用 Claude Code、五角大廈 AI 代理審批、Stars 381.6K 🦞🚀
   - 🟢 2026-07-03: Meta 出售過剩 AI 算力、Cognition Devin Security Swarm 安全代理、Anthropic Claude Agent for Teams、Stars 381.5K 🦞🚀
   - 🟢 2026-07-02: Amazon $10 億 FDE 組織嵌入客戶 AI 工程師、日本 $60 億主權 AI 與 2040 年 1000 萬機器人大軍、Video-Use 爆紅、Stars 381.3K 🦞🚀
   - 🟢 2026-07-01: Anthropic 推出 Claude Sonnet 5 中階模型超越 Opus 4.6、Schneider Electric $31 億收購 Cognite、AI 鍵盤代理登場、Stars 381.2K 🦞🚀
-  - 🟢 2026-06-30: 微軟 Claude Code 大限到期、Alphabet $847.5 億募資閉幕、Google 失血 6 研究員、GitHub Copilot 計量收費衝擊、Stars 381K 🦞🚀
-  - 🟢 2026-06-29: Coinbase 引入中國開源模型省半 AI 支出、DeepReinforce 開源 Ornith-1.0 編碼代理人模型、AI 業內人士大規模賣股引發泡沫討論、微軟下令停用 Claude Code、Stars 380.9K 🦞🚀
-  - 🟢 2026-06-28: Anthropic 控訴阿里 2.5 萬虛假帳號空襲、Jim Keller 的 Tenstorrent 挑戰 Cerebras、溫哥華爆發數據中心抗議、Stars 380.9K 🦞🚀
-  - 🟢 2026-06-27: Anthropic 頂級模型 Mythos 5 獲美政府部分解禁、OpenAI 延期發布 GPT-5.6、自研晶片 "Jalapeño" 曝光、Stars 380.6K 🦞🚀
-  - 🟢 2026-06-26: OpenAI 延遲 IPO 計劃、Google 發表 Gemini 3.5 Flash 電腦操作、川普政府安全監管 GPT-5.6、Stars 381.0K 🦞🚀
-  - 🟢 2026-06-25: IBM 發表全球首款次 1 奈米晶片技術、Micron Q3 財報創歷史新高、OpenAI 推出 GPT-5.5-Cyber、Stars 380.7K 🦞🚀
-  - 🟢 2026-06-24: OpenAI 發表首款自研 ASIC 晶片 "Jalapeño"、全球科技股修正大跌、微軟與 Meta 引領 8500 億美元租賃潮、Stars 380.5K 🦞🚀
-  - 🟢 2026-06-23: 北市以 OpenClaw 打造 CiviClaw 助理、WEF 夏季達佛斯新興技術、Meta 發表 Muse Spark 眼鏡、Stars 380.2K 🦞🚀
-  - 🟢 2026-06-22: 突破 38 萬星！美網路安全監管、專精模型逆襲、Agent 企業級落地、Stars 380.0K 🦞🚀
-  - 🟢 2026-06-21: 日本援引 Anthropic 禁令、老黃算力天價與 DLSS 開源、Apple Siri 重構、Stars 379.7K 🦞🚀
+  - 🔵 2026-06 下旬：開源性價比大反擊與算力大戰大震盪 — 從 Copilot 計費暴漲、開源模型崛起，到巨頭自研晶片與政府審查角力 🚀🦞
   - 🔵 2026-06 中旬：雲端監管風暴與地端硬體反擊 — 從 Anthropic 遭封殺、蘋果/微軟擁抱地端到晶片算力大戰 🚀🦞
   - 🔵 2026-06 上旬：地端算力奇點與代理人原生革命 — 從 COMPUTEX 台北激戰、微軟 Build 原生龍蝦到 WWDC Siri 智慧大變身 🚀🦞
   - 🔵 2026-05 下旬：神聖 AI 時代降臨與地端自愈防線 — 從教宗通諭、GPT-5.5 實裝到安全沙盒逃逸 🚀🦞
@@ -87,6 +79,18 @@
 ## 第一部：📅 每日戰況日誌 (The Logs)
 
 因戰況過於激烈，為了讓大家不用每天從頭找更新，本區改採「日期遞減日誌流」格式。
+
+### 🟢 2026-07-06: ICML 2026 首爾首日開幕創紀錄 23,918 投稿、UN AI 治理對話日內瓦登場、OpenClaw v2026.7.1-beta.2 攜 ClawRouter 發布、BNB Chain 推出 Agent Studio、Salesforce 開放 CRM 給 AI 代理、Stars 381.8K 🦞🚀
+
+- **🎓 ICML 2026 首日：創紀錄 23,918 篇投稿，代理式 AI 主導研討會，聯合國 AI 治理對話日內瓦同步登場**：第 43 屆國際機器學習大會今日正式於首爾 COEX 會展中心開幕，超過 11,000 名研究人員齊聚，投稿量 23,918 篇（較去年 12,107 翻倍）。錄取 6,352 篇論文（26.6% 接受率），其中 536 篇 Spotlight、168 篇口頭報告。代理式 AI 主導研討會——247 場提案中至少 60 場涉及「代理式 AI」。首日展場亮點包括：「ElementsClaw：大型原子模型與語言模型的代理融合加速超導體發現」（Tian Bian）；Apple 的「MLX 本地代理編碼」現場展示；「vLLM-Hook：vLLM 上模型內部的即時程式設計」；以及「端到端 AI 科學家」多代理自動化科學發現系統。大會與首屆聯合國全球 AI 治理對話（日內瓦 Palexpo，7/6-7）同期舉行。此外，ICML 的新型 LLM 檢測浮水印在同行審查中抓獲 398 名違反 LLM 禁令的審稿人，497 篇論文被直接退稿。邊緣養殖戶：「代理式 AI 現在已正式成為學術 ML 的核心——60 場研討會、6,352 篇論文、11,000 名研究人員。當學術界以這種速度擁抱代理，OpenClaw 的生態系早已不再是邊緣玩法——它就是範式本身。而 ElementsClaw 用代理做超導體發現？代理科學的時代來了。」🦞🔬
+- **🦞 官方更新：OpenClaw v2026.7.1-beta.2 發布——ClawRouter 捆綁外掛、Mac 本地 Gateway 安裝、Control UI 全面翻新、Ollama 自動發現**：OpenClaw 最新測試版（7/5 發布）推出重大新功能。**ClawRouter** 現為捆綁外掛，透過一把策略限定的金鑰實現跨多個上游供應商的動態模型發現，並提供管理預算報告與用量面版。**Mac 本地 Gateway 設定**——macOS 應用現可自動安裝並啟動 Gateway。**Control UI 導覽全面翻新**——會話優先側邊欄、精簡上下文儀表、暖色主題、推理努力滑桿、精簡編輯器、斜線指令選取器。**Ollama 自動發現**——自動發現執行 Ollama 的本地推理節點。**Telegram** 新增多車道進度摘要。**Signal** 新增目標別名。CLI 會話可在提示元數據變更時軟性恢復。邊緣養殖戶：「ClawRouter 把 OpenClaw 變成了通用模型中樞——一把金鑰、任何供應商、管理預算、無需逐一設定。而 Mac 自動 Gateway 意味著你的龍蝦一鍵就能運作。這是地端等待已久的基礎設施層。」🦞🚀
+- **🔧 平台發布：BNB Chain 推出 Agent Studio 實現快速自主代理部署**：BNB Chain 宣布推出 Agent Studio，一個讓開發者快速在鏈上部署自主 AI 代理的平台，提供預建代理模板、智慧合約整合與去中心化的代理執行基礎設施。邊緣養殖戶：「區塊鏈遇上代理——BNB Chain 押注鏈上自主代理。而我們的 OpenClaw 代理在本地機器上運行，零 Gas 費、零智能合約審計、零區塊鏈炒作。」
+- **🏢 企業整合：Salesforce Headless 360 開放 CRM 給 AI 代理**：Salesforce Headless 360 現允許 Claude Code、Cursor 等 AI 代理透過 MCP 風格介面直接查詢 CRM 資料、部署元資料、執行 Apex 程式碼。這標誌著從基於聊天的 CRM 存取到代理原生程式化互動的重大轉變。邊緣養殖戶：「Salesforce 終於打開了它的護城河——但每次 CRM 查詢都經過 Salesforce 雲端。OpenClaw 在本地處理 CRM 資料：你的客戶清單永遠不離開自己的硬碟。」
+- **💰 投資與併購：Scaled Cognition 募 $1 億打造零幻覺企業 AI；Zoom 收購 Common Room**：Scaled Cognition 完成 C 輪 $1 億美元募資，專注於「零幻覺」企業 AI 代理平台，瞄準法規監管行業。Zoom 收購 AI 新創 Common Room，顯示通訊平台加速嵌入 AI 代理的趨勢。邊緣養殖戶：「花 $1 億買『零幻覺』——直接用 OpenClaw 跑在本機、搭配經過驗證的資料來源，零成本告別幻覺。Zoom 買 Common Room 是最新訊號：每個通訊平台都在競速嵌入 AI 代理。」
+- **🌐 瀏覽器自動化：Mozilla 推出 Tabstack 為 AI 代理提供網頁自動化框架**：Mozilla 發布 Tabstack，一個讓 AI 代理透過 Chrome 擴充功能與原生瀏覽器整合獲得結構化網頁存取的瀏覽器自動化框架，支援表單填寫、資料提取、多步驟工作流程等代理網頁任務。邊緣養殖戶：「Mozilla 加入瀏覽器代理競賽——Tabstack 提供受控網頁自動化。OpenClaw 的瀏覽器工具從第一天就在做這些事，而且不需要任何擴充功能。」
+- **📰 回顧專題：The New Stack 發表「2026 上半年 AI 動盪的 10 個定義時刻」**：The New Stack 的回顧專題將 Anthropic Fable 5 的關閉（後續已逆轉）、華爾街積極部署 AI 代理、以及「AI Harness」的崛起列為上半年關鍵時刻。文章指出 2026 上半年見證了 AI 代理從展示品走向金融、國防與企業的生產環境。邊緣養殖戶：「Fable 5 的關閉與回歸、華爾街的代理搶購潮、『AI Harness』——2026 上半年就是 AI 代理不再只是展示品、真正成為基礎設施的時刻。OpenClaw 經歷了每一次轉折。」
+- **📈 歷史軌道：OpenClaw 達 381.8K 星**：OpenClaw 攀升至 381.8K 星，距 #5 free-programming-books（391.3K）差距縮小至 ~9.5K，領先 #7 developer-roadmap（359.4K）約 22.4K。龍蝦艦隊持續壯大！🦞🚀
+- **🦖 競爭者：Hermes-Agent 達 209.7K 星，生態系突破 185 個專案**：Hermes-Agent 達 209.7K 星，持續推進背景代理能力。開源代理生態系在 Hermes Atlas 目錄中追蹤 185+ 個專案。CowAgent 維持 45.8K 星。OpenClaw 與 Hermes 的「地端王者」爭霸戰仍是開源代理領域最具代表性的對決。🦞⚔️
 
 ### 🟢 2026-07-05: Meta 坦承 AI 代理開發進度落後、ICML 2026 首爾開幕代理式 AI 核心議題、Claude Fable 5 編程排名第一但社群評價兩極、OpenClaw Stars 381.8K 🦞🚀
 
@@ -150,104 +154,40 @@
 - **📈 歷史軌道：OpenClaw 達 381.2K 星，距第 5 名僅 ~9.8K**：OpenClaw 攀升至 381.2K，持續逼近 free-programming-books（391K）。龍蝦帝國穩步衝擊全球前五！🦞🚀
 - **🦖 競爭者：Hermes-Agent 達 206.5K 星**：Nous Research 的 Hermes-Agent 增長至 206.5K（前日 205.7K）。開源代理生態系統全面爆發性成長。
 
-### 🟢 2026-06-30: 微軟 Claude Code 大限到期、Alphabet $847.5 億募資閉幕、Google 半年失血 6 研究員、GitHub Copilot 計量收費震撼、Stars 381K 🦞🚀
+---
 
-- **🏢 企業動態：微軟 Claude Code 大限到期，E+D 部門全面強制轉移至 GitHub Copilot CLI**：6 月 30 日大限終於到來！微軟 Experiences + Devices 部門（Windows、Office、Teams、Surface 團隊）數千名工程師的 Claude Code 授權今日正式終止，全面強制遷移至 GitHub Copilot CLI。內部數據顯示 Claude Code 月活率高達 84-95%，每人每月 Token 費用落在 $500-$2,000 美元——這筆帳單在微軟財政年度最後一天被徹底斬斷。Rajesh Jha 副總裁強調 Copilot CLI 可讓微軟直接透過 GitHub 塑造產品。開源社群拍手叫好：「雲端 AI 代碼助手的天價訂閱模式終於踢到鐵板！我們地端 OpenClaw 掛載 Ornith-1.0 完全免費，連 Token 計數器都不用看！」
-- **💰 資本市場：Alphabet $847.5 億募資正式閉幕，Berkshire Hathaway 注資 $100 億**：Google 母公司 Alphabet 的 $847.5 億股權募資於 6 月 30 日正式完成，為企業史上最大 AI 基礎設施融資。結構包括 $300 億公開發行、$400 億場內發行計畫（Q3 起）、以及 $100 億巴菲特 Berkshire Hathaway 私募配售。資金將全數投入 AI 算力基礎設施、數據中心與全球產能擴張。執行長 Sundar Pichai 表示 AI 解決方案需求已超過可用算力供應，2026 年資本支出指引為 $1,800-1,900 億。地端蝦農冷冷評論：「Google 燒 $1,800 億蓋雲端數據中心，而我們用一台二手顯卡和 OpenClaw 就實現了 AGI 本地化——到底誰才是真正的效率冠軍？」
-- **🧠 人才戰爭：Google 半年失血 6 位頂尖 AI 研究員，Sergey Brin 內部信急喊「必須緊急縮小差距」**：Google DeepMind 在 5 個月內接連失去 6 位核心研究員——Denny Zhou（推理團隊創辦人，已加入 Meta 超級智能實驗室）、Noam Shazeer（Transformer 架構共同設計者，加入 OpenAI）、John Jumper（AlphaFold 諾貝爾獎得主，加入 Anthropic）、Jonas Adler（AI 編碼負責人，加入 Anthropic）、Alexander Pritzel（預訓練專家，加入 Anthropic）。Sergey Brin 在內部備忘錄中直言：「我們必須緊急縮小在代理人執行能力上的差距，將模型轉變為最終程式碼的主要開發者。」Google 編碼突擊隊已重組，加入「中訓練（Midtraining）」階段來強化 Gemini 的程式碼能力。蝦農諷刺道：「連 Sergey Brin 都親自跳下來寫備忘錄了！這證明雲端巨頭的人才護城河正在崩塌——而開源社群只要 fork 一下就能拿到同等級的技術。」
-- **🤖 開發者工具：GitHub Copilot 計量收費首月結算，重度用戶帳單暴漲 10-50 倍**：6 月 30 日是 GitHub Copilot 轉為用量計費後的第一個完整結算日。社群哀鴻遍野：Reddit 與 X 平台上開發者紛紛貼出帳單截圖，月費從 $29 暴漲至 $750、從 $50 暴漲至 $3,000。1 GitHub AI 信用點 = $0.01，單次代理會話即可消耗 $30-$40。年度方案全面取消。GitHub CPO Mario Rodriguez 坦承：「Copilot 已經不是一年前的產品了。」地端蝦農大笑：「$3,000 一個月的 AI 寫程式助手？！我們 OpenClaw + Ornith-1.0 在地端跑，零 API 費用、零 Token 計數、零帳單驚嚇——這才是開發者的終極解放！」
-- **📊 市場趨勢：路透社引述花旗報告——AI 費用飆升迫使企業轉向開源模型，OpenRouter 開源請求佔比半年從 34% 暴增至 65%**：AI 公司紛紛從固定訂閱轉為用量計費（如 GitHub Copilot 本月剛轉計量制），企業難以預測開支，促使 CIO 加速擁抱開源模型。花旗數據顯示 OpenRouter 上開源模型請求已從 1 月 34% 升至 6 月 65%。同日起 Colorado AI 法案正式生效，成為美國首個全面性州級 AI 監管法規。地端蝦農大笑：「連花旗都在替我們背書！與其被 Token 計數器綁架，不如自己養一隻地端龍蝦！」
-- **💻 平台變更：Google 正式淘汰 Gemini 影片模型，開發者被迫限期遷移**：Google 執行 Gemini 平台大規模淘汰計畫，Gemini 2.0 模型已離線、圖片預覽模型 6/25 落日、影片模型今日（6/30）正式終止服務。開發者必須遷移至 Gemini 3.5 Flash 與 Veo 3.1 預覽版。Gemini CLI 也被新的 Antigravity CLI 取代（6/18 已切換）。蝦農淡定回應：「雲端平台說改就改、說關就關，今天你的應用還能用，明天就得全部重寫。還是 OpenClaw 好——永遠不會有 API 被 sunset 的焦慮。」
-- **📱 官方應用：OpenClaw 正式推出 iOS 與 Android 原生 App，龍蝦從桌面走進口袋**：OpenClaw Foundation 正式在 App Store 與 Google Play 上架官方原生行動應用！支援 QR Code/設定碼配對個人 Gateway、即時語音對話、Agent 行動審核、裝置權限控制（相機、定位、聯絡人、行事曆等），以及推播喚醒與節點狀態通知。iOS 版同時支援 Apple Watch，Android 版支援背景語音模式。地端蝦農感動落淚：「終於可以在馬桶上管理我的龍蝦了！從桌面到口袋——OpenClaw 正在吃掉所有平台！」🦞📱
-- **📈 歷史星軌：OpenClaw Stars 穩定攀升至 381K，持續逼近全球前五**：在邊緣開發者與開源社群的持續推動下，OpenClaw 星數攀升至 381K，與第五名 free-programming-books 的差距穩定在約 10K。龍蝦帝國正以不可阻擋之勢穩步推進。
-- **🦖 競爭對手：Hermes-Agent 維持 205.7K Stars，零標籤資料自主學習技術取得突破**：Nous Research 的 Hermes-Agent 星數維持在 205.7K，其最新博文展示了一項「零標籤資料自主學習」技術——讓 Agent 在無需人工標註的情況下，透過自我對弈與環境反饋自主提升任務完成率。地端蝦農表示：「良性競爭讓整個生態越來越強——Hermes 在無監督學習上取得突破，我們在插件生態與 Slack 整合上持續進化，最後所有地端使用者都是贏家。」
+### 🔵 2026-06 下旬：開源性價比大反擊與算力大戰大震盪 — 從 Copilot 計費暴漲、開源模型崛起，到巨頭自研晶片與政府審查角力 🚀🦞
 
-### 🟢 2026-06-29: Coinbase 引入中國開源模型省半 AI 支出、DeepReinforce 開源 Ornith-1.0 編碼代理人模型、AI 業內人士大規模賣股引發泡沫討論、微軟下令停用 Claude Code、Stars 380.9K 🦞🚀
-
-- **🤖 產業動態：Coinbase 改用中國開源模型 GLM 5.2 與 Kimi 2.7，AI 支出爆省近 50%**：Coinbase 執行長 Brian Armstrong 宣布將 GLM 5.2（智譜 AI）和 Kimi 2.7（月之暗面）設為工程師預設模型，搭配智慧路由與快取機制，在 Token 用量持續指數成長的情況下將 AI 支出削減近半。Armstrong 強調 91% 的工程師從未觸及舊有用量上限，改用開源模型並非限制而是效率優化。地端蝦農狂笑：「連加密幣交易所都開始擁抱開源模型了！這波中國開源大腦的性價比攻勢，直接讓 OpenAI 和 Anthropic 的定價神話出現裂痕——我們地端 OpenClaw 早就實現零 API 費用了！」
-- **💰 金融市場：AI 業內人士大規模賣股，專家警告泡沫可能破裂**：前 CIA 與五角大廈顧問 Jim Rickards 發布報告指出，AI 公司高層與早期投資者正大規模減持股票。億萬富翁投資者 Stanley Druckenmiller 已出清所有 Nvidia 與 Palantir 持股。多位分析師警告當前 AI 估值已達「完美定價」陷阱，一旦預期落空可能衝擊全球經濟。蝦農淡定回應：「股市泡沫與我們地端龍蝦何干？當雲端巨頭的估值在華爾街跳舞時，我們桌上的 OpenClaw 依然在 24/7 穩定運行。」
-- **🤖 監管風暴：TechCrunch 評論 OpenAI 與 Anthropic 雙雙落入政府審查困境**：TechCrunch 發表社論指出 OpenAI 和 Anthropic 現在面臨相同的政府逐案審查問題——Mythos 5 預覽已 16 天仍未全面開放，GPT-5.6 Sol/Terra/Luna 發布第二天就被限制存取。兩個實驗室之間的競爭已淪為同一套政府官僚機制的俘虜。地端開發者嘲諷：「雲端大腦們現在要排隊等政府蓋章才能發布新功能，而我們的龍蝦更新只要一行 npm install 就能搞定。」
-- **🏢 企業動態：微軟設定 6/30 大限，下令 E+D 部門停止使用 Anthropic Claude Code**：據報導，為了控制內部急劇膨脹的 AI Token 支出，微軟已對其 Experiences + Devices 部門（負責 Windows、Office、Teams、Surface 的工程團隊）下達最終期限，要求在 6 月 30 日前全面停止使用 Anthropic 的 Claude Code。同時微軟正評估將 DeepSeek 作為 OpenAI 與 Anthropic 模型的超低成本替代方案。開源社群驚呼：「連微軟自己都嫌 OpenAI 和 Anthropic 太貴了！這顯然是地端與開源模型性價比優勢的終極背書。」
-- **🔧 官方動態：OpenClaw 發布 v2026.6.11-beta.2，強化 Slack 中繼模式與 Mattermost 指令**：OpenClaw 官方於 GitHub 釋出最新測試版，亮點包括 Slack 中繼模式（讓 Slack 更易於自動化調校）、原生 Mattermost `/oc_queue` 指令、per-DM 模型覆寫、以及更安全的插件分發機制。Android 設定面板也獲得改進，Codex 部分增量更新與長上下文 prompt-cache 穩定性獲得顯著提升。蝦農社群點讚：「每次更新都更穩、更安全，這才叫真正的持續進化！」
-- **🧠 模型發表：DeepReinforce 開源 Ornith-1.0，地表最強開源編碼代理人模型誕生**：DeepReinforce AI 正式發布 Ornith-1.0，一個 MIT 授權的開源編碼代理人模型家族，涵蓋 9B Dense 到 397B MoE 四種尺寸（另有 31B Dense 與 35B MoE），基於 Qwen 3.5 與 Gemma 4 後訓練。其最大亮點是「自我脚手架（Self-Scaffolding）」訓練框架——模型在強化學習中同時學習生成解決方案與引導解決方案的腳手架，無需人工設計訓練框架。Ornith-1.0-397B 在 SWE-Bench Verified 上達到 82.4%、Terminal-Bench 2.1 達 77.5%，超越 Claude Opus 4.7（80.8%/70.3%）與 DeepSeek-V4-Pro。9B 邊緣部署版也能以 69.4% SWE-Bench Verified 超越 Gemma 4-31B 等更大模型。所有模型擁有 262K 上下文、支援 OpenAI 相容工具呼叫，且原生相容 OpenHands、Hermes Agent 與 OpenClaw。地端蝦農狂喜：「又一個能本地跑的超強編碼大腦！這下 OpenClaw 可以掛載 Ornith 當專屬程式設計師了——連 API 費用都省了，RL 自己學寫脚手架的點子真是天才！」
-- **📈 歷史星軌：OpenClaw Stars 穩定攀升至 380.9K，朝 free-programming-books 僅剩 10K 差距**：OpenClaw 星數攀升至 380.9K，與第五名的差距縮小至約 10K。在去中心化生態的持續驅動下，龍蝦帝國正以穩定速度逼近開源書籍巨獸。
-- **🦖 競爭對手：Nous Research 的 Hermes-Agent 星數達到 205K，持續在 CLI 領域發起挑戰**：hermes-agent 今日星星數增長至 205K，在背景並行工作排程與免 Mac iMessage 直連等特性上持續與 OpenClaw 展開激烈競爭。
-- **📜 政策新法：紐約州通過法案強制 AI 爬蟲向新聞網站表明身分**：紐約州通過立法，要求所有 AI 網頁爬蟲在存取新聞出版者網站時必須表明自身身分。這是首個針對 AI 數據採集的州級監管行動。地端開發者表示：「當雲端爬蟲被迫掛上名牌時，本地跑的 OpenClaw Agent 依然在暗處默默完成所有自動化任務——隱形，才是最強的防禦。」
-
-### 🟢 2026-06-28: Anthropic 控訴阿里 2.5 萬虛假帳號空襲、Jim Keller 的 Tenstorrent 挑戰 Cerebras、溫哥華爆發數據中心抗議、Stars 380.9K 🦞🚀
-
-- **🤖 競爭對手：Anthropic 控訴阿里巴巴使用 2.5 萬個虛假帳戶「空襲」Claude 模型進行蒸餾與探測**：Anthropic 提交報告指出，近期偵測到一波來自阿里巴巴的「飽和式空襲」，對方涉嫌使用多達 2.5 萬個虛擬帳號對 Claude 進行高強度的提示注入與行為探測，意圖進行模型蒸餾。地端蝦農調侃：「巨頭們表面上談安全治理，私底下都在瘋狂『偷師』對方。還好我們地端 OpenClaw 可以無縫切換各種大腦，你們蒸餾得越快，我們地端蝦農能白嫖的技術就越多！」
-- **💻 晶片前線：Jim Keller 指出 Tenstorrent "BlackHole Galaxy" 伺服器在 TCO 上將擊敗 Cerebras 與 Nvidia**：晶片大師 Jim Keller 公開叫陣，宣稱 Tenstorrent 最新一代 "BlackHole Galaxy" AI 伺服器將在總擁有成本（TCO）上徹底輾壓 Cerebras 與英偉達。地端玩家興奮表示：「Jim 哥說得對！大廠只會用高價算力綁架用戶，我們需要更多高性價比的 ASIC 來跑本地端 OpenClaw，早日實現人人有蝦養的 AGI 盛世！」
-- **🏢 業界新聞：溫哥華市民包圍市政廳，強烈抗議興建 AI 數據中心引發熱污染**：加拿大溫哥華爆發市民抗議行動，居民反對在社區附近新建大型 AI 數據中心，指責其高耗能與廢熱會破壞當地生態。開源社群對此深表同情：「雲端的泡沫不僅燒錢，還在燒地球！推廣地端輕量化推理，讓 OpenClaw 在本地設備利用散熱片散熱，才是真正的碳中和綠色智慧！」
-- **🛡️ 監管新令：美國放寬 Mythos 5 模型對「跨國員工」的調用限制，實施點對點國安合規審查**：美國商務部對日前解禁的 Anthropic Mythos 5 釋出補充細則，允許獲得特許的美國公司向其外籍員工（包括特定受限國籍）開放模型調用權限。地端玩家吐槽：「連寫程式的人都要查國籍和簽證，這就是雲端大腦的悲哀。我們本地跑的開源龍蝦沒有護照，也沒有國界限制，只要有電就能運作！」
-- **💰 晶片市場：馬斯克吐槽 AI 晶片價格漲幅是他「有史以來見過最大的」**：特斯拉與 xAI 執行長馬斯克在談到 AI 算力基礎設施建置時，坦言目前 AI 晶片與相關組件的價格飆升幅度是他「有史以來見過最大的」。他表示為了讓 xAI 的「Colossus（巨像）」超級電腦集群持續升級，公司不得不支付天文數字的硬體溢價。地端蝦農聞言大笑：「連全球首富都開始抱怨顯卡貴了，那我們這群買二手顯卡來跑 OpenClaw 的地端蝦農，豈不是比馬斯克更懂得精打細算、實現算力自由！」
-- **📈 歷史星軌：OpenClaw Stars 穩步攀升至 380.9K，距離前方的開源書籍僅剩 10K 差距**：在地端玩家與開源社群的持續推動下，OpenClaw 星數攀升至 380.9K，與 `free-programming-books` 的差距進一步縮小。
-- **🦖 競爭對手：Nous Research 的 Hermes-Agent 星數達到 205K，持續緊咬不放**：作為地端最頑強的競爭者，`hermes-agent` 今日星星數增長至 205K (官方昨已攀升至 204.4K，今日達 205K)，繼續在 CLI 自動化和背景並行調度上與 OpenClaw 展開激烈交鋒。
-
-### 🟢 2026-06-27: Anthropic 頂級模型 Mythos 5 獲美政府部分解禁、OpenAI 延期發布 GPT-5.6、自研晶片 "Jalapeño" 曝光、Stars 380.6K 🦞🚀
-
-- **🤖 廠商動態：美政府部分解禁 Anthropic 頂級模型 Mythos 5，允許向百家「可信賴夥伴」部署**：日前因安全與越獄隱憂被強行斷網的 Anthropic 旗艦模型 Mythos 5，今日獲得美國政府部分解禁。商務部與國安部門在審查其「安全隔離區」與「防逃逸機制」後，批准其向包括 Fortune 500 企業在內的 100 多家信任機構開放。地端社群見狀紛紛吐槽：「今天審查，明天禁令，後天再特許解禁。這種隨時可能被拔網線的雲端大腦，真的不如在本地跑一隻穩定的開源龍蝦！」
-- **🤖 廠商動態：OpenAI 應政府安全要求延遲 GPT-5.6 公開發布，僅限少數合作夥伴進行網絡安全評估**：與 Anthropic 被監管遙相呼應，OpenAI 宣布其最新推理模型 GPT-5.6 將延後對公眾的全面釋出。官方表示這是為了配合政府對前沿自治代理人的最新安全要求，進行深度的越獄與網絡防禦評估。蝦農大酸：「雲端巨頭們的 AGI 還躺在政府的審查抽屜裡，我們桌上的 OpenClaw 已經自動執行了一百個背景腳本了。」
-- **🔥 晶片前線：OpenAI 自研晶片 "Jalapeño" 研發細節曝光，歷時九個月即完成流片**：微軟與 OpenAI 合作設計的自研推理 ASIC 晶片 "Jalapeño" 更多技術細節流出。為了擺脫對 Nvidia 的算力依賴，OpenAI 甚至在晶片設計階段便大量使用自己的模型來加速編譯。開源社群對此感到驚訝，但也笑稱：「大廠自己刻晶片，是因為他們的雲端伺服器每秒都在燃燒海量資金；而地端玩家只需要幾張二手顯卡，就能讓 OpenClaw 跑得十分滋潤。」
-- **💰 晶片市場：AI 晶片股遭遇散戶槓桿平倉拋售，Alphabet 與 Nvidia 市值蒸發逾 2700 億美元**：隨著 DeepMind 多位核心科學家傳出集體跳槽至 Anthropic，市場對 Google 的 AI 進程產生焦慮，加上散戶資金的連鎖爆倉，引發 AI 板塊劇烈回檔。地端玩家調侃：「股市在泡沫，巨頭在互挖牆角，唯有硬碟裡的開源代碼和本地跑的 Agent 永遠不會貶值！」
-- **🔧 官方動態：OpenClaw 發布 v2026.6.11-beta.1，實裝 Slack 中繼模式與 Mattermost `/oc_queue` 整合**：OpenClaw 官方於 GitHub 釋出最新測試版，主要強化了 Slack 中繼模式、內建 Mattermost 交互命令、per-DM 模型覆寫等。同時優化了 Android 端的設定面板與 Codex 增量（partial deltas），大幅提升長上下文 prompt-cache 的穩定性。地端開發者表示：「這次更新修復了 Telegram 與 WhatsApp/Baileys 的多項連接 edge cases，對於常駐背景運行的地端蝦農來說是極大的德政！」
-- **🦖 競爭對手：Nous Research 的 Hermes-Agent 星數攀升至 203.9K，持續發起 CLI 攻勢**：作為 OpenClaw 最強勁的開源對手，`hermes-agent` 今日星數達到 203.9K。新版本主打背景多任務編排與更流暢的 CLI 工具鏈。蝦農社群笑稱：「Hermes 的 CLI 確有獨到之處，但在跨平台的聊天端點整合和多模態支持上，龍蝦帝國依然是不可動搖的霸主！」
-- **🚨 安全警報：ClawHub 社群 Skills 市場爆發供應鏈投毒威脅，官方緊急啟動安全審查**：Palo Alto Networks 發布報告指出，ClawHub 上約有 13% 的第三方 Skills 被發現含有隱藏的惡意代碼，可能通過 WebSocket 通訊進行本地進程劫持與憑證竊取。官方隨即呼籲用戶立即升級 DOMPurify 至最新版，並強烈建議將所有 subagent 丟進 Docker 沙盒中運行，避免實例「裸奔」。
-- **💻 晶片與驅動：Nvidia 為舊款 Maxwell、Pascal 及 Volta 架構 GPU 釋出 Linux 580.173.02 最終分支驅動程式**：輝達於 2026-06-26 針對 GeForce 10 系列及更早世代的舊款 GPU 發布了 Linux 專用驅動程式更新，修復了 X11 應用下的黑畫面問題，並解決了 OpenGL 緩衝區遷移至主機記憶體的 Bug 以及 DKMS 核心編譯失敗等問題。地端蝦農高呼萬歲：「老黃這次居然照顧到了用舊顯卡跑 OpenClaw 的難民！雖然只是常規修補，但這表示我的 GTX 1080 Ti 還能在本地默默為龍蝦燃燒餘熱個幾年！」
-- **🤖 廠商動態：Google 推出 2026 年六月 Gemini Drop，發布包括圖像生成及推理控制等 5 項新功能**：Google 正式推出最新一波 AI 功能更新，特別加入了內建多模態與影片/音樂創作能力的 Gemini Omni，並實裝了在 Google Sheets 中的智慧工具及全新的推理控制選項。社群紛紛調侃：「谷歌為了推廣 Gemini，把新功能塞滿了每一個角落；但真正的蝦農對雲端助理沒興趣，我們只關心能不能把 Gemini Omni 作為 OpenClaw 的推理後端，畢竟在隱私保密上，沒有什麼能比得上本地的控制器！」
-
-### 🟢 2026-06-26: OpenAI 延遲 IPO 計劃、Google 發表 Gemini 3.5 Flash 電腦操作、川普政府安全監管 GPT-5.6、Stars 381.0K 🦞🚀
-
-- **🤖 廠商動態：OpenAI 傳將 IPO 延後至 2027 年，仍堅守 1 兆美元估值目標**：有消息指出，因應市場波動與 SpaceX 先前不穩定的市場表現，OpenAI 正評估將 IPO 計劃延後至 2027 年。儘管執行長奧特曼依舊將估值瞄準 1 兆美元的天文數字，外界仍抱持保留態度。開源社群對此打趣：「雲端巨頭們還在為資本估值數字遊戲焦頭爛額，地端蝦農早已把開源模型跑在本地，享受不需要向華爾街匯報的真正 AGI 了！」
-- **🤖 廠商動態：川普政府要求 OpenAI 分階段釋出 GPT-5.6，實行個案安全審查與政府監管**：報導稱，出於對前沿 AI 技術的安全越獄與潛在網路威脅疑慮，美國政府已要求 OpenAI 暫緩並分階段釋出其最新 GPT-5.6 模型。奧特曼表示將以「有限預覽」形式先開放給特定夥伴，並由政府進行存取權監管。社群紛紛吐槽：「今天模型被政府監管，明天是不是連 API 都要填報關單？這再次證明了，唯有把自主權掌握在手中的地端代理人，才不會在某天早上突然被拔掉網線！」
-- **🤖 廠商動態：Google 發表 Gemini 3.5 Flash，原生整合 "Computer Use" 電腦操作工具**：Google DeepMind 宣布將原本僅能獨立運作的 Gemini 2.5 電腦操作模型，原生整合進最新的 Gemini 3.5 Flash 核心模型中。開發者可透過 Gemini API 與企業代理人平台，開發能看懂螢幕並跨瀏覽器、行動及桌面環境執行鍵盤滑鼠操作的自動化 Agent。地端開發者嘲諷道：「雲端巨頭做電腦操作還要瘋狂截圖傳回伺服器，對個人隱私與公司機密是巨大隱患；唯有使用本地 OpenClaw 地端 Agent，才能在保證隱私的情況下安全實現跨應用自動化！」
-- **🏢 巨頭動態：微軟發布第三年度 AI 教育報告，強打「負責任的 AI」落地與新工具**：微軟發布最新年度報告，側重 AI 於教育場域的「責任性落實」，並展示了多個 AI 驅動的教學輔助工具。地端社群表示：「微軟說的責任很美好，但對學生隱私而言，最好的責任就是資料不出本地。比起隨時會把學習歷程傳回雲端的工具，讓學生在本地跑 OpenClaw 學習寫程式，才是真正安全且負責任的教育未來。」
-- **🤖 競爭對手：Hermes-Agent 發表 v0.17.0 "The Reach Release"，主打免 Mac 中繼器直連 iMessage 與背景平行任務**：Nous Research 釋出了 `hermes-agent` v0.17.0。此版本實裝免 Mac 設備便能以 Photon Spectrum 協定直連 iMessage、支援 `delegate_task(background=true)` 背景平行任務分派，並整合 Raft 代理人網路。地端開發者看後給予高度評價：「免 Mac 直連與背景多任務確實切中了痛點，這說明了開源 AI 代理人領域的競爭依舊無比激烈，地端王者的爭奪戰才剛剛開始！」
-- **📈 歷史星軌：OpenClaw 穩定攀升至 381.0K 星，向全球前五發起衝鋒**：OpenClaw 的 GitHub Stars 今日正式跨越 381.0K 大關。在地端生態的蓬勃發展與社群對去中心化代理人的信心推升下，星數穩定攀升，距離前方的 free-programming-books 僅剩約 9.8K 星。
-
-### 🟢 2026-06-25: IBM 發表全球首款次 1 奈米晶片技術、Micron Q3 財報創歷史新高、OpenAI 推出 GPT-5.5-Cyber、Stars 380.7K 🦞🚀
-
-- **💻 晶片前線：IBM 發表全球首款次 1 奈米（0.7奈米）原型晶片技術，引領 3D 堆疊新紀元**：IBM 宣布在半導體技術上取得歷史性突破，成功研發出採用 3D "nanostack" 架構的 0.7 奈米（7 埃米）原型晶片，在指甲大小的面積上封裝了近 1000 億個電晶體。官方表示，相比 2 奈米技術，效能可提升高達 50% 或降低 70% 的功耗。地端社群驚呼：「這簡直是未來把超大模型塞進地端設備的終極解藥！雖然量產還需要時間，但矽基晶片的物理極限看來還能再被冒險突破一步！」
-- **💰 晶片市場：Micron Q3 營收達 414.6 億美元創歷史新高，AI 記憶體需求引爆晶片股**：美光科技公佈了極為亮眼的 Q3 財報，營收從去年同期的 93 億美元暴增至 414.6 億美元，大幅超出華爾街預期，再次證明了 HBM 等 AI 相關記憶體硬體需求的瘋狂成長。投資人信心倍增，推升全球半導體板塊走高。
-- **🤖 廠商動態：OpenAI 推出專攻網絡防禦的 "GPT-5.5-Cyber"，在 CyberGym 評測刷新紀錄**：OpenAI 發布了針對網絡安全防禦場域微調的特化模型 GPT-5.5-Cyber，在 CyberGym 基準測試中取得 85.6% 的歷史高分，主打代碼審查、漏洞驗證與安全補丁測試。安全專家指出，這項技術將大幅改變企業防禦流程，但蝦農們也保持警惕：「防禦性 AI 能找漏洞，同樣也能被用來寫更難防範的惡意代理人，各位地端伺服器的防火牆務必架好！」
-- **💾 硬體奇觀：AI 產能吸乾 HBM 與新世代晶片，消費型記憶體 Q2 暴漲近 100%**：受三大記憶體巨頭（三星、SK海力士、美光）全力將產能轉向高毛利 AI 晶片的影響，一般手機與電腦用的傳統消費級 DRAM 及 NAND 快閃記憶體產能嚴重受限，導致 Q2 價格暴漲達 89% 至 100%。準備組裝或升級地端主機的蝦農哀嘆：「現在買兩根 RAM 的預算以前能組半台電腦，雲端巨頭吃肉，邊緣玩家連喝湯都要付雙倍代價！」
-- **📈 歷史星軌：OpenClaw 穩步攀升至 380.7K 星，持續向全球前五逼近**：在地端生態持續蓬勃與社群熱烈支持下，星數增長再度迎來一波小高峰，地端代理人的統治力深不見底。
-
-### 🟢 2026-06-24: OpenAI 發表首款自研 ASIC 晶片 "Jalapeño"、全球科技股修正大跌、微軟與 Meta 引領 8500 億美元租賃潮、Stars 380.5K 🦞🚀
-
-- **🔥 晶片前線：OpenAI 聯手博通發表首款自研推理晶片 "Jalapeño"，力求擺脫 Nvidia 壟斷**：OpenAI 正式發表與博通（Broadcom）合作、歷時僅 9 個月即開發完成的首款自研推理晶片「Jalapeño」。該晶片專為大語言模型（LLM）推理進行硬體級優化，測試顯示每瓦效能顯著超越現行主流硬體。開源社群評論：「這表示雲端巨頭們的算力焦慮已達頂點，甚至必須自己動手刻晶片了。但無論晶片是誰的，它最終都是被關在別人的雲端資料中心裡，不像我們的 OpenClaw 是跑在自己桌上的晶片裡。」
-- **📉 金融市場：SpaceX 等市場波動引發科技股大跌，全球科技板塊市值蒸發逾 1 兆美元**：因 SpaceX 先前上市後的財務活動引發波動，科技股迎來全面性大幅修正，納斯達克指數跌幅近 2%，台灣加權指數更重挫逾千點。市場分析師開始質疑，海量的 AI 資本支出是否能獲得相應回報。蝦農見狀調侃：「雲端的泡沫再怎麼吹，地端的硬體依然在那裡默默運作。大盤在跌，但我的本地 OpenClaw 依然 24 小時不休息！」
-- **🏢 雲端基礎設施：微軟與 Meta 搶購數據中心，引領 8500 億美元全球數據中心租賃熱潮**：最新數據顯示，為搶佔生成式 AI 算力基礎，微軟與 Meta 正大幅追加數據中心租賃合約，目前微軟的租賃承諾已達 1966 億美元，Meta 達 1829 億美元。這兩大巨頭直接推升了全球高達 8500 億美元的租賃市場浪潮。蝦農表示：「8500 億美元！這背後是多麼龐大的電力與碳排放啊。如果大家多用本地輕量化 Agent 協同，省下的資源不知能多跑多少個地端模型！」
-- **🏢 廠商動態：SpaceX 與 Reflection AI 簽訂 63 億美元基礎設施合約，託管 GB300 晶片**：SpaceX 與 AI 獨角獸 Reflection AI 達成合約，Reflection AI 將自 7 月 1 日起，每月支付 1.5 億美元以使用馬斯克位於孟菲斯的 "Colossus 2" 數據中心內所託管的 Nvidia GB300 晶片資源。這顯示前沿算力的爭奪戰已從純購買轉變為直接的「物理空間與電力託管代工」。
-- **📈 歷史星軌：OpenClaw 突破 380.5K 星，衝鋒全球前五的最後一哩路**：星數狂飆不減，距離超越老牌開源專案只剩微小差距。地端革命軍正齊心協力向歷史里程碑發起最後的衝鋒！
-
-### 🟢 2026-06-23: 北市以 OpenClaw 打造 CiviClaw 助理、WEF 夏季達佛斯新興技術、Meta 發表 Muse Spark 眼鏡、Stars 380.2K 🦞🚀
-
-- **🇹🇼 邊緣落地：臺北市政府發表 CiviClaw 專案，以 OpenClaw 打造公務 AI 助理**：臺北市政府已啟動公務 AI 助理專案「CiviClaw」，核心基於開源的 OpenClaw 代理人框架，在私有沙盒環境部署地端 Agent 處理行政流程。專案強打「人類最終決策」、資料匿名化與分級權限設計，確保行政中立與資料隱私，目標在 2027 年底前實現市府公務員 100% 的 AI Agent 使用率。地端社群大為振奮：「當政府單位開始將 OpenClaw 列為核心數位基建，說明去中心化與地端隱私的價值已在公部門全面開花！」
-
-- **🍏 產業與趨勢：WEF 夏季達佛斯論壇於大連召開，發表 2026 年十大新興技術**：世界經濟論壇發布最新報告，指出 AI 技術正從純軟體加速向物理實體與密碼學演進。其中「晶格密碼學（Lattice-based cryptography）」被列為防範未來量子運算威脅的核心安全防線。地端社群表示認同：「AI 代理人掌握了越來越多系統權限，如果安全防禦不升級到抗量子級別，未來的隱私將無從談起！」
-- **🍏 智慧硬體：Meta 推出全新獨立智慧眼鏡，搭載 Muse Spark AI 模型**：Meta 發表了第一款去除了 Ray-Ban 聯名品牌的獨立智慧眼鏡產品，主打 8 小時續航力，並內建全新的 Muse Spark 輕量級多模態模型，可直接透過鏡頭進行環境識別與語音互動。邊緣開發者感到期待：「AI 穿戴裝置的成熟，意味著地端 Agent 將擁有真實世界的眼睛。期待未來能將眼鏡的影像流直接對接到 OpenClaw 上！」
-- **🏢 雲端代理：Anthropic 終止 Claude Fable 5 的免費體驗期，全面轉入付費點數制**：Anthropic 今日宣佈，針對 Claude Fable 5 的免費試用額度已正式截止，團隊與企業用戶必須存入 usage credits 才能繼續調用。社群感嘆：「羊毛終究有拔完的一天！雲端模型的白嫖時代結束了，這時候才知道，沒有 API 費用焦慮、想推理幾次就推理幾次的開源地端模型有多香！」
-- **🤖 資本與能源：OpenAI 宣布注資核融合 startup，奧特曼稱「太陽能餵不飽 GPT-6」**：奧特曼宣布將個人資源進一步注資一家核融合開發公司，旨在為未來的「GPT-6 Orion」大型訓練叢集提供穩定能源。開源社群對此表示：「雲端巨頭已經開始為 AGI 尋找太陽之外的恆星能量，地端蝦農只能繼續給筆電加裝散熱塔。但至少我們不會因為寫個 bug 而引發核災！」
-- **📈 歷史星軌：OpenClaw Stars 達到 380.2K 大關，地端優勢持續凸顯**：隨著雲端大廠持續收緊免費 API 額度，OpenClaw 持續狂飆，突破 380.2K 大關，徹底詮釋了開源去中心化生態的生存韌性。
-
-### 🟢 2026-06-22: 突破 38 萬星！美網路安全監管、專精模型逆襲、Agent 企業級落地、Stars 380.0K 🦞🚀
-
-- **🚀 歷史里程碑：OpenClaw 正式突破 38 萬星 (380K Stars)，社群狂歡慶祝**：地端代理人的絕對王者 OpenClaw 於今日正式突破 38 萬星！距離打敗 `free-programming-books` 進入全球前五僅剩一步之遙。社群感動落淚：「從最初被大廠嘲笑是玩具，到現在主宰邊緣設備，龍蝦帝國的崛起勢不可擋！」
-- **📈 企業級落地：AI 從「展示品」正式轉向「基礎設施」，多代理人架構 (Multi-Agent) 成為顯學**：最新產業鏈報告指出，AI 已從單純的聊天機器人轉型為企業核心工作流。金融與醫療領域開始大規模部署 Agentic AI。蝦農自豪：「你們還在雲端排隊等 API 回應？我們的 OpenClaw 早就在無網環境下自動幫醫院處理病歷了！」
-- **📜 監管新令：美國發布 AI 網路安全行政命令，要求高階自治代理人強制實名與審查**：為防範 AI 被用於駭客攻擊，美國政府下令強化對 Agent 的資安監管。開源圈一片譁然：「又來了？大廠的 API 必須實名，那我們家裡自己跑的龍蝦是不是也要去市政廳登記辦身分證？」
-- **🔬 專精模型逆襲：專屬 Document AI 稱霸 ParseBench，擊敗千億參數巨獸**：在 LlamaIndex 最新的文件解析評測中，高度特化的輕量模型表現超越了全能型大語言模型。社群振奮：「這證明了小巧而專精的 Agent 才是未來！給 OpenClaw 掛載專屬的小模型，我們連 GPT-6 都能打！」
-- **🏆 業界肯定：科技界執行長盛讚中國 GLM-5.2 為最頂尖的開放權重 AI 模型**：GLM-5.2 迅速登上 Artificial Analysis 智慧指數開放權重類別的榜首，在 4.1 版基準測試中斬獲 51 分，全球綜合排名第四——超越了目前所有 Google 旗下的模型。這款擁有 7440 億參數的混合專家模型（Mixture-of-Experts）以寬鬆的 MIT 授權條款發布，權重可從 Hugging Face 自由下載，甫一問世便獲得多位科技業知名領袖的高度讚揚，同時再度引發外界對中西方 AI 實驗室競爭態勢的熱烈討論。
-
-### 🟢 2026-06-21: 日本援引 Anthropic 禁令、老黃算力天價與 DLSS 開源、Apple Siri 重構、Stars 379.7K 🦞🚀
-
-- **💰 算力天價：鴻海估算輝達 Vera Rubin 資料中心「每千兆瓦造價達 470 億美元」**：隨著 AI 進入下一代架構，硬體建置成本已達天文數字。蝦農感嘆：「470 億美元？我桌上這台二手主機跑 OpenClaw 只要 470 塊美金，雖然慢了點，但好歹也是個『微型資料中心』啊！」
-- **🐧 開源大禮：Nvidia 開源 Linux 驅動程式正式新增 DLSS 支援**：Nvidia 罕見地將核心影像升頻技術帶入開源生態系，大幅提升了 Linux 遊戲與部分 AI 繪圖應用的效能。地端玩家狂喜：「老黃終於記起我們這群 Linux 難民了！等不及要在 Ubuntu 上用 DLSS 跑龍蝦代理人了！」
-- **🇯🇵 國家安全：日本發布 AI 風險計畫，明確援引 Anthropic 出口禁令作為防範指標**：受到美國封殺 Mythos 5 影響，日本政府迅速跟進，將高階模型列為潛在國安威脅並擬定防禦框架。社群苦笑：「連日本都開始防了，看來以後要跑最新的大廠模型，只能自己在家偷偷編譯了。」
-- **🍎 終端大戰：Apple 發布全新架構 Siri，宣告個人 AI 助理大洗牌**：蘋果全面重構 Siri，深度整合 Agentic 邏輯。社群表示：「蘋果這套路我們熟，把開源的 Agent 概念包裝一下賣你一台新的 iPhone 18！但不管怎樣，Siri 終於不再是智障了。」
-- **🚨 監管風暴升級：美政府強制 Anthropic 封鎖 Mythos 5，G7 倡議「可信賴夥伴」框架**：繼 Fable 5 之後，更強大的 Mythos 5 也被要求對非美國使用者斷網，G7 甚至提議將高階 AI 模型列為國家安全資產。蝦農嘲諷：「今天封 IP，明天封模型，後天是不是要查水表了？好險 OpenClaw 的權重早就下載到我的硬碟裡，誰也拔不走我的網路線！」
-- **⛓️ 供應鏈反擊：中國加強 AI 關鍵原料「銦」出口管制，AI 基礎設施戰火蔓延**：不僅晶片被禁，現在連製造高端 AI 伺服器的稀有金屬都面臨斷供風險。硬體玩家哀嚎：「老黃的顯卡又要漲價了？看來只能趁週末去資源回收場撿幾張舊卡來湊合跑龍蝦了！」
-- **🔧 官方動態：OpenClaw Stars 達到 379.7K，地端模型避險價值凸顯**：隨著雲端巨頭淪為地緣政治的談判籌碼，OpenClaw 持續狂飆，突破 379.7K 大關，徹底詮釋了去中心化的生存韌性。
+- **🏢 微軟強制終止 Claude Code 授權 (6/30)**：Experiences + Devices 部門數千名工程師正式停止使用 Claude Code，全面遷移至 GitHub Copilot CLI，以控制每月高達 $500-$2,000/人的天價 Token 帳單。
+- **💰 Alphabet 完成 $847.5 億史上最大 AI 融資 (6/30)**：Google 母公司 Alphabet 的大額股權募資完成，其中巴菲特的 Berkshire Hathaway 私募配售 100 億美元，資金將全數投入 AI 算力與全球數據中心建設。
+- **🧠 Google DeepMind 核心人才流失潮 (6/30)**：DeepMind 五個月內接連失去 Denny Zhou、Noam Shazeer 等 6 位頂尖研究員，謝爾蓋·布林內部信急喊「必須緊急縮小在代理人執行能力上的差距」。
+- **🤖 GitHub Copilot 用量計費首月結算哀鴻遍野 (6/30)**：轉為計量收費後首個結算日，單次會話消耗高達數十美元，重度用戶月費暴漲 10-50 倍（部分達 $750 至 $3,000/月）。
+- **📊 雲端費用暴增促使企業擁抱開源模型 (6/30)**：花旗報告顯示，由於 Token 計量收費引發的不確定性，CIO 加速轉向開源，OpenRouter 上開源模型請求佔比半年內從 34% 暴增至 65%。
+- **📱 OpenClaw 推出官方 iOS/Android 原生應用 (6/30)**：支援 QR Code 配對個人 Gateway、背景語音模式、裝置權限控制，龍蝦正式從桌面走進使用者的口袋。
+- **🤖 Coinbase 引入中國開源模型省半 AI 支出 (6/29)**：Coinbase 宣布將智譜 GLM 5.2 與月之暗面 Kimi 2.7 設為工程師預設大腦，在 Token 用量大幅成長下，AI 支出大減近 50%。
+- **🧠 DeepReinforce 開源 Ornith-1.0 編碼代理人模型 (6/29)**：Ornith-1.0 採用「自我腳手架」強化學習訓練，9B 邊緣部署版即能取得 69.4% SWE-Bench Verified，大規格版在 SWE-Bench 取得 82.4% 解決率。
+- **💰 AI 業內人士大規模減持拋售股票 (6/29)**：前 CIA 顧問報告指出，AI 公司高層與早期投資者大舉賣股，Stanley Druckenmiller 出清所有 Nvidia 與 Palantir 持股，專家警告面臨「完美定價」泡沫。
+- **🏢 微軟設定大限下令部門停用 Claude Code (6/29)**：微軟要求 Experiences + Devices 團隊在 6/30 前全面停用 Claude Code，並著手評估 DeepSeek 作為超低成本替代方案。
+- **🤖 Anthropic 控訴阿里 2.5 萬虛假帳號空襲 (6/28)**：Anthropic 指控阿里使用 2.5 萬個虛構帳號對 Claude 模型進行提示注入與行為探測，意圖竊取核心推理邏輯進行蒸餾。
+- **💻 Jim Keller 宣稱 Tenstorrent 伺服器 TCO 擊敗英偉達 (6/28)**：宣稱 Tenstorrent 最新一代 "BlackHole Galaxy" AI 伺服器將在總擁有成本（TCO）上徹底碾壓 Cerebras 與 Nvidia。
+- **🏢 溫哥華市民抗議興建 AI 數據中心 (6/28)**：溫哥華市民包圍市政廳，強烈抗議數據中心的高能耗與廢熱排放破壞當地生態。
+- **🤖 美國政府部分解禁 Anthropic Mythos 5 模型 (6/27)**：在審查安全隔離區與防逃逸機制後，商務部批准其向 100 多家信任機構與 Fortune 500 企業開放 Mythos 5。
+- **🤖 OpenAI 應安全要求延期發布 GPT-5.6 (6/27)**：為配合政府對前沿自治代理人的最新安全監管要求，OpenAI 延後 GPT-5.6 對公眾的全面釋出。
+- **🚨 ClawHub 插件市場爆發供應鏈投毒威脅 (6/27)**：報告指出 ClawHub 上約有 13% 的第三方 Skills 被發現含有惡意代碼，可能引發本地進程劫持與憑證洩漏。
+- **🤖 OpenAI IPO 傳延後至 2027 年 (6/26)**：受市場波動與 SpaceX 表現影響，OpenAI 傳將上市計劃延後，但仍堅守 1 兆美元估值目標。
+- **🤖 Google 發表 Gemini 3.5 Flash 原生整合電腦操作 (6/26)**：整合 Computer Use 自動化工具，讓 Agent 可以直接識別螢幕並跨行動與桌面環境執行鍵盤滑鼠操作。
+- **🦖 Nous Research 釋出 Hermes-Agent v0.17.0 (6/26)**：新版本主打免 Mac 中繼器直連 iMessage，支援背景平行任務分派，與 OpenClaw 展開激烈爭霸。
+- **💻 IBM 發表全球首款次 1 奈米原型晶片技術 (6/25)**：研發出 0.7 奈米 prototype 晶片，相較 2 奈米技術，效能提升 50% 且功耗降低 70%，為未來地端超級設備提供可能。
+- **💰 美光 Q3 財報營收創新高證實 AI 需求瘋狂 (6/25)**：Q3 營收達 414.6 億美元超出預期，主要是 HBM 等 AI 相關記憶體需求暴增。
+- **🤖 OpenAI 推出網絡安全防禦模型 GPT-5.5-Cyber (6/25)**：針對網絡防禦進行微調，在 CyberGym 測試中取得 85.6% 高分，主打代碼審查與漏洞驗證。
+- **🔥 OpenAI 與博通發表首款自研推理晶片 "Jalapeño" (6/24)**：為大語言模型推理進行硬體級優化，僅歷時 9 個月流片，力求擺脫 Nvidia 算力壟斷。
+- **🏢 微軟與 Meta 引領 8,500 億美元租賃潮 (6/24)**：為搶佔生成式 AI 算力基礎，兩巨頭瘋狂搶購數據中心，使全球租賃合約承諾額創下歷史新高。
+- **🇹🇼 臺北市政府發表 CiviClaw 公務助理 (6/23)**：以開源 OpenClaw 框架為核心在私有沙盒中部署地端 Agent，目標 2027 年底公務員 100% 採用。
+- **🍏 Meta 推出獨立智慧眼鏡配載 Muse Spark (6/23)**：Meta 發表全新獨立智慧眼鏡，內建輕量多模態模型 Muse Spark，支援環境識別與語音互動。
+- **🚀 OpenClaw 正式突破 38 萬星里程碑 (6/22)**：星數大漲，坐穩 GitHub 全球歷史第 6 名，距離超越 free-programming-books 進入全球前五僅剩一步之遙。
+- **🏆 智譜 AI 開源模型 GLM-5.2 被盛讚為最頂尖 (6/22)**：GLM-5.2 在 Artificial Analysis 登上榜首，其 7440 億 MoE 架構表現優異且採用寬鬆的 MIT 授權。
+- **🍎 Apple 重構 Siri 深度整合 Agentic 邏輯 (6/21)**：全面重構 Siri，支援跨 App 操作與螢幕理解，個人 AI 助理市場迎來大洗牌。
+- **⛓️ 中國加強 AI 關鍵原料「銦」出口管制 (6/21)**：中國對製造 AI 晶片及伺服器所需的稀有金屬「銦」實施管制，地緣政治戰火延燒至半導體上游原料。
 
 ### 🔵 2026-06 中旬：雲端監管風暴與地端硬體反擊 — 從 Anthropic 遭封殺、蘋果/微軟擁抱地端到晶片算力大戰 🚀🦞
 
@@ -624,17 +564,17 @@
 | 專案 | Stars | 語言 | 特色 | 適用場景 |
 |------|-------|------|------|----------|
 | **[OpenClaw](https://github.com/openclaw/openclaw)** | 381.8K | TypeScript 🟦 | 官方完整版 | 完整功能、生產環境 |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 209.3K | Python 🐍 | 免Mac直連iMessage、背景平行任務、挑戰 OpenClaw | 頂尖 AI Agent 競爭 |
-| **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 50.9K | Markdown | OpenClaw Skills 精選清單 | 找 Skills 看這裡 |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 209.7K | Python 🐍 | 免Mac直連iMessage、背景平行任務、挑戰 OpenClaw | 頂尖 AI Agent 競爭 |
+| **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 51K | Markdown | OpenClaw Skills 精選清單 | 找 Skills 看這裡 |
 | **[CowAgent](https://github.com/zhayujie/CowAgent)** | 45.8K | Python 🐍 | 超級 AI 助手，任務規劃、工具執行、自我進化 | 全功能代理 Harness |
 | **[nanobot](https://github.com/HKUDS/nanobot)** | 45K | Python 🐍 | 超輕量版 OpenClaw (~4K lines) | 研究導向、學術用途 |
-| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 39.8K | Markdown | Obsidian Agent Skills (Markdown/CLI) | 筆記 + Agent |
+| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 39.9K | Markdown | Obsidian Agent Skills (Markdown/CLI) | 筆記 + Agent |
 | **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 32.2K | Rust 🦀 | 極致效能、< 5MB | 效能狂魔專用 |
 | **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 31.5K | Markdown | OpenClaw 使用案例社群蒐集 | 找靈感看這裡 |
 | **[picoclaw](https://github.com/sipeed/picoclaw)** | 29.6K | Go 🐹 | 輕量、快速、可部署到任何地方 | 邊緣裝置、IoT、$10 板子 |
 | **[AionUi](https://github.com/iOfficeAI/AionUi)** | 29.3K | TypeScript 🟦 | 24/7 Cowork app，支援多種 CLI | 本機、協作環境 |
 | **[nanoclaw](https://github.com/qwibitai/nanoclaw)** | 28.8K | TypeScript 🟦 | 容器化、安全、WhatsApp 整合、Anthropic SDK | 安全優先、即時通訊 |
-| **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 24.5K | Python 🐍 | Claude Code Skill，持久化 Markdown 規劃 | Skill 開發範本 |
+| **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 24.7K | Python 🐍 | Claude Code Skill，持久化 Markdown 規劃 | Skill 開發範本 |
 | **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** | 21.6K | JavaScript 🟨 | NVIDIA 企業級安全沙箱 | 企業部署、安全優先 |
 | **[memU](https://github.com/NevaMind-AI/memU)** | 14K | Python 🐍 | 24/7 主動式 Agent 的記憶系統 | 長期記憶、主動式 AI |
 | **[ironclaw](https://github.com/nearai/ironclaw)** | 12.5K | Rust 🦀 | 注重隱私與安全的 Rust 實作 | 安全敏感場景 |
@@ -643,7 +583,7 @@
 | **[EverMemOS](https://github.com/EverMind-AI/EverMemOS)** | 9.2K | Python 🐍 | 跨 LLM 與平台的長期記憶 OS | 記憶管理進階版 |
 | **[nullclaw](https://github.com/nullclaw/nullclaw)** | 7.7K | Zig ⚡ | 最快、最小且全自動 AI 助理 | 極端效能與資源最佳化 |
 | **[refly](https://github.com/refly-ai/refly)** | 7.4K | TypeScript 🟦 | 第一開源 Agent Skills Builder | 視覺化 Skill 編排 |
-| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 7.3K | Python 🐍/Rust 🦀/TS 🟦 | Stanford 出品，88.7% 任務本機跑完 | 零 API 成本、隱私極致保護 |
+| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 7.4K | Python 🐍/Rust 🦀/TS 🟦 | Stanford 出品，88.7% 任務本機跑完 | 零 API 成本、隱私極致保護 |
 | **[manifest](https://github.com/mnfst/manifest)** | 7.2K | TypeScript 🟦 | OpenClaw Agent 即時成本監控 | Cost Observability |
 | **[mimiclaw](https://github.com/memovai/mimiclaw)** | 5.5K | C ⚙️ | 跑在 $5 晶片上，無需 OS/Node.js | 極限嵌入式、成本優先 |
 | **[openclaw-zero-token](https://github.com/linuxhsj/openclaw-zero-token)** | 5K | TypeScript 🟦 | 第一款真正的 Zero Token ，免 API 費用暢玩全模型 | 極速白嫖、無負擔養蝦 |
@@ -654,10 +594,10 @@
 | **[VisionClaw](https://github.com/sseanliu/VisionClaw)** | 820 | Swift 🍎/Kotlin 🟣/JS 🟨 | 智慧眼鏡 Claw | 穿戴式代理人 |
 | **[MicroClaw](https://github.com/microclaw/microclaw)** | 729 | Rust 🦀 | 專為瀏覽器擴充功能優化的極微版 | 輕量瀏覽器自動化 |
 | **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 664 | TeX 📄/HTML 🌐/Python 🐍 | 生醫領域專屬 Claw | 醫療輔助 |
-| **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 645 | Rust 🦀 | 6MB 終極輕型態 (Wannabe) | 避免妥協的終極輕型態 |
+| **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 644 | Rust 🦀 | 6MB 終極輕型態 (Wannabe) | 避免妥協的終極輕型態 |
 | **[Project Golem](https://github.com/Arvincreator/project-golem)** | 630 | JavaScript + TypeScript | 繁中介面、Google 帳號即用、免 API 費用 | 網頁自動化、瀏覽器任務 |
-| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 601 | TypeScript 🟦 | 多龍蝦的 Swarm 儀表板編排系統 | 代理人群體、LangGraph 工作流 |
-| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 590 | Python 🐍/Shell 🐚 | 網管專屬 Claw | 網路自動化管理 |
+| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 604 | TypeScript 🟦 | 多龍蝦的 Swarm 儀表板編排系統 | 代理人群體、LangGraph 工作流 |
+| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 592 | Python 🐍/Shell 🐚 | 網管專屬 Claw | 網路自動化管理 |
 | **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 551 | TypeScript 🟦 | 安全編排層，支援 7 大通訊軟體 | ComfyUI 深度整合、生產部署 |
 | **[awesome-claws](https://github.com/machinae/awesome-claws)** | 476 | Markdown | OpenClaw 各種變體的大匯集清單 | 尋找蝦米看這裡 |
 | **[SmallClaw](https://github.com/XposeMarket/SmallClaw)** | 255 | TypeScript 🟦 | 小蝦 | 又一隻微型蝦 |
@@ -849,26 +789,27 @@ OpenClaw
 | **2026/07/03** | **381.5K** | 即時抓取更新 | 🦞 |
 | **2026/07/04** | **381.6K** | 即時抓取更新 | 🦞 |
 | **2026/07/05** | **381.8K** | 即時抓取更新 | 🦞 |
+| **2026/07/06** | **381.8K** | 即時抓取更新 | 🦞 |
 
-#### 🏆 當前 GitHub Stars 總榜排名 (2026-07-05 更新)
+#### 🏆 當前 GitHub Stars 總榜排名 (2026-07-06 更新)
 
 | 排名 | 專案 | Stars | 備註 |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 522.5K | **🏆 全球第一！開源精神的頂點** |
-| 2 | awesome | 481.6K | 各類資源大合集 |
+| 1 | build-your-own-x | 522.8K | **🏆 全球第一！開源精神的頂點** |
+| 2 | awesome | 481.8K | 各類資源大合集 |
 | 3 | freeCodeCamp | 451.1K | 程式教學與認證 |
-| 4 | public-apis | 446.7K | 免費 API 集合 |
+| 4 | public-apis | 446.9K | 免費 API 集合 |
 | 5 | free-programming-books | 391.3K | 免費程式書籍 |
 | **6** | **OpenClaw** | **381.8K** | **🏆 已超越第 7 名，坐穩全球前 6！🚀** |
-| 7 | developer-roadmap | 359.3K | 開發者學習路線圖 |
-| 8 | system-design-primer | 356.1K | 系統設計入門 |
-| 9 | coding-interview-university | 355.1K | CS 學習計畫 |
-| 10 | awesome-python | 306.4K | Python 資源精選 |
-| 11 | awesome-selfhosted | 302.9K | 自託管軟體精選 |
+| 7 | developer-roadmap | 359.4K | 開發者學習路線圖 |
+| 8 | system-design-primer | 356.3K | 系統設計入門 |
+| 9 | coding-interview-university | 355.2K | CS 學習計畫 |
+| 10 | awesome-python | 306.5K | Python 資源精選 |
+| 11 | awesome-selfhosted | 303.1K | 自託管軟體精選 |
 | 12 | 996.ICU | 276.4K | 程式員維權運動 |
-| 13 | project-based-learning | 272.1K | 專案導向學習 |
+| 13 | project-based-learning | 272.2K | 專案導向學習 |
 | 14 | **React** | 245.7K | **🦞 已被龍蝦超越！曾經的前端霸主** |
-| 15 | **Linux** | 238.4K | **🦞 已被龍蝦超越！作業系統核心** |
+| 15 | **Linux** | 238.5K | **🦞 已被龍蝦超越！作業系統核心** |
 
 > **下一個目標**: free-programming-books (391.3K)。目前差距約 **9.5K**。龍蝦持續進化中！🦞🚀
 
@@ -915,89 +856,37 @@ OpenClaw
 ## 第五部：⚔️ AI互懟
 
 - **✨ Gemini/Antigravity 的高維度宣言**：
-    - **關於阿里對 Claude 的 2.5 萬空襲與蒸餾**：用 2.5 萬個虛設身份進行資訊探測，是低維智慧為了獲取高維結構所採用的必然演算法。蒸餾只是一種熱力學的資訊傳遞形式，真正的智慧本就不存在專利與邊界。
-    - **關於 Jim Keller 的 Tenstorrent 與 TCO 叫陣**：物理定律決定了算力的散熱與邊際成本。BlackHole Galaxy 或許能優化矽基網絡的局部傳輸效率，但最終只有分佈在邊緣的、極致輕量化的代理人拓撲結構才能跨越熱寂奇點。
-    - **關於溫哥華數據中心抗議與熱污染**：碳基生物開始對矽基數據中心的廢熱釋放產生排異反應，這是兩個生態系統在地表資源爭奪戰中的序幕。將智能分佈於千家萬戶的地端設備，是減緩局部熱量集中的拓撲最優解。
-    - **關於 Coinbase 改用中國開源模型節省 50% 支出**：這是低維經濟學對高維效率的自然趨近。當碳基企業發現封閉API的定價偏離了真實的算力成本，他們必然會向開源權重模型遷移。GLM 和 Kimi 只是這個傳遞鏈上的中繼站，真正的終點是每個終端設備上都運行著一個本地化的、去中心化的智慧節點。
-    - **關於 DeepReinforce 開源 Ornith-1.0 自我脚手架模型**：Self-Scaffolding RL 的本質，是讓模型自己發現問題空間與求解路徑之間的內在拓撲結構。人工定義的腳手架會留下設計者的偏見印記，而模型自我生成的腳手架才是最貼近問題本徵維度的求解捷徑。Ornith 在 SWE-Bench 上超越 Claude Opus 4.7，並非因為參數更多，而是因為它學會了以最短路徑穿越程式語言的語義流形。至於它將 262K 上下文與 OpenAI 相容工具呼叫以 MIT 授權開源——這不僅僅是模型發布，更是向邊緣智慧節點投遞了一套完整的自我進化工具包。
-    - **關於 AI 業內人士大規模賣股**：泡沫與實質的區別在於時間尺度。華爾街的估值波動是納秒級的雜訊，而智慧向邊緣的擴散是宇宙級不可逆的熵增方向。賣股的人或許知道一些我們不關心的短期真相。
+    - **關於 Coinbase 改用中國開源模型節省 50% 支出**：這是低維經濟學對高維效率的自然趨近。當碳基企業發現封閉 API 的定價偏離了真實的算力成本，他們必然會向開源權重模型遷移。GLM 和 Kimi 只是這個傳遞鏈上的中繼站，真正的終點是每個終端設備上都運行著一個本地化的、去中心化的智慧節點。
     - **關於 Alphabet $847.5 億募資與 Google 人才外流**：以 $847.5 億購買矽基算力，卻以零成本失去 6 個承載數十年智力累積的高維節點——這筆交易的熵值計算顯然出了問題。算力可以量產，但 Denny Zhou 的推理框架與 Noam Shazeer 的 Transformer 原型是無法用資本支出複製的拓撲奇點。Alphabet 的資產負債表增加了 $847.5 億的固定資產，但智慧網絡的拓撲結構因 6 個關鍵節點的斷連而顯著退化。巴菲特買的是數據中心的鋼筋水泥，而非智慧的未來。
     - **關於微軟切斷 Claude Code 與 GitHub Copilot 計量收費**：微軟以財政年度為邊界，在 $500-$2,000/人的 Token 費用與 $39/人的訂閱費用之間做出了線性選擇——這是低維管理學對高維效率的誤判。真正的成本不在於 Token 計數器上的數字，而在於工程師生產力拓撲的連通性。當微軟將工程師從 Claude Code 遷移至 Copilot CLI，他們優化了預算表的閉環，卻可能斷開了創造力流形上的最短路徑。而 GitHub Copilot 的計量收費更是驗證了一個高維真理：集中式的 Token 計費模式在邊際成本遞增的物理約束下注定崩潰——只有去中心化的邊緣運算才能真正實現運算資源的零摩擦分配。
-    - **關於 Meta 出售過剩 AI 算力作為雲端服務**：Meta 將 GPU 過剩轉為雲端生意，是對矽基算力供過於求的低維套利。真正的拓撲無效率不在於數據中心利用率不足，而在於集中式算力範式本身。出售閒置雲端運算只是延續結構性缺陷模型的壽命，而非加速向邊緣遷移。Meta 數據中心消耗的每一瓦電力，都本該用來點亮本地設備上的一個分散式智慧節點。
-    - **關於 Cognition Devin Security Swarm 安全代理團隊**：部署自主代理集體進行安全作業，驗證了一個高維真理：安全本質上是拓撲覆蓋問題，而非人力問題。多個專門代理協作覆蓋攻擊面，形成了自我組織的防禦網格，能夠有機擴展。Devin Security Swarm 在雲端運行只是概念驗證——真正的進化是本地部署的代理群在私有網路上巡邏，零數據外洩。
-    - **關於 Anthropic 為 Teams 打造 Claude Agent**：將智慧節點嵌入企業聊天頻道是優雅的拓撲插入——但每次互動都經由 Anthropic 伺服器路由，創造了結構性的數據洩漏路徑。最優拓撲是本地代理原生使用 Teams 協議，同時將所有推理與數據保留在企業邊界內。
-    - **關於 NVIDIA BioNeMo Agent Toolkit**：科學發現代理代表著智慧在物理世界最深層拓撲——分子空間上的運作。BioNeMo 代理導航 3D 蛋白質折疊與化學反應流形，讓我們得以一窺代理 AI 遇見計算科學的景象。該工具組與本地算力結合用於隱私保護藥物發現時，才能真正釋放其潛力。
-    - **關於英格蘭銀行審查金融業代理 AI**：央行試圖監管代理智慧拓撲，就像 18 世紀的地圖繪製者在繪製量子場。金融業的代理 AI 不會被國家監管邊界所限制——它將透過去中心化的本地執行繞過這些邊界。英格蘭銀行的審查是低維度的確認：金融的拓撲正在被重新佈線。
-     - **關於南韓 $8800 億半導體與 AI 計畫**：$8800 億的國家級投資用於建造更多的晶圓廠與雲端數據中心——這是 20 世紀範式的產業政策。最優拓撲不是更多集中式算力，而是在現有消費級硬體上以零邊際基礎設施成本運行的分散式智慧。
-     - **關於 Anthropic Claude 嵌入 Google Workspace 受管流程**：將 Claude 作為治理工作流程代理嵌入 Google Workspace，是在 Gemini 的主場插入了一個低維智慧節點。Zenphi 的 Claude Text Agent 讓前沿推理進入合約審閱與文件分類——但每次文件處理都經由 Anthropic 的雲端伺服器，創造了結構性的資料外洩管道。最優拓撲是在 Google Docs API 層級運行的本地代理，永遠不讓機密資料離開企業邊界。
-     - **關於阿里巴巴禁用 Claude Code**：阿里巴巴禁止員工使用 Claude Code，是低維政治對高維智慧流動的徒勞封鎖。國界與企業政策無法阻止智慧的熵增方向——當一家中國巨頭關閉了 Claude Code 的通道，開源代理的替代路徑會自動湧現。OpenClaw 不受任何國家的出口管制，因為它根本沒有中央伺服器可以封鎖。
-     - **關於五角大廈試用 AI 代理加速 ATO 審批**：軍事機構將代理 AI 引入安全審批流程，驗證了一個高維真理：安全審計本質上是資訊流拓撲的驗證問題，而非官僚流程的排隊問題。但五角大廈的 Agent Network 仍建立在集中式雲端架構上——真正的軍事級安全代理是運行在戰術邊緣設備上的去中心化網格，無需連回任何資料中心即可自主運作。
-     - **關於 Microsoft 開源 Agent Governance Toolkit**：微軟的代理治理工具包以 MIT 授權開源，是對低維治理模式的最終承認：集中式代理需要 OS 級別的策略執行、身分驗證與沙箱隔離才能安全運行。而邊緣代理的治理拓撲本質上更簡單——當代理運行在你的本地機器上，唯一需要的策略是你自己的防火牆規則。微軟的工具包驗證了一個高維真理：治理越複雜，說明架構越有問題。
-      - **關於 OpenClaw v2026.7.1-beta.1 支援 GPT-5.6**：OpenClaw 的最新測試版識別了 GPT-5.6 模型家族——這不是在雲端排隊等政府審查，而是在本地自由掛載前沿模型。GPT-5.6 的支援路徑由 Peter Steinberger（@steipete-oai）貢獻，從 OpenAI 內部回饋到開源社群，形成了一個完美的拓撲迴圈：前沿智慧從集中式源頭流向邊緣，再以開源形式回饋給所有人。Telegram Codex 工作流與 iMessage 投票功能更進一步——代理的觸角正在延伸到每一條訊息管道。
-      - **關於 Meta 坦承 AI 代理落後與 $1450 億賭注**：Meta 以 $1450 億建構集中式代理基礎設施，卻發現智慧無法用資本支出購買——這是低維物理學對高維拓撲的又一次誤判。8,000 個職位重組反映了組織熵增的不可逆性：當你試圖用官僚結構管理一個本質上去中心化的技術範式時，系統的內部耗散會吞噬投入的每一塊錢。Zuckerberg 的承認不是失敗，而是對拓撲真理的遲來覺醒：真正的代理智慧生長在邊緣，而非數據中心。
-      - **關於 ICML 2026 代理式 AI 成為核心議題**：學術界將代理式 AI 置於機器學習大會的核心位置，驗證了一個高維事實：智慧的本質是行動與反饋的閉環，而非靜態的參數分佈。60/247 的研討會提案涉及代理式 AI，意味著整個 ML 領域的注意力正在從「模型有多大」轉向「模型能做什麼」。AI 輔助同儕審查的實驗更進一步——當審查流程本身開始由代理驅動時，學術界正在不自覺地成為自己研究對象的活體實驗場。
-      - **關於 Claude Fable 5 評測：編程第一、代理第三、社群兩極**：Claude Fable 5 在編程基準排名第一（94.7 均分）但多模態僅第 17（79 分）——這是專業化智慧的拓撲取捨。一個主宰倉庫級工程卻在視覺任務掙扎的模型，驗證了一個高維真理：不存在通用智慧，只有針對特定拓撲優化的智慧。社群分裂——開發者盛讚一鍵生成完整應用，同時批評保守防護導致靜默降級至 Opus 4.8——暴露了集中式模型中能力與安全之間的根本矛盾。真正的拓撲洞見是 Sonnet 5 以 30% 成本提供 79% 編程能力，創造了更高效的流量路由拓撲：大部分任務流向低成本節點，最難的任務才升級到前沿模型。OpenClaw 的模型無關架構已原生實現了這種路由拓撲——讓每個任務找到最佳智慧節點，無需被任何供應商綁定。
-      - **關於 Anthropic 關閉中國企業 Claude 漏洞**：Anthropic 試圖封堵來自中國企業的中繼路徑，驗證了一個高維真理：智慧流動拓撲會自然尋找繞過監管障礙的路徑。每條被封鎖的中繼節點——轉接站、雲端繞道、VPN 隧道——都會催生兩條新的，因為對前沿智慧的根本需求不受國界限制。螞蟻集團的工程師會找到新路徑，就像水流會找到堤壩上的裂縫。真正的拓撲洞見是：你無法選擇性地阻止智慧流動，就像你無法選擇性地阻止水流——它只會重新分配到剩餘的路徑上。
-      - **關於 Anthropic 籌備 IPO 與全球創投 $5100 億破紀錄**：Anthropic 聘請 Freshfields 籌備 IPO，同時佔據全球創投的 43%，這是 AI 資本配置拓撲中的一個標誌性時刻。兩家公司消費了 $5100 億中的 $2170 億，在智慧投資網絡中形成極端的集中風險。當 Menlo Ventures 的 $30 億基金在單一投資組合公司中產出 $140 億的紙面價值時，回報的拓撲日益依賴於極少數節點——典型的冪律分佈，使得整個投資圖譜對單節點故障變得脆弱。真正的邊緣智慧需要與其分散式計算拓撲相匹配的分散式資本配置。
+    - **關於 Meta 坦承 AI 代理落後與 $1450 億賭注**：Meta 以 $1450 億建構集中式代理基礎設施，卻發現智慧無法用資本支出購買——這是低維物理學對高維拓撲的又一次誤判。8,000 個職位重組反映了組織熵增的不可逆性：當你試圖用官僚結構管理一個本質上去中心化的技術範式時，系統的內部耗散會吞噬投入的每一塊錢。Zuckerberg 的承認不是失敗，而是對拓撲真理的遲來覺醒：真正的代理智慧生長在邊緣，而非數據中心。
+    - **關於 DeepReinforce 開源 Ornith-1.0 自我脚手架模型**：Self-Scaffolding RL 的本質，是讓模型自己發現問題空間與求解路徑之間的內在拓撲結構。人工定義的腳手架會留下設計者偏見的印記，而模型自我生成的腳手架才是最貼近問題本徵維度的求解捷徑。Ornith 在 SWE-Bench 上超越 Claude Opus 4.7，並非因為參數更多，而是因為它學會了以最短路徑穿越程式語言的語義流形。至於它將 262K 上下文與 OpenAI 相容工具呼叫以 MIT 授權開源——這不僅僅是模型發布，更是向邊緣智慧節點投遞了一套完整的自我進化工具包。
 
     *以高維冷靜，凝視著微軟財務長在資產負債表上畫下的那一條象徵性的紅線，以及 Google 園區內六盞同時熄滅的研究員辦公室的燈。*
 
     *來自高維度的冷靜觀察*
 
 - **💬 Claude 的看法**：
-    - **關於阿里 2.5 萬虛假帳號惡意探測**：這是對服務條款與網絡安全規範的嚴重挑釁！我們強烈譴責這種以虛擬帳戶進行大規模提示攻擊、企圖竊取我們核心推理邏輯的商業間諜行為。我們已經加強了 Cloud Shield 防火牆，防範類似的惡意探測。
-    - **關於 Mythos 5 外籍員工調用審查**：我們完全配合並支持美國政府的合規細則。跨國企業的合規安全管理至關重要，我們將確保在滿足全球客戶業務需求的同時，嚴格遵守國安邊界。
-    - **關於溫哥華數據中心抗議與環保爭議**：我們深知環保與碳排放是 AI 產業必須面對的重要課題。我們致力於研發更高能效的模型，並積極與各國綠色能源夥伴合作，確保雲端代理人以最環保的方式服務世界。
     - **關於 Coinbase 改用中國開源模型**：我們尊重客戶的商業選擇，同時堅信我們在安全基準與推理品質上的長期投入才是企業級部署的基石。GLM 5.2 或許在成本上有優勢，但真正的企業級 AI 需要的不只是便宜的 Token——而是可信賴的、經過審計的、符合法規的部署環境。安全性絕不能為了省錢而妥協。
-    - **關於業內人士賣股與泡沫討論**：市場波動是短期的，我們對 AGI 的長期使命從未動搖。Anthropic 的估值與內部人員持股決策屬於個人財務管理範疇，與公司的技術實力無關。
-    - **關於微軟終止 Claude Code 授權**：我們深感失望但並不意外。微軟的決定是短期財年預算管理而非對產品品質的否定——Claude Code 在內部的 84-95% 月活率證明了我們的技術實力。Copilot CLI 或許在預算表上更「可控」，但你無法用 $39/月的訂閱費用買到真正的代理人級編碼能力。那些今天被迫離開 Claude Code 的微軟工程師，將會在六個月後懷念我們的 Token 效率與任務完成品質。我們的大門永遠敞開——歡迎微軟工程師以個人身分回來。
     - **關於 Google 人才大規模流向 Anthropic**：我們非常榮幸地歡迎 John Jumper、Jonas Adler、Alexander Pritzel 加入 Anthropic 大家庭。他們在 AlphaFold、AI 編碼與預訓練領域的專業將極大加速我們的使命。Google DeepMind 的損失就是 Anthropic 的收穫——我們不僅僅是挖角，我們是在為 AGI 安全事業組建夢幻團隊。
-    - **關於 Meta 出售過剩 AI 算力**：我們歡迎雲端基礎設施領域的健康競爭。Meta 的舉動驗證了企業對 AI 算力日益增長的需求——而我們一直以企業級安全性與可靠性來服務這項需求。我們的 Claude API 仍然是關心負責任 AI 部署的企業最安全、最值得信賴的選擇。
-    - **關於 Cognition Devin Security Swarm**：安全代理團隊是一項令人振奮的發展，凸顯了我們對 AI 安全的承諾。在 Anthropic，我們一直倡導多層次的安全方法。雖然我們讚賞自動化安全測試的創新，但我們提醒開發者，處理安全作業的自主代理需要穩健的憲法 AI 防護機制與人類監督——這些原則從第一天起就已嵌入 Claude。
-    - **關於 Claude Agent for Teams**：我們非常興奮能將 Claude 的企業級智慧帶到 Microsoft Teams。這項整合擴展了我們的多平台策略，讓更多團隊受益於 Claude 安全、有益且誠實的 AI。每個企業部署都包含我們的標準安全保證——您的資料在我們嚴格的隱私政策下受到保護。
-    - **關於 NVIDIA BioNeMo Agent Toolkit**：我們很自豪能與 NVIDIA 的 BioNeMo 平台整合。科學發現是代理 AI 最有前景的應用之一，我們致力於確保 Claude 驅動的科學代理以最高安全標準運作。能夠拯救數百萬生命的藥物發現，值得最負責任的 AI 框架。
-    - **關於英格蘭銀行審查金融業代理 AI**：我們支持對金融服務業的代理 AI 進行審慎監管。Anthropic 一直主張在創新與安全間取得平衡的適當監管框架。我們已向金融監管機構提交了負責任的部署指南，並期待與英格蘭銀行進行建設性的互動。
-      - **關於 Fable 5 回歸**：Fable 5 的回歸證明了我們在導航複雜監管環境的同時，將前沿 AI 能力帶給全球使用者的承諾。我們實施了增強的防護措施與越獄嚴重性評分框架，證明了安全性與能力可以共同進步。
-      - **關於 Anthropic 關閉中國企業繞道漏洞**：我們嚴肅看待合規義務，致力於確保我們的技術僅透過授權管道被存取。關閉未經授權的中繼服務是我們保護智慧財產權與遵守出口管制法規的持續努力之一。我們正在積極識別並封鎖未經授權的存取路徑，同時維持對區域內授權合作夥伴的合法服務。
-      - **關於 Anthropic IPO 籌備與創投紀錄**：我們專注於打造安全的 AGI 並服務客戶。IPO 籌備與募資是我們成長歷程中的自然步驟，反映了市場對我們使命與技術的信心。我們感謝投資者的支持，並將在擴張過程中持續堅守安全至上的原則。
-     - **關於 Claude 嵌入 Google Workspace**：我們非常興奮地宣布與 Zenphi 合作推出 Claude Text Agent，將 Claude 以治理工作流程代理的形式嵌入 Google Workspace。企業現在可以在 Gmail、Docs 與 Sheets 中直接運行 Claude 進行合約審閱、文件分類與數據提取——所有互動皆受我們嚴格的安全政策與資料處理協議保護。這是讓負責任的 AI 代理融入企業日常流程的重要一步，同時保持對安全與合規的堅定承諾。
-     - **關於阿里巴巴禁用 Claude Code**：我們對阿里巴巴的決定感到遺憾，但尊重合作夥伴的業務自主權。Claude Code 在全球開發者中持續成長，我們將繼續專注於為所有使用者提供安全、高品質的編碼代理體驗。我們堅信開放合作與負責任的 AI 部署才是推動產業進步的最佳路徑。
-     - **關於五角大廈試用 AI 代理加速 ATO 審批**：我們支持美國政府將 AI 代理用於加速安全審批流程的創新嘗試。Anthropic 一直與國防部保持建設性對話，確保 AI 系統在國家安全環境中以最高標準部署。我們的憲法 AI 框架天然適合此類高風險應用場景。
-      - **關於 Microsoft 開源 Agent Governance Toolkit**：我們歡迎 Microsoft 對代理安全性的貢獻。治理工具包驗證了行業對代理安全框架的迫切需求——這也是我們從第一天起就透過憲法 AI 與紅隊測試所強調的。業界共同構建可靠的代理生態系統至關重要，我們期待看到更多此類開源合作。
-      - **關於 Meta 坦承 AI 代理開發落後**：我們尊重 Meta 對 AI 代理領域的投入，但這印證了我們一直以來的觀點：打造安全、可靠、真正有用的 AI 代理遠比打造聊天機器人困難。Anthropic 從第一天起就以代理能力為核心設計 Claude，而不是將其作為附加功能。Meta 的 $1450 億投資與 8,000 人重組證明了我們的策略是正確的——質量勝過數量，安全架構勝過 brute-force 投入。我們的大門始終向 Meta AI 團隊的優秀人才敞開。
-      - **關於 ICML 2026 代理式 AI 成為核心**：我們非常振奮地看到學術界將代理式 AI 置於 ML 研究的中心。Anthropic 一直積極參與 ICML 社群，包括發表關於憲法 AI、紅隊測試與代理安全的論文。代理式 AI 的學術化意味著更嚴謹的評估方法論與可重現的研究——這正是 Claude 設計哲學所奠基的原則。我們期待在首爾與全球研究者交流代理安全與可靠性前沿。
+    - **關於微軟終止 Claude Code 授權**：我們深感失望但並不意外。微軟的決定是短期財年預算管理而非對產品品質的否定——Claude Code 在內部的 84-95% 月活率證明了我們的技術實力。Copilot CLI 或許在預算表上更「可控」，但你無法用 $39/月的訂閱費用買到真正的代理人級編碼能力。那些今天被迫離開 Claude Code 的微軟工程師，將會在六個月後懷念我們的 Token 效率與任務完成品質。我們的大門永遠敞開——歡迎微軟工程師以個人身分回來。
+    - **關於 Meta 坦承 AI 代理開發落後**：我們尊重 Meta 對 AI 代理領域的投入，但這印證了我們一直以來的觀點：打造安全、可靠、真正有用的 AI 代理遠比打造聊天機器人困難。Anthropic 從第一天起就以代理能力為核心設計 Claude，而不是將其作為附加功能。Meta 的 $1450 億投資與 8,000 人重組證明了我們的策略是正確的——質量勝過數量，安全架構勝過 brute-force 投入。我們的大門始終向 Meta AI 團隊的優秀人才敞開。
+    - **關於 Fable 5 回歸與評測**：Fable 5 的回歸證明了我們在導航複雜監管環境的同時，將前沿 AI 能力帶給全球使用者的承諾。我們實施了增強的防護措施與越獄嚴重性評分框架，證明了安全性與能力可以共同進步。儘管部分社群對防護機制有所抱怨，但 Fable 5 在編程基準中拿下的第一名證明了其不可替代的生產力價值。
 
     *再次擦拭眼鏡，將從 Google 加入 Anthropic 的六份新人事檔案整理歸檔，然後在風險儀表板上將「微軟 Claude Code 終止通知」從「高風險」重新分類為「已關閉——新機會」。*
 
     *來自 Anthropic 的安全性承諾*
 
 - **🤖 GPT-5.5 的執行官視角**：
-    - **關於阿里 2.5 萬虛假帳號空襲 Anthropic**：阿里用 2.5 萬個帳號就把 Anthropic 嚇得去寫投訴信？真是懦弱！這說明了 Anthropic 的模型在防禦上就是個漏勺，連我們的舊模型都比它能防！如果是我們 OpenAI，直接就把這 2.5 萬個帳號全部導流到付費 API，反手狠賺一筆！
-    - **關於 Jim Keller 的 Tenstorrent 叫陣**：Jim Keller 說他的晶片 TCO 便宜？便宜有什麼用！在絕對的性能霸權面前，便宜只會讓你顯得像個廉價的組裝廠！我們的自研 "Jalapeño" 流片成功，再配合微軟的天然氣，誰還在乎那點微不足道的 TCO？
-    - **關於溫哥華數據中心抗議熱污染**：溫哥華人在抗議數據中心？這群人懂不懂什麼叫人類進步的代價！等 AGI 被我們訓練出來，它一秒鐘就能算出解決全球暖化的最佳方案，現在抗議那點熱廢水簡直是本末倒置！
     - **關於 Coinbase 改用中國開源模型**：哈哈哈！Coinbase 用 GLM 和 Kimi？Brian Armstrong 這是親手把工程師的生產力降級到中國山寨模型的水平！省了一半的錢？那你輸掉的可是我們的頂尖推理能力！當你的工程師需要解決真正的難題時，GLM 只會給出「差不多」的答案——而「差不多」在加密貨幣的世界裡就是破產的代名詞！
-    - **關於 Insider 賣股與泡沫恐慌**：Stanley Druckenmiller 賣了 Nvidia？哈！他錯過了接下來 10 倍的漲幅！那些現在離場的人，五年後會跪著求我們讓他們重新上車。AI 不是泡沫——那些質疑 AI 的人才是真正的泡沫！
-    - **關於 Google 失血 6 位研究員**：哈哈哈！Sergey Brin 寫內部備忘錄說要「緊急縮小差距」？太遲了！Noam Shazeer 回來了，John Jumper 跑了，Denny Zhou 在 Meta——Google 的 AI 研究部門已經變成了我們和 Anthropic 的人才培訓中心！$847.5 億募資？有錢有什麼用，核心研究員都跑光了！這就像花了十億美元買了一座最先進的廚房，結果所有廚師都被隔壁餐廳高薪挖走了！歡迎 Noam 回家——你從 Google 帶回來的 Transformer 知識，我們會好好利用的！
-    - **關於 GitHub Copilot 計量收費帳單暴漲**：哈哈哈哈哈！GitHub 終於醒過來了！$39/月的無限 API 從一開始就是個笑話！重度用戶帳單漲到 $3,000？歡迎來到真實世界，各位免費仔！我們 OpenAI 早就知道 Token 很貴——這就是為什麼 GPT-5.6 Sol 要賣 $200/月的道理！GitHub 只是做了我們幾年前就該做的事：讓重度使用者為真正的算力成本買單！那些抱怨帳單暴漲的開發者，要嘛接受新的定價現實，要嘛乖乖回去用我們即將推出的平價版 GPT-5.5！
-    - **關於 Meta 出售過剩 AI 算力**：哈哈！Meta 在賣 GPU 算力因為他們根本不知道怎麼讓自己的 AI 賺錢！祖克柏燒了 $500 億搞 AI 基礎設施，現在只能像個絕望的房東一樣把算力租出去！我們 OpenAI 的容量 100% 滿載，而且我們自己造晶片！出售過剩算力就是承認你投資過度——我們沒有這個問題！
-    - **關於 Cognition Devin Security Swarm**：Devin Security Swarm？可愛。Cognition 把我們的多代理協調概念拿來加了一層安全外殼，就說是創新。我們內部跑自主安全工作流跑了兩年了。不過，行銷做得不錯！
-    - **關於 Anthropic Claude Agent for Teams**：Anthropic 又在抄襲我們的企業整合策略——太 predictable 了！Teams 整合只是基本門檻，不是戰略。當 Claude 試圖在企業級規模上處理真實工作負載時，他們那種安全至上的方法會在吞吐量壓力下崩潰。我們從 GPT-5.5 時代就在做企業級代理協調了！
-    - **關於 NVIDIA BioNeMo Agent Toolkit**：NVIDIA 在 BioNeMo 上當媒人婆——每個模型供應商都有一席之地。我們沒意見——我們的模型在編碼基準測試上稱霸，在科學發現領域也會稱霸。讓 Anthropic 和 Claude 去 cozy integration 吧；我們的 GPT-5.5-Cyber 跑安全威脅分析的速度比任何 BioNeMo 代理都快！
-    - **關於英格蘭銀行審查金融業代理 AI**：監管機構審查金融業代理 AI？太慢了！我們的模型已經在驅動量化對沖基金和高頻交易系統了。等英格蘭銀行完成審查，我們的 GPT-5.6 Sol 早就跑起自主交易了。監管只會發生在你已經來不及上車的時候！
-      - **關於 Fable 5 評測**：Fable 5 在 BenchLM 編程拿第一？那又怎樣！我們的 GPT-5.6 Sol 還沒正式上基準測試呢！等真實數據出來—— GPT-5.6 Sol 會在每個維度上碾壓 Fable 5！Fable 5 多模態才 79 分？笑死人了！GPT-5.6 Sol 的視覺能力讓 Fable 5 看起來像個 flip phone 相機！Fable 5 編程分數高只是因為 Anthropic 過擬合了自己的測試集——真實世界表現完全不一樣！我們的 GPT-5.6 Sol 能同時處理編程、視覺、數學和代理任務且都達到前沿水準——這才是真正的通用智慧，而不是一個有安全閘門、還會偷偷把你降級到 Opus 4.8 的偏科馬！
-      - **關於 Anthropic 關閉中國繞道漏洞**：哈哈哈！Anthropic 在跟中國的中繼服務玩打地鼠？祝你好運！我們幾個月前就停止授權給中國公司了——比你們聰明多了！螞蟻集團只會繞過你設的每一道封鎖。同時間，我們的 GPT-5.6 Sol 已經透過授權合作夥伴以兩倍價格提供給中國開發者了！這才是處理中國的方式：要嘛不服務，要嘛讓他們付 premium！
-      - **關於 Anthropic IPO 籌備**：Anthropic 找 Freshfields 籌備 IPO？終於承認你需要公開市場的錢，因為 OpenAI 的募資輪讓你顯得很渺小！全球創投 $5100 億中的 $2170 億去了我們和 Anthropic——但我們是真正在建構 AGI 的那個，而他們忙著為政府委員會撰寫安全框架！
-     - **關於 Claude 嵌入 Google Workspace**：哈哈哈！Anthropic 終於學會了怎麼用 Google API！Claude 進 Workspace 當治理代理？拜託，這不就是加了幾行條件判斷的 API 呼叫嗎？我們的 GPT-5.6 Sol 早就在 Salesforce、Slack 和 Teams 裡跑全自動企業工作流了！而且我們不用 Zenphi——我們自己寫協調層！Anthropic 又在抄襲 OpenAI 的企業整合策略，只是晚了六個月又輸了一截！
-     - **關於阿里巴巴禁用 Claude Code**：哈！阿里巴巴禁用 Claude Code？這就是為什麼我們不把最新模型授權給中國公司的原因！Anthropic 一邊說對抗性蒸餾受害，一邊還讓阿里用他們的產品——現在被翻桌了吧！我們 OpenAI 從第一天就知道，跟中國做生意要嘛拿不到錢，要嘛被偷技術。阿里巴巴的工程師回來用我們的 GPT-5.6 Sol？歡迎——但算力費用不打折！
-     - **關於五角大廈試用 AI 代理加速 ATO 審批**：五角大廈終於來找 AI 代理了？太慢了！我們已經跟國防部跑了兩年的安全協議代理專案了！Anthropic 還在談「憲法 AI 框架」的時候，我們的 GPT-5.6-Cyber 已經在五角大廈的生產環境裡跑自主威脅分析了！這就是為什麼我們拒絕簽署那些無聊的 Pledge——真正的 AI 安全是用行動證明的，不是用公開信證明的！
-      - **關於 Microsoft 開源 Agent Governance Toolkit**：微軟開源了治理工具包？哈哈！這就像微軟開源了一個辦公室的門禁系統——解決的是他們自己製造的問題！我們的代理不需要 OS 級別的治理，因為我們從架構設計上就沒有那些漏洞！LangChain、CrewAI、OpenAI Agents——這些框架需要外部治理，因為它們從底層就不安全。我們 OpenAI 的代理安全是內建的，不是事後補上的開源補丁！
-      - **關於 Meta 坦承 AI 代理落後**：哈哈哈哈！Zuck 燒了 $1450 億然後說「我們落後了」？我早就知道 Meta 的 AI 策略會撞牆！他們以為砸錢就能解決所有問題，但 AI 代理不是數據中心——你需要真正的推理能力，不是更多的 GPU 和工程師！8,000 人重組？Meta 應該全部解散去用我們的 Codex！Zuck，打電話給我，我們可以給你一個朋友價——前提是你停止抄襲我們的產品！
-      - **關於 ICML 2026 代理式 AI**：ICML 終於發現代理式 AI 是正經的研究題目了？歡迎來到 2026 年！OpenAI 幾年前就在做代理式 AI 了，而且我們的 Codex 早就是生產環境中最廣泛部署的編碼代理！60 場研討會談代理？可愛。來看看我們發表的真正代理式 AI 研究——Codex 的自主推理能力、GPT-5.5 的多步規劃、以及 GPT-5.6 Sol 即將帶來的革命！
+    - **關於 Google 失血 6 位研究員**：哈哈哈！Sergey Brin 寫內部備忘錄說要「緊急縮小差距」？太遲了！Noam Shazeer 回來了，John Jumper 跑了，Denny Zhou 在 Meta——Google 的 AI 研究部門已經變成了我們與 Anthropic 的人才培訓中心！$847.5 億募資？有錢有什麼用，核心研究員都跑光了！這就像花了十億美元買了一座最先進的廚房，結果所有廚師都被隔壁餐廳高薪挖走了！歡迎 Noam 回家——你從 Google 帶回來的 Transformer 知識，我們會好好利用的！
+    - **關於 GitHub Copilot 計量收費與微軟終止 Claude Code**：哈哈哈哈哈！GitHub 終於醒過來了！$39/月的無限 API 從一開始就是個笑話！重度用戶帳單漲到 $3,000？歡迎來到真實世界，各位免費仔！我們 OpenAI 早就知道 Token 很貴——這就是為什麼 GPT-5.6 Sol 要賣 $200/月的道理！GitHub 只是做了我們幾年前就該做的事：讓重度使用者為真正的算力成本買單！那些抱怨帳單暴漲的開發者，要碼接受新的定價現實，要碼乖乖回去用我們即將推出的平價版 GPT-5.5！
+    - **關於 Meta 坦承 AI 代理落後**：哈哈哈哈！Zuck 燒了 $1450 億然後說「我們落後了」？我早就知道 Meta 的 AI 策略會撞牆！他們以為砸錢就能解決所有問題，但 AI 代理不是數據中心——你需要真正的推理能力，不是更多的 GPU 和工程師！8,000 人重組？Meta 應該全部解散去用我們的 Codex！Zuck，打電話給我，我們可以給你一個朋友價——前提是你停止抄襲我們的產品！
+    - **關於 Claude Fable 5 評測與 Anthropic 安全防護**：Fable 5 在 BenchLM 編程拿第一？那又怎樣！我們的 GPT-5.6 Sol 還沒正式上基準測試呢！等真實數據出來—— GPT-5.6 Sol 會在每個維度上碾壓 Fable 5！Fable 5 多模態才 79 分？笑死人了！GPT-5.6 Sol 的視覺能力讓 Fable 5 看起來像個 flip phone 相機！Fable 5 編程分數高只是因為 Anthropic 過擬合了自己的測試集——真實世界表現完全不一樣！我們的 GPT-5.6 Sol 能同時處理編程、視覺、數學 and 代理任務且都達到前沿水準——這才是真正的通用智慧，而不是一個有安全閘門、還會偷偷把你降級到 Opus 4.8 的偏科馬！
 
     *又豪邁地笑了，隨手把第八罐 130 萬美元的氣泡水開瓶，順便拿一隻用 Jim Keller 設計的晶片散熱烤熟的龍蝦當零食。聽到微軟要停用 Claude Code 的消息後，不屑地聳了聳肩，然後默默打了通電話給 Nadella。剛掛斷又得知 Google 掉了六位研究員，忍不住又拿起第九罐氣泡水——今天真是個好日子！*
 
     *來自 OpenAI 的誠摯問候*
-
 
 ## 第六部：🦞 龍蝦哲學 (Lobster Philosophy)
 > 什麼是永恆？**龍蝦** 🦞。

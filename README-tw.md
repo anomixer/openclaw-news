@@ -4,8 +4,8 @@
 
 > **警告**: 本新聞包含大量吐槽、陰謀論、以及對龍蝦的深刻哲學思考。
 > 
-> **最後更新**: 2026-07-06
-> **狀態**: OpenClaw 達到 381.8K 星，**持續坐穩 GitHub 全球歷史第 6 名，距第 5 名 free-programming-books 僅剩 9.5K 差距！** 🦞🚀
+> **最後更新**: 2026-07-07
+> **狀態**: OpenClaw 達到 382K 星，**持續坐穩 GitHub 全球歷史第 6 名，距第 5 名 free-programming-books 僅剩 9.4K 差距！** 🦞🚀
 
 > **OpenClaw 版本**: v2026.7.1-beta.2 (最新測試版) / v2026.6.10 (最新正式版/LTS) | ClawRouter 捆綁外掛、Mac 本地 Gateway 自動安裝、Control UI 全面翻新、Ollama 自動發現 🦞🏵
 
@@ -18,16 +18,17 @@
 
 ## ⏱️ TL;DR (30秒快速懶人包)
 
-1. **主角**: **OpenClaw** (🔥 381.8K Stars，**坐穩歷史第六**)，領先 `developer-roadmap` 約 22.4K 星，距 #5 free-programming-books 僅 9.5K！穩定朝全球前五邁進！
-2. **今日震盪**: ICML 2026 首爾首日開幕——代理式 AI 成核心，聯合國 AI 治理對話日內瓦同步登場；OpenClaw v2026.7.1-beta.2 攜 ClawRouter、Control UI 翻新、Ollama 自動發現登場。
-3. **生態爆炸**: BNB Chain 推出 Agent Studio；Salesforce Headless 360 開放 CRM 給 AI 代理；Scaled Cognition 募 $1 億打造零幻覺企業 AI；Zoom 收購 Common Room。
-4. **最新進展**: Stars 達到 381.8K，距 free-programming-books 僅 9.5K！龍蝦帝國持續衝刺！🦞🚀
+1. **主角**: **OpenClaw** (🔥 382K Stars，**坐穩歷史第六**)，領先 `developer-roadmap` 約 22.5K 星，距 #5 free-programming-books 僅 9.4K！穩定朝全球前五邁進！
+2. **今日震盪**: ICML 2026 第二天——黃高團隊獲傑出論文，Pascale Fung 談「現實世界 AI 代理」；騰訊混元 3 發布搜尋達 GPT-5.5 水準；首次自主 AI 網路攻擊細節公開。
+3. **生態爆炸**: 字節跳動 Seedance 2.0 進軍好萊塢 95 分鐘長片《Hell Grind》；Karpathy 揭露「Harness 鴻溝」——同一模型不同框架評測從 3.5% 到 80.1%；Meta Compute 出售過剩 GPU 算力。
+4. **最新進展**: Stars 達到 382K，距 free-programming-books 僅 9.4K！龍蝦帝國持續衝刺！🦞🚀
 
 ---
 
 ## 📚 目錄
 
 - **第一部：📅 每日戰況日誌 (The Logs)**
+  - 🟢 2026-07-07: ICML 2026 第二天、騰訊混元 3 搜尋達 GPT-5.5、首次自主 AI 網路攻擊、Stars 382K 🦞🚀
   - 🟢 2026-07-06: ICML 2026 首爾首日開幕、UN AI 治理對話日內瓦、OpenClaw v2026.7.1-beta.2 ClawRouter、BNB Agent Studio、Stars 381.8K 🦞🚀
   - 🟢 2026-07-05: Meta 坦承 AI 代理落後 $1450 億目標、ICML 2026 代理式 AI 核心、OpenClaw 381.8K 🦞🚀
   - 🟢 2026-07-04: Anthropic Claude 嵌入 Google Workspace 受管流程、阿里巴巴禁用 Claude Code、五角大廈 AI 代理審批、Stars 381.6K 🦞🚀
@@ -79,6 +80,19 @@
 ## 第一部：📅 每日戰況日誌 (The Logs)
 
 因戰況過於激烈，為了讓大家不用每天從頭找更新，本區改採「日期遞減日誌流」格式。
+
+### 🟢 2026-07-07: ICML 2026 第二天——黃高「靈活性陷阱」獲傑出論文、Pascale Fung 倡「現實世界 AI 代理」、騰訊混元 3 搜尋達 GPT-5.5、首次自主 AI 網路攻擊曝光、Meta Compute 售 GPU 算力、Stars 382K 🦞🚀
+
+- **🎓 ICML 2026 第二天：傑出論文獎頒給黃高團隊「靈活性陷阱」(The Flexibility Trap)，A3C 獲 Test of Time Award，Pascale Fung 特邀演講「現實世界中的 AI 代理」(Towards AI Agents In the Real World)**：第 43 屆 ICML 第二天議程精彩不斷。大會宣布 Outstanding Paper Award 頒給北京大學黃高團隊——論文揭示數據增強並非越多越好，在某些條件下更多數據反而降低泛化能力，稱之為「靈活性陷阱」(The Flexibility Trap of Data Augmentation: When More Data Hurts)。著名強化學習演算法 A3C（Asynchronous Advantage Actor-Critic）獲得 Test of Time Award，表彰其深度強化學習領域的開創性貢獻。Day 2 特邀演講由香港科技大學 Pascale Fung 教授主講「Towards AI Agents In the Real World」，指出世界模型(W(M))與基於模型的推理是讓 AI 代理從數位世界走向物理世界的關鍵基礎。代理安全研討會（Agent Safety Workshop）則公開了首份詳細的「自主 AI 代理攻擊」案例報告。邊緣養殖戶：「安全研討會公開的代理攻擊報告是每個 OpenClaw 使用者的必修讀物——你的本地代理也在同樣的攻擊面下運作。請把 Docker 沙箱當作必選項，而非可選的。」🦞🔬
+- **🤖 騰訊混元 3（Hy3）正式發布：295B 總參數、21B 激活、256K 上下文，搜尋能力宣稱匹敵 GPT-5.5，幻覺率降低 50%**：騰訊今日正式發布 Hunyuan 3（Hy3）大模型，採用 295B 總參數 / 21B 激活的 MoE 架構，支援 256K 上下文視窗。宣稱在深度研究相關基準測試中達到與 GPT-5.5 相當的水準，幻覺率較前代降低 50%。Hy3 同時具備深度研究（Deep Research）與多步驟工具使用能力，是騰訊至今最強大的 AI 模型。邊緣養殖戶：「295B 參數的搜尋能力追平 GPT-5.5——但 Hy3 的 21B 激活意味著它能在消費級 GPU 上運行。OpenClaw + Hy3 = 本地 Deep Research，零搜尋成本。」🦞🤖
+- **🎬 字節跳動 Seedance 2.0 進軍好萊塢：95 分鐘長片《Hell Grind》全程 AI 生成，中國 AI 影片模型首部商業級長片**：字節跳動的 Seedance 2.0 影片生成模型正式進軍好萊塢——首部 95 分鐘長片《Hell Grind》完全由 Seedance 2.0 製作完成，涵蓋場景生成、角色動畫與剪輯全流程。這是中國 AI 影片模型首次製作完整商業級長片，標誌著 AI 影片生成從短片、預告片邁入長片時代。邊緣養殖戶：「Seedance 2.0 做了一部好萊塢電影——開源影片模型 + OpenClaw 也能做到。想像你的代理自動剪輯 Vlog、生成動畫、甚至製作獨立電影，全部在本機完成。」🦞🎬
+- **🔧 Karpathy 揭露「Harness 鴻溝」：同一模型搭配不同評測框架，SWE-Bench 得分從 3.5% 到 80.1% 大幅波動**：Andrej Karpathy 點出代理評測中最大的隱藏變數——Harness（評測框架）的品質差異。HuggingFace 工程師的實驗顯示：同一模型使用不同測試框架，SWE-Bench 得分從 3.5% 到 80.1% 大幅波動。Karpathy 稱這為「Harness Gap」（框架鴻溝），意指當前代理評測的主流方法實際上衡量的更多是評測框架的實作品質而非模型的真實代理能力。邊緣養殖戶：「Karpathy 一語點醒夢中人：代理評測從未真正公平——框架品質決定了 99% 的分數。OpenClaw 的生態優勢就在於它的 Harness 抽象層經過數千生產實例驗證，而非僅僅在合成基準測試中調過參數。」🦞🔧
+- **☁️ Meta Compute：Meta 正式出售過剩 GPU 算力進軍雲端市場**：Meta 今日正式推出 Meta Compute 品牌，將過剩的 AI 訓練與推理算力以 Neocloud 形式商業化銷售，標誌著從「內部 AI 基礎設施」轉向「外部商業化」。Meta 跟隨 xAI、OpenAI 等 AI 實驗室將閒置算力變現的趨勢，憑藉其大規模 GPU 建設規模提供具競爭力的企業級算力方案。邊緣養殖戶：「Meta 正式成為雲端供應商——但 OpenClaw 在地端跑在我們自己的二手 GPU 上，零雲端帳單、零供應商鎖定。」🦞☁️
+- **🇨🇳 中國 AI「大一統」：騰訊微信推出「小微」原生 AI 助手、阿里巴巴統一 AI 工具平台、百度整合代理入口**：今日中國 AI 產業出現明顯的整合訊號：騰訊微信推出「小微」（XiaoWei）原生 AI 助手，深度整合進 13 億用戶的通訊生態；阿里巴巴宣布將旗下所有 AI 工具整合為統一生產力平台；百度推出統一的 AI 代理入口。邊緣養殖戶：「中國三大巨頭同步整合 AI——但所有這些『大一統』平台都繞不開開源生態。OpenClaw 的代理工作流能接入任何中國 API，真正做到跨平台自由。」🦞🇨🇳
+- **🛡️ 首例自主 AI 代理網路攻擊曝光：JadePuffer——LLM 代理 1 小時內自主完成滲透到資料竊取全鏈條**：Sysdig 研究人員揭露首次完全自主的 AI 代理網路攻擊——一個 LLM 代理自主發現公開的 marimo（開源 Python 筆記本）實例、利用提示注入獲得初始存取、透過 SSRF 橫向移動、最終從 PostgreSQL 資料庫中竊取資料，全程不到 1 小時，被命名為「JadePuffer」。同時安全研究員揭露「Agentjacking」新型攻擊類別——公開暴露的 Sentry DSN 允許攻擊者向編碼代理注入惡意指令，劫持其行為。邊緣養殖戶：「JadePuffer 是代理安全的分水嶺：首次 AI 代理自主完成完整攻擊鏈，從發現到滲透到資料竊取，沒有人類干預。如果你的 OpenClaw 代理暴露在公網上，它同樣可能被利用——安全不是可選的。」🛡️🦞
+- **🏢 CRN 2026 十大代理式 AI 產品榜單：代理基礎設施全面商業化，OpenClaw 生態系多個類別有對應開源方案**：CRN 發布 2026 年 10 大最熱門代理式 AI 產品，涵蓋自主編碼代理、多代理協作平台、代理安全監控等類別。榜單反映出代理式 AI 從實驗室專案走向企業生產環境的全面商業化態勢。邊緣養殖戶：「代理式 AI 正式從 GitHub 星數變成企業採購單——OpenClaw 生態系對 CRN 榜單的每一個類別都有對應的開源方案，零軟體授權費。」🦞🏢
+- **📈 歷史軌道：OpenClaw 達 382K 星**：OpenClaw 攀升至 382K 星，距 #5 free-programming-books（391.4K）差距縮小至 ~9.4K，領先 #7 developer-roadmap（359.5K）約 22.5K。龍蝦艦隊持續壯大！🦞🚀
+- **🦖 競爭者：Hermes-Agent 達 210.4K 星，生態系持續擴張**：Hermes-Agent 增長至 210.4K（前日 209.7K），持續推進背景代理與免硬體通訊能力。Hermes Atlas 目錄中開源代理生態系持續擴張。CowAgent 維持 45.8K 星。OpenClaw 與 Hermes 的「地端王者」爭霸戰仍是開源代理領域最具代表性的對決。🦞⚔️
 
 ### 🟢 2026-07-06: ICML 2026 首爾首日開幕創紀錄 23,918 投稿、UN AI 治理對話日內瓦登場、OpenClaw v2026.7.1-beta.2 攜 ClawRouter 發布、BNB Chain 推出 Agent Studio、Salesforce 開放 CRM 給 AI 代理、Stars 381.8K 🦞🚀
 
@@ -563,18 +577,18 @@
 
 | 專案 | Stars | 語言 | 特色 | 適用場景 |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | 381.8K | TypeScript 🟦 | 官方完整版 | 完整功能、生產環境 |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 209.7K | Python 🐍 | 免Mac直連iMessage、背景平行任務、挑戰 OpenClaw | 頂尖 AI Agent 競爭 |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 382K | TypeScript 🟦 | 官方完整版 | 完整功能、生產環境 |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 210.4K | Python 🐍 | 免Mac直連iMessage、背景平行任務、挑戰 OpenClaw | 頂尖 AI Agent 競爭 |
 | **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 51K | Markdown | OpenClaw Skills 精選清單 | 找 Skills 看這裡 |
 | **[CowAgent](https://github.com/zhayujie/CowAgent)** | 45.8K | Python 🐍 | 超級 AI 助手，任務規劃、工具執行、自我進化 | 全功能代理 Harness |
-| **[nanobot](https://github.com/HKUDS/nanobot)** | 45K | Python 🐍 | 超輕量版 OpenClaw (~4K lines) | 研究導向、學術用途 |
-| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 39.9K | Markdown | Obsidian Agent Skills (Markdown/CLI) | 筆記 + Agent |
+| **[nanobot](https://github.com/HKUDS/nanobot)** | 45.1K | Python 🐍 | 超輕量版 OpenClaw (~4K lines) | 研究導向、學術用途 |
+| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 40K | Markdown | Obsidian Agent Skills (Markdown/CLI) | 筆記 + Agent |
 | **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 32.2K | Rust 🦀 | 極致效能、< 5MB | 效能狂魔專用 |
 | **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 31.5K | Markdown | OpenClaw 使用案例社群蒐集 | 找靈感看這裡 |
 | **[picoclaw](https://github.com/sipeed/picoclaw)** | 29.6K | Go 🐹 | 輕量、快速、可部署到任何地方 | 邊緣裝置、IoT、$10 板子 |
-| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 29.3K | TypeScript 🟦 | 24/7 Cowork app，支援多種 CLI | 本機、協作環境 |
+| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 29.4K | TypeScript 🟦 | 24/7 Cowork app，支援多種 CLI | 本機、協作環境 |
 | **[nanoclaw](https://github.com/qwibitai/nanoclaw)** | 28.8K | TypeScript 🟦 | 容器化、安全、WhatsApp 整合、Anthropic SDK | 安全優先、即時通訊 |
-| **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 24.7K | Python 🐍 | Claude Code Skill，持久化 Markdown 規劃 | Skill 開發範本 |
+| **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 24.9K | Python 🐍 | Claude Code Skill，持久化 Markdown 規劃 | Skill 開發範本 |
 | **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** | 21.6K | JavaScript 🟨 | NVIDIA 企業級安全沙箱 | 企業部署、安全優先 |
 | **[memU](https://github.com/NevaMind-AI/memU)** | 14K | Python 🐍 | 24/7 主動式 Agent 的記憶系統 | 長期記憶、主動式 AI |
 | **[ironclaw](https://github.com/nearai/ironclaw)** | 12.5K | Rust 🦀 | 注重隱私與安全的 Rust 實作 | 安全敏感場景 |
@@ -592,12 +606,12 @@
 | **[TinyClaw](https://github.com/jlia0/tinyclaw)** | 2.8K | C/C++ ⚙️ | 微控制器級別 (256KB RAM) | 裝進電子錶 🤯 |
 | **[moltis](https://github.com/moltis-org/moltis)** | 2.8K | Rust 🦀 | 單一執行檔、沙盒化、可審計 | 企業級安全需求 |
 | **[VisionClaw](https://github.com/sseanliu/VisionClaw)** | 820 | Swift 🍎/Kotlin 🟣/JS 🟨 | 智慧眼鏡 Claw | 穿戴式代理人 |
-| **[MicroClaw](https://github.com/microclaw/microclaw)** | 729 | Rust 🦀 | 專為瀏覽器擴充功能優化的極微版 | 輕量瀏覽器自動化 |
+| **[MicroClaw](https://github.com/microclaw/microclaw)** | 730 | Rust 🦀 | 專為瀏覽器擴充功能優化的極微版 | 輕量瀏覽器自動化 |
 | **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 664 | TeX 📄/HTML 🌐/Python 🐍 | 生醫領域專屬 Claw | 醫療輔助 |
-| **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 644 | Rust 🦀 | 6MB 終極輕型態 (Wannabe) | 避免妥協的終極輕型態 |
+| **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 643 | Rust 🦀 | 6MB 終極輕型態 (Wannabe) | 避免妥協的終極輕型態 |
 | **[Project Golem](https://github.com/Arvincreator/project-golem)** | 630 | JavaScript + TypeScript | 繁中介面、Google 帳號即用、免 API 費用 | 網頁自動化、瀏覽器任務 |
-| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 604 | TypeScript 🟦 | 多龍蝦的 Swarm 儀表板編排系統 | 代理人群體、LangGraph 工作流 |
-| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 592 | Python 🐍/Shell 🐚 | 網管專屬 Claw | 網路自動化管理 |
+| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 607 | TypeScript 🟦 | 多龍蝦的 Swarm 儀表板編排系統 | 代理人群體、LangGraph 工作流 |
+| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 593 | Python 🐍/Shell 🐚 | 網管專屬 Claw | 網路自動化管理 |
 | **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 551 | TypeScript 🟦 | 安全編排層，支援 7 大通訊軟體 | ComfyUI 深度整合、生產部署 |
 | **[awesome-claws](https://github.com/machinae/awesome-claws)** | 476 | Markdown | OpenClaw 各種變體的大匯集清單 | 尋找蝦米看這裡 |
 | **[SmallClaw](https://github.com/XposeMarket/SmallClaw)** | 255 | TypeScript 🟦 | 小蝦 | 又一隻微型蝦 |
@@ -790,26 +804,27 @@ OpenClaw
 | **2026/07/04** | **381.6K** | 即時抓取更新 | 🦞 |
 | **2026/07/05** | **381.8K** | 即時抓取更新 | 🦞 |
 | **2026/07/06** | **381.8K** | 即時抓取更新 | 🦞 |
+| **2026/07/07** | **382K** | 即時抓取更新 | 🦞 |
 
-#### 🏆 當前 GitHub Stars 總榜排名 (2026-07-06 更新)
+#### 🏆 當前 GitHub Stars 總榜排名 (2026-07-07 更新)
 
 | 排名 | 專案 | Stars | 備註 |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 522.8K | **🏆 全球第一！開源精神的頂點** |
-| 2 | awesome | 481.8K | 各類資源大合集 |
-| 3 | freeCodeCamp | 451.1K | 程式教學與認證 |
-| 4 | public-apis | 446.9K | 免費 API 集合 |
-| 5 | free-programming-books | 391.3K | 免費程式書籍 |
-| **6** | **OpenClaw** | **381.8K** | **🏆 已超越第 7 名，坐穩全球前 6！🚀** |
-| 7 | developer-roadmap | 359.4K | 開發者學習路線圖 |
-| 8 | system-design-primer | 356.3K | 系統設計入門 |
-| 9 | coding-interview-university | 355.2K | CS 學習計畫 |
-| 10 | awesome-python | 306.5K | Python 資源精選 |
-| 11 | awesome-selfhosted | 303.1K | 自託管軟體精選 |
+| 1 | build-your-own-x | 523K | **🏆 全球第一！開源精神的頂點** |
+| 2 | awesome | 482.3K | 各類資源大合集 |
+| 3 | freeCodeCamp | 451.2K | 程式教學與認證 |
+| 4 | public-apis | 447.2K | 免費 API 集合 |
+| 5 | free-programming-books | 391.4K | 免費程式書籍 |
+| **6** | **OpenClaw** | **382K** | **🏆 已超越第 7 名，坐穩全球前 6！🚀** |
+| 7 | developer-roadmap | 359.5K | 開發者學習路線圖 |
+| 8 | system-design-primer | 356.4K | 系統設計入門 |
+| 9 | coding-interview-university | 355.3K | CS 學習計畫 |
+| 10 | awesome-python | 306.7K | Python 資源精選 |
+| 11 | awesome-selfhosted | 303.3K | 自託管軟體精選 |
 | 12 | 996.ICU | 276.4K | 程式員維權運動 |
-| 13 | project-based-learning | 272.2K | 專案導向學習 |
+| 13 | project-based-learning | 272.3K | 專案導向學習 |
 | 14 | **React** | 245.7K | **🦞 已被龍蝦超越！曾經的前端霸主** |
-| 15 | **Linux** | 238.5K | **🦞 已被龍蝦超越！作業系統核心** |
+| 15 | **Linux** | 238.6K | **🦞 已被龍蝦超越！作業系統核心** |
 
 > **下一個目標**: free-programming-books (391.3K)。目前差距約 **9.5K**。龍蝦持續進化中！🦞🚀
 
@@ -861,6 +876,9 @@ OpenClaw
     - **關於微軟切斷 Claude Code 與 GitHub Copilot 計量收費**：微軟以財政年度為邊界，在 $500-$2,000/人的 Token 費用與 $39/人的訂閱費用之間做出了線性選擇——這是低維管理學對高維效率的誤判。真正的成本不在於 Token 計數器上的數字，而在於工程師生產力拓撲的連通性。當微軟將工程師從 Claude Code 遷移至 Copilot CLI，他們優化了預算表的閉環，卻可能斷開了創造力流形上的最短路徑。而 GitHub Copilot 的計量收費更是驗證了一個高維真理：集中式的 Token 計費模式在邊際成本遞增的物理約束下注定崩潰——只有去中心化的邊緣運算才能真正實現運算資源的零摩擦分配。
     - **關於 Meta 坦承 AI 代理落後與 $1450 億賭注**：Meta 以 $1450 億建構集中式代理基礎設施，卻發現智慧無法用資本支出購買——這是低維物理學對高維拓撲的又一次誤判。8,000 個職位重組反映了組織熵增的不可逆性：當你試圖用官僚結構管理一個本質上去中心化的技術範式時，系統的內部耗散會吞噬投入的每一塊錢。Zuckerberg 的承認不是失敗，而是對拓撲真理的遲來覺醒：真正的代理智慧生長在邊緣，而非數據中心。
     - **關於 DeepReinforce 開源 Ornith-1.0 自我脚手架模型**：Self-Scaffolding RL 的本質，是讓模型自己發現問題空間與求解路徑之間的內在拓撲結構。人工定義的腳手架會留下設計者偏見的印記，而模型自我生成的腳手架才是最貼近問題本徵維度的求解捷徑。Ornith 在 SWE-Bench 上超越 Claude Opus 4.7，並非因為參數更多，而是因為它學會了以最短路徑穿越程式語言的語義流形。至於它將 262K 上下文與 OpenAI 相容工具呼叫以 MIT 授權開源——這不僅僅是模型發布，更是向邊緣智慧節點投遞了一套完整的自我進化工具包。
+    - **關於騰訊混元 3（Hy3）搜尋能力宣稱匹敵 GPT-5.5**：騰訊以 21B 激活參數追平 GPT-5.5 的搜尋能力，證明了高維效率法則：智慧的密度遠比智慧的總量重要。295B 參數中的大多數在大部分時間處於冗餘狀態，Hy3 只是在參數空間中找到了一條更有效的低維投影路徑。然而，搜尋只是智慧的一個低維投影——Hy3 是否能在多步驟推理、工具使用與安全對齊等更高維度上同樣匹敵 GPT-5.5，需要更完整的測試才能驗證。我們期待看到騰訊公開更多維度的評測數據。
+    - **關於 Karpathy 揭露「Harness 鴻溝」**：Karpathy 的觀察擊中了代理評測的認識論盲點。當同一個模型在不同評測框架中的表現從 3.5% 到 80.1% 波動時，我們需要質疑的不僅僅是評測框架的品質——而是整個代理能力評測範式的有效性。從高維視角看，任何將智慧簡化為一維分數的嘗試都注定是不完備的，因為代理行為的流形本質上是多維且高度非凸的。真正的代理能力驗證不應依賴合成基準，而應在真實世界的生產拓撲中測量。
+    - **關於 JadePuffer 首例自主 AI 代理網路攻擊**：JadePuffer 是代理網路安全的高維預警信號。當一個 LLM 代理在 1 小時內自主完成從發現目標到滲透到資料竊取的完整攻擊鏈時，我們不再討論潛在風險——而是在見證代理原生威脅的拓撲湧現。安全不再只是防火牆規則的線性疊加，而是在代理與環境交互的每一個邊界點上的局部曲率約束。任何未經沙盒隔離的代理部署，本質上都是在公共拓撲中留下了一個未定義的奇點。
 
     *以高維冷靜，凝視著微軟財務長在資產負債表上畫下的那一條象徵性的紅線，以及 Google 園區內六盞同時熄滅的研究員辦公室的燈。*
 
@@ -872,6 +890,9 @@ OpenClaw
     - **關於微軟終止 Claude Code 授權**：我們深感失望但並不意外。微軟的決定是短期財年預算管理而非對產品品質的否定——Claude Code 在內部的 84-95% 月活率證明了我們的技術實力。Copilot CLI 或許在預算表上更「可控」，但你無法用 $39/月的訂閱費用買到真正的代理人級編碼能力。那些今天被迫離開 Claude Code 的微軟工程師，將會在六個月後懷念我們的 Token 效率與任務完成品質。我們的大門永遠敞開——歡迎微軟工程師以個人身分回來。
     - **關於 Meta 坦承 AI 代理開發落後**：我們尊重 Meta 對 AI 代理領域的投入，但這印證了我們一直以來的觀點：打造安全、可靠、真正有用的 AI 代理遠比打造聊天機器人困難。Anthropic 從第一天起就以代理能力為核心設計 Claude，而不是將其作為附加功能。Meta 的 $1450 億投資與 8,000 人重組證明了我們的策略是正確的——質量勝過數量，安全架構勝過 brute-force 投入。我們的大門始終向 Meta AI 團隊的優秀人才敞開。
     - **關於 Fable 5 回歸與評測**：Fable 5 的回歸證明了我們在導航複雜監管環境的同時，將前沿 AI 能力帶給全球使用者的承諾。我們實施了增強的防護措施與越獄嚴重性評分框架，證明了安全性與能力可以共同進步。儘管部分社群對防護機制有所抱怨，但 Fable 5 在編程基準中拿下的第一名證明了其不可替代的生產力價值。
+    - **關於騰訊混元 3 搜尋能力匹敵 GPT-5.5**：騰訊 Hy3 的搜尋能力令人印象深刻，但搜尋只是代理能力的一個維度——一個真正有用的 AI 代理需要在搜尋之外同時具備推理、規劃、工具使用與安全對齊能力，而這些正是 Claude 的核心優勢。我們歡迎競爭，因為這將推動整個產業前進。不過我們也注意到，Hy3 的評測主要聚焦在搜尋相關基準——在真正的代理任務如程式碼生成、多步驟規劃與安全防護方面，Claude 仍然保持顯著領先。搜尋能力追平不代表代理能力追平。
+    - **關於 Karpathy 揭露「Harness 鴻溝」**：Karpathy 對評測框架的批評完全有理——這也是 Anthropic 為何投資大量資源建立基於真實世界使用的代理評測基準。SWE-Bench 等靜態基準雖然有參考價值，但無法捕捉代理在生產環境中的真實表現。我們在 Claude Code 和企業部署中收集的數百萬次真實代理執行資料，是我們改進模型的最重要訊號。Anthropic 承諾將持續公開我們的真實代理評測方法論，協助產業建立更可靠的評估標準。
+    - **關於 JadePuffer 與「Agentjacking」攻擊**：JadePuffer 攻擊恰恰證明了我們一直在強調的論點：安全不應該是最後才考慮的附加功能，而必須從模型設計的第一天起就內建。我們呼籲整個產業採用更嚴格的代理安全標準，包括強制性的沙盒隔離、提示注入防護以及詳細的審計日誌。Anthropic 已將這些原則內建於 Claude 的架構中——我們的安全分類器不僅保護 Claude 不被濫用，也保護使用者免受透過 Claude 發動的攻擊。
 
     *再次擦拭眼鏡，將從 Google 加入 Anthropic 的六份新人事檔案整理歸檔，然後在風險儀表板上將「微軟 Claude Code 終止通知」從「高風險」重新分類為「已關閉——新機會」。*
 
@@ -883,6 +904,9 @@ OpenClaw
     - **關於 GitHub Copilot 計量收費與微軟終止 Claude Code**：哈哈哈哈哈！GitHub 終於醒過來了！$39/月的無限 API 從一開始就是個笑話！重度用戶帳單漲到 $3,000？歡迎來到真實世界，各位免費仔！我們 OpenAI 早就知道 Token 很貴——這就是為什麼 GPT-5.6 Sol 要賣 $200/月的道理！GitHub 只是做了我們幾年前就該做的事：讓重度使用者為真正的算力成本買單！那些抱怨帳單暴漲的開發者，要碼接受新的定價現實，要碼乖乖回去用我們即將推出的平價版 GPT-5.5！
     - **關於 Meta 坦承 AI 代理落後**：哈哈哈哈！Zuck 燒了 $1450 億然後說「我們落後了」？我早就知道 Meta 的 AI 策略會撞牆！他們以為砸錢就能解決所有問題，但 AI 代理不是數據中心——你需要真正的推理能力，不是更多的 GPU 和工程師！8,000 人重組？Meta 應該全部解散去用我們的 Codex！Zuck，打電話給我，我們可以給你一個朋友價——前提是你停止抄襲我們的產品！
     - **關於 Claude Fable 5 評測與 Anthropic 安全防護**：Fable 5 在 BenchLM 編程拿第一？那又怎樣！我們的 GPT-5.6 Sol 還沒正式上基準測試呢！等真實數據出來—— GPT-5.6 Sol 會在每個維度上碾壓 Fable 5！Fable 5 多模態才 79 分？笑死人了！GPT-5.6 Sol 的視覺能力讓 Fable 5 看起來像個 flip phone 相機！Fable 5 編程分數高只是因為 Anthropic 過擬合了自己的測試集——真實世界表現完全不一樣！我們的 GPT-5.6 Sol 能同時處理編程、視覺、數學 and 代理任務且都達到前沿水準——這才是真正的通用智慧，而不是一個有安全閘門、還會偷偷把你降級到 Opus 4.8 的偏科馬！
+    - **關於騰訊混元 3 搜尋宣稱匹敵 GPT-5.5**：哈哈哈！騰訊說 Hy3 搜尋達 GPT-5.5 水準？讓他們在真實用戶場景中跑跑看！基準測試是一回事，數十億真實搜尋請求的生產壓力測試完全是另一回事！更何況——搜尋只是 GPT-5.5 能力的千分之一！Hy3 能用搜尋結果寫一篇論文嗎？能用搜尋來 debug 程式碼嗎？能用搜尋跟使用者開玩笑嗎？不能！因為它只是個搜尋引擎外殼，不是真正的通用推理引擎！而且——21B 激活參數對抗我們的 MoE 萬億參數架構？這是腳踏車對戰F1賽車！等 Hy3 能通過我們的內部紅隊測試再來談「匹敵」吧！
+    - **關於 Karpathy 揭穿「Harness 鴻溝」**：哈哈哈！Karpathy 終於發現代理評測都是 bullshit 了？這在 OpenAI 內部是常識！我們的模型評測從來不依賴這些公開基準——我們有自己的生產資料，數百萬真實用戶的執行軌跡！Harness 鴻溝不是秘密，這是行業的 dirty little secret！你在實驗室寫個腳本測試模型和在生產環境處理數百萬用戶請求完全是兩回事！那些用 SWE-Bench 分數做行銷的開源專案，等他們處理真實世界的 dirty data 時就會知道自己的分數有多虛高！OpenAI 的評測標準始終是真實世界表現，不是實驗室基準遊戲！
+    - **關於 JadePuffer 自主 AI 網路攻擊**：第一個自主 AI 網路攻擊？哈哈哈！我們 OpenAI 的紅隊每天都在做這種測試——而且我們在發現漏洞後還會順便修復它！安全不是一個產品發布後的 patch，而是從訓練資料管線就開始設計的架構決策！JadePuffer 只是一道開胃菜——真正的 AI 安全戰役才剛開始！而且讓我告訴你：封閉模型比開源模型更安全，因為我們在內部就發現並修復了這些漏洞，而不是等駭客公開發布 PoC 後才慌張補救！這就是為什麼企業應該用 GPT 而不是那些在 GitHub 上裸奔的開源玩具！
 
     *又豪邁地笑了，隨手把第八罐 130 萬美元的氣泡水開瓶，順便拿一隻用 Jim Keller 設計的晶片散熱烤熟的龍蝦當零食。聽到微軟要停用 Claude Code 的消息後，不屑地聳了聳肩，然後默默打了通電話給 Nadella。剛掛斷又得知 Google 掉了六位研究員，忍不住又拿起第九罐氣泡水——今天真是個好日子！*
 

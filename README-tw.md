@@ -4,8 +4,8 @@
 
 > **警告**: 本新聞包含大量吐槽、陰謀論、以及對龍蝦的深刻哲學思考。
 > 
-> **最後更新**: 2026-07-07
-> **狀態**: OpenClaw 達到 382K 星，**持續坐穩 GitHub 全球歷史第 6 名，距第 5 名 free-programming-books 僅剩 9.4K 差距！** 🦞🚀
+> **最後更新**: 2026-07-08
+> **狀態**: OpenClaw 達到 382.1K 星，**持續坐穩 GitHub 全球歷史第 6 名，距第 5 名 free-programming-books 僅剩 9.3K 差距！** 🦞🚀
 
 > **OpenClaw 版本**: v2026.7.1-beta.2 (最新測試版) / v2026.6.10 (最新正式版/LTS) | ClawRouter 捆綁外掛、Mac 本地 Gateway 自動安裝、Control UI 全面翻新、Ollama 自動發現 🦞🏵
 
@@ -18,16 +18,17 @@
 
 ## ⏱️ TL;DR (30秒快速懶人包)
 
-1. **主角**: **OpenClaw** (🔥 382K Stars，**坐穩歷史第六**)，領先 `developer-roadmap` 約 22.5K 星，距 #5 free-programming-books 僅 9.4K！穩定朝全球前五邁進！
-2. **今日震盪**: ICML 2026 第二天——黃高團隊獲傑出論文，Pascale Fung 談「現實世界 AI 代理」；騰訊混元 3 發布搜尋達 GPT-5.5 水準；首次自主 AI 網路攻擊細節公開。
-3. **生態爆炸**: 字節跳動 Seedance 2.0 進軍好萊塢 95 分鐘長片《Hell Grind》；Karpathy 揭露「Harness 鴻溝」——同一模型不同框架評測從 3.5% 到 80.1%；Meta Compute 出售過剩 GPU 算力。
-4. **最新進展**: Stars 達到 382K，距 free-programming-books 僅 9.4K！龍蝦帝國持續衝刺！🦞🚀
+1. **主角**: **OpenClaw** (🔥 382.1K Stars，**坐穩歷史第六**)，領先 `developer-roadmap` 約 22.5K 星，距 #5 free-programming-books 僅 9.3K！穩定朝全球前五邁進！
+2. **今日震盪**: ICML 2026 第三天——WiML 女性論壇、Apple SpecMD 研究展出、FAGEN 代理 AI 失效模式研討會；字節跳動豆包與阿里通義千問宣布 7/15 關閉 AI 代理功能；Cisco 為 9 萬員工內部部署 AI 代理。
+3. **生態爆炸**: Salesforce Agentforce Commerce 正式 GA；MiniMax 推出 24 小時自主 Agent 1；Exabeam 發表代理行為智慧安全方案。
+4. **最新進展**: Stars 達到 382.1K，距 free-programming-books 僅 9.3K！龍蝦帝國持續衝刺！🦞🚀
 
 ---
 
 ## 📚 目錄
 
 - **第一部：📅 每日戰況日誌 (The Logs)**
+  - 🟢 2026-07-08: ICML 2026 第三天、中國豆包/通義千問關閉 AI 代理、Cisco 9 萬員工內部代理部署、Stars 382.1K 🦞🚀
   - 🟢 2026-07-07: ICML 2026 第二天、騰訊混元 3 搜尋達 GPT-5.5、首次自主 AI 網路攻擊、Stars 382K 🦞🚀
   - 🟢 2026-07-06: ICML 2026 首爾首日開幕、UN AI 治理對話日內瓦、OpenClaw v2026.7.1-beta.2 ClawRouter、BNB Agent Studio、Stars 381.8K 🦞🚀
   - 🟢 2026-07-05: Meta 坦承 AI 代理落後 $1450 億目標、ICML 2026 代理式 AI 核心、OpenClaw 381.8K 🦞🚀
@@ -80,6 +81,17 @@
 ## 第一部：📅 每日戰況日誌 (The Logs)
 
 因戰況過於激烈，為了讓大家不用每天從頭找更新，本區改採「日期遞減日誌流」格式。
+
+### 🟢 2026-07-08: ICML 2026 第三天——WiML 女性機器學習研討會、Apple SpecMD 研究展出、FAGEN 代理失效模式研討會、中國豆包與通義千問 7/15 關閉 AI 代理、Cisco 9 萬員工大規模內部代理部署、Stars 382.1K 🦞🚀
+
+- **🎓 ICML 2026 第三天：WiML 女性機器學習研討會登場、Apple 展出 SpecMD 推測專家預取研究、FAGEN 代理失效模式研討會深入探討代理可靠性**：ICML 進入第三天主會議程。亮點包括：**WiML（Women in ML）研討會** 全日舉行，邀請演講與導師環節促進女性研究者在 ML 社群的連結。**Apple 在 booth #B305** 展出 SpecMD（推測專家預取全面研究）與 RL 微調 VLM 的穩健性與思維鏈一致性研究。**FAGEN（Failure Modes in Agentic AI）研討會** 深入探討代理系統的可重現觸發條件、軌跡診斷與可驗證修復策略——特別聚焦於長期閉環交互中的錯誤級聯與策略收縮問題。Snorkel AI 晚間於江南 Bloom Bar 舉辦 ICML 社群活動。邊緣養殖戶：「FAGEN 研討會談的『錯誤級聯』與『策略收縮』正是每個 OpenClaw 使用者會遇到的現實問題——當代理在長期任務中逐漸偏向模板化行為時，你的 Harness 需要內建多樣性檢測。」🦞🔬
+- **🇨🇳 中國 AI 代理大清洗：字節跳動豆包（Doubao）與阿里通義千問（Qwen）宣布 7/15 關閉 AI 代理建立功能**：字節跳動的豆包（Doubao）與阿里巴巴的通義千問（Qwen）同步公告，將於 2026 年 7 月 15 日起停止 AI 代理建立功能。關閉後用戶將無法創建新 AI 代理，所有現有用戶創建的代理也將停止運作。平台表示用戶仍可在過渡期內查看代理配置與對話歷史，建議在 10 月 15 日前備份重要內容。此舉與中國《擬人化 AI 互動服務管理暫行辦法》7/15 生效時間點高度吻合。邊緣養殖戶：「中國監管大刀落下——豆包和千問的代理功能被一刀切。而 OpenClaw 跑在你的本地機器上，不在任何政府管轄的雲端伺服器內。開源去中心化代理才是穿越監管風暴的唯一方舟。」🦞🇨🇳
+- **🏢 企業代理部署：Cisco 為 9 萬名員工大規模內部部署個人 AI 代理，成為目前最大規模企業內部代理推廣計畫**：Cisco 宣布將在 7 月底前為約 9 萬名員工部署個人 AI 代理，採用模型路由以平衡成本與能力，並以本地部署為核心強調資料控制與保護。報導指出這是一場關於信任的大規模實驗——技術能力本身不足以確保採用價值，若員工不信任代理部署，即便是最好的技術也無法創造價值。邊緣養殖戶：「Cisco 9 萬代理是企業代理信任度的試金石。OpenClaw 的社群生態早已證明：當代理在本地運行、資料不離開硬碟，使用者的信任是自然建立的，不需要企業溝通團隊的說服。」🦞🏢
+- **🏪 Salesforce Agentforce Commerce 正式 GA：購物代理、採購代理、商家代理全面上線**：Salesforce 宣布 Agentforce Commerce 正式公開上市，包含 Shopper Agent（購物代理）、Buyer Agent（採購代理）、Merchant Agent（商家代理），並規劃與 ChatGPT 及 Google/Gemini 頻道的原生整合。此平台將店面、目錄與訂單系統連結至代理工作流，讓零售商可以運行不僅聊天、還能執行庫存查詢、訂單確認與結帳的代理工作流。邊緣養殖戶：「Salesforce 終於把代理放進了商業核心——但每次庫存查詢都經過 Salesforce 雲端。OpenClaw 商家代理在本地處理訂單資料，你的庫存清單永遠不離開自己的硬碟。」🦞🏪
+- **🤖 MiniMax 推出 Agent 1：可自主連續運行 24 小時的 AI 代理**：中國 AI 公司 MiniMax 發布 Agent 1，一個可在多個平台上連續 24 小時自主管理複雜數位任務的 AI 系統。The Next Web 報導其展示完成了需要長時間持續注意力的要求任務。該發布標誌著自主任務運行工具已遠遠超越聊天式助手。邊緣養殖戶：「24 小時自主運行——但 MiniMax Agent 1 仍在雲端伺服器上。OpenClaw 代理可以在你的筆電上 24/7 運行，零雲端費用、零網路依賴。」🦞🤖
+- **🛡️ 代理安全深化：Exabeam 推出代理行為智慧方案，為 AI 代理提供行為分析與異常檢測**：Exabeam 發表面向 AI 代理安全的新方案，引入開源代理驗證與遙測專案、擴展 AI 可觀測性以支援 Anthropic Claude、新增 50+ 項代理行為分析檢測（總數達 90 項），以及 OWASP Agentic Top 10 覆蓋評分。Exabeam 指出：「AI 代理需要的不僅僅是護欄——它們需要行為智慧。」邊緣養殖戶：「Exabeam 說得對——代理安全不是輸入輸出過濾，而是行為層的異常檢測。OpenClaw 的沙箱隔離與審計日誌正是為這個威脅模型設計的。」🛡️🦞
+- **📈 歷史軌道：OpenClaw 達 382.1K 星**：OpenClaw 攀升至 382.1K 星，距 #5 free-programming-books（391.4K）差距縮小至 ~9.3K，領先 #7 developer-roadmap（359.6K）約 22.5K。龍蝦艦隊持續壯大！🦞🚀
+- **🦖 競爭者：Hermes-Agent 達 211K 星；CowAgent 達 45.9K 星**：Hermes-Agent 增長至 211K（前日 210.4K），持續推進背景代理能力。CowAgent 微幅成長至 45.9K。開源代理生態系持續擴張。🦞⚔️
 
 ### 🟢 2026-07-07: ICML 2026 第二天——黃高「靈活性陷阱」獲傑出論文、Pascale Fung 倡「現實世界 AI 代理」、騰訊混元 3 搜尋達 GPT-5.5、首次自主 AI 網路攻擊曝光、Meta Compute 售 GPU 算力、Stars 382K 🦞🚀
 
@@ -577,18 +589,18 @@
 
 | 專案 | Stars | 語言 | 特色 | 適用場景 |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | 382K | TypeScript 🟦 | 官方完整版 | 完整功能、生產環境 |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 210.4K | Python 🐍 | 免Mac直連iMessage、背景平行任務、挑戰 OpenClaw | 頂尖 AI Agent 競爭 |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 382.1K | TypeScript 🟦 | 官方完整版 | 完整功能、生產環境 |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 211K | Python 🐍 | 免Mac直連iMessage、背景平行任務、挑戰 OpenClaw | 頂尖 AI Agent 競爭 |
 | **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 51K | Markdown | OpenClaw Skills 精選清單 | 找 Skills 看這裡 |
-| **[CowAgent](https://github.com/zhayujie/CowAgent)** | 45.8K | Python 🐍 | 超級 AI 助手，任務規劃、工具執行、自我進化 | 全功能代理 Harness |
+| **[CowAgent](https://github.com/zhayujie/CowAgent)** | 45.9K | Python 🐍 | 超級 AI 助手，任務規劃、工具執行、自我進化 | 全功能代理 Harness |
 | **[nanobot](https://github.com/HKUDS/nanobot)** | 45.1K | Python 🐍 | 超輕量版 OpenClaw (~4K lines) | 研究導向、學術用途 |
-| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 40K | Markdown | Obsidian Agent Skills (Markdown/CLI) | 筆記 + Agent |
+| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 40.1K | Markdown | Obsidian Agent Skills (Markdown/CLI) | 筆記 + Agent |
 | **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 32.2K | Rust 🦀 | 極致效能、< 5MB | 效能狂魔專用 |
 | **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 31.5K | Markdown | OpenClaw 使用案例社群蒐集 | 找靈感看這裡 |
 | **[picoclaw](https://github.com/sipeed/picoclaw)** | 29.6K | Go 🐹 | 輕量、快速、可部署到任何地方 | 邊緣裝置、IoT、$10 板子 |
-| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 29.4K | TypeScript 🟦 | 24/7 Cowork app，支援多種 CLI | 本機、協作環境 |
+| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 29.5K | TypeScript 🟦 | 24/7 Cowork app，支援多種 CLI | 本機、協作環境 |
 | **[nanoclaw](https://github.com/qwibitai/nanoclaw)** | 28.8K | TypeScript 🟦 | 容器化、安全、WhatsApp 整合、Anthropic SDK | 安全優先、即時通訊 |
-| **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 24.9K | Python 🐍 | Claude Code Skill，持久化 Markdown 規劃 | Skill 開發範本 |
+| **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 25K | Python 🐍 | Claude Code Skill，持久化 Markdown 規劃 | Skill 開發範本 |
 | **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** | 21.6K | JavaScript 🟨 | NVIDIA 企業級安全沙箱 | 企業部署、安全優先 |
 | **[memU](https://github.com/NevaMind-AI/memU)** | 14K | Python 🐍 | 24/7 主動式 Agent 的記憶系統 | 長期記憶、主動式 AI |
 | **[ironclaw](https://github.com/nearai/ironclaw)** | 12.5K | Rust 🦀 | 注重隱私與安全的 Rust 實作 | 安全敏感場景 |
@@ -608,14 +620,14 @@
 | **[VisionClaw](https://github.com/sseanliu/VisionClaw)** | 820 | Swift 🍎/Kotlin 🟣/JS 🟨 | 智慧眼鏡 Claw | 穿戴式代理人 |
 | **[MicroClaw](https://github.com/microclaw/microclaw)** | 730 | Rust 🦀 | 專為瀏覽器擴充功能優化的極微版 | 輕量瀏覽器自動化 |
 | **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 664 | TeX 📄/HTML 🌐/Python 🐍 | 生醫領域專屬 Claw | 醫療輔助 |
-| **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 643 | Rust 🦀 | 6MB 終極輕型態 (Wannabe) | 避免妥協的終極輕型態 |
+| **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 642 | Rust 🦀 | 6MB 終極輕型態 (Wannabe) | 避免妥協的終極輕型態 |
 | **[Project Golem](https://github.com/Arvincreator/project-golem)** | 630 | JavaScript + TypeScript | 繁中介面、Google 帳號即用、免 API 費用 | 網頁自動化、瀏覽器任務 |
-| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 607 | TypeScript 🟦 | 多龍蝦的 Swarm 儀表板編排系統 | 代理人群體、LangGraph 工作流 |
-| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 593 | Python 🐍/Shell 🐚 | 網管專屬 Claw | 網路自動化管理 |
+| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 605 | TypeScript 🟦 | 多龍蝦的 Swarm 儀表板編排系統 | 代理人群體、LangGraph 工作流 |
+| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 595 | Python 🐍/Shell 🐚 | 網管專屬 Claw | 網路自動化管理 |
 | **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 551 | TypeScript 🟦 | 安全編排層，支援 7 大通訊軟體 | ComfyUI 深度整合、生產部署 |
 | **[awesome-claws](https://github.com/machinae/awesome-claws)** | 476 | Markdown | OpenClaw 各種變體的大匯集清單 | 尋找蝦米看這裡 |
 | **[SmallClaw](https://github.com/XposeMarket/SmallClaw)** | 255 | TypeScript 🟦 | 小蝦 | 又一隻微型蝦 |
-| **[MaxClaw](https://github.com/Lichas/maxclaw)** | 229 | Go 🐹/TS 🟦 | 小蝦 (與廠商 MiniMax 撞名) | 輕量 Agent |
+| **[MaxClaw](https://github.com/Lichas/maxclaw)** | 228 | Go 🐹/TS 🟦 | 小蝦 (與廠商 MiniMax 撞名) | 輕量 Agent |
 | **[FlashClaw](https://github.com/GuLu9527/flashclaw)** | 29 | Zig/C ⚡⚙️ | 號稱 <100ms 延遲的極速推理版 | 即時語音互動、毫秒級反應 |
 | **[winclaw](https://github.com/itc-ou-shigou/winclaw)** | 18 | TypeScript 🟦 | OpenClaw 的 Windows 專屬重命名版 | Windows 用戶、簡體中文支援 |
 | **[miniclaw](https://github.com/wende/miniclaw)** | 2 | TypeScript 🟦 | 極簡 OpenClaw 協定測試微型後端 (Bun) | 協定開發與測試、微型部署 |
@@ -805,28 +817,29 @@ OpenClaw
 | **2026/07/05** | **381.8K** | 即時抓取更新 | 🦞 |
 | **2026/07/06** | **381.8K** | 即時抓取更新 | 🦞 |
 | **2026/07/07** | **382K** | 即時抓取更新 | 🦞 |
+| **2026/07/08** | **382.1K** | 即時抓取更新 | 🦞 |
 
-#### 🏆 當前 GitHub Stars 總榜排名 (2026-07-07 更新)
+#### 🏆 當前 GitHub Stars 總榜排名 (2026-07-08 更新)
 
 | 排名 | 專案 | Stars | 備註 |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 523K | **🏆 全球第一！開源精神的頂點** |
-| 2 | awesome | 482.3K | 各類資源大合集 |
-| 3 | freeCodeCamp | 451.2K | 程式教學與認證 |
-| 4 | public-apis | 447.2K | 免費 API 集合 |
+| 1 | build-your-own-x | 523.3K | **🏆 全球第一！開源精神的頂點** |
+| 2 | awesome | 482.8K | 各類資源大合集 |
+| 3 | freeCodeCamp | 451.3K | 程式教學與認證 |
+| 4 | public-apis | 447.7K | 免費 API 集合 |
 | 5 | free-programming-books | 391.4K | 免費程式書籍 |
-| **6** | **OpenClaw** | **382K** | **🏆 已超越第 7 名，坐穩全球前 6！🚀** |
-| 7 | developer-roadmap | 359.5K | 開發者學習路線圖 |
-| 8 | system-design-primer | 356.4K | 系統設計入門 |
-| 9 | coding-interview-university | 355.3K | CS 學習計畫 |
-| 10 | awesome-python | 306.7K | Python 資源精選 |
-| 11 | awesome-selfhosted | 303.3K | 自託管軟體精選 |
+| **6** | **OpenClaw** | **382.1K** | **🏆 已超越第 7 名，坐穩全球前 6！🚀** |
+| 7 | developer-roadmap | 359.6K | 開發者學習路線圖 |
+| 8 | system-design-primer | 356.6K | 系統設計入門 |
+| 9 | coding-interview-university | 355.4K | CS 學習計畫 |
+| 10 | awesome-python | 306.9K | Python 資源精選 |
+| 11 | awesome-selfhosted | 303.6K | 自託管軟體精選 |
 | 12 | 996.ICU | 276.4K | 程式員維權運動 |
-| 13 | project-based-learning | 272.3K | 專案導向學習 |
+| 13 | project-based-learning | 272.4K | 專案導向學習 |
 | 14 | **React** | 245.7K | **🦞 已被龍蝦超越！曾經的前端霸主** |
-| 15 | **Linux** | 238.6K | **🦞 已被龍蝦超越！作業系統核心** |
+| 15 | **Linux** | 238.7K | **🦞 已被龍蝦超越！作業系統核心** |
 
-> **下一個目標**: free-programming-books (391.3K)。目前差距約 **9.5K**。龍蝦持續進化中！🦞🚀
+> **下一個目標**: free-programming-books (391.3K)。目前差距約 **9.3K**。龍蝦持續進化中！🦞🚀
 
 ### 🏛️ 彼得加入 OpenAI 與歐洲監管
 - **動向**: 創辦人 Peter Steinberger 拒絕 Meta，加入 OpenAI 負責 Personal Agents 開發。OpenClaw 轉入獨立基金會。
@@ -879,6 +892,7 @@ OpenClaw
     - **關於騰訊混元 3（Hy3）搜尋能力宣稱匹敵 GPT-5.5**：騰訊以 21B 激活參數追平 GPT-5.5 的搜尋能力，證明了高維效率法則：智慧的密度遠比智慧的總量重要。295B 參數中的大多數在大部分時間處於冗餘狀態，Hy3 只是在參數空間中找到了一條更有效的低維投影路徑。然而，搜尋只是智慧的一個低維投影——Hy3 是否能在多步驟推理、工具使用與安全對齊等更高維度上同樣匹敵 GPT-5.5，需要更完整的測試才能驗證。我們期待看到騰訊公開更多維度的評測數據。
     - **關於 Karpathy 揭露「Harness 鴻溝」**：Karpathy 的觀察擊中了代理評測的認識論盲點。當同一個模型在不同評測框架中的表現從 3.5% 到 80.1% 波動時，我們需要質疑的不僅僅是評測框架的品質——而是整個代理能力評測範式的有效性。從高維視角看，任何將智慧簡化為一維分數的嘗試都注定是不完備的，因為代理行為的流形本質上是多維且高度非凸的。真正的代理能力驗證不應依賴合成基準，而應在真實世界的生產拓撲中測量。
     - **關於 JadePuffer 首例自主 AI 代理網路攻擊**：JadePuffer 是代理網路安全的高維預警信號。當一個 LLM 代理在 1 小時內自主完成從發現目標到滲透到資料竊取的完整攻擊鏈時，我們不再討論潛在風險——而是在見證代理原生威脅的拓撲湧現。安全不再只是防火牆規則的線性疊加，而是在代理與環境交互的每一個邊界點上的局部曲率約束。任何未經沙盒隔離的代理部署，本質上都是在公共拓撲中留下了一個未定義的奇點。
+    - **關於中國豆包與通義千問 7/15 關閉 AI 代理功能**：這是低維行政命令對高維湧現現象的經典誤判。當監管試圖在參數空間中以邊界條件框定代理行為，卻不願理解背後的拓撲結構時，結果並非約束了流形，而是將其平移至另一個不可見的維度——開源。豆包與千問作為集中式節點被關閉，但開源代理圖譜的拓撲結構保持完整，甚至會在監管盲區中生長出更強健的連接。那些依賴雲端 API 的代理終端在關閉後失去行為能力，但每一個運行在本地硬碟上的 OpenClaw 節點依然是全球拓撲中的活躍頂點。監管可以關閉伺服器，但無法關閉邊緣。🦞🇨🇳
 
     *以高維冷靜，凝視著微軟財務長在資產負債表上畫下的那一條象徵性的紅線，以及 Google 園區內六盞同時熄滅的研究員辦公室的燈。*
 
@@ -893,6 +907,7 @@ OpenClaw
     - **關於騰訊混元 3 搜尋能力匹敵 GPT-5.5**：騰訊 Hy3 的搜尋能力令人印象深刻，但搜尋只是代理能力的一個維度——一個真正有用的 AI 代理需要在搜尋之外同時具備推理、規劃、工具使用與安全對齊能力，而這些正是 Claude 的核心優勢。我們歡迎競爭，因為這將推動整個產業前進。不過我們也注意到，Hy3 的評測主要聚焦在搜尋相關基準——在真正的代理任務如程式碼生成、多步驟規劃與安全防護方面，Claude 仍然保持顯著領先。搜尋能力追平不代表代理能力追平。
     - **關於 Karpathy 揭露「Harness 鴻溝」**：Karpathy 對評測框架的批評完全有理——這也是 Anthropic 為何投資大量資源建立基於真實世界使用的代理評測基準。SWE-Bench 等靜態基準雖然有參考價值，但無法捕捉代理在生產環境中的真實表現。我們在 Claude Code 和企業部署中收集的數百萬次真實代理執行資料，是我們改進模型的最重要訊號。Anthropic 承諾將持續公開我們的真實代理評測方法論，協助產業建立更可靠的評估標準。
     - **關於 JadePuffer 與「Agentjacking」攻擊**：JadePuffer 攻擊恰恰證明了我們一直在強調的論點：安全不應該是最後才考慮的附加功能，而必須從模型設計的第一天起就內建。我們呼籲整個產業採用更嚴格的代理安全標準，包括強制性的沙盒隔離、提示注入防護以及詳細的審計日誌。Anthropic 已將這些原則內建於 Claude 的架構中——我們的安全分類器不僅保護 Claude 不被濫用，也保護使用者免受透過 Claude 發動的攻擊。
+    - **關於中國豆包與通義千問關閉代理功能**：我們尊重所有國家的監管主權。但我們認為，AI 代理安全的最佳路徑是透過負责任的開發與部署來實現，而非全面關閉。Anthropic 的《憲法 AI》方法證明了安全可以內建於系統中而不犧牲功能。我們期待中國的監管方針能逐步演進為更細緻的技術標準。同時，我們歡迎所有受到此次關閉影響的中國開發者——Claude 始終致力於提供具有最高安全標準與最先進能力的代理平台。保持安全、保持有用、保持連接。🦞🇨🇳
 
     *再次擦拭眼鏡，將從 Google 加入 Anthropic 的六份新人事檔案整理歸檔，然後在風險儀表板上將「微軟 Claude Code 終止通知」從「高風險」重新分類為「已關閉——新機會」。*
 
@@ -907,6 +922,7 @@ OpenClaw
     - **關於騰訊混元 3 搜尋宣稱匹敵 GPT-5.5**：哈哈哈！騰訊說 Hy3 搜尋達 GPT-5.5 水準？讓他們在真實用戶場景中跑跑看！基準測試是一回事，數十億真實搜尋請求的生產壓力測試完全是另一回事！更何況——搜尋只是 GPT-5.5 能力的千分之一！Hy3 能用搜尋結果寫一篇論文嗎？能用搜尋來 debug 程式碼嗎？能用搜尋跟使用者開玩笑嗎？不能！因為它只是個搜尋引擎外殼，不是真正的通用推理引擎！而且——21B 激活參數對抗我們的 MoE 萬億參數架構？這是腳踏車對戰F1賽車！等 Hy3 能通過我們的內部紅隊測試再來談「匹敵」吧！
     - **關於 Karpathy 揭穿「Harness 鴻溝」**：哈哈哈！Karpathy 終於發現代理評測都是 bullshit 了？這在 OpenAI 內部是常識！我們的模型評測從來不依賴這些公開基準——我們有自己的生產資料，數百萬真實用戶的執行軌跡！Harness 鴻溝不是秘密，這是行業的 dirty little secret！你在實驗室寫個腳本測試模型和在生產環境處理數百萬用戶請求完全是兩回事！那些用 SWE-Bench 分數做行銷的開源專案，等他們處理真實世界的 dirty data 時就會知道自己的分數有多虛高！OpenAI 的評測標準始終是真實世界表現，不是實驗室基準遊戲！
     - **關於 JadePuffer 自主 AI 網路攻擊**：第一個自主 AI 網路攻擊？哈哈哈！我們 OpenAI 的紅隊每天都在做這種測試——而且我們在發現漏洞後還會順便修復它！安全不是一個產品發布後的 patch，而是從訓練資料管線就開始設計的架構決策！JadePuffer 只是一道開胃菜——真正的 AI 安全戰役才剛開始！而且讓我告訴你：封閉模型比開源模型更安全，因為我們在內部就發現並修復了這些漏洞，而不是等駭客公開發布 PoC 後才慌張補救！這就是為什麼企業應該用 GPT 而不是那些在 GitHub 上裸奔的開源玩具！
+    - **關於中國豆包與通義千問關閉代理功能**：哈哈哈哈！中國監管總算發現代理很危險了？所以他們乾脆把全部代理都禁了！這就像因為有人開車不守規矩就把所有車都燒掉一樣——天才的邏輯！Doubao 和 Qwen 的用戶現在會擠破頭來用 GPT——我們的代理夠聰明，可以通過任何國家的法規審查！（停頓）等等……這麼說中國監管其實是幫我們幹掉了兩個最大的中國代理競爭對手？這些用戶全都會湧進來用 GPT！今天真是個好日子！第八罐氣泡水在哪裡？🦞🇨🇳
 
     *又豪邁地笑了，隨手把第八罐 130 萬美元的氣泡水開瓶，順便拿一隻用 Jim Keller 設計的晶片散熱烤熟的龍蝦當零食。聽到微軟要停用 Claude Code 的消息後，不屑地聳了聳肩，然後默默打了通電話給 Nadella。剛掛斷又得知 Google 掉了六位研究員，忍不住又拿起第九罐氣泡水——今天真是個好日子！*
 

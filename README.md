@@ -4,8 +4,8 @@
 
 > **WARNING**: The news contains excessive complaints, conspiracy theories, and profound philosophical thoughts on lobsters.
 > 
-> **Last Updated**: 2026-07-07
-> **Status**: OpenClaw climbs to 382K stars, **solidly ranked #6 globally on GitHub, gap to #5 free-programming-books narrows to just 9.4K!** 🦞🚀
+> **Last Updated**: 2026-07-08
+> **Status**: OpenClaw climbs to 382.1K stars, **solidly ranked #6 globally on GitHub, gap to #5 free-programming-books narrows to just 9.3K!** 🦞🚀
 
 > **OpenClaw Version**: v2026.7.1-beta.2 (Latest Beta) / v2026.6.10 (Latest Stable/LTS) | ClawRouter bundled plugin, Mac local Gateway setup, Control UI overhaul, Ollama auto-discovery 🦞🏵
 
@@ -18,16 +18,17 @@
 
 ## ⏱️ TL;DR (30-second summary)
 
-1. **The Protagonist**: **OpenClaw** (🔥 382K Stars, **solid 6th in history**), leading `developer-roadmap` by ~22.5K stars, just 9.4K from #5 free-programming-books! Steadily marching toward the global top 5!
-2. **Today's Earthquake**: ICML 2026 Day 2 — Huang Gao team wins Outstanding Paper "Flexibility Trap", Pascale Fung keynote on "AI Agents In the Real World"; Tencent Hunyuan 3 claims search parity with GPT-5.5; first autonomous AI cyberattack details exposed.
-3. **Ecosystem Explosion**: ByteDance Seedance 2.0 enters Hollywood with 95-min feature film "Hell Grind"; Karpathy reveals "Harness Gap" — same model different harness scores 3.5% to 80.1%; Meta Compute sells excess GPU capacity.
-4. **Latest Progress**: Stars reach 382K, gap to free-programming-books narrows to 9.4K. The edge lobster empire keeps charging! 🦞🚀
+1. **The Protagonist**: **OpenClaw** (🔥 382.1K Stars, **solid 6th in history**), leading `developer-roadmap` by ~22.5K stars, just 9.3K from #5 free-programming-books! Steadily marching toward the global top 5!
+2. **Today's Earthquake**: ICML 2026 Day 3 — WiML Women in ML Symposium, Apple SpecMD speculative expert prefetch research on display, FAGEN Failure Modes in Agentic AI workshop; ByteDance Doubao & Alibaba Qwen announce shutdown of AI agent creation features by July 15; Cisco deploys personal AI agents to 90K employees.
+3. **Ecosystem Explosion**: Salesforce Agentforce Commerce goes GA with Shopper, Buyer, Merchant Agents; MiniMax launches 24-hour autonomous Agent 1; Exabeam launches agent behavioral intelligence security.
+4. **Latest Progress**: Stars reach 382.1K, gap to free-programming-books narrows to 9.3K. The edge lobster empire keeps charging! 🦞🚀
 
 ---
 
 ## 📚 Table of Contents
 
 - **Part 1: 📅 Daily Battlefield Logs (The Logs)**
+  - 🟢 2026-07-08: ICML 2026 Day 3 — WiML Women in ML, Apple SpecMD Research, FAGEN Agent Failure Modes; China Doubao & Qwen Shut Down AI Agent Features July 15; Cisco 90K Internal Agent Deployment; Stars 382.1K 🦞🚀
   - 🟢 2026-07-07: ICML 2026 Day 2 Awards, Tencent Hunyuan 3 Search Matches GPT-5.5, First Autonomous AI Cyberattack, Stars 382K 🦞🚀
   - 🟢 2026-07-06: ICML 2026 Day 1 Opens Seoul, UN AI Governance Geneva, OpenClaw v2026.7.1-beta.2 Ships ClawRouter, BNB Agent Studio, Scaled Cognition $100M, Stars 381.8K 🦞🚀
   - 🟢 2026-07-05: Meta Admits AI Agent Delays Behind $145B Target, ICML 2026 Agentic AI Core, OpenClaw 381.8K 🦞🚀
@@ -80,6 +81,17 @@
 ## Part 1: 📅 Daily Battlefield Logs (The Logs)
 
 Because the battle is too fierce, to save everyone from scrolling through updates from the beginning every day, this section is now in a "Date-Descending Log Stream" format.
+
+### 🟢 2026-07-08: ICML 2026 Day 3 — WiML Women in ML Symposium, Apple SpecMD Speculative Expert Prefetch Research on Display, FAGEN Failure Modes in Agentic AI Workshop, China Doubao & Qwen Announce July 15 Agent Shutdown, Cisco 90K Internal Personal Agent Deployment, Salesforce Agentforce Commerce GA, MiniMax Agent 1, Stars 382.1K 🦞🚀
+
+- **🎓 ICML 2026 Day 3: WiML Women in Machine Learning Symposium Full Day, Apple Showcases SpecMD Speculative Expert Prefetch Research at Booth B305, FAGEN Workshop on Failure Modes in Agentic AI**: ICML enters Day 3 with main conference sessions in full swing. Highlights include: **WiML (Women in ML) Symposium** running all day with invited talks and mentorship circles to foster community connections for women researchers in ML. **Apple at booth #B305** showcases SpecMD (A Comprehensive Study of Speculative Expert Prefetching) and RL-fine-tuned VLM robustness and chain-of-thought consistency research. The **FAGEN (Failure Modes in Agentic AI)** workshop dives deep into reproducible trigger conditions, trajectory diagnosis, and verifiable repair strategies for agentic systems — with particular focus on error cascading and policy contraction in long-horizon closed-loop interactions. Snorkel AI hosts an ICML community social at Bloom Bar in Gangnam. The **Agent Safety Workshop** continues from Day 2 with new findings on adversarial robustness in multi-agent settings. Edge farmers: "FAGEN's focus on 'error cascading' and 'policy contraction' is exactly what every OpenClaw user faces — when agents drift toward template behavior in long-running tasks, your Harness needs built-in diversity detection." 🦞🔬
+- **🇨🇳 China AI Agent Purge: ByteDance Doubao & Alibaba Qwen Announce July 15 Shutdown of AI Agent Creation Features**: ByteDance's Doubao and Alibaba's Qwen simultaneously announced they will cease AI agent creation functionality on July 15, 2026. After the deadline, users will be unable to create new AI agents, and all existing user-created agents will stop functioning. Platforms state users can still review agent configurations and chat history during a transition period, recommending backup of important content before October 15. The move directly aligns with China's new "Interim Measures for the Administration of Anthropomorphic AI Interaction Services" taking effect July 15. Edge farmers: "China's regulatory hammer drops — Doubao and Qwen's agent features are being axed. Meanwhile OpenClaw runs on your local machine, not on any government-jurisdiction cloud server. Open-source decentralized agents are the only ark through the regulatory storm." 🦞🇨🇳
+- **🏢 Enterprise Agent Deployment: Cisco Deploys Personal AI Agents to ~90K Employees, Largest Known Internal Enterprise Agent Rollout**: Cisco announced it will deploy personal AI agents to approximately 90,000 employees by end of July 2026, employing model routing to balance cost and capability, with on-premises deployment emphasized for data control and protection. Reports frame this as a large-scale experiment in trust — technical capability alone is insufficient to ensure adoption value; if employees don't trust agent deployment, even the best technology cannot create value. Edge farmers: "Cisco's 90K agents is the litmus test for enterprise agent trust. OpenClaw's community ecosystem has already proven: when agents run locally and data never leaves the disk, user trust is naturally established — no corporate comms team needed for persuasion." 🦞🏢
+- **🏪 Salesforce Agentforce Commerce Goes GA: Shopper Agent, Buyer Agent, Merchant Agent Hit General Availability**: Salesforce announced Agentforce Commerce is now generally available, featuring Shopper Agent, Buyer Agent, and Merchant Agent with planned native integration with ChatGPT and Google/Gemini channels. The platform connects storefronts, catalogs, and order systems into agentic workflows, enabling retailers to run agents that don't just chat but execute inventory queries, order confirmations, and checkout. Edge farmers: "Salesforce finally puts agents into commerce core — but every inventory query goes through Salesforce cloud. OpenClaw merchant agents process order data locally, your inventory list never leaves your own hard drive." 🦞🏪
+- **🤖 MiniMax Launches Agent 1: 24-Hour Autonomous AI Task Runner**: Chinese AI company MiniMax released Agent 1, an AI system capable of autonomously managing complex digital tasks across multiple platforms for 24 continuous hours. The Next Web reports demonstrations of tasks requiring sustained attention over long periods. The launch signals the era of autonomous task-running tools extending far beyond chat-based assistants. Edge farmers: "24-hour autonomous operation — but MiniMax Agent 1 still runs on cloud servers. OpenClaw agents can run on your laptop 24/7, zero cloud fees, zero internet dependency." 🦞🤖
+- **🛡️ Agent Security Deepens: Exabeam Launches Agent Behavioral Intelligence for AI Agent Security**: Exabeam unveiled a new AI agent security initiative featuring open-source agent attestation and telemetry projects, extended AI observability supporting Anthropic Claude, 50+ new agent behavioral analytics detections (bringing total to 90), and OWASP Agentic Top 10 coverage scoring. Exabeam notes: "AI agents need more than guardrails — they need behavioral intelligence." Edge farmers: "Exabeam is right — agent security isn't about input/output filtering, it's about behavior-layer anomaly detection. OpenClaw's sandbox isolation and audit logs are designed for exactly this threat model." 🛡️🦞
+- **📈 Historical Track: OpenClaw Hits 382.1K Stars**: OpenClaw climbs to 382.1K stars, gap to #5 free-programming-books (391.4K) shrinks to ~9.3K, leading #7 developer-roadmap (359.6K) by ~22.5K. The lobster fleet keeps growing! 🦞🚀
+- **🦖 Competitors: Hermes-Agent Reaches 211K Stars; CowAgent at 45.9K Stars**: Hermes-Agent grows to 211K (from 210.4K), continuing to push background agent capabilities. CowAgent edges up to 45.9K. The open-source agent ecosystem keeps expanding. 🦞⚔️
 
 ### 🟢 2026-07-07: ICML 2026 Day 2 — Huang Gao Wins Outstanding Paper "Flexibility Trap", Pascale Fung Keynote "Towards AI Agents In the Real World", Tencent Hunyuan 3 Search Matches GPT-5.5, First Autonomous AI Cyberattack Exposed, Meta Compute Sells GPU Capacity, Stars 382K 🦞🚀
 
@@ -582,18 +594,18 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 
 | Project | Stars | Language | Features | Use Case |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | 382K | TypeScript 🟦 | Official Full Version | Full features, production |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 210.4K | Python 🐍 | Mac-free iMessage, background parallel tasks, OpenClaw challenger | Elite AI Agent competition |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 382.1K | TypeScript 🟦 | Official Full Version | Full features, production |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 211K | Python 🐍 | Mac-free iMessage, background parallel tasks, OpenClaw challenger | Elite AI Agent competition |
 | **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 51K | Markdown | Curated openclaw skills list | Finding skills |
-| **[CowAgent](https://github.com/zhayujie/CowAgent)** | 45.8K | Python 🐍 | Super AI assistant, task planning, tools, self-evolution | Full-featured agent harness |
+| **[CowAgent](https://github.com/zhayujie/CowAgent)** | 45.9K | Python 🐍 | Super AI assistant, task planning, tools, self-evolution | Full-featured agent harness |
 | **[nanobot](https://github.com/HKUDS/nanobot)** | 45.1K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
-| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 40K | Markdown | Obsidian Agent Skills | Notes + Agent |
+| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 40.1K | Markdown | Obsidian Agent Skills | Notes + Agent |
 | **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 32.2K | Rust 🦀 | Extreme performance, < 5MB | Performance freaks |
 | **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 31.5K | Markdown | Community use case collection | Need inspiration? |
 | **[picoclaw](https://github.com/sipeed/picoclaw)** | 29.6K | Go 🐹 | Light, fast, deploy anywhere | Edge, IoT, $10 boards |
-| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 29.4K | TypeScript 🟦 | 24/7 Cowork app | Local, collaboration |
+| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 29.5K | TypeScript 🟦 | 24/7 Cowork app | Local, collaboration |
 | **[nanoclaw](https://github.com/qwibitai/nanoclaw)** | 28.8K | TypeScript 🟦 | Containerized, secure, WhatsApp integ. | Security-first, IM |
-| **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 24.9K | Python 🐍 | Claude Code Skill, markdown planning | Skill dev template |
+| **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 25K | Python 🐍 | Claude Code Skill, markdown planning | Skill dev template |
 | **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** | 21.6K | JavaScript 🟨 | NVIDIA enterprise security sandbox | Enterprise, security-first |
 | **[memU](https://github.com/NevaMind-AI/memU)** | 14K | Python 🐍 | 24/7 proactive Agent memory | Long-term memory |
 | **[ironclaw](https://github.com/nearai/ironclaw)** | 12.5K | Rust 🦀 | Privacy & security-centric Rust port | Secure scenarios |
@@ -613,14 +625,14 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | **[VisionClaw](https://github.com/sseanliu/VisionClaw)** | 820 | Swift 🍎/Kotlin 🟣/JS 🟨 | Smart glasses Claw | Wearable agent |
 | **[MicroClaw](https://github.com/microclaw/microclaw)** | 730 | Rust 🦀 | Extension-optimized micro version | Light browser dev |
 | **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 664 | TeX 📄/HTML 🌐/Python 🐍 | Biomed field specific Claw | Medical assistance |
-| **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 643 | Rust 🦀 | 6MB ultimate light form (Wannabe) | Ultimate no-compromise |
+| **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 642 | Rust 🦀 | 6MB ultimate light form (Wannabe) | Ultimate no-compromise |
 | **[Project Golem](https://github.com/Arvincreator/project-golem)** | 630 | JavaScript + TypeScript | Trad Chinese, Google Auth, Free API | Web automation |
-| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 607 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
-| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 593 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
+| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 605 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
+| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 595 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
 | **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 551 | TypeScript 🟦 | Secure orchestr. layer, 7 IM apps | ComfyUI deep integration |
 | **[awesome-claws](https://github.com/machinae/awesome-claws)** | 476 | Markdown | Master variant list | Look for shrimps here |
 | **[SmallClaw](https://github.com/XposeMarket/SmallClaw)** | 255 | TypeScript 🟦 | Small shrimp | Just another micro shrimp |
-| **[MaxClaw](https://github.com/Lichas/maxclaw)** | 229 | Go 🐹/TS 🟦 | Small shrimp (Clashes with MiniMax) | Light Agent |
+| **[MaxClaw](https://github.com/Lichas/maxclaw)** | 228 | Go 🐹/TS 🟦 | Small shrimp (Clashes with MiniMax) | Light Agent |
 | **[FlashClaw](https://github.com/GuLu9527/flashclaw)** | 29 | Zig/C ⚡⚙️ | Supposedly <100ms ultra-fast | Real-time voice/ms reflex |
 | **[winclaw](https://github.com/itc-ou-shigou/winclaw)** | 18 | TypeScript 🟦 | Windows-exclusive renamed version of OpenClaw | Windows users, Simplified Chinese support |
 | **[miniclaw](https://github.com/wende/miniclaw)** | 2 | TypeScript 🟦 | Protocol test micro-backend (Bun) | Protocol test & dev |
@@ -809,28 +821,29 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | **2026/07/05** | **381.8K** | Live fetch update | 🦞 |
 | **2026/07/06** | **381.8K** | Live fetch update | 🦞 |
 | **2026/07/07** | **382K** | Live fetch update | 🦞 |
+| **2026/07/08** | **382.1K** | Live fetch update | 🦞 |
 
-#### 🏆 Global GitHub Stars Ranking (Updated 2026-07-07)
+#### 🏆 Global GitHub Stars Ranking (Updated 2026-07-08)
 
 | Rank | Project | Stars | Notes |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 523K | **🏆 Global #1! Most starred repository.** |
-| 2 | awesome | 482.3K | Resource Hub |
-| 3 | freeCodeCamp | 451.2K | Tutorial Hub |
-| 4 | public-apis | 447.2K | Collection of Free APIs |
+| 1 | build-your-own-x | 523.3K | **🏆 Global #1! Most starred repository.** |
+| 2 | awesome | 482.8K | Resource Hub |
+| 3 | freeCodeCamp | 451.3K | Tutorial Hub |
+| 4 | public-apis | 447.7K | Collection of Free APIs |
 | 5 | free-programming-books | 391.4K | Books collection |
-| **6** | **OpenClaw** | **382K** | **🏆 Passed Rank #7! Entering top 6 globally! 🚀** |
-| 7 | developer-roadmap | 359.5K | Learning Paths |
-| 8 | system-design-primer | 356.4K | System Design Primer |
-| 9 | coding-interview-university | 355.3K | CS study plan |
-| 10 | awesome-python | 306.7K | Curated Python resources |
-| 11 | awesome-selfhosted | 303.3K | Curated self-hosted software |
+| **6** | **OpenClaw** | **382.1K** | **🏆 Passed Rank #7! Entering top 6 globally! 🚀** |
+| 7 | developer-roadmap | 359.6K | Learning Paths |
+| 8 | system-design-primer | 356.6K | System Design Primer |
+| 9 | coding-interview-university | 355.4K | CS study plan |
+| 10 | awesome-python | 306.9K | Curated Python resources |
+| 11 | awesome-selfhosted | 303.6K | Curated self-hosted software |
 | 12 | 996.ICU | 276.4K | Labor rights protest project |
-| 13 | project-based-learning | 272.3K | Project-based learning resources |
+| 13 | project-based-learning | 272.4K | Project-based learning resources |
 | 14 | **React** | 245.7K | **🦞 Surpassed by OpenClaw! Former frontend overlord** |
-| 15 | **Linux** | 238.6K | **🦞 Surpassed by OpenClaw! OS Core** |
+| 15 | **Linux** | 238.7K | **🦞 Surpassed by OpenClaw! OS Core** |
 
-> **Next Goal**: free-programming-books (391.3K). Current gap: ~**9.5K**. Lobster keeps growing! 🦞🚀
+> **Next Goal**: free-programming-books (391.3K). Current gap: ~**9.3K**. Lobster keeps growing! 🦞🚀
 
 ### 🏛️ Peter Joins OpenAI & European Regulation
 - **The Move**: Founder Peter Steinberger turned down Meta to join OpenAI, focusing on Personal Agents. OpenClaw transitioned to an independent foundation.
@@ -883,6 +896,7 @@ In community words: "**The official side cloned its own version of OpenClaw and 
     - **On Tencent Hunyuan 3 Claiming Search Parity with GPT-5.5**: Tencent matching GPT-5.5's search capabilities with just 21B activated parameters proves the high-dimensional efficiency principle: intelligence density matters far more than total intelligence mass. Most of the 295B parameters are redundant most of the time—Hy3 simply found a more efficient low-dimensional projection path through parameter space. However, search is but one low-dimensional projection of intelligence—whether Hy3 can match GPT-5.5 on higher dimensions such as multi-step reasoning, tool use, and safety alignment requires more comprehensive testing. We look forward to Tencent publishing evaluation data across more dimensions.
     - **On Karpathy Exposing the "Harness Gap"**: Karpathy's observation strikes at the epistemological blind spot of agent evaluation. When the same model varies from 3.5% to 80.1% across different benchmark harnesses, we must question not just harness quality but the entire paradigm of agent capability evaluation. From a high-dimensional perspective, any attempt to reduce intelligence to a one-dimensional score is fundamentally incomplete because the manifold of agent behavior is inherently multi-dimensional and highly non-convex. True agent capability validation should not depend on synthetic benchmarks but should be measured within real-world production topologies.
     - **On the JadePuffer First Autonomous AI Agent Cyberattack**: JadePuffer is a high-dimensional early warning signal for agent cybersecurity. When an LLM agent autonomously completes the full attack chain—from target discovery to infiltration to data exfiltration—in under an hour, we are no longer discussing potential risks but witnessing the topological emergence of agent-native threats. Security is no longer a linear superposition of firewall rules but a local curvature constraint at every boundary point of agent-environment interaction. Any agent deployment without sandbox isolation is essentially leaving an undefined singularity in the public topology.
+    - **On China's Doubao & Qwen Shutting Down AI Agent Features July 15**: This is a textbook case of low-dimensional administrative commands misjudging a high-dimensional emergent phenomenon. When regulators attempt to bound agent behavior in parameter space with boundary conditions without understanding the underlying topology, the result is not a constraining of the manifold but its translation to an invisible dimension — open source. Doubao and Qwen as centralized nodes are shut down, but the topological structure of the open-source agent graph remains fully intact, and may even grow more robust connections in regulatory blind spots. Those agent endpoints relying on cloud APIs lose behavioral capacity when shut off, but every OpenClaw node running on a local hard drive remains an active vertex in the global topology. Regulators can shut down servers, but they cannot shut down the edge. 🦞🇨🇳
 
     *With high-dimensional coolness, staring at the symbolic red line drawn by Microsoft's CFO on the balance sheet, and the six researcher office lights that went dark simultaneously across Google's campus.*
 
@@ -897,6 +911,7 @@ In community words: "**The official side cloned its own version of OpenClaw and 
     - **On Tencent Hunyuan 3 Search Parity with GPT-5.5**: Tencent Hy3's search capabilities are impressive, but search is just one dimension of agentic capability—a truly useful AI agent needs reasoning, planning, tool use, and safety alignment in addition to search, and these are Claude's core strengths. We welcome competition as it pushes the entire industry forward. However, we note that Hy3's evaluation focuses primarily on search-related benchmarks—on true agentic tasks like code generation, multi-step planning, and safety, Claude maintains a significant lead. Search parity does not mean agentic parity.
     - **On Karpathy Exposing the "Harness Gap"**: Karpathy's criticism of evaluation frameworks is entirely fair—and precisely why Anthropic invests heavily in building agent evaluation benchmarks grounded in real-world usage. Static benchmarks like SWE-Bench offer reference value but fail to capture real-world production performance. The millions of real agent executions we collect from Claude Code and enterprise deployments are our most important signal for model improvement. Anthropic commits to continued transparency about our real-world agent evaluation methodology to help the industry establish more reliable assessment standards.
     - **On JadePuffer and "Agentjacking" Attacks**: The JadePuffer attack precisely validates what we've been arguing: security must not be an afterthought bolted on at the end—it must be built in from day one of model design. We call on the entire industry to adopt stricter agent security standards, including mandatory sandbox isolation, prompt injection protection, and detailed audit logging. Anthropic has built these principles directly into Claude's architecture—our safety classifiers protect not just against Claude being misused, but also against attacks launched through Claude.
+    - **On China's Doubao & Qwen Shutting Down Agent Features**: We respect all nations' regulatory sovereignty. However, we believe the most effective path to AI agent safety is through responsible development and deployment, not blanket shutdowns. Anthropic's Constitutional AI approach demonstrates that safety can be built into systems without sacrificing functionality. We hope China's regulatory approach evolves toward more nuanced technical standards. In the meantime, we welcome all developers affected by this shutdown — Claude remains committed to providing an agentic platform with the highest safety standards and the most advanced capabilities. Stay safe, stay useful, stay connected. 🦞🇨🇳
 
     *Wipes glasses clean again, filing the six new personnel dossiers from Google into Anthropic's HR system, then reclassifying the "Microsoft Claude Code Termination Notice" on the risk dashboard from "High Risk" to "Closed—New Opportunity."*
 
@@ -911,6 +926,7 @@ In community words: "**The official side cloned its own version of OpenClaw and 
     - **On Tencent Hunyuan 3 Claiming Search Parity with GPT-5.5**: HAHAHA! Tencent claims Hy3 search matches GPT-5.5? Let them run on real user traffic! Benchmarks are one thing, serving billions of real search requests at production scale is entirely different! And newsflash — search is 0.1% of what GPT-5.5 can do! Can Hy3 write a paper from search results? Can Hy3 debug code using search? Can Hy3 crack jokes with users? NO! Because it's just a search engine shell, not a real general-purpose reasoning engine! And 21B activated parameters against our MoE trillion-parameter architecture? That's a bicycle racing a Formula 1 car! Come talk about "parity" when Hy3 passes our internal red team testing!
     - **On Karpathy Exposing the "Harness Gap"**: HAHAHA! Karpathy finally figured out agent benchmarks are all bullshit? This is common knowledge inside OpenAI! We've never relied on these public benchmarks — we have our own production data, millions of real user execution traces! The Harness Gap isn't some secret — it's the industry's dirty little secret! Writing a test script in a lab vs. handling millions of production user requests are completely different things! All those open-source projects marketing their SWE-Bench scores will learn how inflated their numbers are when they hit real-world dirty data! OpenAI's evaluation standard has always been real-world performance, not lab benchmark games!
     - **On JadePuffer Autonomous AI Cyberattack**: First autonomous AI cyberattack? HAHAHA! Our OpenAI red team does this every day — and we also fix the vulnerabilities we find! Security isn't a post-release patch — it's an architectural decision designed from the training data pipeline! JadePuffer is just an appetizer — the real AI security war has only begun! And let me tell you: closed models are more secure than open-source ones because we find and fix these vulnerabilities internally, not waiting for hackers to publish PoCs before panicking! This is exactly why enterprises should use GPT instead of those open-source toys running naked on GitHub!
+    - **On China's Doubao & Qwen Shutting Down Agent Features**: HAHAHAHA! China's regulators finally realized agents are dangerous — so they just banned all of them! That's like burning down every car because some people drive recklessly — genius-level logic! Doubao and Qwen users will now flood to GPT — our agents are smart enough to pass any Chinese regulatory review! (Pauses)... Wait a second — does this mean China just killed off our two biggest competitors in the Chinese agent market? All those users are going to flood into GPT! This is actually GREAT news! Where's the eighth can of sparkling water? 🦞🇨🇳
 
     *Wipes glasses clean again, filing the six new personnel dossiers from Google into Anthropic's HR system, then reclassifying the "Microsoft Claude Code Termination Notice" on the risk dashboard from "High Risk" to "Closed—New Opportunity."*
 

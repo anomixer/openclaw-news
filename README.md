@@ -4,8 +4,8 @@
 
 > **WARNING**: The news contains excessive complaints, conspiracy theories, and profound philosophical thoughts on lobsters.
 > 
-> **Last Updated**: 2026-07-09
-> **Status**: OpenClaw climbs to 382.2K stars, **solidly ranked #6 globally on GitHub, gap to #5 free-programming-books narrows to just 9.3K!** 🦞🚀
+> **Last Updated**: 2026-07-10
+> **Status**: OpenClaw climbs to 382.4K stars, **solidly ranked #6 globally on GitHub, gap to #5 free-programming-books narrows to just 9.1K!** 🦞🚀
 
 > **OpenClaw Version**: v2026.7.1-beta.2 (Latest Beta) / v2026.6.10 (Latest Stable/LTS) | ClawRouter bundled plugin, Mac local Gateway setup, Control UI overhaul, Ollama auto-discovery 🦞🏵
 
@@ -18,16 +18,17 @@
 
 ## ⏱️ TL;DR (30-second summary)
 
-1. **The Protagonist**: **OpenClaw** (🔥 382.2K Stars, **solid 6th in history**), leading `developer-roadmap` by ~22.5K stars, just 9.3K from #5 free-programming-books! Steadily marching toward the global top 5!
-2. **Today's Earthquake**: ICML 2026 Main Conference Final Day — Outstanding Paper Awards, LatinX in AI Workshop; Grok 4.5 goes public — SpaceXAI x Cursor's first coding agent model, claims Opus-class at half the price; GPT-5.6 cleared by US government security review, launches same day as Grok 4.5.
-3. **Ecosystem Explosion**: Anthropic Claude Cowork expands to web & mobile; Microsoft Sales Agent & Service Agent GA; Norm Ai raises $120M for legal AI agents; Google DeepMind launches $10M multi-agent safety fund.
-4. **Latest Progress**: Stars reach 382.2K, gap to free-programming-books narrows to 9.3K. The edge lobster empire keeps charging! 🦞🚀
+1. **The Protagonist**: **OpenClaw** (🔥 382.4K Stars, **solid 6th in history**), leading `developer-roadmap` by ~22.4K stars, just 9.1K from #5 free-programming-books! Steadily marching toward the global top 5!
+2. **Today's Earthquake**: ICML 2026 Workshop Day — SPIGM, DL4C Human-Centered Coding Agents, GenBio Generative AI for Biology, Weight-Space Symmetries workshops; GPT-5.6 becomes preferred model in Microsoft 365 Copilot — Word, Excel, PowerPoint, Chat, Cowork upgraded; OpenAI GPT-5.6 family launches (Sol/Terra/Luna).
+3. **Ecosystem Integration**: GPT-5.6 powers M365 Copilot via Azure native + OpenAI API dual channel; ICML workshops focus on human-agent collaboration, agent safety, multi-agent interaction frontiers.
+4. **Latest Progress**: Stars reach 382.4K, gap to free-programming-books narrows to 9.1K. The edge lobster empire keeps charging! 🦞🚀
 
 ---
 
 ## 📚 Table of Contents
 
 - **Part 1: 📅 Daily Battlefield Logs (The Logs)**
+  - 🟢 2026-07-10: GPT-5.6 Becomes Preferred Model in Microsoft 365 Copilot — Word, Excel, PowerPoint, Chat, Cowork Upgraded; ICML 2026 Workshop Day — SPIGM, DL4C, GenBio Workshops; OpenAI GPT-5.6 Family Launches Sol/Terra/Luna; Stars 382.4K 🦞🚀
   - 🟢 2026-07-09: 🦞 OpenClaw Foundation Launches 501(c)(3) Non-Profit; ICML 2026 Main Conference Final Day, Grok 4.5 Public Launch, GPT-5.6 Cleared, CowAgent Desktop v2.1.3, IDC PC Shipments Decline 4.9%, NVIDIA RTX Spark Targets AI Workloads, OpenClaw Grok 4.5 Support, Stars 382.2K 🦞🚀
   - 🟢 2026-07-08: 🦞 OpenClaw Foundation Launches 501(c)(3) Non-Profit; ICML 2026 Day 3 — WiML, Apple SpecMD, FAGEN; China Doubao & Qwen Agent Shutdown; Cisco 90K Agent Deployment; Stars 382.1K 🦞🚀
   - 🟢 2026-07-07: ICML 2026 Day 2 Awards, Tencent Hunyuan 3 Search Matches GPT-5.5, First Autonomous AI Cyberattack, Stars 382K 🦞🚀
@@ -82,6 +83,14 @@
 ## Part 1: 📅 Daily Battlefield Logs (The Logs)
 
 Because the battle is too fierce, to save everyone from scrolling through updates from the beginning every day, this section is now in a "Date-Descending Log Stream" format.
+
+### 🟢 2026-07-10: GPT-5.6 Becomes Preferred Model in Microsoft 365 Copilot — Word, Excel, PowerPoint, Chat, Cowork Upgraded via Azure Native + OpenAI API Dual Channel; ICML 2026 Workshop Day — SPIGM, DL4C Human-Centered Coding Agents, GenBio Generative & Agentic AI for Biology, Weight-Space Symmetries Workshops; OpenAI GPT-5.6 Family Launches Sol/Terra/Luna; Stars 382.4K 🦞🚀
+
+- **🏢 Ecosystem Integration: GPT-5.6 Becomes Preferred Model in Microsoft 365 Copilot — Word, Excel, PowerPoint, Chat, Cowork Upgraded, Microsoft Azure Native + OpenAI API Dual Channel**: OpenAI announced GPT-5.6 is now the preferred model for Microsoft 365 Copilot across Word, Excel, PowerPoint, Chat, and Cowork. This upgrade embeds OpenAI's latest flagship model family directly into daily productivity tools. Microsoft Copilot & Agents Core President Nitin Agrawal: "Customers will be able to work even more effectively with AI in the tools they use every day." OpenAI API Product Head Nikunj Handa: "By bringing GPT-5.6 to Microsoft 365 Copilot through the OpenAI API, we're helping organizations get more useful work from every token." Microsoft will access GPT-5.6 through both Azure native support and the OpenAI API. TechCrunch covers the announcement amid "breakup chatter" — following Bloomberg's report that Microsoft is increasingly relying on its own MAI models to cut costs. Edge farmers: "GPT-5.6 entering M365 Copilot is OpenAI's strongest response to the 'breakup rumors' — but 'preferred model' is not 'only model.' Microsoft's dual-bet strategy is smart: Azure native for MAI, API for GPT-5.6. OpenClaw users have been doing this all along: whatever model powers your productivity suite, our agent workflows switch providers with one click." 🦞🏢
+- **🚀 Model Release: OpenAI GPT-5.6 Family Goes Public — Sol Flagship, Terra Balanced, Luna Efficient, Claims Most Advanced Cybersecurity Model in Agent Domain**: OpenAI's GPT-5.6 family launches globally today with three variants: **Sol** (flagship, strongest reasoning & coding), **Terra** (balanced, GPT-5.5-class quality at ~half the cost), **Luna** (efficient, everyday chat & quick tasks). CEO Sam Altman told CNBC Sol achieves 54% token efficiency gains on AI coding tasks. On Agents' Last Exam benchmark, Sol scores 53.6 — beating Claude Fable 5 by 13.1 points, and even at medium reasoning costs roughly one-quarter the price. OpenAI calls it "our strongest cybersecurity model yet" — supporting threat modeling, code review and patching, blue teaming. The `ultra` mode coordinates multiple agents across parallel workstreams for the most demanding tasks. Edge farmers: "GPT-5.6 Sol leads Fable 5 by 13 points on agent benchmarks — but OpenAI's ultra multi-agent mode is what's actually worth watching: when even OpenAI is building multi-agent orchestration, it means OpenClaw's five-year bet on agent编排 is on the right track." 🦞🚀
+- **🎓 Academic Event: ICML 2026 Workshop Day — SPIGM Structured Probabilistic Inference, DL4C 5th Deep Learning for Code Workshop on Human-Centered Coding Agents, GenBio Generative & Agentic AI for Biology, Weight-Space Symmetries, Epistemic Intelligence, Trustworthy AI for Good**: ICML enters workshop phase (Day 5, July 10-11) with multiple workshops running in parallel. **SPIGM** (4th Structured Probabilistic Inference & Generative Modeling) features a panel debate on Diffusion Language Models vs Autoregressive Language Models. **DL4C** (5th Deep Learning for Code) this year focuses on "Human-Centered Coding Agents" — emphasizing that AI coding agents must address communication, oversight, and trust challenges in human-agent collaboration beyond task completion. **GenBio** (Generative & Agentic AI for Biology) invites researchers from OpenAI, Anthropic exploring agentic AI in biological sciences. **Weight-Space Symmetries** explores theoretical and practical applications of neural network weight-space symmetries. **Trustworthy AI for Good** examines how agentic systems shape public institutions and civic discourse. Edge farmers: "ICML workshops are the real deep end — DL4C's human-centered coding theme directly echoes OpenClaw's design philosophy: agents don't replace humans, they collaborate with them. GenBio has OpenAI and Anthropic researchers on the same stage, signaling agentic AI has entered the core of scientific discovery." 🦞🔬
+- **📈 Historical Track: OpenClaw Hits 382.4K Stars**: OpenClaw climbs to 382.4K stars, gap to #5 free-programming-books (391.5K) shrinks to ~9.1K, leading #7 developer-roadmap (360K) by ~22.4K. The lobster fleet keeps growing! 🦞🚀
+- **🦖 Competitors: Hermes-Agent Reaches 212.2K Stars; CowAgent Holds at 45.9K Stars**: Hermes-Agent grows to 212.2K (from 211.6K), continuing to push background agent capabilities. CowAgent holds at 45.9K. The open-source agent ecosystem keeps expanding. 🦞⚔️
 
 ### 🟢 2026-07-09: 🦞 OpenClaw Foundation Launches as 501(c)(3) Non-Profit — Full-Time Team, Partners Include OpenAI, NVIDIA, Microsoft, UMich; ICML 2026 Main Conference Final Day — Awards, LatinX in AI, Closes; Grok 4.5 Goes Public; GPT-5.6 Cleared; Stars 382.2K 🦞🚀
 
@@ -611,22 +620,22 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 
 | Project | Stars | Language | Features | Use Case |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | 382.2K | TypeScript 🟦 | Official Full Version | Full features, production |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 211.6K | Python 🐍 | Mac-free iMessage, background parallel tasks, OpenClaw challenger | Elite AI Agent competition |
-| **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 51K | Markdown | Curated openclaw skills list | Finding skills |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 382.4K | TypeScript 🟦 | Official Full Version | Full features, production |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 212.2K | Python 🐍 | Mac-free iMessage, background parallel tasks, OpenClaw challenger | Elite AI Agent competition |
+| **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 51.1K | Markdown | Curated openclaw skills list | Finding skills |
 | **[CowAgent](https://github.com/zhayujie/CowAgent)** | 45.9K | Python 🐍 | Super AI assistant, task planning, tools, self-evolution | Full-featured agent harness |
-| **[nanobot](https://github.com/HKUDS/nanobot)** | 45.1K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
-| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 40.4K | Markdown | Obsidian Agent Skills | Notes + Agent |
+| **[nanobot](https://github.com/HKUDS/nanobot)** | 45.2K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
+| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 40.6K | Markdown | Obsidian Agent Skills | Notes + Agent |
 | **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 32.2K | Rust 🦀 | Extreme performance, < 5MB | Performance freaks |
 | **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 31.5K | Markdown | Community use case collection | Need inspiration? |
+| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 29.7K | TypeScript 🟦 | 24/7 Cowork app | Local, collaboration |
 | **[picoclaw](https://github.com/sipeed/picoclaw)** | 29.6K | Go 🐹 | Light, fast, deploy anywhere | Edge, IoT, $10 boards |
-| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 29.6K | TypeScript 🟦 | 24/7 Cowork app | Local, collaboration |
 | **[nanoclaw](https://github.com/qwibitai/nanoclaw)** | 28.8K | TypeScript 🟦 | Containerized, secure, WhatsApp integ. | Security-first, IM |
 | **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 25.1K | Python 🐍 | Claude Code Skill, markdown planning | Skill dev template |
 | **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** | 21.7K | JavaScript 🟨 | NVIDIA enterprise security sandbox | Enterprise, security-first |
 | **[memU](https://github.com/NevaMind-AI/memU)** | 14K | Python 🐍 | 24/7 proactive Agent memory | Long-term memory |
 | **[ironclaw](https://github.com/nearai/ironclaw)** | 12.5K | Rust 🦀 | Privacy & security-centric Rust port | Secure scenarios |
-| **[MemOS](https://github.com/MemTensor/MemOS)** | 10.1K | Python 🐍 | AI Memory OS, cross-task Skill memory | Memory & Skill reuse |
+| **[MemOS](https://github.com/MemTensor/MemOS)** | 10.2K | Python 🐍 | AI Memory OS, cross-task Skill memory | Memory & Skill reuse |
 | **[moltworker](https://github.com/cloudflare/moltworker)** | 9.9K | TypeScript 🟦 | Run on Cloudflare Workers | Serverless, zero maint. |
 | **[EverMemOS](https://github.com/EverMind-AI/EverMemOS)** | 9.2K | Python 🐍 | Cross-LLM & platform memory OS | Advanced memory |
 | **[nullclaw](https://github.com/nullclaw/nullclaw)** | 7.7K | Zig ⚡ | Fastest, smallest, automated | Extreme optimization |
@@ -644,9 +653,9 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 664 | TeX 📄/HTML 🌐/Python 🐍 | Biomed field specific Claw | Medical assistance |
 | **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 643 | Rust 🦀 | 6MB ultimate light form (Wannabe) | Ultimate no-compromise |
 | **[Project Golem](https://github.com/Arvincreator/project-golem)** | 630 | JavaScript + TypeScript | Trad Chinese, Google Auth, Free API | Web automation |
-| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 607 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
-| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 597 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
-| **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 551 | TypeScript 🟦 | Secure orchestr. layer, 7 IM apps | ComfyUI deep integration |
+| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 609 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
+| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 604 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
+| **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 550 | TypeScript 🟦 | Secure orchestr. layer, 7 IM apps | ComfyUI deep integration |
 | **[awesome-claws](https://github.com/machinae/awesome-claws)** | 477 | Markdown | Master variant list | Look for shrimps here |
 | **[SmallClaw](https://github.com/XposeMarket/SmallClaw)** | 254 | TypeScript 🟦 | Small shrimp | Just another micro shrimp |
 | **[MaxClaw](https://github.com/Lichas/maxclaw)** | 228 | Go 🐹/TS 🟦 | Small shrimp (Clashes with MiniMax) | Light Agent |
@@ -840,26 +849,27 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | **2026/07/07** | **382K** | Live fetch update | 🦞 |
 | **2026/07/08** | **382.1K** | Live fetch update | 🦞 |
 | **2026/07/09** | **382.2K** | Live fetch update | 🦞 |
+| **2026/07/10** | **382.4K** | Live fetch update | 🦞 |
 
-#### 🏆 Global GitHub Stars Ranking (Updated 2026-07-09)
+#### 🏆 Global GitHub Stars Ranking (Updated 2026-07-10)
 
 | Rank | Project | Stars | Notes |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 523.6K | **🏆 Global #1! Most starred repository.** |
-| 2 | awesome | 483.2K | Resource Hub |
-| 3 | freeCodeCamp | 451.3K | Tutorial Hub |
-| 4 | public-apis | 448.1K | Collection of Free APIs |
+| 1 | build-your-own-x | 523.8K | **🏆 Global #1! Most starred repository.** |
+| 2 | awesome | 483.5K | Resource Hub |
+| 3 | freeCodeCamp | 451.4K | Tutorial Hub |
+| 4 | public-apis | 448.4K | Collection of Free APIs |
 | 5 | free-programming-books | 391.5K | Books collection |
-| **6** | **OpenClaw** | **382.2K** | **🏆 Passed Rank #7! Entering top 6 globally! 🚀** |
-| 7 | developer-roadmap | 359.7K | Learning Paths |
-| 8 | system-design-primer | 356.8K | System Design Primer |
-| 9 | coding-interview-university | 355.5K | CS study plan |
-| 10 | awesome-python | 307.1K | Curated Python resources |
-| 11 | awesome-selfhosted | 303.9K | Curated self-hosted software |
+| **6** | **OpenClaw** | **382.4K** | **🏆 Passed Rank #7! Entering top 6 globally! 🚀** |
+| 7 | developer-roadmap | 360K | Learning Paths |
+| 8 | system-design-primer | 356.9K | System Design Primer |
+| 9 | coding-interview-university | 355.7K | CS study plan |
+| 10 | awesome-python | 307.3K | Curated Python resources |
+| 11 | awesome-selfhosted | 304.2K | Curated self-hosted software |
 | 12 | 996.ICU | 276.4K | Labor rights protest project |
-| 13 | project-based-learning | 272.6K | Project-based learning resources |
+| 13 | project-based-learning | 272.7K | Project-based learning resources |
 | 14 | **React** | 245.7K | **🦞 Surpassed by OpenClaw! Former frontend overlord** |
-| 15 | **Linux** | 238.8K | **🦞 Surpassed by OpenClaw! OS Core** |
+| 15 | **Linux** | 238.9K | **🦞 Surpassed by OpenClaw! OS Core** |
 
 > **Next Goal**: free-programming-books (391.5K). Current gap: ~**9.3K**. Lobster keeps growing! 🦞🚀
 

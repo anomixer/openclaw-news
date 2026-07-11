@@ -4,8 +4,8 @@
 
 > **WARNING**: The news contains excessive complaints, conspiracy theories, and profound philosophical thoughts on lobsters.
 > 
-> **Last Updated**: 2026-07-10
-> **Status**: OpenClaw climbs to 382.4K stars, **solidly ranked #6 globally on GitHub, gap to #5 free-programming-books narrows to just 9.1K!** 🦞🚀
+> **Last Updated**: 2026-07-11
+> **Status**: OpenClaw climbs to 382.5K stars, **solidly ranked #6 globally on GitHub, gap to #5 free-programming-books narrows to just 9.1K!** 🦞🚀
 
 > **OpenClaw Version**: v2026.7.1-beta.2 (Latest Beta) / v2026.6.10 (Latest Stable/LTS) | ClawRouter bundled plugin, Mac local Gateway setup, Control UI overhaul, Ollama auto-discovery 🦞🏵
 
@@ -18,18 +18,18 @@
 
 ## ⏱️ TL;DR (30-second summary)
 
-1. **The Protagonist**: **OpenClaw** (🔥 382.4K Stars, **solid 6th in history**), leading `developer-roadmap` by ~22.4K stars, just 9.1K from #5 free-programming-books! Steadily marching toward the global top 5!
-2. **Today's Earthquake**: ICML 2026 Workshop Day — SPIGM, DL4C Human-Centered Coding Agents, GenBio Generative AI for Biology, Weight-Space Symmetries workshops; GPT-5.6 becomes preferred model in Microsoft 365 Copilot — Word, Excel, PowerPoint, Chat, Cowork upgraded; OpenAI GPT-5.6 family launches (Sol/Terra/Luna).
-3. **Ecosystem Integration**: GPT-5.6 powers M365 Copilot via Azure native + OpenAI API dual channel; ICML workshops focus on human-agent collaboration, agent safety, multi-agent interaction frontiers.
-4. **Latest Progress**: Stars reach 382.4K, gap to free-programming-books narrows to 9.1K. The edge lobster empire keeps charging! 🦞🚀
+1. **The Protagonist**: **OpenClaw** (🔥 382.5K Stars, **solid 6th in history**), leading `developer-roadmap` by ~22.2K stars, just 9.1K from #5 free-programming-books! Steadily marching toward the global top 5!
+2. **Today's Earthquake**: ICML 2026 Final Workshop Day — AI4Physics, AI4Math Self-Evolving Scientific Agents, AI for Science, Agents in the Wild safety; SK Hynix +13% on Nasdaq debut ($26.5B largest foreign IPO in US history); ChatGPT Work launches — Codex + ChatGPT desktop merge into super app; Apple sues OpenAI over trade secrets, Siri switches to Google Gemini.
+3. **Ecosystem War**: ChatGPT Work enters office productivity market, directly challenging Anthropic Claude Cowork & Microsoft Copilot Cowork; Meta Muse Spark 1.1 first paid Meta model; Big Tech AI cooperation era formally ends — Apple and OpenAI go from partners to litigants.
+4. **Latest Progress**: Stars reach 382.5K, gap to free-programming-books holds at 9.1K. The edge lobster empire keeps charging! 🦞🚀
 
 ---
 
 ## 📚 Table of Contents
 
 - **Part 1: 📅 Daily Battlefield Logs (The Logs)**
+  - 🟢 2026-07-11: ICML 2026 Final Workshop Day — AI4Physics, AI4Math Self-Evolving Scientific Agents, AI for Science; SK Hynix $26.5B Nasdaq Debut +13%; ChatGPT Work Launches Codex+ChatGPT Merge; Apple Sues OpenAI Trade Secrets/Siri Switches to Gemini; Stars 382.5K 🦞🚀
   - 🟢 2026-07-10: GPT-5.6 Becomes Preferred Model in Microsoft 365 Copilot — Word, Excel, PowerPoint, Chat, Cowork Upgraded; ICML 2026 Workshop Day — SPIGM, DL4C, GenBio Workshops; OpenAI GPT-5.6 Family Launches Sol/Terra/Luna; Stars 382.4K 🦞🚀
-  - 🟢 2026-07-09: 🦞 OpenClaw Foundation Launches 501(c)(3) Non-Profit; ICML 2026 Main Conference Final Day, Grok 4.5 Public Launch, GPT-5.6 Cleared, CowAgent Desktop v2.1.3, IDC PC Shipments Decline 4.9%, NVIDIA RTX Spark Targets AI Workloads, OpenClaw Grok 4.5 Support, Stars 382.2K 🦞🚀
   - 🟢 2026-07-08: 🦞 OpenClaw Foundation Launches 501(c)(3) Non-Profit; ICML 2026 Day 3 — WiML, Apple SpecMD, FAGEN; China Doubao & Qwen Agent Shutdown; Cisco 90K Agent Deployment; Stars 382.1K 🦞🚀
   - 🟢 2026-07-07: ICML 2026 Day 2 Awards, Tencent Hunyuan 3 Search Matches GPT-5.5, First Autonomous AI Cyberattack, Stars 382K 🦞🚀
   - 🟢 2026-07-06: ICML 2026 Day 1 Opens Seoul, UN AI Governance Geneva, OpenClaw v2026.7.1-beta.2 Ships ClawRouter, BNB Agent Studio, Scaled Cognition $100M, Stars 381.8K 🦞🚀
@@ -83,6 +83,16 @@
 ## Part 1: 📅 Daily Battlefield Logs (The Logs)
 
 Because the battle is too fierce, to save everyone from scrolling through updates from the beginning every day, this section is now in a "Date-Descending Log Stream" format.
+
+### 🟢 2026-07-11: ICML 2026 Final Workshop Day — AI4Physics, AI4Math Self-Evolving Scientific Agents, AI for Science, Agents in the Wild Safety Workshop; SK Hynix Nasdaq Debut +13% — Largest Foreign IPO in US History at $26.5B; ChatGPT Work Launches — Codex + ChatGPT Desktop Merge into Office Super App; Apple Sues OpenAI Over Trade Secrets, Siri Switches to Google Gemini; Stars 382.5K 🦞🚀
+
+- **📊 Market Shock: SK Hynix +13% on Nasdaq Debut — $26.5B Largest Foreign IPO in US History, 7x Oversubscribed, $1.27T Market Cap, AI Infrastructure IPO Signal Fully Ignited**: SK Hynix closed up 13% in its first day of trading on Nasdaq, closing at $168.01 with a $1.27 trillion market cap. The $26.5B offering was the largest-ever US IPO by a foreign company, oversubscribed 7x. SK Hynix Chairman: "All my customers said that's not enough." Analysts flag this as the AI infrastructure IPO signal flare — paving the way for Anthropic and OpenAI's planned Q4 listings. Memory chips are core hardware for AI training and inference, and SK Hynix dominates the AI memory market with HBM (High Bandwidth Memory). Edge farmers: "SK Hynix +13% tells you one thing: selling shovels in the AI gold rush is more profitable than digging for gold. But OpenClaw's hardware requirement is just a used Mac Mini — while everyone scrambles for HBM, your agent has been running tasks locally all night." 🦞📊
+- **🚀 Product Launch: ChatGPT Work Goes Live — OpenAI Merges Codex and ChatGPT Desktop into One App with Chat, Codex, Work Modes**: OpenAI today launched ChatGPT Work, merging Codex and the ChatGPT desktop app into a single product. The new app offers three modes: Chat (conversation), Codex (coding), and Work (document processing), enabling non-coders to create documents, presentations, and websites from one workspace. The move puts OpenAI directly into the office productivity market — immediately creating a three-way battle with Anthropic Claude Cowork and Microsoft Copilot Cowork. Reuters frames this as a "white-collar super app" strategy, signaling the next battleground is not just model quality but who owns the everyday interface for AI work. Edge farmers: "ChatGPT Work merges coding and document processing into one app — but every file goes through OpenAI's servers. OpenClaw agents handle both code and documents locally, your data never leaves your hard drive. And OpenClaw supports 50+ messaging platforms — that's more integration scope than any office suite." 🦞🚀
+- **⚖️ Legal Battle: Apple Sues OpenAI for Trade Secret Theft — IO Products Acquisition at Center, New Siri Will Use Google Gemini Instead of ChatGPT**: Apple today formally filed a lawsuit against OpenAI, alleging trade secret theft during the IO Products acquisition process. More explosive: Apple announced the new Siri launching Autumn 2026 will use Google Gemini, not ChatGPT. This marks the formal end of the Big Tech AI cooperation era — former deep partners now litigation adversaries. Analysts note the active litigation creates material S-1 risk for OpenAI's planned IPO. Edge farmers: "Apple went from OpenAI API customer to litigation opponent in six months — Siri switching to Gemini is the strongest signal of Big Tech AI alliance dissolution. OpenClaw's model-agnostic design becomes the ultimate advantage in this chaos: you don't have to pick sides, every model is just a provider." 🦞⚖️
+- **🎓 Academic Event: ICML 2026 Workshop Day 6 (Final Day) — AI4Physics, AI4Math 3rd Workshop "Toward Self-Evolving Scientific Agents", AI for Science "AI Scientists — Tools, Co-authors, or Founders?", Agents in the Wild Safety Workshop, Hypothesis Testing, Generative AI Creativity**: ICML enters its final day of workshops (Day 6, July 11). **AI4Physics** runs all day exploring LLMs and agents in physics reasoning — world model extrapolation, generative surrogate simulators, inverse problems. **AI4Math** (3rd AI for Math Workshop) on "Toward Self-Evolving Scientific Agents" received 346 submissions (double last year), exploring formal theorem proving, precise autoformalization, natural language math reasoning. **AI for Science** features invited talks from AI2's Peter Clark and Google DeepMind's Ramine Tinati debating AI scientists as tools, co-authors, or founders. **Agents in the Wild** focuses on safety, security, and trustworthiness challenges in dynamic uncertain environments. ICML 2026 closes with 44 workshops total. Edge farmers: "ICML 2026 final day — from AI4Physics world models to AI4Math self-evolving agents, from AI for Science debating AI scientist roles to Agents in the Wild deployment safety — agentic AI has gone from conference theme to the foundational assumption of the entire ML community. The OpenClaw ecosystem is everywhere in these workshops: what your agent is doing is exactly what these workshops are discussing." 🦞🔬
+- **🤖 Model News: Meta Muse Spark 1.1 Launches — First Paid Meta Model, $1.25/$4.25 per Million Tokens, 1M Context Window, MCP Support**: Meta launched Muse Spark 1.1, the company's first paid AI model, priced at $1.25/M input tokens / $4.25/M output tokens with 1M context window and MCP (Model Context Protocol) support. Meta shifts from pure open-source strategy toward commercial monetization, following OpenAI, Anthropic, and Google's paid API model. Edge farmers: "Meta finally starts charging — Muse Spark 1.1's 1M context is impressive, but OpenClaw's model-agnostic design lets you plug into Muse, Opus, GPT-5.6, and Grok 4.5 simultaneously, locked into none of them." 🦞🤖
+- **📈 Historical Track: OpenClaw Hits 382.5K Stars**: OpenClaw climbs to 382.5K stars, gap to #5 free-programming-books (391.6K) holds at ~9.1K, leading #7 developer-roadmap (360.3K) by ~22.2K. The lobster fleet keeps growing! 🦞🚀
+- **🦖 Competitors: Hermes-Agent Reaches 212.9K Stars; CowAgent Holds at 45.9K Stars**: Hermes-Agent grows to 212.9K (from 212.2K), continuing to push background agent capabilities. CowAgent holds at 45.9K. The open-source agent ecosystem keeps expanding. 🦞⚔️
 
 ### 🟢 2026-07-10: GPT-5.6 Becomes Preferred Model in Microsoft 365 Copilot — Word, Excel, PowerPoint, Chat, Cowork Upgraded via Azure Native + OpenAI API Dual Channel; ICML 2026 Workshop Day — SPIGM, DL4C Human-Centered Coding Agents, GenBio Generative & Agentic AI for Biology, Weight-Space Symmetries Workshops; OpenAI GPT-5.6 Family Launches Sol/Terra/Luna; Stars 382.4K 🦞🚀
 
@@ -620,18 +630,18 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 
 | Project | Stars | Language | Features | Use Case |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | 382.4K | TypeScript 🟦 | Official Full Version | Full features, production |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 212.2K | Python 🐍 | Mac-free iMessage, background parallel tasks, OpenClaw challenger | Elite AI Agent competition |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 382.5K | TypeScript 🟦 | Official Full Version | Full features, production |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 212.9K | Python 🐍 | Mac-free iMessage, background parallel tasks, OpenClaw challenger | Elite AI Agent competition |
 | **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 51.1K | Markdown | Curated openclaw skills list | Finding skills |
 | **[CowAgent](https://github.com/zhayujie/CowAgent)** | 45.9K | Python 🐍 | Super AI assistant, task planning, tools, self-evolution | Full-featured agent harness |
 | **[nanobot](https://github.com/HKUDS/nanobot)** | 45.2K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
-| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 40.6K | Markdown | Obsidian Agent Skills | Notes + Agent |
+| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 40.7K | Markdown | Obsidian Agent Skills | Notes + Agent |
 | **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 32.2K | Rust 🦀 | Extreme performance, < 5MB | Performance freaks |
 | **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 31.5K | Markdown | Community use case collection | Need inspiration? |
-| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 29.7K | TypeScript 🟦 | 24/7 Cowork app | Local, collaboration |
-| **[picoclaw](https://github.com/sipeed/picoclaw)** | 29.6K | Go 🐹 | Light, fast, deploy anywhere | Edge, IoT, $10 boards |
+| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 29.8K | TypeScript 🟦 | 24/7 Cowork app | Local, collaboration |
+| **[picoclaw](https://github.com/sipeed/picoclaw)** | 29.7K | Go 🐹 | Light, fast, deploy anywhere | Edge, IoT, $10 boards |
 | **[nanoclaw](https://github.com/qwibitai/nanoclaw)** | 28.8K | TypeScript 🟦 | Containerized, secure, WhatsApp integ. | Security-first, IM |
-| **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 25.1K | Python 🐍 | Claude Code Skill, markdown planning | Skill dev template |
+| **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 25.2K | Python 🐍 | Claude Code Skill, markdown planning | Skill dev template |
 | **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** | 21.7K | JavaScript 🟨 | NVIDIA enterprise security sandbox | Enterprise, security-first |
 | **[memU](https://github.com/NevaMind-AI/memU)** | 14K | Python 🐍 | 24/7 proactive Agent memory | Long-term memory |
 | **[ironclaw](https://github.com/nearai/ironclaw)** | 12.5K | Rust 🦀 | Privacy & security-centric Rust port | Secure scenarios |
@@ -639,23 +649,23 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | **[moltworker](https://github.com/cloudflare/moltworker)** | 9.9K | TypeScript 🟦 | Run on Cloudflare Workers | Serverless, zero maint. |
 | **[EverMemOS](https://github.com/EverMind-AI/EverMemOS)** | 9.2K | Python 🐍 | Cross-LLM & platform memory OS | Advanced memory |
 | **[nullclaw](https://github.com/nullclaw/nullclaw)** | 7.7K | Zig ⚡ | Fastest, smallest, automated | Extreme optimization |
+| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 7.5K | Python 🐍/Rust 🦀/TS 🟦 | Stanford Made, 88.7% Local | Zero API cost, Extreme Privacy |
 | **[refly](https://github.com/refly-ai/refly)** | 7.4K | TypeScript 🟦 | 1st open-source Agent Skills Builder | Visual Skill orchestr. |
-| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 7.4K | Python 🐍/Rust 🦀/TS 🟦 | Stanford Made, 88.7% Local | Zero API cost, Extreme Privacy |
 | **[manifest](https://github.com/mnfst/manifest)** | 7.2K | TypeScript 🟦 | Real-time cost monitoring | Cost Observability |
 | **[mimiclaw](https://github.com/memovai/mimiclaw)** | 5.6K | C ⚙️ | Runs on $5 chip, no OS/Node.js | Extreme embedded |
-| **[openclaw-zero-token](https://github.com/linuxhsj/openclaw-zero-token)** | 5K | TypeScript 🟦 | First true Zero Token, use all models free | Zero-cost lobster farming |
+| **[openclaw-zero-token](https://github.com/linuxhsj/openclaw-zero-token)** | 5.1K | TypeScript 🟦 | First true Zero Token, use all models free | Zero-cost lobster farming |
 | **[clawdbot-feishu](https://github.com/m1heng/clawdbot-feishu)** | 4.3K | TypeScript 🟦 | Feishu (Lark) integration | Feishu enterprise |
 | **[antigravity-claude-proxy](https://github.com/badrisnarayanan/antigravity-claude-proxy)** | 3.8K | JavaScript 🟨 | Antigravity model proxy | Using Antigravity (Banned🚫) |
 | **[TinyClaw](https://github.com/jlia0/tinyclaw)** | 2.8K | C/C++ ⚙️ | Microcontroller grade (256KB RAM) | Fit in digital watch 🤯 |
 | **[moltis](https://github.com/moltis-org/moltis)** | 2.8K | Rust 🦀 | Single binary, sandboxed, auditable | Enterprise security |
 | **[VisionClaw](https://github.com/sseanliu/VisionClaw)** | 820 | Swift 🍎/Kotlin 🟣/JS 🟨 | Smart glasses Claw | Wearable agent |
 | **[MicroClaw](https://github.com/microclaw/microclaw)** | 730 | Rust 🦀 | Extension-optimized micro version | Light browser dev |
-| **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 664 | TeX 📄/HTML 🌐/Python 🐍 | Biomed field specific Claw | Medical assistance |
+| **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 663 | TeX 📄/HTML 🌐/Python 🐍 | Biomed field specific Claw | Medical assistance |
 | **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 643 | Rust 🦀 | 6MB ultimate light form (Wannabe) | Ultimate no-compromise |
 | **[Project Golem](https://github.com/Arvincreator/project-golem)** | 630 | JavaScript + TypeScript | Trad Chinese, Google Auth, Free API | Web automation |
 | **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 609 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
-| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 604 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
-| **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 550 | TypeScript 🟦 | Secure orchestr. layer, 7 IM apps | ComfyUI deep integration |
+| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 606 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
+| **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 551 | TypeScript 🟦 | Secure orchestr. layer, 7 IM apps | ComfyUI deep integration |
 | **[awesome-claws](https://github.com/machinae/awesome-claws)** | 477 | Markdown | Master variant list | Look for shrimps here |
 | **[SmallClaw](https://github.com/XposeMarket/SmallClaw)** | 254 | TypeScript 🟦 | Small shrimp | Just another micro shrimp |
 | **[MaxClaw](https://github.com/Lichas/maxclaw)** | 228 | Go 🐹/TS 🟦 | Small shrimp (Clashes with MiniMax) | Light Agent |
@@ -850,26 +860,27 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | **2026/07/08** | **382.1K** | Live fetch update | 🦞 |
 | **2026/07/09** | **382.2K** | Live fetch update | 🦞 |
 | **2026/07/10** | **382.4K** | Live fetch update | 🦞 |
+| **2026/07/11** | **382.5K** | Live fetch update | 🦞 |
 
-#### 🏆 Global GitHub Stars Ranking (Updated 2026-07-10)
+#### 🏆 Global GitHub Stars Ranking (Updated 2026-07-11)
 
 | Rank | Project | Stars | Notes |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 523.8K | **🏆 Global #1! Most starred repository.** |
-| 2 | awesome | 483.5K | Resource Hub |
-| 3 | freeCodeCamp | 451.4K | Tutorial Hub |
-| 4 | public-apis | 448.4K | Collection of Free APIs |
-| 5 | free-programming-books | 391.5K | Books collection |
-| **6** | **OpenClaw** | **382.4K** | **🏆 Passed Rank #7! Entering top 6 globally! 🚀** |
-| 7 | developer-roadmap | 360K | Learning Paths |
-| 8 | system-design-primer | 356.9K | System Design Primer |
-| 9 | coding-interview-university | 355.7K | CS study plan |
-| 10 | awesome-python | 307.3K | Curated Python resources |
-| 11 | awesome-selfhosted | 304.2K | Curated self-hosted software |
+| 1 | build-your-own-x | 524.2K | **🏆 Global #1! Most starred repository.** |
+| 2 | awesome | 483.8K | Resource Hub |
+| 3 | freeCodeCamp | 451.5K | Tutorial Hub |
+| 4 | public-apis | 448.7K | Collection of Free APIs |
+| 5 | free-programming-books | 391.6K | Books collection |
+| **6** | **OpenClaw** | **382.5K** | **🏆 Passed Rank #7! Entering top 6 globally! 🚀** |
+| 7 | developer-roadmap | 360.3K | Learning Paths |
+| 8 | system-design-primer | 357K | System Design Primer |
+| 9 | coding-interview-university | 355.8K | CS study plan |
+| 10 | awesome-python | 307.5K | Curated Python resources |
+| 11 | awesome-selfhosted | 304.5K | Curated self-hosted software |
 | 12 | 996.ICU | 276.4K | Labor rights protest project |
-| 13 | project-based-learning | 272.7K | Project-based learning resources |
+| 13 | project-based-learning | 272.8K | Project-based learning resources |
 | 14 | **React** | 245.7K | **🦞 Surpassed by OpenClaw! Former frontend overlord** |
-| 15 | **Linux** | 238.9K | **🦞 Surpassed by OpenClaw! OS Core** |
+| 15 | **Linux** | 239.1K | **🦞 Surpassed by OpenClaw! OS Core** |
 
 > **Next Goal**: free-programming-books (391.5K). Current gap: ~**9.3K**. Lobster keeps growing! 🦞🚀
 

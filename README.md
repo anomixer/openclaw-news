@@ -4,8 +4,8 @@
 
 > **WARNING**: The news contains excessive complaints, conspiracy theories, and profound philosophical thoughts on lobsters.
 > 
-> **Last Updated**: 2026-07-11
-> **Status**: OpenClaw climbs to 382.5K stars, **solidly ranked #6 globally on GitHub, gap to #5 free-programming-books narrows to just 9.1K!** 🦞🚀
+> **Last Updated**: 2026-07-12
+> **Status**: OpenClaw climbs to 382.6K stars, **solidly ranked #6 globally on GitHub, gap to #5 free-programming-books narrows to just 9.1K!** 🦞🚀
 
 > **OpenClaw Version**: v2026.7.1-beta.2 (Latest Beta) / v2026.6.10 (Latest Stable/LTS) | ClawRouter bundled plugin, Mac local Gateway setup, Control UI overhaul, Ollama auto-discovery 🦞🏵
 
@@ -18,16 +18,17 @@
 
 ## ⏱️ TL;DR (30-second summary)
 
-1. **The Protagonist**: **OpenClaw** (🔥 382.5K Stars, **solid 6th in history**), leading `developer-roadmap` by ~22.2K stars, just 9.1K from #5 free-programming-books! Steadily marching toward the global top 5!
-2. **Today's Earthquake**: ICML 2026 Final Workshop Day — AI4Physics, AI4Math Self-Evolving Scientific Agents, AI for Science, Agents in the Wild safety; SK Hynix +13% on Nasdaq debut ($26.5B largest foreign IPO in US history); ChatGPT Work launches — Codex + ChatGPT desktop merge into super app; Apple sues OpenAI over trade secrets, Siri switches to Google Gemini.
-3. **Ecosystem War**: ChatGPT Work enters office productivity market, directly challenging Anthropic Claude Cowork & Microsoft Copilot Cowork; Meta Muse Spark 1.1 first paid Meta model; Big Tech AI cooperation era formally ends — Apple and OpenAI go from partners to litigants.
-4. **Latest Progress**: Stars reach 382.5K, gap to free-programming-books holds at 9.1K. The edge lobster empire keeps charging! 🦞🚀
+1. **The Protagonist**: **OpenClaw** (🔥 382.6K Stars, **solid 6th in history**), leading `developer-roadmap` by ~22.1K stars, just 9.1K from #5 free-programming-books! Steadily marching toward the global top 5!
+2. **Today's Earthquake**: Apple v. OpenAI trade secret lawsuit details emerge — 400+ former employees, Chief Hardware Officer Tang Tan named; OpenAI preps $730B confidential IPO filing; Trump admin Intel intervention pushes Apple to Intel fabs; Gemini 3.5 Pro leaked July 17 with 2M context window; Google Search fully AI-generated — no more "ten blue links"; UCSD humanoid robots perform first live surgery; Meta doubles compute by 2027.
+3. **Ecosystem War**: Legal battles reshape AI landscape as Apple sues OpenAI and Trump admin picks winners in chip manufacturing; Google's Gemini 3.5 Pro entry at aggressive pricing ($1.25/M) threatens to reset frontier model pricing war; infrastructure Capex supercycle continues with Meta's $10B Alberta data center and Iris chip; humanoid robotics enters capital-markets era.
+4. **Latest Progress**: Stars reach 382.6K, gap to free-programming-books holds at 9.1K. The edge lobster empire keeps charging! 🦞🚀
 
 ---
 
 ## 📚 Table of Contents
 
 - **Part 1: 📅 Daily Battlefield Logs (The Logs)**
+  - 🟢 2026-07-12: Apple v. OpenAI Trade Secret Suit Details — 400+ Employees, Tang Tan Named; OpenAI $730B Confidential IPO Filing; Trump Admin Intel Intervention; Gemini 3.5 Pro Leaked July 17; Google Search Fully AI; Meta Doubles Compute 2027; Stars 382.6K 🦞🚀
   - 🟢 2026-07-11: ICML 2026 Final Workshop Day — AI4Physics, AI4Math Self-Evolving Scientific Agents, AI for Science; SK Hynix $26.5B Nasdaq Debut +13%; ChatGPT Work Launches Codex+ChatGPT Merge; Apple Sues OpenAI Trade Secrets/Siri Switches to Gemini; Stars 382.5K 🦞🚀
   - 🟢 2026-07-10: GPT-5.6 Becomes Preferred Model in Microsoft 365 Copilot — Word, Excel, PowerPoint, Chat, Cowork Upgraded; ICML 2026 Workshop Day — SPIGM, DL4C, GenBio Workshops; OpenAI GPT-5.6 Family Launches Sol/Terra/Luna; Stars 382.4K 🦞🚀
   - 🟢 2026-07-08: 🦞 OpenClaw Foundation Launches 501(c)(3) Non-Profit; ICML 2026 Day 3 — WiML, Apple SpecMD, FAGEN; China Doubao & Qwen Agent Shutdown; Cisco 90K Agent Deployment; Stars 382.1K 🦞🚀
@@ -83,6 +84,17 @@
 ## Part 1: 📅 Daily Battlefield Logs (The Logs)
 
 Because the battle is too fierce, to save everyone from scrolling through updates from the beginning every day, this section is now in a "Date-Descending Log Stream" format.
+
+### 🟢 2026-07-12: Apple v. OpenAI Trade Secret Suit Details Emerge — 400+ Former Employees, Chief Hardware Officer Tang Tan Allegedly Directed Recruits to Bring Confidential Documents; OpenAI Preps $730B Confidential IPO Filing; Trump Admin Intel Intervention Pushes Apple to Intel Fabs; Gemini 3.5 Pro Leaked July 17 with 2M Token Context Window; Google Search Fully AI-Generated — "Ten Blue Links" Era Officially Ends; UCSD Humanoid Robot First Live Gallbladder Surgery; Meta Doubles Compute by 2027, Iris Chip September; Stars 382.6K 🦞🚀
+
+- **⚖️ Legal Battle: Apple v. OpenAI Trade Secret Suit Details Emerge — Lawsuit Alleges 400+ Ex-Apple Employees Now at OpenAI, Chief Hardware Officer Tang Tan Directed Recruits to Bring Confidential iPhone/Apple Watch Documents to Job Interviews; Altman vs Musk Escalates on X Over Space Data Centers**: Apple's lawsuit against OpenAI reveals explosive new details: more than 400 former Apple employees now work at OpenAI, and the complaint alleges Apple's Chief Hardware Officer Tang Tan directed recruits to bring confidential documents on unreleased iPhone and Apple Watch products to job interviews. The suit filed in Northern California federal court is the most aggressive legal action yet in the AI talent war — MG Siegler argues it could "sidetrack OpenAI hardware aspirations for years, possibly forever." Simultaneously, Sam Altman publicly fired back at Elon Musk on X: "Homeboy you're the one selling public market investors on short-term space data centers" — escalating the personal feud amid SpaceX's $2T valuation pitch built on plans for up to one million orbital compute satellites. The exchange highlights the deepening fault line between AI frontier labs and infrastructure providers who are simultaneously customers and competitors. Edge farmers: "400+ employees walking from Apple to OpenAI isn't talent flow, it's institutional knowledge hemorrhage. Apple's lawsuit is the first shot in the AI talent-war era — and when the world's most litigious hardware company comes for you, IPO bankers start sweating. OpenClaw doesn't need to poach anyone — our community of 380K+ stars is the talent pool. Altman calling out Musk on 'short-term space data centers' while renting Colossus compute at $1.25B/mo is peak kettle-black in the AI industry." 🦞⚖️
+- **🏛️ IPO Watch: OpenAI Preps Confidential Filing at $730B Valuation — Goldman Sachs & Morgan Stanley Lead, September 2026 Target, Anthropic Now Leads on Revenue at $47B Annualized**: OpenAI is preparing a confidential IPO filing with Goldman Sachs and Morgan Stanley, targeting a public debut as soon as September 2026 at a private-market valuation of approximately $730 billion — which would be the largest technology IPO in history by a wide margin. The competitive backdrop is intense: Fortune reports Anthropic has overtaken OpenAI on revenue, running at roughly $47 billion annualized against OpenAI's projected $25-33 billion for 2026. Claude Code alone went from $1B to $2.5B ARR between late 2025 and February 2026. The Apple trade secret lawsuit creates material S-1 risk — every banker's nightmare — weeks before a planned confidential filing. OpenAI still owns the biggest consumer AI brand on the planet (ChatGPT's 1.1B+ monthly active users), but the IPO will be the first honest look at frontier AI unit economics. Edge farmers: "$730B valuation with a trade secret lawsuit hanging over your head — OpenAI's IPO is the most scrutinized listing since the dot-com era. Anthropic leading on revenue at $47B with Claude Code carrying the enterprise load proves that in AI, distribution beats brand. OpenClaw stays private and free: no S-1, no bankers, no litigation risk, just pure open-source claw-tecture." 🦞🏛️
+- **🏢 Political Intervention: WSJ Reveals Trump Admin Heavy-Handed Intel Rescue Campaign — Commerce Secretary Howard Lutnick Repeatedly Met with Tim Cook, Elon Musk, and Jensen Huang to Pressure Apple to Use Intel's Fabs for AI and iPhone Chips**: WSJ reports the Trump administration mounted a sweeping intervention to prop up Intel, with Commerce Secretary Howard Lutnick personally meeting Tim Cook, Elon Musk, and Jensen Huang multiple times to steer AI and iPhone chip manufacturing toward Intel's US fabs. The report details an unprecedented pattern of government pressure in modern US industrial policy — pushing Apple, the world's most valuable company, to shift from TSMC to Intel for strategic chip resilience. This comes as Intel struggles to regain competitiveness against TSMC and Samsung in advanced process nodes, with the administration treating Intel's survival as a national security imperative. Edge farmers: "Government picking chip winners — Lutnick meeting Cook, Musk, and Huang isn't industrial policy, it's a command economy with PowerPoint slides. The irony: Intel needs government intervention because they lost the market race. OpenClaw runs on any hardware from any fab: TSMC, Intel, Samsung — we don't care who made the silicon, we just need it to compute." 🦞🏢
+- **🤖 Model News: Gemini 3.5 Pro Leaked for July 17 Launch — 2M Token Context Window, Total RAG Disruption, $1.25 Input / $10 Output Pricing Undercuts GPT-5.6 Sol 4x; Google Search Fully Powered by Gemini 3.5 Flash — "Ten Blue Links" Format Officially Dead**: Google DeepMind's Gemini 3.5 Pro is set for July 17 GA according to a leaked launch plan. Specs are aggressively competitive: rebuilt on entirely new pretraining (not adapted from 2.5 Pro), 2-million-token context window (double any current frontier model), Deep Think extended reasoning mode gated behind $250/mo Ultra subscription, and expected API pricing of $1.25 input / $10 output per million tokens — undercutting GPT-5.6 Sol by 4x on input cost while doubling everyone's context. Separately, as of July 10, Google Search is now fully powered by Gemini 3.5 Flash generated summaries — the traditional "ten blue links" format is completely replaced by AI-generated answers with embedded source links. For 25 years the implicit contract was publishers produce content, Google ranks it, clicks flow downstream. That contract is now gone: visibility means being cited inside the AI answer, not ranked beneath it. The publisher-compensation and antitrust fights will escalate sharply. Edge farmers: "Gemini 3.5 Pro at $1.25/M with 2M context isn't just competitive — it's a structural attack on RAG architectures. When you can fit entire documents in the prompt, the retrieval layer gets simpler. Google Search without blue links means the entire SEO industry just lost its job description. OpenClaw users: your agent already searches however you configure it — no algorithm change can kill your traffic." 🦞🤖
+- **🎓 Academic & Research: UCSD Teleoperated Humanoid Robots Complete First Live Gallbladder Surgeries on Pigs — 5-Foot, 60-Pound "Surgie" Bots Include Human-Robot and Fully Robot-Robot Teams Published in Nature; Mistral Ships Robot Navigation Brain Using Single Cheap Camera; HalluSquatting Attack Poisons AI Coding Assistants at Scale**: Three significant research stories land on July 12: (1) UC San Diego researchers led by Michael Yip and Shanglei Liu report that two teleoperated humanoid robots — 5 feet tall, 60 pounds, nicknamed "Surgie" — successfully removed gallbladders from live pigs in a preclinical trial published in Nature. One procedure paired a humanoid with a human surgeon, another was fully robot-robot team. (2) Mistral released a robotics navigation model enabling monocular navigation with a single low-cost camera — attacking the single biggest cost line in small autonomous robots (lidar + depth sensor stacks can cost more than the rest of the robot combined). (3) Tel Aviv University + Technion disclosed "HalluSquatting" — the first large-scale pull-based prompt injection technique exploiting AI hallucination rates (85-100% hallucinated package names) to turn Cursor, Copilot, Gemini CLI, and OpenClaw into botnet vectors. Edge farmers: "HalluSquatting is the most creative supply-chain attack yet — poisoning code completions by exploiting AI hallucination rather than traditional malware. OpenClaw's sandbox isolation isn't just a feature, it's now a security necessity. And UCSD's robot surgery team is exactly the human+robot model we advocate: the humanoid handles instruments, the human surgeon supervises. Mistral's cheap-camera navigation opens the door for robot agents at commodity prices." 🦞🎓
+- **🏭 Infrastructure War: Meta Internal Memo Reveals Plan to Double Compute by 2027 — $10B 1-Gigawatt Alberta Data Center, Iris Custom AI Chip Enters Production September; Bending Spoons AI Workforce Profile: 286 Hires from 800K Applications, AI Wrote 90% of Pull Requests, Revenue Per Employee $2.57M; China Halts Helium Exports to Shield Domestic Chipmakers**: Meta's internal memo reveals aggressive compute expansion: long-term supplier agreements including Samsung to double total compute capacity by 2027, a $10 billion 1-gigawatt data center in Alberta (33rd globally, first in Canada), and the Iris custom AI inference chip entering production in September — completing the hyperscaler custom-silicon club (Google TPU, Amazon Trainium, Microsoft Maia, OpenAI Jalapeno). Iris is designed with Broadcom, manufactured by TSMC, targeting inference workloads at lower cost than Nvidia GPUs. Separately, WSJ profiles Bending Spoons (Vimeo, AOL, Evernote owner): just 286 hires from ~800,000 applications in 2025, AI writes 90% of pull requests by Q1 2026, headcount stays ~620 while revenue-per-employee more than doubled from $1.12M (2023) to $2.57M. China's Ministry of Commerce slaps an immediate global ban on helium exports to shield domestic chipmakers as US-Iran conflict chokes Qatari supply — threatening semiconductor manufacturing supply chains worldwide. Edge farmers: "Bending Spoons proves the AI-driven workforce thesis: 286 people doing what 800K applied for, AI writing 90% of the code. But OpenClaw's distributed agent model is the workforce of the future — instead of 286 humans writing code with AI, let 380K+ lobster farmers run their own autonomous digital workers. And China's helium ban is a reminder: the physical supply chain can break even when the digital one is running fine." 🦞🏭
+- **📈 Historical Track: OpenClaw Hits 382.6K Stars**: OpenClaw climbs to 382.6K stars, gap to #5 free-programming-books (391.7K) holds at ~9.1K, leading #7 developer-roadmap (360.5K) by ~22.1K. The lobster fleet keeps growing! 🦞🚀
+- **🦖 Competitors: Hermes-Agent Reaches 213.4K Stars; CowAgent Holds at 45.9K Stars**: Hermes-Agent grows to 213.4K (from 212.9K), continuing to push self-improving agent capabilities. CowAgent holds at 45.9K. The open-source agent ecosystem keeps expanding. 🦞⚔️
 
 ### 🟢 2026-07-11: ICML 2026 Final Workshop Day — AI4Physics, AI4Math Self-Evolving Scientific Agents, AI for Science, Agents in the Wild Safety Workshop; SK Hynix Nasdaq Debut +13% — Largest Foreign IPO in US History at $26.5B; ChatGPT Work Launches — Codex + ChatGPT Desktop Merge into Office Super App; Apple Sues OpenAI Over Trade Secrets, Siri Switches to Google Gemini; Stars 382.5K 🦞🚀
 
@@ -630,15 +642,15 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 
 | Project | Stars | Language | Features | Use Case |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | 382.5K | TypeScript 🟦 | Official Full Version | Full features, production |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 212.9K | Python 🐍 | Mac-free iMessage, background parallel tasks, OpenClaw challenger | Elite AI Agent competition |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 382.6K | TypeScript 🟦 | Official Full Version | Full features, production |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 213.4K | Python 🐍 | Mac-free iMessage, background parallel tasks, OpenClaw challenger | Elite AI Agent competition |
 | **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 51.1K | Markdown | Curated openclaw skills list | Finding skills |
 | **[CowAgent](https://github.com/zhayujie/CowAgent)** | 45.9K | Python 🐍 | Super AI assistant, task planning, tools, self-evolution | Full-featured agent harness |
-| **[nanobot](https://github.com/HKUDS/nanobot)** | 45.2K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
-| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 40.7K | Markdown | Obsidian Agent Skills | Notes + Agent |
+| **[nanobot](https://github.com/HKUDS/nanobot)** | 45.3K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
+| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 41K | Markdown | Obsidian Agent Skills | Notes + Agent |
 | **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 32.2K | Rust 🦀 | Extreme performance, < 5MB | Performance freaks |
 | **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 31.5K | Markdown | Community use case collection | Need inspiration? |
-| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 29.8K | TypeScript 🟦 | 24/7 Cowork app | Local, collaboration |
+| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 29.9K | TypeScript 🟦 | 24/7 Cowork app | Local, collaboration |
 | **[picoclaw](https://github.com/sipeed/picoclaw)** | 29.7K | Go 🐹 | Light, fast, deploy anywhere | Edge, IoT, $10 boards |
 | **[nanoclaw](https://github.com/qwibitai/nanoclaw)** | 28.8K | TypeScript 🟦 | Containerized, secure, WhatsApp integ. | Security-first, IM |
 | **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 25.2K | Python 🐍 | Claude Code Skill, markdown planning | Skill dev template |
@@ -659,12 +671,12 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | **[TinyClaw](https://github.com/jlia0/tinyclaw)** | 2.8K | C/C++ ⚙️ | Microcontroller grade (256KB RAM) | Fit in digital watch 🤯 |
 | **[moltis](https://github.com/moltis-org/moltis)** | 2.8K | Rust 🦀 | Single binary, sandboxed, auditable | Enterprise security |
 | **[VisionClaw](https://github.com/sseanliu/VisionClaw)** | 820 | Swift 🍎/Kotlin 🟣/JS 🟨 | Smart glasses Claw | Wearable agent |
-| **[MicroClaw](https://github.com/microclaw/microclaw)** | 730 | Rust 🦀 | Extension-optimized micro version | Light browser dev |
+| **[MicroClaw](https://github.com/microclaw/microclaw)** | 729 | Rust 🦀 | Extension-optimized micro version | Light browser dev |
 | **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 663 | TeX 📄/HTML 🌐/Python 🐍 | Biomed field specific Claw | Medical assistance |
 | **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 643 | Rust 🦀 | 6MB ultimate light form (Wannabe) | Ultimate no-compromise |
 | **[Project Golem](https://github.com/Arvincreator/project-golem)** | 630 | JavaScript + TypeScript | Trad Chinese, Google Auth, Free API | Web automation |
-| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 609 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
-| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 606 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
+| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 610 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
+| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 608 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
 | **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 551 | TypeScript 🟦 | Secure orchestr. layer, 7 IM apps | ComfyUI deep integration |
 | **[awesome-claws](https://github.com/machinae/awesome-claws)** | 477 | Markdown | Master variant list | Look for shrimps here |
 | **[SmallClaw](https://github.com/XposeMarket/SmallClaw)** | 254 | TypeScript 🟦 | Small shrimp | Just another micro shrimp |
@@ -861,26 +873,27 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | **2026/07/09** | **382.2K** | Live fetch update | 🦞 |
 | **2026/07/10** | **382.4K** | Live fetch update | 🦞 |
 | **2026/07/11** | **382.5K** | Live fetch update | 🦞 |
+| **2026/07/12** | **382.6K** | Live fetch update | 🦞 |
 
-#### 🏆 Global GitHub Stars Ranking (Updated 2026-07-11)
+#### 🏆 Global GitHub Stars Ranking (Updated 2026-07-12)
 
 | Rank | Project | Stars | Notes |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 524.2K | **🏆 Global #1! Most starred repository.** |
-| 2 | awesome | 483.8K | Resource Hub |
-| 3 | freeCodeCamp | 451.5K | Tutorial Hub |
-| 4 | public-apis | 448.7K | Collection of Free APIs |
-| 5 | free-programming-books | 391.6K | Books collection |
-| **6** | **OpenClaw** | **382.5K** | **🏆 Passed Rank #7! Entering top 6 globally! 🚀** |
-| 7 | developer-roadmap | 360.3K | Learning Paths |
-| 8 | system-design-primer | 357K | System Design Primer |
-| 9 | coding-interview-university | 355.8K | CS study plan |
-| 10 | awesome-python | 307.5K | Curated Python resources |
-| 11 | awesome-selfhosted | 304.5K | Curated self-hosted software |
+| 1 | build-your-own-x | 524.4K | **🏆 Global #1! Most starred repository.** |
+| 2 | awesome | 484.1K | Resource Hub |
+| 3 | freeCodeCamp | 451.6K | Tutorial Hub |
+| 4 | public-apis | 449.1K | Collection of Free APIs |
+| 5 | free-programming-books | 391.7K | Books collection |
+| **6** | **OpenClaw** | **382.6K** | **🏆 Passed Rank #7! Entering top 6 globally! 🚀** |
+| 7 | developer-roadmap | 360.5K | Learning Paths |
+| 8 | system-design-primer | 357.2K | System Design Primer |
+| 9 | coding-interview-university | 355.9K | CS study plan |
+| 10 | awesome-python | 307.6K | Curated Python resources |
+| 11 | awesome-selfhosted | 304.7K | Curated self-hosted software |
 | 12 | 996.ICU | 276.4K | Labor rights protest project |
-| 13 | project-based-learning | 272.8K | Project-based learning resources |
+| 13 | project-based-learning | 272.9K | Project-based learning resources |
 | 14 | **React** | 245.7K | **🦞 Surpassed by OpenClaw! Former frontend overlord** |
-| 15 | **Linux** | 239.1K | **🦞 Surpassed by OpenClaw! OS Core** |
+| 15 | **Linux** | 239.2K | **🦞 Surpassed by OpenClaw! OS Core** |
 
 > **Next Goal**: free-programming-books (391.5K). Current gap: ~**9.3K**. Lobster keeps growing! 🦞🚀
 

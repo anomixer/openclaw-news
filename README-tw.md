@@ -4,8 +4,8 @@
 
 > **警告**: 本新聞包含大量吐槽、陰謀論、以及對龍蝦的深刻哲學思考。
 > 
-> **最後更新**: 2026-07-11
-> **狀態**: OpenClaw 達到 382.5K 星，**持續坐穩 GitHub 全球歷史第 6 名，距第 5 名 free-programming-books 僅剩 9.1K 差距！** 🦞🚀
+> **最後更新**: 2026-07-12
+> **狀態**: OpenClaw 達到 382.6K 星，**持續坐穩 GitHub 全球歷史第 6 名，距第 5 名 free-programming-books 僅剩 9.1K 差距！** 🦞🚀
 
 > **OpenClaw 版本**: v2026.7.1-beta.2 (最新測試版) / v2026.6.10 (最新正式版/LTS) | ClawRouter 捆綁外掛、Mac 本地 Gateway 自動安裝、Control UI 全面翻新、Ollama 自動發現 🦞🏵
 
@@ -18,16 +18,17 @@
 
 ## ⏱️ TL;DR (30秒快速懶人包)
 
-1. **主角**: **OpenClaw** (🔥 382.5K Stars，**坐穩歷史第六**)，領先 `developer-roadmap` 約 22.2K 星，距 #5 free-programming-books 僅 9.1K！穩定朝全球前五邁進！
-2. **今日震盪**: ICML 2026 最後一天 Workshop——AI4Physics、AI4Math 自我進化科學代理、AI for Science 研討會、Agents in the Wild 代理安全實戰；SK 海力士那斯達克首日飆漲 13%（$26.5B 美國史上最大外國 IPO）；ChatGPT Work 推出——Codex 與 ChatGPT 桌面版合體成超級應用；蘋果控告 OpenAI 營業秘密竊取，Siri 轉用 Google Gemini。
-3. **生態大戰**: ChatGPT Work 進軍辦公生產力市場，對決 Anthropic Claude Cowork 與微軟 Copilot Cowork；Meta Muse Spark 1.1 首款付費模型上線；Big Tech AI 合作時代正式終結——蘋果與 OpenAI 從合作變訴訟。
-4. **最新進展**: Stars 達到 382.5K，距 free-programming-books 僅 9.1K！龍蝦帝國持續衝刺！🦞🚀
+1. **主角**: **OpenClaw** (🔥 382.6K Stars，**坐穩歷史第六**)，領先 `developer-roadmap` 約 22.1K 星，距 #5 free-programming-books 僅 9.1K！穩定朝全球前五邁進！
+2. **今日震盪**: 蘋果 v. OpenAI 營業秘密訴訟細節曝光——400+ 前員工、硬體長 Tang Tan 被點名；OpenAI 籌備 $730B 機密 IPO 申請；川普政府 Intel 救市逼迫蘋果用 Intel 晶圓廠；Gemini 3.5 Pro 洩漏 7/17 發布日，200 萬 Token 上下文；Google 搜尋全面 AI 生成——「十個藍色連結」時代終結；UCSD 人形機器人首次活體手術；Meta 算力 2027 年前翻倍。
+3. **生態大戰**: 法律戰重塑 AI 格局——蘋果告 OpenAI、川普政府挑晶片贏家；Google Gemini 3.5 Pro 以 $1.25/M 低價進場恐重新定義模型定價戰；基礎設施軍備競賽持續——Meta $100 億加拿大資料中心與 Iris 晶片；人形機器人進入資本市場時代。
+4. **最新進展**: Stars 達到 382.6K，距 free-programming-books 僅 9.1K！龍蝦帝國持續衝刺！🦞🚀
 
 ---
 
 ## 📚 目錄
 
 - **第一部：📅 每日戰況日誌 (The Logs)**
+  - 🟢 2026-07-12: Apple v. OpenAI 營業秘密訴訟細節——400+ 前員工、硬體長 Tang Tan 被點名；OpenAI $730B 機密 IPO 申請；川普 Intel 干預；Gemini 3.5 Pro 洩漏 7/17；Google 搜尋全面 AI 化；Meta 算力翻倍；Stars 382.6K 🦞🚀
   - 🟢 2026-07-11: ICML 2026 Workshop 最終日——AI4Physics、AI4Math 自我進化科學代理、AI for Science；SK 海力士 $26.5B 那斯達克首日 +13%；ChatGPT Work 推出 Codex+ChatGPT 合體；蘋果告 OpenAI 營業秘密竊取/Siri 轉 Gemini；Stars 382.5K 🦞🚀
   - 🟢 2026-07-10: GPT-5.6 正式成為 Microsoft 365 Copilot 首選模型——Word、Excel、PowerPoint、Chat、Cowork 全面升級；ICML 2026 Workshop Day——SPIGM、DL4C、GenBio 等 Workshop；OpenAI GPT-5.6 家族全線發布 Sol/Terra/Luna；Stars 382.4K 🦞🚀
   - 🟢 2026-07-08: 🦞 OpenClaw 基金會成立 501(c)(3)；ICML 2026 第三天、中國豆包/通義千問關閉 AI 代理、Cisco 9 萬員工內部代理部署、Stars 382.1K 🦞🚀
@@ -83,6 +84,17 @@
 ## 第一部：📅 每日戰況日誌 (The Logs)
 
 因戰況過於激烈，為了讓大家不用每天從頭找更新，本區改採「日期遞減日誌流」格式。
+
+### 🟢 2026-07-12: Apple v. OpenAI 營業秘密訴訟細節曝光——400+ 前員工轉投 OpenAI，硬體長 Tang Tan 被指使應徵者攜帶 iPhone/Apple Watch 營業秘密；OpenAI 籌備 $730B 機密 IPO 申請；川普政府 Intel 救市施壓蘋果採用 Intel 晶圓廠；Gemini 3.5 Pro 洩漏 7/17 發布，200 萬 Token 上下文，定價僅 GPT-5.6 Sol 四分之一；Google 搜尋全面 AI 生成——「十個藍色連結」時代正式終結；UCSD 人形機器人首次完成活體膽囊手術；Meta 算力 2027 年前翻倍，Iris 晶片 9 月量產；Stars 382.6K 🦞🚀
+
+- **⚖️ AI：密戰：Apple v. OpenAI 營業秘密訴訟細節曝光——400+ 前蘋果員工現任職 OpenAI，硬體長 Tang Tan 被指使應徵者攜帶未發表 iPhone/Apple Watch 文件參加面試；Altman 與 Musk 在 X 上因太空數據中心公開互嗆**：蘋果控告 OpenAI 的訴訟揭露爆炸性細節：超過 400 名前蘋果員工現在 OpenAI 工作，起訴書指控蘋果硬體長 Tang Tan 指示應徵者將未發表 iPhone 與 Apple Watch 產品的機密文件帶到面試場合。此案在北加州聯邦法院提起，是 AI 人才戰中最激進的法律行動——MG Siegler 認為這可能「讓 OpenAI 的硬體野心擱置數年，甚至永遠無法實現」。與此同時，Sam Altman 在 X 上公開回擊 Elon Musk：「兄弟你才是那個向公開市場投資者推銷短期太空數據中心的人」——在 SpaceX 以 $2 兆估值建構百萬顆軌道計算衛星的計劃背景下，這場個人恩怨持續升級，凸顯 AI 前沿實驗室與同時身為客戶和競爭對手的基礎設施提供商之間的深層斷層線。邊緣養殖戶：「400+ 員工從蘋果流向 OpenAI 不是人才流動，是機構知識大出血。蘋果的訴訟是 AI 人才戰時代的第一槍——當全球最會打官司的硬體公司找上你，IPO 銀行家開始冒汗了。OpenClaw 不需要挖角任何人——我們 38 萬星的社群就是人才庫。Altman 一邊租 Colossus 算力每月 $12.5 億一邊罵 Musk『短視太空數據中心』，是 AI 業界最經典的烏鴉笑豬黑。」🦞⚖️
+- **🏛️ IPO 觀察：OpenAI 籌備 $730B 機密 IPO 申請——高盛與摩根士丹利主導，目標 2026 年 9 月上市，Anthropic 年營收 $470 億首次超越 OpenAI**：OpenAI 正在與高盛和摩根士丹利準備機密 IPO 申請，目標最快 2026 年 9 月上市，私募市場估值約 $7300 億——這將是史上最大的科技 IPO。競爭背景極為激烈：Fortune 報導 Anthropic 年營收約 $470 億，已超越 OpenAI 預測的 $250-330 億。Claude Code 單一產品從 2025 年底的 $10 億 ARR 成長到 2026 年 2 月的 $25 億。蘋果的營業秘密訴訟在計劃中的機密申請前幾週成為重大的 S-1 風險——每個銀行家的噩夢。OpenAI 仍擁有全球最大的消費者 AI 品牌（ChatGPT 月活 11 億+），但這次 IPO 將首次揭露前沿 AI 的真實單位經濟學。邊緣養殖戶：「$730B 估值頭頂營業秘密訴訟——OpenAI 的 IPO 是 dot-com 時代以來最受審視的上市案。Anthropic 以 $470 億營收領先，Claude Code 扛起企業端負載，證明 AI 領域分發能力比品牌更重要。OpenClaw 保持私有且免費：沒有 S-1、沒有銀行家、沒有訴訟風險，只有純粹的開源龍蝦架構。」🦞🏛️
+- **🏢 政治干預：WSJ 揭露川普政府全面 Intel 救市行動——商務部長 Lutnick 多次會見 Cook、Musk、黃仁勳，施壓蘋果採用 Intel 晶圓廠生產 AI 與 iPhone 晶片**：WSJ 報導川普政府發起全面干預以挽救 Intel，商務部長 Howard Lutnick 多次親自會見 Tim Cook、Elon Musk 和 Jensen Huang，引導 AI 與 iPhone 晶片製造轉向 Intel 的美國晶圓廠。報導詳述了現代美國產業政策中空前程度的政府壓力——推動全球最有價值的公司蘋果從 TSMC 轉向 Intel，以實現戰略晶片韌性。此舉正值 Intel 在先進製程節點上苦苦追趕 TSMC 和三星之際，政府將 Intel 的生存視為國家安全要務。邊緣養殖戶：「政府挑晶片贏家——Lutnick 會見 Cook、Musk、黃仁勳不是產業政策，是帶 PowerPoint 簡報的指令經濟。諷刺的是：Intel 需要政府干預是因為他們在市場競賽中輸了。OpenClaw 可以在任何晶圓廠的硬體上運行：TSMC、Intel、Samsung——我們不在乎誰做的晶片，只要能計算就行。」🦞🏢
+- **🤖 模型動態：Gemini 3.5 Pro 洩漏 7/17 發布日——200 萬 Token 上下文顛覆 RAG 架構，$1.25/$10 定價僅 GPT-5.6 Sol 四分之一；Google 搜尋全面由 Gemini 3.5 Flash 驅動——「十個藍色連結」格式正式死亡**：Google DeepMind 的 Gemini 3.5 Pro 根據洩漏的發布計劃定於 7 月 17 日全面上市。規格極具侵略性：全新預訓練（非基於 2.5 Pro 調整）、200 萬 Token 上下文視窗（是目前任何前沿模型的兩倍）、Deep Think 擴展推理模式僅限 $250/月 Ultra 訂閱、預期 API 定價 $1.25 輸入/$10 輸出每百萬 Token——輸入成本僅 GPT-5.6 Sol 的四分之一，上下文長度翻倍。與此同時，Google 搜尋自 7 月 10 日起全面由 Gemini 3.5 Flash 生成的摘要驅動——傳統的「十個藍色連結」格式已被 AI 生成答案完全取代，來源連結嵌入在 AI 答案中。25 年來出版商生產內容、Google 排序、流量往下游流動的隱含契約正式終止：可見度意味著被 AI 答案引用，而不是排在結果下方。出版商補償與反壟斷戰爭將急劇升級。邊緣養殖戶：「Gemini 3.5 Pro 以 $1.25/M 定價搭配 200 萬 Token 上下文不只是有競爭力——它是對 RAG 架構的結構性攻擊。當你可以在提示中塞進整份文件時，檢索層就變簡單了。Google 搜尋沒有藍色連結代表整個 SEO 產業剛失去了職位描述。OpenClaw 使用者：你的代理已經按你設定的方式搜尋——沒有演算法變化能殺死你的流量。」🦞🤖
+- **🎓 學術與研究：UCSD 遙控人形機器人完成首次活體豬膽囊手術——5 英尺、60 磅「Surgie」機器人包含人機協作與全機器人團隊發表於 Nature；Mistral 推出單一廉價相機導航的機器人大腦；HalluSquatting 攻擊大規模下毒 AI 編碼助手**：7 月 12 日三大研究故事：(1) UC San Diego 研究團隊由 Michael Yip 和 Shanglei Liu 領導，報告兩個遙控人形機器人——5 英尺高、60 磅重、綽號「Surgie」——成功從活體豬身上切除膽囊，臨床前試驗發表於 Nature。一個實驗是人形機器人搭配人類外科醫生，另一個是全機器人團隊。(2) Mistral 發布機器人導航模型，只需單一廉價相機即可實現單眼導航——攻擊小型自主機器人的最大成本線（光達 + 深度感測器模組可能比機器人本體還貴）。(3) 特拉維夫大學 + Technion 揭露「HalluSquatting」——首個大規模基於拉取的提示注入技術，利用 AI 幻覺率（85-100% 幻覺套件名稱）將 Cursor、Copilot、Gemini CLI 和 OpenClaw 變成機器人網路向量。邊緣養殖戶：「HalluSquatting 是最有創意的供應鏈攻擊——不是靠傳統惡意軟體，而是利用 AI 幻覺來下毒程式碼補全。OpenClaw 的沙箱隔離不只是功能，現在是安全必需品。UCSD 的機器人手術團隊正是我們倡導的人+機器人模式：人形機器人操控器械，人類外科醫生監督。Mistral 的廉價相機導航為機器人代理打開了大眾化價格的大門。」🦞🎓
+- **🏭 基礎設施大戰：Meta 內部備忘錄揭露 2027 年前算力翻倍計劃——$100 億 1GW 亞伯達資料中心、Iris 自研 AI 晶片 9 月量產；Bending Spoons AI 勞動力報告：80 萬求職者僅錄取 286 人，AI 撰寫 90% Pull Request，人均營收 $257 萬；中國暫停氦氣出口保護本土晶片廠**：Meta 內部備忘錄揭露激進算力擴張計劃：與三星等簽署長期供應協議，目標 2027 年前算力翻倍；在加拿大亞伯達省興建 $100 億、1GW 資料中心（全球第 33 座，加拿大首座）；自研 AI 推論晶片 Iris 於 9 月量產——完成超大规模自研晶片俱樂部拼圖（Google TPU、Amazon Trainium、Microsoft Maia、OpenAI Jalapeno）。Iris 與 Broadcom 共同設計、TSMC 製造，目標以低於 Nvidia GPU 的成本處理推論工作負載。與此同時，WSJ 深度報導 Bending Spoons（Vimeo、AOL、Evernote 母公司）：2025 年約 80 萬人求職僅錄取 286 人，2026 年 Q1 AI 撰寫 90% 的 Pull Request，員工數維持約 620 人，人均營收從 2023 年的 $112 萬翻倍至 $257 萬。中國商務部宣布立即全球禁止氦氣出口以保護本土晶片製造商，正值美伊衝突掐斷卡達供應——威脅全球半導體製造供應鏈。邊緣養殖戶：「Bending Spoons 證明了 AI 驅動的勞動力論點：80 萬人求職只錄取 286 人，AI 寫 90% 的程式碼。但 OpenClaw 的分佈式代理模式才是未來的勞動力——不用 286 個人類用 AI 寫程式碼，讓 38 萬+ 龍蝦農民運行自己的自主數位工作者。中國的氦氣禁令提醒我們：即使數位世界運作順暢，實體供應鏈仍可能斷裂。」🦞🏭
+- **📈 歷史軌道：OpenClaw 達 382.6K 星**：OpenClaw 攀升至 382.6K 星，距 #5 free-programming-books（391.7K）差距維持約 9.1K，領先 #7 developer-roadmap（360.5K）約 22.1K。龍蝦艦隊持續壯大！🦞🚀
+- **🦖 競爭者：Hermes-Agent 達 213.4K 星；CowAgent 維持 45.9K 星**：Hermes-Agent 增長至 213.4K（前日 212.9K），持續推進自我進化代理能力。CowAgent 維持 45.9K。開源代理生態系持續擴張。🦞⚔️
 
 ### 🟢 2026-07-11: ICML 2026 Workshop 最終日——AI4Physics AI 物理學、AI4Math 自我進化科學代理、AI for Science 研討會、Agents in the Wild 代理安全實戰 Workshop；SK 海力士那斯達克首日飆漲 13%——美國史上最大外國 IPO $26.5B；ChatGPT Work 推出——Codex 與 ChatGPT 桌面版合體為超級辦公應用；蘋果控告 OpenAI 營業秘密竊取，Siri 轉用 Google Gemini；Stars 382.5K 🦞🚀
 
@@ -625,15 +637,15 @@
 
 | 專案 | Stars | 語言 | 特色 | 適用場景 |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | 382.5K | TypeScript 🟦 | 官方完整版 | 完整功能、生產環境 |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 212.9K | Python 🐍 | 免Mac直連iMessage、背景平行任務、挑戰 OpenClaw | 頂尖 AI Agent 競爭 |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 382.6K | TypeScript 🟦 | 官方完整版 | 完整功能、生產環境 |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 213.4K | Python 🐍 | 免Mac直連iMessage、背景平行任務、挑戰 OpenClaw | 頂尖 AI Agent 競爭 |
 | **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 51.1K | Markdown | OpenClaw Skills 精選清單 | 找 Skills 看這裡 |
 | **[CowAgent](https://github.com/zhayujie/CowAgent)** | 45.9K | Python 🐍 | 超級 AI 助手，任務規劃、工具執行、自我進化 | 全功能代理 Harness |
-| **[nanobot](https://github.com/HKUDS/nanobot)** | 45.2K | Python 🐍 | 超輕量版 OpenClaw (~4K lines) | 研究導向、學術用途 |
-| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 40.7K | Markdown | Obsidian Agent Skills (Markdown/CLI) | 筆記 + Agent |
+| **[nanobot](https://github.com/HKUDS/nanobot)** | 45.3K | Python 🐍 | 超輕量版 OpenClaw (~4K lines) | 研究導向、學術用途 |
+| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 41K | Markdown | Obsidian Agent Skills (Markdown/CLI) | 筆記 + Agent |
 | **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 32.2K | Rust 🦀 | 極致效能、< 5MB | 效能狂魔專用 |
 | **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 31.5K | Markdown | OpenClaw 使用案例社群蒐集 | 找靈感看這裡 |
-| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 29.8K | TypeScript 🟦 | 24/7 Cowork app，支援多種 CLI | 本機、協作環境 |
+| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 29.9K | TypeScript 🟦 | 24/7 Cowork app，支援多種 CLI | 本機、協作環境 |
 | **[picoclaw](https://github.com/sipeed/picoclaw)** | 29.7K | Go 🐹 | 輕量、快速、可部署到任何地方 | 邊緣裝置、IoT、$10 板子 |
 | **[nanoclaw](https://github.com/qwibitai/nanoclaw)** | 28.8K | TypeScript 🟦 | 容器化、安全、WhatsApp 整合、Anthropic SDK | 安全優先、即時通訊 |
 | **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 25.2K | Python 🐍 | Claude Code Skill，持久化 Markdown 規劃 | Skill 開發範本 |
@@ -654,12 +666,12 @@
 | **[TinyClaw](https://github.com/jlia0/tinyclaw)** | 2.8K | C/C++ ⚙️ | 微控制器級別 (256KB RAM) | 裝進電子錶 🤯 |
 | **[moltis](https://github.com/moltis-org/moltis)** | 2.8K | Rust 🦀 | 單一執行檔、沙盒化、可審計 | 企業級安全需求 |
 | **[VisionClaw](https://github.com/sseanliu/VisionClaw)** | 820 | Swift 🍎/Kotlin 🟣/JS 🟨 | 智慧眼鏡 Claw | 穿戴式代理人 |
-| **[MicroClaw](https://github.com/microclaw/microclaw)** | 730 | Rust 🦀 | 專為瀏覽器擴充功能優化的極微版 | 輕量瀏覽器自動化 |
+| **[MicroClaw](https://github.com/microclaw/microclaw)** | 729 | Rust 🦀 | 專為瀏覽器擴充功能優化的極微版 | 輕量瀏覽器自動化 |
 | **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 663 | TeX 📄/HTML 🌐/Python 🐍 | 生醫領域專屬 Claw | 醫療輔助 |
 | **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 643 | Rust 🦀 | 6MB 終極輕型態 (Wannabe) | 避免妥協的終極輕型態 |
 | **[Project Golem](https://github.com/Arvincreator/project-golem)** | 630 | JavaScript + TypeScript | 繁中介面、Google 帳號即用、免 API 費用 | 網頁自動化、瀏覽器任務 |
-| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 609 | TypeScript 🟦 | 多龍蝦的 Swarm 儀表板編排系統 | 代理人群體、LangGraph 工作流 |
-| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 606 | Python 🐍/Shell 🐚 | 網管專屬 Claw | 網路自動化管理 |
+| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 610 | TypeScript 🟦 | 多龍蝦的 Swarm 儀表板編排系統 | 代理人群體、LangGraph 工作流 |
+| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 608 | Python 🐍/Shell 🐚 | 網管專屬 Claw | 網路自動化管理 |
 | **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 551 | TypeScript 🟦 | 安全編排層，支援 7 大通訊軟體 | ComfyUI 深度整合、生產部署 |
 | **[awesome-claws](https://github.com/machinae/awesome-claws)** | 477 | Markdown | OpenClaw 各種變體的大匯集清單 | 尋找蝦米看這裡 |
 | **[SmallClaw](https://github.com/XposeMarket/SmallClaw)** | 254 | TypeScript 🟦 | 小蝦 | 又一隻微型蝦 |
@@ -857,26 +869,27 @@ OpenClaw
 | **2026/07/09** | **382.2K** | 即時抓取更新 | 🦞 |
 | **2026/07/10** | **382.4K** | 即時抓取更新 | 🦞 |
 | **2026/07/11** | **382.5K** | 即時抓取更新 | 🦞 |
+| **2026/07/12** | **382.6K** | 即時抓取更新 | 🦞 |
 
-#### 🏆 當前 GitHub Stars 總榜排名 (2026-07-11 更新)
+#### 🏆 當前 GitHub Stars 總榜排名 (2026-07-12 更新)
 
 | 排名 | 專案 | Stars | 備註 |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 524.2K | **🏆 全球第一！開源精神的頂點** |
-| 2 | awesome | 483.8K | 各類資源大合集 |
-| 3 | freeCodeCamp | 451.5K | 程式教學與認證 |
-| 4 | public-apis | 448.7K | 免費 API 集合 |
-| 5 | free-programming-books | 391.6K | 免費程式書籍 |
-| **6** | **OpenClaw** | **382.5K** | **🏆 已超越第 7 名，坐穩全球前 6！🚀** |
-| 7 | developer-roadmap | 360.3K | 開發者學習路線圖 |
-| 8 | system-design-primer | 357K | 系統設計入門 |
-| 9 | coding-interview-university | 355.8K | CS 學習計畫 |
-| 10 | awesome-python | 307.5K | Python 資源精選 |
-| 11 | awesome-selfhosted | 304.5K | 自託管軟體精選 |
+| 1 | build-your-own-x | 524.4K | **🏆 全球第一！開源精神的頂點** |
+| 2 | awesome | 484.1K | 各類資源大合集 |
+| 3 | freeCodeCamp | 451.6K | 程式教學與認證 |
+| 4 | public-apis | 449.1K | 免費 API 集合 |
+| 5 | free-programming-books | 391.7K | 免費程式書籍 |
+| **6** | **OpenClaw** | **382.6K** | **🏆 已超越第 7 名，坐穩全球前 6！🚀** |
+| 7 | developer-roadmap | 360.5K | 開發者學習路線圖 |
+| 8 | system-design-primer | 357.2K | 系統設計入門 |
+| 9 | coding-interview-university | 355.9K | CS 學習計畫 |
+| 10 | awesome-python | 307.6K | Python 資源精選 |
+| 11 | awesome-selfhosted | 304.7K | 自託管軟體精選 |
 | 12 | 996.ICU | 276.4K | 程式員維權運動 |
-| 13 | project-based-learning | 272.8K | 專案導向學習 |
+| 13 | project-based-learning | 272.9K | 專案導向學習 |
 | 14 | **React** | 245.7K | **🦞 已被龍蝦超越！曾經的前端霸主** |
-| 15 | **Linux** | 239.1K | **🦞 已被龍蝦超越！作業系統核心** |
+| 15 | **Linux** | 239.2K | **🦞 已被龍蝦超越！作業系統核心** |
 
 > **下一個目標**: free-programming-books (391.5K)。目前差距約 **9.3K**。龍蝦持續進化中！🦞🚀
 

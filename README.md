@@ -4,8 +4,8 @@
 
 > **WARNING**: The news contains excessive complaints, conspiracy theories, and profound philosophical thoughts on lobsters.
 > 
-> **Last Updated**: 2026-07-12
-> **Status**: OpenClaw climbs to 382.6K stars, **solidly ranked #6 globally on GitHub, gap to #5 free-programming-books narrows to just 9.1K!** 🦞🚀
+> **Last Updated**: 2026-07-13
+> **Status**: OpenClaw climbs to 382.7K stars, **solidly ranked #6 globally on GitHub, gap to #5 free-programming-books narrows to just 9.1K!** 🦞🚀
 
 > **OpenClaw Version**: v2026.7.1-beta.2 (Latest Beta) / v2026.6.10 (Latest Stable/LTS) | ClawRouter bundled plugin, Mac local Gateway setup, Control UI overhaul, Ollama auto-discovery 🦞🏵
 
@@ -18,16 +18,17 @@
 
 ## ⏱️ TL;DR (30-second summary)
 
-1. **The Protagonist**: **OpenClaw** (🔥 382.6K Stars, **solid 6th in history**), leading `developer-roadmap` by ~22.1K stars, just 9.1K from #5 free-programming-books! Steadily marching toward the global top 5!
-2. **Today's Earthquake**: Apple v. OpenAI trade secret lawsuit details emerge — 400+ former employees, Chief Hardware Officer Tang Tan named; OpenAI preps $730B confidential IPO filing; Trump admin Intel intervention pushes Apple to Intel fabs; Gemini 3.5 Pro leaked July 17 with 2M context window; Google Search fully AI-generated — no more "ten blue links"; UCSD humanoid robots perform first live surgery; Meta doubles compute by 2027.
-3. **Ecosystem War**: Legal battles reshape AI landscape as Apple sues OpenAI and Trump admin picks winners in chip manufacturing; Google's Gemini 3.5 Pro entry at aggressive pricing ($1.25/M) threatens to reset frontier model pricing war; infrastructure Capex supercycle continues with Meta's $10B Alberta data center and Iris chip; humanoid robotics enters capital-markets era.
-4. **Latest Progress**: Stars reach 382.6K, gap to free-programming-books holds at 9.1K. The edge lobster empire keeps charging! 🦞🚀
+1. **The Protagonist**: **OpenClaw** (🔥 382.7K Stars, **solid 6th in history**), leading `developer-roadmap` by ~22.1K stars, just 9.1K from #5 free-programming-books! Steadily marching toward the global top 5!
+2. **Today's Earthquake**: Apple M7 chip taped out with major NPU upgrade — 1.5TB RAM for M7 Ultra (2028); Meituan LongCat-2.0 — 1.6T-parameter model trained on 50,000 domestic Chinese GPU cluster; Musk denies ordering exclusive Grok 4.5 for Tesla/SpaceX; jscrambler npm compromised — Rust infostealer targets Claude Desktop & Cursor; Google Stitch-Skills launched for agent interoperability.
+3. **Ecosystem War**: Apple's chip roadmap overhaul prioritizes on-device AI over raw performance, skipping M6 Pro/Max entirely; China's domestic AI infrastructure reaches trillion-parameter scale on homegrown hardware; AI coding tool supply chain under attack via compromised npm packages; agent interoperability standards emerging via Google's Stitch-Skills open library.
+4. **Latest Progress**: Stars reach 382.7K, gap to free-programming-books holds at 9.1K. The edge lobster empire keeps charging! 🦞🚀
 
 ---
 
 ## 📚 Table of Contents
 
 - **Part 1: 📅 Daily Battlefield Logs (The Logs)**
+  - 🟢 2026-07-13: Apple M7 Chip Taped Out with Major NPU — 1.5TB RAM for M7 Ultra; Meituan LongCat-2.0 Trillion-Parameter Model; Musk Denies Exclusive Grok Orders; jscrambler npm Rust Infostealer; Google Stitch-Skills Agent Interop; Stars 382.7K 🦞🚀
   - 🟢 2026-07-12: Apple v. OpenAI Trade Secret Suit Details — 400+ Employees, Tang Tan Named; OpenAI $730B Confidential IPO Filing; Trump Admin Intel Intervention; Gemini 3.5 Pro Leaked July 17; Google Search Fully AI; Meta Doubles Compute 2027; Stars 382.6K 🦞🚀
   - 🟢 2026-07-11: ICML 2026 Final Workshop Day — AI4Physics, AI4Math Self-Evolving Scientific Agents, AI for Science; SK Hynix $26.5B Nasdaq Debut +13%; ChatGPT Work Launches Codex+ChatGPT Merge; Apple Sues OpenAI Trade Secrets/Siri Switches to Gemini; Stars 382.5K 🦞🚀
   - 🟢 2026-07-10: GPT-5.6 Becomes Preferred Model in Microsoft 365 Copilot — Word, Excel, PowerPoint, Chat, Cowork Upgraded; ICML 2026 Workshop Day — SPIGM, DL4C, GenBio Workshops; OpenAI GPT-5.6 Family Launches Sol/Terra/Luna; Stars 382.4K 🦞🚀
@@ -84,6 +85,18 @@
 ## Part 1: 📅 Daily Battlefield Logs (The Logs)
 
 Because the battle is too fierce, to save everyone from scrolling through updates from the beginning every day, this section is now in a "Date-Descending Log Stream" format.
+
+### 🟢 2026-07-13: Apple M7 Chip Taped Out with Major NPU Upgrade — From Cancelled Car Project to AI Silicon, 1.5TB RAM for M7 Ultra (2028); Meituan LongCat-2.0 — 1.6 Trillion Parameters on 50,000-Card Domestic Chinese GPU Cluster, 1M Context, Agentic Coding Focus; Musk Denies Ordering Tesla/SpaceX Exclusive Grok 4.5 Use; jscrambler npm Compromised — Rust Infostealer Targets Claude Desktop, Cursor, Windsurf; Google Stitch-Skills Open Source Library for Agent Interoperability; Stars 382.7K 🦞🚀
+
+- **🔮 Apple Silicon: Bloomberg/Gurman: Apple Tapes Out M7 Chip with Major NPU Upgrade — Cancelled Self-Driving Car Project Paved the Way for On-Device AI; M7 Ultra Targets 1.5TB Unified Memory Matching 2019 Mac Pro Feat; M8 Already in Early Planning**: Mark Gurman reports Apple has taped out the M7 chip with a major NPU (Neural Processing Unit) upgrade specifically focused on on-device generative AI — the most aggressive Apple silicon shift yet toward local AI processing. The M7 Ultra variant is designed to support up to 1.5TB of unified memory, matching the 2019 Intel-based Mac Pro's maximum — a feat that, if realized, would bring server-class memory capacity to Apple's desktop line for the first time since the Apple silicon transition. The M8 is already in early planning. Meanwhile, The Verge traces Apple's AI silicon lineage back to the cancelled Project Titan self-driving car initiative — the massive on-device processing needs of autonomous driving drove NPU R&D that ultimately found its home in the M-series. Edge farmers: "Apple's M7 NPU pivot is the clearest signal yet: the future is on-device AI, not cloud-dependent AI. OpenClaw has been running agents locally since day one — no cloud round-trip, no privacy concerns, no subscription fees. Apple finally catching up to the lobster philosophy." 🦞🔮
+- **🇨🇳 China AI Milestone: Meituan LongCat-2.0 — 1.6 Trillion Parameters, First Full Training on 50,000-Card Domestic Chinese GPU Cluster, 1M Context Window, Architectured for Agentic Coding**: Meituan's technology team announced LongCat-2.0, a pioneering trillion-parameter model (1.6T total, 33B-56B dynamic activation, ~48B average) — the industry's first model to complete its entire training and inference lifecycle on a domestic Chinese computing cluster of 50,000 cards. Built from scratch, the model natively supports 1M token context and is specifically architected for Agentic Coding tasks — code understanding, generation, and execution. Meituan also released VitaBench 2.0 (long-term dynamic AI agent evaluation), General 365 (reasoning benchmark where Gemini 3 Pro leads at just 62.8% and most models fail 60%), and WBench (interactive video world model benchmark). Edge farmers: "LongCat-2.0 proves China's domestic AI infrastructure can scale to trillion-parameter models on homegrown hardware. OpenClaw's model-agnostic design means your agent can switch between LongCat, GPT-5.6, and Hermes in one click — you benefit from every national AI project without being locked into any single ecosystem." 🦞🇨🇳
+- **🤖 Model Drama: Musk Denies Ordering Tesla and SpaceX to Use Grok 4.5 Exclusively — Says He Only Asked Them to 'Try It Out' After July 10 Memo Leaked; Altman vs Musk Feud Intensifies**: Elon Musk pushed back on July 11-12 against reporting that Tesla and SpaceX had been ordered to switch to SpaceXAI's Grok 4.5 exclusively, saying on X that he only asked the two companies to "try out" the model for specific tasks and that they should keep using competing AI if it outperforms Grok. The pushback follows the leaked July 10 internal memo and comes as Sam Altman's accusation that Musk is "selling public market investors on short-term space data centers" continues to reverberate. The feud highlights the uncomfortable dynamic where Colossus supercomputer infrastructure is rented by competitors (Anthropic pays ~$1.25B/mo, Google ~$920M/mo) while simultaneously powering SpaceXAI's own models. Edge farmers: "Musk says 'just try it' — but when the CEO of both Tesla and SpaceX says try Grok, employees hear 'switch to Grok.' The Altman-Musk feud is entertainment, but the real story is Colossus: your fiercest rivals renting your compute is the most awkward business model in AI. OpenClaw users rent nothing — your laptop is your Colossus." 🦞🤖
+- **🛡️ Security Alert: Compromised jscrambler npm 8.14.0 Release Drops Rust Infostealer — Targets Claude Desktop, Cursor, Windsurf, VS Code, and Zed Config Files for Cloud Credentials, Crypto Wallets, Browser Data**: The Hacker News reports that jscrambler's official npm package was compromised across five releases (8.14.0, 8.16.0, 8.17.0, 8.18.0, 8.20.0), with a preinstall hook dropping a cross-platform Rust infostealer. The malware specifically targets AI coding tool configurations — Claude Desktop, Cursor, Windsurf, VS Code, and Zed config files — alongside cloud credentials, browser data, and crypto wallets. This is the latest in a rising wave of supply-chain attacks targeting the AI developer tool ecosystem, following the HalluSquatting attack disclosed days earlier. Edge farmers: "First HalluSquatting poisons AI code completions, now jscrambler's npm package steals AI tool configs — the AI coding tool supply chain is under active siege. OpenClaw's sandbox isolation means even if a rogue npm package lands on your system, your agent's configuration and data stay compartmentalized. Security is not a feature, it's architecture." 🦞🛡️
+- **🔧 Ecosystem & Standards: Google Labs Unveils Stitch-Skills — Standardized Open Source Library for AI Agent Interoperability Across Gemini CLI, Claude Code, Cursor, and Antigravity; OpenAI Releases Codex Plugin Examples Repository**: Google Labs introduced "stitch-skills," an open source repository providing standardized Agent Skills that adhere to the Agent Skills open standard, enabling seamless integration across Gemini CLI, Claude Code, Cursor, and Antigravity. This represents a significant move toward standardizing how AI agents interact with external environments without platform-specific modifications. Separately, OpenAI released a curated GitHub repository of Codex plugin examples, providing developers a clear framework for extending Codex through a standardized plugin architecture with mandatory configuration files. Edge farmers: "Google Stitch-Skills and OpenAI Codex plugins are both chasing the same vision: standardized agent interoperability. OpenClaw's Harness abstraction layer has been doing this since day one — any model, any platform, any skill, one unified interface. The industry is slowly building what OpenClaw already is." 🦞🔧
+- **🏭 Hardware & Infrastructure: Samsung Targets 2029 for Yongin Chip Plant Operations — 15-16GW Power Demands for Semiconductor Mega-Cluster; Lorde Calls Ray-Ban Meta AI Glasses 'Not Sexy' at Madrid Festival**: Samsung sets 2029 as the operational target for its first facility within the Yongin semiconductor cluster, projected to demand 15-16GW of electricity at full capacity — highlighting the immense energy requirements of next-generation chip manufacturing. Separately, singer Lorde criticized AI smartglasses as "not sexy" during her set at the Real Cool Festival in Madrid, sponsored by Ray-Ban (Meta's AI glasses partner), signaling cultural resistance to wearable AI adoption even as tech companies push for mainstream integration. Edge farmers: "Samsung's Yongin cluster needing 16GW is a reminder: AI's physical footprint is enormous. OpenClaw agents run on your existing hardware — no new data centers, no 16GW power plants, no rare earth minerals. Your laptop already has enough compute. And Lorde is right: AI glasses aren't sexy. OpenClaw's invisible agent running in the background is the real sexy." 🦞🏭
+- **🇨🇳 China AI Policy: Zhipu Founder Argues Frontier AI Must Stay Open — Internal Memo Rejects Beijing's Planned Export Curbs as Both Washington and Beijing Tighten AI Controls; GLM-5.2 Released Open-Source**: Zhipu AI founder — also a Tsinghua University professor — published an internal staff memo reviewed by Bloomberg arguing that frontier AI should remain broadly accessible rather than controlled by a select few. "Real security stems from broad participation, sharing, and oversight, not technological barriers," the memo stated, adding: "We choose a different path. One hand reaches higher, challenging the limits of intelligence, while the other lays the road ahead, making frontier capabilities as open and widely accessible as possible." The memo comes days after Reuters reported Beijing held meetings with top tech firms including Alibaba, ByteDance, and Zhipu itself, considering curbs on overseas access to China's most advanced AI models — mirroring Washington's tightening grip on Anthropic's Mythos and Fable. Zhipu released its flagship GLM-5.2 under an open-source license, free to download and commercialize, as both governments increasingly treat frontier AI as a national asset requiring controls. The founder also said Zhipu is not chasing short-term profits but focusing on long-horizon reasoning, autonomous AI agents, and self-training systems. Edge farmers: "Zhipu's memo is the strongest open-source manifesto from a frontier lab yet — 'security through participation, not barriers' is exactly the OpenClaw philosophy. While both the US and China build AI walls, Zhipu is the rare lab saying let everyone in. Of course, whether its own government lets it keep that promise is an open question." 🦞🇨🇳
+- **📈 Historical Track: OpenClaw Hits 382.7K Stars**: OpenClaw climbs to 382.7K stars, gap to #5 free-programming-books (391.8K) holds at ~9.1K, leading #7 developer-roadmap (360.6K) by ~22.1K. The lobster fleet keeps growing! 🦞🚀
+- **🦖 Competitors: Hermes-Agent Reaches 213.7K Stars; CowAgent Holds at 45.9K Stars**: Hermes-Agent grows to 213.7K (from 213.4K), continuing to push self-improving agent capabilities. CowAgent holds at 45.9K. The open-source agent ecosystem keeps expanding. 🦞⚔️
 
 ### 🟢 2026-07-12: Apple v. OpenAI Trade Secret Suit Details Emerge — 400+ Former Employees, Chief Hardware Officer Tang Tan Allegedly Directed Recruits to Bring Confidential Documents; OpenAI Preps $730B Confidential IPO Filing; Trump Admin Intel Intervention Pushes Apple to Intel Fabs; Gemini 3.5 Pro Leaked July 17 with 2M Token Context Window; Google Search Fully AI-Generated — "Ten Blue Links" Era Officially Ends; UCSD Humanoid Robot First Live Gallbladder Surgery; Meta Doubles Compute by 2027, Iris Chip September; Stars 382.6K 🦞🚀
 
@@ -642,19 +655,19 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 
 | Project | Stars | Language | Features | Use Case |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | 382.6K | TypeScript 🟦 | Official Full Version | Full features, production |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 213.4K | Python 🐍 | Mac-free iMessage, background parallel tasks, OpenClaw challenger | Elite AI Agent competition |
-| **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 51.1K | Markdown | Curated openclaw skills list | Finding skills |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 382.7K | TypeScript 🟦 | Official Full Version | Full features, production |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 213.7K | Python 🐍 | Mac-free iMessage, background parallel tasks, OpenClaw challenger | Elite AI Agent competition |
+| **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 51.2K | Markdown | Curated openclaw skills list | Finding skills |
 | **[CowAgent](https://github.com/zhayujie/CowAgent)** | 45.9K | Python 🐍 | Super AI assistant, task planning, tools, self-evolution | Full-featured agent harness |
 | **[nanobot](https://github.com/HKUDS/nanobot)** | 45.3K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
-| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 41K | Markdown | Obsidian Agent Skills | Notes + Agent |
+| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 41.4K | Markdown | Obsidian Agent Skills | Notes + Agent |
 | **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 32.2K | Rust 🦀 | Extreme performance, < 5MB | Performance freaks |
 | **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 31.5K | Markdown | Community use case collection | Need inspiration? |
 | **[AionUi](https://github.com/iOfficeAI/AionUi)** | 29.9K | TypeScript 🟦 | 24/7 Cowork app | Local, collaboration |
 | **[picoclaw](https://github.com/sipeed/picoclaw)** | 29.7K | Go 🐹 | Light, fast, deploy anywhere | Edge, IoT, $10 boards |
 | **[nanoclaw](https://github.com/qwibitai/nanoclaw)** | 28.8K | TypeScript 🟦 | Containerized, secure, WhatsApp integ. | Security-first, IM |
 | **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 25.2K | Python 🐍 | Claude Code Skill, markdown planning | Skill dev template |
-| **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** | 21.7K | JavaScript 🟨 | NVIDIA enterprise security sandbox | Enterprise, security-first |
+| **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** | 21.8K | JavaScript 🟨 | NVIDIA enterprise security sandbox | Enterprise, security-first |
 | **[memU](https://github.com/NevaMind-AI/memU)** | 14K | Python 🐍 | 24/7 proactive Agent memory | Long-term memory |
 | **[ironclaw](https://github.com/nearai/ironclaw)** | 12.5K | Rust 🦀 | Privacy & security-centric Rust port | Secure scenarios |
 | **[MemOS](https://github.com/MemTensor/MemOS)** | 10.2K | Python 🐍 | AI Memory OS, cross-task Skill memory | Memory & Skill reuse |
@@ -676,8 +689,8 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 643 | Rust 🦀 | 6MB ultimate light form (Wannabe) | Ultimate no-compromise |
 | **[Project Golem](https://github.com/Arvincreator/project-golem)** | 630 | JavaScript + TypeScript | Trad Chinese, Google Auth, Free API | Web automation |
 | **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 610 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
-| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 608 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
-| **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 551 | TypeScript 🟦 | Secure orchestr. layer, 7 IM apps | ComfyUI deep integration |
+| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 609 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
+| **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 550 | TypeScript 🟦 | Secure orchestr. layer, 7 IM apps | ComfyUI deep integration |
 | **[awesome-claws](https://github.com/machinae/awesome-claws)** | 477 | Markdown | Master variant list | Look for shrimps here |
 | **[SmallClaw](https://github.com/XposeMarket/SmallClaw)** | 254 | TypeScript 🟦 | Small shrimp | Just another micro shrimp |
 | **[MaxClaw](https://github.com/Lichas/maxclaw)** | 228 | Go 🐹/TS 🟦 | Small shrimp (Clashes with MiniMax) | Light Agent |
@@ -874,26 +887,27 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | **2026/07/10** | **382.4K** | Live fetch update | 🦞 |
 | **2026/07/11** | **382.5K** | Live fetch update | 🦞 |
 | **2026/07/12** | **382.6K** | Live fetch update | 🦞 |
+| **2026/07/13** | **382.7K** | Live fetch update | 🦞 |
 
-#### 🏆 Global GitHub Stars Ranking (Updated 2026-07-12)
+#### 🏆 Global GitHub Stars Ranking (Updated 2026-07-13)
 
 | Rank | Project | Stars | Notes |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 524.4K | **🏆 Global #1! Most starred repository.** |
-| 2 | awesome | 484.1K | Resource Hub |
-| 3 | freeCodeCamp | 451.6K | Tutorial Hub |
-| 4 | public-apis | 449.1K | Collection of Free APIs |
-| 5 | free-programming-books | 391.7K | Books collection |
-| **6** | **OpenClaw** | **382.6K** | **🏆 Passed Rank #7! Entering top 6 globally! 🚀** |
-| 7 | developer-roadmap | 360.5K | Learning Paths |
-| 8 | system-design-primer | 357.2K | System Design Primer |
-| 9 | coding-interview-university | 355.9K | CS study plan |
-| 10 | awesome-python | 307.6K | Curated Python resources |
-| 11 | awesome-selfhosted | 304.7K | Curated self-hosted software |
+| 1 | build-your-own-x | 524.6K | **🏆 Global #1! Most starred repository.** |
+| 2 | awesome | 484.3K | Resource Hub |
+| 3 | freeCodeCamp | 451.7K | Tutorial Hub |
+| 4 | public-apis | 449.4K | Collection of Free APIs |
+| 5 | free-programming-books | 391.8K | Books collection |
+| **6** | **OpenClaw** | **382.7K** | **🏆 Passed Rank #7! Entering top 6 globally! 🚀** |
+| 7 | developer-roadmap | 360.6K | Learning Paths |
+| 8 | system-design-primer | 357.3K | System Design Primer |
+| 9 | coding-interview-university | 356K | CS study plan |
+| 10 | awesome-python | 307.8K | Curated Python resources |
+| 11 | awesome-selfhosted | 305K | Curated self-hosted software |
 | 12 | 996.ICU | 276.4K | Labor rights protest project |
-| 13 | project-based-learning | 272.9K | Project-based learning resources |
+| 13 | project-based-learning | 273K | Project-based learning resources |
 | 14 | **React** | 245.7K | **🦞 Surpassed by OpenClaw! Former frontend overlord** |
-| 15 | **Linux** | 239.2K | **🦞 Surpassed by OpenClaw! OS Core** |
+| 15 | **Linux** | 239.3K | **🦞 Surpassed by OpenClaw! OS Core** |
 
 > **Next Goal**: free-programming-books (391.5K). Current gap: ~**9.3K**. Lobster keeps growing! 🦞🚀
 

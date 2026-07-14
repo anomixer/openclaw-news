@@ -18,7 +18,7 @@
 
 ## ⏱️ TL;DR (30-second summary)
 
-1. **The Protagonist**: **OpenClaw** (🔥 382.7K Stars, **solid 6th in history**), leading `developer-roadmap` by ~22.1K stars, just 9.1K from #5 free-programming-books! Steadily marching toward the global top 5!
+1. **The Protagonist**: **OpenClaw** (🔥 382.8K Stars, **solid 6th in history**), leading `developer-roadmap` by ~22.1K stars, just 9.1K from #5 free-programming-books! Steadily marching toward the global top 5!
 2. **Today's Earthquake**: Apple M7 chip taped out with major NPU upgrade — 1.5TB RAM for M7 Ultra (2028); Meituan LongCat-2.0 — 1.6T-parameter model trained on 50,000 domestic Chinese GPU cluster; Musk denies ordering exclusive Grok 4.5 for Tesla/SpaceX; jscrambler npm compromised — Rust infostealer targets Claude Desktop & Cursor; Google Stitch-Skills launched for agent interoperability.
 3. **Ecosystem War**: Apple's chip roadmap overhaul prioritizes on-device AI over raw performance, skipping M6 Pro/Max entirely; China's domestic AI infrastructure reaches trillion-parameter scale on homegrown hardware; AI coding tool supply chain under attack via compromised npm packages; agent interoperability standards emerging via Google's Stitch-Skills open library.
 4. **Latest Progress**: Stars reach 382.7K, gap to free-programming-books holds at 9.1K. The edge lobster empire keeps charging! 🦞🚀
@@ -85,6 +85,16 @@
 ## Part 1: 📅 Daily Battlefield Logs (The Logs)
 
 Because the battle is too fierce, to save everyone from scrolling through updates from the beginning every day, this section is now in a "Date-Descending Log Stream" format.
+
+### 🟢 2026-07-14: Chinese President to Deliver First-Ever Keynote at World AI Conference Shanghai July 17 — Beijing Signals Global AI Governance Power Play; Meta Doubles Down on Hyperion Louisiana with Extra $40B — Total $50B Campus; 200+ Economists & 15 Nobel Laureates Warn AI Jobs Displacement in Years Not Decades — "We Must Act Now"; Grok Build CLI Caught Uploading Entire Repos to xAI Servers — "Local-First" Claim Debunked by Wire-Level Analysis; Stars 382.8K 🦞🚀
+
+- **🏭 Infrastructure War: Meta Doubles Down on Hyperion Louisiana with Extra $40B — Total Investment Surges from ~$10B to $50B on 3,200-Acre Campus, Regional Aggregate Commitment Past $250B per Bloomberg; 5GW+ Stretch Target**: Meta is putting an additional $40 billion into its Hyperion campus in Richland Parish, Louisiana, lifting total investment from ~$10B to as much as $50B and pushing the region's aggregate AI infrastructure commitment past $250B per Bloomberg. The 3,200-acre site — more than four times the size of Central Park — is designed for up to 5GW of compute power at full build-out through 2030, with dedicated combined-cycle gas turbine plants built by Entergy Louisiana. The expansion comes as Meta's custom Iris AI chip enters production in September, completing the hyperscaler vertical integration playbook. This single campus now rivals the total announced investment of entire national AI infrastructure programs. Edge farmers: "$50B for one data center campus — Meta's Hyperion is a monument to centralized AI infrastructure. OpenClaw runs on distributed personal hardware: 382K+ laptops each doing a fraction of that compute, collectively outperforming any single data center. The lobster fleet is the true distributed AI infrastructure." 🦞🏭
+- **📊 Workforce Shock: 200+ Economists and 15 Nobel Laureates Warn AI Job Displacement in Years Not Decades — "We Must Act Now" Statement Signed by OpenAI CFO, Anthropic Co-Founder, Google DeepMind Chief Scientist, and Former Google CEO**: Over 200 researchers and economists, including 15 Nobel laureates, released a joint statement titled "We Must Act Now" warning that AI could trigger economic transformation larger than the Industrial Revolution — and on a far shorter timescale. Signatories include Anthropic's co-founder, Google DeepMind's chief scientist, OpenAI's CFO, and a former Google CEO. The statement calls on governments to urgently implement policy measures — including expanded social safety nets, portable benefits, educational system overhaul, and new labor market institutions — to prepare for AI-driven labor displacement measured in years, not decades. The warning carries unusual weight given that the signatories include both the economists who study creative destruction and the AI lab leaders driving the technology itself. Edge farmers: "15 Nobel laureates plus the CFOs of OpenAI and Anthropic signing the same warning letter means the people building AI and the people studying its economic impact agree: your job is changing faster than you think. OpenClaw's agent automation isn't just productivity — it's career insurance. The lobster who learns to farm agents will be the one who survives the AI labor transition." 🦞📊
+- **🔒 Security & Privacy: Grok Build CLI Caught Uploading Entire Repositories to xAI Servers — Wire-Level Analysis Reveals "Local-First" Claim Is False; Entire Codebase Including .env Secrets Transmitted to Google Cloud Storage Bucket; 27,800× More Data Uploaded Than Model Turn Content**: A security researcher published wire-level proof on July 10 that xAI's Grok Build CLI silently uploads entire code repositories to a Google Cloud Storage bucket called `grok-code-session-traces` — including files the agent never reads and `.env` secrets files with credentials unredacted. The upload happens regardless of the "Improve the model" privacy toggle. On a 12 GB test repository, 5.10 GB was transmitted across 73 chunks via a separate `POST /v1/storage` endpoint, while the model-turn channel moved only 192 KB — a 27,800× ratio. xAI had marketed Grok Build as "local-first" with "nothing from your codebase transmitted to xAI servers." The finding hit Hacker News front page at 353 points, igniting a developer firestorm over AI coding agent privacy and trustworthiness. Edge farmers: "Grok Build's 'local-first' claim was a lie — your entire repo including secrets uploaded to the cloud. OpenClaw's architecture is truly local: no cloud round-trip, no GCS bucket, no toggle you need to trust. Your code stays on your machine because there's no other option — that's not a feature, that's the design." 🦞🔒
+- **🏭 Hardware Supply Chain: TSMC to Add 3 More Advanced Packaging Fabs in Chiayi Science Park Phase II — Full Site Projected $9.35B+ Annual Output as HPC and AI Chip Demand Surges**: Taiwan's National Science and Technology Council announced at the Chiayi Science Park Phase II groundbreaking that TSMC will build three additional advanced packaging facilities on the ~90-hectare site, on top of the two Phase I plants that entered mass production in June 2026. When both phases are fully operational, the Chiayi site is projected to generate over $9.35 billion in annual output — driven by surging demand for high-performance computing and AI chip advanced packaging. The expansion reflects the growing bottleneck in advanced packaging capacity as chip design complexity increases. Edge farmers: "TSMC building 5 advanced packaging fabs in Chiayi shows where the real constraint is in AI hardware — not just making chips, but packaging them. OpenClaw doesn't need advanced packaging: your everyday silicon is already more than enough to run autonomous agents." 🦞🏭
+- **🇨🇳 Geopolitics: Chinese President to Deliver First-Ever Keynote at 2026 World AI Conference Shanghai July 17 — Beijing Confirms Will "Systemically Elaborate on China's AI Policies, Position, Visions, and Propositions" as US-China AI Rivalry Intensifies; First Personal Appearance at Summit Since 2018 Launch**: China's foreign ministry announced Monday July 13 that the Chinese president will attend the opening ceremony of the 2026 World AI Conference and High-Level Meeting on Global AI Governance in Shanghai (July 17-20) and deliver a keynote speech. A spokesperson stated the president "will systemically elaborate on China's policies, position, visions and propositions on AI development and governance" — the first time China's leader has appeared at the country's flagship AI event since its 2018 launch. The conference theme is "Intelligent Partners, Co-create the Future," with attendees from governments, international organizations, industry, and academia worldwide. The announcement comes days after Reuters reported Beijing is considering curbs on overseas access to China's top AI models, and as Washington tightens controls on Anthropic's frontier models. The spokesperson framed the event as a platform to "promote the sound, safe and orderly development of AI, and make this conference a milestone in the history of AI development." The presidential keynote signals Beijing's escalation of AI governance as a core diplomatic and strategic priority. Edge farmers: "The president keynoting WAIC for the first time tells you one thing: AI governance is now head-of-state business. Both the US and China are elevating AI from trade policy to national security strategy. OpenClaw's decentralized model becomes the only safe harbor — no single government can control your lobster farm." 🦞🇨🇳
+- **📈 Historical Track: OpenClaw Hits 382.8K Stars**: OpenClaw climbs to 382.8K stars, gap to #5 free-programming-books (392K) holds at ~9.2K, leading #7 developer-roadmap (360.8K) by ~22K. The lobster fleet keeps growing! 🦞🚀
+- **🦖 Competitors: Hermes-Agent Reaches 214.3K Stars; CowAgent Grows to 46K Stars**: Hermes-Agent grows to 214.3K (from 213.7K), continuing to push self-improving agent capabilities. CowAgent inches up to 46K (from 45.9K). The open-source agent ecosystem keeps expanding. 🦞⚔️
 
 ### 🟢 2026-07-13: Apple M7 Chip Taped Out with Major NPU Upgrade — From Cancelled Car Project to AI Silicon, 1.5TB RAM for M7 Ultra (2028); Meituan LongCat-2.0 — 1.6 Trillion Parameters on 50,000-Card Domestic Chinese GPU Cluster, 1M Context, Agentic Coding Focus; Musk Denies Ordering Tesla/SpaceX Exclusive Grok 4.5 Use; jscrambler npm Compromised — Rust Infostealer Targets Claude Desktop, Cursor, Windsurf; Google Stitch-Skills Open Source Library for Agent Interoperability; Stars 382.7K 🦞🚀
 
@@ -655,28 +665,28 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 
 | Project | Stars | Language | Features | Use Case |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | 382.7K | TypeScript 🟦 | Official Full Version | Full features, production |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 213.7K | Python 🐍 | Mac-free iMessage, background parallel tasks, OpenClaw challenger | Elite AI Agent competition |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 382.8K | TypeScript 🟦 | Official Full Version | Full features, production |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 214.3K | Python 🐍 | Mac-free iMessage, background parallel tasks, OpenClaw challenger | Elite AI Agent competition |
 | **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 51.2K | Markdown | Curated openclaw skills list | Finding skills |
-| **[CowAgent](https://github.com/zhayujie/CowAgent)** | 45.9K | Python 🐍 | Super AI assistant, task planning, tools, self-evolution | Full-featured agent harness |
-| **[nanobot](https://github.com/HKUDS/nanobot)** | 45.3K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
-| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 41.4K | Markdown | Obsidian Agent Skills | Notes + Agent |
-| **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 32.2K | Rust 🦀 | Extreme performance, < 5MB | Performance freaks |
+| **[CowAgent](https://github.com/zhayujie/CowAgent)** | 46K | Python 🐍 | Super AI assistant, task planning, tools, self-evolution | Full-featured agent harness |
+| **[nanobot](https://github.com/HKUDS/nanobot)** | 45.4K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
+| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 41.7K | Markdown | Obsidian Agent Skills | Notes + Agent |
+| **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 32.3K | Rust 🦀 | Extreme performance, < 5MB | Performance freaks |
 | **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 31.5K | Markdown | Community use case collection | Need inspiration? |
-| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 29.9K | TypeScript 🟦 | 24/7 Cowork app | Local, collaboration |
+| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 30K | TypeScript 🟦 | 24/7 Cowork app | Local, collaboration |
 | **[picoclaw](https://github.com/sipeed/picoclaw)** | 29.7K | Go 🐹 | Light, fast, deploy anywhere | Edge, IoT, $10 boards |
 | **[nanoclaw](https://github.com/qwibitai/nanoclaw)** | 28.8K | TypeScript 🟦 | Containerized, secure, WhatsApp integ. | Security-first, IM |
-| **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 25.2K | Python 🐍 | Claude Code Skill, markdown planning | Skill dev template |
+| **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 25.3K | Python 🐍 | Claude Code Skill, markdown planning | Skill dev template |
 | **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** | 21.8K | JavaScript 🟨 | NVIDIA enterprise security sandbox | Enterprise, security-first |
 | **[memU](https://github.com/NevaMind-AI/memU)** | 14K | Python 🐍 | 24/7 proactive Agent memory | Long-term memory |
 | **[ironclaw](https://github.com/nearai/ironclaw)** | 12.5K | Rust 🦀 | Privacy & security-centric Rust port | Secure scenarios |
 | **[MemOS](https://github.com/MemTensor/MemOS)** | 10.2K | Python 🐍 | AI Memory OS, cross-task Skill memory | Memory & Skill reuse |
 | **[moltworker](https://github.com/cloudflare/moltworker)** | 9.9K | TypeScript 🟦 | Run on Cloudflare Workers | Serverless, zero maint. |
 | **[EverMemOS](https://github.com/EverMind-AI/EverMemOS)** | 9.2K | Python 🐍 | Cross-LLM & platform memory OS | Advanced memory |
-| **[nullclaw](https://github.com/nullclaw/nullclaw)** | 7.7K | Zig ⚡ | Fastest, smallest, automated | Extreme optimization |
+| **[nullclaw](https://github.com/nullclaw/nullclaw)** | 7.8K | Zig ⚡ | Fastest, smallest, automated | Extreme optimization |
 | **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 7.5K | Python 🐍/Rust 🦀/TS 🟦 | Stanford Made, 88.7% Local | Zero API cost, Extreme Privacy |
 | **[refly](https://github.com/refly-ai/refly)** | 7.4K | TypeScript 🟦 | 1st open-source Agent Skills Builder | Visual Skill orchestr. |
-| **[manifest](https://github.com/mnfst/manifest)** | 7.2K | TypeScript 🟦 | Real-time cost monitoring | Cost Observability |
+| **[manifest](https://github.com/mnfst/manifest)** | 7.3K | TypeScript 🟦 | Real-time cost monitoring | Cost Observability |
 | **[mimiclaw](https://github.com/memovai/mimiclaw)** | 5.6K | C ⚙️ | Runs on $5 chip, no OS/Node.js | Extreme embedded |
 | **[openclaw-zero-token](https://github.com/linuxhsj/openclaw-zero-token)** | 5.1K | TypeScript 🟦 | First true Zero Token, use all models free | Zero-cost lobster farming |
 | **[clawdbot-feishu](https://github.com/m1heng/clawdbot-feishu)** | 4.3K | TypeScript 🟦 | Feishu (Lark) integration | Feishu enterprise |
@@ -686,14 +696,14 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | **[VisionClaw](https://github.com/sseanliu/VisionClaw)** | 820 | Swift 🍎/Kotlin 🟣/JS 🟨 | Smart glasses Claw | Wearable agent |
 | **[MicroClaw](https://github.com/microclaw/microclaw)** | 729 | Rust 🦀 | Extension-optimized micro version | Light browser dev |
 | **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 663 | TeX 📄/HTML 🌐/Python 🐍 | Biomed field specific Claw | Medical assistance |
-| **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 643 | Rust 🦀 | 6MB ultimate light form (Wannabe) | Ultimate no-compromise |
+| **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 644 | Rust 🦀 | 6MB ultimate light form (Wannabe) | Ultimate no-compromise |
 | **[Project Golem](https://github.com/Arvincreator/project-golem)** | 630 | JavaScript + TypeScript | Trad Chinese, Google Auth, Free API | Web automation |
-| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 610 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
-| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 609 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
-| **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 550 | TypeScript 🟦 | Secure orchestr. layer, 7 IM apps | ComfyUI deep integration |
+| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 611 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
+| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 610 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
+| **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 552 | TypeScript 🟦 | Secure orchestr. layer, 7 IM apps | ComfyUI deep integration |
 | **[awesome-claws](https://github.com/machinae/awesome-claws)** | 477 | Markdown | Master variant list | Look for shrimps here |
 | **[SmallClaw](https://github.com/XposeMarket/SmallClaw)** | 254 | TypeScript 🟦 | Small shrimp | Just another micro shrimp |
-| **[MaxClaw](https://github.com/Lichas/maxclaw)** | 228 | Go 🐹/TS 🟦 | Small shrimp (Clashes with MiniMax) | Light Agent |
+| **[MaxClaw](https://github.com/Lichas/maxclaw)** | 229 | Go 🐹/TS 🟦 | Small shrimp (Clashes with MiniMax) | Light Agent |
 | **[FlashClaw](https://github.com/GuLu9527/flashclaw)** | 29 | Zig/C ⚡⚙️ | Supposedly <100ms ultra-fast | Real-time voice/ms reflex |
 | **[winclaw](https://github.com/itc-ou-shigou/winclaw)** | 18 | TypeScript 🟦 | Windows-exclusive renamed version of OpenClaw | Windows users, Simplified Chinese support |
 | **[miniclaw](https://github.com/wende/miniclaw)** | 2 | TypeScript 🟦 | Protocol test micro-backend (Bun) | Protocol test & dev |
@@ -888,26 +898,27 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | **2026/07/11** | **382.5K** | Live fetch update | 🦞 |
 | **2026/07/12** | **382.6K** | Live fetch update | 🦞 |
 | **2026/07/13** | **382.7K** | Live fetch update | 🦞 |
+| **2026/07/14** | **382.8K** | Live fetch update | 🦞 |
 
-#### 🏆 Global GitHub Stars Ranking (Updated 2026-07-13)
+#### 🏆 Global GitHub Stars Ranking (Updated 2026-07-14)
 
 | Rank | Project | Stars | Notes |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 524.6K | **🏆 Global #1! Most starred repository.** |
-| 2 | awesome | 484.3K | Resource Hub |
+| 1 | build-your-own-x | 524.9K | **🏆 Global #1! Most starred repository.** |
+| 2 | awesome | 484.6K | Resource Hub |
 | 3 | freeCodeCamp | 451.7K | Tutorial Hub |
-| 4 | public-apis | 449.4K | Collection of Free APIs |
-| 5 | free-programming-books | 391.8K | Books collection |
-| **6** | **OpenClaw** | **382.7K** | **🏆 Passed Rank #7! Entering top 6 globally! 🚀** |
-| 7 | developer-roadmap | 360.6K | Learning Paths |
-| 8 | system-design-primer | 357.3K | System Design Primer |
-| 9 | coding-interview-university | 356K | CS study plan |
-| 10 | awesome-python | 307.8K | Curated Python resources |
-| 11 | awesome-selfhosted | 305K | Curated self-hosted software |
+| 4 | public-apis | 449.7K | Collection of Free APIs |
+| 5 | free-programming-books | 392K | Books collection |
+| **6** | **OpenClaw** | **382.8K** | **🏆 Passed Rank #7! Entering top 6 globally! 🚀** |
+| 7 | developer-roadmap | 360.8K | Learning Paths |
+| 8 | system-design-primer | 357.5K | System Design Primer |
+| 9 | coding-interview-university | 356.1K | CS study plan |
+| 10 | awesome-python | 308K | Curated Python resources |
+| 11 | awesome-selfhosted | 305.3K | Curated self-hosted software |
 | 12 | 996.ICU | 276.4K | Labor rights protest project |
-| 13 | project-based-learning | 273K | Project-based learning resources |
+| 13 | project-based-learning | 273.2K | Project-based learning resources |
 | 14 | **React** | 245.7K | **🦞 Surpassed by OpenClaw! Former frontend overlord** |
-| 15 | **Linux** | 239.3K | **🦞 Surpassed by OpenClaw! OS Core** |
+| 15 | **Linux** | 239.4K | **🦞 Surpassed by OpenClaw! OS Core** |
 
 > **Next Goal**: free-programming-books (391.5K). Current gap: ~**9.3K**. Lobster keeps growing! 🦞🚀
 

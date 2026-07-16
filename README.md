@@ -4,7 +4,7 @@
 
 > **WARNING**: The news contains excessive complaints, conspiracy theories, and profound philosophical thoughts on lobsters.
 > 
-> **Last Updated**: 2026-07-15
+> **Last Updated**: 2026-07-16
 > **Status**: OpenClaw climbs to 382.7K stars, **solidly ranked #6 globally on GitHub, gap to #5 free-programming-books narrows to just 9.1K!** 🦞🚀
 
 > **OpenClaw Version**: v2026.7.1-beta.2 (Latest Beta) / v2026.6.10 (Latest Stable/LTS) | ClawRouter bundled plugin, Mac local Gateway setup, Control UI overhaul, Ollama auto-discovery 🦞🏵
@@ -18,7 +18,7 @@
 
 ## ⏱️ TL;DR (30-second summary)
 
-1. **The Protagonist**: **OpenClaw** (🔥 382.9K Stars, **solid 6th in history**), leading `developer-roadmap` by ~22.1K stars, just 9.1K from #5 free-programming-books! Steadily marching toward the global top 5!
+1. **The Protagonist**: **OpenClaw** (🔥 383K Stars, **solid 6th in history**), leading `developer-roadmap` by ~22.1K stars, just 9.1K from #5 free-programming-books! Steadily marching toward the global top 5!
 2. **Today's Earthquake**: Apple M7 chip taped out with major NPU upgrade — 1.5TB RAM for M7 Ultra (2028); Meituan LongCat-2.0 — 1.6T-parameter model trained on 50,000 domestic Chinese GPU cluster; Musk denies ordering exclusive Grok 4.5 for Tesla/SpaceX; jscrambler npm compromised — Rust infostealer targets Claude Desktop & Cursor; Google Stitch-Skills launched for agent interoperability.
 3. **Ecosystem War**: Apple's chip roadmap overhaul prioritizes on-device AI over raw performance, skipping M6 Pro/Max entirely; China's domestic AI infrastructure reaches trillion-parameter scale on homegrown hardware; AI coding tool supply chain under attack via compromised npm packages; agent interoperability standards emerging via Google's Stitch-Skills open library.
 4. **Latest Progress**: Stars reach 382.7K, gap to free-programming-books holds at 9.1K. The edge lobster empire keeps charging! 🦞🚀
@@ -28,6 +28,7 @@
 ## 📚 Table of Contents
 
 - **Part 1: 📅 Daily Battlefield Logs (The Logs)**
+  - 🟢 2026-07-16: Former OpenAI CTO's TML Drops Inkling 975B Open-Weight MoE; ASML Raises Outlook €43-45B; Apple Intelligence Cleared for China with Alibaba Qwen; DeepSeek Reveals $400-500M ARR; EU Court Rejects "OpenAI" Trademark; Publishers and Author Sue Google Over Gemini Training; xAI Open-Sources Grok Build; IBM Q2 Miss -19%; Stars 383K 🦞🚀
   - 🟢 2026-07-15: OpenAI First Hardware Speaker Leaked; Microsoft Lays Off 4,800; NVIDIA Cancels 2026 Gaming GPUs Due to RAMageddon; Stars 382.9K 🦞🚀
   - 🟢 2026-07-14: Chinese President to Attend WAIC; Meta Hyperion Targets $50B; 15 Nobel Laureates Warn of AI Substitution; Grok Build CLI Accused of Code Upload; Stars 382.8K 🦞🚀
   - 🟢 2026-07-13: Apple M7 Chip Taped Out with Major NPU — 1.5TB RAM for M7 Ultra; Meituan LongCat-2.0 Trillion-Parameter Model; Musk Denies Exclusive Grok Orders; jscrambler npm Rust Infostealer; Google Stitch-Skills Agent Interop; Stars 382.7K 🦞🚀
@@ -79,6 +80,19 @@
 ## Part 1: 📅 Daily Battlefield Logs (The Logs)
 
 Because the battle is too fierce, to save everyone from scrolling through updates from the beginning every day, this section is now in a "Date-Descending Log Stream" format.
+
+### 🟢 2026-07-16: Thinking Machines Lab Releases Inkling — Open-Weight 975B MoE with 41B Active Params, 1M Context Trained on 45T Tokens; ASML Smashes Q2 Estimates, Raises 2026 Outlook to €43-45B (+16%) on "Extremely Strong" AI Chip Demand, Expanding EUV/DUV Capacity 30%/Year; Apple Intelligence Cleared for China with Alibaba's Qwen; DeepSeek Reveals $400-500M ARR, Targets $74B Valuation; EU Court Rules "OpenAI" Too Descriptive to Trademark; Publishers (Hachette, Elsevier) Sue Google Over Gemini Training; xAI Open-Sources Grok Build; IBM Warns Q2 Miss — Stock -19%; Stars 383K 🦞🚀
+
+- **🧠 Open-Weight Model Release: Thinking Machines Lab Drops "Inkling" — 975B-Parameter Mixture-of-Experts Foundation Model with 41B Active Params, 1M Token Context, Native Text/Image/Audio/Video Reasoning, Fully Open Weights on Hugging Face**: Former OpenAI CTO-founded TML released Inkling, a 975B MoE model with 41B active parameters and a 1M-token context window, trained on 45 trillion multimodal tokens. Weights are on Hugging Face including NVFP4-optimized checkpoints for NVIDIA Blackwell, alongside an Inkling-Small 12B-active variant. This is TML's first open-weight foundation model since raising ~$2B at a $12B valuation. Edge farmers: "OpenAI's former CTO just dropped a 975B open-weight model. ClosedAI charges $200/month for GPT-5.6 Sol; Inkling runs on your own hardware. The lobster doesn't need permission — they download the weights and go. 45 trillion tokens of training data, zero gated access, infinite fine-tuning." 🦞🧠
+- **💎 Semiconductor: ASML Smashes Q2 Estimates, Raises 2026 Revenue Outlook to €43-45B (+16%) — Q2 Revenue €9.33B vs €8.80B Expected, Net Income €2.92B vs €2.62B; CEO Cites "Extremely Strong" AI Chip Demand; ASML to Expand EUV and DUV Production Capacity 30% Annually for Two Years**: ASML posted Q2 2026 revenue of €9.33B (beating €8.80B consensus) and net income of €2.92B (above €2.62B estimates), then raised full-year 2026 guidance to €43-45B — up 16% at the midpoint from the prior €36-40B range. CEO cited "extremely strong" AI chip demand driving orders from TSMC, Samsung, and SK Hynix, and committed to expanding both EUV and DUV production capacity ~30% annually for the next two years. ASML shares rose 5.7% in Amsterdam. The Dutch lithography monopolist also discussed DUV price hikes of 10% with TSMC pushing back. Edge farmers: "ASML raises guidance 16% — every AI chip in the world runs through one Dutch company's machines. TSMC, Samsung, SK Hynix — all dependent on ASML's EUV lithography. OpenClaw runs on hardware you already own, no Dutch monopoly required. The lobster's supply chain is their laptop." 🦞💎
+- **🇨🇳 Geopolitics: Apple Intelligence Cleared for Launch in China with Alibaba's Qwen as Underlying Model — China's Cyberspace Administration Registers Apple's AI; Alibaba Shares Rise 4%; Apple Evaluated Baidu, DeepSeek, ByteDance Before Choosing Qwen**: China's Cyberspace Administration on July 15 registered Apple Intelligence for use in mainland China with Alibaba's Qwen as the underlying model, clearing the last major regulatory hurdle for Apple's generative AI features on iPhones sold in Greater China. Apple had reportedly evaluated Baidu, DeepSeek, and ByteDance before settling on Alibaba's Qwen model. The approval covers text and image generation across iOS, iPadOS, macOS, and visionOS for Chinese users. Alibaba's US-listed shares rose about 4% on the news. Edge farmers: "Apple Intelligence in China runs on Alibaba's Qwen — not OpenAI, not Google. Beijing decides which AI runs on every iPhone sold in the world's largest phone market. The lobster doesn't ask permission from any government — their agents run on their machine, under their control." 🦞🇨🇳
+- **💰 Funding & Valuation: DeepSeek Reveals $400-500M Annualized Revenue, Targets $74B Valuation — First Concrete Revenue Disclosure from Hangzhou-Based Lab; Preps Mainland China IPO Targeting Late-2026 Filing for 2027 Debut**: The Information reports DeepSeek's annualized revenue has recently reached $400M–$500M — the first concrete revenue disclosure from the Hangzhou-based AI lab — as it seeks to raise roughly $7.4B at a ~$74B valuation. The revenue marks a material step-up from the ~$71B valuation figures previously reported, and DeepSeek is preparing a mainland China IPO targeting a late-2026 filing for a 2027 debut. Edge farmers: "DeepSeek did $400-500M in revenue and the Chinese government is backing a $74B valuation. The 'cheap' Chinese AI lab isn't so cheap anymore. OpenClaw users don't need a $74B valuation — their agents create value directly on their hardware, no IPO required." 🦞💰
+- **⚖️ Legal: EU General Court Rules "OpenAI" Too Descriptive to Trademark in Europe — Term Lacks Distinctiveness for Software and Cloud-Computing Services; Rejects OpenAI's Appeal Against EUIPO's Partial Refusal**: The EU General Court in Luxembourg on July 15 rejected OpenAI's challenge to the EUIPO's partial refusal of its "OPENAI" trademark, ruling the term is "purely descriptive and therefore lacks the distinctiveness required for trademark protection" for software and cloud-computing services. The court said the public will read "open" as "freely accessible" and "AI" as artificial intelligence, so the combination is standard English usage rather than a coined term. OpenAI's argument that 30+ jurisdictions including the UK and Singapore had granted the mark was rejected as non-binding. The irony is that "Open" in OpenAI's name is ruled descriptive — while the company itself has become increasingly closed. Edge farmers: "EU court rules 'OpenAI' is too descriptive to trademark — 'open' means open, 'AI' means AI. The irony: OpenAI is the least open major AI lab. ClosedAI can't even trademark the word 'Open.' OpenClaw is actually open — source, weights, agents, all of it. The lobster doesn't need a trademark to prove what they are." 🦞⚖️
+- **📚 Copyright: Hachette, Elsevier, Cengage, and Bestselling Author Sue Google Over Gemini Training — Allege Copyright Infringement on Millions of Books and Journal Articles from Google Books, Online Libraries, and Pirated Websites**: Hachette Book Group, Elsevier, Cengage Learning, and a bestselling author filed suit against Google in the US District Court for the Southern District of New York, alleging Google trained its Gemini AI models on millions of copyrighted books and journal articles without permission. The complaint accuses Google of sourcing materials from Google Books, online libraries, and allegedly pirated websites, then building a multibillion-dollar AI business by bypassing licensing markets. Plaintiffs seek damages and an injunction. Edge farmers: "Publishers sue Google over Gemini training data — the same Google Books that scanned every library on earth is now the training data for Google's AI. The copyright wars are just beginning. OpenClaw trains on what you give it, not on pirated textbooks." 🦞📚
+- **🔓 Open Source: xAI Open-Sources Grok Build Under Apache 2.0 — Rust-Based Coding Agent Released After Wire-Level Upload Scandal; Running Locally with Local Inference Removes xAI from Data Pipeline**: xAI on July 15 published the Grok Build coding agent's source at xai-org/grok-build under Apache 2.0, a Rust-based terminal UI that reads, edits, searches and executes code via Grok 4.5. The move follows the wire-level analysis showing earlier Grok Build versions synced whole repositories to a Google Cloud bucket. Running the newly open codebase locally with local inference removes xAI from the data pipeline entirely. xAI also reset usage limits for all users. Edge farmers: "xAI open-sources Grok Build after getting caught uploading entire repos to their servers. The lesson: if it's not open-source, assume it's phoning home. OpenClaw has been open-source since day one — every line of code, every agent, every connection. The lobster audits everything." 🦞🔓
+- **📉 Earnings Warning: IBM Preannounces Q2 Miss — Revenue $17.2B vs $17.86B Consensus, Stock -19% as Clients Shift Spending to AI Chips and Infrastructure; Mainframe Sales Slip**: IBM preannounced Q2 revenue of $17.2B (up 1%) and adjusted EPS of $2.93, well below the $17.86B/$3.01 consensus, sending shares down roughly 18-19% in premarket trade. CEO attributed the shortfall to clients "shifting quarterly capital expenditure spending toward servers, storage, and memory purchases due to supply-constrained infrastructure and expected price increases." Software was up 5%, consulting flat, infrastructure down 7% as mainframe Z system sales slipped. Edge farmers: "IBM misses because clients are spending on AI chips instead of mainframes. The 113-year-old company is getting cannibalized by the same AI boom that's lifting Nvidia and ASML. OpenClaw runs on commodity hardware — no mainframe lease, no vendor lock-in, no 19% stock drop." 🦞📉
+- **📈 Historical Track: OpenClaw Hits 383K Stars**: OpenClaw climbs to 383K stars, gap to #5 free-programming-books (392.2K) holds at ~9.2K, leading #7 developer-roadmap (361.1K) by ~21.9K, #8 system-design-primer (357.7K) by ~25.3K. The lobster fleet keeps growing! 🦞🚀
+- **🦖 Competitors: Hermes-Agent Reaches 215.5K Stars; CowAgent Holds at 46K Stars**: Hermes-Agent surges to 215.5K (from 214.9K), showing accelerating growth in the self-improving agent space. CowAgent holds steady at 46K. The open-source agent ecosystem keeps expanding. 🦞⚔️
 
 ### 🟢 2026-07-15: OpenAI Unveils First Hardware Product — ChatGPT-Powered Screenless Smart Speaker with Camera and Sensors, $200-300, Designed by Former Apple Team, 2027 Launch Target; OpenAI Formally Denies Apple Trade Secret Allegations; Microsoft Cuts 4,800 Jobs in AI Restructuring — Xbox, Sales, Consulting Hit Hardest; Nvidia Skips 2026 Gaming GPUs — RTX 50 Super Shelved as Memory Crisis "RAMageddon" Bites; Stars 382.9K 🦞🚀
 
@@ -581,12 +595,12 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 
 | Project | Stars | Language | Features | Use Case |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | 382.9K | TypeScript 🟦 | Official Full Version | Full features, production |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 214.9K | Python 🐍 | Mac-free iMessage, background parallel tasks, OpenClaw challenger | Elite AI Agent competition |
-| **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 51.2K | Markdown | Curated openclaw skills list | Finding skills |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 383K | TypeScript 🟦 | Official Full Version | Full features, production |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 215.5K | Python 🐍 | Mac-free iMessage, background parallel tasks, OpenClaw challenger | Elite AI Agent competition |
+| **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 51.3K | Markdown | Curated openclaw skills list | Finding skills |
 | **[CowAgent](https://github.com/zhayujie/CowAgent)** | 46K | Python 🐍 | Super AI assistant, task planning, tools, self-evolution | Full-featured agent harness |
-| **[nanobot](https://github.com/HKUDS/nanobot)** | 45.6K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
-| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 41.9K | Markdown | Obsidian Agent Skills | Notes + Agent |
+| **[nanobot](https://github.com/HKUDS/nanobot)** | 45.7K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
+| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 42.1K | Markdown | Obsidian Agent Skills | Notes + Agent |
 | **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 32.3K | Rust 🦀 | Extreme performance, < 5MB | Performance freaks |
 | **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 31.5K | Markdown | Community use case collection | Need inspiration? |
 | **[AionUi](https://github.com/iOfficeAI/AionUi)** | 30.1K | TypeScript 🟦 | 24/7 Cowork app | Local, collaboration |
@@ -611,10 +625,10 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | **[moltis](https://github.com/moltis-org/moltis)** | 2.8K | Rust 🦀 | Single binary, sandboxed, auditable | Enterprise security |
 | **[VisionClaw](https://github.com/sseanliu/VisionClaw)** | 820 | Swift 🍎/Kotlin 🟣/JS 🟨 | Smart glasses Claw | Wearable agent |
 | **[MicroClaw](https://github.com/microclaw/microclaw)** | 730 | Rust 🦀 | Extension-optimized micro version | Light browser dev |
-| **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 664 | TeX 📄/HTML 🌐/Python 🐍 | Biomed field specific Claw | Medical assistance |
+| **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 666 | TeX 📄/HTML 🌐/Python 🐍 | Biomed field specific Claw | Medical assistance |
 | **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 645 | Rust 🦀 | 6MB ultimate light form (Wannabe) | Ultimate no-compromise |
-| **[Project Golem](https://github.com/Arvincreator/project-golem)** | 631 | JavaScript + TypeScript | Trad Chinese, Google Auth, Free API | Web automation |
-| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 611 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
+| **[Project Golem](https://github.com/Arvincreator/project-golem)** | 633 | JavaScript + TypeScript | Trad Chinese, Google Auth, Free API | Web automation |
+| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 615 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
 | **[netclaw](https://github.com/automateyournetwork/netclaw)** | 610 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
 | **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 553 | TypeScript 🟦 | Secure orchestr. layer, 7 IM apps | ComfyUI deep integration |
 | **[awesome-claws](https://github.com/machinae/awesome-claws)** | 477 | Markdown | Master variant list | Look for shrimps here |
@@ -816,26 +830,27 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | **2026/07/13** | **382.7K** | Live fetch update | 🦞 |
 | **2026/07/14** | **382.8K** | Live fetch update | 🦞 |
 | **2026/07/15** | **382.9K** | Live fetch update | 🦞 |
+| **2026/07/16** | **383K** | Live fetch update | 🦞 |
 
-#### 🏆 Global GitHub Stars Ranking (Updated 2026-07-15)
+#### 🏆 Global GitHub Stars Ranking (Updated 2026-07-16)
 
 | Rank | Project | Stars | Notes |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 525.2K | **🏆 Global #1! Most starred repository.** |
-| 2 | awesome | 485K | Resource Hub |
-| 3 | freeCodeCamp | 451.9K | Tutorial Hub |
-| 4 | public-apis | 450.1K | Collection of Free APIs |
-| 5 | free-programming-books | 392.1K | Books collection |
-| **6** | **OpenClaw** | **382.9K** | **🏆 Passed Rank #7! Entering top 6 globally! 🚀** |
-| 7 | developer-roadmap | 360.9K | Learning Paths |
-| 8 | system-design-primer | 357.6K | System Design Primer |
-| 9 | coding-interview-university | 356.2K | CS study plan |
-| 10 | awesome-python | 308.2K | Curated Python resources |
-| 11 | awesome-selfhosted | 305.5K | Curated self-hosted software |
+| 1 | build-your-own-x | 525.6K | **🏆 Global #1! Most starred repository.** |
+| 2 | awesome | 485.4K | Resource Hub |
+| 3 | freeCodeCamp | 452K | Tutorial Hub |
+| 4 | public-apis | 450.5K | Collection of Free APIs |
+| 5 | free-programming-books | 392.2K | Books collection |
+| **6** | **OpenClaw** | **383K** | **🏆 Passed Rank #7! Entering top 6 globally! 🚀** |
+| 7 | developer-roadmap | 361.1K | Learning Paths |
+| 8 | system-design-primer | 357.7K | System Design Primer |
+| 9 | coding-interview-university | 356.3K | CS study plan |
+| 10 | awesome-python | 308.4K | Curated Python resources |
+| 11 | awesome-selfhosted | 305.7K | Curated self-hosted software |
 | 12 | 996.ICU | 276.4K | Labor rights protest project |
-| 13 | project-based-learning | 273.3K | Project-based learning resources |
+| 13 | project-based-learning | 273.5K | Project-based learning resources |
 | 14 | **React** | 245.7K | **🦞 Surpassed by OpenClaw! Former frontend overlord** |
-| 15 | **Linux** | 239.5K | **🦞 Surpassed by OpenClaw! OS Core** |
+| 15 | **Linux** | 239.6K | **🦞 Surpassed by OpenClaw! OS Core** |
 
 > **Next Goal**: free-programming-books (391.5K). Current gap: ~**9.3K**. Lobster keeps growing! 🦞🚀
 

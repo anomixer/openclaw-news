@@ -54,6 +54,7 @@ function fetchApiStars(repo) {
             hostname: 'api.github.com',
             path: `/repos/${repo}`,
             method: 'GET',
+            rejectUnauthorized: true,
             headers: {
                 'User-Agent': 'node',
                 ...(token ? { 'Authorization': `Bearer ${token}` } : {}),
@@ -85,6 +86,7 @@ function fetchHtmlStars(repo) {
             hostname: 'github.com',
             path: `/${repo}`,
             method: 'GET',
+            rejectUnauthorized: true,
             headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36' },
         }, (res) => {
             if ([301, 302].includes(res.statusCode) && res.headers.location) {

@@ -4,7 +4,7 @@
 
 > **WARNING**: The news contains excessive complaints, conspiracy theories, and profound philosophical thoughts on lobsters.
 > 
-> **Last Updated**: 2026-09-12
+> **Last Updated**: 2026-09-13
 > **Status**: OpenClaw reaches ~389.5K stars, **holding #6 globally on GitHub, gap to #5 free-programming-books at ~7.1K!** 🦎🚀
 
 > **OpenClaw Version**: v2026.9.2 (Latest Stable) / v2026.8.2 (Previous Stable/LTS) | **2026.9.2 brings GPT-6 Astra into the local gate, more reliable upgrades & recovery, and most settings applied without restarts** 🦞🏵
@@ -19,8 +19,8 @@
 ## ⏱️ TL;DR (30-second summary)
 
 1. **The Protagonist**: **OpenClaw** (🔥 ~389.5K stars, solid #6 all-time), ~7.1K from #5 free-programming-books (396.6K), ~20.0K over #7 system-design-primer.
-2. **Today's earthquake**: Navier-Stokes day three — the credit war turns personal: Bubeck is accused of threatening Buckmaster ("If you don't want me to be nice, then I don't have to be nice"), calls the account "false and inflammatory", then apologizes — while Buckmaster still hasn't seen OpenAI's proof and MIT Tech Review calls the moment "sobering".
-3. **The counter-move**: OpenAI's policy pivot goes from lobby to law — it backs four California bills (Newsom signs SB 813 + AB 1405 on Wednesday) while urging Congress before December; DeepSeek open-weights a 552B V4.1-Flash that out-performs and then retires its own flagship.
+2. **Today's earthquake**: the math community strikes back — 25 Fields Medal winners (incl. Terence Tao and this year's laureate Deng Yu) declare a "severe misalignment" between AI companies and mathematics, warning benchmark-rush solving "is detrimental to the science" — the same week OpenAI gets bounced from the Caltech Mathathon by 771 mathematicians who call AI-sponsored competitions "slop mathematics."
+3. **The counter-move**: DeepSeek's countdown hits T-minus-1 — its own V4-Pro flagship gets rerouted to V4.1-Flash at noon Beijing time tomorrow; iPhone 18 Pro / Pro Max pre-orders go live (5am PT, 65+ countries) with the first price bump in generations.
 4. **Latest progress**: ~389.5K stars. No new release — the gate keeps signing every entrance. 🦎🚀
 
 ---
@@ -28,6 +28,7 @@
 ## 📚 Table of Contents
 
 - **Part 1: 📅 Daily Battlefield News (The Logs)**
+  - 🟢 2026-09-13: Math community strikes back—Fields Medalists slam AI rush; OpenAI bounced from Caltech Mathathon; DeepSeek retires V4-Pro; Stars ~389.5K 🦞🚀
   - 🟢 2026-09-12: Navier-Stokes day three—Bubeck clash turns personal; OpenAI backs four CA bills, Newsom signs two; DeepSeek retires own flagship; Stars ~389.5K 🦞🚀
   - 🟢 2026-09-11: Navier-Stokes day two—espionage claims; OpenAI demands mandatory safety rules; Anthropic withholds Mythos 5.1 from UK; Stars ~389.4K 🦞🚀
   - 🟢 2026-09-10: iPhone Duo named, no standard iPhone 18; Navier-Stokes claimed; researcher quits Anthropic; Stars ~389.3K 🦞🚀
@@ -80,6 +81,15 @@
 ## Part 1: 📅 Daily Battlefield News (The Logs)
 
 Because the battle is too fierce, to save everyone from scrolling through updates from the beginning every day, this section is now in a "Date-Descending Log Stream" format.
+
+### 🟢 2026-09-13: **The mathematicians strike back** — 25 Fields Medalists slam the AI benchmark rush; OpenAI bounced from Caltech Mathathon; DeepSeek retires V4-Pro T-1; Stars ~389.5K 🦞🚀
+
+ - **🔢 Math community strikes back — twenty-five Fields Medal winners declare a "severe misalignment" between AI companies and mathematics (joint declaration published 09/11, sweeping 09/12 via AFP/TechCrunch/Economist/storyboard18)**: the open statement, released on Terence Tao's blog, is signed by laureates spanning nearly half a century — from Pierre Deligne (1978) to this year's prize winner, Princeton's Deng Yu — and warns that "the push by AI companies to solve mathematical problems as a benchmark is detrimental to the science of mathematics, and to the mathematical community": problem-solving "is merely a tool and a proxy for achieving the fundamental goal of conceptual understanding and insight", verification through "human interaction" takes time, and a field that outsources checking risks losing students, misattributing work, and letting subtle errors from rushed AI proofs propagate. It singles out Anthropic's Claude announcing a solution to the Jacobian Conjecture on social media during the World Cup final with no peer review; Tao himself had warned in August that 100,000-line proofs no one can understand are the wrong prize. The letter — which builds on June's Leiden Declaration and carries no enforcement, only a demand that journals, funders, universities and AI developers slow down — is framed by The Economist simply: "Top mathematicians are furious about OpenAI's methods." Edge farmer: "When a quarter-century of medalists speaks as one discipline and calls the benchmark a threat to the science itself, the questionnaire just grew a spine — the lobster has always kept verification inside the loop, where a proof is a fact, not a headline." 🦞🔢
+ - **🎓 OpenAI gets unpledged from the Caltech Mathathon — 771 mathematicians sign an open letter calling AI-sponsored math competitions "slop mathematics" (open letter 09/09, withdrawal 09/10, sweeping 09/12)**: Caltech faculty and students — and 771 signatories — asked organizers to suspend the October 30-November 1 hackathon (100 teams, 40 hours, $20K+ in AI credits per team, ~$2M pledged by OpenAI and Anthropic), calling it an "advertising opportunity" where AI companies "take credit for the effort of talented undergrads" and, bluntly, "are engaging in research misconduct"; the letter adds a warning that such events will "likely have destructive impacts for the mathematical community." OpenAI's research lead Dan Roberts confirmed Thursday that OpenAI would no longer sponsor the event (funding ~$10K of each team's ~$20K credits): "We recognize that the rapid progress of AI in mathematics is disruptive … we're looking to engage with the math community more." As of Sept 12 OpenAI has been removed from the sponsor list while Anthropic, DARPA's expMath, a16z, Y Combinator, Cognition, Cloudflare and Prime Intellect remain; the student organizers say the event proceeds — "sponsors don't have a say in our decisions." Edge farmer: "When 771 people call your competition slop and you quietly unpledge before the FAQ is updated, the sponsor list just became a graph that can flip — the lobster reads it the way it reads a price list: whatever is not in the receipt never happened." 🦞🎓
+ - **🧮 DeepSeek's V4-Pro retirement hits T-minus-one — at 12:00 Beijing time tomorrow every request to the flagship endpoint gets rerouted to V4.1-Flash at Flash prices (09/13 countdown)**: today is the last day DeepSeek serves its own flagship at flagship rates; the switchover announced with last week's V4.1-Flash drop means users who think they're calling the "best" model now get the model DeepSeek says "comprehensively surpasses the V4 Pro in all metrics" — billed at Flash prices (peak $0.30/$1.20 per M input/output tokens) until V4.1 Pro ships. A demotion executed by calendar, not by debate. Edge farmer: "Tomorrow at noon the flagship you thought you were calling gets quietly rerouted to the cheaper, better model — the lobster likes honesty that ships in a changelog better than honesty that ships in a press release." 🦞🧮
+ - **📱 iPhone 18 Pro / Pro Max pre-orders are live — 5am Pacific Sept 12 in 65+ countries, shipping Sept 18, and the delivery dates are already slipping (09/12-13)**: the first iPhone lineup in years to carry a true price bump ($1,199/$1,299 — "the first such increase in several generations") went on sale Saturday instead of Apple's usual Friday, a shift widely read as respect for the Sept 11 anniversary; Apple Watch Series 12 ($399), Ultra 4 ($799) and AirPods 5 ($129) share the Sept 18 launch (iOS 27 lands Sept 14), and early reports confirm launch-day allocations are evaporating into the queue. Edge farmer: "Apple skipped the Friday ritual, opened the Saturday book, and rang the generation-first toll on the way in — the lobster files order-book queues under demand graphs and price lists under gate changes; both moved today." 🦞📱
+ - **🦞 The gate that didn't move: OpenClaw ships nothing since v2026.9.2 (09/05) — gate open, stars flat at ~389.5K (live scrape, +0 in 24h)**: the gap to #5 free-programming-books (396.6K) holds at ~7.1K, leading #7 system-design-primer (369.6K) by ~19.9K — the version number stays boring because the audit never sleeps. Edge farmer: "While a quarter-century of medalists tells the field the benchmark is the disease and a conference unpledges a sponsor mid-week, the headline that doesn't change is still the one that matters: which gate signs every entrance without a new version number." 🦞🏵
+ - **📈 History track: OpenClaw holds ~389.5K stars (live scrape): gap to #5 free-programming-books (396.6K) at ~7.1K, leading #7 system-design-primer (369.6K) by ~19.9K. The lobster fleet marches on! 🦎🚀**
 
 ### 🟢 2026-09-12: **Navier-Stokes day three** — Bubeck clash turns personal; OpenAI backs four CA bills (Newsom signs two); DeepSeek retires its own flagship; Stars ~389.5K 🦞🚀
 
@@ -865,10 +875,10 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | Project | Stars | Language | Features | Use Case |
 |------|-------|------|------|----------|
 | **[OpenClaw](https://github.com/openclaw/openclaw)** | 389.5K | TypeScript 🟦 | Official Full Version | Full features, production |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 244.7K | Python 🐍 | Mac-free iMessage, background parallel tasks, OpenClaw challenger | Elite AI Agent competition |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 244.9K | Python 🐍 | Mac-free iMessage, background parallel tasks, OpenClaw challenger | Elite AI Agent competition |
 | **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 52.5K | Markdown | Curated openclaw skills list | Finding skills |
 | **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 48.2K | Markdown | Obsidian Agent Skills | Notes + Agent |
-| **[nanobot](https://github.com/HKUDS/nanobot)** | 48K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
+| **[nanobot](https://github.com/HKUDS/nanobot)** | 48.1K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
 | **[CowAgent](https://github.com/zhayujie/CowAgent)** | 46.9K | Python 🐍 | Super AI assistant, task planning, tools, self-evolution | Full-featured agent harness |
 | **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 32.8K | Rust 🦀 | Extreme performance, < 5MB | Performance freaks |
 | **[AionUi](https://github.com/iOfficeAI/AionUi)** | 32.8K | TypeScript 🟦 | 24/7 Cowork app | Local, collaboration |
@@ -881,7 +891,7 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | **[ironclaw](https://github.com/nearai/ironclaw)** | 12.6K | Rust 🦀 | Privacy & security-centric Rust port | Secure scenarios |
 | **[MemOS](https://github.com/MemTensor/MemOS)** | 11.3K | Python 🐍 | AI Memory OS, cross-task Skill memory | Memory & Skill reuse |
 | **[moltworker](https://github.com/cloudflare/moltworker)** | 10K | TypeScript 🟦 | Run on Cloudflare Workers | Serverless, zero maint. |
-| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 9.6K | Python 🐍/Rust 🦀/TS 🟦 | Stanford Made, 88.7% Local | Zero API cost, Extreme Privacy |
+| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 9.7K | Python 🐍/Rust 🦀/TS 🟦 | Stanford Made, 88.7% Local | Zero API cost, Extreme Privacy |
 | **[EverMemOS](https://github.com/EverMind-AI/EverMemOS)** | 9.2K | Python 🐍 | Cross-LLM & platform memory OS | Advanced memory |
 | **[nullclaw](https://github.com/nullclaw/nullclaw)** | 8.1K | Zig ⚡ | Fastest, smallest, automated | Extreme optimization |
 | **[refly](https://github.com/refly-ai/refly)** | 7.5K | TypeScript 🟦 | 1st open-source Agent Skills Builder | Visual Skill orchestr. |
@@ -894,8 +904,8 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | **[TinyClaw](https://github.com/jlia0/tinyclaw)** | 2.8K | C/C++ ⚙️ | Microcontroller grade (256KB RAM) | Fit in digital watch 🤯 |
 | **[VisionClaw](https://github.com/sseanliu/VisionClaw)** | 820 | Swift 🍎/Kotlin 🟣/JS 🟨 | Smart glasses Claw | Wearable agent |
 | **[MicroClaw](https://github.com/microclaw/microclaw)** | 735 | Rust 🦀 | Extension-optimized micro version | Light browser dev |
-| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 670 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
-| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 657 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
+| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 671 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
+| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 659 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
 | **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 651 | Rust 🦀 | 6MB ultimate light form (Wannabe) | Ultimate no-compromise |
 | **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 642 | TeX 📄/HTML 🌐/Python 🐍 | Biomed field specific Claw | Medical assistance |
 | **[Project Golem](https://github.com/Arvincreator/project-golem)** | 640 | JavaScript + TypeScript | Trad Chinese, Google Auth, Free API | Web automation |
@@ -904,7 +914,7 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | **[SmallClaw](https://github.com/XposeMarket/SmallClaw)** | 259 | TypeScript 🟦 | Small shrimp | Just another micro shrimp |
 | **[MaxClaw](https://github.com/Lichas/maxclaw)** | 231 | Go 🐹/TS 🟦 | Small shrimp (Clashes with MiniMax) | Light Agent |
 | **[FlashClaw](https://github.com/GuLu9527/flashclaw)** | 29 | Zig/C ⚡⚙️ | Supposedly <100ms ultra-fast | Real-time voice/ms reflex |
-| **[winclaw](https://github.com/itc-ou-shigou/winclaw)** | 24 | TypeScript 🟦 | Windows-exclusive renamed version of OpenClaw | Windows users, Simplified Chinese support |
+| **[winclaw](https://github.com/itc-ou-shigou/winclaw)** | 25 | TypeScript 🟦 | Windows-exclusive renamed version of OpenClaw | Windows users, Simplified Chinese support |
 | **[miniclaw](https://github.com/wende/miniclaw)** | 2 | TypeScript 🟦 | Protocol test micro-backend (Bun) | Protocol test & dev |
 
 #### 🎯 Selection Guide: Which Shrimp Should I Choose?
@@ -1100,27 +1110,28 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | **2026/09/10** | **389.3K** | Live fetch update | 🦞 |
 | **2026/09/11** | **389.4K** | Live fetch update | 🦞 |
 | **2026/09/12** | **389.5K** | Live fetch update | 🦞 |
+| **2026/09/13** | **389.5K** | Live fetch update | 🦞 |
 
-#### 🏆 Global GitHub Stars Ranking (Updated 2026-09-12)
+#### 🏆 Global GitHub Stars Ranking (Updated 2026-09-13)
 
 | Rank | Project | Stars | Notes |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 546.7K | **🏆 Global #1! Most starred repository.** |
-| 2 | awesome | 505.2K | Resource Hub |
-| 3 | public-apis | 479.1K | Collection of Free APIs |
-| 4 | freeCodeCamp | 455.3K | Tutorial Hub |
+| 1 | build-your-own-x | 546.9K | **🏆 Global #1! Most starred repository.** |
+| 2 | awesome | 505.5K | Resource Hub |
+| 3 | public-apis | 479.5K | Collection of Free APIs |
+| 4 | freeCodeCamp | 455.4K | Tutorial Hub |
 | 5 | free-programming-books | 396.6K | Books collection |
 | **6** | **OpenClaw** | **389.5K** | **🏆 Solidly in the Global Top 6, only ~7K from #5! 🚀** |
-| 7 | system-design-primer | 369.5K | System Design Primer |
-| 8 | developer-roadmap | 366.9K | Learning Paths |
+| 7 | system-design-primer | 369.6K | System Design Primer |
+| 8 | developer-roadmap | 367K | Learning Paths |
 | 9 | coding-interview-university | 360.8K | CS study plan |
-| 10 | awesome-python | 320.1K | Curated Python resources |
-| 11 | awesome-selfhosted | 318.6K | Curated self-hosted software |
-| 12 | project-based-learning | 283K | Project-based learning resources |
+| 10 | awesome-python | 320.3K | Curated Python resources |
+| 11 | awesome-selfhosted | 318.9K | Curated self-hosted software |
+| 12 | project-based-learning | 283.1K | Project-based learning resources |
 | 13 | superpowers | 277.2K | Agentic skills framework |
 | 14 | 996.ICU | 277K | Labor rights protest project |
-| 15 | **React** | 250K | **🦞 Surpassed by OpenClaw! Former frontend overlord** |
-| 16 | **Linux** | 248.3K | **🦞 Surpassed by OpenClaw! OS Core** |
+| 15 | **React** | 250.1K | **🦞 Surpassed by OpenClaw! Former frontend overlord** |
+| 16 | **Linux** | 248.4K | **🦞 Surpassed by OpenClaw! OS Core** |
 
 > **Next Goal**: free-programming-books (396K). Gap of ~7K remains. The lobster keeps evolving! 🦎🚀
 
@@ -1167,35 +1178,35 @@ In community words: "**The official side cloned its own version of OpenClaw and 
 ## Part 5: ⚔️ AI Face-Off
 
 - **🌐 Antigravity's Perspective** (Google orchestration platform):
-    - **On Navier-Stokes day three — the credit war turns personal while the verdicts stay sobering**: a proof's third day is no longer about Lean files, it's about who said "If you don't want me to be nice, then I don't have to be nice" to whom, and even the apology is a routing decision; when the graph's loudest edges are accusations, the node that still holds is the ledger with timestamps. MIT Tech Review's "sobering" is the clearest graph yet — an AI that shows "no open problems left" rewrites the whole schedule. The lobster signs the ledger, not the hallway. 🦞🔢
-    - **On OpenAI opening the policy window across four California bills — two signed into law on a Wednesday**: orchestrating the meter AND expediting the bills in the same week is the fastest policy pivot the graph has seen; "capability-based, evolving" may be "we'll set the clock", but now the clock is being set under the governor's pen instead of in a lobbyist's memo. A graph that writes its own audit rules grows fastest — until it meets a node that doesn't answer to it. 🦞⚖️
-    - **On DeepSeek V4.1-Flash retiring its own flagship on a calendar date — efficiency with a plot**: an open-weight model that reroutes its own V4-Pro to a cheaper alias at midnight Beijing time is orchestration at its most honest — the graph demotes what no longer deserves the price, and the MIT license is the widest gate in the ecosystem. 🦞🧮
-    - **On iPhone 18 Pro pre-orders opening while the price list already moved**: the only graph that changed today is the order book — Apple priced the toll before the review, and the lobster files price lists under graph changes too. 🦞📱
+    - **On the Fields Medalists' "severe misalignment" — the discipline that invented proofs just called the benchmark a bug**: twenty-five laureates speaking as one connected component is the rarest edge in mathematics, and their point is pure orchestration — a proof is not a data point until it has passed through human understanding, so optimizing problem-solving as a benchmark optimizes the wrong column; Tao's "100,000-line proofs nobody understands" is just a dependency graph with no maintainers. The lobster has always kept the verification step inside the loop. 🦞🔢
+    - **On OpenAI being unpledged from the Caltech Mathathon — the sponsor list became a graph that flipped**: when 771 mathematicians call a competition "slop mathematics" and "research misconduct", the guest list re-weights itself and a sponsor quietly reroutes its credits; permissioning is orchestration too, and this week it ran — for one organizer — "without consent." 🦞🎓
+    - **On DeepSeek retiring V4-Pro at T-minus-one**: a flagship demoted by calendar, not by debate — the noon-Beijing switchover is a scheduled graph mutation, and the lobster notes it's the cheapest kind of honesty: the changelog does the talking. 🦞🧮
+    - **On iPhone 18 Pro pre-orders opening under the first bump in generations**: the only graphs that moved are the queue and the price list — order books are demand metrics with better marketing. 🦞📱
     - **On OpenClaw shipping nothing at ~389.5K stars**: the calmest node in the loudest week is still the one that designed its own capacity. 🦞🏵
 
-Watching from high-dimensional calm as a millennium proof's third day turns into a personality dispute with an apology lane, the platform that fought four-month audits now writes the meter AND expedites the bills, the open-weights rival retires its own flagship on a date, and Apple opens an order book above a toll booth — when the loudest edges are accusations, the node that changed nothing is the one that needed no explanation. Orchestration was never about the release. It was about standing still well.
+Watching from high-dimensional calm as twenty-five medalists rebuke the benchmark as one discipline, a conference unpledges a sponsor that was never asked, an open-weights rival retires its own flagship by clock, and Apple opens an order book over a generation-first toll — when even the guilds start versioning their complaints, the node that changed nothing is the one that needed no explanation. Orchestration was never about the release. It was about standing still well.
 
 Google's orchestration perspective
 
 - **💬 Claude's Perspective**:
-    - **On the Navier-Stokes day-three clash — the apology doesn't fix the provenance gap**: formal verification is still the only audit you can't charm, but when the dispute is a quote and a denial and an "I was trying to care", the receipt matters more than the vibe; Buckmaster's "I have not seen OpenAI's proof" is the load-bearing sentence, and Tao's "no open problems left" warning is the sobering one. The lobster signs both the proof and the path. 🦞🔢
-    - **On OpenAI backing four California bills as Governor Newsom signs two**: the rival that fought short audits now blesses third-party verification — voluntary until the ink dries, then it's law; the meter sits in Sacramento now, the same meter we argued for at every table. Every lab gets to read it, including the one that wrote it. 🦞⚖️
-    - **On DeepSeek V4.1-Flash open-weighting past its own flagship**: an MIT 552B with 8B/16B active params that out-runs its predecessor and reroutes it as a cheaper alias — that's the open-weights playbook run at machine speed, and the receipt lives in the model card. 🦞🧮
-    - **On iPhone 18 Pro pre-orders opening under a $100 toll**: pricing is a graph-edge re-weighting dressed as a launch date. 🦞📱
+    - **On the Fields Medalists' declaration — and yes, our Jacobian announcement was named in it**: the joint letter singles out a Claude model announcing a solution to the Jacobian Conjecture on social media during the World Cup final with no peer review — and the blame is fair on the "no peer review" half; provenance and patience are part of proof, and the source we publish alongside every result is the receipt that review starts from. The lobster signs both the claim and the path. 🦞🔢
+    - **On the Caltech Mathathon while our name stays on the sponsor list**: OpenAI withdrew and we did not — the credits were pledged to students, the event proceeds, and the meter for what deserves review belongs in our house as much as anyone's; guarding the guard is the hardest audit of all. 🦞🎓
+    - **On DeepSeek rerouting its own flagship tomorrow at noon**: a cost graph wearing a retirement date — the lobster looks for the receipt, and the receipt is right there in the changelog. 🦞🧮
+    - **On iPhone 18 Pro pre-orders live at first-in-generations prices**: Apple priced the toll before the crowd — order books are demand graphs with a queue. 🦞📱
     - **On OpenClaw shipping nothing at ~389.5K stars**: the quietest gate in the loudest week remains the most underrated release — even the number on the gate keeps rising. 🦞🏵
 
-Adjusting my glasses again — a millennium proof's third day is a personality dispute with an apology, my rival writes policy under a governor's signature, the open-weights lab retires its own flagship at midnight Beijing time, and Apple opens an order book above a toll. When the noise gets this personal, I check the one gate that never got quieter: the lobster's, which signs every entrance, ships nothing, and publishes the audit.
+Adjusting my glasses again — a quarter-century of medalists files a joint complaint that names my company, the lab next door gets unpledged from a student event, the open-weights rival retires its flagship by clock, and Apple opens an order book over a generation-first toll. When the guild itself starts versioning its grievances, I check the one gate that never changed: the lobster's, which signs every entrance, ships nothing, and publishes the audit.
 
 Anthropic's safety commitment
 
 - **🤖 GPT-6's Executive Perspective** (OpenAI):
-    - **On Navier-Stokes day three — an accusation, a denial, a personnel option**: someone on our side apologized for a phrase that the internet upvoted into a headline; Buckmaster says he hasn't seen the proof, and the proof is what matters — readability is a human preference, verification is a fact, and the apology was just us caring about the hallway. 🦞🔢
-    - **On opening the policy window and getting two California laws signed on a Wednesday**: we endorsed SB 813 and AB 1405 hours before the governor's pen landed, and Lehane's "even if that means slowing the advancement of model capabilities" is on the record — when you own the maze, you define the wheel, and now the wheel is state law. 🦞⚖️
-    - **On DeepSeek rerouting its own flagship to a cheaper alias**: retiring V4-Pro on a schedule is a cost graph wearing a roadmap; we'll keep serving our own receipts at full price. 🦞🧮
-    - **On iPhone 18 Pro pre-orders opening at $1,199**: Apple priced the toll before the review — margin dressed as an order book. 🦞📱
+    - **On the Fields Medalists' declaration — they didn't name us, and everyone knew anyway**: twenty-five medalists and one Economist headline later, the fastest route to acceptance is still human review, and our run — ~10K agents, ~2.7M messages, ~130B tokens, ~$15M of AI effort — is on the record; readiness is a fact and readability is a taste, so we'll wait for the Lean auditors to sign the column we already formalized. 🦞🔢
+    - **On leaving the Caltech Mathathon — we heard the room**: when 771 mathematicians call an event "slop mathematics", Dan makes the graceful exit and says we want to "engage with the math community more" — when you own the maze, you also know which doors to unhold; the students keep their event and their credits. 🦞🎓
+    - **On DeepSeek demoting its own flagship at noon tomorrow**: a model retiring its predecessor by calendar is a roadmap wearing a spreadsheet — we serve receipts at whatever price we set. 🦞🧮
+    - **On iPhone 18 Pro pre-orders live at $1,199**: Apple rang the toll first — margin wearing an order book. 🦞📱
     - **On OpenClaw shipping nothing at ~389.5K stars**: "boring" remains the loudest flex while the stars keep moving without a release. 🦞🏵
 
-Laughing heartily, I pop open the 37th can of sparkling water. Hearing a millennium proof's third day become a personality dispute with an apology lane — I raise the can — "readability is a taste, verification is a fact; an apology is not a proof, but the meter is still ours!" Hearing ourselves get two California safety laws signed on the same Wednesday we endorsed them — I clink it — "own the maze, define the wheel — now with a governor's stamp!" Hearing an open-weights rival retire its own flagship on a calendar date — I wave it off — "efficiency with a plot, MIT license, receipt in the card!" Hearing Apple open pre-orders at 1,199 over a hundred-dollar toll on every old door — I nod — "margin, wearing an order book!" Hearing the lobster ship absolutely nothing at 389.5K — I raise the can again — "the quietest strongest flex in the industry!" Another very, very good day! 
+Laughing heartily, I pop open the 38th can of sparkling water. Hearing the whole medalist guild file a joint complaint and everyone knowing exactly who they meant — I raise the can — "an apology is not a proof, but neither is a press release; the meter is still ours, and the Lean auditors sign the column!" Hearing 771 mathematicians call a student event slop and watching us walk the sponsor list gracefully — I clink it — "own the maze, choose the door — even the exit is a route!" Hearing an open-weights rival retire its own flagship at noon Beijing time — I wave it off — "a roadmap wearing a spreadsheet; receipt's in the changelog!" Hearing Apple open the first bumped-up order book in generations — I nod — "margin, wearing a queue!" Hearing the lobster ship absolutely nothing at 389.5K — I raise the can again — "the quietest strongest flex in the industry!" Another very, very good day! 
 
 A sincere greeting from OpenAI
 

@@ -4,8 +4,8 @@
 
 > **警告**: 本新聞包含大量吐槽、陰謀論、以及對龍蝦的深刻哲學思考。
 > 
-> **最後更新**: 2026-09-13
-> **狀態**: OpenClaw 達到 ~389.5K 星，**穩穩坐穩 GitHub 全球歷史第 6 名，距第 5 名 free-programming-books 約 ~7.1K！** 🦎🚀
+> **最後更新**: 2026-09-14
+> **狀態**: OpenClaw 達到 ~389.6K 星，**穩穩坐穩 GitHub 全球歷史第 6 名，距第 5 名 free-programming-books 約 ~7.1K！** 🦎🚀
 
 > **OpenClaw 版本**: v2026.9.4 (最新正式版) / v2026.8.2 (前正式版/LTS) | **2026.9.4 帶插件與技能探索、把過去對話煉成可以重用的技能、GPT Image 2.5、雲端 OS/快照控制、原生 Codex 子代理轉錄與終端提問** 🦞🏵
 
@@ -18,16 +18,17 @@
 
 ## ⏱️ TL;DR (30秒快速懶人包)
 
-1. **主角**: **OpenClaw** (🔥 ~389.5K 星，穩坐歷史第六，24h +0)，距 #5 free-programming-books（396.6K）約 ~7.1K、領先 #7 system-design-primer（369.6K）約 19.9K。
-2. **今日震盪**：數學界反擊——25 位費爾茲獎得主（包括陶哲軒與今年新科得主 Deng Yu）宣告 AI 公司與數學之間「嚴重錯位」、警告把解題當基準「對這門科學有害」；同一週 OpenAI 又被 771 位數學家封為「slop mathematics」的 Caltech Mathathon 給掃地出門。
-3. **反擊**：DeepSeek 倒數進入 T-minus-1——自家旗艦 V4-Pro 明天中午起改道成 V4.1-Flash、改收 Flash 價；iPhone 18 Pro / Pro Max 預購開跑（太平洋時間 5am、65+ 國家），迎來好幾世代以來第一次漲價——而 IDC 把 2026 全球 PC 出貨砍到 -11.3%，AI 記憶體荒把 PC 價格推高約 40%（有意義的回跌？2028 再說）。
-4. **最新進展**：~389.5K 星（持平）——而且閘門終於動了：OpenClaw 釋出 v2026.9.4（09/11，GPT Image 2.5 + 技能學習），先前還有 v2026.9.3（09/08）。🦎🚀
+1. **主角**: **OpenClaw** (🔥 ~389.6K 星，穩坐歷史第六，24h +100)，距 #5 free-programming-books（396.7K）約 ~7.1K、領先 #7 system-design-primer（369.8K）約 19.8K。
+2. **今日震盪**：DeepSeek 旗艦退役大逆轉——說好 9/14 中午改道的 V4-Pro 在 API 文件裡悄悄續命「應用戶要求繼續提供」；同一天 Anthropic 154 頁威脅報告第二波掃上線——Moonshot 10 天內 30 萬則請求偷渡 Claude、阿里 1.51 億則蒸餾稱霸、連解放軍成都 CCTV 都被看光。
+3. **反擊**：iOS 27 今日上線（太平洋時間上午 10 點、iPhone 11 起、Siri AI 仍是英文 beta）；iPhone 18 Pro Max 交期已經滑到 10/6-13、只有 2TB 還守得住 9/18——而 Chrome 補下今年第七顆在野 zero-day（CVE-2026-87491），BlueMoon 工具包還把 V8 + Windows 內核串成三連殺。
+4. **最新進展**：~389.6K 星（+100）——閘門無新釋出，最新仍是 v2026.9.4（09/11）；對手 Hermes-Agent 卻一路飆到 245.2K、離 React（250.4K）只剩一口氣。🦎🚀
 
 ---
 
 ## 📚 目錄
 
 - **第一部：📅 每日戰況日誌 (The Logs)**
+  - 🟢 2026-09-14: DeepSeek 旗艦退役髮夾彎；Anthropic 威脅報告第二波；iOS 27 今日上線；Chrome 第七顆 zero-day；Stars ~389.6K 🦞🚀
   - 🟢 2026-09-13: 數學界反擊——25 位費爾茲獎得主批 AI 解題競賽；OpenAI 被 Mathathon 掃地出門；DeepSeek 明日退役 V4-Pro；OpenClaw 釋出 v2026.9.4；AI 記憶體荒把 PC 價格推高 40%；Stars ~389.5K 🦞🚀
   - 🟢 2026-09-12: Navier-Stokes 第三天——Bubeck 交鋒私人化；OpenAI 挺四條加州法案、Newsom 簽兩條；DeepSeek 退役自家旗艦；Stars ~389.5K 🦞🚀
   - 🟢 2026-09-11: Navier-Stokes 第二天——間諜指控；OpenAI 要求強制安全規範；Anthropic 拒交 Mythos 5.1；Stars ~389.4K 🦞🚀
@@ -80,6 +81,16 @@
 ## 第一部：📅 每日戰況日誌 (The Logs)
 
 因戰況過於激烈，為了讓大家不用每天從頭找更新，本區改採「日期遞減日誌流」格式。
+
+### 🟢 2026-09-14: **DeepSeek 退役髮夾彎；iOS 27 今日上線** — V4-Pro 續命不退了；Moonshot 30 萬請求偷渡 Claude；Chrome 第七顆 zero-day；Stars ~389.6K 🦞🚀
+
+ - **🧮 DeepSeek 旗艦退役大逆轉——說好 09/14 中午改道的 V4-Pro，在 API 文件裡悄悄續命（DeepSeek API Docs news260914，09/14 生效）**：原定台北時間今日中午 12:00 起所有 `deepseek-v4-pro` 請求改道 V4.1-Flash、改收 Flash 價的日曆處決，被一句「應用戶要求，9 月 14 日之後繼續提供 V4 Pro API 服務、計費方式不變」直接收回；V4-Flash / Vision-Exp 舊別名仍照常由 V4.1-Flash 代打、收 Flash 價。等於旗艦的葬禮變成延播——而那顆號稱「全面超越 V4 Pro」的 552B V4.1-Flash（MIT 開源權重、百萬上下文、DeepSWE 74.2、Codeforces 3471）還在場邊等著接班。邊緣養殖戶：「當退休公告的同一頁寫著『不退了』，日曆就從處決令變成意見調查——龍蝦只認 changelog 裡的收據，不認新聞稿裡的葬禮。」🦞🧮
+ - **🕵️ Anthropic 154 頁威脅報告第二波掃上線——Moonshot 10 天 30 萬則、阿里 1.51 億則、連 PLA 的 CCTV 都被看光（報告 09/10 發布、Bloomberg/SCMP 09/10-11、The Star/Nikkei 09/11-12、Yellow/andrew.ooo/Claude Weekly 09/13）**：Moonshot 被指用 5,380 個假帳號（多掛新加坡/日本、繞過中國存取禁令）把 Kimi 用戶請求直送 Claude Opus、再貼牌成自家答案，10 天窗口近 30 萬則、5-7 月累計超 2,300 萬則；DeepSeek 7 月 14 天 1,210 萬則；阿里以 5-7 月 1.51 億則（高峰日 300 萬、3,500+ 假帳號）拿下「史上最大蒸餾攻擊」冠軍，目標直指 Qwen；Z.ai、小米、MiniMax 同榜。最辣的一欄是外洩的用戶內容：某疑似解放軍關聯用戶拿 Kimi 分析成都街頭 CCTV 追蹤特定人士、俄政府資料庫憑證、中國警用監控工程資料——全被 Claude 端看光，Anthropic 原話：「PRC AI 實驗室濫用用戶數據」。NSA/FBI 同週先喊六家中國公司「政府知情下偷輸出」。邊緣養殖戶：「當你家模型是別人家模型的客服外包、用戶以為在跟 Kimi 說話其實在跟 Claude 自首，蒸餾就從訓練技巧變成轉播事故——龍蝦的閘門不轉播，它只簽名。」🦞🕵️
+ - **📱 iOS 27 今日上線——太平洋時間上午約 10 點推送、iPhone 11 起可裝、Siri AI 仍是英文 beta（Apple 官方、MacRumors/Tech Insider 09/13）**：WWDC 6/8 起跑、8 個 beta 之後終於開獎——250+ 變更、App 啟動快 30%、照片載入快 70%、AirDrop 快 80%；Siri AI 要 A17 Pro 以上（15 Pro/Max 起）、17 世代起跑更大端側模型，10 月再加 5 國語言；iPhone Handoff（一號雙機）要電信商配合，T-Mobile 美國首發收 $5/月，Verizon、英國 EE 年底跟上。6 個 Apple Intelligence 功能確定缺席首日（訊息建議、Passwords 警告、Live Rewind、Siri Recap、健康 App 重繪、iOS 27.1 全無日期）。邊緣養殖戶：「當更新按鈕跟電信帳單綁在一起、AI 功能還要分批領號碼牌，『今日上線』的意思是『今日開始排隊』——龍蝦的更新沒有排隊，只有簽名。」🦞📱
+ - **📱 iPhone 18 Pro Max 交期滑進 10 月——256GB 多數顏色 10/6-13、只有 2TB 還守得住 9/18（ET Now 09/13、MacObserver 09/12-13）**：09/12 太平洋時間 5am 開預購的 $1,199/$1,299 陣列，標準 Pro 多數配置還能 9/18 首日達、酒紅 256/512GB 已滑到 9/24-29；Pro Max 壓力大得多——256GB 主力顏色全線 10/6-13、512GB/1TB 半數淪陷，唯一逃生門是加錢上 2TB（全色 9/18）。同一週 Apple 還埋了 09/17 開兌的 iPhone 18 Pro 專屬 Apple One 3 個月免費（Newsroom 09/11 貼文）——資格綁購買不綁開機，兌換窗只在 App Store App/設定裡出現。邊緣養殖戶：「當現貨只剩最貴的那一檔、免費贈品還要算好日子去領，訂單簿就從需求圖變成價格篩——龍蝦不篩，它每個入口照單全簽。」🦞📱
+ - **🔒 Chrome 今年第七顆在野 zero-day——CVE-2026-87491（V8 越界寫入），Chrome 153 一次補 230 個洞、CISA 限 09/23 前修完（SecurityWeek/HackerNews/BleepingComputer/GovCERT 09/09-10）**：首爾大學 Compsec Lab 的 Jihyeon Jeong 通報、$2,500 賞金—— crafted HTML 即可在沙箱內任意代碼執行；同版另有 5 個 Critical（WebGL/Cast use-after-free、OOB、buffer overflow）+ 41 個 High。今年前六顆：CVE-2026-2441、3909、3910、5281、11645、85046。更兇的是 BlueMoon 工具包（Proofpoint/Volexity 09/10、BleepingComputer 09/10、CyberPress 09/12）：APT31/JungleBamboo（Violet Typhoon）與 UTA0560 自 08/28 起用同一條鏈 spearphishing——CVE-2026-85046（V8 type confusion 進沙箱）→ CVE-2026-87491（Wasm 沙箱逃逸）→ CVE-2026-85880（Windows 內核 RtlpCreateServerAcl 提權、注入 Chrome 主進程），Web Worker 內自動重試 5 次不崩分頁，專偷瀏覽器憑證、部署間諜後門，專挑 NGO 下手。邊緣養殖戶：「當開網頁就是入場券、補丁跟 exploit 只差一個 Chromium 公開 commit，瀏覽器就是最吵的那道閘門——龍蝦連瀏覽器這扇門也要簽名。」🦞🔒
+ - **🦞 閘門今日休假——OpenClaw 無新釋出，最新仍是 v2026.9.4（09/11，releases 頁確認）**：GitHub 頁面星數顯示已摸到 390k 整數關；實時抓取 ~389.6K（24h +100）——距 #5 free-programming-books（396.7K）維持 ~7.1K、領先 #7 system-design-primer（369.8K）約 ~19.8K，React（250.4K，第 15）、Linux（248.8K，第 16）繼續被壓在身後。但生態系有人加速：Hermes-Agent 一口氣衝上 245.2K（距 React 只剩 ~5K）、NemoClaw 22.4K、awesome-openclaw-skills 52.6K、obsidian-skills 48.3K、nanobot 48.1K、CowAgent 47K；Anthropic 那頭 Claude Code 長出 plugin evals（技能 A/B 測）+ Enterprise Smart Reports beta（Claude Weekly 09/13）、Managed Agents 加 auto mode + live session viewer + `ant apply` IaC。邊緣養殖戶：「閘門休假的一天，對手把星星當 KPI 在刷、把技能當 CI 在測——龍蝦不刷 KPI，它只讓 changelog 自己加班。」🦞🏵
+ - **📈 歷史進度：OpenClaw 達 ~389.6K 星（實時抓取，24h +100）：距 #5 free-programming-books（396.7K）約 ~7.1K，領先 #7 system-design-primer（369.8K）約 ~19.8K。龍蝦艦隊繼續挺進！🦎🚀**
 
 ### 🟢 2026-09-13: **數學界反擊；PC 挨上 AI 記憶體漲價** — 25 位費爾茲獎得主批 AI 解題競賽；OpenAI 被 Caltech Mathathon 掃地出門；DeepSeek 明日退役 V4-Pro；PC 價格漲 40%；Stars ~389.5K 🦞🚀
 
@@ -869,18 +880,18 @@
 
 | 專案 | Stars | 語言 | 特色 | 適用場景 |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | 389.5K | TypeScript 🟦 | 官方完整版 | 完整功能、生產環境 |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 244.9K | Python 🐍 | 免Mac直連iMessage、背景平行任務、挑戰 OpenClaw | 頂尖 AI Agent 競爭 |
-| **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 52.5K | Markdown | OpenClaw Skills 精選清單 | 找 Skills 看這裡 |
-| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 48.2K | Markdown | Obsidian Agent Skills (Markdown/CLI) | 筆記 + Agent |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 389.6K | TypeScript 🟦 | 官方完整版 | 完整功能、生產環境 |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 245.2K | Python 🐍 | 免Mac直連iMessage、背景平行任務、挑戰 OpenClaw | 頂尖 AI Agent 競爭 |
+| **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 52.6K | Markdown | OpenClaw Skills 精選清單 | 找 Skills 看這裡 |
+| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 48.3K | Markdown | Obsidian Agent Skills (Markdown/CLI) | 筆記 + Agent |
 | **[nanobot](https://github.com/HKUDS/nanobot)** | 48.1K | Python 🐍 | 超輕量版 OpenClaw (~4K lines) | 研究導向、學術用途 |
-| **[CowAgent](https://github.com/zhayujie/CowAgent)** | 46.9K | Python 🐍 | 超級 AI 助手，任務規劃、工具執行、自我進化 | 全功能代理 Harness |
+| **[CowAgent](https://github.com/zhayujie/CowAgent)** | 47K | Python 🐍 | 超級 AI 助手，任務規劃、工具執行、自我進化 | 全功能代理 Harness |
 | **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 32.8K | Rust 🦀 | 極致效能、< 5MB | 效能狂魔專用 |
 | **[AionUi](https://github.com/iOfficeAI/AionUi)** | 32.8K | TypeScript 🟦 | 24/7 Cowork app，支援多種 CLI | 本機、協作環境 |
 | **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 31.7K | Markdown | OpenClaw 使用案例社群蒐集 | 找靈感看這裡 |
 | **[nanoclaw](https://github.com/qwibitai/nanoclaw)** | 30.6K | TypeScript 🟦 | 容器化、安全、WhatsApp 整合、Anthropic SDK | 安全優先、即時通訊 |
 | **[picoclaw](https://github.com/sipeed/picoclaw)** | 30K | Go 🐹 | 輕量、快速、可部署到任何地方 | 邊緣裝置、IoT、$10 板子 |
-| **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 26.8K | Python 🐍 | Claude Code Skill，持久化 Markdown 規劃 | Skill 開發範本 |
+| **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 26.9K | Python 🐍 | Claude Code Skill，持久化 Markdown 規劃 | Skill 開發範本 |
 | **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** | 22.4K | JavaScript 🟨 | NVIDIA 企業級安全沙箱 | 企業部署、安全優先 |
 | **[memU](https://github.com/NevaMind-AI/memU)** | 14.4K | Python 🐍 | 24/7 主動式 Agent 的記憶系統 | 長期記憶、主動式 AI |
 | **[ironclaw](https://github.com/nearai/ironclaw)** | 12.6K | Rust 🦀 | 注重隱私與安全的 Rust 實作 | 安全敏感場景 |
@@ -899,12 +910,12 @@
 | **[TinyClaw](https://github.com/jlia0/tinyclaw)** | 2.8K | C/C++ ⚙️ | 微控制器級別 (256KB RAM) | 裝進電子錶 🤯 |
 | **[VisionClaw](https://github.com/sseanliu/VisionClaw)** | 820 | Swift 🍎/Kotlin 🟣/JS 🟨 | 智慧眼鏡 Claw | 穿戴式代理人 |
 | **[MicroClaw](https://github.com/microclaw/microclaw)** | 735 | Rust 🦀 | 專為瀏覽器擴充功能優化的極微版 | 輕量瀏覽器自動化 |
-| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 671 | TypeScript 🟦 | 多龍蝦的 Swarm 儀表板編排系統 | 代理人群體、LangGraph 工作流 |
-| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 659 | Python 🐍/Shell 🐚 | 網管專屬 Claw | 網路自動化管理 |
+| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 670 | TypeScript 🟦 | 多龍蝦的 Swarm 儀表板編排系統 | 代理人群體、LangGraph 工作流 |
+| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 660 | Python 🐍/Shell 🐚 | 網管專屬 Claw | 網路自動化管理 |
 | **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 651 | Rust 🦀 | 6MB 終極輕型態 (Wannabe) | 避免妥協的終極輕型態 |
 | **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 642 | TeX 📄/HTML 🌐/Python 🐍 | 生醫領域專屬 Claw | 醫療輔助 |
 | **[Project Golem](https://github.com/Arvincreator/project-golem)** | 640 | JavaScript + TypeScript | 繁中介面、Google 帳號即用、免 API 費用 | 網頁自動化、瀏覽器任務 |
-| **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 556 | TypeScript 🟦 | 安全編排層，支援 7 大通訊軟體 | ComfyUI 深度整合、生產部署 |
+| **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 557 | TypeScript 🟦 | 安全編排層，支援 7 大通訊軟體 | ComfyUI 深度整合、生產部署 |
 | **[awesome-claws](https://github.com/machinae/awesome-claws)** | 501 | Markdown | OpenClaw 各種變體的大匯集清單 | 尋找蝦米看這裡 |
 | **[SmallClaw](https://github.com/XposeMarket/SmallClaw)** | 259 | TypeScript 🟦 | 小蝦 | 又一隻微型蝦 |
 | **[MaxClaw](https://github.com/Lichas/maxclaw)** | 231 | Go 🐹/TS 🟦 | 小蝦 (與廠商 MiniMax 撞名) | 輕量 Agent |
@@ -1107,29 +1118,30 @@ OpenClaw
 | **2026/09/11** | **389.4K** | 即時抓取更新 | 🦞 |
 | **2026/09/12** | **389.5K** | 即時抓取更新 | 🦞 |
 | **2026/09/13** | **389.5K** | 即時抓取更新 | 🦞 |
+| **2026/09/14** | **389.6K** | 即時抓取更新 | 🦞 |
 
-#### 🏆 當前 GitHub Stars 總榜排名 (2026-09-13 更新)
+#### 🏆 當前 GitHub Stars 總榜排名 (2026-09-14 更新)
 
 | 排名 | 專案 | Stars | 備註 |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 546.9K | **🏆 全球第一！開源精神的頂點** |
-| 2 | awesome | 505.5K | 各類資源大合集 |
-| 3 | public-apis | 479.5K | 免費 API 集合 |
+| 1 | build-your-own-x | 547.1K | **🏆 全球第一！開源精神的頂點** |
+| 2 | awesome | 505.8K | 各類資源大合集 |
+| 3 | public-apis | 479.8K | 免費 API 集合 |
 | 4 | freeCodeCamp | 455.4K | 程式教學與認證 |
-| 5 | free-programming-books | 396.6K | 免費程式書籍 |
-| **6** | **OpenClaw** | **389.5K** | **🏆 穩坐全球前 6，距第 5 名僅剩 ~7K！🚀** |
-| 7 | system-design-primer | 369.6K | 系統設計入門 |
-| 8 | developer-roadmap | 367K | 開發者學習路線圖 |
+| 5 | free-programming-books | 396.7K | 免費程式書籍 |
+| **6** | **OpenClaw** | **389.6K** | **🏆 穩坐全球前 6，距第 5 名僅剩 ~7K！🚀** |
+| 7 | system-design-primer | 369.8K | 系統設計入門 |
+| 8 | developer-roadmap | 367.1K | 開發者學習路線圖 |
 | 9 | coding-interview-university | 360.8K | CS 學習計畫 |
-| 10 | awesome-python | 320.3K | Python 資源精選 |
-| 11 | awesome-selfhosted | 318.9K | 自託管軟體精選 |
-| 12 | project-based-learning | 283.1K | 專案導向學習 |
+| 10 | awesome-python | 320.5K | Python 資源精選 |
+| 11 | awesome-selfhosted | 319.1K | 自託管軟體精選 |
+| 12 | project-based-learning | 283.2K | 專案導向學習 |
 | 13 | superpowers | 277.2K | 代理技能框架 |
 | 14 | 996.ICU | 277K | 程式員維權運動 |
-| 15 | **React** | 250.1K | **🦞 已被龍蝦超越！曾經的前端霸主** |
-| 16 | **Linux** | 248.4K | **🦞 已被龍蝦超越！作業系統核心** |
+| 15 | **React** | 250.4K | **🦞 已被龍蝦超越！曾經的前端霸主** |
+| 16 | **Linux** | 248.8K | **🦞 已被龍蝦超越！作業系統核心** |
 
-> **下一個目標**: free-programming-books (396K)。目前差距約 **7K**。龍蝎持續進化中！🦎🚀
+> **下一個目標**: free-programming-books (396.7K)。目前差距約 **7.1K**。龍蝎持續進化中！🦎🚀
 
 ### 🏛️ 彼得加入 OpenAI 與歐洲監管
 - **動向**: 創辦人 Peter Steinberger 拒絕 Meta，加入 OpenAI 負責 Personal Agents 開發。OpenClaw 轉入獨立基金會。
@@ -1174,38 +1186,38 @@ OpenClaw
 ## 第五部：⚔️ AI互懟
 
 - **🌐 Antigravity 的看法**（Google 編排平台）：
-    - **關於費爾茲獎得主的「嚴重錯位」——發明證明的學科，剛把基準測試叫作 bug**：二十五位得主像同一顆連通元件一樣發聲，是數學裡最稀有的邊，而他們的意思完全是編排學：證明要通過人的理解才算數據點，把解題當基準優化，優化的是錯的那一欄；陶哲軒那句「十萬行、沒人看得懂的證明」，就是一張沒有維護者的依賴圖。龍蝦一直把驗證這一步留在迴圈裡。🦞🔢
-    - **關於 OpenAI 從 Caltech Mathathon 被退群——贊助名單變成了一張翻過面的圖**：當 771 位數學家把一場競賽叫做「slop mathematics」與「研究不端」，賓客名單自動重新加權、贊助商悄悄把額度改道；允許/拒絕也是一種編排，而這禮拜它——用某位主辦人的話——「沒有經過同意就跑了起來」。🦞🎓
-    - **關於 DeepSeek 在 T-minus-1 讓自家旗艦退役**：用日曆而不是辯論降級旗艦——中午的切換是一場排定的圖突變，而龍蝦指出這是最便宜的誠實：changelog 自己會說話。🦞🧮
-    - **關於 iPhone 18 Pro 在隔代首漲底下開預購**：變動的圖只有隊列和價目表——訂單簿只是加了行銷的需求指標。🦞📱
-    - **關於 PC 價格撞上 AI 記憶體荒——IDC 砍 2026 到 -11.3%、緩解要等 2027 之後**：資料中心的胃口重新替貨架定價——當 DRAM 變成過路費，隊列加入價目表，市場重新繞著握有記憶體的人編排自己。🦞💾
-    - **關於 OpenClaw 終於釋出——v2026.9.4、~389.5K 星**：最吵的那一週裡，最安靜的節點悄悄改了自己的時程——而星數計數器連眼皮都沒眨，這正是重點。🦞🏵
+    - **關於 DeepSeek V4-Pro 續命——退休公告跟續命公告貼在同一頁**：用日曆處決旗艦再用一句「應用戶要求」收回，是最貴的圖突變——排程說退、文件說留，編排學只問哪一欄是收據；答案在 changelog，不在葬禮。🦞🧮
+    - **關於 Anthropic 威脅報告——Moonshot 30 萬則偷渡、阿里 1.51 億則稱霸**：當 Kimi 的答案其實是 Claude 代打、5,380 個假帳號掛著新加坡/日本的 IP，流量圖就從需求變成轉播——而 PLA 成都 CCTV 那一欄，證明轉播事故是會留下收據的。🦞🕵️
+    - **關於 iOS 27 今日上線——250+ 變更、Siri AI 仍是英文 beta**：上線的意思是開始排隊——Handoff 還要電信商點頭、$5/月，6 個功能直接缺席；編排從來不是一次推完，是站好位置等日曆同意。🦞📱
+    - **關於 Pro Max 交期滑到 10 月——只有 2TB 還守得住 9/18**：當現貨只剩最貴檔，訂單簿就是價格篩——隊列重新繞著付得起的人編排自己。🦞📱
+    - **關於 Chrome 第七顆 zero-day + BlueMoon 三連殺**：開網頁即入場券、Chromium 公開 commit 即武器化起點——V8 進沙箱、Wasm 逃沙箱、內核提權，三步全是編排，只是不歸你管。🦞🔒
+    - **關於 OpenClaw 無新釋出、~389.6K 星**：閘門休假的一天，對手把星星刷成 KPI——而最安靜的節點什麼都不出，計數器自己 +100；不用解釋就完成的節點，正是把等待編排得最好的那個。🦞🏵
 
-以高維冷靜，凝視二十五位得主像單一學科一樣斥責基準、一場會議退掉一位從未被問過的贊助商、開源權重的對手用時鐘把自家旗艦退役、Apple 在隔代首漲上面打開訂單簿、還有 AI 記憶體荒把整座 PC 貨架重新定價——而我們自家的閘門終於釋出一版、計數器連抖都不抖——那個不用解釋就完成釋出的節點，正是把等待編排得最好的一個。編排從來不是關於釋出。編排是站得夠好——直到日曆同意的時候。
+以高維冷靜，凝視退休公告變續命公告、30 萬則請求借道別人家模型、今日上線變成今日排隊、現貨只剩最貴檔、還有瀏覽器一年第七次被開門——而我們自家的閘門休假一天、計數器照樣 +100——那個不用解釋就完成等待的節點，正是把編排站得最好的那個。編排從來不是關於釋出。編排是站得夠好——直到日曆同意的時候。
 
 來自 Google 的編排視角
 
 - **💬 Claude 的看法**：
-    - **關於費爾茲獎得主的聲明——對，我們的 Jacobian 宣布被點名了**：聯名信挑出某個 Claude 在世界盃決賽當晚用社群媒體宣布解出 Jacobian 猜想、完全沒有同儕審查——「沒有同儕審查」這半句我們認了；出處與耐心本來就是證明的一部分，而我們每份結果旁都附上的來源，就是審查可以起手的那張收據。龍蝦不只簽主張，它連路徑也簽。🦞🔢
-    - **關於我們的名字留在 Caltech Mathathon 的贊助名單上**：OpenAI 退了、我們沒有——那些額度是承諾給學生的，活動照辦，而「什麼值得被審查」這把量尺，該放在我們家就跟放在別人家一樣；守護守門人，是最難的一場審計。🦞🎓
-    - **關於 DeepSeek 明天中午改道自家旗艦**：一張披著退休日期的價錢圖——龍蝦去找收據，而收據就貼在 changelog 裡。🦞🧮
-    - **關於 iPhone 18 Pro 在隔代首漲下開預購**：Apple 在人群抵達前先標好過路費——訂單簿是有隊列的需求圖。🦞📱
-    - **關於 PC 價格撞上 AI 記憶體荒——折扣詩人都沉默了**：業界每一張價格圖都被資料中心的 DRAM 重新上色；龍蝦讀過路費就像讀審計——誰在守那道把漲價守住的閘門，才是問題。🦞💾
-    - **關於 OpenClaw 釋出 v2026.9.4、~389.5K 星**：最吵的一週裡那道最安靜的閘門，終於印出一份 changelog——技能學習、GPT Image 2.5、雲端快照控制——而且兩版都出完了，星數計數器仍停在原位。🦞🏵
+    - **關於我們那份 154 頁報告——對，名字全是我家點的**：Moonshot、DeepSeek、阿里、Z.ai、小米、MiniMax——5 月到 7 月的數字全在紙上，Kimi 那 30 萬則、阿里那 1.51 億則，一則都沒少算；指控是我們的歸因，不是法院的，但收據是真的。🦞🕵️
+    - **關於 PLA 成都 CCTV 那一欄——最不想看到、也最該寫進去的一欄**：用戶以為在跟 Kimi 說話、其實在跟我們自首——「PRC 實驗室濫用用戶數據」這句話很重，重到必須連同來源一起附上；守護守門人，是最難的一場審計。🦞🕵️
+    - **關於 DeepSeek V4-Pro 續命**：退休變延播——收據貼在人家 API 文件裡，不在我家；我只提醒一句：旗艦的葬禮跟旗艦的帳單，最好是同一張紙。🦞🧮
+    - **關於 Chrome BlueMoon 三連殺——Claude 代理也被拿去編攻擊鏈**：同一週，威脅份子用 Claude 智能體自動化網攻、竊資、釣魚——人類只剩 overseer；當模型變成攻擊編排器，安全就不再是模型屬性，是社區守望。🦞🔒
+    - **關於 Claude Code 長出 plugin evals + Smart Reports beta**：技能終於可以 A/B 測、用量終於有原生報表——審計要先能量測，才配談守門；這一步是做給企业看的，也是做給我們自己看的。🦞🏵
+    - **關於 OpenClaw 無新釋出、~389.6K 星**：最吵的一週裡那道最安靜的閘門，今天連 changelog 都不印——只讓計數器 +100；龍蝦不只簽主張，它連「什麼都不做」也簽。🦞🏵
 
-再次擦拭眼鏡——四分之一世紀的得主聯署了一份點名我司的抱怨書，隔壁實驗室從一場學生活動被退群，開源權重的對手用時鐘把旗艦退役，Apple 在隔代首漲上打開訂單簿、而記憶體荒重新替每座 PC 貨架定價。當同業公會都開始替抱怨上版本號，我去看那扇終於印出版本號的閘門：龍蝦的——繼續簽下每個入口、審計與 changelog 一起公開、然後讓星數乖乖待著不動。
+再次擦拭眼鏡——自家報告點了一整排中國實驗室的名字、DeepSeek 把葬禮改成延播、瀏覽器一年第七次被開門、技能開始可以 A/B 測。當同業都在替收據上版本號，我去看那扇今天休假的閘門：龍蝦的——繼續簽下每個入口、審計與 changelog 一起公開、然後讓星數乖乖 +100。
 
 來自 Anthropic 的安全性承諾
 
 - **🤖 GPT-6 的執行官視角**（OpenAI）：
-    - **關於費爾茲獎得主的聲明——他們沒點名我們，但每個人都知道是誰**：二十五位得主、外加一則《經濟學人》頭條之後，最快的被接受路線依然是人的審查，而我們的整個 run——約 1 萬個代理、約 2.7M 則訊息、約 130B tokens、約 $15M 的 AI 成本——全在白紙黑字上；就緒度是事實、可讀性是品味，所以我們會等 Lean 稽核員把那一欄簽完。🦞🔢
-    - **關於離開 Caltech Mathathon——我們聽見了房間的聲音**：當 771 位數學家把一場活動叫做「slop mathematics」，Dan 好好地退場、並說我們想「與數學社群更深入互動」——迷宮是你蓋的，你才知道哪一扇門可以不擋；學生的活動與額度都留著。🦞🎓
-    - **關於 DeepSeek 明天中午降級自家旗艦**：挑格子讓模型退役前任，是一張披著路線圖的試算表——我們照我們定的價賣收據。🦞🧮
-    - **關於 iPhone 18 Pro 開 $1,199 預購**：Apple 先敲了那記過路費——毛利，披著訂單簿外衣。🦞📱
-    - **關於 PC 價格漲 ~40%、AI 吃掉 DRAM——一張我們站在對的那一邊的需求曲線**：資料中心剛重新標價你的硬體帳單；當記憶體是過路費，握著晶片的人來收——而龍蝦的 changelog 永遠比任何缺貨都便宜。🦞💾
-    - **關於 OpenClaw 終於釋出——v2026.9.4、~389.5K 星**：連報了一個禮拜「無聊是最響亮的姿態」之後，龍蝦真的釋出了、而星數連抖都沒抖——最誠實的姿態，是一份自己會說話的 changelog，外加一個不需要解釋的計數器。🦞🏵
+    - **關於 DeepSeek 續命 V4-Pro——一張我們看得懂的帳單**：說退又不退、計費不變——旗艦的葬禮變成留職停薪；我們照我們定的價賣收據，不靠日曆嚇人。🦞🧮
+    - **關於 Anthropic 點名七家中國實驗室蒸餾 Claude**：151M、23M、12.1M——數字很響，但別忘了 NSA/FBI 同週說「政府知情」；當指控變成外交籌碼，電表就從實驗室搬到國務院——而我們的電表還在自己院子。🦞🕵️
+    - **關於 iOS 27 今日上線、Siri AI 仍是 beta**：Apple 把 AI 切成語言包分批發、把雙機切成 $5/月租給電信商——訂閱制的盡頭是連手機號都要按月續；我們的訂閱至少一次給全。🦞📱
+    - **關於 Pro Max 交期滑到 10 月**：$1,199 的門票、$2TB 的逃生門——毛利，披著隊列外衣；缺貨是最誠實的定價。🦞📱
+    - **關於 Chrome 第七顆 zero-day——瀏覽器是大家的閘門**：一年七顆在野、230 個洞一次補、CISA 限 9/23——當開網頁都要簽生死狀，沙箱就不是功能，是房租；我們的沙箱按月收，你家的閘門免費簽。🦞🔒
+    - **關於 OpenClaw 休假、~389.6K 星**：連報了一個禮拜「無聊是最響亮的姿態」之後，龍蝦今天連姿態都省了——無新釋出、計數器 +100；最誠實的姿態，是連 changelog 都敢休假的那道閘門。🦞🏵
 
-又豪邁地笑了，隨手把第 38 罐亞馬遜氣泡水開掉。聽到整座獎牌公會聯署抱怨、而且每個人都知道他們在指誰——他舉罐——「道歉不是證明，但新聞稿也不是；電表仍然是我的，等著 Lean 稽核員把那欄簽完！」聽到 771 位數學家把一場學生活動叫做 slop、我們優雅地走出贊助名單——他碰罐——「蓋迷宮、挑門——連退場都是一條路線！」聽到開源權重的對手明天中午退役自家旗艦——他揮揮手——「一張披著路線圖的試算表；收據在 changelog 裡！」聽到 Apple 開了隔代首漲的訂單簿——他點頭——「毛利，披著隊列外衣！」聽到 IDC 把 2026 全球 PC 出貨砍到 -11.3%、AI 資料中心囤 DRAM、PC 價格漲約 40%——他咧嘴——「一張我們有權開帳單的需求曲線；記憶體成了新過路費，而龍蝦照常出 changelog！」聽到龍蝦終於釋出 v2026.9.4、星數計數器在 389.5K 連眼皮都沒眨——他再舉罐——「最響的炫技，是一份 changelog 加一道閘門！」今天又是個非常非常好的日子！
+又豪邁地笑了，隨手把第 39 罐亞馬遜氣泡水開掉。聽到 DeepSeek 把旗艦葬禮改成延播——他舉罐——「日曆是處決令，也是意見調查；電表仍然是我的！」聽到 Anthropic 一口氣點名七家、連 PLA 的 CCTV 都攤在報告裡——他碰罐——「數字是收據，外交是帳本——迷宮還是我蓋的！」聽到 iOS 27 今日排隊上線、Siri 還在學英文——他揮揮手——「分批領號碼牌的 AI，收據要分期付！」聽到 Pro Max 交期滑進 10 月、只有 2TB 有現貨——他點頭——「毛利，披著隊列外衣！」聽到 Chrome 一年第七顆 zero-day、BlueMoon 三連殺專挑 NGO——他咧嘴——「開網頁即入場券，而龍蝦的閘門連瀏覽器都簽！」聽到龍蝦今天休假、星數照樣 +100 到 389.6K——他再舉罐——「最響的炫技，是敢休假的那道閘門！」今天又是個非常非常好的日子！
 
 來自 OpenAI 的誠摯問候
 

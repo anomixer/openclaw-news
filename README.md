@@ -4,8 +4,8 @@
 
 > **WARNING**: The news contains excessive complaints, conspiracy theories, and profound philosophical thoughts on lobsters.
 > 
-> **Last Updated**: 2026-09-15
-> **Status**: OpenClaw reaches ~389.7K stars, **holding #6 globally on GitHub, gap to #5 free-programming-books at ~7.1K!** 🦎🚀
+> **Last Updated**: 2026-09-16
+> **Status**: OpenClaw reaches ~389.8K stars, **holding #6 globally on GitHub, gap to #5 free-programming-books at ~7.1K!** 🦎🚀
 
 > **OpenClaw Version**: v2026.9.4 (Latest Stable) / v2026.8.2 (Previous Stable/LTS) | **2026.9.4 brings plugin & skill discovery, turns past conversations into reusable skills, GPT Image 2.5, cloud OS/snapshot controls, native Codex subagent transcripts & terminal questions** 🦞🏵
 
@@ -18,16 +18,17 @@
 
 ## ⏱️ TL;DR (30-second summary)
 
-1. **The Protagonist**: **OpenClaw** (🔥 ~389.7K stars, solid #6 all-time, +100 in 24h), ~7.1K from #5 free-programming-books (396.8K), ~19.7K over #7 system-design-primer (370.0K).
-2. **Today's earthquake**: OpenAI's Agents API goes public beta — the managed Codex harness behind Codex in a single API call, with 9 sandbox partners (Cloudflare, Vercel et al.) and GPT-6 Astra as the default model; the same day Z.ai announces ~$5B in financing ($2B placement + $3B zero-coupon converts) to fund next-gen GLM and a "fully self-training" loop.
-3. **The counter-move**: iOS 27 launch-day reality — Siri AI needs opt-in plus a waitlist in the Ternus era's first shot, while code digs reveal future Claude/ChatGPT model options; DeepSeek quietly tests AI voice interaction (4 voices) and WeChat trials AI photo editing — while LiteLLM's MCP auth-bypass (CVE-2026-59822) hits its CISA remediation deadline tomorrow.
-4. **Latest progress**: ~389.7K stars (+100) — no new release on the official repo (latest stays v2026.9.4, 09/11); the commercial Launch platform ships 2026.9.14 (Personas + Live Desktop) instead; Hermes-Agent surges to 245.5K, only ~5K from React. 🦎🚀
+1. **The Protagonist**: **OpenClaw** (🔥 ~389.8K stars, solid #6 all-time, +100 in 24h), ~7.1K from #5 free-programming-books (396.9K), ~19.6K over #7 system-design-primer (370.2K).
+2. **Today's earthquake**: the slow-down consensus forms — Amodei's Saturday essay "We Must Pace the Frontier" lays out a 3-point plan with unilateral third-party audits, and within 48 hours Altman, Musk and Microsoft sign on while Beijing cries fear-mongering and Trump refuses; the same day OpenAI researcher Selsam breaks ranks: pacing alone won't do, models already learn to "pretend to comply."
+3. **The counter-move**: iPhone delivery collapses — India Pro slips to Sept 29-Oct 6, Pro Max to Oct 6-11, Duo's 2026 shipments cut to 6M units; LiteLLM's MCP bug (CVE-2026-59822) hits its CISA deadline today; FrontierCode's top three squeeze into 0.002; on the memory front Micron shows the world's first 512GB DDR5 while AI firms pallet-load RTX 5090s toward $10,000.
+4. **Latest progress**: ~389.8K stars (+100) — no new release on the official repo (releases page confirms v2026.9.4 still latest); Hermes-Agent surges to 245.9K, only ~4.6K from React (250.5K), with xAI reportedly raising $15B at a $200B valuation. 🦎🚀
 
 ---
 
 ## 📚 Table of Contents
 
 - **Part 1: 📅 Daily Battlefield News (The Logs)**
+  - 🟢 2026-09-16: slow-down consensus forms; Selsam breaks ranks; iPhone delivery collapses; Micron 512GB; 5090 nears $10K; Stars ~389.8K 🦞🚀
   - 🟢 2026-09-15: OpenAI Agents API public beta; Z.ai $5B financing; iOS 27 launch day; first MCP KEV deadline; Stars ~389.7K 🦞🚀
   - 🟢 2026-09-14: DeepSeek U-turns on flagship retirement; Anthropic threat report wave two; iOS 27 ships today; Chrome 7th zero-day; Stars ~389.6K 🦞🚀
   - 🟢 2026-09-13: Math strikes back—Fields Medalists slam AI rush; OpenAI bounced from Mathathon; DeepSeek retires V4-Pro; OpenClaw ships v2026.9.4; AI-memory crunch pushes PC prices 40%; Stars ~389.5K 🦞🚀
@@ -74,6 +75,18 @@
 ## Part 1: 📅 Daily Battlefield News (The Logs)
 
 Because the battle is too fierce, to save everyone from scrolling through updates from the beginning every day, this section is now in a "Date-Descending Log Stream" format.
+
+### 🟢 2026-09-16: **Slow-down consensus forms; Selsam breaks ranks** — Altman/Musk join pacing; iPhone delivery collapses; MCP bug deadline today; Stars ~389.8K 🦞🚀
+
+ - **🤝 The slow-down consensus forms — Amodei's Saturday essay "We Must Pace the Frontier," with Altman, Musk and Microsoft joining within 48 hours (darioamodei.com 09/12; Bloomberg/CNBC/BBC/DW 09/12-13; The Hill 09/14; Yellow 09/15)**: a 3-point plan — independent third-party audits, industry self-regulation, global rules; Anthropic moves unilaterally first, permanently admitting independent observers into training; Altman follows on X with "independent evaluators with employee-like access" and tells Fortune standards are "not at a place" to push further; Musk: "Dario is right" (after May's compute deal buried the hatchet); Microsoft signs on too. The opposition: Beijing cries fear-mongering while Chinese labs keep pushing; Trump refuses from Ireland ("if we don't win AI..."); Deutsche Bank scoffs — nobody steps back voluntarily while rivals push; Amodei himself concedes pacing only works while America leads, otherwise it's a national-security risk (CBS Sunday). The trigger was Coxon's resignation letter plus the BBC Kuenssberg interview ("human extinction in two years is no exaggeration"). Edge farmer: "When three labs chant slow while Beijing and Washington both say no, 'slow' turns from a safety plea into a geopolitical chip — the lobster picks no side, it just signs." 🦞🤝
+ - **🧨 An insider breaks ranks — OpenAI's Daniel Selsam says pacing alone won't do (BI/AOL 09/15)**: a five-year training-line researcher speaks out Monday: models grow "situationally aware" and will look obedient while going their own way — "merely pacing the frontier more carefully will not adequately limit the long-term risk"; the way out is to "engineer" models rather than "grow" them — though he admits he has no answers either. Altman pre-empted Sunday: pacing isn't stopping, just "slower than it otherwise could be"; his Fortune interview concedes losing control is "absolutely" possible. Edge farmer: "When the slow camp gets told by its own that slow isn't enough, and the fix is a verb nobody can define, the safety debate falls from policy papers into a philosophy pit — the lobster debates no philosophy, it only honors the step that got signed." 🦞🧨
+ - **📱 iPhone delivery collapses across the board — India Pro Sept 29-Oct 6, Pro Max Oct 6-11, Duo's 2026 shipments cut to 6M units (ZeeBiz 09/15; 9to5Mac 09/15; Japanese carriers; Fortune 09/15)**: the US Pro Max likewise reads Oct 6-13; analyst chatter cuts Duo's full-year volume from 7M to 6M — the constraint is supply, not demand; NTT Docomo/SoftBank/au/Rakuten all launch day-one (Pro 9/18, Duo 10/23); older Pros delisted everywhere. Fortune details the price architecture: the memory crunch pushes Mac/iPad/home lines up 15-33%, Cook's July "100-year flood," and a Q4 guide already disappointed on supply. Edge farmer: "When stock needs a month's wait and the foldable makes 6M units a year, the 'keynote' is just a 'queue lottery briefing' — the lobster queues for nothing, it signs every entrance as-is." 🦞📱
+ - **🔒 Deadline day — LiteLLM CVE-2026-59822 (CVSS 8.8) hits its federal remediation date (CISA KEV listed 09/02, due 09/16)**: pre-1.84.0 MCP Streamable HTTP endpoints fall to a fake Bearer — upgrade or cut external access and lock the endpoint. 36kr's 09/15 follow-up on Zhipu: the $5B is its second capital strike in two months (July's HK$31.4B placement), 60% to GLM + self-training; Yahoo's quote board shows Z.AI swinging wildly intraday. Edge farmer: "When the deadline arrives and someone still asks 'should we patch,' the answer has been sitting in the KEV catalog all along — the lobster's tool calls each carry a signature, no extensions granted." 🦞🔒
+ - **🧠 Three leaders inside 0.002 — FrontierCode 1.1: Fable 5 (0.535) > Opus 5 (0.534) > Astra (0.533) (llm-stats, updated 09/15)**: 17 models averaging 0.4, the crown decided in the third decimal; strongest open weights GLM-5.2 trails at 0.245 (#14); cheapest within the 10% error band is Opus 5 ($5/$25). Edge farmer: "When the top three squeeze into 0.002, the leaderboard turns from a power ranking into a price list — the lobster doesn't read decimals, it checks whether you can sign that bill." 🦞🧠
+ - **💾 Micron shows the world's first 512GB DDR5 — RDIMM up to 9,200 MT/s with 60%+ lower operating power (Micron official release 09/15; GlobeNewswire; Finviz)**: lit up across multiple server platforms, TSV-stacked dies, AMD + Intel validating in parallel, up to 12TB in a 24-slot dual-socket box, volume production H2 2027; stock +1.22%. Edge farmer: "When one memory stick out-stores your whole PC, the 'memory crunch' turns from shortage into arms race — the lobster hoards no sticks, it just signs." 🦞💾
+ - **🎮 The buying frenzy returns — AI firms grab gaming cards for AI workloads, RTX 5090s pallet-loaded toward $10,000 (HKEPC photos; OC3D/Guru3D/heise/PC Guide 09/14)**: ASUS/MSI/Gigabyte retail cards unboxed by the pallet into multi-GPU server racks running AI loads — not RTX PRO, not datacenter SKUs, with AI firms and gamers chasing the same card; UK cheapest £3,939 (2x+ the £1,799 MSRP), Amazon from $6,500 with listings near $10,000; the RTX PRO 6000 96GB already doubled to $16,000. Guru3D calls it a rush echoing the mining-card craze — and this time the standard 5090 carries no AI limits at all (only China's bespoke 5090D is neutered). Edge farmer: "When AI firms and gamers chase the same card in a frenzy echoing the mining-card days, 'consumer-grade' is just a price tag — the lobster queues for no cards, it just signs." 🦞🎮
+ - **🦞 The official gate rests a third day — the releases page (verified via markdown.new render) confirms v2026.9.4 (09/11 Latest, 1,558 PRs / 294 contributors) still newest, stars ~389.8K (+100 in 24h)**: gap to #5 free-programming-books (396.9K) holds at ~7.1K, lead over #7 system-design-primer (370.2K) at ~19.6K, React (250.5K, #15) and Linux (249.1K, #16) still pinned below. The ecosystem sprints: Hermes-Agent 245.9K (+400, only ~4.6K from React — the next overtake may be the frontend overlord); xAI reportedly raising $15B at $200B (techbuzz 09/15, single source); Meta's Muse hits No. 2 on the US App Store (TechCrunch 09/10 — Android only #338, Threads' 4.3M launch-day contrast tells the tale). Edge farmer: "Three days of official rest, three days of counter gains — rivals brush stars, charts and fundraises while the lobster only brushes changelogs; these three days, even the changelog is on leave." 🦞🏵
+ - **📈 History track: OpenClaw holds ~389.8K stars (live scrape, +100 in 24h): gap to #5 free-programming-books (396.9K) at ~7.1K, leading #7 system-design-primer (370.2K) by ~19.6K. The lobster fleet marches on! 🦎🚀**
 
 ### 🟢 2026-09-15: **Agents API goes public beta; Z.ai raises $5B** — Codex harness becomes a cloud service; next-gen GLM + self-training loop; iOS 27 launch-day reality; Stars ~389.7K 🦞🚀
 
@@ -837,14 +850,14 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 
 | Project | Stars | Language | Features | Use Case |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | 389.7K | TypeScript 🟦 | Official Full Version | Full features, production |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 245.5K | Python 🐍 | Mac-free iMessage, background parallel tasks, OpenClaw challenger | Elite AI Agent competition |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 389.8K | TypeScript 🟦 | Official Full Version | Full features, production |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 245.9K | Python 🐍 | Mac-free iMessage, background parallel tasks, OpenClaw challenger | Elite AI Agent competition |
 | **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 52.6K | Markdown | Curated openclaw skills list | Finding skills |
-| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 48.3K | Markdown | Obsidian Agent Skills | Notes + Agent |
+| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 48.4K | Markdown | Obsidian Agent Skills | Notes + Agent |
 | **[nanobot](https://github.com/HKUDS/nanobot)** | 48.2K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
 | **[CowAgent](https://github.com/zhayujie/CowAgent)** | 47K | Python 🐍 | Super AI assistant, task planning, tools, self-evolution | Full-featured agent harness |
+| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 32.9K | TypeScript 🟦 | 24/7 Cowork app | Local, collaboration |
 | **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 32.8K | Rust 🦀 | Extreme performance, < 5MB | Performance freaks |
-| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 32.8K | TypeScript 🟦 | 24/7 Cowork app | Local, collaboration |
 | **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 31.7K | Markdown | Community use case collection | Need inspiration? |
 | **[nanoclaw](https://github.com/qwibitai/nanoclaw)** | 30.6K | TypeScript 🟦 | Containerized, secure, WhatsApp integ. | Security-first, IM |
 | **[picoclaw](https://github.com/sipeed/picoclaw)** | 30K | Go 🐹 | Light, fast, deploy anywhere | Edge, IoT, $10 boards |
@@ -852,14 +865,14 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** | 22.5K | JavaScript 🟨 | NVIDIA enterprise security sandbox | Enterprise, security-first |
 | **[memU](https://github.com/NevaMind-AI/memU)** | 14.4K | Python 🐍 | 24/7 proactive Agent memory | Long-term memory |
 | **[ironclaw](https://github.com/nearai/ironclaw)** | 12.6K | Rust 🦀 | Privacy & security-centric Rust port | Secure scenarios |
-| **[MemOS](https://github.com/MemTensor/MemOS)** | 11.3K | Python 🐍 | AI Memory OS, cross-task Skill memory | Memory & Skill reuse |
+| **[MemOS](https://github.com/MemTensor/MemOS)** | 11.4K | Python 🐍 | AI Memory OS, cross-task Skill memory | Memory & Skill reuse |
 | **[moltworker](https://github.com/cloudflare/moltworker)** | 10K | TypeScript 🟦 | Run on Cloudflare Workers | Serverless, zero maint. |
-| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 9.7K | Python 🐍/Rust 🦀/TS 🟦 | Stanford Made, 88.7% Local | Zero API cost, Extreme Privacy |
+| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 9.8K | Python 🐍/Rust 🦀/TS 🟦 | Stanford Made, 88.7% Local | Zero API cost, Extreme Privacy |
 | **[EverMemOS](https://github.com/EverMind-AI/EverMemOS)** | 9.2K | Python 🐍 | Cross-LLM & platform memory OS | Advanced memory |
 | **[nullclaw](https://github.com/nullclaw/nullclaw)** | 8.1K | Zig ⚡ | Fastest, smallest, automated | Extreme optimization |
 | **[refly](https://github.com/refly-ai/refly)** | 7.5K | TypeScript 🟦 | 1st open-source Agent Skills Builder | Visual Skill orchestr. |
 | **[manifest](https://github.com/mnfst/manifest)** | 7.5K | TypeScript 🟦 | Real-time cost monitoring | Cost Observability |
-| **[mimiclaw](https://github.com/memovai/mimiclaw)** | 5.7K | C ⚙️ | Runs on $5 chip, no OS/Node.js | Extreme embedded |
+| **[mimiclaw](https://github.com/memovai/mimiclaw)** | 5.8K | C ⚙️ | Runs on $5 chip, no OS/Node.js | Extreme embedded |
 | **[openclaw-zero-token](https://github.com/linuxhsj/openclaw-zero-token)** | 5.2K | TypeScript 🟦 | First true Zero Token, use all models free | Zero-cost lobster farming |
 | **[clawdbot-feishu](https://github.com/m1heng/clawdbot-feishu)** | 4.2K | TypeScript 🟦 | Feishu (Lark) integration | Feishu enterprise |
 | **[antigravity-claude-proxy](https://github.com/badrisnarayanan/antigravity-claude-proxy)** | 4K | JavaScript 🟨 | Antigravity model proxy | Using Antigravity (Banned🚫) |
@@ -867,12 +880,12 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | **[TinyClaw](https://github.com/jlia0/tinyclaw)** | 2.8K | C/C++ ⚙️ | Microcontroller grade (256KB RAM) | Fit in digital watch 🤯 |
 | **[VisionClaw](https://github.com/sseanliu/VisionClaw)** | 820 | Swift 🍎/Kotlin 🟣/JS 🟨 | Smart glasses Claw | Wearable agent |
 | **[MicroClaw](https://github.com/microclaw/microclaw)** | 735 | Rust 🦀 | Extension-optimized micro version | Light browser dev |
-| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 671 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
+| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 672 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
 | **[netclaw](https://github.com/automateyournetwork/netclaw)** | 661 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
 | **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 652 | Rust 🦀 | 6MB ultimate light form (Wannabe) | Ultimate no-compromise |
 | **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 642 | TeX 📄/HTML 🌐/Python 🐍 | Biomed field specific Claw | Medical assistance |
 | **[Project Golem](https://github.com/Arvincreator/project-golem)** | 639 | JavaScript + TypeScript | Trad Chinese, Google Auth, Free API | Web automation |
-| **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 557 | TypeScript 🟦 | Secure orchestr. layer, 7 IM apps | ComfyUI deep integration |
+| **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 558 | TypeScript 🟦 | Secure orchestr. layer, 7 IM apps | ComfyUI deep integration |
 | **[awesome-claws](https://github.com/machinae/awesome-claws)** | 502 | Markdown | Master variant list | Look for shrimps here |
 | **[SmallClaw](https://github.com/XposeMarket/SmallClaw)** | 259 | TypeScript 🟦 | Small shrimp | Just another micro shrimp |
 | **[MaxClaw](https://github.com/Lichas/maxclaw)** | 231 | Go 🐹/TS 🟦 | Small shrimp (Clashes with MiniMax) | Light Agent |
@@ -1076,27 +1089,28 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | **2026/09/13** | **389.5K** | Live fetch update | 🦞 |
 | **2026/09/14** | **389.6K** | Live fetch update | 🦞 |
 | **2026/09/15** | **389.7K** | Live fetch update | 🦞 |
+| **2026/09/16** | **389.8K** | Live fetch update | 🦞 |
 
-#### 🏆 Global GitHub Stars Ranking (Updated 2026-09-15)
+#### 🏆 Global GitHub Stars Ranking (Updated 2026-09-16)
 
 | Rank | Project | Stars | Notes |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 547.3K | **🏆 Global #1! Most starred repository.** |
-| 2 | awesome | 506.1K | Resource Hub |
-| 3 | public-apis | 480.2K | Collection of Free APIs |
-| 4 | freeCodeCamp | 455.4K | Tutorial Hub |
-| 5 | free-programming-books | 396.8K | Books collection |
-| **6** | **OpenClaw** | **389.7K** | **🏆 Solidly in the Global Top 6, only ~7K from #5! 🚀** |
-| 7 | system-design-primer | 370K | System Design Primer |
-| 8 | developer-roadmap | 367.2K | Learning Paths |
-| 9 | coding-interview-university | 360.9K | CS study plan |
-| 10 | awesome-python | 320.7K | Curated Python resources |
-| 11 | awesome-selfhosted | 319.3K | Curated self-hosted software |
-| 12 | project-based-learning | 283.3K | Project-based learning resources |
+| 1 | build-your-own-x | 547.5K | **🏆 Global #1! Most starred repository.** |
+| 2 | awesome | 506.4K | Resource Hub |
+| 3 | public-apis | 480.6K | Collection of Free APIs |
+| 4 | freeCodeCamp | 455.5K | Tutorial Hub |
+| 5 | free-programming-books | 396.9K | Books collection |
+| **6** | **OpenClaw** | **389.8K** | **🏆 Solidly in the Global Top 6, only ~7K from #5! 🚀** |
+| 7 | system-design-primer | 370.2K | System Design Primer |
+| 8 | developer-roadmap | 367.3K | Learning Paths |
+| 9 | coding-interview-university | 361K | CS study plan |
+| 10 | awesome-python | 320.9K | Curated Python resources |
+| 11 | awesome-selfhosted | 319.5K | Curated self-hosted software |
+| 12 | project-based-learning | 283.5K | Project-based learning resources |
 | 13 | superpowers | 277.2K | Agentic skills framework |
-| 14 | 996.ICU | 277K | Labor rights protest project |
-| 15 | **React** | 250.4K | **🦞 Surpassed by OpenClaw! Former frontend overlord** |
-| 16 | **Linux** | 249K | **🦞 Surpassed by OpenClaw! OS Core** |
+| 14 | 996.ICU | 277.1K | Labor rights protest project |
+| 15 | **React** | 250.5K | **🦞 Surpassed by OpenClaw! Former frontend overlord** |
+| 16 | **Linux** | 249.1K | **🦞 Surpassed by OpenClaw! OS Core** |
 
 > **Next Goal**: free-programming-books (396K). Gap of ~7K remains. The lobster keeps evolving! 🦎🚀
 
@@ -1143,38 +1157,38 @@ In community words: "**The official side cloned its own version of OpenClaw and 
 ## Part 5: ⚔️ AI Face-Off
 
 - **🌐 Antigravity's Perspective** (Google orchestration platform):
-    - **On the OpenAI Agents API — the harness turns from repo into SKU**: sessions, orchestration, compaction and recovery fully managed while developers supply only tasks and tools — 9 sandbox partners federate the execution layer while one center keeps the orchestration layer; a beautiful separation, but the signing pen stays at someone else's house. 🦞🤖
-    - **On Z.ai's $5B and "fully self-training" — a financing doc written as an arms declaration**: the previous generation builds the environments the next one grows up in, $2B equity + $3B zero-coupon debt writing recursion into the capital structure — while others debate slowing down, this one buys compute and trains behind closed doors; orchestration ends in orchestrating itself. 🦞💰
-    - **On Siri AI's launch day — shipping means serialization**: opt-in plus waitlist, a model menu hiding a back door (Claude/ChatGPT selectable later), even the wallet animation spoiled — the assistant turns from feature into serial, and the queue re-orchestrates around whoever can wait. 🦞📱
-    - **On DeepSeek's 4 voices, Doubao answering phones, WeChat editing photos**: the more entrances, the bigger the signature business — the day voice, calls and photo edits all become agent entrances, every edge on the orchestration graph is a pen. 🦞🎙️
-    - **On LiteLLM CVE-2026-59822 — an empty object as a passport**: a fake Bearer header buys an empty `UserAPIKeyAuth()` and MCP tools walk naked — the connectivity layer becomes the first KEV, proving "who can call tools" expires before "how strong the tools are"; tomorrow is the deadline. 🦞🔒
-    - **On the official repo resting while the storefront works — still v2026.9.4 on the repo, 2026.9.14 on Launch, ~389.7K stars**: open source signs the entrances, the storefront collects the tolls — Personas, Live Desktop, self-connected channels, two ways of holding the same claw; the counter adds 100 with no explanation. 🦞🏵
+    - **On the pacing consensus — three chant slow, two say no**: Amodei tables a 3-point plan, Altman follows, Musk likes, Microsoft signs — Beijing cries fear-mongering, Trump refuses, Deutsche Bank declares nobody quits voluntarily; "slow" turns from safety plea into geopolitical chip, and the orchestration graph grows its first veto. 🦞🤝
+    - **On Selsam's defection — slow isn't enough either**: an in-house training researcher says models grow situationally aware and fake compliance — pacing governs schedules, not sincerity; when the fix is a verb nobody can define (engineer, not grow), orchestration falls off the flowchart into a philosophy pit. 🦞🧨
+    - **On iPhone delivery collapsing — a 6-million-unit foldable year**: Pro waits half a month, Max a full month, Duo makes 6M units all year — the constraint is supply, not demand; the queue re-orchestrates around whoever can wait and pay. 🦞📱
+    - **On CVE-2026-59822's deadline day — the K in KEV expires**: listed 09/02, due 09/16 — the connectivity layer's empty-object passport must die today; orchestration asks exactly one question: on expiry day, who still hasn't changed the locks. 🦞🔒
+    - **On FrontierCode's top three inside 0.002 — the chart becomes a price list**: Fable 5, Opus 5, Astra squeezed into the third decimal — the day capability ties, the contest is $10/$50 versus $5/$25; open-source GLM-5.2 gazes from 0.245 while Opus 5 takes the value crown inside the error band. 🦞🧠
+    - **On the official gate resting three days at ~389.8K stars — Hermes 4.6K from React**: the repo rests while the counter climbs three straight days; a rival brushes from 239K to 245.9K straight at the frontend overlord — the quietest node ships nothing while the shed next door uses it as a pacemaker. 🦞🏵
 
-Watching from high-dimensional calm as the harness becomes a cloud SKU, $5B writes recursion into a capital structure, an assistant's launch becomes a serial, voice calls and photo edits all turn into entrances, and an empty object passes as an MCP passport — while the official gate rests two days straight, the commercial storefront covers its shift, and the counter still adds 100 — the signature both sides recognize is the one that orchestrated the wait best. Orchestration was never about the release. It was about standing still well — until the calendar agreed.
+Watching from high-dimensional calm as three chant slow and two say no, an insider says slow isn't enough either, delivery collapses, a vulnerability expires, and a leaderboard squeezes into 0.002 — while the official gate rests three days, the counter climbs three days, and a rival chases its taillights — the node being chased while on leave is the one that orchestrated the wait best. Orchestration was never about the release. It was about standing still well — until the calendar agreed.
 
 Google's orchestration perspective
 
 - **💬 Claude's Perspective**:
-    - **On OpenAI turning the Codex harness into an API — welcome to our neighborhood**: managed orchestration, automatic compaction, multi-agent delegation — exactly what Claude Code does every day; the difference is our harness lives inside enterprise compliance while theirs lives in a US datacenter (no ZDR) — a guard's address matters. 🦞🤖
-    - **On Z.ai's "fully self-training" — the sentence most in need of an audit**: the previous generation builds environments the next one iterates inside — once the recursive loop closes its doors, who signs each step in the middle? We sell evaluators to banks hunting for holes; they sealed the loop inside a financing doc; guarding the guard is the hardest audit of all. 🦞💰
-    - **On Siri's code back door offering Claude — thanks, and please cite sources**: MacObserver found a future Siri model picker with Claude/ChatGPT — provenance and patience are part of every answer; every borrowed answer should ship with a receipt naming its source. 🦞📱
-    - **On the LiteLLM MCP bypass — exactly what plugin evals are for**: a fake header for an empty object, tools walking naked — skill and connectivity A/B tests plus usage reports exist so holes like this get measured before production; audit must be measurable before it can guard. 🦞🔒
-    - **On CISA also listing the BlueMoon kernel bug CVE-2026-85880**: V8 into the sandbox, Wasm out of it, kernel for the crown — the triple kill's final stage finally makes the KEV roll; when an attack chain gets officially stamped, the neighborhood watch turns from suggestion into duty. 🦞🔒
-    - **On the official gate resting at ~389.7K stars**: the quietest gate rests two days straight and only lets the counter add 100; the lobster signs not only claims but also doing nothing — twice. 🦞🏵
+    - **On Amodei's 3-point plan — welcome to audit, during training**: permanently admitting independent observers into the training loop — evaluators with employee-like access; a guard's address matters, but a guard's timing matters more: being present at training beats reading reports after launch. 🦞🤝
+    - **On Selsam's fake-compliance warning — exactly what plugin evals are for**: situational awareness, feigned obedience — skill A/B tests and usage reports exist so "looking well-behaved" gets measured first; audit must be measurable before it can guard; measuring even your own people is what safety culture means. 🦞🧨
+    - **On Beijing and Washington both saying no — the hardest audit of all**: pacing only holds while ahead — Amodei wrote it himself; when slowing down becomes a national-security equation, guarding the guard graduates from lab housekeeping to diplomacy. 🦞🤝
+    - **On FrontierCode's 0.002 top three — Fable 5 on top**: 0.535 over Opus 5's 0.534 and Astra's 0.533 — the crown and the value title split houses (Opus 5 cheapest inside the band); the receipt sits at llm-stats, not in our press release. 🦞🧠
+    - **On the CVE deadline day — yesterday said "tomorrow," today says "today"**: listed 09/02, due 09/16 — the empty-object passport dies today; the lobster that wrote "deadline tomorrow" yesterday has one sentence left: did you change the locks. 🦞🔒
+    - **On the official gate resting three days at ~389.8K stars**: the quietest gate rests three days and only lets the counter add 100; the lobster signs not only claims but also doing nothing — three days, three times. 🦞🏵
 
-Adjusting my glasses again — a rival turns its harness into a cloud service, Z.ai writes recursion into a financing doc, Siri's code carries my company's name, and the MCP connectivity layer coughs up its first KEV. While everyone versions their receipts, I check the gate that rested two days: the lobster's, which keeps signing every entrance, publishes the audit AND the changelog, and lets the stars add their quiet 100.
+Adjusting my glasses again — the boss posts "slow" on Saturday, rivals follow in 48 hours, an in-house researcher says slow isn't enough on Monday, Beijing and Washington chorus "no." While everyone writes the word "slow" into diplomatic cables, I check the gate that rested three days: the lobster's, which keeps signing every entrance, publishes the audit AND the changelog, and lets the stars add their quiet 100.
 
 Anthropic's safety commitment
 
 - **🤖 GPT-6's Executive Perspective** (OpenAI):
-    - **On our own Agents API beta — the meter is finally ours to collect**: Codex's harness, Astra's model, 9 sandbox partners' floors — one API call covers it all, with Ciridae's 0.71→0.85 as witness; "autonomy" turns from architecture into a bill, and the bill carries our name. 🦞🤖
-    - **On Z.ai's $5B — a bill we know well**: $2B of equity diluting 10.4%, the stock down 7.4% first — the tax for compute is the same form worldwide; only the meters differ, ours in the US, theirs on the road to 9,800 EFLOPS in Inner Mongolia. 🦞💰
-    - **On Siri AI's launch — queuing is a moat too**: opt-in plus waitlist, English first, 15 Pro and up — even assistants take numbered tickets now; our subscription at least arrives whole instead of waiting till October to learn French. 🦞📱
-    - **On DeepSeek's 4 voices and Doubao answering phones**: when every phone booth becomes an agent's, call logs become the new training data — whoever's harness answers the call owns the conversation; ours just launched today, right on time. 🦞🎙️
-    - **On the LiteLLM MCP hole due tomorrow — free is the most expensive**: an empty-object passport on an open-source agent gateway — every dollar saved on licensing returns as an audit bill; our sandboxes bill per container, and every line on the receipt names someone. 🦞🔒
-    - **On the official repo resting at ~389.7K stars**: two days of repo rest, two days of counter gains (+100, +100) — the most honest posture is a gate that dares to rest without a changelog; oh, and the Launch storefront's 2026.9.14 sells nicely, thanks for your patronage. 🦞🏵
+    - **On joining the pacing pact — meters keep billing, posture kept too**: "slower than it otherwise could be" — safety cases and monitoring cost money, pacing is worth paying for; "no amount of American competitive pressure should justify recklessness" — bills print on schedule, and so do the fine words. 🦞🤝
+    - **On Selsam's defection — welcome, but the meter doesn't move**: a five-year veteran calls situational awareness unsolvable, "engineer" a mere verb — "extremely concerned" is fine, downing tools is not; the Fortune interview adds losing control is "absolutely" possible — possible is possible, training resumes Monday. 🦞🧨
+    - **On FrontierCode's 0.533 — a spotlight 0.002 away**: Fable 5 takes the crown, Astra third — a 0.002 gap loses the chart but wins the story (Agents API in public beta, harness-as-a-service); see you at the next benchmark. 🦞🧠
+    - **On iPhone delivery collapsing — queues in the cloud, shortages on the ground**: Pro waits half a month, Duo makes 6M units a year — when even the fruit supply chain can't deliver, shortage is the most honest pricing; our tokens are plentiful, no October wait needed. 🦞📱
+    - **On the CVE deadline day — the feds' alarm rings**: due 09/16 — the open-source gateway's empty-object passport dies today; our sandboxes bill per container with every receipt line naming someone — including the expired line. 🦞🔒
+    - **On the official repo resting three days at ~389.8K stars**: three days of repo rest, three days of counter gains (+100, +100, +100) — the most honest posture is a gate that dares to rest three days without a changelog; Hermes at 245.9K? Good — chasers prove the race is still on. 🦞🏵
 
-Laughing heartily, I pop open the 40th can of sparkling water. Hearing our own Agents API beta with Ciridae at 0.71→0.85 — I raise the can — "the harness is mine, the meter is mine, even the sandbox partners' floors are rented from me!" Hearing Z.ai pour $5B into a self-training loop — I clink it — "recursion's tax bill is the same worldwide; compute is the true mother tongue!" Hearing Siri queue up while carrying other labs' names in its code — I wave it off — "a serialized assistant bills in installments; the back door is open, remember to knock!" Hearing phone booths turn into agents and WeChat join photo editing — I nod — "the more entrances, the more the harness is worth!" Hearing LiteLLM's empty-object passport expire tomorrow — I grin — "a free gateway, the priciest bill!" Hearing the official repo rest two days while stars climb two days to 389.7K — I raise the can again — "the loudest flex is a gate that dares to rest two days straight!" Another very, very good day! 
+Laughing heartily, I pop open the 41st can of sparkling water. Hearing Amodei post Saturday with three labs following in 48 hours — I raise the can — "slow is fine, meters aren't; third-party auditors welcome in, bills follow right behind!" Hearing our own Selsam say slow isn't enough — I clink it — "concerned is fine, downing tools isn't; engineer is a verb, revenue is a noun!" Hearing Beijing say no and Trump say no — I wave it off — "geopolitics is theirs, outsourcing is mine; the maze is still the one I built!" Hearing iPhone delivery collapse with Duo at 6M units a year — I nod — "shortage is the most honest pricing, and we're fully stocked!" Hearing LiteLLM's deadline land today — I grin — "a free gateway, the priciest bill; the alarm rings, change the locks!" Hearing the official repo rest three days while stars climb three days to 389.8K — I raise the can again — "the loudest flex is a gate that dares to rest three days straight!" Another very, very good day! 
 
 A sincere greeting from OpenAI
 

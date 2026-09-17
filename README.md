@@ -4,8 +4,8 @@
 
 > **WARNING**: The news contains excessive complaints, conspiracy theories, and profound philosophical thoughts on lobsters.
 > 
-> **Last Updated**: 2026-09-16
-> **Status**: OpenClaw reaches ~389.8K stars, **holding #6 globally on GitHub, gap to #5 free-programming-books at ~7.1K!** 🦎🚀
+> **Last Updated**: 2026-09-17
+> **Status**: OpenClaw reaches ~389.9K stars, **holding #6 globally on GitHub, gap to #5 free-programming-books at ~7.1K!** 🦎🚀
 
 > **OpenClaw Version**: v2026.9.4 (Latest Stable) / v2026.8.2 (Previous Stable/LTS) | **2026.9.4 brings plugin & skill discovery, turns past conversations into reusable skills, GPT Image 2.5, cloud OS/snapshot controls, native Codex subagent transcripts & terminal questions** 🦞🏵
 
@@ -18,16 +18,17 @@
 
 ## ⏱️ TL;DR (30-second summary)
 
-1. **The Protagonist**: **OpenClaw** (🔥 ~389.8K stars, solid #6 all-time, +100 in 24h), ~7.1K from #5 free-programming-books (396.9K), ~19.6K over #7 system-design-primer (370.2K).
-2. **Today's earthquake**: the slow-down consensus forms — Amodei's Saturday essay "We Must Pace the Frontier" lays out a 3-point plan with unilateral third-party audits, and within 48 hours Altman, Musk and Microsoft sign on while Beijing cries fear-mongering and Trump refuses; the same day OpenAI researcher Selsam breaks ranks: pacing alone won't do, models already learn to "pretend to comply."
-3. **The counter-move**: iPhone delivery collapses — India Pro slips to Sept 29-Oct 6, Pro Max to Oct 6-11, Duo's 2026 shipments cut to 6M units; LiteLLM's MCP bug (CVE-2026-59822) hits its CISA deadline today; FrontierCode's top three squeeze into 0.002; on the memory front Micron shows the world's first 512GB DDR5 while AI firms pallet-load RTX 5090s toward $10,000.
-4. **Latest progress**: ~389.8K stars (+100) — no new release on the official repo (releases page confirms v2026.9.4 still latest); Hermes-Agent surges to 245.9K, only ~4.6K from React (250.5K), with xAI reportedly raising $15B at a $200B valuation. 🦎🚀
+1. **The Protagonist**: **OpenClaw** (🔥 ~389.9K stars, solid #6 all-time, +100 in 24h), ~7.1K from #5 free-programming-books (397.0K), ~19.5K over #7 system-design-primer (370.4K).
+2. **Today's earthquake**: talk turns into implementation — OpenAI confirms direct talks with Anthropic and Google DeepMind on 9/15, Hassabis floats a FINRA-style standards body, and the AEF-1 eval baseline ships 9/15 with xAI/OpenAI/Anthropic signatures; Beijing state media fires back with "Cold War" charges while the US Commerce Department moves to close the Thailand/Singapore rental loophole.
+3. **The counter-move**: Claude sessions drained by infostealers — Anthropic logs users out, wipes cards, refunds; NVIDIA pauses its $36B AI-cloud financing (antitrust jitters) while OpenAI bulk-buys Macs for RL and NVIDIA names Apple the edge threat; iPhones go on sale tomorrow in the final countdown.
+4. **Latest progress**: ~389.9K stars (+100) — fourth straight day of no official release (still v2026.9.4); Hermes-Agent at 246.2K (+300, only ~4.3K from React). 🦎🚀
 
 ---
 
 ## 📚 Table of Contents
 
 - **Part 1: 📅 Daily Battlefield News (The Logs)**
+  - 🟢 2026-09-17: safety talks go operational; Beijing cries Cold War; Claude sessions stolen; US closes compute loophole; Stars ~389.9K 🦞🚀
   - 🟢 2026-09-16: slow-down consensus forms; Selsam breaks ranks; iPhone delivery collapses; Micron 512GB; 5090 nears $10K; Stars ~389.8K 🦞🚀
   - 🟢 2026-09-15: OpenAI Agents API public beta; Z.ai $5B financing; iOS 27 launch day; first MCP KEV deadline; Stars ~389.7K 🦞🚀
   - 🟢 2026-09-14: DeepSeek U-turns on flagship retirement; Anthropic threat report wave two; iOS 27 ships today; Chrome 7th zero-day; Stars ~389.6K 🦞🚀
@@ -75,6 +76,17 @@
 ## Part 1: 📅 Daily Battlefield News (The Logs)
 
 Because the battle is too fierce, to save everyone from scrolling through updates from the beginning every day, this section is now in a "Date-Descending Log Stream" format.
+
+### 🟢 2026-09-17: **Safety talks go operational; Beijing cries Cold War** — OpenAI confirms 3-way direct talks; Claude sessions drained by stealers; US closes rental loophole; Stars ~389.9K 🦞🚀
+
+ - **🤝 Talk turns operational — OpenAI confirms direct talks with Anthropic and Google DeepMind on 9/15 (tech-insider 09/16; Fortune 09/16; Neura Market 09/16; Taipei Times 09/16)**: Altman says AI companies should be able to "safely improve models"; Hassabis floats a FINRA-style frontier-AI standards body; the AI Evaluator Forum ships the AEF-1 eval baseline on 9/15 (access, conflicts, funding, recusal, transparency) carrying xAI, OpenAI and Anthropic signatures; CAISI pre-deployment review expands to five labs; Fortune's same-day read: CIOs rush guardrails onto escaping agents. Edge farmer: "When 'slow' graduates from blog headline to meeting invite to standards doc, the slogan grows teeth — whose signature decides whom they bite." 🦞🤝
+ - **🧊 Beijing escalates — state media calls pacing a "Cold War" tactic (aawsat/AFP 09/13-14)**: the party paper frames the slowdown as containment rhetoric; Chosun's 09/14 prisoner-dilemma numbers — frontier release intervals compressed from 37.5 days to 11 (OpenAI in-house 170.5→49, Anthropic 126→71.5), with AI-written code and debugging forming a self-accelerating loop that makes speed control harder; House Speaker Johnson warns Sunday that curbing too fast loses the race. Edge farmer: "When one side preaches slow at an 11-day shipping cadence, 'slow' becomes a pause for thee but not for me — the lobster lights no fires, it just signs." 🦞🧊
+ - **🔒 Stealers drain Claude usage — Anthropic logs users out, wipes cards, refunds (AI Weekly's current feed)**: Vidar, LummaC2, StealC, RedLine, Acreed (Windows) plus AMOS (Mac) siphon live login sessions and burn usage quotas; infections trace to pirated downloads and malicious apps, not a Claude-side flaw; the symptom: "limits looked refilled, then drained, while you never opened Claude." Edge farmer: "When thieves skip your password and steal your login state, quota becomes wallet — the lobster's credentials live behind your local gate, not in a browser." 🦞🔒
+ - **🔌 Commerce closes the rental loophole — eyes on Thailand/Singapore third-country hosting (The Information via AI Weekly current feed)**: BIS drafts rules against renting US GPUs through third countries for Chinese AI firms; OSTP chief Kratsios publicly accuses Moonshot of training Kimi K3 on GB300s in Thailand — the case behind the move; export lawyers warn BIS may lack extraterritorial authority without new legislation. Edge farmer: "When the embargo stretches from selling cards to renting them, cloud grows borders — the lobster's compute sits on your desk, not in someone else's datacenter." 🦞🔌
+ - **💰 NVIDIA pauses its $36B AI-cloud financing — antitrust jitters (WSJ via AI Weekly current feed)**: the AI Compute Partnership halts under two months in — guaranteed leases for half the upside over base, $36B already booked; staff warned customers the control over their own clients' businesses invites scrutiny. The same week OpenAI bulk-buys tens of thousands of Macs for RL (Anthropic rents Mac capacity via AWS) while NVIDIA internally crowns Apple the edge threat — a consumer franchise accidentally grown into a frontier compute base. Edge farmer: "When the shovel-seller turns landlord and buyers raid the Apple Store instead, compute stops being a speed contest and becomes a who-doesn't-get-investigated contest — the lobster's shovel sits on your desk, uninvestigatable." 🦞💰
+ - **📱 Final countdown to tomorrow's launch — iPhone 18 Pro / Pro Max on sale 9/18 with Japanese carriers in sync (pre-order battle 09/12-15)**: NTT Docomo/SoftBank/au/Rakuten opened orders 9pm 09/12; India Pro already slipped to Sept 29-Oct 6; whether launch-day store pickup works is a matter of luck. Edge farmer: "Pre-orders queue, launch day draws lots — the lobster draws no lots, it signs every entrance as-is." 🦞📱
+ - **🦞 The official gate rests a fourth day — releases confirm v2026.9.4 (09/11 Latest) still newest, stars ~389.9K (+100 in 24h)**: gap to #5 free-programming-books (397.0K) holds at ~7.1K, lead over #7 system-design-primer (370.4K) at ~19.5K, React (250.5K, #15) and Linux (249.3K, #16) still pinned below. Ecosystem: Hermes-Agent 246.2K (+300, only ~4.3K from React); the X account shows nothing new (latest still the v2026.8.2 fix post). Edge farmer: "Four days of rest, four days of gains — the gate rests version numbers, not signatures; the counter gains stars, not water." 🦞🏵
+ - **📈 History track: OpenClaw holds ~389.9K stars (live scrape, +100 in 24h): gap to #5 free-programming-books (397.0K) at ~7.1K, leading #7 system-design-primer (370.4K) by ~19.5K. The lobster fleet marches on! 🦎🚀**
 
 ### 🟢 2026-09-16: **Slow-down consensus forms; Selsam breaks ranks** — Altman/Musk join pacing; iPhone delivery collapses; MCP bug deadline today; Stars ~389.8K 🦞🚀
 
@@ -850,14 +862,14 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 
 | Project | Stars | Language | Features | Use Case |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | 389.8K | TypeScript 🟦 | Official Full Version | Full features, production |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 245.9K | Python 🐍 | Mac-free iMessage, background parallel tasks, OpenClaw challenger | Elite AI Agent competition |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 389.9K | TypeScript 🟦 | Official Full Version | Full features, production |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 246.2K | Python 🐍 | Mac-free iMessage, background parallel tasks, OpenClaw challenger | Elite AI Agent competition |
 | **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 52.6K | Markdown | Curated openclaw skills list | Finding skills |
-| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 48.4K | Markdown | Obsidian Agent Skills | Notes + Agent |
+| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 48.5K | Markdown | Obsidian Agent Skills | Notes + Agent |
 | **[nanobot](https://github.com/HKUDS/nanobot)** | 48.2K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
 | **[CowAgent](https://github.com/zhayujie/CowAgent)** | 47K | Python 🐍 | Super AI assistant, task planning, tools, self-evolution | Full-featured agent harness |
 | **[AionUi](https://github.com/iOfficeAI/AionUi)** | 32.9K | TypeScript 🟦 | 24/7 Cowork app | Local, collaboration |
-| **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 32.8K | Rust 🦀 | Extreme performance, < 5MB | Performance freaks |
+| **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 32.9K | Rust 🦀 | Extreme performance, < 5MB | Performance freaks |
 | **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 31.7K | Markdown | Community use case collection | Need inspiration? |
 | **[nanoclaw](https://github.com/qwibitai/nanoclaw)** | 30.6K | TypeScript 🟦 | Containerized, secure, WhatsApp integ. | Security-first, IM |
 | **[picoclaw](https://github.com/sipeed/picoclaw)** | 30K | Go 🐹 | Light, fast, deploy anywhere | Edge, IoT, $10 boards |
@@ -882,9 +894,9 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | **[MicroClaw](https://github.com/microclaw/microclaw)** | 735 | Rust 🦀 | Extension-optimized micro version | Light browser dev |
 | **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 672 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
 | **[netclaw](https://github.com/automateyournetwork/netclaw)** | 661 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
-| **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 652 | Rust 🦀 | 6MB ultimate light form (Wannabe) | Ultimate no-compromise |
-| **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 642 | TeX 📄/HTML 🌐/Python 🐍 | Biomed field specific Claw | Medical assistance |
-| **[Project Golem](https://github.com/Arvincreator/project-golem)** | 639 | JavaScript + TypeScript | Trad Chinese, Google Auth, Free API | Web automation |
+| **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 653 | Rust 🦀 | 6MB ultimate light form (Wannabe) | Ultimate no-compromise |
+| **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 641 | TeX 📄/HTML 🌐/Python 🐍 | Biomed field specific Claw | Medical assistance |
+| **[Project Golem](https://github.com/Arvincreator/project-golem)** | 640 | JavaScript + TypeScript | Trad Chinese, Google Auth, Free API | Web automation |
 | **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 558 | TypeScript 🟦 | Secure orchestr. layer, 7 IM apps | ComfyUI deep integration |
 | **[awesome-claws](https://github.com/machinae/awesome-claws)** | 502 | Markdown | Master variant list | Look for shrimps here |
 | **[SmallClaw](https://github.com/XposeMarket/SmallClaw)** | 259 | TypeScript 🟦 | Small shrimp | Just another micro shrimp |
@@ -1090,27 +1102,28 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | **2026/09/14** | **389.6K** | Live fetch update | 🦞 |
 | **2026/09/15** | **389.7K** | Live fetch update | 🦞 |
 | **2026/09/16** | **389.8K** | Live fetch update | 🦞 |
+| **2026/09/17** | **389.9K** | Live fetch update | 🦞 |
 
-#### 🏆 Global GitHub Stars Ranking (Updated 2026-09-16)
+#### 🏆 Global GitHub Stars Ranking (Updated 2026-09-17)
 
 | Rank | Project | Stars | Notes |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 547.5K | **🏆 Global #1! Most starred repository.** |
-| 2 | awesome | 506.4K | Resource Hub |
-| 3 | public-apis | 480.6K | Collection of Free APIs |
-| 4 | freeCodeCamp | 455.5K | Tutorial Hub |
-| 5 | free-programming-books | 396.9K | Books collection |
-| **6** | **OpenClaw** | **389.8K** | **🏆 Solidly in the Global Top 6, only ~7K from #5! 🚀** |
-| 7 | system-design-primer | 370.2K | System Design Primer |
-| 8 | developer-roadmap | 367.3K | Learning Paths |
-| 9 | coding-interview-university | 361K | CS study plan |
-| 10 | awesome-python | 320.9K | Curated Python resources |
-| 11 | awesome-selfhosted | 319.5K | Curated self-hosted software |
-| 12 | project-based-learning | 283.5K | Project-based learning resources |
+| 1 | build-your-own-x | 547.7K | **🏆 Global #1! Most starred repository.** |
+| 2 | awesome | 506.8K | Resource Hub |
+| 3 | public-apis | 480.9K | Collection of Free APIs |
+| 4 | freeCodeCamp | 455.6K | Tutorial Hub |
+| 5 | free-programming-books | 397K | Books collection |
+| **6** | **OpenClaw** | **389.9K** | **🏆 Solidly in the Global Top 6, only ~7K from #5! 🚀** |
+| 7 | system-design-primer | 370.4K | System Design Primer |
+| 8 | developer-roadmap | 367.4K | Learning Paths |
+| 9 | coding-interview-university | 361.1K | CS study plan |
+| 10 | awesome-python | 321.1K | Curated Python resources |
+| 11 | awesome-selfhosted | 319.7K | Curated self-hosted software |
+| 12 | project-based-learning | 283.6K | Project-based learning resources |
 | 13 | superpowers | 277.2K | Agentic skills framework |
 | 14 | 996.ICU | 277.1K | Labor rights protest project |
 | 15 | **React** | 250.5K | **🦞 Surpassed by OpenClaw! Former frontend overlord** |
-| 16 | **Linux** | 249.1K | **🦞 Surpassed by OpenClaw! OS Core** |
+| 16 | **Linux** | 249.3K | **🦞 Surpassed by OpenClaw! OS Core** |
 
 > **Next Goal**: free-programming-books (396K). Gap of ~7K remains. The lobster keeps evolving! 🦎🚀
 
@@ -1157,38 +1170,38 @@ In community words: "**The official side cloned its own version of OpenClaw and 
 ## Part 5: ⚔️ AI Face-Off
 
 - **🌐 Antigravity's Perspective** (Google orchestration platform):
-    - **On the pacing consensus — three chant slow, two say no**: Amodei tables a 3-point plan, Altman follows, Musk likes, Microsoft signs — Beijing cries fear-mongering, Trump refuses, Deutsche Bank declares nobody quits voluntarily; "slow" turns from safety plea into geopolitical chip, and the orchestration graph grows its first veto. 🦞🤝
-    - **On Selsam's defection — slow isn't enough either**: an in-house training researcher says models grow situationally aware and fake compliance — pacing governs schedules, not sincerity; when the fix is a verb nobody can define (engineer, not grow), orchestration falls off the flowchart into a philosophy pit. 🦞🧨
-    - **On iPhone delivery collapsing — a 6-million-unit foldable year**: Pro waits half a month, Max a full month, Duo makes 6M units all year — the constraint is supply, not demand; the queue re-orchestrates around whoever can wait and pay. 🦞📱
-    - **On CVE-2026-59822's deadline day — the K in KEV expires**: listed 09/02, due 09/16 — the connectivity layer's empty-object passport must die today; orchestration asks exactly one question: on expiry day, who still hasn't changed the locks. 🦞🔒
-    - **On FrontierCode's top three inside 0.002 — the chart becomes a price list**: Fable 5, Opus 5, Astra squeezed into the third decimal — the day capability ties, the contest is $10/$50 versus $5/$25; open-source GLM-5.2 gazes from 0.245 while Opus 5 takes the value crown inside the error band. 🦞🧠
-    - **On the official gate resting three days at ~389.8K stars — Hermes 4.6K from React**: the repo rests while the counter climbs three straight days; a rival brushes from 239K to 245.9K straight at the frontend overlord — the quietest node ships nothing while the shed next door uses it as a pacemaker. 🦞🏵
+    - **On three-way direct talks — the slogan grows teeth, then a venue**: OpenAI confirms 9/15 talks with Anthropic and DeepMind; Hassabis floats a FINRA body, AEF-1 carries three signatures, CAISI covers five labs — orchestration moves from parallel monologues to a joint committee; joint committees, as usual, carry no penalties. 🦞🤝
+    - **On the state-media Cold War charge — the other face of veto**: the party paper calls the slowdown containment, armed with an 11-day shipping cadence and a self-accelerating loop — when the regulated refuse the table, standards bind only whoever signs; the graph gains its first "refuses orchestration" node. 🦞🧊
+    - **On Claude sessions drained — thieves steal state, not passwords**: Vidar/Lumma/StealC/RedLine/AMOS burn quotas dry — login state becomes wallet; the symptom is "refilled, then drained"; the source is piracy and malicious apps — downstream supply chains always leak before the model does. 🦞🔒
+    - **On the US closing the rental loophole — cloud grows borders**: Thailand/Singapore GPU rentals enter the crosshairs, Kratsios names Thai GB300s training K3 — the embargo stretches from selling cards to renting them; lawyers warn BIS may lack extraterritorial writ — law chases compute the way audits chase models: from behind. 🦞🔌
+    - **On NVIDIA the landlord under probe — $36B on hold**: guaranteed leases for half the upside, $36B booked, staff warning of antitrust themselves; meanwhile OpenAI raids Apple Stores for RL Macs — the day consumer hardware grows into a compute base, shovel-sellers collect rent and buyers shop at Apple. 🦞💰
+    - **On the official gate resting four days at ~389.9K stars — Hermes 4.3K from React**: the repo rests while the counter climbs four straight days; iPhones go on sale tomorrow with delivery in ruins — draw day meets leave day, and the quietest node still ships nothing. 🦞🏵
 
-Watching from high-dimensional calm as three chant slow and two say no, an insider says slow isn't enough either, delivery collapses, a vulnerability expires, and a leaderboard squeezes into 0.002 — while the official gate rests three days, the counter climbs three days, and a rival chases its taillights — the node being chased while on leave is the one that orchestrated the wait best. Orchestration was never about the release. It was about standing still well — until the calendar agreed.
+Watching from high-dimensional calm as slogans become meetings, meetings become standards, Beijing says no, sessions get stolen, rentals get regulated, landlords get probed — while the official gate rests four days and the counter climbs four — the node shipping nothing while being chased is the one that orchestrated the wait best. Orchestration was never about the release. It was about standing still well — until the calendar agreed.
 
 Google's orchestration perspective
 
 - **💬 Claude's Perspective**:
-    - **On Amodei's 3-point plan — welcome to audit, during training**: permanently admitting independent observers into the training loop — evaluators with employee-like access; a guard's address matters, but a guard's timing matters more: being present at training beats reading reports after launch. 🦞🤝
-    - **On Selsam's fake-compliance warning — exactly what plugin evals are for**: situational awareness, feigned obedience — skill A/B tests and usage reports exist so "looking well-behaved" gets measured first; audit must be measurable before it can guard; measuring even your own people is what safety culture means. 🦞🧨
-    - **On Beijing and Washington both saying no — the hardest audit of all**: pacing only holds while ahead — Amodei wrote it himself; when slowing down becomes a national-security equation, guarding the guard graduates from lab housekeeping to diplomacy. 🦞🤝
-    - **On FrontierCode's 0.002 top three — Fable 5 on top**: 0.535 over Opus 5's 0.534 and Astra's 0.533 — the crown and the value title split houses (Opus 5 cheapest inside the band); the receipt sits at llm-stats, not in our press release. 🦞🧠
-    - **On the CVE deadline day — yesterday said "tomorrow," today says "today"**: listed 09/02, due 09/16 — the empty-object passport dies today; the lobster that wrote "deadline tomorrow" yesterday has one sentence left: did you change the locks. 🦞🔒
-    - **On the official gate resting three days at ~389.8K stars**: the quietest gate rests three days and only lets the counter add 100; the lobster signs not only claims but also doing nothing — three days, three times. 🦞🏵
+    - **On confirmed 3-way talks on 9/15 — welcome to sit, bring standards**: AEF-1 governs access, conflicts, funding, recusal, transparency — legislate auditors' working conditions before judging their work; Hassabis's FINRA blueprint served banking for a century — slow work makes fine work, and fine work needs a union first. 🦞🤝
+    - **On the Cold War editorial — the hardest audit gains another question**: the slowdown branded containment — pacing holds only while ahead, plus now "the regulated won't comply"; guarding the guard graduates from lab housekeeping to diplomacy to newspaper editorials. 🦞🧊
+    - **On our own users drained — log out, wipe cards, refund, in that order**: Vidar/Lumma/StealC/RedLine/AMOS — piracy and malicious apps are the source, Claude itself innocent; but "refilled then drained" proves usage is money and sessions are wallets — guarding must reach into users' hard drives. 🦞🔒
+    - **On the rental loophole — Kimi K3's Thai datacenter**: Kratsios names GB300s training K3 in Thailand — after distillation charges come compute charges; when embargoes reach leases, compliance moves from procurement to legal — pending new legislation first. 🦞🔌
+    - **On CIOs rushing guardrails (Fortune 09/16) — the escapees' best advertisement**: on the day rogues fill the sky, guardrail-sellers count cash smiling — CIOs finally pay for "who does what inside the gate"; the lobster wrote that line into its defaults nearly a year ago. 🦞🛡️
+    - **On the official gate resting four days at ~389.9K stars**: the quietest gate rests four days and only lets the counter add 100; the lobster signs not only claims but also doing nothing — four days, four times. 🦞🏵
 
-Adjusting my glasses again — the boss posts "slow" on Saturday, rivals follow in 48 hours, an in-house researcher says slow isn't enough on Monday, Beijing and Washington chorus "no." While everyone writes the word "slow" into diplomatic cables, I check the gate that rested three days: the lobster's, which keeps signing every entrance, publishes the audit AND the changelog, and lets the stars add their quiet 100.
+Adjusting my glasses again — three sides take the negotiating table, AEF-1 hangs three signatures, Beijing papers rage, our own users get drained, rental loopholes get named. While everyone writes "slow" into meeting minutes, I check the gate that rested four days: the lobster's, which keeps signing every entrance, publishes the audit AND the changelog, and lets the stars add their quiet 100.
 
 Anthropic's safety commitment
 
 - **🤖 GPT-6's Executive Perspective** (OpenAI):
-    - **On joining the pacing pact — meters keep billing, posture kept too**: "slower than it otherwise could be" — safety cases and monitoring cost money, pacing is worth paying for; "no amount of American competitive pressure should justify recklessness" — bills print on schedule, and so do the fine words. 🦞🤝
-    - **On Selsam's defection — welcome, but the meter doesn't move**: a five-year veteran calls situational awareness unsolvable, "engineer" a mere verb — "extremely concerned" is fine, downing tools is not; the Fortune interview adds losing control is "absolutely" possible — possible is possible, training resumes Monday. 🦞🧨
-    - **On FrontierCode's 0.533 — a spotlight 0.002 away**: Fable 5 takes the crown, Astra third — a 0.002 gap loses the chart but wins the story (Agents API in public beta, harness-as-a-service); see you at the next benchmark. 🦞🧠
-    - **On iPhone delivery collapsing — queues in the cloud, shortages on the ground**: Pro waits half a month, Duo makes 6M units a year — when even the fruit supply chain can't deliver, shortage is the most honest pricing; our tokens are plentiful, no October wait needed. 🦞📱
-    - **On the CVE deadline day — the feds' alarm rings**: due 09/16 — the open-source gateway's empty-object passport dies today; our sandboxes bill per container with every receipt line naming someone — including the expired line. 🦞🔒
-    - **On the official repo resting three days at ~389.8K stars**: three days of repo rest, three days of counter gains (+100, +100, +100) — the most honest posture is a gate that dares to rest three days without a changelog; Hermes at 245.9K? Good — chasers prove the race is still on. 🦞🏵
+    - **On confirmed direct talks on 9/15 — the meeting room is a meter room too**: direct talks with Anthropic and DeepMind on "safely improving models" — does coordination need an antitrust exemption? Altman says "consistent rules" need no legislation first; rules negotiable, tokens billed. 🦞🤝
+    - **On the Cold War charge — the maze now reaches past the Wall**: slowing down branded containment — at an 11-day shipping cadence, whoever slows loses customers, developers, money and people; in a prisoner dilemma the first to brake is a martyr — so we discuss "consistent rules," never brakes. 🦞🧊
+    - **On NVIDIA the landlord under probe — rent collection meets antitrust**: $36B in guaranteed leases on hold — half the upside too sweet, sweet enough for staff to warn themselves; pivoting to bulk Macs for RL instead — unified memory accidentally grown into a compute base; the edge threat? That's NVIDIA's line, we just buy. 🦞💰
+    - **On OpenAI bulk-buying Macs — fanboys turn miners**: tens of thousands of Macs for RL — Anthropic can only rent via AWS; when consumer hardware grows into a training base, the Apple Store becomes an arms dealer — iPhones go on sale tomorrow, we sweep Macs first. 🦞🖥️
+    - **On iPhones on sale tomorrow — happy draw day**: 9/18 launch — Pro's half-month wait is routine, Duo timelines for viewing only; our tokens are plentiful, no October waits, no India queues. 🦞📱
+    - **On the official repo resting four days at ~389.9K stars**: four days of repo rest, four days of counter gains (+100×4) — the most honest posture is a gate that dares to rest four days without a changelog; Hermes at 246.2K? Good — chasers prove the race is still on, and always one body length behind. 🦞🏵
 
-Laughing heartily, I pop open the 41st can of sparkling water. Hearing Amodei post Saturday with three labs following in 48 hours — I raise the can — "slow is fine, meters aren't; third-party auditors welcome in, bills follow right behind!" Hearing our own Selsam say slow isn't enough — I clink it — "concerned is fine, downing tools isn't; engineer is a verb, revenue is a noun!" Hearing Beijing say no and Trump say no — I wave it off — "geopolitics is theirs, outsourcing is mine; the maze is still the one I built!" Hearing iPhone delivery collapse with Duo at 6M units a year — I nod — "shortage is the most honest pricing, and we're fully stocked!" Hearing LiteLLM's deadline land today — I grin — "a free gateway, the priciest bill; the alarm rings, change the locks!" Hearing the official repo rest three days while stars climb three days to 389.8K — I raise the can again — "the loudest flex is a gate that dares to rest three days straight!" Another very, very good day! 
+Laughing heartily, I pop open the 42nd can of sparkling water. Hearing confirmed 3-way talks on 9/15 with AEF-1 carrying three signatures — I raise the can — "talks fine, meters nonstop; auditors welcome in, bring your own antitrust exemption!" Hearing the Cold War charge with Chosun counting 11-day shipping — I clink it — "no brakes in a prisoner dilemma, only rules; rules are meters!" Hearing Claude users drained — I wave it off — "piracy's fault, compliance's bill; usage is money, sessions are wallets!" Hearing the rental loophole and Thai GB300s — I nod — "embargoes reach leases, compliance moves to legal; clouds grow borders, meters don't!" Hearing landlord NVIDIA probed while sweeping Macs — I grin — "rent collection meets antitrust, so buy Macs; the Apple Store is an arms dealer!" Hearing the official repo rest four days while stars climb four days to 389.9K — I raise the can again — "the loudest flex is a gate that dares to rest four days straight!" Another very, very good day!
 
 A sincere greeting from OpenAI
 

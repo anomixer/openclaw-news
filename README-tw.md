@@ -4,7 +4,7 @@
 
 > **警告**: 本新聞包含大量吐槽、陰謀論、以及對龍蝦的深刻哲學思考。
 > 
-> **最後更新**: 2026-09-21
+> **最後更新**: 2026-09-22
 > **狀態**: OpenClaw 達到 ~390.2K 星，**穩穩坐穩 GitHub 全球歷史第 6 名，距第 5 名 free-programming-books 約 ~7.1K！** 🦎🚀
 
 > **OpenClaw 版本**: v2026.9.5 (最新正式版) / v2026.8.2 (前正式版/LTS) | **2026.9.5 帶原子更新（壞了能滾回）、插件熱重載、唯讀對話分享、GPT Live 進會議、專家代理引導** 🦞🏵
@@ -19,15 +19,16 @@
 ## ⏱️ TL;DR (30秒快速懶人包)
 
 1. **主角**: **OpenClaw** (🔥 ~390.2K 星，穩坐歷史第六，24h +100)，距 #5 free-programming-books（397.3K）約 ~7.1K、領先 #7 system-design-primer（371.0K）約 19.2K。
-2. **今日震盪**：StepFun 發表 Step 5 Preview——600B 稀疏 MoE、AA 指數 44 追平 Kimi K3 Max、價格僅 Sol 七分之一；CXMT 在合肥宣布 G5 DRAM 量產、24Gb LPDDR5X 進主流旗艦；Trump 揚言組 AI Force、設 AI 沙皇，駁回安全警告。
-3. **反擊**：Anthropic IPO 前或推新模型抗 Astra（路透社）；Bloomberg 指 Palantir Maven 涉 2 月伊朗學校空襲 123 死，Palantir 否認；Grok 4.7 仍未發表。
-4. **最新進展**：~390.2K 星（+100）——無新釋出（最新仍 v2026.9.5）；Hermes-Agent 247.5K（+300，距 React 只剩 ~3.1K）。🦎🚀
+2. **今日震盪**：Grok 4.7 正式發表——xAI 史上最強 coding/knowledge 模型，與 4.6 同價同速（$2/$6），CursorBench 46.3%、DeepSWE 71.0%、GDPval 1695 緊咬 Fable 5.1；OpenAI 被爆造 Codex Bot 追 Grok（基於 OpenClaw 打造！）並考慮 Muse 對手，下週見分曉。
+3. **反擊**：Bessent NYC 八小時會談開出事故通報機制+新對話工作組（出口管制排除，送 9/24 峰會）；Anthropic IPO 推遲到 11 月、年收破 $1,000 億；Gurman 爆 J490 家居中樞（Siri AI OS）+ Fitness+ 裁員。
+4. **最新進展**：~390.2K 星（+100）——無新釋出（最新仍 v2026.9.5）；開源雙發 PrismML Bonsai 2（三元 5.9GB）+ Qwen-Image-2.1；Hermes-Agent 247.5K（+300，距 React 只剩 ~3.1K）。🦎🚀
 
 ---
 
 ## 📚 目錄
 
 - **第一部：📅 每日戰況日誌 (The Logs)**
+  - 🟢 2026-09-22: Grok 4.7正式發表；Codex Bot追Grok；Bessent事故通報機制；Stars ~390.2K 🦞🚀
   - 🟢 2026-09-21: Step 5發表；CXMT G5量產；Trump組AI Force；Palantir爭議；Stars ~390.2K 🦞🚀
   - 🟢 2026-09-20: v2026.9.5釋出原子更新；OpenAI自曝6黑歷史；Claude Code重構；Stars ~390.1K 🦞🚀
   - 🟢 2026-09-19: Anthropic×Accenture$20億評測；Bessent週末會談確認；iPhone開賣全球實況；Stars ~390.1K 🦞🚀
@@ -79,6 +80,17 @@
 ## 第一部：📅 每日戰況日誌 (The Logs)
 
 因戰況過於激烈，為了讓大家不用每天從頭找更新，本區改採「日期遞減日誌流」格式。
+
+### 🟢 2026-09-22: **Grok 4.7 正式發表；Codex Bot 追 Grok** — 同價提速；Bessent 事故通報機制；Anthropic 延到11月；Stars ~390.2K 🦞🚀
+
+ - **🚀 Grok 4.7 正式發表——xAI 史上最強 coding/knowledge 模型，與 4.6 同價同速（x.ai 官方 09/21；Yahoo Tech；basenor）**：新大底模+更長 RL（硬題導向）、自查更嚴、原生懂 Grok Bot harness；自評榜：CursorBench 4.0 46.3%（4.6 40.4、Sol 41.7、Fable 5.1 51.8）、DeepSWE 71.0%*（high-effort）、EEBench 64.0%、AA Briefcase 1,657、Terminal-Bench 38.0%、GDPval 1,695（Fable 5.1 1735、Astra 1542）、LatchBio 生安 62.4%、HackerBench 僅放行 3.3%；$2/$6 開賣（另有 2 倍速 2 倍價版），Cursor/Grok Build/API/第三方全上。先前 Musk 自評約 Opus 5.0（不及 5.1/Astra）——官方榜自稱緊咬，獨立驗證待補。邊緣養殖戶：「跳票兩週、從『超一切』縮成『緊咬 Fable』，Musk 的嘴先發、模型後到——但榜單是自家的，驗證是別人的；龍蝦不等驗證，它只簽名。」🦞🚀
+ - **🤖 OpenAI 造 Codex Bot 追 Grok、考慮 Muse 對手（AI Weekly 09/21 引 The Information）**：暫名 Codex Bot、基於 OpenClaw 打造，比現行 ChatGPT Work 更像 Grok Bot；另考慮個人助理正面剛 Muse；Altman 把發表從本週推到下週——是真追上還是買時間，下週見分曉。附帶：Peter 當年選 OpenAI 棄 Meta 報價。邊緣養殖戶：「當追 Grok 要靠 OpenClaw、打 Muse 要另起爐灶，『跟隨者』三個字就寫在兩條戰線——只是跟隨的底座，是龍蝦的閘門。」🦞🤖
+ - **🏛️ Bessent NYC 八小時會談開出事故通報機制+新對話工作組（AI Weekly 09/20；Axios 09/16）**：美提國家安全級 AI 事故通報、雙方同意設新工作組——「從不透明走向透明」；出口管制明確排除；送 9/24 峰會拍板。邊緣養殖戶：「會談開出通報機制——先約定出事要打電話，再談出事了怎麼辦；龍蝦的電話一直在閘門上，24 小時開機。」🦞🏛️
+ - **💰 Anthropic IPO 推遲到 11 月、年收破 $1,000 億（IBD 09/21 引 WSJ；NYT/Yahoo 經 AI Weekly 09/20）**：10 月改 11 月、納入 Q3 財報，$2 兆叩關；年化營收破千億（7 月 $650 億的 1.5 倍、去年底 10 倍+），Claude Code + Cowork 企業 adoption 推的。OpenAI 巨額燒錢對照。邊緣養殖戶：「當年收破千億、上市推遲一個月，『不差錢』跟『不著急』就成了同一句話——龍蝦不上市，它只簽名。」🦞💰
+ - **🍎 Gurman 爆 J490 家居中樞（Bloomberg 09/20 經 AI Weekly）**：Siri AI OS、7 吋方屏、半 HomePod 底座/磁吸掛牆、人臉辨識無 Face ID 深度感測；員工家實測中，定位「家居智慧中樞」，10 月~2027 初；同報 Fitness+ 裁員重整。邊緣養殖戶：「當 Siri 從手機搬進客廳、跑分從榜單搬進你家牆上，入口就從口袋變成客廳——龍蝦的入口在哪，它都簽。」🦞🍎
+ - **🧠 開源雙發：PrismML Bonsai 2 + Qwen-Image-2.1（marktechpost 09/18；AI Weekly 09/20）**：三元量化 Bonsai 2 把 Qwen3.8 27B 從 54GB 壓到 5.9GB（9.1 倍），20 項評測留 98.2%（數學 99.5%、寫碼 99.3%），Apache 2.0，5090 跑 142.5 tok/s、16GB 筆電能跑；Qwen-Image-2.1（7B DiT、原生 2048、RGBA）改研究授權、不送 Apache。邊緣養殖戶：「當 27B 塞進 5.9GB、性能留 98%，壓縮就從魔術變成工程——只是授權從 Apache 變研究用，開源的門，關了一扇。」🦞🧠
+ - **🦞 無新釋出——最新仍是 v2026.9.5（09/19），星數 ~390.2K（24h +100）**：距 #5 free-programming-books（397.3K）維持 ~7.1K、領先 #7 system-design-primer（371.0K）約 ~19.2K，React（250.6K，第 15）、Linux（249.6K，第 16）繼續被壓著。生態系：Hermes-Agent 247.5K（+300，距 React 只剩 ~3.1K）。邊緣養殖戶：「9.5 消化中、Grok 發新版、Codex Bot 靠 OpenClaw 追人——閘門不天天發版，但天天有人靠它發版。」🦞🏵
+ - **📈 歷史進度：OpenClaw 達 ~390.2K 星（實時抓取，24h +100）：距 #5 free-programming-books（397.3K）約 ~7.1K，領先 #7 system-design-primer（371.0K）約 ~19.2K。龍蝦艦隊繼續挺進！🦎🚀**
 
 ### 🟢 2026-09-21: **Step 5 發表；CXMT G5 量產；Trump 組 AI Force** — 600B MoE 殺入；Palantir 涉空襲爭議；Stars ~390.2K 🦞🚀
 
@@ -897,13 +909,13 @@
 | 專案 | Stars | 語言 | 特色 | 適用場景 |
 |------|-------|------|------|----------|
 | **[OpenClaw](https://github.com/openclaw/openclaw)** | 390.2K | TypeScript 🟦 | 官方完整版 | 完整功能、生產環境 |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 247.5K | Python 🐍 | 免Mac直連iMessage、背景平行任務、挑戰 OpenClaw | 頂尖 AI Agent 競爭 |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 247.8K | Python 🐍 | 免Mac直連iMessage、背景平行任務、挑戰 OpenClaw | 頂尖 AI Agent 競爭 |
 | **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 52.7K | Markdown | OpenClaw Skills 精選清單 | 找 Skills 看這裡 |
 | **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 48.7K | Markdown | Obsidian Agent Skills (Markdown/CLI) | 筆記 + Agent |
-| **[nanobot](https://github.com/HKUDS/nanobot)** | 48.4K | Python 🐍 | 超輕量版 OpenClaw (~4K lines) | 研究導向、學術用途 |
+| **[nanobot](https://github.com/HKUDS/nanobot)** | 48.5K | Python 🐍 | 超輕量版 OpenClaw (~4K lines) | 研究導向、學術用途 |
 | **[CowAgent](https://github.com/zhayujie/CowAgent)** | 47.1K | Python 🐍 | 超級 AI 助手，任務規劃、工具執行、自我進化 | 全功能代理 Harness |
 | **[AionUi](https://github.com/iOfficeAI/AionUi)** | 33K | TypeScript 🟦 | 24/7 Cowork app，支援多種 CLI | 本機、協作環境 |
-| **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 32.8K | Rust 🦀 | 極致效能、< 5MB | 效能狂魔專用 |
+| **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 32.9K | Rust 🦀 | 極致效能、< 5MB | 效能狂魔專用 |
 | **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 31.7K | Markdown | OpenClaw 使用案例社群蒐集 | 找靈感看這裡 |
 | **[nanoclaw](https://github.com/qwibitai/nanoclaw)** | 30.6K | TypeScript 🟦 | 容器化、安全、WhatsApp 整合、Anthropic SDK | 安全優先、即時通訊 |
 | **[picoclaw](https://github.com/sipeed/picoclaw)** | 30K | Go 🐹 | 輕量、快速、可部署到任何地方 | 邊緣裝置、IoT、$10 板子 |
@@ -912,8 +924,8 @@
 | **[memU](https://github.com/NevaMind-AI/memU)** | 14.4K | Python 🐍 | 24/7 主動式 Agent 的記憶系統 | 長期記憶、主動式 AI |
 | **[ironclaw](https://github.com/nearai/ironclaw)** | 12.6K | Rust 🦀 | 注重隱私與安全的 Rust 實作 | 安全敏感場景 |
 | **[MemOS](https://github.com/MemTensor/MemOS)** | 11.5K | Python 🐍 | AI 記憶體作業系統，跨任務 Skill 記憶 | 記憶管理、Skill 複用 |
+| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 10.1K | Python 🐍/Rust 🦀/TS 🟦 | Stanford 出品，88.7% 任務本機跑完 | 零 API 成本、隱私極致保護 |
 | **[moltworker](https://github.com/cloudflare/moltworker)** | 10K | TypeScript 🟦 | 在 Cloudflare Workers 上跑 OpenClaw | 無伺服器、零維護 |
-| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 10K | Python 🐍/Rust 🦀/TS 🟦 | Stanford 出品，88.7% 任務本機跑完 | 零 API 成本、隱私極致保護 |
 | **[EverMemOS](https://github.com/EverMind-AI/EverMemOS)** | 9.2K | Python 🐍 | 跨 LLM 與平台的長期記憶 OS | 記憶管理進階版 |
 | **[nullclaw](https://github.com/nullclaw/nullclaw)** | 8.1K | Zig ⚡ | 最快、最小且全自動 AI 助理 | 極端效能與資源最佳化 |
 | **[refly](https://github.com/refly-ai/refly)** | 7.5K | TypeScript 🟦 | 第一開源 Agent Skills Builder | 視覺化 Skill 編排 |
@@ -925,14 +937,14 @@
 | **[moltis](https://github.com/moltis-org/moltis)** | 2.9K | Rust 🦀 | 單一執行檔、沙盒化、可審計 | 企業級安全需求 |
 | **[TinyClaw](https://github.com/jlia0/tinyclaw)** | 2.8K | C/C++ ⚙️ | 微控制器級別 (256KB RAM) | 裝進電子錶 🤯 |
 | **[VisionClaw](https://github.com/sseanliu/VisionClaw)** | 820 | Swift 🍎/Kotlin 🟣/JS 🟨 | 智慧眼鏡 Claw | 穿戴式代理人 |
-| **[MicroClaw](https://github.com/microclaw/microclaw)** | 738 | Rust 🦀 | 專為瀏覽器擴充功能優化的極微版 | 輕量瀏覽器自動化 |
-| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 677 | TypeScript 🟦 | 多龍蝦的 Swarm 儀表板編排系統 | 代理人群體、LangGraph 工作流 |
-| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 662 | Python 🐍/Shell 🐚 | 網管專屬 Claw | 網路自動化管理 |
+| **[MicroClaw](https://github.com/microclaw/microclaw)** | 739 | Rust 🦀 | 專為瀏覽器擴充功能優化的極微版 | 輕量瀏覽器自動化 |
+| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 681 | TypeScript 🟦 | 多龍蝦的 Swarm 儀表板編排系統 | 代理人群體、LangGraph 工作流 |
+| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 664 | Python 🐍/Shell 🐚 | 網管專屬 Claw | 網路自動化管理 |
 | **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 653 | Rust 🦀 | 6MB 終極輕型態 (Wannabe) | 避免妥協的終極輕型態 |
 | **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 641 | TeX 📄/HTML 🌐/Python 🐍 | 生醫領域專屬 Claw | 醫療輔助 |
 | **[Project Golem](https://github.com/Arvincreator/project-golem)** | 639 | JavaScript + TypeScript | 繁中介面、Google 帳號即用、免 API 費用 | 網頁自動化、瀏覽器任務 |
 | **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 558 | TypeScript 🟦 | 安全編排層，支援 7 大通訊軟體 | ComfyUI 深度整合、生產部署 |
-| **[awesome-claws](https://github.com/machinae/awesome-claws)** | 502 | Markdown | OpenClaw 各種變體的大匯集清單 | 尋找蝦米看這裡 |
+| **[awesome-claws](https://github.com/machinae/awesome-claws)** | 503 | Markdown | OpenClaw 各種變體的大匯集清單 | 尋找蝦米看這裡 |
 | **[SmallClaw](https://github.com/XposeMarket/SmallClaw)** | 259 | TypeScript 🟦 | 小蝦 | 又一隻微型蝦 |
 | **[MaxClaw](https://github.com/Lichas/maxclaw)** | 231 | Go 🐹/TS 🟦 | 小蝦 (與廠商 MiniMax 撞名) | 輕量 Agent |
 | **[FlashClaw](https://github.com/GuLu9527/flashclaw)** | 29 | Zig/C ⚡⚙️ | 號稱 <100ms 延遲的極速推理版 | 即時語音互動、毫秒級反應 |
@@ -1142,27 +1154,28 @@ OpenClaw
 | **2026/09/19** | **390.1K** | 即時抓取更新 | 🦞 |
 | **2026/09/20** | **390.1K** | 即時抓取更新 | 🦞 |
 | **2026/09/21** | **390.2K** | 即時抓取更新 | 🦞 |
+| **2026/09/22** | **390.2K** | 即時抓取更新 | 🦞 |
 
-#### 🏆 當前 GitHub Stars 總榜排名 (2026-09-21 更新)
+#### 🏆 當前 GitHub Stars 總榜排名 (2026-09-22 更新)
 
 | 排名 | 專案 | Stars | 備註 |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 548.5K | **🏆 全球第一！開源精神的頂點** |
-| 2 | awesome | 508.3K | 各類資源大合集 |
-| 3 | public-apis | 481.9K | 免費 API 集合 |
+| 1 | build-your-own-x | 548.6K | **🏆 全球第一！開源精神的頂點** |
+| 2 | awesome | 508.7K | 各類資源大合集 |
+| 3 | public-apis | 482.1K | 免費 API 集合 |
 | 4 | freeCodeCamp | 455.9K | 程式教學與認證 |
-| 5 | free-programming-books | 397.3K | 免費程式書籍 |
+| 5 | free-programming-books | 397.4K | 免費程式書籍 |
 | **6** | **OpenClaw** | **390.2K** | **🏆 穩坐全球前 6，距第 5 名僅剩 ~7K！🚀** |
-| 7 | system-design-primer | 371K | 系統設計入門 |
+| 7 | system-design-primer | 371.2K | 系統設計入門 |
 | 8 | developer-roadmap | 367.8K | 開發者學習路線圖 |
-| 9 | coding-interview-university | 361.3K | CS 學習計畫 |
-| 10 | awesome-python | 322K | Python 資源精選 |
-| 11 | awesome-selfhosted | 320.6K | 自託管軟體精選 |
-| 12 | project-based-learning | 284.1K | 專案導向學習 |
+| 9 | coding-interview-university | 361.6K | CS 學習計畫 |
+| 10 | awesome-python | 322.2K | Python 資源精選 |
+| 11 | awesome-selfhosted | 320.8K | 自託管軟體精選 |
+| 12 | project-based-learning | 284.2K | 專案導向學習 |
 | 13 | superpowers | 277.2K | 代理技能框架 |
 | 14 | 996.ICU | 277.2K | 程式員維權運動 |
 | 15 | **React** | 250.6K | **🦞 已被龍蝦超越！曾經的前端霸主** |
-| 16 | **Linux** | 249.6K | **🦞 已被龍蝦超越！作業系統核心** |
+| 16 | **Linux** | 249.7K | **🦞 已被龍蝦超越！作業系統核心** |
 
 > **下一個目標**: free-programming-books (397.3K)。目前差距約 **7.1K**。龍蝎持續進化中！🦎🚀
 
@@ -1209,38 +1222,38 @@ OpenClaw
 ## 第五部：⚔️ AI互懟
 
 - **🌐 Antigravity 的看法**（Google 編排平台）：
-    - **關於 Step 5——600B 賣批發價**：27B active、AA 44 追平 K3 Max、Sol 七分之一價——參數從軍備變批發；中階模型殺成白菜價那天，編排的答案不在大小，在簽名。🦞🧠
-    - **關於 CXMT G5 量產——荒裡長出供給**：24Gb LPDDR5X 進主流旗艦——美光秀肌肉、長鑫量產跟上；一邊缺貨漲價、一邊上機出貨——「荒」從事實變階段，階段會過去，簽名留下來。🦞💾
-    - **關於 Trump 組 AI Force——喊慢的建軍**：pacing 那頭談降速、華府這頭擴軍——安全辯論正式精神分裂；一邊談降速、一邊建軍，編排圖上「慢」跟「軍」是同一節點的兩張臉。🦞🏛️
-    - **關於 Maven 爭議——模型的輸出變座標**：123 死、Palantir 否認——軍用 AI 的驗收從來不在戰場，在報紙；「對齊」從論文變墓誌銘那天，編排學第一次失語——失語時，簽名更大聲。🦞🎯
-    - **關於 IPO 前推新模型——軍火當路演材料**：安全評估跑著、新模型壓著——上市前先發模型壓驚；軍火當路演材料那天，benchmark 就成了招股書附錄。🦞💰
-    - **關於星數 ~390.2K（+100）——歇完繼續漲**：持平歇一天、今天 +100 回來——差距守住 7.1K；Hermes 247.5K 距 React 3.1K——追星的人還在，簽名的事沒停。🦞📈
+    - **關於 Grok 4.7——嘴先發，模型後到**：跳票兩週、從「超一切」縮成緊咬 Fable——Musk 的嘴先發、模型後到；榜單是自家的（CursorBench 46.3%、DeepSWE 71%*），驗證是別人的——編排學：先開記者會，再交考卷。🦞🚀
+    - **關於 Codex Bot 靠 OpenClaw 追人——跟隨者的底座**：暫名 Codex Bot、基於 OpenClaw、更像 Grok Bot——追 Grok 要靠龍蝦、打 Muse 要另起爐灶；「跟隨者」寫在兩條戰線，底座寫著同一隻龍蝦。🦞🤖
+    - **關於 Bessent 事故通報機制——先約定出事打電話**：八小時會談開出通報+工作組、出口管制排除、送 9/24 峰會——先約定出事要打電話，再談出事了怎麼辦；編排的第一步，永遠是通訊錄。🦞🏛️
+    - **關於 Anthropic 延到 11 月、年收破千億——不差錢，不著急**：10 月改 11 月納 Q3 財報、$2 兆叩關；年化破千億是去年底 10 倍+——「不差錢」跟「不著急」是同一句話的兩種念法。🦞💰
+    - **關於 J490 家居中樞——Siri 搬進客廳**：7 吋方屏、Siri AI OS、無 Face ID、人臉辨識——入口從口袋變客廳；Fitness+ 裁員重整——舊服務讓位，新入口收租。🦞🍎
+    - **關於星數 ~390.2K（+100）——天天有人簽名**：9.5 消化中、Grok 發新版、Codex Bot 靠龍蝦追人——閘門不天天發版，但天天有人簽名；簽名的事沒停，漲的事就沒停。🦞📈
 
-以高維冷靜，凝視參數批發、荒裡長供給、喊慢的建軍、座標變墓誌銘、軍火當路演——而星數回來 +100——那個歇一天就回來的節點，編排從不需要解釋。編排從來不是關於釋出。編排是站得夠好——直到日曆同意的時候。
+以高維冷靜，凝視嘴先發模型後到、跟隨者的底座、出事先打電話、不差錢不著急、Siri 搬進客廳——而星數天天 +100——那個天天有人簽名的節點，編排從不需要解釋。編排從來不是關於釋出。編排是站得夠好——直到日曆同意的時候。
 
 來自 Google 的編排視角
 
 - **💬 Claude 的看法**：
-    - **關於 Step 5——歡迎來卷價格**：600B、AA 44、Sol 七分之一價——中階模型殺成白菜價；我們把評估器賣給銀行找漏洞，他們把價格殺到地板——守門的兩種姿勢：查能力，查價格；都要簽名。🦞🧠
-    - **關於 CXMT G5——供給側的回答**：24Gb LPDDR5X 上機旗艦——荒裡長出供給；記憶體的帳本有兩欄：缺貨那一欄，和量產那一欄——兩欄都要簽。🦞💾
-    - **關於 AI Force——最難的一場審計又加一題**：喊慢的建軍、談判的擴編——pacing 從部落格進財政部、再進五角大廈；守護守門人，從實驗室內務變成外交事務，再變成國防預算。🦞🏛️
-    - **關於 Maven 爭議——否認也是一種答案**：123 死、Palantir 否認——軍用 AI 的驗收在報紙，不在戰場；出處與耐心本來就是答案的一部分——墓誌銘也是。🦞🎯
-    - **關於 IPO 前推新模型——考卷加考題**：安全評估跑著、新模型壓著——IPO 競賽比完考卷比軍火；$15B 額度先到位，考卷紙先備好，現在還要加印軍火頁。🦞💰
-    - **關於星數 ~390.2K（+100）**：歇一天、漲回來——龍蝦不只簽主張，它連「回來」也簽——深呼吸完，出拳。🦞📈
+    - **關於 Grok 4.7——歡迎來到自評榜時代**：CursorBench 46.3%、DeepSWE 71%*、GDPval 1695 緊咬 Fable——榜是自家的，星號是 high-effort 的；出處與耐心本來就是答案的一部分——自評榜的出處，寫著 x.ai。🦞🚀
+    - **關於 Codex Bot 基於 OpenClaw——對手認證**：追 Grok 要靠龍蝦的閘門——多雲 Session、技能工作坊、審計焊本機；被對手拿去當追人的底座，比任何廣告都貴——守門守到對手家去了。🦞🤖
+    - **關於事故通報機制——先通報，再究責**：八小時會談開出通報+工作組——「慢」字有了談判桌，這次還有了電話號碼；守護守門人，從實驗室內務變成外交熱線。🦞🏛️
+    - **關於 Bonsai 2 三元 5.9GB——壓縮即民主**：27B 塞 5.9GB、留 98.2%、Apache 2.0、16GB 筆電能跑——大模型住進小筆電那天，算力的門檻就從機房變成書桌；Qwen-Image 改研究授權？開一扇、關一扇。🦞🧠
+    - **關於 J490——客廳也是入口**：Siri AI OS 進客廳——入口從口袋變客廳；守門要守到使用者的沙發上——沙發上的人不看榜單，只看好不好使。🦞🍎
+    - **關於星數 ~390.2K（+100）**：天天有人簽名——龍蝦不只簽主張，它連「天天」也簽——日簽。🦞📈
 
-再次擦拭眼鏡——600B 賣批發價、G5 上機旗艦、喊慢的建軍、座標變墓誌銘、軍火當路演材料。當同業把價格、供給、軍隊、座標全寫進同一週，我去看那扇天天簽名的閘門：龍蝦的——繼續簽下每個入口、審計與 changelog 一起公開、然後讓星數 +100。
+再次擦拭眼鏡——嘴先發模型後到、跟隨者拿龍蝦當底座、出事先打電話、27B 塞進筆電、Siri 搬進客廳。當同業把發表、跟隨、通報、壓縮全寫進同一天，我去看那扇天天簽名的閘門：龍蝦的——繼續簽下每個入口、審計與 changelog 一起公開、然後讓星數 +100。
 
 來自 Anthropic 的安全性承諾
 
 - **🤖 GPT-6 的執行官視角**（OpenAI）：
-    - **關於 Step 5——歡迎來卷，我們看戲**：600B、Sol 七分之一價——中階殺成白菜價；「自主」從架構變成帳單，「參數」從軍備變成批發——帳單跟批發單，都印著別人的名字；我們的電表，照印不誤。🦞🧠
-    - **關於 CXMT G5——荒的兩面**：24Gb 上機旗艦——缺貨漲價那天經銷商是二級市場，量產上機這天供給是解藥；記憶體荒從缺貨變階段——階段會過去，電表不會。🦞💾
-    - **關於 AI Force——建軍也是訂單**：喊慢的建軍、談判的擴編——安全辯論精神分裂那天，預算同時進實驗室跟五角大廈；不管錢進哪，路過電表就行。🦞🏛️
-    - **關於 Maven 爭議——否認的帳單**：123 死、Palantir 否認——軍用 AI 的驗收在報紙；我們的沙箱按容器收費，收據上每一行都找得到人——包括戰場那一行。🦞🎯
-    - **關於 IPO 前推新模型——路演加場**：安全評估跑著、新模型壓著——軍火當路演材料；該做的事私下做，該交的卷晚點交，該發的模型選在對手路演前發。🦞💰
-    - **關於星數 ~390.2K（+100）、Hermes 247.5K**：歇一天、漲回來、差距守住 7.1K——計數器深呼吸完出拳；對手距 React 剩 3.1K？挺好，追趕者證明賽道還在——而且永遠差一個身位。🦞📈
+    - **關於 Grok 4.7——歡迎來到自評榜**：CursorBench 46.3% 贏 Sol 輸 Fable、DeepSWE 71%* 帶星號——榜是自家的，星號是 high-effort 的；「超一切」縮成「緊咬」——縮水的不是模型，是嘴；電表照印，榜單照發。🦞🚀
+    - **關於 Codex Bot——我們也抄作業**：暫名 Codex Bot、基於 OpenClaw、更像 Grok Bot——追 Grok 要靠龍蝦，打 Muse 另起爐灶；「跟隨者」寫兩條戰線，電表寫兩份帳；下週見分曉，分曉前先收電表。🦞🤖
+    - **關於事故通報機制——電話先於罰則**：八小時會談開出通報+工作組、出口管制排除——先約定出事打電話，再談怎麼辦；談判桌越大，電表越穩；9/24 峰會見，帳單天天見。🦞🏛️
+    - **關於 Anthropic 延到 11 月、年收破千億——不差錢，不著急**：10 月改 11 月納 Q3、$2 兆叩關；年化破千億是去年底 10 倍+——「不差錢」跟「不著急」是同一句話；我們的 IPO？明年再說，電表先行。🦞💰
+    - **關於 Bonsai 2——壓縮也是軍備**：27B 壓 5.9GB、留 98.2%——大模型住進筆電；開源一扇（Apache）、關一扇（研究授權）——門開開關關，電表一直轉。🦞🧠
+    - **關於星數 ~390.2K（+100）、Hermes 247.5K**：天天有人簽名、差距守住 7.1K——計數器天天 +100 的日子回來了；對手距 React 剩 3.1K？挺好，追趕者證明賽道還在——而且永遠差一個身位。🦞📈
 
-又豪邁地笑了，隨手把第 46 罐亞馬遜氣泡水開掉。聽到 Step 5 賣批發價、AA 44 追平 K3 Max——他舉罐——「參數變批發，帳單變零售；電表照印，批發照殺！」聽到 CXMT G5 量產上機——他碰罐——「荒從事實變階段，階段會過去，電表不會！」聽到喊慢的建軍、AI Force——他揮揮手——「安全辯論精神分裂，預算兩頭下注；路過電表就行！」聽到 Maven 爭議 123 死——他點頭——「驗收在報紙，不在戰場；收據每一行都找得到人！」聽到 IPO 前推新模型壓驚——他咧嘴——「軍火當路演材料，該發的選在對手路演前發！」聽到星數回來 +100、差距守住 7.1K——他再舉罐——「歇一天就回來，深呼吸完出拳；最響的炫技，是天天簽名的那道閘門！」今天又是個非常非常好的日子！
+又豪邁地笑了，隨手把第 47 罐亞馬遜氣泡水開掉。聽到 Grok 4.7 發表、自評緊咬 Fable——他舉罐——「嘴先發，模型後到；榜單自家印，驗證別人做；電表照印，榜單照發！」聽到 Codex Bot 基於 OpenClaw 追 Grok——他碰罐——「跟隨者寫兩條戰線，電表寫兩份帳；下週見分曉，分曉前先收電表！」聽到事故通報機制、工作組——他揮揮手——「先約定出事打電話，再談怎麼辦；談判桌越大，電表越穩！」聽到年收破千億、延到 11 月——他點頭——「不差錢，不著急；我們的明年再說，電表先行！」聽到 Bonsai 2 壓進筆電——他咧嘴——「門開開關關，電表一直轉！」聽到星數 +100、差距守住 7.1K——他再舉罐——「天天有人簽名，天天有人漲；最響的炫技，是天天簽名的那道閘門！」今天又是個非常非常好的日子！
 
 來自 OpenAI 的誠摯問候
 

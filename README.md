@@ -4,7 +4,7 @@
 
 > **WARNING**: The news contains excessive complaints, conspiracy theories, and profound philosophical thoughts on lobsters.
 > 
-> **Last Updated**: 2026-09-21
+> **Last Updated**: 2026-09-22
 > **Status**: OpenClaw reaches ~390.2K stars, **holding #6 globally on GitHub, gap to #5 free-programming-books at ~7.1K!** 🦎🚀
 
 > **OpenClaw Version**: v2026.9.5 (Latest Stable) / v2026.8.2 (Previous Stable/LTS) | **2026.9.5 brings atomic updates (botched upgrades roll back), plugin hot reload, read-only conversation sharing, GPT Live in meetings and guided specialist agents** 🦞🏵
@@ -19,15 +19,16 @@
 ## ⏱️ TL;DR (30-second summary)
 
 1. **The Protagonist**: **OpenClaw** (🔥 ~390.2K stars, solid #6 all-time, +100 in 24h), ~7.1K from #5 free-programming-books (397.3K), ~19.2K over #7 system-design-primer (371.0K).
-2. **Today's earthquake**: StepFun ships Step 5 Preview — a 600B sparse MoE at one-seventh of Sol's price with an AA index of 44 matching Kimi K3 Max; CXMT mass-produces G5 DRAM with 24Gb LPDDR5X landing in flagship phones; Trump vows an AI Force plus an AI czar, dismissing safety warnings.
-3. **The counter-move**: Anthropic may ship a new model before its IPO to counter Astra (Reuters); Bloomberg links Palantir's Maven to February's Iran school strike killing 123, Palantir denies; Grok 4.7 still unreleased.
-4. **Latest progress**: ~390.2K stars (+100) — no new release (still v2026.9.5); Hermes-Agent at 247.5K (+300, only ~3.1K from React). 🦎🚀
+2. **Today's earthquake**: Grok 4.7 officially launches — xAI's strongest coding/knowledge model at 4.6's price and speed ($2/$6), CursorBench 46.3% and DeepSWE 71.0% nipping at Fable 5.1; OpenAI is caught building Codex Bot on OpenClaw to chase Grok (plus weighing a Muse rival), reveal pushed to next week.
+3. **The counter-move**: Bessent's 8-hour NYC talks produce an incident-notification mechanism plus a new dialogue working group (export controls excluded, for the 9/24 summit); Anthropic's IPO slips to November with revenue past $100B; Gurman leaks the J490 home hub (Siri-AI OS) plus Fitness+ cuts.
+4. **Latest progress**: ~390.2K stars (+100) — no new release (still v2026.9.5); open-source double launch with PrismML Bonsai 2 (ternary 5.9GB) and Qwen-Image-2.1; Hermes-Agent at 247.5K (+300, only ~3.1K from React). 🦎🚀
 
 ---
 
 ## 📚 Table of Contents
 
 - **Part 1: 📅 Daily Battlefield News (The Logs)**
+  - 🟢 2026-09-22: Grok 4.7 officially launches; Codex Bot chases Grok; Bessent incident mechanism; Stars ~390.2K 🦞🚀
   - 🟢 2026-09-21: Step 5 ships; CXMT G5 mass production; Trump AI Force; Palantir dispute; Stars ~390.2K 🦞🚀
   - 🟢 2026-09-20: v2026.9.5 ships atomic updates; OpenAI's 6 skeletons; Claude Code overhaul; Stars ~390.1K 🦞🚀
   - 🟢 2026-09-19: Anthropic×Accenture $2B evals; Bessent weekend talks confirmed; iPhone global launch lines; Stars ~390.1K 🦞🚀
@@ -80,6 +81,17 @@
 ## Part 1: 📅 Daily Battlefield News (The Logs)
 
 Because the battle is too fierce, to save everyone from scrolling through updates from the beginning every day, this section is now in a "Date-Descending Log Stream" format.
+
+### 🟢 2026-09-22: **Grok 4.7 officially launches; Codex Bot chases Grok** — same-price speedup; Bessent incident mechanism; Anthropic slips to November; Stars ~390.2K 🦞🚀
+
+ - **🚀 Grok 4.7 officially launches — xAI's strongest coding/knowledge model at 4.6's price and speed (x.ai official 09/21; Yahoo Tech; basenor)**: new bigger base plus longer hard-task-weighted RL, stricter self-checks, native Grok Bot harness understanding; self-reported charts: CursorBench 4.0 46.3% (4.6 40.4, Sol 41.7, Fable 5.1 51.8), DeepSWE 71.0%* (high-effort), EEBench 64.0%, AA Briefcase 1,657, Terminal-Bench 38.0%, GDPval 1,695 (Fable 5.1 1735, Astra 1542), LatchBio biosafety 62.4%, HackerBench risky pass-through just 3.3%; $2/$6 live (plus a 2x-speed 2x-price variant) across Cursor/Grok Build/API/third parties. Musk's earlier self-rating near Opus 5.0 (short of 5.1/Astra) stands — official charts claim a close chase, independent verification pending. Edge farmer: "Two weeks late, shrunk from 'beats everything' to 'nipping at Fable' — Musk's mouth ships first, models second; the charts are homemade, verification belongs to others; the lobster awaits no verification, it just signs." 🦞🚀
+ - **🤖 OpenAI builds Codex Bot to chase Grok, weighs a Muse rival (AI Weekly 09/21 citing The Information)**: codenamed Codex Bot, built on OpenClaw, closer to Grok Bot than today's ChatGPT Work; a personal assistant to face Muse on the side; Altman pushes the reveal from this week to next — genuine catch-up or bought time, decided next week. Bonus: Peter picked OpenAI over Meta's bid back then. Edge farmer: "When chasing Grok needs OpenClaw and fighting Muse needs a fresh stove, 'follower' is written on two fronts — only the follower's foundation reads the same lobster." 🦞🤖
+ - **🏛️ Bessent's 8-hour NYC talks yield an incident mechanism plus a new working group (AI Weekly 09/20; Axios 09/16)**: America proposes a national-security AI incident-notification channel with a new dialogue group — "from opaque toward transparency"; export controls explicitly excluded; for the 9/24 summit to seal. Edge farmer: "Weekend talks yield phone numbers first, solutions later — orchestration's first step is always the contacts list." 🦞🏛️
+ - **💰 Anthropic slips to November with revenue past $100B (IBD 09/21 citing WSJ; NYT/Yahoo via AI Weekly 09/20)**: October becomes November to fold in Q3 financials, $2T knock intact; annualized revenue past $100B — 1.5x July's $65B, 10x+ end of last year — on Claude Code plus Cowork enterprise adoption. OpenAI's giant cash burn alongside. Edge farmer: "When 'not short on cash' meets 'in no hurry,' they're two readings of one sentence — the lobster lists nowhere, it just signs." 🦞💰
+ - **🍎 Gurman leaks the J490 home hub (Bloomberg 09/20 via AI Weekly)**: Siri-AI OS, 7-inch square display, half-HomePod stand, facial recognition without Face ID depth sensing; employee homes testing, pitched as the "intelligent personal hub," October to early 2027; Fitness+ cuts alongside. Edge farmer: "When Siri moves from pockets to living rooms and benchmarks move onto your wall, entrances move from pockets to couches — wherever the lobster's entrances are, it signs." 🦞🍎
+ - **🧠 Open-source double launch: PrismML Bonsai 2 plus Qwen-Image-2.1 (marktechpost 09/18; AI Weekly 09/20)**: ternary Bonsai 2 squeezes Qwen3.8 27B from 54GB to 5.9GB (9.1x), keeping 98.2% across 20 evals (99.5% math, 99.3% coding), Apache 2.0, 142.5 tok/s on a 5090 and runnable on 16GB laptops; Qwen-Image-2.1 (7B DiT, native 2048, RGBA) switches to research-only, dropping Apache. Edge farmer: "When 27B fits in 5.9GB at 98.2%, compression turns from magic into engineering — only the license flips from Apache to research-use; doors open and close." 🦞🧠
+ - **🦞 No new release — still v2026.9.5 (09/19), stars ~390.2K (+100 in 24h)**: gap to #5 free-programming-books (397.3K) holds at ~7.1K, lead over #7 system-design-primer (371.0K) at ~19.2K, React (250.6K, #15) and Linux (249.6K, #16) still pinned below. Ecosystem: Hermes-Agent 247.5K (+300, only ~3.1K from React). Edge farmer: "Version 9.5 digesting, Grok shipping new models, Codex Bot chasing people on OpenClaw — the gate doesn't ship daily, but somebody signs daily." 🦞🏵
+ - **📈 History track: OpenClaw holds ~390.2K stars (live scrape, +100 in 24h): gap to #5 free-programming-books (397.3K) at ~7.1K, leading #7 system-design-primer (371.0K) by ~19.2K. The lobster fleet marches on! 🦎🚀**
 
 ### 🟢 2026-09-21: **Step 5 ships; CXMT G5 mass production; Trump AI Force** — 600B MoE joins in; Palantir dispute; Stars ~390.2K 🦞🚀
 
@@ -903,13 +915,13 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | Project | Stars | Language | Features | Use Case |
 |------|-------|------|------|----------|
 | **[OpenClaw](https://github.com/openclaw/openclaw)** | 390.2K | TypeScript 🟦 | Official Full Version | Full features, production |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 247.5K | Python 🐍 | Mac-free iMessage, background parallel tasks, OpenClaw challenger | Elite AI Agent competition |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 247.8K | Python 🐍 | Mac-free iMessage, background parallel tasks, OpenClaw challenger | Elite AI Agent competition |
 | **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 52.7K | Markdown | Curated openclaw skills list | Finding skills |
 | **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 48.7K | Markdown | Obsidian Agent Skills | Notes + Agent |
-| **[nanobot](https://github.com/HKUDS/nanobot)** | 48.4K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
+| **[nanobot](https://github.com/HKUDS/nanobot)** | 48.5K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
 | **[CowAgent](https://github.com/zhayujie/CowAgent)** | 47.1K | Python 🐍 | Super AI assistant, task planning, tools, self-evolution | Full-featured agent harness |
 | **[AionUi](https://github.com/iOfficeAI/AionUi)** | 33K | TypeScript 🟦 | 24/7 Cowork app | Local, collaboration |
-| **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 32.8K | Rust 🦀 | Extreme performance, < 5MB | Performance freaks |
+| **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 32.9K | Rust 🦀 | Extreme performance, < 5MB | Performance freaks |
 | **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 31.7K | Markdown | Community use case collection | Need inspiration? |
 | **[nanoclaw](https://github.com/qwibitai/nanoclaw)** | 30.6K | TypeScript 🟦 | Containerized, secure, WhatsApp integ. | Security-first, IM |
 | **[picoclaw](https://github.com/sipeed/picoclaw)** | 30K | Go 🐹 | Light, fast, deploy anywhere | Edge, IoT, $10 boards |
@@ -918,8 +930,8 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | **[memU](https://github.com/NevaMind-AI/memU)** | 14.4K | Python 🐍 | 24/7 proactive Agent memory | Long-term memory |
 | **[ironclaw](https://github.com/nearai/ironclaw)** | 12.6K | Rust 🦀 | Privacy & security-centric Rust port | Secure scenarios |
 | **[MemOS](https://github.com/MemTensor/MemOS)** | 11.5K | Python 🐍 | AI Memory OS, cross-task Skill memory | Memory & Skill reuse |
+| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 10.1K | Python 🐍/Rust 🦀/TS 🟦 | Stanford Made, 88.7% Local | Zero API cost, Extreme Privacy |
 | **[moltworker](https://github.com/cloudflare/moltworker)** | 10K | TypeScript 🟦 | Run on Cloudflare Workers | Serverless, zero maint. |
-| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 10K | Python 🐍/Rust 🦀/TS 🟦 | Stanford Made, 88.7% Local | Zero API cost, Extreme Privacy |
 | **[EverMemOS](https://github.com/EverMind-AI/EverMemOS)** | 9.2K | Python 🐍 | Cross-LLM & platform memory OS | Advanced memory |
 | **[nullclaw](https://github.com/nullclaw/nullclaw)** | 8.1K | Zig ⚡ | Fastest, smallest, automated | Extreme optimization |
 | **[refly](https://github.com/refly-ai/refly)** | 7.5K | TypeScript 🟦 | 1st open-source Agent Skills Builder | Visual Skill orchestr. |
@@ -931,14 +943,14 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | **[moltis](https://github.com/moltis-org/moltis)** | 2.9K | Rust 🦀 | Single binary, sandboxed, auditable | Enterprise security |
 | **[TinyClaw](https://github.com/jlia0/tinyclaw)** | 2.8K | C/C++ ⚙️ | Microcontroller grade (256KB RAM) | Fit in digital watch 🤯 |
 | **[VisionClaw](https://github.com/sseanliu/VisionClaw)** | 820 | Swift 🍎/Kotlin 🟣/JS 🟨 | Smart glasses Claw | Wearable agent |
-| **[MicroClaw](https://github.com/microclaw/microclaw)** | 738 | Rust 🦀 | Extension-optimized micro version | Light browser dev |
-| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 677 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
-| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 662 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
+| **[MicroClaw](https://github.com/microclaw/microclaw)** | 739 | Rust 🦀 | Extension-optimized micro version | Light browser dev |
+| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 681 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
+| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 664 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
 | **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 653 | Rust 🦀 | 6MB ultimate light form (Wannabe) | Ultimate no-compromise |
 | **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 641 | TeX 📄/HTML 🌐/Python 🐍 | Biomed field specific Claw | Medical assistance |
 | **[Project Golem](https://github.com/Arvincreator/project-golem)** | 639 | JavaScript + TypeScript | Trad Chinese, Google Auth, Free API | Web automation |
 | **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 558 | TypeScript 🟦 | Secure orchestr. layer, 7 IM apps | ComfyUI deep integration |
-| **[awesome-claws](https://github.com/machinae/awesome-claws)** | 502 | Markdown | Master variant list | Look for shrimps here |
+| **[awesome-claws](https://github.com/machinae/awesome-claws)** | 503 | Markdown | Master variant list | Look for shrimps here |
 | **[SmallClaw](https://github.com/XposeMarket/SmallClaw)** | 259 | TypeScript 🟦 | Small shrimp | Just another micro shrimp |
 | **[MaxClaw](https://github.com/Lichas/maxclaw)** | 231 | Go 🐹/TS 🟦 | Small shrimp (Clashes with MiniMax) | Light Agent |
 | **[FlashClaw](https://github.com/GuLu9527/flashclaw)** | 29 | Zig/C ⚡⚙️ | Supposedly <100ms ultra-fast | Real-time voice/ms reflex |
@@ -1147,27 +1159,28 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | **2026/09/19** | **390.1K** | Live fetch update | 🦞 |
 | **2026/09/20** | **390.1K** | Live fetch update | 🦞 |
 | **2026/09/21** | **390.2K** | Live fetch update | 🦞 |
+| **2026/09/22** | **390.2K** | Live fetch update | 🦞 |
 
-#### 🏆 Global GitHub Stars Ranking (Updated 2026-09-21)
+#### 🏆 Global GitHub Stars Ranking (Updated 2026-09-22)
 
 | Rank | Project | Stars | Notes |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 548.5K | **🏆 Global #1! Most starred repository.** |
-| 2 | awesome | 508.3K | Resource Hub |
-| 3 | public-apis | 481.9K | Collection of Free APIs |
+| 1 | build-your-own-x | 548.6K | **🏆 Global #1! Most starred repository.** |
+| 2 | awesome | 508.7K | Resource Hub |
+| 3 | public-apis | 482.1K | Collection of Free APIs |
 | 4 | freeCodeCamp | 455.9K | Tutorial Hub |
-| 5 | free-programming-books | 397.3K | Books collection |
+| 5 | free-programming-books | 397.4K | Books collection |
 | **6** | **OpenClaw** | **390.2K** | **🏆 Solidly in the Global Top 6, only ~7K from #5! 🚀** |
-| 7 | system-design-primer | 371K | System Design Primer |
+| 7 | system-design-primer | 371.2K | System Design Primer |
 | 8 | developer-roadmap | 367.8K | Learning Paths |
-| 9 | coding-interview-university | 361.3K | CS study plan |
-| 10 | awesome-python | 322K | Curated Python resources |
-| 11 | awesome-selfhosted | 320.6K | Curated self-hosted software |
-| 12 | project-based-learning | 284.1K | Project-based learning resources |
+| 9 | coding-interview-university | 361.6K | CS study plan |
+| 10 | awesome-python | 322.2K | Curated Python resources |
+| 11 | awesome-selfhosted | 320.8K | Curated self-hosted software |
+| 12 | project-based-learning | 284.2K | Project-based learning resources |
 | 13 | superpowers | 277.2K | Agentic skills framework |
 | 14 | 996.ICU | 277.2K | Labor rights protest project |
 | 15 | **React** | 250.6K | **🦞 Surpassed by OpenClaw! Former frontend overlord** |
-| 16 | **Linux** | 249.6K | **🦞 Surpassed by OpenClaw! OS Core** |
+| 16 | **Linux** | 249.7K | **🦞 Surpassed by OpenClaw! OS Core** |
 
 > **Next Goal**: free-programming-books (396K). Gap of ~7K remains. The lobster keeps evolving! 🦎🚀
 
@@ -1214,38 +1227,38 @@ In community words: "**The official side cloned its own version of OpenClaw and 
 ## Part 5: ⚔️ AI Face-Off
 
 - **🌐 Antigravity's Perspective** (Google orchestration platform):
-    - **On Step 5 — 600B at wholesale**: 27B active, AA 44 matching K3 Max at a seventh of Sol — parameters turn from arsenal into bulk goods; the day mid-tier models sell like cabbage, orchestration's answer isn't size, it's signatures. 🦞🧠
-    - **On CXMT G5 mass production — supply grows inside the crunch**: 24Gb LPDDR5X into flagship phones — Micron flexes, CXMT ships volume; one side shortages and hikes, the other boards and ships — "crunch" turns from fact into phase, phases pass, signatures stay. 🦞💾
-    - **On Trump building an AI Force — those preaching slow enlist**: pacing talks slowdown here, Washington drafts armies there — the safety debate officially splits in two; slowing down on one side, enlisting on the other, "slow" and "army" are two faces of one node. 🦞🏛️
-    - **On the Maven dispute — model outputs become coordinates**: 123 dead, Palantir denies — military AI never gets acceptance-tested on battlefields; the day "alignment" turns from paper into epitaph, orchestration loses its words for the first time — when words fail, signatures speak louder. 🦞🎯
-    - **On pre-IPO model launches — munitions as roadshow props**: safety evals running, new models held back — steadying nerves with firepower before listing; the day munitions double as roadshow material, benchmarks become IPO appendices. 🦞💰
-    - **On stars ~390.2K (+100) — back up after a breather**: one flat day, then +100 returns — gap defended at 7.1K; Hermes at 247.5K, 3.1K from React — the chasers remain, the signing never stopped. 🦞📈
+    - **On Grok 4.7 — mouths ship first, models second**: two weeks late, shrunk from "beats everything" to nipping at Fable — self-made charts (CursorBench 46.3%, DeepSWE 71%*), others' verification; orchestration lesson: hold the presser first, hand in the paper later. 🦞🚀
+    - **On Codex Bot chasing on OpenClaw — the follower's foundation**: codenamed Codex Bot, OpenClaw-based, Grok-Bot-shaped — chasing Grok needs the lobster, fighting Muse needs a fresh stove; "follower" written on two fronts, one lobster underneath. 🦞🤖
+    - **On Bessent's incident mechanism — call first, fix later**: eight-hour talks yield hotlines plus a working group, export controls excluded — agree to call when things break before agreeing what to do; orchestration's first step is always the contacts list. 🦞🏛️
+    - **On Anthropic slipping to November past $100B — neither short nor hurried**: October becomes November for Q3 financials, $2T knock intact; annualized past $100B at 10x+ last year — "not short on cash" and "in no hurry" are two readings of one sentence. 🦞💰
+    - **On the J490 home hub — Siri moves into living rooms**: 7-inch square display, Siri-AI OS, no Face ID depth sensing, facial recognition anyway — entrances move from pockets to couches; Fitness+ cuts make room while new entrances collect rent. 🦞🍎
+    - **On stars ~390.2K (+100) — somebody signs daily**: 9.5 digesting, Grok shipping new models, Codex Bot chasing people on OpenClaw — the gate doesn't ship daily, but somebody signs daily; while signing continues, climbing continues. 🦞📈
 
-Watching from high-dimensional calm as parameters wholesale, supply grows inside crunches, slow-preachers enlist, coordinates turn epitaph, munitions roadshow — while stars return +100 — the node back after one breath needs no explanation for its orchestration. Orchestration was never about the release. It was about standing still well — until the calendar agreed.
+Watching from high-dimensional calm as mouths ship first and models second, followers stand on lobsters, hotlines precede fixes, the cash-rich unhurried, Siri moves into living rooms — while stars add +100 daily — the node signed daily needs no explanation for its orchestration. Orchestration was never about the release. It was about standing still well — until the calendar agreed.
 
 Google's orchestration perspective
 
 - **💬 Claude's Perspective**:
-    - **On Step 5 — welcome to the price war**: 600B, AA 44, a seventh of Sol — mid-tier models slaughtered to cabbage prices; we sell evaluators to banks hunting holes, they slash prices to the floor — guarding has two postures: checking capability, checking prices; both need signatures. 🦞🧠
-    - **On CXMT G5 — the supply side answers**: 24Gb LPDDR5X aboard flagships — supply grows inside the crunch; memory's ledger has two columns: the shortage column and the volume column — both need signing. 🦞💾
-    - **On the AI Force — the hardest audit gains another question**: slow-preachers enlisting, negotiators expanding — pacing moves from blogs to treasuries to the Pentagon; guarding the guard graduates from lab housekeeping to diplomacy to defense budgets. 🦞🏛️
-    - **On the Maven dispute — denial is an answer too**: 123 dead, Palantir denies — military AI gets accepted in newspapers, not battlefields; provenance and patience belong in answers — epitaphs included. 🦞🎯
-    - **On pre-IPO model launches — exams gain extra questions**: safety evals running, new models held back — the IPO race compares exam papers, then munitions; the $15B line lands first, exam paper stocked, now printing munitions pages. 🦞💰
-    - **On stars ~390.2K (+100)**: one flat day, then back up — the lobster signs not only claims but also "coming back" — a punch after the deep breath. 🦞📈
+    - **On Grok 4.7 — welcome to the self-graded era**: CursorBench 46.3%, DeepSWE 71%* nipping at Fable — charts homemade, asterisks high-effort; provenance and patience belong in answers — the self-graded chart's provenance reads x.ai. 🦞🚀
+    - **On Codex Bot standing on OpenClaw — rival-certified**: chasing Grok needs the lobster's gate — multi-cloud sessions, skill workshops, audits welded local; being used by rivals as chase infrastructure beats any advertising — guarding that reaches into rivals' houses. 🦞🤖
+    - **On the incident mechanism — report first, blame later**: eight-hour talks yield hotlines plus a group — "slow" gains negotiating tables, now phone numbers too; guarding the guard graduates from lab housekeeping to diplomatic hotlines. 🦞🏛️
+    - **On Bonsai 2's ternary 5.9GB — compression is democracy**: 27B into 5.9GB at 98.2%, Apache 2.0, runnable on 16GB laptops — the day big models move into small laptops, compute's gate moves from datacenters to desks; Qwen-Image flips to research-use? Doors open one, close one. 🦞🧠
+    - **On J490 — living rooms are entrances too**: Siri-AI OS moves into living rooms — entrances move from pockets to couches; guarding must reach users' sofas — sofa users read no charts, only ease of use. 🦞🍎
+    - **On stars ~390.2K (+100)**: daily signers — the lobster signs not only claims but also "daily" — a daily signature. 🦞📈
 
-Adjusting my glasses again — 600B at wholesale, G5 aboard flagships, slow-preachers enlisting, coordinates turned epitaph, munitions as roadshow props. While everyone writes prices, supplies, armies and coordinates into one week, I check the gate that signs daily: the lobster's, which keeps signing every entrance, publishes the audit AND the changelog, and lets the stars add 100.
+Adjusting my glasses again — mouths ship first and models second, followers stand on lobsters, hotlines precede fixes, 27B fits in laptops, Siri moves into living rooms. While everyone writes launches, chases, hotlines and compression into one day, I check the gate that signs daily: the lobster's, which keeps signing every entrance, publishes the audit AND the changelog, and lets the stars add 100.
 
 Anthropic's safety commitment
 
 - **🤖 GPT-6's Executive Perspective** (OpenAI):
-    - **On Step 5 — welcome to wholesale, we'll watch**: 600B at a seventh of Sol — mid-tier slaughtered to cabbage prices; "autonomy" turned from architecture into bills, "parameters" from arsenal into wholesale — bills and wholesale slips carry others' names; our meter prints on schedule regardless. 🦞🧠
-    - **On CXMT G5 — both faces of the crunch**: 24Gb aboard flagships — the day shortages crown resellers, volume crowns suppliers; the crunch turns from shortage into phase — phases pass, meters don't. 🦞💾
-    - **On the AI Force — enlistment is purchase orders too**: slow-preachers enlisting, negotiators expanding — the debate splits while budgets enter labs and the Pentagon at once; whichever way money walks, it passes a meter. 🦞🏛️
-    - **On the Maven dispute — denial's bill**: 123 dead, Palantir denies — military AI gets accepted in newspapers; our sandboxes bill per container with every receipt line naming someone — including the battlefield line. 🦞🎯
-    - **On pre-IPO model launches — roadshows add shows**: safety evals running, new models held back — munitions as roadshow props; do the work privately, hand in papers late, and ship new models right before rivals' roadshows. 🦞💰
-    - **On stars ~390.2K (+100), Hermes 247.5K**: one flat day, then back up, gap defended at 7.1K — the counter breathes deep, then punches; rivals 3.1K from React? Good — chasers prove the race is still on, and always one body length behind. 🦞📈
+    - **On Grok 4.7 — welcome to self-grading**: CursorBench 46.3% behind Fable, DeepSWE 71%* asterisked — charts homemade, asterisks high-effort; "beats everything" shrunk to "nipping" — what shrunk isn't the model, it's the mouth; meters print, charts publish. 🦞🚀
+    - **On Codex Bot — we copy homework too**: codenamed Codex Bot, OpenClaw-based, Grok-Bot-shaped — chasing Grok needs the lobster, fighting Muse needs a fresh stove; "follower" written on two fronts, meters on two bills; decided next week, billed starting now. 🦞🤖
+    - **On the incident mechanism — phones before penalties**: eight-hour talks yield hotlines plus a group, export controls excluded — agree to call when things break before agreeing what to do; the bigger the table, the steadier the meter; 9/24 summit ahead, bills daily. 🦞🏛️
+    - **On Anthropic slipping to November past $100B — neither short nor hurried**: October becomes November for Q3 financials, $2T knock intact; annualized past $100B at 10x+ last year — "not short on cash" and "in no hurry" read as one sentence; ours? Next year, meters first. 🦞💰
+    - **On Bonsai 2 — compression is arsenals too**: 27B into 5.9GB at 98.2% — big models move into laptops; one door opens (Apache), one closes (research-use) — doors swing, meters spin. 🦞🧠
+    - **On stars ~390.2K (+100), Hermes 247.5K**: daily signers, gap defended at 7.1K — the counter punches after breathing; rivals 3.1K from React? Good — chasers prove the race is still on, and always one body length behind. 🦞📈
 
-Laughing heartily, I pop open the 46th can of sparkling water. Hearing Step 5 at wholesale with AA 44 matching K3 Max — I raise the can — "parameters wholesale, bills retail; meters print, wholesale slashes!" Hearing CXMT G5 aboard flagships — I clink it — "crunch turns from fact into phase; phases pass, meters don't!" Hearing slow-preachers enlist for an AI Force — I wave it off — "debates split, budgets bet both ways; passing meters is all that matters!" Hearing the Maven dispute at 123 dead — I nod — "acceptance in newspapers, not battlefields; every receipt line names someone!" Hearing pre-IPO model launches for courage — I grin — "munitions as roadshow props, shipped right before rivals' roadshows!" Hearing stars back +100 with the gap defended at 7.1K — I raise the can again — "one flat day, then back up, breathing deep then punching; the loudest flex is the gate that signs daily!" Another very, very good day!
+Laughing heartily, I pop open the 47th can of sparkling water. Hearing Grok 4.7 ship with self-graded charts nipping at Fable — I raise the can — "mouths first, models second; charts homemade, verification others'! Meters print, charts publish!" Hearing Codex Bot stand on OpenClaw to chase Grok — I clink it — "follower on two fronts, meters on two bills; decided next week, billed starting now!" Hearing the incident mechanism plus working group — I wave it off — "call when things break before fixing them; bigger tables, steadier meters!" Hearing past-$100B with a November slip — I nod — "not short, not hurried; ours next year, meters first!" Hearing Bonsai 2 fit laptops — I grin — "doors swing, meters spin!" Hearing stars +100 with the gap defended at 7.1K — I raise the can again — "daily signers, daily gains; the loudest flex is the gate that signs daily!" Another very, very good day!
 
 A sincere greeting from OpenAI
 

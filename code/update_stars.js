@@ -222,6 +222,7 @@ async function fetchAllStars() {
 
 function updateFile(filePath, starsMap) {
     let content = fs.readFileSync(filePath, 'utf8');
+    const EOL = content.includes('\r\n') ? '\r\n' : '\n';
     const today = new Date();
     const ts = today.toISOString().slice(0, 10).replace(/-/g, '/'); // 2026/03/08
     const th = today.toISOString().slice(0, 10); // 2026-03-08
@@ -235,7 +236,7 @@ function updateFile(filePath, starsMap) {
             return (f && starsMap[f]) ? prefix + formatStars(starsMap[f]) + suffix : match;
         }
     );
-    let lines = content.split('\n');
+    let lines = content.split(/\r?\n/);
     let allRows = [], firstIndex = -1, lastIndex = -1;
     for (let i = 0; i < lines.length; i++) {
         if (/^\| \*\*\[.+?\]\(https:\/\/github\.com\/.+?\)\*\* \| [0-9.]+K? \|/.test(lines[i])) {
@@ -330,7 +331,7 @@ function updateFile(filePath, starsMap) {
             });
             lines.splice(tStart, tEnd - tStart + 1, ...nLines);
         }
-        content = lines.join('\n').replace(/(🔥 )[0-9.]+K?( Stars)/g, `$1${ocF}$2`);
+        content = lines.join(EOL).replace(/(🔥 )[0-9.]+K?( Stars)/g, `$1${ocF}$2`);
     }
     return content;
 }

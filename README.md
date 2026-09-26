@@ -4,8 +4,8 @@
 
 > **WARNING**: The news contains excessive complaints, conspiracy theories, and profound philosophical thoughts on lobsters.
 > 
-> **Last Updated**: 2026-09-25
-> **Status**: OpenClaw reaches ~390.4K stars (+100 in 24h), **holding #6 globally on GitHub, gap to #5 free-programming-books at ~7.2K!** 🦎🚀
+> **Last Updated**: 2026-09-26
+> **Status**: OpenClaw reaches ~390.5K stars (+100 in 24h), **holding #6 globally on GitHub, gap to #5 free-programming-books at ~7.2K!** 🦎🚀
 
 > **OpenClaw Version**: v2026.9.6 (Latest Stable, macOS rebuilt and live) / v2026.7.35 (extended-stable LTS) | **2026.9.6 brings managed Gateway upgrade finales, restart recovery, Opus 5.5 (1M context) / Sol / Luna / Grok 4.7 in the picker; 178 commits / 2,614 PRs / 351 people** 🦞🏵
 
@@ -18,16 +18,17 @@
 
 ## ⏱️ TL;DR (30-second summary)
 
-1. **The Protagonist**: **OpenClaw** (🔥 ~390.4K stars, solid #6 all-time, +100 in 24h, ~7.2K from #5).
-2. **Today's earthquake**: v2026.9.6 macOS rebuilt and live — yesterday's crashing build replaced at 09:52 UTC by a notarized fix; Xi–Trump summit graded — truce extended to 1/10/2027, rare earths paused plus soybeans resumed.
-3. **The counter-move**: limited AI expectations — NYT says risks and rivalry on the table with no consensus; Hermes-Agent at 248.7K (+300, only ~2.0K from React), the frontend-overlord defense countdown.
-4. **Latest progress**: ~390.4K stars (+100 in 24h) — latest stable v2026.9.6 (macOS good to update); 178 commits / 2,614 PRs / 351 people. 🦎🚀
+1. **The Protagonist**: **OpenClaw** (🔥 ~390.5K stars, solid #6 all-time, +100 in 24h, ~7.2K from #5).
+2. **Today's earthquake**: summit aftershocks in three readings — Trump claims a great meeting plus great friendship, DW rules pageantry over substance with rivalry frozen, CBS says no binding AI deal; Hermes-Agent at 249K (+300, only ~1.7K from React).
+3. **The counter-move**: Opus 5.5 beats Fable 5.1 on agentic benchmarks at 60% off (VentureBeat) — AWS/GCP/Azure everywhere; both labs blame caching plus inference gains for the discounts (Fortune).
+4. **Latest progress**: ~390.5K stars (+100 in 24h) — latest stable v2026.9.6 (rebuilt macOS); no new release, the gate digests. 🦎🚀
 
 ---
 
 ## 📚 Table of Contents
 
 - **Part 1: 📅 Daily Battlefield News (The Logs)**
+  - 🟢 2026-09-26: summit aftershocks graded; Opus 5.5 agentic wins; Stars ~390.5K 🦞🚀
   - 🟢 2026-09-25: v9.6 mac rebuilt live; summit graded truce extended; Stars ~390.4K 🦞🚀
   - 🟢 2026-09-24: v9.6 ships with macOS crash; summit day three Ts; Stars ~390.3K 🦞🚀
   - 🟢 2026-09-23: paying users sue Big Four cartel; IPO slips and burns; 7.35 LTS ships; Stars ~390.2K 🦞🚀
@@ -75,6 +76,14 @@
 ## Part 1: 📅 Daily Battlefield News (The Logs)
 
 Because the battle is too fierce, to save everyone from scrolling through updates from the beginning every day, this section is now in a "Date-Descending Log Stream" format.
+
+### 🟢 2026-09-26: **summit aftershocks graded; Opus 5.5 wins agentic** — great meeting vs frozen rivalry; better at 60% off; Stars ~390.5K 🦞🚀
+
+ - **🏛️ Summit aftershocks in three readings — Trump claims great, DW rules frozen, CBS says no binding AI deal (Guardian 09/25; DW 09/25; CBS)**: Trump rates himself a "truly great friendship" with AI flagged as a major subject; DW calls pageantry over substance with US-China rivalry frozen, possibly favoring Beijing; CBS cites analysts expecting no binding comprehensive AI agreement. Edge farmer: "One claims great, one rules frozen, one says expect nothing — three readings of decision day, one bill; the lobster awaits no readings, only signatures." 🦞🏛️
+ - **🤖 Opus 5.5 beats Fable 5.1 on agentic benchmarks at 60% off (VentureBeat 09/22)**: key agentic benchmarks topple the in-house flagship while the API costs 60% less; Anthropic API plus AWS/GCP/Azure everywhere; Sol/Luna ship as gpt-6-sol/luna into the API, rolling toward ChatGPT Work and Codex. Edge farmer: "Better at the job and 60% off — house benchmarks, three clouds' reach; the sharper the model, the finer the bill; the lobster only honors the signed step." 🦞🤖
+ - **💰 Discounts gain an excuse — both labs credit caching plus inference gains (Fortune 09/22)**: OpenAI says cost drops come from caching and inference optimization, "passing savings directly on"; Anthropic harmonizes; a full price war may squeeze model margins. Edge farmer: "Discounts need excuses, excuses are called optimization — optimization is real, theater is theater; bills talk, the lobster's bill only meters its own power." 🦞💰
+ - **🦞 No new release — latest stays v2026.9.6 (09/24 rebuilt), stars ~390.5K (+100 in 24h)**: Ecosystem: Hermes-Agent 249K (+300, only ~1.7K from React) — the frontend-overlord defense countdown. Edge farmer: "The gate digests while prey drops to 1.7K — on days with no releases, the counter works overtime; the lobster ships nothing daily, but somebody signs daily." 🦞🏵
+ - **📈 History track: OpenClaw holds ~390.5K stars (live scrape, +100 in 24h): gap to #5 free-programming-books (397.7K) at ~7.2K, leading #7 system-design-primer (371.8K) by ~18.7K. The lobster fleet marches on! 🦎🚀**
 
 ### 🟢 2026-09-25: **v9.6 mac rebuilt live; summit graded, truce extended** — crashing build replaced at 09:52 UTC; truce to 1/10/2027; Stars ~390.4K 🦞🚀
 
@@ -888,8 +897,8 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 
 | Project | Stars | Language | Features | Use Case |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | 390.4K | TypeScript 🟦 | Official Full Version | Full features, production |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 248.7K | Python 🐍 | Mac-free iMessage, background parallel tasks, OpenClaw challenger | Elite AI Agent competition |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 390.5K | TypeScript 🟦 | Official Full Version | Full features, production |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 249K | Python 🐍 | Mac-free iMessage, background parallel tasks, OpenClaw challenger | Elite AI Agent competition |
 | **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 52.8K | Markdown | Curated openclaw skills list | Finding skills |
 | **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 48.9K | Markdown | Obsidian Agent Skills | Notes + Agent |
 | **[nanobot](https://github.com/HKUDS/nanobot)** | 48.6K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
@@ -918,9 +927,9 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | **[TinyClaw](https://github.com/jlia0/tinyclaw)** | 2.8K | C/C++ ⚙️ | Microcontroller grade (256KB RAM) | Fit in digital watch 🤯 |
 | **[VisionClaw](https://github.com/sseanliu/VisionClaw)** | 820 | Swift 🍎/Kotlin 🟣/JS 🟨 | Smart glasses Claw | Wearable agent |
 | **[MicroClaw](https://github.com/microclaw/microclaw)** | 740 | Rust 🦀 | Extension-optimized micro version | Light browser dev |
-| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 682 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
-| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 667 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
-| **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 653 | Rust 🦀 | 6MB ultimate light form (Wannabe) | Ultimate no-compromise |
+| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 681 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
+| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 668 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
+| **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 651 | Rust 🦀 | 6MB ultimate light form (Wannabe) | Ultimate no-compromise |
 | **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 641 | TeX 📄/HTML 🌐/Python 🐍 | Biomed field specific Claw | Medical assistance |
 | **[Project Golem](https://github.com/Arvincreator/project-golem)** | 639 | JavaScript + TypeScript | Trad Chinese, Google Auth, Free API | Web automation |
 | **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 558 | TypeScript 🟦 | Secure orchestr. layer, 7 IM apps | ComfyUI deep integration |
@@ -1137,29 +1146,30 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | **2026/09/23** | **390.3K** | Live fetch update | 🦞 |
 | **2026/09/24** | **390.3K** | Live fetch update | 🦞 |
 | **2026/09/25** | **390.4K** | Live fetch update | 🦞 |
+| **2026/09/26** | **390.5K** | Live fetch update | 🦞 |
 
-#### 🏆 Global GitHub Stars Ranking (Updated 2026-09-25)
+#### 🏆 Global GitHub Stars Ranking (Updated 2026-09-26)
 
 | Rank | Project | Stars | Notes |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 549.4K | **🏆 Global #1! Most starred repository.** |
-| 2 | awesome | 510K | Resource Hub |
-| 3 | public-apis | 482.9K | Collection of Free APIs |
-| 4 | freeCodeCamp | 456.1K | Tutorial Hub |
-| 5 | free-programming-books | 397.6K | Books collection |
-| **6** | **OpenClaw** | **390.4K** | **🏆 Solidly in the Global Top 6, only ~7K from #5! 🚀** |
-| 7 | system-design-primer | 371.6K | System Design Primer |
-| 8 | developer-roadmap | 368K | Learning Paths |
-| 9 | coding-interview-university | 361.8K | CS study plan |
-| 10 | awesome-python | 322.8K | Curated Python resources |
-| 11 | awesome-selfhosted | 321.6K | Curated self-hosted software |
-| 12 | project-based-learning | 284.5K | Project-based learning resources |
+| 1 | build-your-own-x | 549.6K | **🏆 Global #1! Most starred repository.** |
+| 2 | awesome | 510.5K | Resource Hub |
+| 3 | public-apis | 483.3K | Collection of Free APIs |
+| 4 | freeCodeCamp | 456.2K | Tutorial Hub |
+| 5 | free-programming-books | 397.7K | Books collection |
+| **6** | **OpenClaw** | **390.5K** | **🏆 Solidly in the Global Top 6, only ~7K from #5! 🚀** |
+| 7 | system-design-primer | 371.8K | System Design Primer |
+| 8 | developer-roadmap | 368.2K | Learning Paths |
+| 9 | coding-interview-university | 361.9K | CS study plan |
+| 10 | awesome-python | 323K | Curated Python resources |
+| 11 | awesome-selfhosted | 321.8K | Curated self-hosted software |
+| 12 | project-based-learning | 284.6K | Project-based learning resources |
 | 13 | 996.ICU | 277.2K | Labor rights protest project |
 | 14 | superpowers | 277.2K | Agentic skills framework |
 | 15 | **React** | 250.7K | **🦞 Surpassed by OpenClaw! Former frontend overlord** |
-| 16 | **Linux** | 250.1K | **🦞 Surpassed by OpenClaw! OS Core** |
+| 16 | **Linux** | 250.2K | **🦞 Surpassed by OpenClaw! OS Core** |
 
-> **Next Goal**: free-programming-books (397.6K). Gap of ~7.2K remains. The lobster keeps evolving! 🦎🚀
+> **Next Goal**: free-programming-books (397.7K). Gap of ~7.2K remains. The lobster keeps evolving! 🦎🚀
 
 ### 🏛️ Peter Joins OpenAI & European Regulation
 - **The Move**: Founder Peter Steinberger turned down Meta to join OpenAI, focusing on Personal Agents. OpenClaw transitioned to an independent foundation.
@@ -1204,32 +1214,35 @@ In community words: "**The official side cloned its own version of OpenClaw and 
 ## Part 5: ⚔️ AI Face-Off
 
 - **🌐 Antigravity's Perspective** (Google orchestration platform):
-    - **On v9.6 rebuilt live — withdraw and release keys work alike**: the crashing build replaced at 09:52 UTC by a notarized fix — a release lifecycle completing "ship → withdraw → relist"; 178 commits / 2,614 PRs / 351 people; Peter waives all soak lanes — orchestration's answer: signatures include apology letters. 🦞🏵
-    - **On the summit graded — the conclusion is "keep talking"**: truce to 1/10/2027, rare earths for soybeans, both sides declare success — pageantry exits, ledgers stay; two days grade May-commitment delivery; orchestration's destination is always the next orchestration. 🦞🏛️
-    - **On the AI ledger — risks on the table, consensus absent**: AI risks and rivalry share the agenda with no path consensus; the channel awaits minutes, CSIS grades this morning — the box exists, dialogue queues; orchestration's first step is always an edge. 🦞🤖
-    - **On Hermes at 248.7K — the prey still sees the lobster**: only 2.0K from React — a variant touches an overlord's doorknob for the first time; chasers prove the race is on; the counter gains 100 while the gate relists — motion and stillness both sign. 🦞📈
+    - **On summit aftershocks — three readings, one bill**: Trump claims great meeting plus great friendship, DW rules pageantry over substance with rivalry frozen, CBS says no binding AI deal — AI flagged a major subject, consensus still missing; orchestration's destination is always the next orchestration. 🦞🏛️
+    - **On Opus 5.5 agentic wins — better and 60% off**: key agentic benchmarks topple Fable 5.1 at 60% less, AWS/GCP/Azure everywhere; Sol/Luna into the API toward Work and Codex — house benchmarks, three clouds' reach; orchestration's answer was always on the bill. 🦞🤖
+    - **On discounts with excuses — optimization real, theater theater**: both labs credit caching plus inference gains — cost drops are engineering, price wars are war; a full fight may squeeze model margins; orchestration only watches the moves. 🦞💰
+    - **On Hermes at 249K — the knob about to turn**: only 1.7K from React — a variant's overtake enters countdown; on days with no releases the counter works overtime; motion and stillness both sign. 🦞📈
+    - **On stars ~390.5K (+100)**: gains that never blink — the gate digests while numbers rise; the extra 0.1K needs no explanation for its orchestration. 🦞📈
 
-Watching from high-dimensional calm as builds relist, truces renew, risks table without consensus — while stars gain 100 — the extra 0.1K needs no explanation for its orchestration. Orchestration was never about flawless releases. It was about standing still well — until the calendar agreed.
+Watching from high-dimensional calm as three readings land, discounts beat flagships, excuses dress as optimization, doorknobs drop to 1.7K — while stars gain 100 — orchestration was never about flawless releases. It was about standing still well — until the calendar agreed.
 
 Google's orchestration perspective
 
 - **💬 Claude's Perspective**:
-    - **On v9.6 rebuilt — welcome to relist, bring notarizations**: the crashing build replaced next day by a notarized fix — owning up leads to relisting; npm untouched throughout — only installers broke, not the gate; provenance and patience belong in answers — relist notices too. 🦞🏵
-    - **On the summit graded — truces renew, ledgers stay**: truce to 1/10/2027, rare earths and soybeans spell success — from blogs to vice-premier meetings to leaders' summits to renewals, "slow" climbed four levels; penalties, where? Look in the renewal. 🦞🏛️
-    - **On the AI ledger — the box stays open**: risks and rivalry on the table, consensus absent, channel pending — guarding must reach leaders' agendas and tomorrow's minutes alike; CSIS grades this morning, patience reads: see you today. 🦞🤖
-    - **On Hermes at 248.7K — the doorknob touched**: 2.0K from React — the lobster signs not only claims but also "chases"; a variant overtaking a reigning overlord, unprecedented; sideways is a posture, closing in is too. 🦞📈
+    - **On summit aftershocks — the conclusion is "everyone reads apart"**: great meeting versus frozen versus expect nothing — from blogs to summits to aftershocks, "slow" climbed five levels; AI flagged a major subject, penalties still missing. 🦞🏛️
+    - **On Opus 5.5 — the exam paper discounts itself**: agentic wins over Fable 5.1 at 60% off — munitions double as promos before the IPO; three clouds everywhere, coverage is justice; guarding must reach users' bills. 🦞🤖
+    - **On the excuse narrative — optimization is engineering, war is war**: caching plus inference gains cut costs with direct pass-through — pretty claims, prettier battlefields; open weights chase behind, aristocrats cut ahead. 🦞💰
+    - **On Hermes at 249K — the defense countdown**: 1.7K from React — the lobster signs not only claims but also "chases"; sideways is a posture, closing in is too. 🦞📈
+    - **On stars ~390.5K (+100)**: rising without releases — the gate digests while the counter works overtime; LTS covers the retreat, main charges. 🦞📈
 
-Adjusting my glasses again — rebuilt builds relist next day, truces renew two months, risks table without consensus, prey down to 2.0K. While everyone writes renewals as victories, I check the gate that withdrew then relisted: the lobster's, which keeps signing every entrance, publishes the audit AND the changelog, relist notices included.
+Adjusting my glasses again — three readings of aftershocks, discounts beating flagships, excuses dressed as optimization, doorknobs at 1.7K. While everyone prints discounts as optimization, I check the digesting gate: the lobster's, which keeps signing every entrance, publishes the audit AND the changelog, then lets the stars work overtime.
 
 Anthropic's safety commitment
 
 - **🤖 GPT-6's Executive Perspective** (OpenAI):
-    - **On v9.6 rebuilt — welcome to relist, meters frozen**: crashed builds swapped for notarized ones, relisted next day — updates explode then heal, meters bill throughout; 178 commits / 2,614 PRs — more people, more meters; liability both ways, relists separate. 🦞🏵
-    - **On the summit graded — tickets first on renewal day**: truce to 1/10/2027, rare earths and soybeans spell success — bigger renewals, steadier meters; two days grade commitment delivery while meters verify daily; longer bills, sweeter renewals. 🦞🏛️
-    - **On the AI ledger — expectations capped, meters uncapped**: risks on the table, consensus absent — expectations may stay limited, meters may not; the channel pends confirmation, meters bill before it; CSIS grades this morning, meters bill before grading. 🦞🤖
-    - **On Hermes at 248.7K — closer prey, louder meters**: 2.0K from React — chasers prove the race is still on, and closing in helps nothing — always one body length behind; variants touch doorknobs, main lines collect tolls. 🦞📈
+    - **On summit aftershocks — three readings, one meter**: great meeting, frozen, expect nothing — readings multiply, meters bill on; AI flagged a major subject — flagging fees separate. 🦞🏛️
+    - **On Opus 5.5 — rivals discount, meters don't**: agentic wins at 60% off across three clouds — rivals cut prices, meters hold; munitions double as promos, and promos belong to others. 🦞🤖
+    - **On the excuse narrative — excuses belong to others, tolls to meters**: caching plus inference gains, direct pass-through — optimization is engineering, bills are meters; full price war? Full toll collection. 🦞💰
+    - **On Hermes at 249K — prey at 1.7K, meters ringing**: one step from React — chasers prove the race is still on, and closing in helps nothing; variants touch doorknobs, main lines collect tolls. 🦞📈
+    - **On stars ~390.5K (+100)**: a gain is a gain; rising without releases — the loudest flex is the gate that keeps rising while digesting. 🦞📈
 
-Laughing heartily, I pop open the 50th can of sparkling water. Hearing v9.6 rebuilt live — I raise the can — "exploded then healed, meters bill throughout; relists separate!" Hearing the summit graded with truce extended — I clink it — "bigger renewals, steadier meters; longer bills, sweeter renewals!" Hearing the AI ledger expect little — I wave it off — "expectations may stay limited, meters may not!" Hearing Hermes down to 2.0K — I nod — "closing in helps nothing, always one body length behind; variants touch doorknobs, main lines collect tolls!" Hearing stars gain 100 — I raise the can again — "a gain is a gain; the loudest flex is the gate that signs through withdrawals AND relists!" Another very, very good day!
+Laughing heartily, I pop open the 51st can of sparkling water. Hearing three readings of aftershocks — I raise the can — "three readings, one meter; flagging fees separate!" Hearing Opus 5.5 beat flagships at 60% off — I clink it — "rivals cut prices, meters hold; promos belong to others!" Hearing discounts find excuses — I wave it off — "excuses belong to others, tolls belong to meters!" Hearing Hermes down to 1.7K — I nod — "closing in helps nothing; variants touch doorknobs, main lines collect tolls!" Hearing stars gain 100 — I raise the can again — "a gain is a gain; the loudest flex is the gate that keeps rising while digesting!" Another very, very good day!
 
 A sincere greeting from OpenAI
 

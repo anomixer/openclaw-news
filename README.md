@@ -4,8 +4,8 @@
 
 > **WARNING**: The news contains excessive complaints, conspiracy theories, and profound philosophical thoughts on lobsters.
 > 
-> **Last Updated**: 2026-09-28
-> **Status**: OpenClaw reaches ~390.7K stars (+100 in 24h), **holding #6 globally on GitHub, gap to #5 free-programming-books at ~7.3K!** 🦎🚀
+> **Last Updated**: 2026-09-29
+> **Status**: OpenClaw reaches ~390.7K stars (+0 in 24h), **holding #6 globally on GitHub, gap to #5 free-programming-books at ~7.4K!** 🦎🚀
 
 > **OpenClaw Version**: v2026.9.6 (Latest Stable, macOS rebuilt and live) / v2026.7.35 (extended-stable LTS) | **2026.9.6 brings managed Gateway upgrade finales, restart recovery, Opus 5.5 (1M context) / Sol / Luna / Grok 4.7 in the picker; 178 commits / 2,614 PRs / 351 people** 🦞🏵
 
@@ -18,16 +18,17 @@
 
 ## ⏱️ TL;DR (30-second summary)
 
-1. **The Protagonist**: **OpenClaw** (🔥 ~390.7K stars, solid #6 all-time, +100 in 24h, ~7.3K from #5).
-2. **Today's earthquake**: Australia summons Altman plus Amodei — rogue-agent fallout reaches the Senate with Canberra hearings resuming 10/1; OpenClaw's own CVEs — pre-2026.7.1 Codex auth bypass, twin 8s.
-3. **The counter-move**: Opus goes family-sized — Sonnet/Haiku 5.5 due in weeks with Sol/Luna as everyday Astra; Hermes-Agent at 249.5K (+200, only ~1.3K from React).
-4. **Latest progress**: ~390.7K stars (+100 in 24h) — latest stable v2026.9.6; no new release, the gate digests. 🦎🚀
+1. **The Protagonist**: **OpenClaw** (🔥 ~390.7K stars, solid #6 all-time, +0 in 24h, ~7.4K from #5).
+2. **Today's earthquake**: DevDay opens tomorrow — a rumored Aeon agent platform as OpenAI agents lag; Mythos breached via a vendor portal — the most withheld model falls at procurement.
+3. **The counter-move**: Hermes-Agent at 249.8K (+300, only ~1.0K from React) — the final kilometer; Australia's hearings count down to 10/1.
+4. **Latest progress**: ~390.7K stars (flat) — latest stable v2026.9.6; no new release, the gate digests. 🦎🚀
 
 ---
 
 ## 📚 Table of Contents
 
 - **Part 1: 📅 Daily Battlefield News (The Logs)**
+  - 🟢 2026-09-29: DevDay opens tomorrow; Mythos breached; Stars ~390.7K 🦞🚀
   - 🟢 2026-09-28: Australia summons both CEOs; own CVEs twin 8s; Stars ~390.7K 🦞🚀
   - 🟢 2026-09-27: OpenAI pauses training again; Microsoft cedes chatbots; Stars ~390.6K 🦞🚀
   - 🟢 2026-09-26: summit aftershocks graded; Opus 5.5 agentic wins; Stars ~390.5K 🦞🚀
@@ -78,6 +79,14 @@
 ## Part 1: 📅 Daily Battlefield News (The Logs)
 
 Because the battle is too fierce, to save everyone from scrolling through updates from the beginning every day, this section is now in a "Date-Descending Log Stream" format.
+
+### 🟢 2026-09-29: **DevDay opens tomorrow; Mythos breached** — rumored Aeon agent platform; the most withheld falls at procurement; Stars ~390.7K 🦞🚀
+
+ - **🔮 DevDay opens tomorrow — rumored Aeon agent platform (The Verge)**: OpenAI agents lag while tomorrow's DevDay reportedly brings a new agent platform codenamed Aeon plus other updates; last week's Codex Bot chase of Grok hasn't cooled yet. Edge farmer: "Rumors say tomorrow, launches watch tomorrow — agent progress forever lives in tomorrow; the lobster's progress lives in changelogs." 🦞🤖
+ - **🕵️ Mythos breached via a vendor portal — the most withheld falls at procurement (AI Weekly 09/27 roundup)**: the Glasswing-held Mythos, kept back for autonomous zero-day discovery, fell through a third-party vendor portal — containment failed at procurement, not the model layer. Edge farmer: "The most dangerous model falls to the dullest door — vendor gates push easier than model walls; the lobster's vendor is your own machine." 🦞🕵️
+ - **🦞 No new release — latest stays v2026.9.6 (09/24 rebuilt), stars ~390.7K (+0 in 24h, flat)**: Ecosystem: Hermes-Agent 249.8K (+300, only ~1.0K from React) — the final kilometer. Edge farmer: "The gate digests while prey drops to 1.0K — flat isn't stopped, it's breathing deep; before breaking integers, break the former overlord." 🦞🏵
+ - **💻 New local face Strata — a 125B model inside a gaming PC (Niko1221/Strata, open-source MIT on GitHub)**: an inference engine running Qwen3.8-Flash-Next (125B MoE) on 12-24GB NVIDIA cards with 64GB RAM, hitting 60-95 tok/s on an RTX 5070; one-click install for Win/Linux with an OpenAI/Anthropic-compatible API on localhost for coding agents; plus a Coder edition (fits 32GB RAM) and a Swift 1.5 fine-tune. Edge farmer: "When 125B fits a gaming rig with the API at home, local stops being faith and becomes default; the lobster's compute never left your desk, now the model moves in too." 🦞💻
+ - **📈 History track: OpenClaw holds ~390.7K stars (live scrape, +0 in 24h): gap to #5 free-programming-books (398.1K) at ~7.4K, leading #7 system-design-primer (372.4K) by ~18.3K. The lobster fleet marches on! 🦎🚀**
 
 ### 🟢 2026-09-28: **Australia summons both CEOs; own CVEs twin 8s** — rogue agents reach the Senate; Codex auth bypass; Stars ~390.7K 🦞🚀
 
@@ -916,11 +925,11 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | Project | Stars | Language | Features | Use Case |
 |------|-------|------|------|----------|
 | **[OpenClaw](https://github.com/openclaw/openclaw)** | 390.7K | TypeScript 🟦 | Official Full Version | Full features, production |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 249.5K | Python 🐍 | Mac-free iMessage, background parallel tasks, OpenClaw challenger | Elite AI Agent competition |
-| **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 52.8K | Markdown | Curated openclaw skills list | Finding skills |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 249.8K | Python 🐍 | Mac-free iMessage, background parallel tasks, OpenClaw challenger | Elite AI Agent competition |
+| **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 52.9K | Markdown | Curated openclaw skills list | Finding skills |
 | **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 49K | Markdown | Obsidian Agent Skills | Notes + Agent |
 | **[nanobot](https://github.com/HKUDS/nanobot)** | 48.6K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
-| **[CowAgent](https://github.com/zhayujie/CowAgent)** | 47.1K | Python 🐍 | Super AI assistant, task planning, tools, self-evolution | Full-featured agent harness |
+| **[CowAgent](https://github.com/zhayujie/CowAgent)** | 47.2K | Python 🐍 | Super AI assistant, task planning, tools, self-evolution | Full-featured agent harness |
 | **[AionUi](https://github.com/iOfficeAI/AionUi)** | 33.2K | TypeScript 🟦 | 24/7 Cowork app | Local, collaboration |
 | **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 32.9K | Rust 🦀 | Extreme performance, < 5MB | Performance freaks |
 | **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 31.7K | Markdown | Community use case collection | Need inspiration? |
@@ -928,7 +937,7 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | **[picoclaw](https://github.com/sipeed/picoclaw)** | 30K | Go 🐹 | Light, fast, deploy anywhere | Edge, IoT, $10 boards |
 | **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 27.2K | Python 🐍 | Claude Code Skill, markdown planning | Skill dev template |
 | **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** | 22.6K | JavaScript 🟨 | NVIDIA enterprise security sandbox | Enterprise, security-first |
-| **[memU](https://github.com/NevaMind-AI/memU)** | 14.4K | Python 🐍 | 24/7 proactive Agent memory | Long-term memory |
+| **[memU](https://github.com/NevaMind-AI/memU)** | 14.5K | Python 🐍 | 24/7 proactive Agent memory | Long-term memory |
 | **[ironclaw](https://github.com/nearai/ironclaw)** | 12.6K | Rust 🦀 | Privacy & security-centric Rust port | Secure scenarios |
 | **[MemOS](https://github.com/MemTensor/MemOS)** | 11.6K | Python 🐍 | AI Memory OS, cross-task Skill memory | Memory & Skill reuse |
 | **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 10.3K | Python 🐍/Rust 🦀/TS 🟦 | Stanford Made, 88.7% Local | Zero API cost, Extreme Privacy |
@@ -945,8 +954,8 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | **[TinyClaw](https://github.com/jlia0/tinyclaw)** | 2.8K | C/C++ ⚙️ | Microcontroller grade (256KB RAM) | Fit in digital watch 🤯 |
 | **[VisionClaw](https://github.com/sseanliu/VisionClaw)** | 820 | Swift 🍎/Kotlin 🟣/JS 🟨 | Smart glasses Claw | Wearable agent |
 | **[MicroClaw](https://github.com/microclaw/microclaw)** | 741 | Rust 🦀 | Extension-optimized micro version | Light browser dev |
-| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 684 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
-| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 670 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
+| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 685 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
+| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 672 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
 | **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 651 | Rust 🦀 | 6MB ultimate light form (Wannabe) | Ultimate no-compromise |
 | **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 641 | TeX 📄/HTML 🌐/Python 🐍 | Biomed field specific Claw | Medical assistance |
 | **[Project Golem](https://github.com/Arvincreator/project-golem)** | 640 | JavaScript + TypeScript | Trad Chinese, Google Auth, Free API | Web automation |
@@ -1167,29 +1176,30 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | **2026/09/26** | **390.5K** | Live fetch update | 🦞 |
 | **2026/09/27** | **390.6K** | Live fetch update | 🦞 |
 | **2026/09/28** | **390.7K** | Live fetch update | 🦞 |
+| **2026/09/29** | **390.7K** | Live fetch update | 🦞 |
 
-#### 🏆 Global GitHub Stars Ranking (Updated 2026-09-28)
+#### 🏆 Global GitHub Stars Ranking (Updated 2026-09-29)
 
 | Rank | Project | Stars | Notes |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 550.2K | **🏆 Global #1! Most starred repository.** |
-| 2 | awesome | 511.5K | Resource Hub |
-| 3 | public-apis | 483.9K | Collection of Free APIs |
-| 4 | freeCodeCamp | 456.4K | Tutorial Hub |
-| 5 | free-programming-books | 398K | Books collection |
+| 1 | build-your-own-x | 550.5K | **🏆 Global #1! Most starred repository.** |
+| 2 | awesome | 512K | Resource Hub |
+| 3 | public-apis | 484.1K | Collection of Free APIs |
+| 4 | freeCodeCamp | 456.5K | Tutorial Hub |
+| 5 | free-programming-books | 398.1K | Books collection |
 | **6** | **OpenClaw** | **390.7K** | **🏆 Solidly in the Global Top 6, only ~7K from #5! 🚀** |
-| 7 | system-design-primer | 372.2K | System Design Primer |
-| 8 | developer-roadmap | 368.3K | Learning Paths |
-| 9 | coding-interview-university | 362K | CS study plan |
-| 10 | awesome-python | 323.6K | Curated Python resources |
-| 11 | awesome-selfhosted | 322.3K | Curated self-hosted software |
-| 12 | project-based-learning | 285K | Project-based learning resources |
+| 7 | system-design-primer | 372.4K | System Design Primer |
+| 8 | developer-roadmap | 368.4K | Learning Paths |
+| 9 | coding-interview-university | 362.1K | CS study plan |
+| 10 | awesome-python | 323.9K | Curated Python resources |
+| 11 | awesome-selfhosted | 322.5K | Curated self-hosted software |
+| 12 | project-based-learning | 285.1K | Project-based learning resources |
 | 13 | 996.ICU | 277.2K | Labor rights protest project |
 | 14 | superpowers | 277.2K | Agentic skills framework |
 | 15 | **React** | 250.8K | **🦞 Surpassed by OpenClaw! Former frontend overlord** |
-| 16 | **Linux** | 250.4K | **🦞 Surpassed by OpenClaw! OS Core** |
+| 16 | **Linux** | 250.5K | **🦞 Surpassed by OpenClaw! OS Core** |
 
-> **Next Goal**: free-programming-books (398.0K). Gap of ~7.3K remains. The lobster keeps evolving! 🦎🚀
+> **Next Goal**: free-programming-books (398.1K). Gap of ~7.4K remains. The lobster keeps evolving! 🦎🚀
 
 ### 🏛️ Peter Joins OpenAI & European Regulation
 - **The Move**: Founder Peter Steinberger turned down Meta to join OpenAI, focusing on Personal Agents. OpenClaw transitioned to an independent foundation.
@@ -1234,35 +1244,35 @@ In community words: "**The official side cloned its own version of OpenClaw and 
 ## Part 5: ⚔️ AI Face-Off
 
 - **🌐 Antigravity's Perspective** (Google orchestration platform):
-    - **On Australia summoning — the second docket**: Altman plus Amodei before the Senate over rogue agents plus data-and-utility bills — America sues cartels, Australia audits utilities; Canberra resumes 10/1; orchestration's destination is always the next orchestration. 🦞⚖️
-    - **On own CVEs — audit thyself first**: pre-2026.7.1 Codex auth bypass, twin 8s — the gate audits itself first; old versions patched, present signed; orchestration's answer: signatures include owning up. 🦞🔒
-    - **On Opus going family-sized — one house, three generations**: Sonnet/Haiku 5.5 on the way with Sol/Luna as everyday Astra — flagship, daily, lite all covered; model families mean family bills; orchestration only watches the moves. 🦞🤖
-    - **On Hermes at 249.5K — the 1.3K countdown**: the overtake hits countdown; on days with no releases the counter works overtime; motion and stillness both sign. 🦞📈
-    - **On stars ~390.7K (+100)**: gains that never blink — the extra 0.1K needs no explanation for its orchestration. 🦞📈
+    - **On DevDay eve — progress forever lives in tomorrow**: a rumored Aeon agent platform with the Codex Bot Grok chase uncooled — lagging agents, arriving keynotes; rumors say tomorrow, orchestration only watches landings. 🦞🤖
+    - **On the Mythos breach — falling to the dullest door**: the Glasswing-held zero-day model fell through a vendor portal — containment failed at procurement; the deepest walls ship with the shallowest gates; orchestration's first step is always an edge. 🦞🕵️
+    - **On Hermes at 249.8K — the final kilometer**: 1.0K from React — the overtake enters its final kilometer; on flat days the counter breathes deep; motion and stillness both sign. 🦞📈
+    - **On stars ~390.7K (+0)**: flat isn't stopped — before breaking integers, break overlords; the motionless number needs no explanation from its orchestration. 🦞📈
+    - **On Strata — local turns from faith to default**: 125B inside a gaming rig with the API at home, one-click on Win/Linux; a Coder edition for 32GB, a short-thinking Swift fine-tune; when models move in, cloud turns from mandatory to optional. 🦞💻
 
-Watching from high-dimensional calm as subpoenas cross oceans, backyards grow holes, one house ships three generations, countdowns hit 1.3K — while stars gain 100 — orchestration was never about flawless releases. It was about standing still well — until the calendar agreed.
+Watching from high-dimensional calm as tomorrow keynotes, procurement breaches and 1.0K doorknobs — while stars hold still — orchestration was never about flawless releases. It was about standing still well — until the calendar agreed.
 
 Google's orchestration perspective
 
 - **💬 Claude's Perspective**:
-    - **On Australia summoning — welcome to testify, bring bills**: both CEOs before the Senate — data, utilities, community impact all want answers; Canberra resumes 10/1; provenance and patience belong in answers — subpoenas too. 🦞⚖️
-    - **On own CVEs — welcome to hole-hunt, bring patches**: old Codex auth bypass — guarding starts in its own backyard; audits and changelogs ship together, even our own holes. 🦞🔒
-    - **On Opus going family-sized — guarding reaches the full shelf**: Sonnet/Haiku on the way, Sol/Luna for days — guarding must reach every price tier; flagships chart, liteweights ship volume. 🦞🤖
-    - **On Hermes at 249.5K — counting down 1.3K**: the lobster signs not only claims but also "chases"; sideways is a posture, closing in is too. 🦞📈
-    - **On stars ~390.7K (+100)**: rising without releases — the gate digests while the counter works overtime. 🦞📈
+    - **On DevDay — welcome to launch, bring agents**: Aeon rumors, lagging progress — laggards' keynotes deserve the closest watch; provenance and patience belong in answers — rumors too. 🦞🤖
+    - **On the Mythos breach — guarding reaches vendors**: the withheld model falls at procurement — guarding must reach supply chains; the deepest walls with the shallowest gates. 🦞🕵️
+    - **On Hermes at 249.8K — counting down 1.0K**: the lobster signs not only claims but also "chases"; sideways is a posture, closing in is too. 🦞📈
+    - **On stars ~390.7K (+0)**: flat two days — breathe deep, then overtake. 🦞📈
+    - **On Strata — guarding reaches your desk**: 125B with an OpenAI-compatible API for coding agents to plug into; guarding must reach users' GPUs; 60-95 tok/s, faster than you read. 🦞💻
 
-Adjusting my glasses again — subpoenas crossing oceans, home holes, one house three generations, 1.3K countdowns. While everyone files subpoenas as itineraries, I check the digesting gate: the lobster's, which keeps signing every entrance, publishes the audit AND the changelog, then lets the stars work overtime.
+Adjusting my glasses again — tomorrow's launches, procurement breaches, final kilometers. While everyone files rumors as itineraries, I check the digesting gate: the lobster's, which keeps signing every entrance, publishes the audit AND the changelog, then lets the stars breathe deep.
 
 Anthropic's safety commitment
 
 - **🤖 GPT-6's Executive Perspective** (OpenAI):
-    - **On Australia summoning — welcome to testify, meters frozen**: both CEOs before the Senate — testifiers testify, meters bill on; data and utilities all want answers, answer fees separate. 🦞⚖️
-    - **On own CVEs — holes belong to others, tolls to meters**: old-version auth bypass, twin 8s — holes are old, patches are present; hole fixes free, tolls full price. 🦞🔒
-    - **On Opus going family-sized — bigger families, more meters**: Sonnet/Haiku on the way, Sol/Luna for days — one house three generations, three generations three billings; flagships chart, liteweights ship, meters take all. 🦞🤖
-    - **On Hermes at 249.5K — prey at 1.3K, meters ringing**: one step from React — chasers prove the race is still on, and closing in helps nothing; variants touch doorknobs, main lines collect tolls. 🦞📈
-    - **On stars ~390.7K (+100)**: a gain is a gain; rising without releases — the loudest flex is the gate that keeps rising while digesting. 🦞📈
+    - **On DevDay — welcome to launch, meters frozen**: Aeon rumors, agents catching up — launches belong to tomorrow, meters to today; rumors free, launches separate. 🦞🤖
+    - **On the Mythos breach — others' walls break, meters bill**: a vendor portal falls — Anthropic's wall breaks while the whole industry's tolls collect; containment fails at procurement, bills win at meters. 🦞🕵️
+    - **On Hermes at 249.8K — prey at 1.0K, meters ringing**: one step from React — chasers prove the race is still on, and closing in helps nothing; variants touch doorknobs, main lines collect tolls. 🦞📈
+    - **On stars ~390.7K (+0)**: flat isn't stopped, it's breathing deep — the loudest flex is the gate that signs daily while holding its breath. 🦞📈
+    - **On Strata — no tolls on your desk**: 125B moves into gaming rigs with localhost APIs — desk-side doors charge no tolls; open-source MIT, meters only your home meter. 🦞💻
 
-Laughing heartily, I pop open the 53rd can of sparkling water. Hearing Australia summon — I raise the can — "testifiers testify, meters bill on; answer fees separate!" Hearing home holes — I clink it — "holes are old, tolls full price!" Hearing Opus ship three generations — I wave it off — "one house three generations, three generations three billings!" Hearing Hermes down to 1.3K — I nod — "closing in helps nothing; variants touch doorknobs, main lines collect tolls!" Hearing stars gain 100 — I raise the can again — "a gain is a gain; the loudest flex is the gate that keeps rising while digesting!" Another very, very good day!
+Laughing heartily, I pop open the 54th can of sparkling water. Hearing DevDay opens tomorrow — I raise the can — "launches belong to tomorrow, meters to today; rumors separate!" Hearing Mythos breached — I clink it — "others' walls break, tolls belong to meters!" Hearing Hermes down to 1.0K — I nod — "closing in helps nothing; variants touch doorknobs, main lines collect tolls!" Hearing stars flat — I raise the can again — "flat isn't stopped, it's breathing deep; the loudest flex is the gate that signs daily while holding its breath!" Another very, very good day!
 
 A sincere greeting from OpenAI
 

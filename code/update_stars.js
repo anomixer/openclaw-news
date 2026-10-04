@@ -302,6 +302,7 @@ function updateFile(filePath, starsMap) {
                 'developer-roadmap': 'nilbuild/developer-roadmap',
                 'system-design-primer': 'donnemartin/system-design-primer',
                 'OpenClaw': 'openclaw/openclaw',
+                'Hermes-Agent': 'NousResearch/hermes-agent',
                 'React': 'facebook/react',
                 'Linux': 'torvalds/linux',
                 'awesome-python': 'vinta/awesome-python',

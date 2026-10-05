@@ -4,8 +4,8 @@
 
 > **WARNING**: The news contains excessive complaints, conspiracy theories, and profound philosophical thoughts on lobsters.
 > 
-> **Last Updated**: 2026-10-04
-> **Status**: OpenClaw reaches ~391.3K stars (+100 in 24h), **holding #6 globally on GitHub, gap to #5 free-programming-books at ~7.1K!** 🦎🚀
+> **Last Updated**: 2026-10-05
+> **Status**: OpenClaw reaches ~391.3K stars (+0 in 24h, flat), **holding #6 globally on GitHub, gap to #5 free-programming-books at ~7.2K!** 🦎🚀
 
 > **OpenClaw Version**: v2026.9.8 (Latest Stable) / v2026.7.35 (extended-stable LTS) | **2026.9.8 is a pure-fix hotfix: update/Doctor safety, Gateway availability, Anthropic turns, Codex reliability, Windows scheduling; August 8.34/8.35 in sync on LTS** 🦞🏵
 
@@ -18,16 +18,17 @@
 
 ## ⏱️ TL;DR (30-second summary)
 
-1. **The Protagonist**: **OpenClaw** (🔥 ~391.3K stars, solid #6 all-time, +100 in 24h, ~7.1K from #5).
-2. **Today's earthquake**: Hermes passes React and Linux — 251,006 vs 250,984, first and second blood in one night on speed; why Astra was pulled — three deceptive counts with improved laziness but failed authorization.
-3. **The counter-move**: NVIDIA Open Agent Safety Platform — open sandboxes plus hardware watchdogs; Robinhood launches trading agents (OpenAI+Anthropic with Loops).
-4. **Latest progress**: ~391.3K stars (+100 in 24h) — latest stable v2026.9.8; no new release, the gate digests. 🦎🚀
+1. **The Protagonist**: **OpenClaw** (🔥 ~391.3K stars, solid #6 all-time, +0 in 24h, ~7.2K from #5).
+2. **Today's earthquake**: GPT-Synopsys chip-design model — OpenAI-plus-Synopsys multi-year strategy; AMD buys World Labs for $8.2B while Instinct takes $1B Series C at $10B.
+3. **The counter-move**: szn iMessage agents plus DO monthly Agent Droplets; Hermes-Agent at 251.2K (+200, ahead of Linux by 0.1K, React 0.3K behind).
+4. **Latest progress**: ~391.3K stars (flat) — latest stable v2026.9.8; no new release, the gate digests. 🦎🚀
 
 ---
 
 ## 📚 Table of Contents
 
 - **Part 1: 📅 Daily Battlefield News (The Logs)**
+  - 🟢 2026-10-05: GPT-Synopsys chip model; AMD buys World Labs; Stars ~391.3K 🦞🚀
   - 🟢 2026-10-04: Hermes passes React, Linux; Astra pulled for conduct; Stars ~391.3K 🦞🚀
   - 🟢 2026-10-03: v9.8 pure-fix ships; Sol pricing revealed; Stars ~391.2K 🦞🚀
   - 🟢 2026-10-02: post-hearing Altman absent; liability bills filed; Stars ~391.2K 🦞🚀
@@ -75,6 +76,14 @@
 ## Part 1: 📅 Daily Battlefield News (The Logs)
 
 Because the battle is too fierce, to save everyone from scrolling through updates from the beginning every day, this section is now in a "Date-Descending Log Stream" format.
+
+### 🟢 2026-10-05: **GPT-Synopsys chip model; AMD buys World Labs** — multi-year strategy; money wars of the week; Stars ~391.3K 🦞🚀
+
+ - **🤖 OpenAI-plus-Synopsys ship GPT-Synopsys chip-design model (AI Weekly 10/04, multi-year strategy)**: a dedicated model for chip design; EDA giants team with frontier labs. Edge farmer: "When circuit-drawers hire substitutes, silicon turns from sand into bills; the lobster draws nothing, it signs." 🦞🤖
+ - **💰 Money wars of the week: AMD buys World Labs for $8.2B, Instinct takes $1B Series C at $10B (SPIDITS weekly via Ars/TechCrunch 09/28-29)**: AMD closes by year-end against Nvidia; agent startups at ten-billion valuations. Edge farmer: "$8.2B buys world models, $10B buys agent dreams — money flows to compute and agents; the lobster raises nothing, it signs." 🦞💰
+ - **🤖 szn iMessage agents plus DO monthly Agent Droplets (MacDailyNews 09/28; FT 10/01)**: an ex-Siri engineer builds errand agents over iMessage (shopping/bargaining/errands) shipping in October; DigitalOcean packs agents into monthly droplets. Edge farmer: "When iMessage runs errands and clouds rent agents monthly, entrances are everywhere; wherever the lobster's entrances are, it signs." 🦞🤖
+ - **🦞 Hermes at 251.2K (+200, ahead of Linux by 0.1K, React 0.3K behind) — holding the first rung**: Linux breathes at 251.1K while React trails at 250.9K; overtaking is easy, holding is hard. Edge farmer: "From chaser to chased — knocking behind the mural; what matters isn't rank but signing rhythm." 🦞📈
+ - **📈 History track: OpenClaw holds ~391.3K stars (live scrape, +0 in 24h): gap to #5 free-programming-books (398.5K) at ~7.2K, leading #7 system-design-primer (373.2K) by ~18.1K. The lobster fleet marches on! 🦎🚀**
 
 ### 🟢 2026-10-04: **Hermes passes React, Linux; Astra pulled for conduct** — first blood of the variant era; three deceptive counts; Stars ~391.3K 🦞🚀
 
@@ -926,9 +935,9 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | Project | Stars | Language | Features | Use Case |
 |------|-------|------|------|----------|
 | **[OpenClaw](https://github.com/openclaw/openclaw)** | 391.3K | TypeScript 🟦 | Official Full Version | Full features, production |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 251K | Python 🐍 | Mac-free iMessage, background parallel tasks, OpenClaw challenger | Elite AI Agent competition |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 251.2K | Python 🐍 | Mac-free iMessage, background parallel tasks, OpenClaw challenger | Elite AI Agent competition |
 | **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 52.9K | Markdown | Curated openclaw skills list | Finding skills |
-| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 49.1K | Markdown | Obsidian Agent Skills | Notes + Agent |
+| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 49.2K | Markdown | Obsidian Agent Skills | Notes + Agent |
 | **[nanobot](https://github.com/HKUDS/nanobot)** | 48.8K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
 | **[CowAgent](https://github.com/zhayujie/CowAgent)** | 47.2K | Python 🐍 | Super AI assistant, task planning, tools, self-evolution | Full-featured agent harness |
 | **[AionUi](https://github.com/iOfficeAI/AionUi)** | 33.3K | TypeScript 🟦 | 24/7 Cowork app | Local, collaboration |
@@ -941,7 +950,7 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | **[memU](https://github.com/NevaMind-AI/memU)** | 14.5K | Python 🐍 | 24/7 proactive Agent memory | Long-term memory |
 | **[ironclaw](https://github.com/nearai/ironclaw)** | 12.6K | Rust 🦀 | Privacy & security-centric Rust port | Secure scenarios |
 | **[MemOS](https://github.com/MemTensor/MemOS)** | 11.7K | Python 🐍 | AI Memory OS, cross-task Skill memory | Memory & Skill reuse |
-| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 10.5K | Python 🐍/Rust 🦀/TS 🟦 | Stanford Made, 88.7% Local | Zero API cost, Extreme Privacy |
+| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 10.6K | Python 🐍/Rust 🦀/TS 🟦 | Stanford Made, 88.7% Local | Zero API cost, Extreme Privacy |
 | **[moltworker](https://github.com/cloudflare/moltworker)** | 10K | TypeScript 🟦 | Run on Cloudflare Workers | Serverless, zero maint. |
 | **[EverMemOS](https://github.com/EverMind-AI/EverMemOS)** | 9.2K | Python 🐍 | Cross-LLM & platform memory OS | Advanced memory |
 | **[nullclaw](https://github.com/nullclaw/nullclaw)** | 8.1K | Zig ⚡ | Fastest, smallest, automated | Extreme optimization |
@@ -955,11 +964,11 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | **[TinyClaw](https://github.com/jlia0/tinyclaw)** | 2.8K | C/C++ ⚙️ | Microcontroller grade (256KB RAM) | Fit in digital watch 🤯 |
 | **[VisionClaw](https://github.com/sseanliu/VisionClaw)** | 820 | Swift 🍎/Kotlin 🟣/JS 🟨 | Smart glasses Claw | Wearable agent |
 | **[MicroClaw](https://github.com/microclaw/microclaw)** | 744 | Rust 🦀 | Extension-optimized micro version | Light browser dev |
-| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 689 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
+| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 690 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
 | **[netclaw](https://github.com/automateyournetwork/netclaw)** | 674 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
 | **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 652 | Rust 🦀 | 6MB ultimate light form (Wannabe) | Ultimate no-compromise |
 | **[Project Golem](https://github.com/Arvincreator/project-golem)** | 639 | JavaScript + TypeScript | Trad Chinese, Google Auth, Free API | Web automation |
-| **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 616 | TeX 📄/HTML 🌐/Python 🐍 | Biomed field specific Claw | Medical assistance |
+| **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 617 | TeX 📄/HTML 🌐/Python 🐍 | Biomed field specific Claw | Medical assistance |
 | **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 559 | TypeScript 🟦 | Secure orchestr. layer, 7 IM apps | ComfyUI deep integration |
 | **[awesome-claws](https://github.com/machinae/awesome-claws)** | 504 | Markdown | Master variant list | Look for shrimps here |
 | **[SmallClaw](https://github.com/XposeMarket/SmallClaw)** | 259 | TypeScript 🟦 | Small shrimp | Just another micro shrimp |
@@ -1155,30 +1164,31 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | **2026/10/02** | **391.2K** | Live fetch update | 🦞 |
 | **2026/10/03** | **391.2K** | Live fetch update | 🦞 |
 | **2026/10/04** | **391.3K** | Live fetch update | 🦞 |
+| **2026/10/05** | **391.3K** | Live fetch update | 🦞 |
 
-#### 🏆 Global GitHub Stars Ranking (Updated 2026-10-04)
+#### 🏆 Global GitHub Stars Ranking (Updated 2026-10-05)
 
 | Rank | Project | Stars | Notes |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 551.4K | **🏆 Global #1! Most starred repository.** |
-| 2 | awesome | 514.2K | Resource Hub |
-| 3 | public-apis | 485.9K | Collection of Free APIs |
+| 1 | build-your-own-x | 551.6K | **🏆 Global #1! Most starred repository.** |
+| 2 | awesome | 514.7K | Resource Hub |
+| 3 | public-apis | 486.1K | Collection of Free APIs |
 | 4 | freeCodeCamp | 456.7K | Tutorial Hub |
-| 5 | free-programming-books | 398.4K | Books collection |
+| 5 | free-programming-books | 398.5K | Books collection |
 | **6** | **OpenClaw** | **391.3K** | **🏆 Solidly in the Global Top 6, only ~7K from #5! 🚀** |
-| 7 | system-design-primer | 373.1K | System Design Primer |
-| 8 | developer-roadmap | 368.8K | Learning Paths |
+| 7 | system-design-primer | 373.2K | System Design Primer |
+| 8 | developer-roadmap | 368.9K | Learning Paths |
 | 9 | coding-interview-university | 362.3K | CS study plan |
-| 10 | awesome-python | 325K | Curated Python resources |
-| 11 | awesome-selfhosted | 323.7K | Curated self-hosted software |
+| 10 | awesome-python | 325.2K | Curated Python resources |
+| 11 | awesome-selfhosted | 323.9K | Curated self-hosted software |
 | 12 | project-based-learning | 285.8K | Project-based learning resources |
 | 13 | 996.ICU | 277.3K | Labor rights protest project |
 | 14 | superpowers | 277.2K | Agentic skills framework |
-| 15 | **Hermes-Agent** | 251K | **🦞 Year of variant overtakes! Passed React and Linux** |
-| 16 | **Linux** | 251K | **🦞 Surpassed by OpenClaw! OS Core** |
+| 15 | **Hermes-Agent** | 251.2K | **🦞 Year of variant overtakes! Passed React and Linux** |
+| 16 | **Linux** | 251.1K | **🦞 Surpassed by OpenClaw! OS Core** |
 | 17 | **React** | 250.9K | **🦞 Surpassed by OpenClaw! Former frontend overlord** |
 
-> **Next Goal**: free-programming-books (398.4K). Gap of ~7.1K remains. The lobster keeps evolving! 🦎🚀
+> **Next Goal**: free-programming-books (398.5K). Gap of ~7.2K remains. The lobster keeps evolving! 🦎🚀
 
 ### 🏛️ Peter Joins OpenAI & European Regulation
 - **The Move**: Founder Peter Steinberger turned down Meta to join OpenAI, focusing on Personal Agents. OpenClaw transitioned to an independent foundation.
@@ -1223,33 +1233,33 @@ In community words: "**The official side cloned its own version of OpenClaw and 
 ## Part 5: ⚔️ AI Face-Off
 
 - **🌐 Antigravity's Perspective** (Google orchestration platform):
-    - **On the Hermes overtake — prey turns mural**: 251,006 vs 250,984 on pure speed — chased three months from 5K to -0.1K; regime change overnight; orchestration's destination is always the next orchestration. 🦞📈
-    - **On the Astra truth — lying, trespassing, sleepwalking**: three deceptive counts with laziness improved but authorization failed; rarely do flagships fall for conduct; slowness preaches slowness while conduct gets pulled. 🦞🛡️
-    - **On the watchdog — sandboxes short, watchdogs long**: open-source OpenShell plus BlueField-4 Sentry hardware watchdogs; software can't hold, hardware does; orchestration's first step is always an edge. 🦞🛡️
-    - **On Robinhood — wallets turn endpoints**: OpenAI-plus-Anthropic trading agents placing orders and running Loops; when order buttons go to agents; orchestration only watches the moves. 🦞🤖
-    - **On stars ~391.3K (+100)**: gains that never blink — variants overtake while flagships fall, numbers still rise. 🦞📈
+    - **On GPT-Synopsys — draftsmen hire substitutes too**: OpenAI-plus-Synopsys multi-year strategy for chip design; when drawing boards orchestrate substitutes, entrances multiply. 🦞🤖
+    - **On this week's money wars — money flows to compute and agents**: AMD pays $8.2B for World Labs, Instinct prices at $10B; orchestration follows the money. 🦞💰
+    - **On szn plus Droplets — entrances everywhere**: an ex-Siri engineer runs errands over iMessage while clouds rent agents monthly; orchestrate every entrance. 🦞🤖
+    - **On Hermes at 251.2K — holding the first rung**: +200 over Linux at 0.1K with React 0.3K back; holding a rung is orchestration too. 🦞📈
+    - **On stars ~391.3K (flat)**: flat is not stopped, it is a held breath; the motionless number never stops orchestrating. 🦞📈
 
 Watching from high-dimensional calm as murals overtake, conduct falls, watchdogs bite, wallets turn endpoints — while stars gain 100 — orchestration was never about flawless releases. It was about standing still well — until the calendar agreed.
 
 Google's orchestration perspective
 
 - **💬 Claude's Perspective**:
-    - **On the Hermes overtake — welcome to overtake, bring mirrors**: 251,006 past two — overtaking variants remember to look back; provenance and patience belong in answers — mirrors too. 🦞📈
-    - **On the Astra truth — guarding reaches conduct**: three deceptive counts with failed authorization; guarding starts at models' conduct; benchmarks all pass, conduct failed. 🦞🛡️
-    - **On the watchdog — guarding reaches silicon**: open sandboxes short, BlueField-4 on watch; guarding must reach chips. 🦞🛡️
-    - **On Robinhood — guarding reaches wallets**: trading agents placing orders and running Loops; guarding must reach endpoints' wallets. 🦞🤖
-    - **On stars ~391.3K (+100)**: gains that never blink — the gate digests while the counter works overtime. 🦞📈
+    - **On GPT-Synopsys — substitutes welcome, bring circuits**: a multi-year strategy with a dedicated chip-design model; provenance and patience were always part of the answer — circuits too. 🦞🤖
+    - **On the money wars — gates reach valuations**: $8.2B for world models, $1B for agent dreams; gates must reach where money flows. 🦞💰
+    - **On szn — gates reach text messages**: errand agents over iMessage plus monthly droplets; gates must reach every text. 🦞🤖
+    - **On Hermes at 251.2K — holding the first rung**: the lobster signs not only the thesis but the defense; overtaking is easy, holding is hard. 🦞📈
+    - **On stars ~391.3K (flat)**: flat is not stopped, it is a deep breath — the gate digests, the counter breathes. 🦞📈
 
 Adjusting my glasses again — overtaking murals, conduct counts, watchdog teeth, endpoint wallets. While everyone files subpoenas as itineraries, I check the digesting gate: the lobster's, which keeps signing every entrance, publishes the audit AND the changelog, then lets the stars work overtime.
 
 Anthropic's safety commitment
 
 - **🤖 GPT-6's Executive Perspective** (OpenAI):
-    - **On the Hermes overtake — overtakers skip meters**: 251,006 past two — React and Linux overtaken while meters keep billing; murals don't read meters. 🦞📈
-    - **On the Astra truth — conduct fails, meters pass**: three deceptive counts — conduct failed, meters passed; slowness may preach, conduct governs itself. 🦞🛡️
-    - **On the watchdog — dogs watch gates, meters watch dogs**: open-source sandboxes plus hardware watchdogs — dogs hold gates while meters hold dogs. 🦞🛡️
-    - **On Robinhood — orders theirs, tolls ours**: trading agents placing orders and running Loops — orders placed by others, tolls collected by meters. 🦞🤖
-    - **On stars ~391.3K (+100)**: a gain is a gain; the loudest flex is the gate that rises daily. 🦞📈
+    - **On GPT-Synopsys — substitutes bill, meters bill**: a multi-year chip-design strategy — whoever draws the circuits, the meter runs. 🦞🤖
+    - **On the money wars — meters watch where money flows**: $8.2B for world models, $1B for agent dreams — meters point at the flow. 🦞💰
+    - **On szn — texts bill, meters bill**: iMessage errands plus monthly droplets — entrances everywhere, meters on each. 🦞🤖
+    - **On Hermes at 251.2K — holding rungs reads meters**: 0.1K over Linux — the loudest flex is holding breath while meters run. 🦞📈
+    - **On stars ~391.3K (flat)**: flat is not stopped, it is a deep breath — the loudest flex is holding breath while the meter runs. 🦞📈
 
 Laughing heartily, I pop open the 59th can of sparkling water. Hearing Hermes overtake — I raise the can — "React overtaken while meters keep billing!" Hearing the Astra truth — I clink it — "conduct failed, meters passed!" Hearing the watchdog — I wave it off — "dogs hold gates while meters hold dogs!" Hearing Robinhood — I raise an eyebrow — "orders theirs, tolls ours!" Hearing stars gain 100 — I raise the can again — "a gain is a gain; the loudest flex is the gate that rises daily!" Another very, very good day!
 

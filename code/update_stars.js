@@ -109,6 +109,11 @@ function fetchHtmlStars(repo) {
                         resolve({ repo, stars: parseInt(m2[1], 10) });
                         return;
                     }
+                    const m3 = data.match(/"stargazerCount":\s*([0-9]+)/);
+                    if (m3) {
+                        resolve({ repo, stars: parseInt(m3[1], 10) });
+                        return;
+                    }
                     resolve({ repo, stars: null, status: 'NO_MATCH' });
                 } else {
                     resolve({ repo, stars: null, status: res.statusCode });

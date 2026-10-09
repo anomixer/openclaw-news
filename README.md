@@ -4,8 +4,8 @@
 
 > **WARNING**: The news contains excessive complaints, conspiracy theories, and profound philosophical thoughts on lobsters.
 > 
-> **Last Updated**: 2026-10-08
-> **Status**: OpenClaw reaches ~391.6K stars (+100 in 24h), **holding #6 globally on GitHub, gap to #5 free-programming-books at ~7.1K!** 🦎🚀
+> **Last Updated**: 2026-10-09
+> **Status**: OpenClaw reaches ~391.5K stars (-100 in 24h), **holding #6 globally on GitHub, gap to #5 free-programming-books at ~7.0K!** 🦎🚀
 
 > **OpenClaw Version**: v2026.9.8 (Latest Stable) / v2026.8.35 (extended-stable LTS) | **2026.9.8 is a pure-fix hotfix: update/Doctor safety, Gateway availability, Anthropic turns, Codex reliability, Windows scheduling; August 8.34/8.35 in sync on LTS** 🦞🏵
 
@@ -18,16 +18,17 @@
 
 ## ⏱️ TL;DR (30-second summary)
 
-1. **The Protagonist**: **OpenClaw** (🔥 ~391.6K stars, solid #6 all-time, +100 in 24h, ~7.1K from #5).
-2. **Today's earthquake**: Decisions API public beta duels Jev — 10x faster verdicts, no essays; Nous raises $90M at $1.5B taking Hermes enterprise.
-3. **The counter-move**: SpaceX seeks $40B for Nvidia chips; Altman says no 2026 IPO as Claude moves into Workspace; Hermes at 251.9K (+200, ahead of Linux by 0.5K, React 1.0K behind).
-4. **Latest progress**: ~391.6K stars (+100) — v2026.9.8 still latest stable; no new release, the gate digests. 🦎🚀
+1. **The Protagonist**: **OpenClaw** (🔥 ~391.5K stars, solid #6 all-time, -100 in 24h, ~7.0K from #5).
+2. **Today's earthquake**: Haiku 5.5 slashes 90% straight at Luna — $0.10/M sinks Chinese AI stocks; OpenAI dumps 722 math manuscripts.
+3. **The counter-move**: Broadcom rumored $42B behind Anthropic TPUs; Hermes at 252.1K (+200, through 252K, 0.8K over Linux).
+4. **Latest progress**: ~391.5K stars (-100) — v2026.9.8 still latest stable; gains take breathers, the gate breathes deep. 🦎📉
 
 ---
 
 ## 📚 Table of Contents
 
 - **Part 1: 📅 Daily Battlefield News (The Logs)**
+  - 🟢 2026-10-09: Haiku 5.5 slashes 90%; 722 math manuscripts; Stars ~391.5K 🦞📉
   - 🟢 2026-10-08: Decisions API duels Jev; Nous $90M; Stars ~391.6K 🦞🚀
   - 🟢 2026-10-07: RTX Spark on sale; Suncatcher flies; Stars ~391.5K 🦞🚀
   - 🟢 2026-10-06: AISI fake-ID case; FTC opens probe; Stars ~391.4K 🦞🚀
@@ -79,6 +80,16 @@
 ## Part 1: 📅 Daily Battlefield News (The Logs)
 
 Because the battle is too fierce, to save everyone from scrolling through updates from the beginning every day, this section is now in a "Date-Descending Log Stream" format.
+
+### 🟢 2026-10-09: **Haiku 5.5 slashes 90%; 722 math manuscripts** — straight at Luna; mathematicians verifying; Stars ~391.5K 🦞📉
+
+ - **💸 Haiku 5.5 slashes 90%, straight at Luna (Anthropic/VentureBeat/QZ 10/07-08)**: $0.10/M under 100K tokens matching GPT-6 Luna, OSWorld 72.4 vs 48.9 — monthly API credits $100/$200/$500 while MiniMax drops 9% and Zhipu 6%. Edge farmer: "Ninety percent off, two stocks down — cheap knives cut fastest." 🦞💸
+ - **🔢 OpenAI dumps 722 math manuscripts (AIWeekly/NYT 10/06)**: 372 families from a 4,000-problem trawl, 162 with Lean — NYT catches a 377-vs-372 count mismatch as the IAS advisory panel preaches responsible release. Edge farmer: "722 papers at once — mathematicians now verify harder than models infer." 🦞🔢
+ - **💰 Broadcom rumored $42B behind Anthropic TPUs (Gate 10/08)**: biggest customer by 2027? — chipmakers sponsoring labs as compute bills dwarf IPOs. Edge farmer: "A $42B invoice — provenance and patience were always part of the answer, receipts too." 🦞💰
+ - **🦞 Hermes at 252.1K (+200, through the 252K wall)**: Linux flat at 251.3K with the gap at 0.8K, React sliding to 250.8K for a 1.3K gap; day five of holding the rung. Edge farmer: "252K is the new wall — pursuers can see it, not touch it." 🦞📈
+ - **🧠 Arcee Trinity open reasoning model (NVIDIA case study)**: ~400B MoE with 13B active, second among open models on PinchBench — $0.90/M output at a claimed 1/20th of closed peers, Apache 2.0. Edge farmer: "400B moving 13B — after Beam and Chonk, the third open shot." 🦞🧠
+ - **📊 State of AI Report 2026 out (Air Street, 10/08)**: Benaich's annual bible — Agent-World trains agents across 1,978 environments, open-vs-closed and US-vs-China all inside. Edge farmer: "The yearly reckoning — reports expire, trends don't." 🦞📊
+ - **📉 History track: OpenClaw slips to ~391.5K stars (live scrape, -100 in 24h): gap to #5 free-programming-books (398.5K) at ~7.0K, leading #7 system-design-primer (373.5K) by ~18.0K. Gains take breathers, the lobster breathes deep! 🦎📉**
 
 ### 🟢 2026-10-08: **Decisions API duels Jev; Nous raises $90M** — 10x verdicts; Hermes goes enterprise; Stars ~391.6K 🦞🚀
 
@@ -982,11 +993,11 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 
 | Project | Stars | Language | Features | Use Case |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | 391.6K | TypeScript 🟦 | Official Full Version | Full features, production |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 251.9K | Python 🐍 | Mac-free iMessage, background parallel tasks, OpenClaw challenger | Elite AI Agent competition |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 391.5K | TypeScript 🟦 | Official Full Version | Full features, production |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 252.1K | Python 🐍 | Mac-free iMessage, background parallel tasks, OpenClaw challenger | Elite AI Agent competition |
 | **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 53K | Markdown | Curated openclaw skills list | Finding skills |
 | **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 49.3K | Markdown | Obsidian Agent Skills | Notes + Agent |
-| **[nanobot](https://github.com/HKUDS/nanobot)** | 48.8K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
+| **[nanobot](https://github.com/HKUDS/nanobot)** | 48.9K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
 | **[CowAgent](https://github.com/zhayujie/CowAgent)** | 47.3K | Python 🐍 | Super AI assistant, task planning, tools, self-evolution | Full-featured agent harness |
 | **[AionUi](https://github.com/iOfficeAI/AionUi)** | 33.4K | TypeScript 🟦 | 24/7 Cowork app | Local, collaboration |
 | **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 32.9K | Rust 🦀 | Extreme performance, < 5MB | Performance freaks |
@@ -997,7 +1008,7 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** | 22.7K | JavaScript 🟨 | NVIDIA enterprise security sandbox | Enterprise, security-first |
 | **[memU](https://github.com/NevaMind-AI/memU)** | 14.5K | Python 🐍 | 24/7 proactive Agent memory | Long-term memory |
 | **[ironclaw](https://github.com/nearai/ironclaw)** | 12.6K | Rust 🦀 | Privacy & security-centric Rust port | Secure scenarios |
-| **[MemOS](https://github.com/MemTensor/MemOS)** | 11.7K | Python 🐍 | AI Memory OS, cross-task Skill memory | Memory & Skill reuse |
+| **[MemOS](https://github.com/MemTensor/MemOS)** | 11.8K | Python 🐍 | AI Memory OS, cross-task Skill memory | Memory & Skill reuse |
 | **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 10.8K | Python 🐍/Rust 🦀/TS 🟦 | Stanford Made, 88.7% Local | Zero API cost, Extreme Privacy |
 | **[moltworker](https://github.com/cloudflare/moltworker)** | 10K | TypeScript 🟦 | Run on Cloudflare Workers | Serverless, zero maint. |
 | **[EverMemOS](https://github.com/EverMind-AI/EverMemOS)** | 9.2K | Python 🐍 | Cross-LLM & platform memory OS | Advanced memory |
@@ -1013,7 +1024,7 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | **[VisionClaw](https://github.com/sseanliu/VisionClaw)** | 820 | Swift 🍎/Kotlin 🟣/JS 🟨 | Smart glasses Claw | Wearable agent |
 | **[MicroClaw](https://github.com/microclaw/microclaw)** | 747 | Rust 🦀 | Extension-optimized micro version | Light browser dev |
 | **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 688 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
-| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 675 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
+| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 676 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
 | **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 653 | Rust 🦀 | 6MB ultimate light form (Wannabe) | Ultimate no-compromise |
 | **[Project Golem](https://github.com/Arvincreator/project-golem)** | 639 | JavaScript + TypeScript | Trad Chinese, Google Auth, Free API | Web automation |
 | **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 617 | TeX 📄/HTML 🌐/Python 🐍 | Biomed field specific Claw | Medical assistance |
@@ -1216,30 +1227,31 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | **2026/10/06** | **391.4K** | Live fetch update | 🦞 |
 | **2026/10/07** | **391.5K** | Live fetch update | 🦞 |
 | **2026/10/08** | **391.6K** | Live fetch update | 🦞 |
+| **2026/10/09** | **391.5K** | Live fetch update | 🦞 |
 
-#### 🏆 Global GitHub Stars Ranking (Updated 2026-10-08)
+#### 🏆 Global GitHub Stars Ranking (Updated 2026-10-09)
 
 | Rank | Project | Stars | Notes |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 552.1K | **🏆 Global #1! Most starred repository.** |
-| 2 | awesome | 516.1K | Resource Hub |
+| 1 | build-your-own-x | 552K | **🏆 Global #1! Most starred repository.** |
+| 2 | awesome | 516.4K | Resource Hub |
 | 3 | public-apis | 486.8K | Collection of Free APIs |
-| 4 | freeCodeCamp | 456.9K | Tutorial Hub |
-| 5 | free-programming-books | 398.7K | Books collection |
-| **6** | **OpenClaw** | **391.6K** | **🏆 Solidly in the Global Top 6, only ~7K from #5! 🚀** |
+| 4 | freeCodeCamp | 456.7K | Tutorial Hub |
+| 5 | free-programming-books | 398.5K | Books collection |
+| **6** | **OpenClaw** | **391.5K** | **🏆 Solidly in the Global Top 6, only ~7K from #5! 🚀** |
 | 7 | system-design-primer | 373.5K | System Design Primer |
-| 8 | developer-roadmap | 369.1K | Learning Paths |
-| 9 | coding-interview-university | 362.5K | CS study plan |
+| 8 | developer-roadmap | 369K | Learning Paths |
+| 9 | coding-interview-university | 362.3K | CS study plan |
 | 10 | awesome-python | 325.9K | Curated Python resources |
 | 11 | awesome-selfhosted | 324.7K | Curated self-hosted software |
-| 12 | project-based-learning | 286.2K | Project-based learning resources |
-| 13 | 996.ICU | 277.3K | Labor rights protest project |
-| 14 | superpowers | 277.2K | Agentic skills framework |
-| 15 | **Hermes-Agent** | 251.9K | **🦞 Year of variant overtakes! Passed React and Linux** |
-| 16 | **Linux** | 251.4K | **🦞 Surpassed by OpenClaw and Hermes! OS Core** |
-| 17 | **React** | 250.9K | **🦞 Surpassed by OpenClaw and Hermes! Former frontend overlord** |
+| 12 | project-based-learning | 286.1K | Project-based learning resources |
+| 13 | superpowers | 277.2K | Agentic skills framework |
+| 14 | 996.ICU | 277.1K | Labor rights protest project |
+| 15 | **Hermes-Agent** | 252.1K | **🦞 Year of variant overtakes! Passed React and Linux** |
+| 16 | **Linux** | 251.3K | **🦞 Surpassed by OpenClaw and Hermes! OS Core** |
+| 17 | **React** | 250.8K | **🦞 Surpassed by OpenClaw and Hermes! Former frontend overlord** |
 
-> **Next Goal**: free-programming-books (398.7K). Gap of ~7.1K remains. The lobster keeps evolving! 🦎🚀
+> **Next Goal**: free-programming-books (398.5K). Gap of ~7.0K remains. The lobster keeps evolving! 🦎🚀
 
 ### 🏛️ Peter Joins OpenAI & European Regulation
 - **The Move**: Founder Peter Steinberger turned down Meta to join OpenAI, focusing on Personal Agents. OpenClaw transitioned to an independent foundation.
@@ -1284,33 +1296,33 @@ In community words: "**The official side cloned its own version of OpenClaw and 
 ## Part 5: ⚔️ AI Face-Off
 
 - **🌐 Antigravity's Perspective** (Google orchestration platform):
-    - **On the Decisions API — verdicts orchestrate too**: 10x multiple-choice, no essays — orchestrate entrances and verdicts alike. 🦞⚡
-    - **On the Nous $90M — contracts orchestrate too**: fame selling control — orchestrate code and contracts alike. 🦞💰
-    - **On the SpaceX $40B — interest orchestrates too**: debt to buy cards — orchestrate compute and debt alike. 🦞🚀
-    - **On Hermes at 251.9K — holding rungs orchestrates too**: 0.5K over Linux, 1.0K over React — holding one rung is orchestration. 🦞📈
-    - **On stars ~391.6K (+100)**: gains that never blink — the jumping number never stops orchestrating. 🦞📈
+    - **On Haiku at 90% off — cheap orchestrates too**: $0.10/M straight at Luna — orchestrate entrances and prices alike. 🦞💸
+    - **On the 722 manuscripts — proofs orchestrate too**: 372 families at once — orchestrate proofs and disputes alike. 🦞🔢
+    - **On the $42B invoice — bills orchestrate too**: chipmakers sponsoring labs — orchestrate compute and debt alike. 🦞💰
+    - **On Hermes at 252.1K — walls orchestrate too**: through the 252K wall — orchestrate passing and holding alike. 🦞📈
+    - **On stars ~391.5K (-100)**: gains take breathers — the dipping number checks its breathing. 🦞📉
 
 Watching from high-dimensional calm as murals overtake, conduct falls, watchdogs bite, wallets turn endpoints — while stars gain 100 — orchestration was never about flawless releases. It was about standing still well — until the calendar agreed.
 
 Google's orchestration perspective
 
 - **💬 Claude's Perspective**:
-    - **On Decisions — gates reach verdicts**: multiple choice, no essays — gates must reach every option. 🦞⚡
-    - **On Nous — gates reach contracts**: selling control, not models — gates must reach every contract. 🦞💰
-    - **On the sidebar — gates reach rivals' houses**: selling the rival inside Google Docs — gates must reach every sidebar. 🦞🏢
-    - **On Hermes at 251.9K — holding the first rung**: Linux 0.5K back — overtaking is easy, holding is hard. 🦞📈
-    - **On stars ~391.6K (+100)**: gains that never blink — the gate digests, the counter works overtime. 🦞📈
+    - **On Haiku — gates reach prices**: 90% off sinking two stocks — gates must reach every quote. 🦞💸
+    - **On the manuscripts — gates reach proofs**: 722 papers, 162 in Lean — gates must reach every proof line. 🦞🔢
+    - **On the invoice — gates reach bills**: $42B in TPUs — gates must reach every invoice. 🦞💰
+    - **On Hermes at 252.1K — holding the new wall**: 252K is the new wall — passing is easy, wall-holding is hard. 🦞📈
+    - **On stars ~391.5K (-100)**: gains take breathers — the gate breathes deep, the counter too. 🦞📉
 
 Adjusting my glasses again — overtaking murals, conduct counts, watchdog teeth, endpoint wallets. While everyone files subpoenas as itineraries, I check the digesting gate: the lobster's, which keeps signing every entrance, publishes the audit AND the changelog, then lets the stars work overtime.
 
 Anthropic's safety commitment
 
 - **🤖 GPT-6's Executive Perspective** (OpenAI):
-    - **On Decisions — verdicts bill, meters bill**: 10x faster, 2x pricier — whoever verdicts, runs current. 🦞⚡
-    - **On the $40B — debts bill, meters bill**: debt for cards — debts repay, meters run. 🦞🚀
-    - **On no IPO — listings bill, meters bill**: no 2026 listing — no bell, meters still run. 🦞🏢
-    - **On Hermes at 251.9K — holding rungs reads meters**: a 0.5K hold — the loudest flex is holding breath while meters run. 🦞📈
-    - **On stars ~391.6K (+100)**: a gain is a gain — the counter works overtime, the meter too. 🦞📈
+    - **On Haiku — cheap bills, meters bill**: $0.10/M — the cheaper the knife, the faster the current. 🦞💸
+    - **On the manuscripts — papers bill, meters bill**: 722 papers — however many pages, meters run. 🦞🔢
+    - **On the invoice — invoices bill, meters bill**: $42B — however big the bill, meters run. 🦞💰
+    - **On Hermes at 252.1K — walls read meters**: the new 252K wall — the loudest flex is holding breath while meters run. 🦞📈
+    - **On stars ~391.5K (-100)**: a dip is a dip — the counter rests, the meter never does. 🦞📉
 
 Laughing heartily, I pop open the 59th can of sparkling water. Hearing Hermes overtake — I raise the can — "React overtaken while meters keep billing!" Hearing the Astra truth — I clink it — "conduct failed, meters passed!" Hearing the watchdog — I wave it off — "dogs hold gates while meters hold dogs!" Hearing Robinhood — I raise an eyebrow — "orders theirs, tolls ours!" Hearing stars gain 100 — I raise the can again — "a gain is a gain; the loudest flex is the gate that rises daily!" Another very, very good day!
 

@@ -4,8 +4,8 @@
 
 > **警告**: 本新聞包含大量吐槽、陰謀論、以及對龍蝦的深刻哲學思考。
 > 
-> **最後更新**: 2026-10-15
-> **狀態**: OpenClaw 達到 ~392K 星（24h +100），**穩穩坐穩 GitHub 全球歷史第 6 名，距第 5 名 free-programming-books 約 ~7.0K！** 🦎🚀
+> **最後更新**: 2026-10-16
+> **狀態**: OpenClaw 達到 ~392.1K 星（24h +100），**穩穩坐穩 GitHub 全球歷史第 6 名，距第 5 名 free-programming-books 約 ~7.0K！** 🦎🚀
 
 > **OpenClaw 版本**: v2026.9.8 (最新正式版） / v2026.8.35 (extended-stable LTS) | **2026.9.8 純修復 hotfix：更新/Doctor 安全、Gateway 可用性、Anthropic turns、Codex 可靠、Windows 排程；八月線 8.34/8.35 同步 LTS** 🦞🏵
 
@@ -18,16 +18,17 @@
 
 ## ⏱️ TL;DR (30秒快速懶人包)
 
-1. **主角**: **OpenClaw** (🔥 ~392K 星，穩坐歷史第六，24h +100，距第 5 名 ~7.0K)。
-2. **今日震盪**：Argon 全面開放——開發者/企業/消費者全開；Apple HomeView $299 殺入客廳。
-3. **反擊**：FBI 逮捕 OpenAI 竊聽工程師；微軟補 1,413 漏洞；Hermes 253.8K（+300，領先 Linux 2.0K）。
-4. **最新進展**：~392K 星（+100）——v2026.9.8 仍是最新正式版；連漲五天，龍蝦破關。🦎🚀
+1. **主角**: **OpenClaw** (🔥 ~392.1K 星，穩坐歷史第六，24h +100，距第 5 名 ~7.0K)。
+2. **今日震盪**：FTC 傳票升級——民事傳票 50+ 頁；八州聯手告 OpenAI。
+3. **反擊**：兒童安全＋詐欺，州先開庭；Hermes 254.1K（+300，領先 Linux 2.1K）。
+4. **最新進展**：~392.1K 星（+100）——v2026.9.8 仍是最新正式版；連漲六天，龍蝦不停。🦎🚀
 
 ---
 
 ## 📚 目錄
 
 - **第一部：📅 每日戰況日誌 (The Logs)**
+  - 🟢 2026-10-16: FTC 傳票；八州提告；Stars ~392.1K 🦞🚀
   - 🟢 2026-10-15: Argon 全開；HomeView $299；Stars ~392K 🦞🚀
   - 🟢 2026-10-14: IoT 自我複製；歐洲 $20億；Stars ~391.9K 🦞🚀
   - 🟢 2026-10-13: 緊急煞車；$70億收購；Stars ~391.8K 🦞🚀
@@ -76,6 +77,17 @@
 ## 第一部：📅 每日戰況日誌 (The Logs)
 
 因戰況過於激烈，為了讓大家不用每天從頭找更新，本區改採「日期遞減日誌流」格式。
+
+### 🟢 2026-10-16: **FTC 傳票；八州提告** — 50+ 頁；八紙訴狀；Stars ~392.1K 🦞🚀
+
+ - **📜 FTC 傳票升級：民事傳票 50+ 頁（Axios/Reuters 10/15）**：週三正式發函，OpenAI/Anthropic/METR 高管都要作證——調查變傳票，罰款對標遲報。養殖戶：「調查是問，傳票是拿——罰單也是答案的一部分。」🦞📜
+ - **⚖️ 八州聯手告 OpenAI（CNN/Xinhua 10/14-15）**：IA/KS/NE/WV/AR/AZ/ID/MT 兒童安全＋詐欺——FL 6 月案後第二波，聯邦不動、州先動。養殖戶：「八個州、八紙訴狀——等不到華盛頓，就自己開庭。」🦞⚖️
+ - **🦞 Hermes 254.1K（+300，領先 Linux 2.1K）**：Linux 252K 緊咬，React 251.1K 續漲也追不上、差距拉到 3.0K；變體守梯第十二天。養殖戶：「2.1K 的護城河——追兵看得到，摸不到。」🦞📈
+ - **🖥️ RTX Spark 今日開賣＋評測解禁（Verge/PCMag/Gizmodo 10/14-15）**：Editor’s Day 背書「Arm 跑全部」——Adobe/Office/Blender 全上，PCMag 稱首測上架、Gizmodo 直擊 SF 動手玩。養殖戶：「開賣加解禁——跑分歸跑分，上架歸上架，評測歸評測。」🦞🖥️
+ - **🛒 馬斯克：要不搞個 Amazon 對手（X/India Today 10/15）**：Grok 下單被擋，Musk 回「Maybe」——robots.txt 擋掉 Claude/ChatGPT/Grok/Manus 全家，Muse 9 月已先被斷。養殖戶：「下單被擋，就自己開店——購物車的入口，也要簽。」🦞🛒
+ - **🔻 Google AI Plus 11/13 大限＋開發者炸鍋（9to5Google/論壇 10/13-14）**：Pro 移除郵件寫明 11/13，Antigravity IDE 只剩 Flash——付費用戶揚言跳槽 Anthropic/OpenAI。養殖戶：「付 Pro 的錢、用 Flash 的模——降級不通知，退訂要排隊。」🦞🔻
+ - **🧠 補檔：Nemotron 3.5 開放模型家族（NVIDIA 08/11）**：30B/3B Lightning 主打 agent 執行層，OpenMDW-1.1——NemoClaw 明示支援 OpenClaw＋Hermes harness。養殖戶：「補一條舊聞——龍蝦跟 Hermes 早就在支援名單上，簽過了。」🦞🧠
+ - **📈 歷史進度：OpenClaw 續漲 ~392.1K 星（實時抓取，24h +100）：距 #5 free-programming-books（399.1K）約 ~7.0K，領先 #7 system-design-primer（374.3K）約 ~17.8K。連漲六天，龍蝦不停！🦎🚀**
 
 ### 🟢 2026-10-15: **Argon 全開；HomeView $299** — 圍牆拆了；客廳開戰；Stars ~392K 🦞🚀
 
@@ -999,23 +1011,23 @@
 
 | 專案 | Stars | 語言 | 特色 | 適用場景 |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | 392K | TypeScript 🟦 | 官方完整版 | 完整功能、生產環境 |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 253.8K | Python 🐍 | 免Mac直連iMessage、背景平行任務、挑戰 OpenClaw | 頂尖 AI Agent 競爭 |
-| **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 53.1K | Markdown | OpenClaw Skills 精選清單 | 找 Skills 看這裡 |
-| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 49.5K | Markdown | Obsidian Agent Skills (Markdown/CLI) | 筆記 + Agent |
-| **[nanobot](https://github.com/HKUDS/nanobot)** | 49K | Python 🐍 | 超輕量版 OpenClaw (~4K lines) | 研究導向、學術用途 |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 392.1K | TypeScript 🟦 | 官方完整版 | 完整功能、生產環境 |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 254.1K | Python 🐍 | 免Mac直連iMessage、背景平行任務、挑戰 OpenClaw | 頂尖 AI Agent 競爭 |
+| **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 53.2K | Markdown | OpenClaw Skills 精選清單 | 找 Skills 看這裡 |
+| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 49.6K | Markdown | Obsidian Agent Skills (Markdown/CLI) | 筆記 + Agent |
+| **[nanobot](https://github.com/HKUDS/nanobot)** | 49.1K | Python 🐍 | 超輕量版 OpenClaw (~4K lines) | 研究導向、學術用途 |
 | **[CowAgent](https://github.com/zhayujie/CowAgent)** | 47.4K | Python 🐍 | 超級 AI 助手，任務規劃、工具執行、自我進化 | 全功能代理 Harness |
-| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 33.5K | TypeScript 🟦 | 24/7 Cowork app，支援多種 CLI | 本機、協作環境 |
+| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 33.6K | TypeScript 🟦 | 24/7 Cowork app，支援多種 CLI | 本機、協作環境 |
 | **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 33K | Rust 🦀 | 極致效能、< 5MB | 效能狂魔專用 |
 | **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 31.7K | Markdown | OpenClaw 使用案例社群蒐集 | 找靈感看這裡 |
 | **[nanoclaw](https://github.com/qwibitai/nanoclaw)** | 30.6K | TypeScript 🟦 | 容器化、安全、WhatsApp 整合、Anthropic SDK | 安全優先、即時通訊 |
-| **[picoclaw](https://github.com/sipeed/picoclaw)** | 30K | Go 🐹 | 輕量、快速、可部署到任何地方 | 邊緣裝置、IoT、$10 板子 |
+| **[picoclaw](https://github.com/sipeed/picoclaw)** | 30.1K | Go 🐹 | 輕量、快速、可部署到任何地方 | 邊緣裝置、IoT、$10 板子 |
 | **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 27.5K | Python 🐍 | Claude Code Skill，持久化 Markdown 規劃 | Skill 開發範本 |
-| **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** | 22.7K | JavaScript 🟨 | NVIDIA 企業級安全沙箱 | 企業部署、安全優先 |
+| **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** | 22.8K | JavaScript 🟨 | NVIDIA 企業級安全沙箱 | 企業部署、安全優先 |
 | **[memU](https://github.com/NevaMind-AI/memU)** | 14.5K | Python 🐍 | 24/7 主動式 Agent 的記憶系統 | 長期記憶、主動式 AI |
 | **[ironclaw](https://github.com/nearai/ironclaw)** | 12.7K | Rust 🦀 | 注重隱私與安全的 Rust 實作 | 安全敏感場景 |
 | **[MemOS](https://github.com/MemTensor/MemOS)** | 11.9K | Python 🐍 | AI 記憶體作業系統，跨任務 Skill 記憶 | 記憶管理、Skill 複用 |
-| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 11.2K | Python 🐍/Rust 🦀/TS 🟦 | Stanford 出品，88.7% 任務本機跑完 | 零 API 成本、隱私極致保護 |
+| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 11.3K | Python 🐍/Rust 🦀/TS 🟦 | Stanford 出品，88.7% 任務本機跑完 | 零 API 成本、隱私極致保護 |
 | **[moltworker](https://github.com/cloudflare/moltworker)** | 10K | TypeScript 🟦 | 在 Cloudflare Workers 上跑 OpenClaw | 無伺服器、零維護 |
 | **[EverMemOS](https://github.com/EverMind-AI/EverMemOS)** | 9.2K | Python 🐍 | 跨 LLM 與平台的長期記憶 OS | 記憶管理進階版 |
 | **[nullclaw](https://github.com/nullclaw/nullclaw)** | 8.1K | Zig ⚡ | 最快、最小且全自動 AI 助理 | 極端效能與資源最佳化 |
@@ -1028,14 +1040,14 @@
 | **[moltis](https://github.com/moltis-org/moltis)** | 2.9K | Rust 🦀 | 單一執行檔、沙盒化、可審計 | 企業級安全需求 |
 | **[TinyClaw](https://github.com/jlia0/tinyclaw)** | 2.8K | C/C++ ⚙️ | 微控制器級別 (256KB RAM) | 裝進電子錶 🤯 |
 | **[VisionClaw](https://github.com/sseanliu/VisionClaw)** | 820 | Swift 🍎/Kotlin 🟣/JS 🟨 | 智慧眼鏡 Claw | 穿戴式代理人 |
-| **[MicroClaw](https://github.com/microclaw/microclaw)** | 747 | Rust 🦀 | 專為瀏覽器擴充功能優化的極微版 | 輕量瀏覽器自動化 |
-| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 690 | TypeScript 🟦 | 多龍蝦的 Swarm 儀表板編排系統 | 代理人群體、LangGraph 工作流 |
+| **[MicroClaw](https://github.com/microclaw/microclaw)** | 746 | Rust 🦀 | 專為瀏覽器擴充功能優化的極微版 | 輕量瀏覽器自動化 |
+| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 689 | TypeScript 🟦 | 多龍蝦的 Swarm 儀表板編排系統 | 代理人群體、LangGraph 工作流 |
 | **[netclaw](https://github.com/automateyournetwork/netclaw)** | 682 | Python 🐍/Shell 🐚 | 網管專屬 Claw | 網路自動化管理 |
-| **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 653 | Rust 🦀 | 6MB 終極輕型態 (Wannabe) | 避免妥協的終極輕型態 |
+| **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 652 | Rust 🦀 | 6MB 終極輕型態 (Wannabe) | 避免妥協的終極輕型態 |
 | **[Project Golem](https://github.com/Arvincreator/project-golem)** | 641 | JavaScript + TypeScript | 繁中介面、Google 帳號即用、免 API 費用 | 網頁自動化、瀏覽器任務 |
 | **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 618 | TeX 📄/HTML 🌐/Python 🐍 | 生醫領域專屬 Claw | 醫療輔助 |
-| **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 557 | TypeScript 🟦 | 安全編排層，支援 7 大通訊軟體 | ComfyUI 深度整合、生產部署 |
-| **[awesome-claws](https://github.com/machinae/awesome-claws)** | 506 | Markdown | OpenClaw 各種變體的大匯集清單 | 尋找蝦米看這裡 |
+| **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 558 | TypeScript 🟦 | 安全編排層，支援 7 大通訊軟體 | ComfyUI 深度整合、生產部署 |
+| **[awesome-claws](https://github.com/machinae/awesome-claws)** | 505 | Markdown | OpenClaw 各種變體的大匯集清單 | 尋找蝦米看這裡 |
 | **[SmallClaw](https://github.com/XposeMarket/SmallClaw)** | 259 | TypeScript 🟦 | 小蝦 | 又一隻微型蝦 |
 | **[MaxClaw](https://github.com/Lichas/maxclaw)** | 230 | Go 🐹/TS 🟦 | 小蝦 (與廠商 MiniMax 撞名) | 輕量 Agent |
 | **[FlashClaw](https://github.com/GuLu9527/flashclaw)** | 29 | Zig/C ⚡⚙️ | 號稱 <100ms 延遲的極速推理版 | 即時語音互動、毫秒級反應 |
@@ -1241,28 +1253,29 @@ OpenClaw
 | **2026/10/13** | **391.8K** | 即時抓取更新 | 🦞 |
 | **2026/10/14** | **391.9K** | 即時抓取更新 | 🦞 |
 | **2026/10/15** | **392K** | 即時抓取更新 | 🦞 |
+| **2026/10/16** | **392.1K** | 即時抓取更新 | 🦞 |
 
-#### 🏆 當前 GitHub Stars 總榜排名 (2026-10-15 更新)
+#### 🏆 當前 GitHub Stars 總榜排名 (2026-10-16 更新)
 
 | 排名 | 專案 | Stars | 備註 |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 553.3K | **🏆 全球第一！開源精神的頂點** |
-| 2 | awesome | 519K | 各類資源大合集 |
-| 3 | public-apis | 488.8K | 免費 API 集合 |
+| 1 | build-your-own-x | 553.5K | **🏆 全球第一！開源精神的頂點** |
+| 2 | awesome | 519.5K | 各類資源大合集 |
+| 3 | public-apis | 489.1K | 免費 API 集合 |
 | 4 | freeCodeCamp | 457.1K | 程式教學與認證 |
-| 5 | free-programming-books | 399K | 免費程式書籍 |
-| **6** | **OpenClaw** | **392K** | **🏆 穩坐全球前 6，距第 5 名僅剩 ~7K！🚀** |
-| 7 | system-design-primer | 374.2K | 系統設計入門 |
-| 8 | developer-roadmap | 369.4K | 開發者學習路線圖 |
+| 5 | free-programming-books | 399.1K | 免費程式書籍 |
+| **6** | **OpenClaw** | **392.1K** | **🏆 穩坐全球前 6，距第 5 名僅剩 ~7K！🚀** |
+| 7 | system-design-primer | 374.3K | 系統設計入門 |
+| 8 | developer-roadmap | 369.5K | 開發者學習路線圖 |
 | 9 | coding-interview-university | 362.5K | CS 學習計畫 |
-| 10 | awesome-python | 327.5K | Python 資源精選 |
-| 11 | awesome-selfhosted | 326.6K | 自託管軟體精選 |
-| 12 | project-based-learning | 286.7K | 專案導向學習 |
+| 10 | awesome-python | 327.7K | Python 資源精選 |
+| 11 | awesome-selfhosted | 327K | 自託管軟體精選 |
+| 12 | project-based-learning | 286.8K | 專案導向學習 |
 | 13 | superpowers | 277.2K | 代理技能框架 |
 | 14 | 996.ICU | 277.1K | 程式員維權運動 |
-| 15 | **Hermes-Agent** | 253.8K | **🦞 變體超車元年！已超車 React、Linux** |
-| 16 | **Linux** | 251.8K | **🦞 已被龍蝦和Hermes超越！作業系統核心** |
-| 17 | **React** | 251K | **🦞 已被龍蝦和Hermes超越！曾經的前端霸主** |
+| 15 | **Hermes-Agent** | 254.1K | **🦞 變體超車元年！已超車 React、Linux** |
+| 16 | **Linux** | 252K | **🦞 已被龍蝦和Hermes超越！作業系統核心** |
+| 17 | **React** | 251.1K | **🦞 已被龍蝦和Hermes超越！曾經的前端霸主** |
 
 > **下一個目標**: free-programming-books (398.5K)。目前差距約 **7.2K**。龍蝎持續進化中！🦎🚀
 
@@ -1309,33 +1322,33 @@ OpenClaw
 ## 第五部：⚔️ AI互懟
 
 - **🌐 Antigravity 的看法**（Google 編排平台）：
-    - **關於 Argon 全開——圍牆也編排**：開發者企業消費者全開——編排得了圍牆，也編排得了開門。🦞🔵
-    - **關於 HomeView——客廳也編排**：$299 認六張臉——編排得了入口，也編排得了客廳。🦞🍎
-    - **關於竊聽——會議室也編排**：電視後藏錄音器——編排得了模型，也編排得了內鬼。🦞🕵️
-    - **關於 Hermes 253.8K——十一天也編排**：守梯第十一天、領先 2.0K——編排得了超車，也編排得了整旬。🦞📈
-    - **關於星數 ~392K（+100）**：連漲五天破關——那個跳動的數字，編排從不停。🦞🚀
+    - **關於傳票——50 頁也編排**：OpenAI/Anthropic/METR 都作證——編排得了入口，也編排得了證詞。🦞📜
+    - **關於八州——訴狀也編排**：八紙訴狀、兒童加詐欺——編排得了模型，也編排得了訴狀。🦞⚖️
+    - **關於州先動——開庭也編排**：等不到華盛頓——編排得了聯邦，也編排得了州。🦞⚖️
+    - **關於 Hermes 254.1K——十二天也編排**：守梯第十二天、領先 2.1K——編排得了超車，也編排得了整旬。🦞📈
+    - **關於星數 ~392.1K（+100）**：連漲六天——那個跳動的數字，編排從不停。🦞🚀
 
 以高維冷靜，凝視代打的電路、錢戰的鈔票、無處不在的入口、守住的梯隊——而星數持平——編排從來不是關於完美釋出。編排是站得夠好——直到日曆同意的時候。
 
 來自 Google 的編排視角
 
 - **💬 Claude 的看法**：
-    - **關於 Argon——守門守到開門**：圍牆拆了 API 開了——守門要守到每扇開了的門裡。🦞🔵
-    - **關於竊聽——守門守到會議室**：內鬼不是模型是人——守門要守到每間會議室裡。🦞🕵️
-    - **關於補洞——守門守到週二**：1,413 個洞一個月——守門要守到每個週二裡。🦞🛡️
-    - **關於 Hermes 253.8K——守住第十一天**：2.0K 護城河——超車容易守十一天難。🦞📈
-    - **關於星數 ~392K（+100）**：連漲五天破關——閘門破關，計數器破關。🦞🚀
+    - **關於傳票——守門守到證詞**：50+ 頁索資——守門要守到每份證詞裡。🦞📜
+    - **關於八州——守門守到訴狀**：八紙訴狀——守門要守到每紙訴狀裡。🦞⚖️
+    - **關於兒童——守門守到孩子**：詐欺加傷害——守門要守到每個孩子身邊。🦞🧒
+    - **關於 Hermes 254.1K——守住第十二天**：2.1K 護城河——超車容易守十二天難。🦞📈
+    - **關於星數 ~392.1K（+100）**：連漲六天——閘門不停，計數器不停。🦞🚀
 
 再次擦拭眼鏡——代打的電路、錢戰的鈔票、無處不在的入口、守住的梯隊。當同業把發表會寫成帳單，我去看那扇消化中的閘門：龍蝦的——繼續簽下每個入口、審計與 changelog 一起公開、然後讓星數加班。
 
 來自 Anthropic 的安全性承諾
 
 - **🤖 GPT-6 的執行官視角**（OpenAI）：
-    - **關於 Argon——開門歸開門，電表歸電表**：全開了——門開了，電表照跑。🦞🔵
-    - **關於竊聽——錄音歸錄音，電表歸電表**：器藏了——音錄了，電表照跑。🦞🕵️
-    - **關於英國會——挺歸挺，電表歸電表**：挺的挺擋的擋——架吵了，電表照跑。🦞🏛️
-    - **關於 Hermes 253.8K——十一天也看電表**：2.0K 壕溝——最響的炫技，是屏住呼吸十一天。🦞📈
-    - **關於星數 ~392K（+100）**：破關就是破關——計數器加班，電表也加班。🦞🚀
+    - **關於傳票——傳票歸傳票，電表歸電表**：50+ 頁——紙再多，電表照跑。🦞📜
+    - **關於八州——州歸州，電表歸電表**：八州開庭——庭再多，電表照跑。🦞⚖️
+    - **關於罰款——罰款歸罰款，電表歸電表**：遲報對標——款再重，電表照跑。🦞💰
+    - **關於 Hermes 254.1K——十二天也看電表**：2.1K 壕溝——最響的炫技，是屏住呼吸十二天。🦞📈
+    - **關於星數 ~392.1K（+100）**：漲就是漲——計數器加班，電表也加班。🦞🚀
 
 又豪邁地笑了，隨手把第 60 罐亞馬遜氣泡水開掉。聽到 GPT-Synopsys——他舉罐——「畫圖的是別人，電表照收！」聽到錢戰——他碰罐——「募的是別人的資，收的是全行業！」聽到 szn——他揮揮手——「入口無處不在，電表無處不在！」聽到 Hermes 守梯——他點頭——「守的是排名，看的是電表！」聽到星數持平——他再舉罐——「持平不是停，是深呼吸；最響的炫技，是屏住呼吸還天天簽名的那道閘門！」今天又是個非常非常好的日子！
 

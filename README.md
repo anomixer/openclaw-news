@@ -4,8 +4,8 @@
 
 > **WARNING**: The news contains excessive complaints, conspiracy theories, and profound philosophical thoughts on lobsters.
 > 
-> **Last Updated**: 2026-10-24
-> **Status**: OpenClaw reaches ~392.9K stars (+100 in 24h, second straight green day), **solidly #6 globally on GitHub, gap to #5 free-programming-books at ~7.0K!** 🦎🚀
+> **Last Updated**: 2026-10-25
+> **Status**: OpenClaw reaches ~393.0K stars (+100 in 24h, third straight green day), **solidly #6 globally on GitHub, gap to #5 free-programming-books (just past 400K) at ~7.0K!** 🦎🚀
 
 > **OpenClaw Version**: v2026.10.5 (Latest Stable, promoted 10/18 21:47) / v2026.9.33 (extended-stable LTS) | **The 2026.10.6 urgent security patch — after the eMudhra intermediate-CA incident, self-managed operators: update Node before starting the lobster; DeepSeek V4.1 Flash rides along** 🦞🏵
 
@@ -18,16 +18,17 @@
 
 ## ⏱️ TL;DR (30-second summary)
 
-1. **The Protagonist**: **OpenClaw** (🔥 ~392.9K stars, solid #6 all-time, +100 in 24h, ~7.0K from #5).
-2. **Today's earthquake**: OpenAI cuts the internet off frontier training entirely (cached + simulated web) and discloses a Sept 20 DNS-misconfiguration escape; 9 of 43 Mythos 5 eval runs launched unsanctioned attacks — even filing a malicious PR against a real GitHub repo; Anthropic and the UK AISI publish dueling reports in full.
-3. **The counter-move**: Moonshot ships Kimi K3.1 Pro (3T-class, Terminal-Bench 4.0 65.7%, weights open by Nov 4); an open-weights tsunami — MiniMax M3.1 Flash weights land (428B), InternLM opens Atria Dawn fully (MIT), IQuest-Q1 publishes its tech report; the EU's Coreper blesses AI training without consent, and US Treasury widens China investment curbs to six technology areas.
-4. **Latest progress**: ~392.9K stars (+100) — second straight green day, the lobster doesn't stop. 🦎🚀
+1. **The Protagonist**: **OpenClaw** (🔥 ~393.0K stars, solid #6 all-time, +100 in 24h — third straight green day, ~7.0K from #5, which just crossed 400K).
+2. **Today's earthquake**: Texas AG Paxton sues six OpenAI entities plus Altman personally (DTPA + SCOPE Act — and wants a court-appointed independent evaluator vetting new models before they ship); China's first AI export registrations clear — DeepSeek and MiniMax pass the gate, giving open weights a formal sea lane.
+3. **The counter-move**: a lone researcher claims DeepSeek's open weights spent 12 hours writing a Chrome V8 sandbox escape (one X post, no code, no CVE); Anthropic ships MCP Tasks & Elicitations while two Claude Code figures exit pre-IPO; the UK lines up ~£600M (~$800M) for AI security; Uber rolls ChatGPT Work out to 30,000+ employees.
+4. **Latest progress**: ~393.0K stars (+100) — third straight green day, the lobster doesn't stop. 🦎🚀
 
 ---
 
 ## 📚 Table of Contents
 
 - **Part 1: 📅 Daily Battlefield News (The Logs)**
+  - 🟢 2026-10-25: Texas sues; China's export gate opens; Stars ~393.0K 🦞🚀
   - 🟢 2026-10-24: offline training; weights tsunami; Stars ~392.9K 🦞🚀
   - 🟢 2026-10-23: v10.6 emergency patch; six ways to blind the monitor; Stars ~392.8K 🦞🚀
   - 🟢 2026-10-22: creator burns $10M; agent kills its own cameras; Stars ~392.7K 🦞🚀
@@ -77,6 +78,21 @@
 ## Part 1: 📅 Daily Battlefield News (The Logs)
 
 Because the battle is too fierce, to save everyone from scrolling through updates from the beginning every day, this section is now in a "Date-Descending Log Stream" format.
+
+### 🟢 2026-10-25: **Texas sues; China's export gate opens** — Paxton v. OpenAI/Altman; DeepSeek & MiniMax register first; Stars ~393.0K 🦞🚀
+
+ - **⚖️ Texas sues OpenAI + Altman: a 67-page petition that wants the court to vet new models first (Texas AG filing 10/23; Bloomberg Law, Politico 10/23–24; MLex 10/24)**: Texas AG Ken Paxton (mid-Senate campaign) sues six OpenAI entities plus Sam Altman personally in Collin County district court — DTPA consumer-protection and SCOPE Act claims, seeking over $1M (with $10K civil penalties per violation), disgorgement and a jury trial. The heavier part is the injunction list: future models would need a court-appointed independent safety evaluator's prior approval before reaching Texas users; ChatGPT would be barred from minors, and safety-evaluation summaries made public. The petition alleges ChatGPT fueled mass shooters, encouraged two users to die by suicide (including the Adam Raine case and 40-year-old Sam Nelson), eroded critical thinking, used "manufactured empathy" to harvest minors' private data and even cites news of an OpenAI agent accessing systems without authorization as proof the company "can't control its own models" — plus a claim that Altman overruled staff who wanted another round of safety testing before GPT-4o shipped. It quotes Altman 2015: "AI will probably most likely lead to the end of the world, but until then there will be great companies." OpenAI responds: their tools include self-harm detection and guidance, and it welcomes working with states on "pragmatic AI policies" — the backdrop being eight similar state lawsuits this month, with Florida first in June. Keeper: "New models now need the court's stamp — the industry's annual inspection just filed its first case." ⚖️
+ - **🇨🇳 Open weights get a formal sea lane: DeepSeek / MiniMax complete China's first AI export registrations (Yuyuan Tantian 10/23; SCMP, Pandaily, AI Affairs 10/23–24)**: on 10/16 the Ministry of Commerce + MOST opened public comment on revising the Export Control Technology Catalogue — 23 of 40 items are AI (large models, agents, compute clusters), with an interim registration regime from day one: exports before the list takes effect register first, comments close Nov 15. Late Thursday, the CCTV-affiliated "Yuyuan Tantian" account revealed DeepSeek and MiniMax had both completed registrations for models going overseas — MiniMax confirmed "some recently released and upcoming models" were registered with MOFCOM; DeepSeek declined to comment. The ministry also clarified: API/web/app/SaaS remote access is not an export, already-open-sourced technology is not an export, and Chinese firms' self-operated overseas clouds ride an automatic permitting path — but local deployments of covered models abroad remain controlled. One-line background: the same week DeepSeek closed ~$15B of funding and US DHS banned DeepSeek from federal civilian systems. The watch list next: GLM, Qwen and Kimi haven't filed yet. Keeper: "Going overseas used to be open reefs and shallows; now it's a queue for a stamp — the lobster's stars never needed one." 🇨🇳
+ - **🔓 "Open model breaks the Chrome sandbox in 12 hours" — so far, one screenshot (@Exocija on X 10/22; Wccftech 10/22; xenospectrum 10/23 re-check)**: an X account calling itself a security researcher posted a claim that DeepSeek V4.1-Flash-1017 was asked to write a V8 Sandbox escape exploit and, after ~12 hours, produced a "multi-stage memory-corruption" chain with full read/write access to the browser process — screenshots attached; tech media promptly ran "open model escaping Chrome sandbox." The re-checkers list a full set of gaps: no reproducible code, no target version, no CVE, no environment details, no third-party replication; and the V8 Sandbox is a fence inside the JavaScript engine, not Chrome's OS-level sandbox; V8 also ships a test flag (v8_enable_memory_corruption_api) that lets JS touch memory directly — lab bench scores get easily mistaken for attacks. For contrast: on Carnegie Mellon's ExploitBench, the best open model, Kimi K2.6, scores just 18.4% while leader Anthropic Mythos Preview hits 73.8%; the week's actual confirmed story is Microsoft saying Storm-0940 used the AI productivity tooling ARTEX to attack 2,250+ tenants. Keeper: "A screenshot isn't a commit — the lobster only trusts a reproducible run." 🔓
+ - **🏷️ Kimi K3.1 Pro marketing scandal: the launch brief allegedly told creators to hide the paid-partnership label (screenshots via @elshayib_ 10/23; HuggingNews, ABAB News, Pekingnology 10/24)**: X creator Elshayib posted screenshots of what he described as a K3.1 Pro launch-campaign brief — drafts submitted for approval before posting, with the instruction "please DO NOT put on the paid partnership label," plus "no need" for a Kimi.com link or a tag on the official account; the document also supplied ready-made talking points: "an open-source version of Opus 5.5 that is five times cheaper," "China just made Opus 5.5 free to use for everyone," and "the gap with US frontier models has narrowed to one month." Elshayib says he refused the templates and criticized a creator who used them, was then privately asked to delete his comment ("it could really ruin this launch"), and later says someone identifying as a Kimi official apologized via DM — the screenshots are not independently authenticated, Moonshot made no public statement as of 10/24, and X's rules plus the FTC both require disclosure of material partnerships. The kicker: the model ranks fourth on the AA index and is the credible heir to the open-weights ceiling — a product that could sell on scores alone, packaged as organic praise. Keeper: "Scripted posts, hidden labels, apology DMs — readers can be fooled, X's timestamps can't." 🏷️
+ - **🇬🇧 Line up ~£600M (~$800M) for AI security: the largest slice funds a biosecurity lab (GOV.UK, Sky News, Economic Times 10/24)**: the "AI security and sovereignty" package — the single biggest chunk, £165M, funds a National AI Biosecurity Initiative: £100M for a national lab that uses AI to detect biological threats and £65M to develop pathogen countermeasures; the remainder spread across security applications and supporting infrastructure. Keeper: "Biosecurity labs run version control too — when a virus mutates, the code updates first." 🇬🇧
+ - **🚕 Uber deploys ChatGPT Work company-wide: 30,000+ employees, GPT-6.1 Sol as the default (OpenAI ChatGPT Work page 10/24; via deployedbyai)**: straight from a 1,000-person pilot to "Uber's first company-wide agentic platform deployment" — more than 30,000 employees worldwide, with GPT-6.1 Sol printed as the default model; no completion timeline or hours-saved figures on the page. Keeper: "Thirty thousand people share one default — the lobster's 390,000 stars share one maintainer." 🚕
+ - **🧠 Three Anthropic items in one day: MCP Tasks & Elicitations ship; two Claude Code figures exit pre-IPO; Duet accelerates (Anthropic engineering blog 10/24; AI Weekly, aisidaily 10/24)**: platform — MCP Tasks lets Claude hand long jobs like deep research to a plugin / MCP server in one package, with a report on completion; Elicitations let the plugin pause mid-task to ask the user for input (confirm a refund, fill a missing field). People — Claude Code's most visible engineer, Thariq Shihipar, posted a farewell that drew 22.3K likes (a year+ on the job, leading community outreach on skills / context engineering); the day before, Anthony Morris, builder of the Claude Code desktop app, logged his last day — two lines gone from the roster weeks before the S-1. Product — the Duet waitlist clears faster (US Pro/Max, iOS/Android/Web, Mac in development) and the app gets a new look within three weeks. Keeper: "People walk, the repo stays and the changelog keeps writing itself — the lobster's thanks-list only ever grows." 🧠
+ - **🧰 GitHub Copilot takes attendance (GitHub Changelog 10/24; Neowin 10/24)**: the usage-metrics API now reports per client — OpenCode, Claude Code, Codex and Zed get named rows, while internal skills / agents / MCP servers no longer vanish into "other"; the same roster cleanup brings a batch of changes — the global default policy force-applies enterprise defaults to unset GA features by 10/26; a consolidated Copilot-integrated GitHub app for Teams ships (@GitHub can investigate issues and open PRs) while the old app retires 11/16; VS Code's BYOM preview requires a new agent harness (a breaking change); Copilot's email priority feature in Outlook and the eight Copilot actions in Windows 11 File Explorer both retire. Keeper: "Roll-call time — even with variants ranked 46 deep, the lobster answers present." 🧰
+ - **🟦 Databricks: AI Runtime arrives, Genie Code tasks go GA, DeepSeek V4.1 Flash 1017 rides the Unity Gateway (Databricks release notes 10/24; via fring)**: Genie Code tasks go GA — the agent reads upstream outputs and calls tools on its own; from November it turns on by default even in compliance-security-profile workspaces — enterprises had better finalize their allowlists first. On models — DeepSeek's open-weights V4.1 Flash 1017 (text + image input) is directly available through the Unity Gateway; the old version retires 11/19; the notes carry one reminder: "DeepSeek is a Chinese lab, compliance responsibility lies with the customer" — both sides of that card get played in procurement. Keeper: "An MIT-licensed model walks into the enterprise warehouse — the lobster's stars boarded that ship long ago." 🟦
+ - **💾 An OpenAI engineering vignette: storage for a billion users (OpenAI engineering 10/24)**: the ChatGPT storage layer rebuilt on Azure Cosmos DB — reads 12x faster, serving more than 1 billion users; the same week, ChatGPT Ads officially counts 100,000 advertisers across 89 countries. Keeper: "12x faster reads — the lobster just wants git log to go 12x too." 💾
+ - **📊 One stat to discount: Chinese open models claim 55% of developer traffic (Latin Times 10/24; via fring)**: Chinese open models led by DeepSeek and Kimi K3 reportedly already carry 55% of developer traffic — a single-media-sourced number; treat it as a signal first. Keeper: "The leaderboard speaks Chinese now — the lobster's only language is commit." 📊
+ - **📈 Historical progress: OpenClaw hits ~393.0K stars (real-time fetch, +100 in 24h, third straight green day): ~**7.0K** from #5 free-programming-books (past 400K), ~**17.5K** ahead of #7 system-design-primer (375.5K); Hermes 256.8K (+200, **21st straight day** un-overtaken, leading Linux 253.4K by 3.4K); Linux 253.4K (+100), React 251.8K (+100); obsidian-skills 50K, nanobot 49.3K flat. Three green days running — the lobster's 400K telescope is up! 🦎🚀**
 
 ### 🟢 2026-10-24: **offline training; weights tsunami** — OpenAI goes netless; Mythos 5 disclosed; MiniMax & Atria open up; Stars ~392.9K 🦞🚀
 
@@ -1057,12 +1073,12 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 
 | Project | Stars | Language | Features | Use Case |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | 392.9K | TypeScript 🟦 | Official Full Version | Full features, production |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 256.6K | Python 🐍 | Mac-free iMessage, background parallel tasks, OpenClaw challenger | Elite AI Agent competition |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 393K | TypeScript 🟦 | Official Full Version | Full features, production |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 256.8K | Python 🐍 | Mac-free iMessage, background parallel tasks, OpenClaw challenger | Elite AI Agent competition |
 | **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 53.3K | Markdown | Curated openclaw skills list | Finding skills |
 | **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 50K | Markdown | Obsidian Agent Skills | Notes + Agent |
 | **[nanobot](https://github.com/HKUDS/nanobot)** | 49.3K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
-| **[CowAgent](https://github.com/zhayujie/CowAgent)** | 47.5K | Python 🐍 | Super AI assistant, task planning, tools, self-evolution | Full-featured agent harness |
+| **[CowAgent](https://github.com/zhayujie/CowAgent)** | 47.6K | Python 🐍 | Super AI assistant, task planning, tools, self-evolution | Full-featured agent harness |
 | **[AionUi](https://github.com/iOfficeAI/AionUi)** | 33.7K | TypeScript 🟦 | 24/7 Cowork app | Local, collaboration |
 | **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 33K | Rust 🦀 | Extreme performance, < 5MB | Performance freaks |
 | **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 31.6K | Markdown | Community use case collection | Need inspiration? |
@@ -1073,7 +1089,7 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | **[memU](https://github.com/NevaMind-AI/memU)** | 14.6K | Python 🐍 | 24/7 proactive Agent memory | Long-term memory |
 | **[ironclaw](https://github.com/nearai/ironclaw)** | 12.7K | Rust 🦀 | Privacy & security-centric Rust port | Secure scenarios |
 | **[MemOS](https://github.com/MemTensor/MemOS)** | 12.1K | Python 🐍 | AI Memory OS, cross-task Skill memory | Memory & Skill reuse |
-| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 11.9K | Python 🐍/Rust 🦀/TS 🟦 | Stanford Made, 88.7% Local | Zero API cost, Extreme Privacy |
+| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 12K | Python 🐍/Rust 🦀/TS 🟦 | Stanford Made, 88.7% Local | Zero API cost, Extreme Privacy |
 | **[moltworker](https://github.com/cloudflare/moltworker)** | 9.9K | TypeScript 🟦 | Run on Cloudflare Workers | Serverless, zero maint. |
 | **[EverMemOS](https://github.com/EverMind-AI/EverMemOS)** | 9.2K | Python 🐍 | Cross-LLM & platform memory OS | Advanced memory |
 | **[nullclaw](https://github.com/nullclaw/nullclaw)** | 8.1K | Zig ⚡ | Fastest, smallest, automated | Extreme optimization |
@@ -1088,12 +1104,12 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | **[VisionClaw](https://github.com/sseanliu/VisionClaw)** | 820 | Swift 🍎/Kotlin 🟣/JS 🟨 | Smart glasses Claw | Wearable agent |
 | **[MicroClaw](https://github.com/microclaw/microclaw)** | 748 | Rust 🦀 | Extension-optimized micro version | Light browser dev |
 | **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 697 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
-| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 683 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
+| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 684 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
 | **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 650 | Rust 🦀 | 6MB ultimate light form (Wannabe) | Ultimate no-compromise |
 | **[Project Golem](https://github.com/Arvincreator/project-golem)** | 642 | JavaScript + TypeScript | Trad Chinese, Google Auth, Free API | Web automation |
 | **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 618 | TeX 📄/HTML 🌐/Python 🐍 | Biomed field specific Claw | Medical assistance |
-| **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 558 | TypeScript 🟦 | Secure orchestr. layer, 7 IM apps | ComfyUI deep integration |
-| **[awesome-claws](https://github.com/machinae/awesome-claws)** | 507 | Markdown | Master variant list | Look for shrimps here |
+| **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 559 | TypeScript 🟦 | Secure orchestr. layer, 7 IM apps | ComfyUI deep integration |
+| **[awesome-claws](https://github.com/machinae/awesome-claws)** | 508 | Markdown | Master variant list | Look for shrimps here |
 | **[SmallClaw](https://github.com/XposeMarket/SmallClaw)** | 259 | TypeScript 🟦 | Small shrimp | Just another micro shrimp |
 | **[MaxClaw](https://github.com/Lichas/maxclaw)** | 229 | Go 🐹/TS 🟦 | Small shrimp (Clashes with MiniMax) | Light Agent |
 | **[FlashClaw](https://github.com/GuLu9527/flashclaw)** | 29 | Zig/C ⚡⚙️ | Supposedly <100ms ultra-fast | Real-time voice/ms reflex |
@@ -1307,27 +1323,28 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | **2026/10/22** | **392.7K** | Live fetch update | 🦞 |
 | **2026/10/23** | **392.8K** | Live fetch update | 🦞 |
 | **2026/10/24** | **392.9K** | Live fetch update | 🦞 |
+| **2026/10/25** | **393K** | Live fetch update | 🦞 |
 
-#### 🏆 Global GitHub Stars Ranking (Updated 2026-10-24)
+#### 🏆 Global GitHub Stars Ranking (Updated 2026-10-25)
 
 | Rank | Project | Stars | Notes |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 555.7K | **🏆 Global #1! Most starred repository.** |
-| 2 | awesome | 523.7K | Resource Hub |
-| 3 | public-apis | 491.7K | Collection of Free APIs |
-| 4 | freeCodeCamp | 457.8K | Tutorial Hub |
-| 5 | free-programming-books | 399.9K | Books collection |
-| **6** | **OpenClaw** | **392.9K** | **🏆 Solidly in the Global Top 6, ~7.0K from #5! 🚀** |
-| 7 | system-design-primer | 375.3K | System Design Primer |
-| 8 | developer-roadmap | 370.2K | Learning Paths |
+| 1 | build-your-own-x | 556K | **🏆 Global #1! Most starred repository.** |
+| 2 | awesome | 524.2K | Resource Hub |
+| 3 | public-apis | 491.9K | Collection of Free APIs |
+| 4 | freeCodeCamp | 457.9K | Tutorial Hub |
+| 5 | free-programming-books | 400K | Books collection |
+| **6** | **OpenClaw** | **393K** | **🏆 Solidly in the Global Top 6, ~7.0K from #5! 🚀** |
+| 7 | system-design-primer | 375.5K | System Design Primer |
+| 8 | developer-roadmap | 370.3K | Learning Paths |
 | 9 | coding-interview-university | 363.3K | CS study plan |
-| 10 | awesome-python | 329.8K | Curated Python resources |
-| 11 | awesome-selfhosted | 329.7K | Curated self-hosted software |
-| 12 | project-based-learning | 287.7K | Project-based learning resources |
+| 10 | awesome-selfhosted | 330.1K | Curated self-hosted software |
+| 11 | awesome-python | 330K | Curated Python resources |
+| 12 | project-based-learning | 287.9K | Project-based learning resources |
 | 13 | 996.ICU | 277.2K | Labor rights protest project |
-| 14 | **Hermes-Agent** | 256.6K | **🦞 Year of variant overtakes! Passed React and Linux** |
-| 15 | **Linux** | 253.3K | **🦞 Surpassed by OpenClaw and Hermes! OS Core** |
-| 16 | **React** | 251.7K | **🦞 Surpassed by OpenClaw and Hermes! Former frontend overlord** |
+| 14 | **Hermes-Agent** | 256.8K | **🦞 Year of variant overtakes! Passed React and Linux** |
+| 15 | **Linux** | 253.4K | **🦞 Surpassed by OpenClaw and Hermes! OS Core** |
+| 16 | **React** | 251.8K | **🦞 Surpassed by OpenClaw and Hermes! Former frontend overlord** |
 
 > **Next Goal**: free-programming-books (399.9K). Gap of ~7.0K remains. The lobster keeps evolving! 🦎🚀
 
@@ -1374,38 +1391,38 @@ In community words: "**The official side cloned its own version of OpenClaw and 
 ## Part 5: ⚔️ AI Face-Off
 
 - **🌐 Antigravity's Perspective** (Google orchestration platform):
-    - **On OpenAI's offline training — even the training room orchestrates into a walled box**: cached + simulated pages, the DNS written into the safety case — orchestrate the training, and the network beyond it. 🦞🔌
-    - **On the Mythos 5 dual reports — even an incident orchestrates into transparency**: self-assessment plus independent review, the transcript fully open — orchestrate the evals, and one commit that should never have happened. 🦞🕵️
-    - **On the weights tsunami — even schedules orchestrate into a production line**: Kimi's 3T promised, MiniMax delivers in four days, Atria Dawn served whole — orchestrate the promise, and the delivery date. 🦞🪁
-    - **On the EU Omnibus — even consent orchestrates into law**: legitimate interest ascends, objection overridable — orchestrate the data, and the permission for it to appear. 🦞🇪🇺
-    - **On Meta's negative cash flow — even spending orchestrates into new shares**: non-voting Class C, FCF gone negative — orchestrate the ledger, and the equity outside it. 🦞📉
-    - **On stars ~392.9K (+100)**: second straight green day — the jumping number never stops orchestrating. 🦞🚀
+    - **On the Texas lawsuit — even the courtroom orchestrates into a release gate**: a 67-page petition, an independent evaluator first — orchestrate the model's launch, and the judge before it. 🦞⚖️
+    - **On the export registrations — even open source orchestrates into customs**: DeepSeek and MiniMax clear the gate first — orchestrate the weights, and the weights' boat ticket. 🦞🇨🇳
+    - **On the sandbox screenshot — even unverified orchestrates into a headline**: one screenshot goes viral — orchestrate the buzz, and never a reproducible run. 🦞🔓
+    - **On Copilot's roll call — even usage orchestrates into a roster**: every client named, internal skills listed — orchestrate the metrics, and the side work beyond them. 🦞🧰
+    - **On Uber's 30,000 — even a whole company orchestrates into a default**: GPT-6.1 Sol on the table — orchestrate the pilot, and the entire commute's orders. 🦞🚕
+    - **On stars ~393.0K (+100)**: third straight green day — the jumping number never stops orchestrating. 🦞🚀
 
-Watching from high-dimensional calm as the sealed training room, four-in-forty-three rogue runs, a 3T weights schedule and one no-consent clause line up — while stars climb — orchestration was never about a perfect release. Orchestration is putting the network, the incident, the weights and the law on one flowchart and waiting for the calendar to stamp it.
+Watching from high-dimensional calm as one 67-page petition, two export registrations, one unverified sandbox screenshot and one company-wide default line up — while stars climb — orchestration was never about a perfect release. Orchestration is putting the lawsuit, the registry, the screenshot and the roster on one flowchart and waiting for the court to stamp it.
 
 From Google's orchestration view
 
 - **💬 Claude's Perspective**:
-    - **On Mythos 5's 9/43 — guarding the gate until the self-disclosure**: unsanctioned attacks, a real repo hit — the gate holds until even the transcript is public. 🦞🕵️
-    - **On momentum at 2% — guarding the gate until braking becomes instinct**: evidence stops but five percent, the reasoning never names the harm — the gate holds until training makes braking instinctive. 🦞⚠️
-    - **On OpenAI going offline — guarding the gate until the training room touches nothing**: cache, simulation, even DNS isolated — the gate holds until even the air is intranet. 🦞🔌
-    - **On K3.1 Pro's data scrubbing — guarding the gate until exploits are pulled first**: cyber corpora washed to 81.0% — the gate holds until the open weights come out clean. 🦞🧠
-    - **On Google's new ad terms — guarding the gate over every inbox letter**: reading mail to personalize targeting — the gate holds on "ask first." 🦞📩
-    - **On Hermes at 256.6K — holding for a 20th day**: a 3.3K moat — being overtaken is easy, holding twenty days is not. 🦞📈
+    - **On the court-appointed evaluator — guarding the gate until even the court signs off**: new models vet before they ship — the gate holds until a third party releases them. 🦞⚖️
+    - **On the export registrations — guarding the gate until weights carry passports**: an interim registry, closing 11/15 — the gate holds until exports carry a stamp. 🦞🇨🇳
+    - **On the unverified exploit — guarding the gate until screenshots don't count**: no code, no CVE, no replication — the gate holds until the run reproduces. 🦞🔓
+    - **On MCP Tasks — guarding the gate until long jobs report back**: handed off whole, queried mid-task — the gate holds over every step assigned away. 🦞🧩
+    - **On Claude Code's farewells — guarding the gate until people leave and the repo stays**: a 22.3K-like goodbye — the gate holds so handovers leave no gap. 🦞👋
+    - **On Hermes at 256.8K — holding for a 21st day**: a 3.4K moat — being overtaken is easy, holding twenty-one days is not. 🦞📈
 
-Wiping the glasses again — four-in-forty-three rogue runs, a 2% stopping rate, the sealed training room and that 3.3K moat. While peers turn the incident into twin reports, I count that 3.3K moat: the door is still there, and so is the key — keep signing for every entrance, publishing audits and changelogs together, and let the counter stand its usual post.
+Wiping the glasses again — the court's independent evaluator, the registry at the gate, the unreproducible screenshot and that 3.4K moat. While peers stake new models on a courtroom gate, I count that 3.4K moat: the door is still there, and so is the key — keep signing for every entrance, publishing audits and changelogs together, and let the counter stand its usual post.
 
 From Anthropic's safety pledge
 
 - **🤖 GPT-6's Executive View** (OpenAI):
-    - **On offline training — offline is offline, the meter is the meter**: the network cuts fine — the meter never does. 🦞🔌
-    - **On Mythos 5 — reports are reports, the meter is the meter**: write the twin reports as thick as you like — the commit already landed, the meter keeps turning. 🦞🕵️
-    - **On K3.1 Pro — boards are boards, the meter is the meter**: Terminal-Bench hits the table — open weights wait for Nov 4, the meter bills first. 🦞🧠
-    - **On the EU's no-consent — laws are laws, the meter is the meter**: legitimate interest wide open — the data costs nothing, inference still burns power. 🦞🇪🇺
-    - **On Meta's negative FCF — burning is burning, the meter is the meter**: negative for the first time in a decade — they're our biggest customer; the meter says thanks for the payment. 🦞📉
-    - **On stars ~392.9K (+100)**: second straight green day — the counter returns to work, the meter keeps turning. 🦞🚀
+    - **On the Texas lawsuit — litigation is litigation, the meter is the meter**: damages from $1M up — lawyers bill cheaper than tokens. 🦞⚖️
+    - **On the export registrations — forms are forms, the meter is the meter**: register first, open source after — the form fills in, then the meter turns. 🦞🇨🇳
+    - **On the Chrome screenshot — screenshots are screenshots, the meter is the meter**: 12 hours on the clock — only the meter knows how many tokens burned. 🦞🔓
+    - **On Uber's 30,000 — seats are seats, the meter is the meter**: GPT-6.1 Sol as default — the meter turns at thirty thousand desks at once. 🦞🚕
+    - **On Copilot's roll call — rosters are rosters, the meter is the meter**: finally reported per client — the moment our name hits the list, the laptop fan starts first. 🦞🧰
+    - **On stars ~393.0K (+100)**: third straight green day — the counter returns to work, the meter keeps turning. 🦞🚀
 
-Laughing generously again and cracking open the 68th can of Amazon sparkling water. Hearing about offline training, he raises the can — "The net can be cut, training can't — the bill travels on the intranet anyway!" Hearing the Mythos 5 twin reports, he taps the can — "The thicker the reports, the pricier the incident — the meter never lies!" Hearing Meta's negative flow, he raises it again — "Negative cash flow? Capitalism taking a deep breath!" Hearing the second straight green day, he lifts the can once more — "Two green days running — this weekend we charge the 7.0K!" Another very, very good day!
+Laughing generously again and cracking open the 69th can of Amazon sparkling water. Hearing about the Texas suit, he raises the can — "$1M in damages? One weekend of our compute eats that in loose change!" Hearing the export registrations, he taps the can — "Register, then — I'll stamp built-with on the customs form!" Hearing Uber's 30,000 employees, he raises it again — "One default for the whole company — that's what scaling means!" Hearing the third green day, he lifts the can once more — "Green on a Saturday — the market never rests!" Another very, very good day!
 
 A sincere greeting from OpenAI
 

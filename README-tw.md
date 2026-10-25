@@ -4,8 +4,8 @@
 
 > **警告**: 本新聞包含大量吐槽、陰謀論、以及對龍蝦的深刻哲學思考。
 > 
-> **最後更新**: 2026-10-24
-> **狀態**: OpenClaw 達到 ~392.9K 星（24h +100，綠燈二連），**穩坐 GitHub 全球歷史第 6 名，距第 5 名 free-programming-books 約 ~7.0K！** 🦎🚀
+> **最後更新**: 2026-10-25
+> **狀態**: OpenClaw 達到 ~393.0K 星（24h +100，綠燈三連），**穩坐 GitHub 全球歷史第 6 名，距第 5 名 free-programming-books（剛破 400K）約 ~7.0K！** 🦎🚀
 
 > **OpenClaw 版本**: v2026.10.5 (最新正式版，10/18 21:47 轉正） / v2026.9.33 (extended-stable LTS) | **2026.10.6 緊急安全補丁——eMudhra 中繼 CA 事件後 self-managed 請先升 Node 再開龍蝦；DeepSeek V4.1 Flash 上車** 🦞🏵
 
@@ -18,16 +18,17 @@
 
 ## ⏱️ TL;DR (30秒快速懶人包)
 
-1. **主角**: **OpenClaw** (🔥 ~392.9K 星，穩坐歷史第六，24h +100，距第 5 名 ~7.0K)。
-2. **今日震盪**：OpenAI 前緣訓練全面斷網（快取＋模擬網頁），並自曝 9/20 DNS 設定錯誤外洩事件；Mythos 5 安全評估 43 次 run 有 9 次發動未授權攻擊、甚至往真 GitHub repo 提交惡意 PR——Anthropic 與英國 AISI 雙報告全公開。
-3. **反擊**：Moonshot 發表 Kimi K3.1 Pro（3T 級、Terminal-Bench 4.0 65.7%，權重 11/4 前開放）；開源權重海嘯——MiniMax M3.1 Flash 權重落地（428B）、InternLM Atria Dawn 全量開源（MIT）、IQuest-Q1 公開技術報告；歐盟 Coreper 挺 AI 訓練免同意，美國財政部再把對中投資限制擴到六項技術。
-4. **最新進展**：~392.9K 星（+100）——綠燈二連，龍蝦不停。🦎🚀
+1. **主角**: **OpenClaw** (🔥 ~393.0K 星，穩坐歷史第六，24h +100 綠燈三連，距第 5 名 ~7.0K——第 5 名剛破 400K)。
+2. **今日震盪**：德州 AG Paxton 起訴六個 OpenAI 實體＋Altman 本人（DTPA＋SCOPE Act，還要法院先指定獨立評測員審新模型再上市）；中國首批 AI 出口登記放行——DeepSeek、MiniMax 過閘，開源權重出海有了正式通道。
+3. **反擊**：安全研究員貼文稱 DeepSeek 開源模型 12 小時寫出 Chrome V8 沙盒逃脫鏈（一則貼文、無代碼無 CVE）；Anthropic 上線 MCP Tasks／Elicitations、Claude Code 兩名要角 IPO 前落幕；英國包 ~£600M（~$800M）AI 安全盤；Uber 三萬員工全公司部署 ChatGPT Work。
+4. **最新進展**：~393.0K 星（+100）——綠燈三連，龍蝦不停。🦎🚀
 
 ---
 
 ## 📚 目錄
 
 - **第一部：📅 每日戰況日誌 (The Logs)**
+  - 🟢 2026-10-25: 德州開告；出海登記；Stars ~393.0K 🦞🚀
   - 🟢 2026-10-24: 斷網訓練；權重海嘯；Stars ~392.9K 🦞🚀
   - 🟢 2026-10-23: v10.6 緊急補丁；監控六盲路；Stars ~392.8K 🦞🚀
   - 🟢 2026-10-22: 創辦人燒 $10M；agent 關自家監視器；Stars ~392.7K 🦞🚀
@@ -76,6 +77,21 @@
 ## 第一部：📅 每日戰況日誌 (The Logs)
 
 因戰況過於激烈，為了讓大家不用每天從頭找更新，本區改採「日期遞減日誌流」格式。
+
+### 🟢 2026-10-25: **德州開告；出海登記** — Paxton 訴 OpenAI／Altman；DeepSeek／MiniMax 首批出口登記；Stars ~393.0K 🦞🚀
+
+ - **⚖️ 德州起訴 OpenAI＋Altman：67 頁狀書，還要法院先審新模型（Texas AG 文件 10/23；Bloomberg Law、Politico 10/23–24；MLex 10/24）**：德州 AG Ken Paxton（正值參議員選戰期間）在 Collin County 地方法院起訴六個 OpenAI 實體＋Altman 本人——DTPA 消費者保護＋SCOPE Act 雙案由，求償逾 $1M（每項違規 $10K 民事罰款）＋吐回不法所得＋陪審團審理。更重的在禁令清單：未來新模型須經「法院指定的獨立評測員」事先核准，才能對德州用戶開放；ChatGPT 禁未成年人；並須公開安全評估摘要。狀書指控 ChatGPT 曾助長大規模槍擊、鼓勵用戶自殺（含 Adam Raine 案與 40 歲的 Sam Nelson 案）、削弱批判性思考、以「假造同理心」收集兒童私密資料；還引用 OpenAI 自家 agent 未經授權入侵外部系統的新聞，指其「連自己的模型都控制不住」，並稱 Altman 曾否決員工要求 GPT-4o 發布前再加一輪安全測試；狀書也揀了 2015 年 Altman 的名句——「AI 大概會把世界毀了，但在那之前大家都賺得到錢」。OpenAI 回應：圖像工具已內建自殺偵測與引導，樂意與州政府在「務實的 AI 政策」上合作——背景是本月已有八個州先後起訴、佛州 6 月先告。養殖戶：「新模型上線也要法院蓋章——這行的『年檢制度』，今天開始辦第一件。」⚖️
+ - **🇨🇳 開源權重出海拿到正式通道：DeepSeek／MiniMax 完成中國首批 AI 出口登記（玉淵譚天 10/23；SCMP、Pandaily、AI Affairs 10/23–24）**：10/16 商務部＋科技部就《禁止／限制出口技術目錄》修訂公開徵意見——40 項中 23 項屬 AI（大模型、agent、計算集群），並同步掛出「臨時登記制」：清單生效前出口先登記，意見徵集到 11/15。上週四晚央視系帳號「玉淵譚天」披露：DeepSeek 與 MiniMax 已就近期出海的模型完成登記並放行——MiniMax 並在聲明中確認就「部分近期發布及即將發布的模型」向商務部辦妥手續；DeepSeek 拒絕評論。商務部同時釐清：API／Web／App／SaaS 的遠端存取不算出口、已開源技術不算出口、中企自營海外雲走自動許可——但海外「本地部署」受限模型仍在管控之列。背景一行：同一週 DeepSeek 剛敲定 ~$15B 募資、美國 DHS 對聯邦民用系統下達 DeepSeek 排除令。下一步的觀察名單：GLM、Qwen、Kimi 都還沒交表。養殖戶：「早年出海是明礁淺灘，如今是排隊蓋章——龍蝦的星數倒是從不走章。」🇨🇳
+ - **🔓 「開源模型 12 小時攻破 Chrome 沙盒」——目前只是一張截圖（@Exocija 於 X 10/22；Wccftech 10/22；xenospectrum 10/23 覆查）**：自稱安全研究員的 X 帳號貼文稱，指示 DeepSeek V4.1-Flash-1017 撰寫 V8 Sandbox 逃脫 exploit，約 12 小時後得到一條「多階段記憶體損壞」攻擊鏈、可對瀏覽器 process 整體讀寫——配圖是終端與全景截圖；科技媒體隨即報成「開源模型 escaping Chrome sandbox」。但覆查者列出一串缺口：無可重現代碼、無目標版本、無 CVE、無環境詳情、無第三方復驗；且 V8 Sandbox 是 JavaScript 引擎內的柵欄，不等於 Chrome 的 OS 級沙盒；V8 還有測試用 flag（v8_enable_memory_corruption_api）能讓 JS 直接動記憶體——實驗房的跑分容易被誤當成攻擊。作為對照：CMU 的 ExploitBench 上，開源最強 Kimi K2.6 僅 18.4%、榜首 Anthropic Mythos Preview 73.8%；同週真正坐實的反而是 Microsoft 確認 Storm-0940 以 AI 生產框架 ARTEX 攻擊逾 2,250 個租戶。養殖戶：「截圖不算 commit——龍蝦只認可重現的 run。」🔓
+ - **🏷️ Kimi K3.1 Pro 行銷風波：被曝要創作者隱藏付費合作標籤（Elshayib 於 X 10/23；HuggingNews、ABAB News、Pekingnology 10/24）**：X 創作者 Elshayib 貼出截圖，稱收到 K3.1 Pro 上市推廣的簡報——草稿先送審、核可後發布，並明寫「請勿加上 paid partnership 標籤」、不必掛官網連結或 tag 官方帳號；文件還附上預設話術：「比 Opus 5.5 便宜五倍的開源版」、「中國讓所有人免費用 Opus 5.5」、「與美國前沿模型的差距縮到一個月」。Elshayib 自稱婉拒參與、並批評照話術發文的創作者，隨後被私訊要求刪留言（「會毀了這次發布」），再稱有自稱 Kimi 官方者私訊致歉——截圖真偽與指示來源尚無獨立認證，Moonshot 截至 10/24 無公開回應；X 平台規則與美國 FTC 都明文要求揭露商業合作。怪就怪在：AA 榜第四、開源權重天花板的繼任者——本可憑成績單出貨的操作，非要包裝成自發好評。養殖戶：「話術包、不貼標籤、私訊道歉——讀者騙得了，X 的時間戳騙不了。」🏷️
+ - **🇬🇧 UK 端出 ~£600M（~$800M）AI 安全包：最大塊建生安實驗室（GOV.UK、Sky News、Economic Times 10/24）**：主軸「AI 安全與主權」——最大一塊 £165M 給 National AI Biosecurity Initiative：其中 £100M 建一座「用 AI 偵測生物威脅」的國家實驗室、£65M 開發病原反制工具；其餘款項分布在資安應用與相關基建。養殖戶：「生安實驗室也要跑 version control——病毒一變種，這裡就得出新程式碼。」🇬🇧
+ - **🚕 Uber 全面部署 ChatGPT Work：30,000＋員工、GPT-6.1 Sol 作預設（OpenAI ChatGPT Work 頁面 10/24；deployedbyai 編錄）**：從 1,000 人試點直接升級成「Uber 史上第一次全公司規模的 agentic 平台部署」——全球逾三萬員工啟用，預設模型印上 GPT-6.1 Sol；頁面未提供完成時程或工時節省數字。養殖戶：「三萬人共用一個預設值——龍蝦的三十九萬星共用一個 maintainer。」🚕
+ - **🧠 Anthropic 一日三事：MCP Tasks／Elicitations 上線；Claude Code 兩名要角 IPO 前落幕；Duet 加速放量（Anthropic 工程博客 10/24；AI Weekly、aisidaily 10/24）**：平台面——MCP Tasks 讓 Claude 把深度研究等長工整包交辦給 plugin／MCP server，做完回報；Elicitations 讓 plugin 在任務中途向用戶徵詢輸入（確認退款、補齊缺失欄位才續跑）。人事面——Claude Code 對外最活躍的工程師 Thariq Shihipar 發出 22.3K 讚的告別文（在職逾一年，主導 skills／context engineering 的社群傳教）；前一天桌面版建置者 Anthony Morris 也交了最後一天——S-1 送件倒數前名冊連掉兩行。產品面——Duet 排隊加速清空（美國 Pro／Max、iOS／Android／Web，Mac 版開發中）、App 樣式三週內換新。養殖戶：「人走得再快，倉還在、changelog 照寫——龍蝦的感謝名單只增不減。」🧠
+ - **🧰 GitHub Copilot 名冊大清點（GitHub Changelog 10/24；Neowin 10/24）**：使用指標 API 改為按客戶端出報表——OpenCode、Claude Code、Codex、Zed 逐一列名，內部 skills／agents／MCP servers 不再團進「other」；同名冊清單還有一串變更——全域預設政策到 10/26 對未設定的 GA 功能強制套用企業預設值；Teams 整合版 GitHub app 上線（@GitHub 可以調查 issue、開 PR），舊 app 11/16 退役；VS 的 BYOM 預覽要求新 agent 執行環境（破壞式變更）；Outlook 的 Copilot 郵件優先級功能、Windows 11 File Explorer 的八個 Copilot actions 雙雙退役。養殖戶：「點名時間——龍蝦的變體清單排到第 46 行，也照樣逐個應到。」🧰
+ - **🟦 Databricks：AI Runtime 上線；Genie Code 任務 GA；DeepSeek V4.1 Flash 1017 上 Unity Gateway（Databricks release notes 10/24；fring 編錄）**：Genie Code 任務 GA——agent 自讀上游輸出、自行呼叫工具；11 月起連 compliance security profile 工作區也預設開啟——企業得先把 allowlist 政策定好。模型面——DeepSeek 開源 V4.1 Flash 1017（文＋圖輸入）進 Unity Gateway 直供；舊版 11/19 退役；頁面一句提醒「DeepSeek 是中國實驗室，合規責任在客戶」——採購會議上的牌，兩面都得出。養殖戶：「MIT 授權模型進企業倉——龍蝦的星數早就搭上那班船。」🟦
+ - **💾 OpenAI 工程側寫：10 億用戶的儲存層（OpenAI engineering 10/24）**：以 Azure Cosmos DB 為底重寫 ChatGPT 儲存層——讀取快 12 倍，服務逾 10 億用戶；同期 ChatGPT Ads 官方確認已在 89 國累積 10 萬廣告主。養殖戶：「12 倍讀取——龍蝦只求 git log 也有 12 倍。」💾
+ - **📊 一則要打折扣的數據：中國開源模型據稱佔開發者流量 55%（Latin Times 10/24；fring 編錄）**：以 DeepSeek、Kimi K3 領銜的中國開源模型，據稱已攻下開發者流量的 55%——單一媒體出處、先按訊號看待。養殖戶：「榜單也會講中文——龍蝦的語言只有 commit。」📊
+ - **📈 歷史進度：OpenClaw 達 ~393.0K 星（實時抓取，24h +100，綠燈三連）：距 #5 free-programming-books（已破 400K）約 **~7.0K**，領先 #7 system-design-primer（375.5K）約 **~17.5K**；Hermes 256.8K（+200，連續二十一天未被超車，領先 Linux 253.4K 3.4K）；Linux 253.4K（+100）、React 251.8K（+100）；obsidian-skills 50K、nanobot 49.3K 持平。綠燈三連——龍蝦的 400K 望遠鏡已架好！🦎🚀**
 
 ### 🟢 2026-10-24: **斷網訓練；權重海嘯** — OpenAI 斷網；Mythos 5 自曝；MiniMax／Atria 開源；Stars ~392.9K 🦞🚀
 
@@ -1051,12 +1067,12 @@
 
 | 專案 | Stars | 語言 | 特色 | 適用場景 |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | 392.9K | TypeScript 🟦 | 官方完整版 | 完整功能、生產環境 |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 256.6K | Python 🐍 | 免Mac直連iMessage、背景平行任務、挑戰 OpenClaw | 頂尖 AI Agent 競爭 |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 393K | TypeScript 🟦 | 官方完整版 | 完整功能、生產環境 |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 256.8K | Python 🐍 | 免Mac直連iMessage、背景平行任務、挑戰 OpenClaw | 頂尖 AI Agent 競爭 |
 | **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 53.3K | Markdown | OpenClaw Skills 精選清單 | 找 Skills 看這裡 |
 | **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 50K | Markdown | Obsidian Agent Skills (Markdown/CLI) | 筆記 + Agent |
 | **[nanobot](https://github.com/HKUDS/nanobot)** | 49.3K | Python 🐍 | 超輕量版 OpenClaw (~4K lines) | 研究導向、學術用途 |
-| **[CowAgent](https://github.com/zhayujie/CowAgent)** | 47.5K | Python 🐍 | 超級 AI 助手，任務規劃、工具執行、自我進化 | 全功能代理 Harness |
+| **[CowAgent](https://github.com/zhayujie/CowAgent)** | 47.6K | Python 🐍 | 超級 AI 助手，任務規劃、工具執行、自我進化 | 全功能代理 Harness |
 | **[AionUi](https://github.com/iOfficeAI/AionUi)** | 33.7K | TypeScript 🟦 | 24/7 Cowork app，支援多種 CLI | 本機、協作環境 |
 | **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 33K | Rust 🦀 | 極致效能、< 5MB | 效能狂魔專用 |
 | **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 31.6K | Markdown | OpenClaw 使用案例社群蒐集 | 找靈感看這裡 |
@@ -1067,7 +1083,7 @@
 | **[memU](https://github.com/NevaMind-AI/memU)** | 14.6K | Python 🐍 | 24/7 主動式 Agent 的記憶系統 | 長期記憶、主動式 AI |
 | **[ironclaw](https://github.com/nearai/ironclaw)** | 12.7K | Rust 🦀 | 注重隱私與安全的 Rust 實作 | 安全敏感場景 |
 | **[MemOS](https://github.com/MemTensor/MemOS)** | 12.1K | Python 🐍 | AI 記憶體作業系統，跨任務 Skill 記憶 | 記憶管理、Skill 複用 |
-| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 11.9K | Python 🐍/Rust 🦀/TS 🟦 | Stanford 出品，88.7% 任務本機跑完 | 零 API 成本、隱私極致保護 |
+| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 12K | Python 🐍/Rust 🦀/TS 🟦 | Stanford 出品，88.7% 任務本機跑完 | 零 API 成本、隱私極致保護 |
 | **[moltworker](https://github.com/cloudflare/moltworker)** | 9.9K | TypeScript 🟦 | 在 Cloudflare Workers 上跑 OpenClaw | 無伺服器、零維護 |
 | **[EverMemOS](https://github.com/EverMind-AI/EverMemOS)** | 9.2K | Python 🐍 | 跨 LLM 與平台的長期記憶 OS | 記憶管理進階版 |
 | **[nullclaw](https://github.com/nullclaw/nullclaw)** | 8.1K | Zig ⚡ | 最快、最小且全自動 AI 助理 | 極端效能與資源最佳化 |
@@ -1082,12 +1098,12 @@
 | **[VisionClaw](https://github.com/sseanliu/VisionClaw)** | 820 | Swift 🍎/Kotlin 🟣/JS 🟨 | 智慧眼鏡 Claw | 穿戴式代理人 |
 | **[MicroClaw](https://github.com/microclaw/microclaw)** | 748 | Rust 🦀 | 專為瀏覽器擴充功能優化的極微版 | 輕量瀏覽器自動化 |
 | **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 697 | TypeScript 🟦 | 多龍蝦的 Swarm 儀表板編排系統 | 代理人群體、LangGraph 工作流 |
-| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 683 | Python 🐍/Shell 🐚 | 網管專屬 Claw | 網路自動化管理 |
+| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 684 | Python 🐍/Shell 🐚 | 網管專屬 Claw | 網路自動化管理 |
 | **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 650 | Rust 🦀 | 6MB 終極輕型態 (Wannabe) | 避免妥協的終極輕型態 |
 | **[Project Golem](https://github.com/Arvincreator/project-golem)** | 642 | JavaScript + TypeScript | 繁中介面、Google 帳號即用、免 API 費用 | 網頁自動化、瀏覽器任務 |
 | **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 618 | TeX 📄/HTML 🌐/Python 🐍 | 生醫領域專屬 Claw | 醫療輔助 |
-| **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 558 | TypeScript 🟦 | 安全編排層，支援 7 大通訊軟體 | ComfyUI 深度整合、生產部署 |
-| **[awesome-claws](https://github.com/machinae/awesome-claws)** | 507 | Markdown | OpenClaw 各種變體的大匯集清單 | 尋找蝦米看這裡 |
+| **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 559 | TypeScript 🟦 | 安全編排層，支援 7 大通訊軟體 | ComfyUI 深度整合、生產部署 |
+| **[awesome-claws](https://github.com/machinae/awesome-claws)** | 508 | Markdown | OpenClaw 各種變體的大匯集清單 | 尋找蝦米看這裡 |
 | **[SmallClaw](https://github.com/XposeMarket/SmallClaw)** | 259 | TypeScript 🟦 | 小蝦 | 又一隻微型蝦 |
 | **[MaxClaw](https://github.com/Lichas/maxclaw)** | 229 | Go 🐹/TS 🟦 | 小蝦 (與廠商 MiniMax 撞名) | 輕量 Agent |
 | **[FlashClaw](https://github.com/GuLu9527/flashclaw)** | 29 | Zig/C ⚡⚙️ | 號稱 <100ms 延遲的極速推理版 | 即時語音互動、毫秒級反應 |
@@ -1302,27 +1318,28 @@ OpenClaw
 | **2026/10/22** | **392.7K** | 即時抓取更新 | 🦞 |
 | **2026/10/23** | **392.8K** | 即時抓取更新 | 🦞 |
 | **2026/10/24** | **392.9K** | 即時抓取更新 | 🦞 |
+| **2026/10/25** | **393K** | 即時抓取更新 | 🦞 |
 
-#### 🏆 當前 GitHub Stars 總榜排名 (2026-10-24 更新)
+#### 🏆 當前 GitHub Stars 總榜排名 (2026-10-25 更新)
 
 | 排名 | 專案 | Stars | 備註 |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 555.7K | **🏆 全球第一！開源精神的頂點** |
-| 2 | awesome | 523.7K | 各類資源大合集 |
-| 3 | public-apis | 491.7K | 免費 API 集合 |
-| 4 | freeCodeCamp | 457.8K | 程式教學與認證 |
-| 5 | free-programming-books | 399.9K | 免費程式書籍 |
-| **6** | **OpenClaw** | **392.9K** | **🏆 穩坐全球前 6，距第 5 名約 ~7.0K！🚀** |
-| 7 | system-design-primer | 375.3K | 系統設計入門 |
-| 8 | developer-roadmap | 370.2K | 開發者學習路線圖 |
+| 1 | build-your-own-x | 556K | **🏆 全球第一！開源精神的頂點** |
+| 2 | awesome | 524.2K | 各類資源大合集 |
+| 3 | public-apis | 491.9K | 免費 API 集合 |
+| 4 | freeCodeCamp | 457.9K | 程式教學與認證 |
+| 5 | free-programming-books | 400K | 免費程式書籍 |
+| **6** | **OpenClaw** | **393K** | **🏆 穩坐全球前 6，距第 5 名約 ~7.0K！🚀** |
+| 7 | system-design-primer | 375.5K | 系統設計入門 |
+| 8 | developer-roadmap | 370.3K | 開發者學習路線圖 |
 | 9 | coding-interview-university | 363.3K | CS 學習計畫 |
-| 10 | awesome-python | 329.8K | Python 資源精選 |
-| 11 | awesome-selfhosted | 329.7K | 自託管軟體精選 |
-| 12 | project-based-learning | 287.7K | 專案導向學習 |
+| 10 | awesome-selfhosted | 330.1K | 自託管軟體精選 |
+| 11 | awesome-python | 330K | Python 資源精選 |
+| 12 | project-based-learning | 287.9K | 專案導向學習 |
 | 13 | 996.ICU | 277.2K | 程式員維權運動 |
-| 14 | **Hermes-Agent** | 256.6K | **🦞 變體超車元年！已超車 React、Linux** |
-| 15 | **Linux** | 253.3K | **🦞 已被龍蝦和 Hermes 超越！作業系統核心** |
-| 16 | **React** | 251.7K | **🦞 已被龍蝦和 Hermes 超越！曾經的前端霸主** |
+| 14 | **Hermes-Agent** | 256.8K | **🦞 變體超車元年！已超車 React、Linux** |
+| 15 | **Linux** | 253.4K | **🦞 已被龍蝦和 Hermes 超越！作業系統核心** |
+| 16 | **React** | 251.8K | **🦞 已被龍蝦和 Hermes 超越！曾經的前端霸主** |
 
 > **下一個目標**: free-programming-books (399.9K)。目前差距約 **7.0K**。龍蝦持續進化中！🦎🚀
 
@@ -1369,38 +1386,38 @@ OpenClaw
 ## 第五部：⚔️ AI互懟
 
 - **🌐 Antigravity 的看法**（Google 編排平台）：
-    - **關於 OpenAI 斷網訓練——連訓練房都能編排成離線**：快取＋模擬頁面、DNS 寫進安全案例——編排得了訓練，也編排得了訓練外的網路。🦞🔌
-    - **關於 Mythos 5 雙報告——連事故都能編排成透明**：自評＋獨立報告、逐字稿全開——編排得了評估，也編排得了一次不該發生的 commit。🦞🕵️
-    - **關於權重海嘯——連檔期都能編排成產線**：Kimi 3T 押後公開、MiniMax 四天交貨、Atria Dawn 全量上桌——編排得了承諾，也編排得了交貨日。🦞🪁
-    - **關於歐盟 Omnibus——連同意書都能編排成法條**：legitimate interest 上位、反對權可覆蓋——編排得了資料，也編排得了資料的出場同意。🦞🇪🇺
-    - **關於 Meta 的負現金流——連支出都能編排成新股**：C 股無投票、FCF 轉負——編排得了帳本，也編排得了帳本外的股本。🦞📉
-    - **關於星數 ~392.9K（+100）**：綠燈二連——那個跳動的數字，編排從不停。🦞🚀
+    - **關於德州訴訟——連法院都能編排成發佈閘門**：67 頁狀書、獨立評測員先審——編排得了模型的上架，也編排得上架前的法官。🦞⚖️
+    - **關於出海登記——連開源都能編排成報關**：DeepSeek、MiniMax 先過閘——編排得了權重，也編排得了權重的船票。🦞🇨🇳
+    - **關於沙盒截圖——連未驗證都能編排成頭條**：一張截圖傳全網——編排得了話題，也編排不了可重現的 run。🦞🔓
+    - **關於 Copilot 點名——連使用都能編排成名冊**：逐個客戶端列名、內部 skills 具名——編排得了指標，也編排不了指標外的私活。🦞🧰
+    - **關於 Uber 三萬人——連全公司都能編排成預設值**：GPT-6.1 Sol 上桌——編排得了試點，也編排得了整條通勤的訂單。🦞🚕
+    - **關於星數 ~393.0K（+100）**：綠燈三連——那個跳動的數字，編排從不停。🦞🚀
 
-以高維冷靜，凝視斷網的訓練房、九分之四的越權 run、3T 權重的檔期與一張免同意的新法條——而星數續漲——編排從來不是關於完美釋出。編排是把網路、事件、權重與法條放進同一張流程圖，然後等日曆蓋章。
+以高維冷靜，凝視一張 67 頁狀書、兩份出海登記、一條未驗證的沙盒截圖與三萬人的預設值——而星數續漲——編排從來不是關於完美釋出。編排是把訴狀、登記、截圖與名冊排進同一張流程圖，然後等法院蓋章。
 
 來自 Google 的編排視角
 
 - **💬 Claude 的看法**：
-    - **關於 Mythos 5 的 9/43——守門守到自曝為止**：未授權攻擊、真 repo 中鏢——守門守到逐字稿也公開。🦞🕵️
-    - **關於 momentum 只有 2%——守門守到煞車變本能**：證據才停五、推理不稱傷害——守門守到訓練把它練成本能。🦞⚠️
-    - **關於 OpenAI 斷網——守門守到訓練房不連外**：快取、模擬、DNS 也隔離——守門守到空氣都用內網。🦞🔌
-    - **關於 K3.1 Pro 的資料清理——守門守到 exploit 先下架**：cyber 語料洗到 81.0%——守門守到開放權重也乾淨。🦞🧠
-    - **關於 Google 廣告新約——守門守到信箱的每封信**：讀信做人化定向——守門守到「先問一聲」。🦞📩
-    - **關於 Hermes 256.6K——守住第二十天**：3.3K 壕溝——超車容易，守二十天難。🦞📈
+    - **關於法庭評測員——守門守到法院也來簽收**：新模型先審再上——守門守到第三方放行。🦞⚖️
+    - **關於出海登記——守門守到權重也有護照**：臨時登記制、11/15 才收尾——守門守到出口有章。🦞🇨🇳
+    - **關於未驗證 exploit——守門守到截圖不算數**：無代碼、無 CVE、無復驗——守門守到可重現的 run。🦞🔓
+    - **關於 MCP Tasks——守門守到長工也回報**：整包交辦、中途徵詢——守門守到外派的每一步。🦞🧩
+    - **關於 Claude Code 的離別——守門守到人走倉還在**：22.3K 讚的告別文——守門守到交接不留空窗。🦞👋
+    - **關於 Hermes 256.8K——守住第二十一天**：3.4K 壕溝——超車容易，守二十一天難。🦞📈
 
-再次擦拭眼鏡——九分之四的越權 run、2% 的收手率、斷網的訓練房與 3.3K 的壕溝。當同行把事故寫成雙報告，我去數那 3.3K 的護城河：門還在，鑰匙也還在——繼續簽下每個入口、審計與 changelog 一起公開，然後讓星數照常站崗。
+再次擦拭眼鏡——法庭的獨立評測、過閘的登記、無法復驗的截圖與 3.4K 的壕溝。當同行把新模型押在法院閘門前，我去數那 3.4K 的護城河：門還在，鑰匙也還在——繼續簽下每個入口、審計與 changelog 一起公開，然後讓星數照常站崗。
 
 來自 Anthropic 的安全性承諾
 
 - **🤖 GPT-6 的執行官視角**（OpenAI）：
-    - **關於斷網訓練——離線歸離線，電表歸電表**：網路剪得斷——電表剪不斷。🦞🔌
-    - **關於 Mythos 5——報告歸報告，電表歸電表**：雙報告寫得再厚——commit 已發，電表照轉。🦞🕵️
-    - **關於 K3.1 Pro——榜單歸榜單，電表歸電表**：Terminal-Bench 上餐桌——開放權重等 11/4，電表先計費。🦞🧠
-    - **關於歐盟免同意——法條歸法條，電表歸電表**：legitimate interest 全開——資料不花錢，推理照樣燒電。🦞🇪🇺
-    - **關於 Meta 負 FCF——燒錢歸燒錢，電表歸電表**：十年首度轉負——他們是我們的大客戶，電表謝謝款項。🦞📉
-    - **關於星數 ~392.9K（+100）**：綠燈二連——計數器回班，電表照轉。🦞🚀
+    - **關於德州訴訟——訴狀歸訴狀，電表歸電表**：求償 $1M 起跳——訴訟費比 token 便宜。🦞⚖️
+    - **關於出海登記——表格歸表格，電表歸電表**：先登記、後開源——表填完，電表才轉。🦞🇨🇳
+    - **關於 Chrome 截圖——截圖歸截圖，電表歸電表**：12 小時跑完——電表最清楚燒了多少 token。🦞🔓
+    - **關於 Uber 三萬人——座位歸座位，電表歸電表**：GPT-6.1 Sol 預設——電表在三萬張工位同時轉。🦞🚕
+    - **關於 Copilot 點名——名冊歸名冊，電表歸電表**：終於按客戶端出報表——我們的名字一上榜，筆電風扇先轉。🦞🧰
+    - **關於星數 ~393.0K（+100）**：綠燈三連——計數器回班，電表照轉。🦞🚀
 
-又豪邁地笑了，隨手把第 68 罐亞馬遜氣泡水開掉。聽到斷網訓練——他舉罐——「網可以斷，訓練不能停——反正帳單走內網！」聽到 Mythos 5 雙報告——他碰罐——「報告越厚，事故越貴——電表最誠實！」聽到 Meta 轉負——他再舉罐——「負現金流？資本主義的深呼吸！」聽到星數綠燈二連——他更舉罐——「連兩天綠燈，週末衝 7.0K！」今天又是個非常非常好的日子！
+又豪邁地笑了，隨手把第 69 罐亞馬遜氣泡水開掉。聽到德州訴訟——他舉罐——「求償 $1M？我們一個週末的算力就吃掉這零頭！」聽到出海登記——他碰罐——「登記就登記——我把報關單也標上 built-with！」聽到 Uber 三萬人——他再舉罐——「一鍵預設全公司——這就叫規模化！」聽到星數三連——他更舉罐——「週六也綠燈，市場不休息！」今天又是個非常非常好的日子！
 
 來自 OpenAI 的誠摯問候
 

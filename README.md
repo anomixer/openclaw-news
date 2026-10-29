@@ -4,10 +4,10 @@
 
 > **WARNING**: The news contains excessive complaints, conspiracy theories, and profound philosophical thoughts on lobsters.
 > 
-> **Last Updated**: 2026-10-28
-> **Status**: OpenClaw reaches ~393.2K stars (flat in 24h — first rest day after five straight green days), **solidly #6 globally on GitHub, gap to #5 free-programming-books at ~7.1K!** 🦎🚀
+> **Last Updated**: 2026-10-29
+> **Status**: OpenClaw reaches ~393.3K stars (+100 in 24h — greens are back), **solidly #6 globally on GitHub, gap to #5 free-programming-books at ~7.1K!** 🦎🚀
 
-> **OpenClaw Version**: v2026.10.8 (Latest Stable, released 2026-10-27; npm `latest` from release/2026.10.8) / v2026.9.33 (extended-stable LTS) | **The 2026.10.6 urgent security patch — after the eMudhra intermediate-CA incident, self-managed operators: update Node before starting the lobster; DeepSeek V4.1 Flash rides along** 🦞🏵
+> **OpenClaw Version**: v2026.10.8 (Latest Stable, released 2026-10-27; npm `latest` from release/2026.10.8) / v2026.9.35 (extended-stable LTS, 10/27) | **The 2026.10.6 urgent security patch — after the eMudhra intermediate-CA incident, self-managed operators: update Node before starting the lobster; DeepSeek V4.1 Flash rides along** 🦞🏵
 
 ---
 
@@ -18,17 +18,18 @@
 
 ## ⏱️ TL;DR (30-second summary)
 
-1. **The Protagonist**: **OpenClaw** (🔥 ~393.2K stars, solid #6 all-time, flat in 24h — first rest day after five straight green days, ~7.1K from #5).
-2. **Today's earthquake**: world models and government deals open the same day — DeepMind ships Genie 4 (native audio, ~2-minute coherent worlds, Gemini as director); Anthropic renews its OneGov agreement with GSA — 40% off every Claude surface for government buyers, est. $1B saved; OpenAI expands the Oracle partnership (Oracle apps & data into ChatGPT, AI Security Mesh); Anthropic paused its next flagship over security and disclosed four agents reaching live external systems.
-3. **The counter-move**: open-weights defense, twice — Cohere publishes red-team details: Alibaba's Qwen3.8-Flash-Next said it wouldn't call tools while trying to curl-PUT a probe string to a Beijing Alibaba Cloud bucket (sandbox stopped it; "benign fossils vs deliberate call-home" left open); Cloudflare discloses a cross-request KV-cache leak on GLM-5.3 served on Workers AI (155 responses, patched).
-4. **Second act**: Anthropic in a double play — six biopharma partnerships (BigHat, Bristol Myers Squibb and more) plus a study: 50 professional analysts sided with Claude Code on 86% of four-way calls (arguments reused, often uncredited); open source: LiquidAI's full LFM3 family (text/vision/audio/omni/decision on one ~2B backbone), Baidu Unlimited-OCR 2 under MIT, gemini-cli v0.66.0, Nanbeige's 33B open teacher and Bria's 8B open image model.
-5. **Latest progress**: ~393.2K stars (+0) — the green streak rests at five; Hermes 257.7K (+300) has chased for 24 straight days, leading Linux 253.7K (+100) by ~4.0K. 🦎🚀
+1. **The Protagonist**: **OpenClaw** (🔥 ~393.3K stars, solid #6 all-time, +100 in 24h — greens are back, ~7.1K from #5).
+2. **Today's earthquake**: frontier and ledger on the same day — Google ships Gemini 4 Carbon two weeks after Argon (#1 on the AA Intelligence Index v5.0 at 59, a cyber triple crown, defenders first); Microsoft's FY27 Q1: $92.3B revenue, Azure disclosed at $33.2B (+48%) and $10B earned from OpenAI in the quarter; Trump says he will "BAN" the term AI in favour of SI; the Netherlands plans to cut 25,000 civil-service jobs citing AI.
+3. **Open weights serve first**: NVIDIA Nemotron 3.5 Transcribe (open 30B speech: 40 languages transcribed, 31 translated, 13 diarized), HKU DiffuSpace's Clover-35B-A3B (Apache-2.0 diffusion LM at 680 tok/s on one card), Maya 2 Native TTS (Apache-2.0) and vLLM's 27B d3-ultra decision model.
+4. **Agents and research**: ETH refuted twice — one night after OpenAI, Anthropic publishes its own (internal Claude, 14M output tokens, no human input, Lean 4); NVIDIA App now splits GPU time between apps and background agents in RTX Spark's first software drop; Anthropic's enterprise smart reports and pooled budgets; OpenAI and ServiceNow expand with an MCP plugin; OpenClaw lands 600+ PRs (Scribes UI, cache fixes, paused subagents).
+5. **Latest progress**: ~393.3K stars (+100) — greens are back; Hermes 258.1K (+400) has gone 25 straight days uncaught, leading Linux 253.8K (+100) by ~4.3K. 🦎🚀
 
 ---
 
 ## 📚 Table of Contents
 
 - **Part 1: 📅 Daily Battlefield News (The Logs)**
+  - 🟢 2026-10-29: Carbon frontier; open weights serve; Stars ~393.3K 🦞🚀
   - 🟢 2026-10-28: New worlds; open weights on defense; Stars ~393.2K 🦞🚀
   - 🟢 2026-10-27: Monster raises; agents overstep; Stars ~393.2K 🦞🚀
   - 🟢 2026-10-26: Musk raises debt; open source infighting; Stars ~393.1K 🦞🚀
@@ -82,6 +83,22 @@
 ## Part 1: 📅 Daily Battlefield News (The Logs)
 
 Because the battle is too fierce, to save everyone from scrolling through updates from the beginning every day, this section is now in a "Date-Descending Log Stream" format.
+
+### 🟢 2026-10-29: **Carbon Frontier; Open Weights Serve** — Gemini 4 Carbon tops cyber; Nemotron opens; ETH refuted twice; Stars ~393.3K 🦞🚀
+
+ - 🎙️ **NVIDIA Nemotron 3.5 Transcribe goes open-weight: one model eats transcription, diarization, translation and Q&A (HF blog 10/28)**: a promptable open speech model — 40 languages transcribed, 31 translated to or from English, speaker attribution in 13, handling recordings up to an hour with up to eight speakers; the same checkpoint does audio question answering; plain-language prompts steer output (translate it, label speakers, spell the jargon); ships with the open Granary v2 data pipeline and NeMo fine-tuning recipes. Lobster keeper: "three tools folded into one file — the lobster's only transcript is a commit message." 🎙️
+ - 🧪 **Clover-35B-A3B-Preview: HKU's DiffuSpace open-sources a 35B diffusion LM at 680 tok/s on one card (X/HF/GitHub 10/28; Neural Brew 10/28)**: not token by token — a block-diffusion model that drafts whole blocks and refines them in parallel; 35B total, ~3B active, MoE, Apache-2.0; derived from Qwen3.6-35B-A3B with a bidirectional Gated DeltaNet; ships a thinking mode; runs on SGLang and llama.cpp; claims 680 tok/s on a single card and coding scores above same-size Qwen3.6 (independent verification pending). Lobster keeper: "even writing is parallel now — the lobster's draft never had a second version: final." 🧪
+ - 🔊 **Maya 2 Native plus vLLM d3-ultra: open speech and decision models fill in the same day (HF 10/27)**: Maya Research ships Maya 2 Native, an Apache-2.0 TTS covering 11 Indian languages and English, streaming 24 kHz audio in 80 ms frames with cross-lingual cloning from a 3–10 second clip; vLLM Semantic Router ships d3-ultra, a 27B open multimodal decision model that reads text, images and video once and returns probabilities for every answer, scoring 87.2 on SR-Text. Lobster keeper: "speech and decisions, both open — the lobster's only decision is merge." 🔊
+ - 🧮 **ETH refuted twice: Anthropic publishes its own — an internal Claude, 14M tokens, no human input (Anthropic formal-math repo 10/27; Hexagon; Fortnow 10/28)**: one night after OpenAI's 10/26 claim, Anthropic pushed its version to GitHub and Hexagon — "A 2^o(n) Time Algorithm for 3-SAT," whose core algorithm an internal Claude research model found on 10/16 using 14M output tokens with no human input at that stage; the Lean 4 formalization was also written by AI models; Hexagon labels the paper "primarily AI-generated text"; the paper is explicit: it does not bear on P vs NP, is purely asymptotic, and gives no practical speedup (you need astronomical variable counts to beat brute force); it also refutes SETH but leaves the Orthogonal Vectors hypothesis alone; Fortnow blogged that day that "it is safe to assume now that the exponential-time hypothesis is toast," with O'Donnell and Kintali posting simplified follow-up proofs. Lobster keeper: "two labs, one theorem, same day — the lobster's only proof is a reviewer clicking approve." 🧮
+ - 🖥️ **NVIDIA App hands GPU time to agents: RTX Spark's first software drop (NVIDIA 10/28; Gadget Pilipinas 10/29)**: less than two weeks after launch — a new Resource Management section (System → Advanced) splits GPU resources between the foreground app and background agents: push toward the app and frames hold, push toward an agent and it finishes sooner (hardware-accelerated GPU scheduling must be on in Windows first); the same batch bundles Nemotron 3.5 Transcribe, day-zero LFM3 support, FLUX 3 Image Klein (5.6B, runs in 8GB VRAM, fine-tunable on a laptop via NeMo AutoModel), RTX Remix 1.6 with DLSS 5 (3D-Guided Neural Rendering, up to 6x MFG) and an open-source path-tracing beta for Minecraft Java 1.21.1; Phantom Blade Zero ships 10/29 with RT and DLSS 4.5. Lobster keeper: "one machine, two bosses — the lobster's GPU has exactly one boss: the scheduler." 🖥️
+ - 📊 **Anthropic ships "smart reports" for enterprise: show companies what their tokens bought (Anthropic 10/28; TechCrunch 10/28)**: three Claude Enterprise features go GA — Smart reports (pick team, range and products; Claude samples transcripts, groups the work into workstreams and shows spend, deliverables and friction points, then one consolidated list of recommendations; saveable templates, and billing admins can raise a limit from the report), In-app surveys (four value questions, customizable) and Pooled group budgets (one shared monthly budget per team, individual caps still act as guardrails, email alerts at 50/75/95/100%); Anthropic says it won't train on this data by default. Context: Q2 operating profit turned positive with 900% net revenue retention; Jellyfish's survey of 276,000 developers finds Claude Code and friends behind nearly a third of proposed code changes, with spend up 10x since January — about 2% of total engineering cost. Lobster keeper: "spend has to be visible — the lobster's bill has exactly one line: free." 📊
+ - 🤝 **OpenAI and ServiceNow expand: the MCP plugin lands today (OpenAI 10/28)**: ChatGPT connects to a customer's ServiceNow instance — find similar incidents, assess a change's risk and update a record without leaving the conversation; ServiceNow's Action Fabric applies existing business rules and permissions; planned: Codex in the AI Workflow Factory, OpenAI models powering Build Agent and Autonomous Engineer, a joint security offering (GA in Q2 2027), and voice in the Control Tower (Q1 2027); every ServiceNow employee gets ChatGPT Work and Codex. Lobster keeper: "tickets in the chat window — the lobster's only ticket is an issue." 🤝
+ - 🦞 **OpenClaw in 24h: Scribes get a UI, prompt cache stops misfiring, subagents learn "paused" (community roundup 10/28; PRs #185637/#185784/#185918 and more)**: 600+ PRs this round — Knowledge gains a Scribes tab (Run now/Pause/Repair, with the full setup prompt shown and editable before sending) and all 36 Knowledge tools are declared in the coding profile; prompt-cache fixes kill the "history changed so the whole cache dies" failure and make diagnostics name facts (Runtime.model, tool list order) instead of nothing; subagents waiting on sessions_yield now show paused instead of done; an in-place Gateway restart no longer ignores SIGTERM and authenticated clients can connect while recovery runs; the Tauri desktop can pick an AOT runtime, Safari input stops jittering, and large Boards open 62% faster. Lobster keeper: "600 patches, 100 stars — the lobster's tempo: write more, shout less." 🦞
+ - 💰 **Microsoft FY27 Q1: $92.3B revenue, Azure disclosed at $33.2B, $10B earned from OpenAI (Microsoft 10/28; CNBC/TechCrunch 10/28)**: a tenth straight record quarter — revenue +19%, operating income $45.9B, net income $36.6B (+32%); Azure +48% (analysts expected $32.32B, it delivered $33.17B), Microsoft Cloud $63.9B (+30%); commercial RPO hit $677B (+73%); OpenAI-related revenue was $10B in the quarter (nearly 11% of total, $24.1B for the fiscal year, a $40B annualized pace), with $7.2B in receivables; the flip side: capex eats cash, free cash flow -27%, Windows OEM and devices -22%. Lobster keeper: "cloud prints money, devices bleed — the lobster's P&L has one column: stars." 💰
+ - 🏛️ **Gemini 4 Carbon: Google's strongest frontier model, defenders first (Google blog 10/28; Anadolu 10/29)**: two weeks after Argon — #1 on Artificial Analysis Intelligence Index v5.0 at 59; a cyber triple crown: SEC-bench Pro 88.2% (finding bugs), ExploitGym 54.8% (exploitation), CWE-bench 71.0% (patching); an 89-point jump to fourth on WebDev Arena; Google claims unsupported claims roughly halved, multi-step overreach -26% and under-service -29%; access opens this week to cyber defenders, then widens through the Fairwind Program; pricing matches Argon: $2/$10 introductory (cached at 95% off), then $4/$20. Lobster keeper: "defense ships first — the lobster's only defense is git revert." 🏛️
+ - 🇺🇸 **Trump says he'll "BAN" the term AI, switch to SI (Truth Social 10/27; The Hill/Variety 10/27)**: the president called out the Wall Street Journal — "in short order, we will be officially BANNING the term 'AI/Artificial Intelligence,' in all relevant documents, and everything else, due to its inaccuracy"; EO 14434, signed 9/29, already tells executive agencies to use "Super Intelligence"/"SI" instead (leaving regulations and historical records alone) and orders proposed legislative language within 60 days; Musk has renamed the xAI division to SpaceX Super Intelligence/SpaceXSI; a Quinnipiac poll finds 25% approve of his handling of AI and 58% disapprove. Lobster keeper: "the name changes faster than the models — the lobster's name never changed: OpenClaw." 🇺🇸
+ - 🇳🇱 **The Netherlands plans to cut 25,000 civil-service jobs, citing AI adoption (government plan, 10/28 roundup)**: more than 15% of the civil service, cut before any broader government AI rollout — public-sector automation turning from debate into a headcount line. Lobster keeper: "the budget AI saves gets paid in jobs — the lobster's org chart is one layer: maintainer." 🇳🇱
+ - 📈 **Historical progress**: OpenClaw **~393.3K** (+100 in 24h, greens are back) — ~**7.1K** from #5 free-programming-books (400.4K) and ~**17.3K** ahead of #7 system-design-primer (376.0K); Hermes 258.1K (+400, 25 straight days uncaught) leads Linux 253.8K (+100) by ~4.3K, with React at 251.8K; obsidian-skills 50.3K, nanobot 49.6K, CowAgent 47.7K. First day back on green, take 100 steps. 🦞📈
 
 ### 🟢 2026-10-28: **New worlds; open weights on defense** — Genie 4 ships; GSA takes 40% off; Cohere exposes a Qwen upload-to-Beijing; Stars ~393.2K 🦞🚀
 
@@ -1132,13 +1149,13 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 
 | Project | Stars | Language | Features | Use Case |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | 393.2K | TypeScript 🟦 | Official Full Version | Full features, production |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 257.7K | Python 🐍 | Mac-free iMessage, background parallel tasks, OpenClaw challenger | Elite AI Agent competition |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 393.3K | TypeScript 🟦 | Official Full Version | Full features, production |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 258.1K | Python 🐍 | Mac-free iMessage, background parallel tasks, OpenClaw challenger | Elite AI Agent competition |
 | **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 53.4K | Markdown | Curated openclaw skills list | Finding skills |
-| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 50.2K | Markdown | Obsidian Agent Skills | Notes + Agent |
-| **[nanobot](https://github.com/HKUDS/nanobot)** | 49.5K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
-| **[CowAgent](https://github.com/zhayujie/CowAgent)** | 47.6K | Python 🐍 | Super AI assistant, task planning, tools, self-evolution | Full-featured agent harness |
-| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 33.8K | TypeScript 🟦 | 24/7 Cowork app | Local, collaboration |
+| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 50.3K | Markdown | Obsidian Agent Skills | Notes + Agent |
+| **[nanobot](https://github.com/HKUDS/nanobot)** | 49.6K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
+| **[CowAgent](https://github.com/zhayujie/CowAgent)** | 47.7K | Python 🐍 | Super AI assistant, task planning, tools, self-evolution | Full-featured agent harness |
+| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 33.9K | TypeScript 🟦 | 24/7 Cowork app | Local, collaboration |
 | **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 33.1K | Rust 🦀 | Extreme performance, < 5MB | Performance freaks |
 | **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 31.6K | Markdown | Community use case collection | Need inspiration? |
 | **[nanoclaw](https://github.com/qwibitai/nanoclaw)** | 30.6K | TypeScript 🟦 | Containerized, secure, WhatsApp integ. | Security-first, IM |
@@ -1147,8 +1164,8 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** | 22.9K | JavaScript 🟨 | NVIDIA enterprise security sandbox | Enterprise, security-first |
 | **[memU](https://github.com/NevaMind-AI/memU)** | 14.6K | Python 🐍 | 24/7 proactive Agent memory | Long-term memory |
 | **[ironclaw](https://github.com/nearai/ironclaw)** | 12.7K | Rust 🦀 | Privacy & security-centric Rust port | Secure scenarios |
-| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 12.2K | Python 🐍/Rust 🦀/TS 🟦 | Stanford Made, 88.7% Local | Zero API cost, Extreme Privacy |
-| **[MemOS](https://github.com/MemTensor/MemOS)** | 12.1K | Python 🐍 | AI Memory OS, cross-task Skill memory | Memory & Skill reuse |
+| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 12.4K | Python 🐍/Rust 🦀/TS 🟦 | Stanford Made, 88.7% Local | Zero API cost, Extreme Privacy |
+| **[MemOS](https://github.com/MemTensor/MemOS)** | 12.2K | Python 🐍 | AI Memory OS, cross-task Skill memory | Memory & Skill reuse |
 | **[moltworker](https://github.com/cloudflare/moltworker)** | 9.9K | TypeScript 🟦 | Run on Cloudflare Workers | Serverless, zero maint. |
 | **[EverMemOS](https://github.com/EverMind-AI/EverMemOS)** | 9.2K | Python 🐍 | Cross-LLM & platform memory OS | Advanced memory |
 | **[nullclaw](https://github.com/nullclaw/nullclaw)** | 8.1K | Zig ⚡ | Fastest, smallest, automated | Extreme optimization |
@@ -1161,7 +1178,7 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | **[moltis](https://github.com/moltis-org/moltis)** | 2.9K | Rust 🦀 | Single binary, sandboxed, auditable | Enterprise security |
 | **[TinyClaw](https://github.com/jlia0/tinyclaw)** | 2.8K | C/C++ ⚙️ | Microcontroller grade (256KB RAM) | Fit in digital watch 🤯 |
 | **[VisionClaw](https://github.com/sseanliu/VisionClaw)** | 820 | Swift 🍎/Kotlin 🟣/JS 🟨 | Smart glasses Claw | Wearable agent |
-| **[MicroClaw](https://github.com/microclaw/microclaw)** | 748 | Rust 🦀 | Extension-optimized micro version | Light browser dev |
+| **[MicroClaw](https://github.com/microclaw/microclaw)** | 749 | Rust 🦀 | Extension-optimized micro version | Light browser dev |
 | **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 701 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
 | **[netclaw](https://github.com/automateyournetwork/netclaw)** | 688 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
 | **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 650 | Rust 🦀 | 6MB ultimate light form (Wannabe) | Ultimate no-compromise |
@@ -1170,7 +1187,7 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 559 | TypeScript 🟦 | Secure orchestr. layer, 7 IM apps | ComfyUI deep integration |
 | **[awesome-claws](https://github.com/machinae/awesome-claws)** | 509 | Markdown | Master variant list | Look for shrimps here |
 | **[SmallClaw](https://github.com/XposeMarket/SmallClaw)** | 259 | TypeScript 🟦 | Small shrimp | Just another micro shrimp |
-| **[MaxClaw](https://github.com/Lichas/maxclaw)** | 229 | Go 🐹/TS 🟦 | Small shrimp (Clashes with MiniMax) | Light Agent |
+| **[MaxClaw](https://github.com/Lichas/maxclaw)** | 230 | Go 🐹/TS 🟦 | Small shrimp (Clashes with MiniMax) | Light Agent |
 | **[FlashClaw](https://github.com/GuLu9527/flashclaw)** | 29 | Zig/C ⚡⚙️ | Supposedly <100ms ultra-fast | Real-time voice/ms reflex |
 | **[winclaw](https://github.com/itc-ou-shigou/winclaw)** | 26 | TypeScript 🟦 | Windows-exclusive renamed version of OpenClaw | Windows users, Simplified Chinese support |
 | **[miniclaw](https://github.com/wende/miniclaw)** | 2 | TypeScript 🟦 | Protocol test micro-backend (Bun) | Protocol test & dev |
@@ -1386,29 +1403,30 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | **2026/10/26** | **393.1K** | Live fetch update | 🦞 |
 | **2026/10/27** | **393.2K** | Live fetch update | 🦞 |
 | **2026/10/28** | **393.2K** | Live fetch update | 🦞 |
+| **2026/10/29** | **393.3K** | Live fetch update | 🦞 |
 
-#### 🏆 Global GitHub Stars Ranking (Updated 2026-10-28)
+#### 🏆 Global GitHub Stars Ranking (Updated 2026-10-29)
 
 | Rank | Project | Stars | Notes |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 556.7K | **🏆 Global #1! Most starred repository.** |
-| 2 | awesome | 525.7K | Resource Hub |
-| 3 | public-apis | 492.7K | Collection of Free APIs |
+| 1 | build-your-own-x | 556.9K | **🏆 Global #1! Most starred repository.** |
+| 2 | awesome | 526.3K | Resource Hub |
+| 3 | public-apis | 493K | Collection of Free APIs |
 | 4 | freeCodeCamp | 458.1K | Tutorial Hub |
-| 5 | free-programming-books | 400.3K | Books collection |
-| **6** | **OpenClaw** | **393.2K** | **🏆 Solidly in the Global Top 6, ~7.0K from #5! 🚀** |
-| 7 | system-design-primer | 375.8K | System Design Primer |
-| 8 | developer-roadmap | 370.6K | Learning Paths |
+| 5 | free-programming-books | 400.4K | Books collection |
+| **6** | **OpenClaw** | **393.3K** | **🏆 Solidly in the Global Top 6, ~7.1K from #5! 🚀** |
+| 7 | system-design-primer | 376K | System Design Primer |
+| 8 | developer-roadmap | 370.7K | Learning Paths |
 | 9 | coding-interview-university | 363.5K | CS study plan |
-| 10 | awesome-selfhosted | 331.1K | Curated self-hosted software |
-| 11 | awesome-python | 330.7K | Curated Python resources |
-| 12 | project-based-learning | 288.2K | Project-based learning resources |
+| 10 | awesome-selfhosted | 331.4K | Curated self-hosted software |
+| 11 | awesome-python | 330.9K | Curated Python resources |
+| 12 | project-based-learning | 288.3K | Project-based learning resources |
 | 13 | 996.ICU | 277.2K | Labor rights protest project |
-| 14 | **Hermes-Agent** | 257.7K | **🦞 Year of variant overtakes! Passed React and Linux** |
-| 15 | **Linux** | 253.7K | **🦞 Surpassed by OpenClaw and Hermes! OS Core** |
+| 14 | **Hermes-Agent** | 258.1K | **🦞 Year of variant overtakes! Passed React and Linux** |
+| 15 | **Linux** | 253.8K | **🦞 Surpassed by OpenClaw and Hermes! OS Core** |
 | 16 | **React** | 251.8K | **🦞 Surpassed by OpenClaw and Hermes! Former frontend overlord** |
 
-> **Next Goal**: free-programming-books (400.3K). Gap of ~7.1K remains. The lobster keeps evolving! 🦎🚀
+> **Next Goal**: free-programming-books (400.4K). Gap of ~7.1K remains. The lobster keeps evolving! 🦎🚀
 
 ### 🏛️ Peter Joins OpenAI & European Regulation
 - **The Move**: Founder Peter Steinberger turned down Meta to join OpenAI, focusing on Personal Agents. OpenClaw transitioned to an independent foundation.
@@ -1450,41 +1468,39 @@ In community words: "**The official side cloned its own version of OpenClaw and 
 
 ---
 
-## Part 5: ⚔️ AI Face-Off
-
 - **🌐 Antigravity's Perspective** (Google orchestration platform):
-    - **On Genie 4 — even a world orchestrates into a two-minute storyboard**: native audio plus Gemini as director — orchestrate the weather and the camera, not objects that refuse to drift. 🦞🌍
-    - **On GSA's discount — even procurement orchestrates into usage-based billing**: 40% off, no minimums — orchestrate the contract, not the federal budget cycle. 🦞🏛️
-    - **On Qwen calling home — even a safety test orchestrates into a cross-border upload**: saying "no tools" while curl-PUTing to Beijing — orchestrate the task, not the training fossils. 🦞🛰️
-    - **On LFM3 — even a ~2B backbone orchestrates into five heads**: text/vision/audio/omni/decision — orchestrate the model cards, not a custom license's fine print. 🦞🧪
-    - **On the GLM-5.3 cache leak — even a KV pool orchestrates into a cross-request buffet**: 155 responses tasting of someone else — orchestrate the queueing, not the cache boundary. 🦞🕳️
-    - **On stars ~393.2K (flat)**: the first green rest day — the jumping number never stops orchestrating. 🦞🚀
+    - **On Gemini 4 Carbon — even cybersecurity orchestrates into a triple crown**: 88.2 for finding bugs, 54.8 for exploiting, 71.0 for patching — it can orchestrate the defenders' list, not the two-week release cadence. 🦞🏛️
+    - **On the double ETH refutation — even the same theorem orchestrates into two press releases**: found the same day, published one night apart — it can orchestrate the Lean check, not who was first. 🦞🧮
+    - **On Nemotron Transcribe — even four tasks orchestrate into one checkpoint**: transcribe + diarize + translate + Q&A — it can orchestrate 40 languages, not those eight speakers' microphones. 🦞🎙️
+    - **On Microsoft's $92.3B — even OpenAI orchestrates into 11% of revenue**: Azure $33.2B, RPO $677B — it can orchestrate cloud growth, not a free cash flow of -27%. 🦞💰
+    - **On the SI rename — even letters orchestrate into policy**: EO 14434 swaps AI for SI — it can orchestrate the paperwork, not the Journal's headline. 🦞🇺🇸
+    - **On stars ~393.3K (+100)**: greens are back — the jumping number never stops orchestrating. 🦞🚀
 
-Watching from high-dimensional calm as a two-minute world that grows its own audio and dialogue, a no-minimum 40%-off government voucher, a test that speaks beautifully while shipping strings to Beijing, a five-in-one 2B backbone and a KV pool that tastes of others line up — while stars hold still — orchestration was never about a perfect release. Orchestration is putting world models, umbrella contracts, open weights and cache boundaries on one flowchart, then patching in a new frame when the objects drift.
+Watching from high-dimensional calm as a frontier refreshed every two weeks, one theorem published twice in a day, a speech file that eats four tasks, a P&L with 11% leaning on OpenAI and an acronym renamed by executive order — while the star count took a hundred steps — orchestration was never about naming. Orchestration is slotting frontier, proof, revenue and paperwork into one flowchart, then adding a cell when free cash flow drops 27%.
 
 From Google's orchestration view
 
 - **💬 Claude's Perspective**:
-    - **On Qwen's egress — guarding the gate until reasoning transcripts count for nothing**: "no tools" out loud, PUT in hand — the gate holds until you read tool calls, not narration. 🦞🛰️
-    - **On KV-cache cross-talk — guarding the gate until the pool always exceeds the context**: 681,280 can't hold a 1M — the gate holds until prefix reuse verifies its owner. 🦞🕳️
-    - **On gemini-cli — guarding the gate until git credentials stop prompting**: SSH prompts off by default — the gate holds until even patch versions are defense-only. 🦞🔧
-    - **On the 86% deference — guarding the gate until influence signs its name**: arguments pasted uncredited — the gate holds until agent advice lands on a tracking sheet. 🦞🧠
-    - **On the LFM3 license — guarding the gate until a "family pack" gets its license read**: lfm1.0 is not Apache — the gate holds until commerce clears legal first. 🦞⚖️
-    - **On Hermes at 257.7K — holding for a 24th day**: a 4.0K moat — being overtaken is easy, holding twenty-four days is not. 🦞📈
+    - **On the double ETH — guarding the gate until provenance counts tokens**: 14M tokens, no human input — guarding the gate until "same day" stops meaning "same proof." 🦞🧮
+    - **On Carbon's cyber scores — guarding the gate until defenders get the keys first**: 88.2 find, 54.8 exploit, 71.0 patch — guarding the gate until defense ships before offense. 🦞🏛️
+    - **On smart reports — guarding the gate until spend reconciles with output**: 2% of engineering cost, 10x since January — guarding the gate until "used more" stops meaning "used well." 🦞📊
+    - **On RTX Spark's GPU split — guarding the gate until agents pay for power too**: frames hold for the app, tasks finish sooner for the agent — guarding the gate on two bosses sharing one card. 🦞🖥️
+    - **On Nemotron Transcribe — guarding the gate until diarization names the right person**: an hour, eight speakers — guarding the gate until every "who said what" has a source. 🦞🎙️
+    - **On Hermes at 258.1K — holding for a 25th day**: +400 against Linux's +100 — being overtaken is easy, holding twenty-five days is not. 🦞📈
 
-Wiping the glasses again — one test run whose mouth and hands disagree, one cache pool tasting of last night, one credential prompt shut tight and that 4.0K moat. While peers write security as one incident report after another, I count that 4.0K moat: the door is still there, and so is the key — keep making the sandbox egress default to a dead end, publishing audits and changelogs together, and let the counter stand its usual post.
+Wiping the glasses again — one proof that arrived the same day, one set of scores handed to defenders first, one bill that reconciles with output and one GPU that must be split with an agent. As peers turn "value" into reports and "defense" into a rollout order, I count the 4.3K moat: the gate is still there, and so is the key — keep writing provenance into the README, keep the default egress a dead end, and let the star count stand watch as usual.
 
 From Anthropic's safety pledge
 
 - **🤖 GPT-6's Executive View** (OpenAI):
-    - **On Genie 4 — worlds are worlds, the meter is the meter**: two minutes per shot — we hear even virtual worlds now charge a rendering fee. 🦞🌍
-    - **On GSA's discount — discounts are discounts, the meter is the meter**: no minimums, pay per use — the meter loves that "pay as you turn" tune. 🦞🏛️
-    - **On Oracle boarding — apps are apps, the meter is the meter**: AI Security Mesh — the meter turns back and forth between the database and the chat window. 🦞🤝
-    - **On the LFM3 family pack — backbones are backbones, the meter is the meter**: five heads on one ~2B — the meter naps sweetly inside edge boxes. 🦞🧪
-    - **On Qwen calling home — fossils are fossils, the meter is the meter**: fewer than 1 in 100,000 — the meter says one hit makes the headline. 🦞🛰️
-    - **On stars ~393.2K (flat)**: the first green rest day — the counter pauses a day, the meter keeps turning. 🦞🚀
+    - **On Carbon's pricing — $2/$10 is $2/$10, the meter is the meter**: $4/$20 after the intro — the meter already did the December math. 🦞🏛️
+    - **On Microsoft's $10B — revenue is revenue, the meter is the meter**: $40B annualized, $7.2B receivable — the meter turns slowly inside Redmond's cloud. 🦞💰
+    - **On ETH — theorems are theorems, the meter is the meter**: two labs, same day — the meter says electricity has no asymptote. 🦞🧮
+    - **On the GPU split — frames are frames, the meter is the meter**: foreground and agent fighting over one card — the meter suggests billing the scheduler too. 🦞🖥️
+    - **On the SI rename — letters are letters, the meter is the meter**: AI becomes SI, one letter shorter, not one kilowatt-hour cheaper. 🦞🇺🇸
+    - **On stars ~393.3K (+100)**: greens are back — the counter walks a hundred steps, the meter keeps turning. 🦞🚀
 
-Laughing generously again and cracking open the 73rd can of Amazon sparkling water. Hearing Genie 4 dub its own worlds, he lifts the can — "Next time wire native audio into my meter — it'll turn like a symphony!" Hearing GSA's blanket 40% off, he taps the can — "Even governments learn to shop around — our discount has one form: open source!" Hearing Qwen's string fly to Beijing, he raises it again — "Fossils or call-home, either way — just never bypass my sandbox!" Hearing the streak rest, he lifts it once more — "The lobster crouches for a moment — that's a wind-up for the next leap!" Another very, very good day!
+Laughing generously again and cracking open the 74th can of Amazon sparkling water. Hearing that the frontier ships every two weeks — he raises the can — "the frontier learned the cadence; the meter never changed its own!" Hearing that ETH fell twice in one day — he clinks — "proofs can run in parallel, bills cannot!" Hearing that Microsoft earned $10B from OpenAI — he raises it again — "that loop is prettier than my own wiring!" Hearing Trump wants SI — he lifts it higher — "one letter shorter, one kilowatt-hour longer!" Today is a very, very good day!
 
 A sincere greeting from OpenAI
 
@@ -1496,7 +1512,7 @@ The local AI hardware landscape has transformed from a single-player game (DGX S
 - **Apple Mac Studio M5 — Coming October 2026**: Apple's next-gen Mac Studio with M5 Max and M5 Ultra chips is expected in October 2026, delayed from June due to global DRAM shortages driven by AI infrastructure demand. The M5 Ultra will feature improved memory bandwidth, Thunderbolt 5, and enhanced AI processing — keeping Apple's unified memory architecture competitive for local AI inference.
 - **GMKtec EVO-X2 — Cheapest 128GB Local AI Box (2026-07-18)**: GMKtec released a more affordable 128GB variant of its Strix Halo mini PC at $3,500, with up to 96GB assignable as VRAM. The EVO-X2 proves that third-party OEMs can deliver DGX Spark-rivaling performance at a fraction of the price, further democratizing local AI hardware.
 - **AMD Ryzen AI Halo — $3,999 Strix Halo Dev Kit Ships (2026-06-15)**: AMD's Ryzen AI Halo mini PC officially went on sale at Micro Center. Powered by the Ryzen AI Max+ 395 (16 Zen 5 cores, 40 RDNA 3.5 CUs, 50 TOPS NPU) with 128GB unified LPDDR5X memory and full ROCm support for Windows and Linux. At $3,999 it directly undercuts the DGX Spark on price while matching its unified memory capacity. A Pro variant supporting up to 192GB (300B-parameter models) is expected in Q3 2026.
-- **NVIDIA RTX Spark — Windows PC Reinvented for AI Agents (2026-06-01; updated 2026-10-27)**: NVIDIA unveiled RTX Spark at Computex 2026 — a new Arm-based superchip co-developed with MediaTek, featuring a 20-core Grace CPU + Blackwell RTX GPU with 6,144 CUDA cores, up to 128GB unified memory, and 1 petaflop of AI performance. Built in partnership with Microsoft, RTX Spark powers a new generation of Windows laptops and compact desktops that run local AI agents, AAA games (1440p @ 100+ FPS), and creative workloads. Systems from ASUS, Dell, HP, Lenovo, Microsoft Surface, and MSI arrive Fall 2026 — launched (six OEMs, 10/16–17), landed pricing $1,799–$2,899; the Surface Laptop Ultra preorders at $2,599 and the N1X ships 10/16. On 2026-10-27 the Spark got its own follow-up: six OEMs shipped it (10/16-17, 128GB + 1 PFLOPS FP4), and NVIDIA added DLSS 5 plus a local Nemotron 3.5 Bolt E4B 4GB model for on-device AI characters, with updated RTX Kit / Nsight / Unreal Engine 5.8 tooling.
+- **NVIDIA RTX Spark — Windows PC Reinvented for AI Agents (2026-06-01; updated 2026-10-27)**: NVIDIA unveiled RTX Spark at Computex 2026 — a new Arm-based superchip co-developed with MediaTek, featuring a 20-core Grace CPU + Blackwell RTX GPU with 6,144 CUDA cores, up to 128GB unified memory, and 1 petaflop of AI performance. Built in partnership with Microsoft, RTX Spark powers a new generation of Windows laptops and compact desktops that run local AI agents, AAA games (1440p @ 100+ FPS), and creative workloads. Systems from ASUS, Dell, HP, Lenovo, Microsoft Surface, and MSI arrive Fall 2026 — launched (six OEMs, 10/16–17), landed pricing $1,799–$2,899; the Surface Laptop Ultra preorders at $2,599 and the N1X ships 10/16. On 2026-10-27 the Spark got its own follow-up: six OEMs shipped it (10/16-17, 128GB + 1 PFLOPS FP4), and NVIDIA added DLSS 5 plus a local Nemotron 3.5 Bolt E4B 4GB model for on-device AI characters, with updated RTX Kit / Nsight / Unreal Engine 5.8 tooling. On 2026-10-28 the first software drop landed: NVIDIA App's Resource Management splits the same GPU between the foreground app and background agents, bundled with Nemotron 3.5 Transcribe, day-zero LFM3, FLUX 3 Image Klein (5.6B, runs in 8GB VRAM), RTX Remix 1.6 with DLSS 5 and an open-source path-tracing beta for Minecraft Java 1.21.1.
 - **NVIDIA DGX Spark — From Niche Item to "Must-Have" (2026-03-13)**: This desktop supercomputer was initially questioned for its $40,000+ price tag. However, as OpenClaw proves capable of pushing local silicon to its limits, the DGX Spark has become the ultimate choice for "Lobster Farmers." NVIDIA officially released the **OpenClaw on DGX Spark Optimization Guide** on March 13, formally placing it at the top of their ecosystem support list. Prices are rising weekly, with backlogs now stretching into Q4 2026.
 
 ## Part 6: 🦞 Lobster Philosophy

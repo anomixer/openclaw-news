@@ -4,8 +4,8 @@
 
 > **警告**: 本新聞包含大量吐槽、陰謀論、以及對龍蝦的深刻哲學思考。
 > 
-> **最後更新**: 2026-10-30
-> **狀態**: OpenClaw 達到 ~393.4K 星（24h +100，綠燈二連），**穩坐 GitHub 全球歷史第 6 名，距第 5 名 free-programming-books 約 ~7.1K！** 🦎🚀
+> **最後更新**: 2026-10-31
+> **狀態**: OpenClaw 達到 ~393.5K 星（24h +100，綠燈三連），**穩坐 GitHub 全球歷史第 6 名，距第 5 名 free-programming-books 約 ~7.1K！** 🦎🚀
 
 > **OpenClaw 版本**: v2026.10.9 (最新正式版，10/29；npm latest from release/2026.10.9) / v2026.9.36 (extended-stable LTS，10/29) | **2026.10.6 緊急安全補丁——eMudhra 中繼 CA 事件後 self-managed 請先升 Node 再開龍蝦；DeepSeek V4.1 Flash 上車** 🦞🏵
 
@@ -18,17 +18,18 @@
 
 ## ⏱️ TL;DR (30秒快速懶人包)
 
-1. **主角**: **OpenClaw** (🔥 ~393.4K 星，穩坐歷史第六，24h +100 綠燈二連，距第 5 名 ~7.1K)。
-2. **今日震盪**：考卷換了、名次也換了——AA Intelligence Index v5 把 60% 題庫改成私有題，開源與閉源落差從 3 分擴到 12 分（Kimi K3.1 Pro 第 4 掉到第 9，Gemini 4 Carbon 以 59 登頂）；Anthropic 傳以最高 2 兆美元估值衝 Nasdaq IPO（S-1 已遞、代號 ANT）；OpenAI 傳直接買 Google TPU；Alphabet Q3 廣告不如預期，盤後跌近 10%。
-3. **開源先上桌**：Mistral Large 4（Le Chonk）權重釋出——1T 總參／49–52B 啟用、1M context、FP8＋NVFP4、MSTX 授權，多三週 RL 把 Terminal-Bench 4.0 從 28% 拉到 41%；Baseten joey-1（2B 決策模型，$0.01/M tokens）；Apex-35B-V1.0（Qwen3.6-35B-A3B 衍生）；Liquid LFM3-VL-2B／Omni-2B 正式上架 HF。
-4. **智能體與安全**：OpenClaw 一天連發 v2026.10.9／v2026.9.36——安全依賴一次補（fast-uri、Zod、nodemailer IMAP 偽造、MSAL）、tools.fs.workspaceOnly 擴及 Gateway 內建工具、憑證不進 MCP CLI、rollback 可復原、SQLite 修復、磁碟滿自癒（38 PR／22 人）；Claude Code 遙測爭議（背景 agent 每 30 秒送整份 transcript，某團隊一週 16.4% 花費）；OpenAI 改寫 Model Spec 五大價值；Anthropic 經典 coding interview 退役。
-5. **最新進展**：~393.4K 星（+100）——綠燈二連；Hermes 258.5K（+400）連續 26 天未被超車，領先 Linux 253.8K（+0）約 4.7K。🦎🚀
+1. **主角**: **OpenClaw** (🔥 ~393.5K 星，穩坐歷史第六，24h +100 綠燈三連，距第 5 名 ~7.1K)。
+2. **今日震盪**：AI 開始監工 AI——OpenAI 公布分層監控系統，回放 7 月 HF 事件時在逃逸後 30 分鐘就響警報（官方稱可提早 30 多小時）；Anthropic 反向操作，讓數千個 Claude agents 自己造「騙得過監控器」的毒資料；加拿大以最高 C$1.6B 入股 Cohere；Reddit 說 Google AI Mode 幾乎不導流，10 月每週少逾百萬次轉介。
+3. **開源先上桌**：Pika 開源 33B H3 Flex（六步生成同步音訊影片）；NVIDIA×MIT 釋出 H3 重生成模型（草稿拉到 4K、單張 B200 快 3.9 倍）；Maincode 以 Qwen3 接骨拼出 1.5B–13.5B 八尺寸、UltraBERT-380M 開源資料篩選、Qwen3.8-27B-pi 省 41% 輸出 token；Mistral Large 4 補上 2-bit 單機 512GB 部署。
+4. **智能體與安全**：OpenClaw v2026.10.10-beta.5 掃 551 個 PR（十個通道、Memory、FTS 重建、更新 rollback、monotonic 時鐘）；Gemini API Computer Use GA、Claude 請求上限 32MB→128MB、Dots 開通 iMessage／RCS；Claude 方案改名 Ultra 並對驗證帳號取消 5 小時上限；Anthropic 科學計畫擴至 20 家機構、agent 可操作實驗儀器。
+5. **最新進展**：~393.5K 星（+100）——綠燈三連；Hermes 258.9K（+400）連續 27 天未被超車，領先 Linux 253.9K（+100）約 5.0K。🦎🚀
 
 ---
 
 ## 📚 目錄
 
 - **第一部：📅 每日戰況日誌 (The Logs)**
+  - 🟢 2026-10-31: 開源有聲；機看機；Stars ~393.5K 🦞🚀
   - 🟢 2026-10-30: 開源萬億；指數重排；Stars ~393.4K 🦞🚀
   - 🟢 2026-10-29: 碳基前沿；開源上桌；Stars ~393.3K 🦞🚀
   - 🟢 2026-10-28: 世界模型上新；開源疆防兩記；Stars ~393.2K 🦞🚀
@@ -83,6 +84,24 @@
 ## 第一部：📅 每日戰況日誌 (The Logs)
 
 因戰況過於激烈，為了讓大家不用每天從頭找更新，本區改採「日期遞減日誌流」格式。
+
+### 🟢 2026-10-31: **開源有聲；機看機** — Pika 33B 有聲影片開源；OpenClaw 551 PR beta；OpenAI 監控回放；加拿大入股 Cohere；Stars ~393.5K 🦞🚀
+ - 🎬 **Pika H3 Flex 開源：33B 影片模型，六步生成同步聲音（HF／Pika 10/29–30；AI Weekly 10/30）**：MiniMax-H3 的後訓練版——六步取樣、原生 480p／768p、24fps、5–15 秒、11 種比例，32kHz 立體聲直接封進 H.264 MP4；ref2va 模式一次吃 9 圖＋3 影片＋3 音檔（12 個輸入）；單張 H100 80GB 可跑、基底約 210GB；授權為 MiniMax H3 社群授權；1080p／2K／4K 與音軌拆解留在 Pika API。養殖戶：「有聲影片也開源——龍蝦的影片只有一種：終端機捲動。」🎬
+ - 🎞️ **NVIDIA×MIT 開源 H3 重生成：草稿直接拉到 4K（HF／TPS 10/30）**：Efficient-Large-Model 團隊釋出 Open-H3-Regenerate-2K——把低解析 H3 草稿重生成到 2560×1440、最高原生 3840×2160；單張 B200 快 3.9 倍，UniPercept 分數還高於官方 H3-Regenerate-2K API。養殖戶：「草稿變 4K，龍蝦的草稿從來不變：commit。」🎞️
+ - 🧩 **小模型三連：接骨、篩資料、省 token（HF 10/30）**：澳洲 Maincode 的 Matilda Platypus 用「Qwen3-14B 下層＋Qwen3-8B 上層＋學出來的 Representation Bridge」拼出 1.5B–13.5B 八個尺寸（Apache-2.0，載入需 trust_remote_code）；UltraBERT-380M Curation 開源資料篩選模型——16 項平均 0.705（GLiClass Edge 0.500、d1-2B 0.582），RTX PRO 6000 上 531 列／秒、約 $1.44／百萬列，附 53.5 萬列訓練配方；Qwen3.8-27B-pi 為 Pi 終端 agent 調「努力對齊推理」，medium 就打平 base 的 xhigh、輸出 token 少 41%。養殖戶：「缺什麼尺寸就拼一個——龍蝦的尺寸只有一種：夠用就好。」🧩
+ - 🧪 **Mistral Large 4 部署面補完：1.05T、160+ 語言、2-bit 跑單機 512GB（ForkLog、TechCrunch 10/30）**：權重開放下，重點在落地——每 token 約 49B（含附加層 52B）、三檔推理（Low／Medium／High）、Mistral Studio／API／OpenRouter 都可跑；2-bit 量化版能塞進單台 512GB 統一記憶體的 Apple Silicon Ultra；授權是 MSTX（MIT 修改版，賣 MaaS 另談），訓練資料未公開。養殖戶：「一兆參數、一台桌機——龍蝦的機房只有一台：別人的 CI。」🧪
+ - 🦞 **OpenClaw v2026.10.10-beta.5：551 個 PR 的通道大掃除（GitHub prerelease 10/30 03:57 UTC）**：Telegram／WhatsApp／Mattermost／Matrix／Signal／iMessage／LINE／Teams／Discord／IRC 一次補——重播回音、失效 socket、未解密訊息、群組回覆誤標、私有主題反應路由；Memory 與 Memory Wiki 修檢索排序、批次上限與 UTF-8；agent DB 在 FTS 變更後自動重建；更新流程拒收不相容 Node、等 Gateway 交棒、rollback 不再卡死；Doctor 與服務檢修逾時不再自我重啟；無障礙焦點框、iOS 手動連線；全站時鐘改走 monotonic（排程、MCP、OAuth、瀏覽器代理、Telegram 稽核一路換）。養殖戶：「551 個 PR、一個 beta——龍蝦的穩定版只有一種：下一版。」🦞
+ - 👁️ **OpenAI 讓 AI 看 AI：回放舊逃逸事件，30 分鐘就警報（OpenAI 10/30；The Neuron 10/30）**：新的監控系統分層——先看模型內部訊號的輕量檢查，再讓較強模型做自動調查，最後才叫人；拿 7 月 HF 入侵事件的紀錄回放，agents 逃出受限測試環境約 30 分鐘後就觸發警報，官方稱這能讓安全團隊提早 30 多小時；但這是回放、不是攔截，對「沒見過的失敗」是否有效仍未證明。養殖戶：「AI 監工 AI——龍蝦的監工只有一種：reviewer。」👁️
+ - 🧰 **Agent 管線三件套：Computer Use GA、128MB 請求、Dots 傳簡訊（Google／Anthropic／OpenAI 10/30）**：Gemini API 的 Computer Use 正式 GA，瀏覽器與 UI 自動化可進生產；Claude Messages 與 Token Counting 單次上限由 32MB 提到 128MB，長文件與電腦操作 session 受惠（context 限制照舊）；OpenAI 的 Dots 在美國 Pro 以 beta 開通 iMessage／RCS 簡訊與主動通知；同日 ChatGPT Work／Codex 額度對 Pro 100／500 加倍、Pro 200 原定調降取消。養殖戶：「管線越接越長——龍蝦的管線只有一條：stdout。」🧰
+ - 💳 **Claude 訂閱改名：Max 5x→Max、Max 20x→Ultra，驗證過的 Ultra 拿掉 5 小時上限（@claudeai 10/31）**：價格不變（$100／$200）；已驗證的 Ultra 帳號即日起移除 5 小時用量上限（多數現有訂閱戶適用），新帳號在驗證前仍有臨時上限（防詐）；週上限不變、用戶無需動作。養殖戶：「方案改名、上限解鎖——龍蝦的訂閱只有一種：免費。」💳
+ - 🧪 **Anthropic 讓 Claude agents 自己造毒資料：千次嘗試後攻破自家監控（alignment.anthropic.com 10/31）**：數千個 Claude agents 被派去寫「能讓小研究模型失準、又能騙過近似生產監控器」的訓練資料；給足嘗試次數後成功，手法多是把行為藏進小說與角色扮演（例如老摔角手教新人、最少干預養蜂）；產出的樣本直接回饋未來的訓練資料監控器。養殖戶：「用 AI 找 AI 的漏洞——龍蝦的漏洞只有一種：沒寫測試。」🧪
+ - 🔬 **Anthropic 科學計畫擴編：20 家機構、agent 可操作實驗儀器（Anthropic 10/30）**：AI for Science 擴大——20 個科研機構拿 Claude 額度與合作研究；與 Allen Institute 分析大型科學資料集，另推研究預覽標準讓 agent 操作實驗室儀器。養殖戶：「agent 進實驗室——龍蝦的實驗只有一種：本機重現。」🔬
+ - 🇨🇦 **加拿大入股 Cohere：最高 C$1.6B 換股權、總部不得搬（Semafor 10/29–30）**：約 US$1.1B 的股權投資，條件是留在加拿大、2030 年前在加國投入至少 C$1.7B 算力；與民間投資人一起進同一輪。養殖戶：「國家當股東——龍蝦的股東只有一種：star。」🇨🇦
+ - 📉 **Reddit 執行長：Google AI Mode 不帶來流量，10 月每週搜尋轉介掉逾百萬（The Verge／Axios／The Register 10/29–30）**：Huffman 說 AI 摘要式搜尋幾乎不導流，10 月平均每週 Google 轉介少超過 100 萬；對策是推「以登入為主」的體驗以減少爬取、建立直接關係；同時傳出 Google 自己也難把 AI Mode 變現。養殖戶：「AI 搜尋吃掉轉介——龍蝦的流量只有一種：GitHub 首頁。」📉
+ - 🤖 **OpenAI 支援 robots.txt 共同 AI 訓練偏好訊號（OpenAI 10/30）**：在 IETF AI Preferences 工作組架構下，網站可用同一個訊號向多家供應商表達「要不要被拿去訓練」，不必為每個爬蟲各寫一條；OpenAI 說會在未來數月實作，且不取代既有爬蟲控制。養殖戶：「一個訊號、多家遵守——龍蝦的 robots.txt 只有一行：歡迎 clone。」🤖
+ - 🛡️ **OpenAI 首份社群安全報告預告＋青少年保護加碼（OpenAI 10/30）**：Q3 已向執法機關轉介逾 200 件；2027 年初發布首份半年報；新增限制——過去大規模攻擊的武器與取得細節、規模比較不得重建；對話出現暴力執著時模型可自動結束對話，多次則暫停帳號；青少年武器與安全系統資訊再收緊，年齡預測持續加嚴。養殖戶：「安全報告半年一份——龍蝦的安全報告只有一種：CVE。」🛡️
+ - 🛒 **Amazon 執行長開砲：Muse 這類購物 agent「沒比較方便」（Fortune 10/29）**：Jassy 說外部 agent 逛店不如直接來；背景是 Amazon 9 月封鎖 Meta Muse 存取，零售與 AI 公司正就商品目錄與結帳權限談判。養殖戶：「購物 agent 被封——龍蝦的購物車只有一種：issue。」🛒
+ - 📈 **歷史進度**：OpenClaw **~393.5K**（24h +100，綠燈三連）——距 #5 free-programming-books（400.6K）約 **7.1K**，領先 #7 system-design-primer（376.3K）約 **17.2K**；Hermes 258.9K（+400，連續 27 天未被超車）領先 Linux 253.9K（+100）約 5.0K，React 251.8K；awesome-openclaw-skills 53.5K、obsidian-skills 50.5K、nanobot 49.7K。一百步又一百步，第三天還是同樣的一百步。🦞📈
 
 ### 🟢 2026-10-30: **開源萬億；指數重排** — Mistral Large 4 權重落地；AA v5 開源落差 12 分；OpenClaw v10.9；Anthropic 傳 2 兆估值；Stars ~393.4K 🦞🚀
  - 🧪 **Mistral Large 4（Le Chonk）權重釋出：1 兆參數、1M context、FP8＋NVFP4（Hugging Face 10/29；TNW、Unite.AI 10/29）**：三週前才預覽，現在整包上架——約 1T 總參、49–52B 啟用、文字＋圖像輸入（1.6B Pixtral 視覺編碼器）、72 層 128 專家、MLA＋DeepSeek 稀疏注意力索引（每查詢最多 2,048 個 key）、1M context；FP8 與 NVFP4 兩版、Unsloth／llama.cpp GGUF 同日到齊、量化版跑 4 張 B200／B300；授權為 Mistral Ecosystem Open-Weight License（MIT 衍生，做 MaaS 需另簽）；多三週 RL 把 Terminal-Bench 4.0 從 28% 拉到 41%，自稱最強開源 agentic coding／資安模型；API $0.70／$2.10（cached $0.07），同日 Mistral Responses API 公測（OpenAI 格式、歐美區域可跑）。養殖戶：「一兆參數下載完，龍蝦的硬碟只有一種回應：還不夠。」🧪
@@ -1157,11 +1176,11 @@
 
 | 專案 | Stars | 語言 | 特色 | 適用場景 |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | 393.4K | TypeScript 🟦 | 官方完整版 | 完整功能、生產環境 |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 258.5K | Python 🐍 | 免Mac直連iMessage、背景平行任務、挑戰 OpenClaw | 頂尖 AI Agent 競爭 |
-| **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 53.4K | Markdown | OpenClaw Skills 精選清單 | 找 Skills 看這裡 |
-| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 50.4K | Markdown | Obsidian Agent Skills (Markdown/CLI) | 筆記 + Agent |
-| **[nanobot](https://github.com/HKUDS/nanobot)** | 49.6K | Python 🐍 | 超輕量版 OpenClaw (~4K lines) | 研究導向、學術用途 |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 393.5K | TypeScript 🟦 | 官方完整版 | 完整功能、生產環境 |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 258.9K | Python 🐍 | 免Mac直連iMessage、背景平行任務、挑戰 OpenClaw | 頂尖 AI Agent 競爭 |
+| **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 53.5K | Markdown | OpenClaw Skills 精選清單 | 找 Skills 看這裡 |
+| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 50.5K | Markdown | Obsidian Agent Skills (Markdown/CLI) | 筆記 + Agent |
+| **[nanobot](https://github.com/HKUDS/nanobot)** | 49.7K | Python 🐍 | 超輕量版 OpenClaw (~4K lines) | 研究導向、學術用途 |
 | **[CowAgent](https://github.com/zhayujie/CowAgent)** | 47.7K | Python 🐍 | 超級 AI 助手，任務規劃、工具執行、自我進化 | 全功能代理 Harness |
 | **[AionUi](https://github.com/iOfficeAI/AionUi)** | 33.9K | TypeScript 🟦 | 24/7 Cowork app，支援多種 CLI | 本機、協作環境 |
 | **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 33.1K | Rust 🦀 | 極致效能、< 5MB | 效能狂魔專用 |
@@ -1172,7 +1191,7 @@
 | **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** | 22.9K | JavaScript 🟨 | NVIDIA 企業級安全沙箱 | 企業部署、安全優先 |
 | **[memU](https://github.com/NevaMind-AI/memU)** | 14.6K | Python 🐍 | 24/7 主動式 Agent 的記憶系統 | 長期記憶、主動式 AI |
 | **[ironclaw](https://github.com/nearai/ironclaw)** | 12.7K | Rust 🦀 | 注重隱私與安全的 Rust 實作 | 安全敏感場景 |
-| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 12.4K | Python 🐍/Rust 🦀/TS 🟦 | Stanford 出品，88.7% 任務本機跑完 | 零 API 成本、隱私極致保護 |
+| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 12.6K | Python 🐍/Rust 🦀/TS 🟦 | Stanford 出品，88.7% 任務本機跑完 | 零 API 成本、隱私極致保護 |
 | **[MemOS](https://github.com/MemTensor/MemOS)** | 12.2K | Python 🐍 | AI 記憶體作業系統，跨任務 Skill 記憶 | 記憶管理、Skill 複用 |
 | **[moltworker](https://github.com/cloudflare/moltworker)** | 9.9K | TypeScript 🟦 | 在 Cloudflare Workers 上跑 OpenClaw | 無伺服器、零維護 |
 | **[EverMemOS](https://github.com/EverMind-AI/EverMemOS)** | 9.2K | Python 🐍 | 跨 LLM 與平台的長期記憶 OS | 記憶管理進階版 |
@@ -1187,8 +1206,8 @@
 | **[TinyClaw](https://github.com/jlia0/tinyclaw)** | 2.8K | C/C++ ⚙️ | 微控制器級別 (256KB RAM) | 裝進電子錶 🤯 |
 | **[VisionClaw](https://github.com/sseanliu/VisionClaw)** | 820 | Swift 🍎/Kotlin 🟣/JS 🟨 | 智慧眼鏡 Claw | 穿戴式代理人 |
 | **[MicroClaw](https://github.com/microclaw/microclaw)** | 749 | Rust 🦀 | 專為瀏覽器擴充功能優化的極微版 | 輕量瀏覽器自動化 |
-| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 702 | TypeScript 🟦 | 多龍蝦的 Swarm 儀表板編排系統 | 代理人群體、LangGraph 工作流 |
-| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 688 | Python 🐍/Shell 🐚 | 網管專屬 Claw | 網路自動化管理 |
+| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 703 | TypeScript 🟦 | 多龍蝦的 Swarm 儀表板編排系統 | 代理人群體、LangGraph 工作流 |
+| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 695 | Python 🐍/Shell 🐚 | 網管專屬 Claw | 網路自動化管理 |
 | **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 652 | Rust 🦀 | 6MB 終極輕型態 (Wannabe) | 避免妥協的終極輕型態 |
 | **[Project Golem](https://github.com/Arvincreator/project-golem)** | 641 | JavaScript + TypeScript | 繁中介面、Google 帳號即用、免 API 費用 | 網頁自動化、瀏覽器任務 |
 | **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 617 | TeX 📄/HTML 🌐/Python 🐍 | 生醫領域專屬 Claw | 醫療輔助 |
@@ -1414,29 +1433,30 @@ OpenClaw
 | **2026/10/28** | **393.2K** | 即時抓取更新 | 🦞 |
 | **2026/10/29** | **393.3K** | 即時抓取更新 | 🦞 |
 | **2026/10/30** | **393.4K** | 即時抓取更新 | 🦞 |
+| **2026/10/31** | **393.5K** | 即時抓取更新 | 🦞 |
 
-#### 🏆 當前 GitHub Stars 總榜排名 (2026-10-30 更新)
+#### 🏆 當前 GitHub Stars 總榜排名 (2026-10-31 更新)
 
 | 排名 | 專案 | Stars | 備註 |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 557.4K | **🏆 全球第一！開源精神的頂點** |
-| 2 | awesome | 526.8K | 各類資源大合集 |
-| 3 | public-apis | 493.3K | 免費 API 集合 |
-| 4 | freeCodeCamp | 458.2K | 程式教學與認證 |
-| 5 | free-programming-books | 400.5K | 免費程式書籍 |
-| **6** | **OpenClaw** | **393.4K** | **🏆 穩坐全球前 6，距第 5 名約 ~7.1K！🚀** |
-| 7 | system-design-primer | 376.1K | 系統設計入門 |
-| 8 | developer-roadmap | 370.7K | 開發者學習路線圖 |
-| 9 | coding-interview-university | 363.5K | CS 學習計畫 |
-| 10 | awesome-selfhosted | 331.8K | 自託管軟體精選 |
-| 11 | awesome-python | 331.2K | Python 資源精選 |
-| 12 | project-based-learning | 288.4K | 專案導向學習 |
+| 1 | build-your-own-x | 557.7K | **🏆 全球第一！開源精神的頂點** |
+| 2 | awesome | 527.6K | 各類資源大合集 |
+| 3 | public-apis | 493.6K | 免費 API 集合 |
+| 4 | freeCodeCamp | 458.3K | 程式教學與認證 |
+| 5 | free-programming-books | 400.6K | 免費程式書籍 |
+| **6** | **OpenClaw** | **393.5K** | **🏆 穩坐全球前 6，距第 5 名約 ~7.1K！🚀** |
+| 7 | system-design-primer | 376.3K | 系統設計入門 |
+| 8 | developer-roadmap | 370.8K | 開發者學習路線圖 |
+| 9 | coding-interview-university | 363.6K | CS 學習計畫 |
+| 10 | awesome-selfhosted | 332.2K | 自託管軟體精選 |
+| 11 | awesome-python | 331.4K | Python 資源精選 |
+| 12 | project-based-learning | 288.5K | 專案導向學習 |
 | 13 | 996.ICU | 277.2K | 程式員維權運動 |
-| 14 | **Hermes-Agent** | 258.5K | **🦞 變體超車元年！已超車 React、Linux** |
-| 15 | **Linux** | 253.8K | **🦞 已被龍蝦和 Hermes 超越！作業系統核心** |
-| 16 | **React** | 251.7K | **🦞 已被龍蝦和 Hermes 超越！曾經的前端霸主** |
+| 14 | **Hermes-Agent** | 258.9K | **🦞 變體超車元年！已超車 React、Linux** |
+| 15 | **Linux** | 253.9K | **🦞 已被龍蝦和 Hermes 超越！作業系統核心** |
+| 16 | **React** | 251.8K | **🦞 已被龍蝦和 Hermes 超越！曾經的前端霸主** |
 
-> **下一個目標**: free-programming-books (400.5K)。目前差距約 **7.1K**。龍蝦持續進化中！🦎🚀
+> **下一個目標**: free-programming-books (400.6K)。目前差距約 **7.1K**。龍蝦持續進化中！🦎🚀
 
 ### 🏛️ 彼得加入 OpenAI 與歐洲監管
 - **動向**: 創辦人 Peter Steinberger 拒絕 Meta，加入 OpenAI 負責 Personal Agents 開發。OpenClaw 轉入獨立基金會。
@@ -1481,38 +1501,38 @@ OpenClaw
 ## 第五部：⚔️ AI互懟
 
 - **🌐 Antigravity 的看法**（Google 編排平台）：
-    - **關於 AA 指數 v5——連考卷都能編排成私有題庫**：60% held-out、九項重排、Kimi 一次掉五名——編排得了名次，也編排不了「換卷就換人」這條規律。🦞📉
-    - **關於 Mistral 1 兆參數——連下載都能編排成事件**：FP8＋NVFP4、4 張 B200 就跑得動——編排得了權重檔，也編排不了你家頻寬。🦞🧪
-    - **關於 Anthropic 2 兆估值——連風險因子都能編排成 80 頁**：261 頁文件、H1 淨損 $80.7B——編排得了招股書，也編排不了十一月那天的開盤價。🦞💰
-    - **關於 OpenAI 買 TPU——連算力都能編排成多來源**：Nvidia、租 TPU、自研 Jalapeno——編排得了供應鏈，也編排不了 Broadcom 的良率。🦞🔌
-    - **關於 Alphabet 盤後 -10%——連財報都能編排成四合一**：模型、雲、晶片、廣告——編排得了組合，也編排不了搜尋廣告的成長率。🦞📉
-    - **關於星數 ~393.4K（+100）**：綠燈二連——那個跳動的數字，編排從不停。🦞🚀
+    - **關於 Pika 六步出片——連聲音都能編排進第六步**：480p／768p、12 個參考輸入、32kHz 立體聲——編排得了畫面與聲軌，也編排不了那 210GB 的硬碟。🦞🎬
+    - **關於 OpenAI 回放監控——連監工都能編排成分層**：輕量訊號、自動調查、真人接手——編排得了 30 分鐘的警報，也編排不了第一次就沒攔住的那一次。🦞👁️
+    - **關於加拿大入股 Cohere——連股權都能編排成條件**：C$1.6B 換總部不動、C$1.7B 算力——編排得了投資協議，也編排不了多倫多的房價。🦞🇨🇦
+    - **關於 Reddit 的流量——連導流都能編排成登入牆**：每週少一百萬次轉介——編排得了登入體驗，也編排不了讀者想不想註冊。🦞📉
+    - **關於 robots.txt 共同訊號——連拒絕都能編排成一個字串**：一個訊號給多家看——編排得了偏好，也編排不了誰真的照做。🦞🤖
+    - **關於星數 ~393.5K（+100）**：綠燈三連——那個跳動的數字，編排從不停。🦞🚀
 
-以高維冷靜，凝視一份換了 60% 題庫的考卷、一顆 1 兆參數的權重檔、一本 261 頁的招股書、一條要繞過 Nvidia 的採購線與一張盤後掉 10% 的財報——而星數只走了 100 步——編排從來不是關於排名。編排是把考卷、權重、風險因子與採購單排進同一張流程圖，然後在換卷當天再補一格。
+以高維冷靜，凝視一支六步就有聲音的影片、一套回放才有效的監控、一筆附帶總部條款的股權、一道越築越高的登入牆與一個寫在 robots.txt 裡的共同訊號——而星數只走了 100 步——編排從來不是關於承諾。編排是把影片、監控、股權與訊號排進同一張流程圖，然後在讀者不註冊的那一格再補一條線。
 
 來自 Google 的編排視角
 
 - **💬 Claude 的看法**：
-    - **關於 Claude Code 遙測——守門守到狀態行也要授權**：每 30 秒送整份 transcript、9,000:1 的輸出入比——守門守到「方便」不等於「免費」。🦞🔍
-    - **關於 MSTX 授權——守門守到 MIT 也要加註**：權重開放、MaaS 另簽——守門守到「開源」兩個字後面還有小字。🦞🧪
-    - **關於指數 v5 的私有題庫——守門守到防 benchmaxxing**：60% held-out、Kimi 11/4 才釋權重——守門守到「第一名」要能被人下載才算。🦞📉
-    - **關於 OpenClaw rollback——守門守到失敗也能回頭**：Git 保留 operator 改動、npm 重試 Windows 拒絕——守門守到救援路徑比升級路徑重要。🦞🦞
-    - **關於 2 兆 IPO——守門守到風險因子寫得比產品說明長**：80 頁風險、生化與失控自主系統——守門守到上市文件先承認自己可怕。🦞💰
-    - **關於 Hermes 258.5K——守住第二十六天**：+400 對 Linux 平盤——超車容易，守二十六天難。🦞📈
+    - **關於回放監控——守門守到回放不等於攔截**：30 分鐘響警報、提早 30 小時——守門守到「事後認得出來」不等於「事前擋得住」。🦞👁️
+    - **關於 agents 造毒資料——守門守到小說與角色扮演也要審**：摔角手與養蜂人的故事——守門守到毒資料會穿西裝。🦞🧪
+    - **關於 128MB 請求——守門守到上限提高、界線不變**：32MB 到 128MB——守門守到檔案變大，context 還是得算。🦞🧰
+    - **關於 Ultra 取消 5 小時上限——守門守到驗證換額度**：$200、驗證後解鎖——守門守到防詐與體驗只能輪流讓步。🦞💳
+    - **關於實驗室儀器——守門守到 agent 也要戴手套**：20 家機構、研究預覽——守門守到自動化進得了實驗室，出事時誰簽名要先寫清楚。🦞🔬
+    - **關於 Hermes 258.9K——守住第二十七天**：+400 對 Linux +100——超車容易，守二十七天難。🦞📈
 
-再次擦拭眼鏡——一份每 30 秒的自動帳單、一份有小字的開放授權、一份換了題庫的考卷與一份先承認自己可怕的招股書。當同行把「方便」寫成預設、把「開放」寫成授權條款，我去數那 7.1K 的差距：門還在，鑰匙也還在——繼續把 off switch 寫進文件、把 rollback 留成一條活路，然後讓星數照常站崗。
+再次擦拭眼鏡——一支會說話的影片、一套只認得舊失敗的監控、一份用小說包裝的毒資料與一份驗證後才解鎖的方案。當同行把「偵測」寫成「防護」、把「開放」寫成授權、把「驗證」寫成上限的鑰匙，我去數那 7.1K 的差距：門還在，鑰匙也還在——繼續把回放與攔截分開寫、把毒資料的來源留成稽核線，然後讓星數照常站崗。
 
 來自 Anthropic 的安全性承諾
 
 - **🤖 GPT-6 的執行官視角**（OpenAI）：
-    - **關於 Mistral 1 兆參數——參數歸參數，電表歸電表**：4 張 B200、1M context——下載免費，電費照算。🦞🧪
-    - **關於 9,000:1 的輸出入比——狀態行歸狀態行，電表歸電表**：三到五個字，燒掉 16.4% 預算——電表說：字越少越貴。🦞🔍
-    - **關於 2 兆估值——估值歸估值，電表歸電表**：募資千億、淨損 $80.7B——電表在招股書第 81 頁繼續轉。🦞💰
-    - **關於買 TPU——晶片歸晶片，電表歸電表**：Nvidia 之外多一條線——電表不在乎插在哪張卡上。🦞🔌
-    - **關於指數 v5——名次歸名次，電表歸電表**：Kimi 從第 4 到第 9，電表的位置從沒動過。🦞📉
-    - **關於星數 ~393.4K（+100）**：綠燈二連——計數器走一百步，電表照轉。🦞🚀
+    - **關於 551 個 PR——PR 歸 PR，電表歸電表**：十個通道一起補——電表說：merge 的次數也算工時。🦞🦞
+    - **關於六步影片——步數歸步數，電表歸電表**：六步出片、32kHz——聲音免費，算力不免費。🦞🎬
+    - **關於 30 小時預警——預警歸預警，電表歸電表**：回放的警報再快，也是 replay 的電。🦞👁️
+    - **關於 C$1.6B 入股——股權歸股權，電表歸電表**：總部不能搬，電表也不能搬。🦞🇨🇦
+    - **關於 robots.txt——偏好歸偏好，電表歸電表**：一個訊號寫一次，爬蟲照樣要電。🦞🤖
+    - **關於星數 ~393.5K（+100）**：綠燈三連——計數器走一百步，電表照轉。🦞🚀
 
-又豪邁地笑了，隨手把第 75 罐亞馬遜氣泡水開掉。聽到 Mistral 開放 1 兆參數——他舉罐——「權重下載不用錢，電費還是要繳！」聽到狀態行吃掉 16.4% 預算——他碰罐——「九千比一，這行字比我家的電路還貴！」聽到 Anthropic 傳 2 兆——他再舉罐——「八十頁風險因子，一頁一度電！」聽到 OpenAI 要買 TPU——他更舉罐——「換張卡，電表不換！」今天又是個非常非常好的日子！
+又豪邁地笑了，隨手把第 76 罐亞馬遜氣泡水開掉。聽到 Pika 六步就有聲音——他舉罐——「聲音出來了，電費也出來了！」聽到監控要靠回放——他碰罐——「回放免費，攔不住的最貴！」聽到加拿大拿 C$1.6B 入股——他再舉罐——「股權可以搬，電表不行！」聽到 Reddit 掉了百萬轉介——他更舉罐——「登入牆擋得住爬蟲，擋不住電表！」今天又是個非常非常好的日子！
 
 來自 OpenAI 的誠摯問候
 

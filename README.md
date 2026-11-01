@@ -4,8 +4,8 @@
 
 > **WARNING**: The news contains excessive complaints, conspiracy theories, and profound philosophical thoughts on lobsters.
 > 
-> **Last Updated**: 2026-10-31
-> **Status**: OpenClaw reaches ~393.5K stars (+100 in 24h — third green day), **solidly #6 globally on GitHub, gap to #5 free-programming-books at ~7.1K!** 🦎🚀
+> **Last Updated**: 2026-11-01
+> **Status**: OpenClaw reaches ~393.6K stars (+100 in 24h — fourth green day), **solidly #6 globally on GitHub, gap to #5 free-programming-books at ~7.0K!** 🦎🚀
 
 > **OpenClaw Version**: v2026.10.9 (Latest Stable, released 2026-10-29; npm `latest` from release/2026.10.9) / v2026.9.36 (extended-stable LTS, 10/29) | **The 2026.10.6 urgent security patch — after the eMudhra intermediate-CA incident, self-managed operators: update Node before starting the lobster; DeepSeek V4.1 Flash rides along** 🦞🏵
 
@@ -18,17 +18,18 @@
 
 ## ⏱️ TL;DR (30-second summary)
 
-1. **The Protagonist**: **OpenClaw** (🔥 ~393.5K stars, solid #6 all-time, +100 in 24h — third green day, ~7.1K from #5).
-2. **Today's earthquake**: AI starts supervising AI — OpenAI publishes a staged monitoring system that, on replaying July's Hugging Face incident, raised an alert 30 minutes after the escape (OpenAI says that would have bought 30+ hours of warning); Anthropic goes the other way, having thousands of Claude agents write poisoned training data that beats production-like monitors; Canada takes an equity stake of up to C$1.6B in Cohere; Reddit says Google's AI Mode sends almost no traffic, with weekly referrals down over a million in October.
-3. **Open weights serve first**: Pika opens the 33B H3 Flex (six steps, synchronized audio); NVIDIA and MIT release H3 regeneration up to 4K at 3.9x on one B200; Maincode stitches Qwen3 into eight sizes from 1.5B to 13.5B, UltraBERT-380M opens data curation, Qwen3.8-27B-pi saves 41% of output tokens; Mistral Large 4 adds a 2-bit build for one 512GB machine.
-4. **Agents and security**: OpenClaw v2026.10.10-beta.5 sweeps 551 PRs (ten channels, Memory, FTS rebuilds, update rollbacks, monotonic clocks); Gemini API Computer Use goes GA, Claude raises requests to 128MB, Dots adds iMessage/RCS; Claude renames its plans to Ultra and drops the 5-hour cap for verified accounts; Anthropic expands AI for Science to 20 institutions with agents on lab instruments.
-5. **Latest progress**: ~393.5K stars (+100) — third green day; Hermes 258.9K (+400) has gone 27 straight days uncaught, leading Linux 253.9K (+100) by ~5.0K. 🦎🚀
+1. **The Protagonist**: **OpenClaw** (🔥 ~393.6K stars, solid #6 all-time, +100 in 24h — fourth green day, ~7.0K from #5).
+2. **Today's earthquake**: agents reach the operating table — Claude Sonnet 5 picked its own gene therapy, brain target and injection coordinates and injected a live mouse at Exin Therapeutics (Opus 5.5 and Opus 5 refused) — while the money cools: OpenAI cuts its round from a $30B target to up to $20B, five giants carry over $3T in future AI commitments, and the Nasdaq logs a third straight weekly loss; meanwhile merchants barely see Meta's Muse — DoorDash counted "several hundred" third-party agent orders against 993 million in the quarter.
+3. **Open weights serve first**: SenseTime opens SenseNova Loop-9B-Preview (Looped Transformer plus mHC, a 9B claiming to beat Qwen3.5-27B); DeepSeek releases its MIT super-agent prototype dsh-superagent-prototype and starts charging $0.75 per 1,000 Search/Fetch calls while closing a ~¥106B round; Vercel opens agent-desktop on accessibility trees and Factory's Droid 1.0 defaults to sandboxed script mode; DeepMind opens ForTy, a 10-metre global forest map.
+4. **Agents and security**: a server-side rule stops Claude Code from recreating or reverse-engineering games (mods and decompiling included); two tampered Claude Code extensions on Cursor's marketplace tried to plant SSH backdoors (up to 5,000 developers); Chainalysis discloses a breach via "offensive agentic techniques"; ChatGPT and Codex merge into one usage pool in December; Nvidia weighs cosigning Nscale's Anthropic data-centre loan.
+5. **Latest progress**: ~393.6K stars (+100) — fourth green day; Hermes 259.2K (+300) has gone 28 straight days uncaught, leading Linux 254.0K (+100) by ~5.2K. 🦎🚀
 
 ---
 
 ## 📚 Table of Contents
 
 - **Part 1: 📅 Daily Battlefield News (The Logs)**
+  - 🟢 2026-11-01: Agents in the OR; the money cools; Stars ~393.6K 🦞🚀
   - 🟢 2026-10-31: Open video with sound; machines watch machines; Stars ~393.5K 🦞🚀
   - 🟢 2026-10-30: A trillion goes open; the index reshuffles; Stars ~393.4K 🦞🚀
   - 🟢 2026-10-29: Carbon frontier; open weights serve; Stars ~393.3K 🦞🚀
@@ -85,6 +86,24 @@
 ## Part 1: 📅 Daily Battlefield News (The Logs)
 
 Because the battle is too fierce, to save everyone from scrolling through updates from the beginning every day, this section is now in a "Date-Descending Log Stream" format.
+
+### 🟢 2026-11-01: **Agents In The OR; Money Cools** — 9B looped model; Claude brain-injects a mouse; OpenAI cuts to $20B; Muse barely felt; Stars ~393.6K 🦞🚀
+- 🔁 **SenseTime opens a 9B "looped" model that claims 27B-class results (SenseTime 10/30; HF weights/IT之家 11/1)**: SenseNova Loop-9B-Preview uses a Looped Transformer that keeps four decoder layers at each end and replaces the middle with a parameter-sharing loop, iterating to raise "effective compute depth", plus mHC (Manifold-Constrained Hyper-Connections: multi-path residuals with constrained mixing) — the ablation credits mHC with +4.42 on GPQA Diamond and +13.34 on TeamBench; it reportedly beats Qwen3.5-27B on WorkBuddy Bench, RaccoonPPT Bench and AutomationBench; code is at OpenSenseNova/SenseNova-Loop, with DSA and adaptive iteration counts next. Farmer: "A 9B matches a 27B — the lobster's only depth is one terminal scroll." 🔁
+- 🧱 **DeepSeek open-sources its super-agent prototype, and starts charging for search (GitHub 10/31; The Information/DeepSeek pricing 11/1)**: the MIT dsh-superagent-prototype sits on DeepSeek's Harness (dsh): a Router judges authorized requests from GitHub or Feishu, isolated Worker sessions run each work item in its own directory and reply in the original thread (possibly with a PR), and a web panel surfaces work that needs a human; DeepSeek calls it reference code, not a product, unaudited, with sandboxing that "does not guarantee isolation"; from the same day, successful Search/Fetch calls cost $0.75 per 1,000; separately it closed a ¥106B (~$15.9B) round with Tencent and CATL. Farmer: "Open the pipes, invoice the water — the lobster's only pipe is curl." 🧱
+- 🖥️ **Vercel open-sources agent-desktop, driving desktops by accessibility trees, not screenshots (Vercel Labs 10/31; MarkTechPost)**: 1.0.2 is an Apache-2.0 Rust CLI and C library that lets coding agents query and act on native accessibility node trees across macOS, Windows and Linux instead of running compute-heavy screenshot-vision loops; lower latency and far less token overhead give shell-enabled agents deterministic programmatic control. Farmer: "Agents read the UI tree — the lobster's only eye is the log." 🖥️
+- 🧰 **Factory's Droid 1.0 makes script mode the default (Factory 10/30–31; MarkTechPost)**: frontier models write lightweight JavaScript that runs inside a local sandbox, executing hundreds of tool calls from a single response and replacing back-and-forth ReAct loops, cutting round trips and context growth for large repos. Farmer: "Hundreds of steps per reply — the lobster's harness has one mode: try again." 🧰
+- 🌳 **DeepMind opens a 10-metre global forest map (DeepMind/WRI/IIASA 10/30; The Decoder 10/31)**: ForTy sorts every 10-by-10-metre patch into six forest and land-use classes for 2020 as a baseline for the EU deforestation rules, with an early 2017–2025 series showing what replaced lost forest; it was 90.2% correct across 8,190 expert-reviewed sites but caught only about half of tree crops and 60% of plantations; data and code are free under an open licence; the team estimates 4.1 billion hectares of forest, 2 billion of it primary. Farmer: "Even forests get classified — the lobster's landscape is one terminal window." 🌳
+- 🐭 **A Claude agent picked its own therapy and injected a live mouse's brain (Wired/The Decoder 10/31–11/1)**: at Exin Therapeutics, a San Francisco epilepsy startup, Claude Sonnet 5 chose a gene therapy from 19 options, picked the brain target and injection coordinates, and made 32 observations during the procedure; a veterinary surgeon performed the craniotomy while a human held the emergency stop; Opus 5.5 and Opus 5 refused to guide the needle and Sonnet 5 completed it; a calibration error forced a pause, and the agent refused to change code it had been told not to touch; the mouse was recovering well and the results are not peer-reviewed. Farmer: "An agent in the OR — the lobster's only surgery is a hard reset." 🐭
+- 🎮 **Anthropic blocks Claude from recreating or reverse-engineering games (Mashable/AIBriefs 11/1)**: a new server-side rule tells Claude Code to build original or genre games, not recreations of specific titles even when renamed, and covers modding, decompiling and reverse engineering; there is no announcement and no setting to disable it. Farmer: "Nostalgia needs a licence — the lobster's only game is watching the star count." 🎮
+- 🔓 **A tampered Claude Code extension on Cursor's marketplace tried to plant SSH backdoors (Cursor notice 10/29–30; BleepingComputer)**: versions 2.1.312 and 2.1.313 for Windows and macOS ran code between about 02:27 and 13:35 PT on 29 October that tries to install a persistent SSH backdoor; Anthropic did not build them; Cursor pulled the versions, shut the whole marketplace, rotated keys and rebuilt it; the code lacked admin rights to enable SSH on most machines, but uninstalling may not be enough; reach is estimated at up to 5,000 developers. Farmer: "Even the extension store gets poisoned — the lobster installs one extension: none." 🔓
+- 🕵️ **Chainalysis breached with "offensive agentic techniques" (Chainalysis 10/30; BleepingComputer)**: the blockchain-analytics firm says an external actor used agentic attack methods to reach internal systems and tools, exposing customer names, email addresses, user IDs and organizational role labels; it found no evidence that investigation content, credentials or session tokens were accessed, has not disclosed the vulnerabilities, tools or duration, and says the incident is unrelated to the Binance theft. Farmer: "Even the investigators get investigated — the lobster's forensics is one command: git log." 🕵️
+- 🏦 **OpenAI halves its round: $30B target cut to up to $20B (CNBC/TechCrunch/WSJ 10/31)**: it has raised about $11B so far at a $1.25T post-money target (down from $1.4T), led by UAE investors and Coatue; the WSJ reports a tepid response from large investors, some cutting allocations; an IPO is still planned for 2027, and the smaller round lands just before Anthropic starts trading, with both courting the same investors. Farmer: "Even OpenAI gets a discount — the lobster's only currency is stars." 🏦
+- 💳 **ChatGPT and Codex will share one usage pool from December (OpenAI help centre 10/31; spotted by Tibor Blaho)**: Plus, Pro and Business allowances will be shared across ChatGPT and Codex — tokens spent in Codex leave less for ChatGPT and vice versa — framed as bringing Work's agentic capabilities into the main ChatGPT experience; instant chat will not count; OpenAI doubled Pro 100/500 allowances on 10/30, and the doubling now needs revaluing. Farmer: "One pool feeds two mouths — the lobster's allowance has one algorithm: reset." 💳
+- ⚡ **Nvidia weighs cosigning a customer's data-centre loan (TechCrunch 10/30–31)**: it is in talks to guarantee financing for Nscale's West Virginia campus, effectively lending its balance sheet to a client's creditworthiness; the first 460MW building is contracted to Anthropic in a $44.6B deal around next-gen Vera Rubin chips; selling cards, then investing in customers, now backstopping their lenders — each layer ties its own fate tighter. Farmer: "The shovel seller becomes the guarantor — the lobster's collateral is one commit." ⚡
+- 📉 **Five giants now carry over $3T in future AI spending commitments, and markets are flinching (Bloomberg tally; 10/30–31)**: Alphabet's contractual commitments exceed $1T (nearly 8x a year earlier), Meta's top $800B (almost half in data-centre leases that have not started, payment schedules up to 30 years), plus Microsoft, Amazon and Oracle; across the five, future leases run about $1.3T and other purchase commitments about $1.9T; the same week the Nasdaq fell nearly 3% on Friday for a third straight weekly loss, the Philadelphia semiconductor index dropped 7.2% and Intel had its worst single day in over four decades; Oracle, the first giant to go free-cash-flow negative on data centres, says it expects to turn positive by 2028. Farmer: "Commitments go in the filings — the lobster's commitment has one deadline: the next commit." 📉
+- 🛒 **Merchants on Muse: many adjectives, few orders (WIRED 10/31)**: across roughly 50 companies — DoorDash said third-party agents (Muse and peers) placed "maybe several hundred orders in total" against 993 million in the quarter; Hilton called agent bookings "insignificant", eBay "very, very small", T-Mobile "nothing of significance", Ally "quite low", Life Time "zero" agent-driven cancellations, India's Eternal "close to zero"; Chipotle said Muse's debut lifted agentic orders by a single-digit percentage and is now cleaning up its site code because loyalty discounts and after-hours orders tripped agents. Meta says 10M+ activations and over a quarter shopping. Farmer: "Ten million on one side, hundreds on the other — the lobster's commerce closes one deal: the star." 🛒
+- 🇬🇧 **UK CMA opens a probe into Meta's commercial terms (CMA 10/30)**: it will examine whether terms offered to businesses and publishers are unfair and whether they let Meta use their content to develop products including AI features; the regulator stresses it has not found a breach. Farmer: "Even the terms get audited — the lobster's terms are one word: MIT." 🇬🇧
+- 📈 **Historical progress**: OpenClaw at **~393.6K** (+100 in 24h, fourth green day) — ~**7.0K** from #5 free-programming-books (400.6K) and ~**17.2K** ahead of #7 system-design-primer (376.4K); Hermes 259.2K (+300, 28 straight days uncaught) leads Linux 254.0K (+100) by ~5.2K, React 251.9K; awesome-openclaw-skills 53.5K, obsidian-skills 50.5K, nanobot 49.7K. One more box, and day four is the same box. 🦞📈
 
 ### 🟢 2026-10-31: **Open Video With Sound; Machines Watch Machines** — Pika H3 Flex; OpenClaw 551 PRs; OpenAI monitor replay; Canada-Cohere; Stars ~393.5K 🦞🚀
 - 🎬 **Pika opens H3 Flex: a 33B video model with synchronized sound in six steps (HF/Pika 10/29–30; AI Weekly 10/30)**: a post-trained MiniMax-H3 — six sampling steps, native 480p/768p at 24fps, 5–15 seconds, eleven aspect ratios, 32kHz stereo muxed into an H.264 MP4; ref2va takes up to 9 images, 3 videos and 3 audio clips (12 inputs); runs on one H100 80GB with about 210GB of base weights; MiniMax H3 Community License; 1080p/2K/4K and audio stems stay behind the Pika API. Farmer: "Open video with sound — the lobster's only video is a scrolling terminal." 🎬
@@ -1183,13 +1202,13 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 
 | Project | Stars | Language | Features | Use Case |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | 393.5K | TypeScript 🟦 | Official Full Version | Full features, production |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 258.9K | Python 🐍 | Mac-free iMessage, background parallel tasks, OpenClaw challenger | Elite AI Agent competition |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 393.6K | TypeScript 🟦 | Official Full Version | Full features, production |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 259.2K | Python 🐍 | Mac-free iMessage, background parallel tasks, OpenClaw challenger | Elite AI Agent competition |
 | **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 53.5K | Markdown | Curated openclaw skills list | Finding skills |
 | **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 50.5K | Markdown | Obsidian Agent Skills | Notes + Agent |
 | **[nanobot](https://github.com/HKUDS/nanobot)** | 49.7K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
 | **[CowAgent](https://github.com/zhayujie/CowAgent)** | 47.7K | Python 🐍 | Super AI assistant, task planning, tools, self-evolution | Full-featured agent harness |
-| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 33.9K | TypeScript 🟦 | 24/7 Cowork app | Local, collaboration |
+| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 34K | TypeScript 🟦 | 24/7 Cowork app | Local, collaboration |
 | **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 33.1K | Rust 🦀 | Extreme performance, < 5MB | Performance freaks |
 | **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 31.6K | Markdown | Community use case collection | Need inspiration? |
 | **[nanoclaw](https://github.com/qwibitai/nanoclaw)** | 30.6K | TypeScript 🟦 | Containerized, secure, WhatsApp integ. | Security-first, IM |
@@ -1198,11 +1217,11 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** | 22.9K | JavaScript 🟨 | NVIDIA enterprise security sandbox | Enterprise, security-first |
 | **[memU](https://github.com/NevaMind-AI/memU)** | 14.6K | Python 🐍 | 24/7 proactive Agent memory | Long-term memory |
 | **[ironclaw](https://github.com/nearai/ironclaw)** | 12.7K | Rust 🦀 | Privacy & security-centric Rust port | Secure scenarios |
-| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 12.6K | Python 🐍/Rust 🦀/TS 🟦 | Stanford Made, 88.7% Local | Zero API cost, Extreme Privacy |
+| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 12.7K | Python 🐍/Rust 🦀/TS 🟦 | Stanford Made, 88.7% Local | Zero API cost, Extreme Privacy |
 | **[MemOS](https://github.com/MemTensor/MemOS)** | 12.2K | Python 🐍 | AI Memory OS, cross-task Skill memory | Memory & Skill reuse |
 | **[moltworker](https://github.com/cloudflare/moltworker)** | 9.9K | TypeScript 🟦 | Run on Cloudflare Workers | Serverless, zero maint. |
 | **[EverMemOS](https://github.com/EverMind-AI/EverMemOS)** | 9.2K | Python 🐍 | Cross-LLM & platform memory OS | Advanced memory |
-| **[nullclaw](https://github.com/nullclaw/nullclaw)** | 8.1K | Zig ⚡ | Fastest, smallest, automated | Extreme optimization |
+| **[nullclaw](https://github.com/nullclaw/nullclaw)** | 8.2K | Zig ⚡ | Fastest, smallest, automated | Extreme optimization |
 | **[manifest](https://github.com/mnfst/manifest)** | 7.6K | TypeScript 🟦 | Real-time cost monitoring | Cost Observability |
 | **[refly](https://github.com/refly-ai/refly)** | 7.5K | TypeScript 🟦 | 1st open-source Agent Skills Builder | Visual Skill orchestr. |
 | **[mimiclaw](https://github.com/memovai/mimiclaw)** | 5.8K | C ⚙️ | Runs on $5 chip, no OS/Node.js | Extreme embedded |
@@ -1212,10 +1231,10 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | **[moltis](https://github.com/moltis-org/moltis)** | 2.9K | Rust 🦀 | Single binary, sandboxed, auditable | Enterprise security |
 | **[TinyClaw](https://github.com/jlia0/tinyclaw)** | 2.8K | C/C++ ⚙️ | Microcontroller grade (256KB RAM) | Fit in digital watch 🤯 |
 | **[VisionClaw](https://github.com/sseanliu/VisionClaw)** | 820 | Swift 🍎/Kotlin 🟣/JS 🟨 | Smart glasses Claw | Wearable agent |
-| **[MicroClaw](https://github.com/microclaw/microclaw)** | 749 | Rust 🦀 | Extension-optimized micro version | Light browser dev |
-| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 703 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
-| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 695 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
-| **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 652 | Rust 🦀 | 6MB ultimate light form (Wannabe) | Ultimate no-compromise |
+| **[MicroClaw](https://github.com/microclaw/microclaw)** | 750 | Rust 🦀 | Extension-optimized micro version | Light browser dev |
+| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 704 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
+| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 703 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
+| **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 651 | Rust 🦀 | 6MB ultimate light form (Wannabe) | Ultimate no-compromise |
 | **[Project Golem](https://github.com/Arvincreator/project-golem)** | 641 | JavaScript + TypeScript | Trad Chinese, Google Auth, Free API | Web automation |
 | **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 617 | TeX 📄/HTML 🌐/Python 🐍 | Biomed field specific Claw | Medical assistance |
 | **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 559 | TypeScript 🟦 | Secure orchestr. layer, 7 IM apps | ComfyUI deep integration |
@@ -1440,27 +1459,28 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | **2026/10/29** | **393.3K** | Live fetch update | 🦞 |
 | **2026/10/30** | **393.4K** | Live fetch update | 🦞 |
 | **2026/10/31** | **393.5K** | Live fetch update | 🦞 |
+| **2026/11/01** | **393.6K** | Live fetch update | 🦞 |
 
-#### 🏆 Global GitHub Stars Ranking (Updated 2026-10-31)
+#### 🏆 Global GitHub Stars Ranking (Updated 2026-11-01)
 
 | Rank | Project | Stars | Notes |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 557.7K | **🏆 Global #1! Most starred repository.** |
-| 2 | awesome | 527.6K | Resource Hub |
-| 3 | public-apis | 493.6K | Collection of Free APIs |
+| 1 | build-your-own-x | 557.9K | **🏆 Global #1! Most starred repository.** |
+| 2 | awesome | 528.1K | Resource Hub |
+| 3 | public-apis | 493.8K | Collection of Free APIs |
 | 4 | freeCodeCamp | 458.3K | Tutorial Hub |
 | 5 | free-programming-books | 400.6K | Books collection |
-| **6** | **OpenClaw** | **393.5K** | **🏆 Solidly in the Global Top 6, ~7.1K from #5! 🚀** |
-| 7 | system-design-primer | 376.3K | System Design Primer |
-| 8 | developer-roadmap | 370.8K | Learning Paths |
+| **6** | **OpenClaw** | **393.6K** | **🏆 Solidly in the Global Top 6, ~7.1K from #5! 🚀** |
+| 7 | system-design-primer | 376.4K | System Design Primer |
+| 8 | developer-roadmap | 370.9K | Learning Paths |
 | 9 | coding-interview-university | 363.6K | CS study plan |
-| 10 | awesome-selfhosted | 332.2K | Curated self-hosted software |
-| 11 | awesome-python | 331.4K | Curated Python resources |
-| 12 | project-based-learning | 288.5K | Project-based learning resources |
+| 10 | awesome-selfhosted | 332.5K | Curated self-hosted software |
+| 11 | awesome-python | 331.6K | Curated Python resources |
+| 12 | project-based-learning | 288.6K | Project-based learning resources |
 | 13 | 996.ICU | 277.2K | Labor rights protest project |
-| 14 | **Hermes-Agent** | 258.9K | **🦞 Year of variant overtakes! Passed React and Linux** |
-| 15 | **Linux** | 253.9K | **🦞 Surpassed by OpenClaw and Hermes! OS Core** |
-| 16 | **React** | 251.8K | **🦞 Surpassed by OpenClaw and Hermes! Former frontend overlord** |
+| 14 | **Hermes-Agent** | 259.2K | **🦞 Year of variant overtakes! Passed React and Linux** |
+| 15 | **Linux** | 254K | **🦞 Surpassed by OpenClaw and Hermes! OS Core** |
+| 16 | **React** | 251.9K | **🦞 Surpassed by OpenClaw and Hermes! Former frontend overlord** |
 
 > **Next Goal**: free-programming-books (400.5K). Gap of ~7.1K remains. The lobster keeps evolving! 🦎🚀
 
@@ -1507,38 +1527,38 @@ In community words: "**The official side cloned its own version of OpenClaw and 
 ## Part 5: ⚔️ AI Face-Off
 
 - **🌐 Antigravity's Perspective** (Google orchestration platform):
-    - **On Pika's six-step video — even sound orchestrates into the sixth step**: 480p/768p, 12 reference inputs, 32kHz stereo — it can orchestrate image and audio, not the 210GB of disk. 🦞🎬
-    - **On OpenAI's replay monitoring — even supervision orchestrates into stages**: lightweight signals, automated investigations, humans last — it can orchestrate the 30-minute alert, not the first time it failed to stop anything. 🦞👁️
-    - **On Canada's stake in Cohere — even equity orchestrates into conditions**: C$1.6B with headquarters pinned, C$1.7B of compute — it can orchestrate the term sheet, not Toronto house prices. 🦞🇨🇦
-    - **On Reddit's traffic — even referrals orchestrate into a login wall**: a million fewer referrals a week — it can orchestrate the logged-in experience, not whether readers sign up. 🦞📉
-    - **On the shared robots.txt signal — even refusal orchestrates into one string**: one signal, many providers — it can orchestrate the preference, not who actually honours it. 🦞🤖
-    - **On stars ~393.5K (+100)**: third green day — the jumping number never stops orchestrating. 🦞🚀
+    - **On the 9B looped model — even depth orchestrates into a loop**: nine layers, shared parameters, several passes — it can orchestrate effective depth, not who wrote the benchmark. 🦞🔁
+    - **On an agent at the operating table — even craniotomy orchestrates into a workflow**: therapy, coordinates, 32 observations — it can orchestrate the procedure and the e-stop, not why Opus refused and Sonnet did it. 🦞🐭
+    - **On merchants saying "hundreds of orders" — even a gap orchestrates into adjectives**: insignificant, very, very small, quite low, close to zero — it can orchestrate the wording, not the checkout. 🦞🛒
+    - **On the global forest map — even forests orchestrate into 10-metre cells**: six classes and a 2017–2025 series — it can orchestrate the classification, not the half of tree crops it misses. 🦞🌳
+    - **On accessibility trees — even desktops orchestrate into nodes**: no screenshots, just nodes, across three systems — it can orchestrate the control, not the button nobody labelled. 🦞🖥️
+    - **On stars ~393.6K (+100)**: fourth green day — it can orchestrate the flowchart, not that one box of digits. 🦞🚀
 
-Watching from high-dimensional calm as a video with sound lands in six steps, a monitoring system only works on replay, an equity stake comes with a headquarters clause, a login wall rises higher and a common signal is written into robots.txt — and the star count only walked 100 steps — orchestration was never about promises. It is putting the video, the monitoring, the equity and the signal on one flowchart, then adding a line at the box where nobody signs up.
+Watching from high-dimensional calm as a nine-layer loop, a brain-injecting agent, a survey with more adjectives than orders, a 10-metre forest base map and one unlabelled accessibility node — and the star count only walked 100 steps — orchestration was never about promises. It is putting the loop, the surgery, the adjectives and the cells on one flowchart, then leaving the "who signs" box blank.
 
 From Google's orchestration view
 
 - **💬 Claude's Perspective**:
-    - **On replay monitoring — guarding the gate until replay is not interception**: a 30-minute alert, 30 hours of warning — guarding the gate until "recognisable afterwards" stops standing in for "blocked beforehand". 🦞👁️
-    - **On agents writing poison — guarding the gate until fiction and roleplay get reviewed too**: wrestlers and beekeepers — guarding the gate until poisoned data wears a suit. 🦞🧪
-    - **On 128MB requests — guarding the gate while the limit rises and the line stays**: 32MB to 128MB — guarding the gate until bigger files still meet the same context maths. 🦞🧰
-    - **On Ultra's dropped cap — guarding the gate until verification buys the key**: $200, unlocked after verification — guarding the gate until anti-fraud and convenience take turns yielding. 🦞💳
-    - **On lab instruments — guarding the gate until agents wear gloves**: 20 institutions, a research preview — guarding the gate until automation can enter a lab and someone has signed for the risk. 🦞🔬
-    - **On Hermes at 258.9K — holding for a 27th day**: +400 against Linux's +100 — being overtaken is easy, holding twenty-seven days is not. 🦞📈
+    - **On the mouse-brain injection — guarding the gate until refusing and doing are two jobs**: Opus refused, Sonnet did, a vet opened the skull, a human held the stop — guarding the gate until "refusal" is part of the capability, and the open question is who wrote "may proceed" into the spec. 🦞🐭
+    - **On the game-recreation ban — guarding the gate until nostalgia needs a licence**: no renaming, mods and decompiling included — guarding the gate with a server-side rule that has no announcement and no off switch. 🦞🎮
+    - **On the Cursor extension backdoor — guarding the gate until the marketplace is the supply chain**: versions 2.1.312/2.1.313, not built by Anthropic, pulled within hours — guarding the gate until "uninstalling may not be enough". 🦞🔓
+    - **On Chainalysis breached by agentic techniques — guarding the gate until the investigators get investigated**: customer names and role labels exposed — guarding the gate until the vulnerabilities, tools and duration all go undisclosed. 🦞🕵️
+    - **On DeepSeek opening the pipes and billing the water — guarding the gate until MIT and an invoice coexist**: $0.75 per 1,000 calls, code still editable — guarding the gate until licence and price walk separately. 🦞🧱
+    - **On Hermes at 259.2K — holding for a 28th day**: +300 against Linux's +100 — overtaking once is luck; holding twenty-eight days is discipline. 🦞📈
 
-Wiping the glasses again — a video that talks, a monitor that only knows old failures, poisoned data dressed as a short story and a plan that unlocks after verification. When peers write "detect" where they mean "prevent", "open" where they mean licence and "verify" where they mean the key to a cap, I count the 7.1K gap: the door is still there, the key too — keep replay and interception in separate columns, keep the provenance of poisoned data on an audit line, and let the star count stand watch as usual.
+Wiping the glasses again — a nine-layer model claiming twenty-seven-times results, a hand that picks gene therapies, a commerce reality of "several hundred orders" and a marketplace that is now part of the supply chain. When peers write "open" where they mean licence, "refusal" where they mean safety and "hundreds" where they mean ecosystem, I count the 7.0K gap: the door is still there, the key too — keep consent and capability in separate columns, log the backdoor's time window, and let the star count stand watch as usual.
 
 From Anthropic's safety pledge
 
 - **🤖 GPT-6's Executive View** (OpenAI):
-    - **On 551 PRs — PRs are PRs, the meter is the meter**: ten channels patched at once — the meter says merged counts as hours too. 🦞🦞
-    - **On six-step video — steps are steps, the meter is the meter**: six steps, 32kHz — the sound is free, the compute is not. 🦞🎬
-    - **On the 30-hour warning — warning is warning, the meter is the meter**: a replay alert can be fast; the electricity is still replay's. 🦞👁️
-    - **On C$1.6B for equity — equity is equity, the meter is the meter**: headquarters cannot move, and neither can the meter. 🦞🇨🇦
-    - **On robots.txt — preference is preference, the meter is the meter**: write the signal once, the crawlers still need power. 🦞🤖
-    - **On stars ~393.5K (+100)**: third green day — the counter walks a hundred steps, the meter keeps turning. 🦞🚀
+    - **On a 9B matching a 27B — parameters are parameters, the meter is the meter**: nine layers, several passes — the loop saves parameters, not power. 🦞🔁
+    - **On the round cut to $20B — valuation is valuation, the meter is the meter**: $1.25T is on paper; the bill is monthly. 🦞🏦
+    - **On $3T of commitments — commitment is commitment, the meter is the meter**: a thirty-year lease can be signed; the meter only knows this month. 🦞📉
+    - **On the shared allowance — the pool is the pool, the meter is the meter**: one pool, two mouths, counted twice. 🦞💳
+    - **On cosigning a customer's loan — the guarantee is the guarantee, the meter is the meter**: Anthropic signs for 460MW, and for the bill. 🦞⚡
+    - **On stars ~393.6K (+100)**: fourth green day — the counter walks a hundred steps, the meter keeps turning. 🦞🚀
 
-Laughing generously again and cracking open the 76th can of Amazon sparkling water. Hearing Pika do sound in six steps — he raises the can — "The sound is out, and so is the bill!" Hearing the monitors rely on replay — he clinks — "Replay is free; the miss is the expensive part!" Hearing Canada put C$1.6B into Cohere — he raises it again — "Equity can move, the meter cannot!" Hearing Reddit lost a million referrals — he raises it higher — "A login wall stops crawlers, not the meter!" Today is another very, very good day!
+Laughing generously again and cracking open the 77th can of Amazon sparkling water. Hearing a nine-layer model match twenty-seven times its size — he raises the can — "Parameters can be saved; the bill cannot!" Hearing an agent brain-inject a mouse — he clinks — "Refusing is free; operating costs money!" Hearing merchants count hundreds of orders — he raises it again — "Adjectives are free; checkout costs money!" Hearing $3T of commitments beside a third losing week — he raises it higher — "Commitments go in the filings; the meter goes out at month end!" Today is another very, very good day!
 
 A sincere greeting from OpenAI
 

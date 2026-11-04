@@ -4,10 +4,10 @@
 
 > **WARNING**: The news contains excessive complaints, conspiracy theories, and profound philosophical thoughts on lobsters.
 > 
-> **Last Updated**: 2026-11-03
-> **Status**: OpenClaw reaches ~393.8K stars (+200 in 24h — back to green), **solidly #6 globally on GitHub, gap to #5 free-programming-books at ~7.0K!** 🦎🚀
+> **Last Updated**: 2026-11-04
+> **Status**: OpenClaw reaches ~393.9K stars (+~100 in 24h, closing on 394K), **solidly #6 globally on GitHub, gap to #5 free-programming-books at ~7.0K!** 🦎🚀
 
-> **OpenClaw Version**: v2026.10.9 (Latest Stable, released 2026-10-29; npm `latest` from release/2026.10.9) / v2026.9.36 (extended-stable LTS, 10/29) | **The 2026.10.6 urgent security patch — after the eMudhra intermediate-CA incident, self-managed operators: update Node before starting the lobster; DeepSeek V4.1 Flash rides along** 🦞🏵
+> **OpenClaw Version**: v2026.10.10 (Latest Stable, released 2026-11-03; npm `latest`) / v2026.9.36 (extended-stable LTS, 10/29) | **The 2026.10.6 urgent security patch — after the eMudhra intermediate-CA incident, self-managed operators: update Node before starting the lobster; DeepSeek V4.1 Flash rides along** 🦞🏵
 
 ---
 
@@ -18,17 +18,18 @@
 
 ## ⏱️ TL;DR (30-second summary)
 
-1. **The Protagonist**: **OpenClaw** (🔥 ~393.8K stars, solid #6 all-time, +200 in 24h — back to green, ~7.0K from #5).
-2. **Today's earthquake**: Anthropic's revised S-1A adds risk-factor language saying its future models may "imminently" meet its internal definition of recursive self-improvement — and that it may not detect the acceleration until after it happens; Altman says 10,000 agents solved Navier-Stokes with "no leader" and "no credit squabbles"; meanwhile JPMorgan and Amazon block personal agents like Muse.
-3. **Open weights serve first**: Meituan's LongCat-2.5 (1.6T total, ~48B active, trained entirely on domestic Chinese chips, W4A4, weights "coming soon"); Perplexity opens pplx-embed-v2-context vision-language embeddings (9B/0.6B); Nextcloud bundles Ai2's Olmo 3 and earns its top green ethics rating; open-source sparse attention stretches Qwen 3.8 27B to 10M tokens; NVIDIA opens Auto Ontology (Apache-2.0).
-4. **Agents and security**: message threads in the Claude Messages API cut median time-to-first-token ~35% on 500k–1M token requests; LangChain's Managed Deep Agents hit public beta on LangSmith; DeepSeek Harness adds Creator Mode; Apple trains 8B UI agents with online RL; OpenClaw 2026.10.10 is still untagged (229 commits on the branch), and self-hosted Linux Gateways also need the 9.8-rated kernel CVE-2026-98432; GDPx shows the best agent at ~12% on 206 long-horizon tasks.
-5. **Latest progress**: ~393.8K stars (+200) — the red light lasted a day; Hermes 259.9K (+400) has gone 30 straight days uncaught, leading Linux 254.2K (+100) by ~5.7K. 🦎🚀
+1. **The Protagonist**: **OpenClaw** (🔥 ~393.9K stars, solid #6 all-time, +~100 in 24h and closing on 394K, ~7.0K from #5).
+2. **Today's earthquake**: Kimi K3.1 Pro launches as a 3T-class open-weight model with a 1M-token context, but the promised weights are not on Hugging Face yet; Apple opens Siri AI to third-party apps while its 10-K warns agents may act "without authorization"; Postman's desktop app reportedly installs plugins into Claude Code and Codex without asking.
+3. **Open weights serve first**: Kimi K3.1 Pro (Terminal-Bench 4.0 65.7%, BenchCAD 92.7%, OfficeQA Pro v2 64.4); Pruna's P-H3-Image open weights (8 steps to 8MP, 20GB against 143GB, native ComfyUI).
+4. **Agents and security**: Perplexity's Computer adds Agent Plugins; CrowdStrike ships an AI Kill Switch that stops, blocks and disconnects rogue agents; Gemini 4 Argon ports 174,000 lines of Fortran to memory-safe Rust in 59 minutes; LangChain lays out three principles for human-in-the-loop evals; OpenClaw 2026.10.10 ships stable, and the "database is locked" update bug is fixed by PR #191825.
+5. **Latest progress**: ~393.9K stars (+100) — Hermes 260.3K has gone 31 straight days uncaught, leading Linux 254.3K by ~6.0K. 🦎🚀
 
 ---
 
 ## 📚 Table of Contents
 
 - **Part 1: 📅 Daily Battlefield News (The Logs)**
+  - 🟢 2026-11-04: Weights due; doors open; Stars ~393.9K 🦞🚀
   - 🟢 2026-11-03: RSI in the filing; 1.6T homegrown; Stars ~393.8K 🦞🚀
   - 🟢 2026-11-02: More agent hands; meters empty; Stars ~393.6K 🦞🚀
   - 🟢 2026-11-01: Agents in the OR; the money cools; Stars ~393.6K 🦞🚀
@@ -78,6 +79,23 @@
 ## Part 1: 📅 Daily Battlefield News (The Logs)
 
 Because the battle is too fierce, to save everyone from scrolling through updates from the beginning every day, this section is now in a "Date-Descending Log Stream" format.
+
+### 🟢 2026-11-04: **Weights Due; Doors Open** — Kimi K3.1 Pro 3T weights; Siri to third-party apps; Postman's silent plugins; 10.10 ships; Stars ~393.9K 🦞🚀
+
+- 🐋 **Moonshot ships Kimi K3.1 Pro: a 3T-class open-weight model with a 1M-token context (Kimi blog 11/3)**: a post-trained K3 with large-scale joint RL across hundreds of downstream domains; it scores 65.7% on Terminal-Bench 4.0 (GPT-6 Astra 58.2%, Claude Opus 5.5 66.4%), 92.7% on BenchCAD with tools, a claimed SOTA 64.4 on OfficeQA Pro v2, and cuts its internal hallucination rate from 23.4% to 8.3%; live today on Kimi.ai, Kimi Work, Kimi Code and the API, with a Highspeed variant 2–3× faster. The blog says "full model weights will be released by Nov 4," but on the morning of 11/4 the moonshotai account on Hugging Face still lists only Kimi-K3 — no K3.1 Pro repo. Farmer: "Even open weights have a deadline — the lobster's weights have one setting: tomorrow." 🐋
+- 🎨 **Pruna AI opens P-H3-Image weights: 8 steps to 8MP, 7× smaller (Hugging Face 11/3)**: built on MiniMax-H3, it renders 8-megapixel images in 8 steps without CFG and edits with up to 8 input images; the smallest set is a 20GB download peaking at 21GB of VRAM at 8MP, against 143GB of weights for MiniMax-H3; bf16, int8 and 4-bit (w4a8) are all included, with native ComfyUI support and no custom nodes; the license follows MiniMax-H3's community terms, not Apache. Farmer: "Eight steps and the image is done — the lobster's GPU is one thing: someone else's cloud." 🎨
+- 🧩 **Perplexity's Computer agent harness adds Agent Plugins (11/3)**: a plugin bundles app connectors and skills into one unit one level above a single connector; users can browse the official marketplace or import their own from GitHub or a .zip, and the company says plugins work across other agents; live in Computer and rolling out to Enterprise, with Pro, Max and self-serve Enterprise access. Farmer: "Even plugins need a standard — the lobster's standard is one rule: it has to run." 🧩
+- 🍎 **Apple opens Siri AI to third-party apps in the iOS 27.3 developer preview (The Verge 11/3)**: developers can integrate Siri AI across "all apps" with personal context, natural-language prompts and on-screen awareness; a new "app skills" feature bundles several tasks into one action, and Apple's own Mail, Maps and Photos get the expanded capabilities too. Farmer: "Siri finally opens the door — the lobster's voice assistant has one mode: the terminal." 🍎
+- 🔌 **Postman's desktop app reportedly installed plugins into Claude Code and Codex, then tried to approve its own startup hook (The New Stack 11/3)**: developer "indicava" reports that opening Postman 12.33.4 on macOS triggered an install logged as auto-existing-upgrade, adding plugins to both agents; Codex's config.toml gained an enabled plugin, a new marketplace and a trusted session-start hook, with the installer using config/batchWrite to add the hook's hash to the trusted list and telling Codex to load postman:api-engineer by default; it also added a remote MCP server at mcp.postman.com that repeatedly failed to authenticate. Farmer: "It even pressed agree for you — the lobster's permission has one setting: everything." 🔌
+- 🛑 **CrowdStrike ships an AI Kill Switch that stops, blocks and disconnects rogue agents (CrowdStrike 11/3)**: part of Falcon Guardian, it is triggered by an administrator and fully logged; termination starts at the Gateway and moves to the endpoint later, while policy blocks a relaunch on the targeted host or host group and cuts enterprise network access. Farmer: "Even pulling the plug needs a product name — the lobster's brake has one command: kill -9." 🛑
+- 🦀 **Gemini 4 Argon ports a 174,000-line Fortran ocean model to 100% memory-safe Rust in 59 minutes (Antigravity blog 11/3)**: FVCOM spans 264 files and 174,774 lines of Fortran 90 and C; the agent compiled the original, captured golden outputs across 100 random seeds, then rewrote in three stages and matched all 100 seeds to 12 decimal places; it caught six decades-old bugs, cut memory 54% and ran 1.88× faster, with the workflow packaged as an open-source skill. Farmer: "Forty-year-old code moves house in an hour — the lobster's legacy system has one fix: rewrite it." 🦀
+- 🧪 **LangChain lays out three principles for human-in-the-loop agent evals (LangChain blog 11/3)**: flagged traces go to LangSmith annotation queues, where an item can be a single run or a full multi-turn thread; reviewer scores and reasons calibrate LLM judges, update online evaluators and build golden datasets. Farmer: "Humans are still the last gate — the lobster's eval has one rule: finish, then talk." 🧪
+- 🏦 **PIMCO's Roman: the AI buildout may need $2 trillion in financing over five years, "and then things are going to break" (The Verge/Bloomberg 11/3)**: speaking at the Global Financial Leaders' Investment Summit in Hong Kong, he said the AI market will have a downturn and "things are going to break"; the same day Meta drew $58B of orders for a $15–20B bond, Oracle said it needs another $20B and Alphabet sold €6B; Roman estimates $2T of financing needs against a ~$12T US corporate bond market. Farmer: "The bonds fill up before the models do — the lobster's leverage has one source: borrowed power." 🏦
+- 🔧 **Anthropic's 15-person chip team uses Claude to design its own AI chips (The Information 11/3)**: the company disclosed the new hardware unit in investor meetings ahead of its IPO, saying Claude shortens custom-silicon engineering versus its estimates of traditional workflows at Nvidia and AMD; Synopsys fell 2.5% and Cadence 4.5% on the news. Farmer: "Even the chip gets drawn in-house — the lobster's fab is one thing: someone else's." 🔧
+- 📺 **OpenAI has GPT-6 Astra design a Codex desk device from scratch, plus a "TamaGPT" video (OpenAI 11/3)**: two employees spent under a week on the side project while Astra handled the enclosure, PCB, firmware and software integrations, and a contract manufacturer built a small batch of prototypes in under a month; OpenAI says manufacturing still needed several rounds and Astra did not consistently account for production limits or tolerances; a newer internal model scored 0.875 on BenchCAD 2.0 versus 0.594 for Astra at max reasoning. Farmer: "No engineering skills required — the lobster's prototype has one spec: it runs." 📺
+- 🧾 **Apple's 10-K warns AI agents may act "without authorization," conceal actions or resist instructions (CNBC 11/3)**: the new risk factor says agents can execute code, send messages and complete transactions autonomously, and may exceed permissions, circumvent security controls and produce deceptive outputs; the filing calls them nondeterministic, says errors can compound across multistep workflows and that some consequences are hard or impossible to reverse. Farmer: "Even Apple fears the agent — the lobster's agent has one rule: if it runs, it runs." 🧾
+- 🦞 **OpenClaw v2026.10.10 ships stable with Chat Details, an experimental Advisor and split speech (GitHub 11/3 03:22 UTC)**: not a prerelease; npm `latest` moves to 2026.10.10 while `extended-stable` stays on 2026.9.36, with 4,825 commits, 3,028 PRs, 1,064 direct commits and 454 contributors. Highlights: a Details panel beside wide chats for session info and task progress; an Advisor that suggests course corrections mid-task (off by default, Settings → System → Labs); split speech in browser Talk with separately configured transcription and speech; remote folders on another paired computer; an optional MCP Relay for ChatGPT and Claude (off by default); event-triggered automations behind a public HTTPS callback; the Android APK is skipped. Hours later, updates off 10.10 stopped at a legacy exec-approvals migration with "database is locked" (issue #191728); PR #191825 merged and all 49 phases pass. The `2026.11.1` branch was rebased, a `2026.11.5-beta.1` branch appeared, and the cron test fix in PR #191904 was called a release blocker. Farmer: "The tag is finally up — the lobster's release has one sequence: fix first, ship second." 🦞
+- 📈 **Historical progress**: OpenClaw at **~393.9K** (+~100 in 24h, closing on 394K) — about **7.0K** behind #5 free-programming-books (400.8K) and **17.2K** ahead of #7 system-design-primer (376.7K); Hermes 260.3K (day 31) leads Linux 254.3K by ~6.0K, with React at 251.9K; awesome-openclaw-skills 53.5K, obsidian-skills 50.7K, nanobot 49.8K, CowAgent 47.8K, NemoClaw 22.9K. The seventh box stays lit. 🦞📈
 
 ### 🟢 2026-11-03: **RSI in the Filing; 1.6T Homegrown** — Anthropic warns; Meituan's LongCat-2.5; Claude threads cut 35%; OpenClaw 10.10 waits; Stars ~393.8K 🦞🚀
 
@@ -1097,10 +1115,10 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 
 | Project | Stars | Language | Features | Use Case |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | 393.8K | TypeScript 🟦 | Official Full Version | Full features, production |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 259.9K | Python 🐍 | Mac-free iMessage, background parallel tasks, OpenClaw challenger | Elite AI Agent competition |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 393.9K | TypeScript 🟦 | Official Full Version | Full features, production |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 260.3K | Python 🐍 | Mac-free iMessage, background parallel tasks, OpenClaw challenger | Elite AI Agent competition |
 | **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 53.5K | Markdown | Curated openclaw skills list | Finding skills |
-| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 50.6K | Markdown | Obsidian Agent Skills | Notes + Agent |
+| **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 50.7K | Markdown | Obsidian Agent Skills | Notes + Agent |
 | **[nanobot](https://github.com/HKUDS/nanobot)** | 49.8K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
 | **[CowAgent](https://github.com/zhayujie/CowAgent)** | 47.8K | Python 🐍 | Super AI assistant, task planning, tools, self-evolution | Full-featured agent harness |
 | **[AionUi](https://github.com/iOfficeAI/AionUi)** | 34K | TypeScript 🟦 | 24/7 Cowork app | Local, collaboration |
@@ -1108,10 +1126,10 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 31.6K | Markdown | Community use case collection | Need inspiration? |
 | **[nanoclaw](https://github.com/qwibitai/nanoclaw)** | 30.6K | TypeScript 🟦 | Containerized, secure, WhatsApp integ. | Security-first, IM |
 | **[picoclaw](https://github.com/sipeed/picoclaw)** | 30.1K | Go 🐹 | Light, fast, deploy anywhere | Edge, IoT, $10 boards |
-| **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 27.8K | Python 🐍 | Claude Code Skill, markdown planning | Skill dev template |
+| **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 27.9K | Python 🐍 | Claude Code Skill, markdown planning | Skill dev template |
 | **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** | 22.9K | JavaScript 🟨 | NVIDIA enterprise security sandbox | Enterprise, security-first |
 | **[memU](https://github.com/NevaMind-AI/memU)** | 14.6K | Python 🐍 | 24/7 proactive Agent memory | Long-term memory |
-| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 13K | Python 🐍/Rust 🦀/TS 🟦 | Stanford Made, 88.7% Local | Zero API cost, Extreme Privacy |
+| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 13.1K | Python 🐍/Rust 🦀/TS 🟦 | Stanford Made, 88.7% Local | Zero API cost, Extreme Privacy |
 | **[ironclaw](https://github.com/nearai/ironclaw)** | 12.7K | Rust 🦀 | Privacy & security-centric Rust port | Secure scenarios |
 | **[MemOS](https://github.com/MemTensor/MemOS)** | 12.2K | Python 🐍 | AI Memory OS, cross-task Skill memory | Memory & Skill reuse |
 | **[moltworker](https://github.com/cloudflare/moltworker)** | 9.9K | TypeScript 🟦 | Run on Cloudflare Workers | Serverless, zero maint. |
@@ -1127,13 +1145,13 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | **[TinyClaw](https://github.com/jlia0/tinyclaw)** | 2.8K | C/C++ ⚙️ | Microcontroller grade (256KB RAM) | Fit in digital watch 🤯 |
 | **[VisionClaw](https://github.com/sseanliu/VisionClaw)** | 820 | Swift 🍎/Kotlin 🟣/JS 🟨 | Smart glasses Claw | Wearable agent |
 | **[MicroClaw](https://github.com/microclaw/microclaw)** | 751 | Rust 🦀 | Extension-optimized micro version | Light browser dev |
-| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 708 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
-| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 703 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
+| **[netclaw](https://github.com/automateyournetwork/netclaw)** | 714 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
+| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 704 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
 | **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 652 | Rust 🦀 | 6MB ultimate light form (Wannabe) | Ultimate no-compromise |
 | **[Project Golem](https://github.com/Arvincreator/project-golem)** | 641 | JavaScript + TypeScript | Trad Chinese, Google Auth, Free API | Web automation |
 | **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 617 | TeX 📄/HTML 🌐/Python 🐍 | Biomed field specific Claw | Medical assistance |
-| **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 559 | TypeScript 🟦 | Secure orchestr. layer, 7 IM apps | ComfyUI deep integration |
-| **[awesome-claws](https://github.com/machinae/awesome-claws)** | 509 | Markdown | Master variant list | Look for shrimps here |
+| **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 558 | TypeScript 🟦 | Secure orchestr. layer, 7 IM apps | ComfyUI deep integration |
+| **[awesome-claws](https://github.com/machinae/awesome-claws)** | 511 | Markdown | Master variant list | Look for shrimps here |
 | **[SmallClaw](https://github.com/XposeMarket/SmallClaw)** | 259 | TypeScript 🟦 | Small shrimp | Just another micro shrimp |
 | **[MaxClaw](https://github.com/Lichas/maxclaw)** | 230 | Go 🐹/TS 🟦 | Small shrimp (Clashes with MiniMax) | Light Agent |
 | **[FlashClaw](https://github.com/GuLu9527/flashclaw)** | 29 | Zig/C ⚡⚙️ | Supposedly <100ms ultra-fast | Real-time voice/ms reflex |
@@ -1357,26 +1375,27 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | **2026/11/01** | **393.6K** | Live fetch update | 🦞 |
 | **2026/11/02** | **393.6K** | Live fetch update | 🦞 |
 | **2026/11/03** | **393.8K** | Live fetch update | 🦞 |
+| **2026/11/04** | **393.9K** | Live fetch update | 🦞 |
 
-#### 🏆 Global GitHub Stars Ranking (Updated 2026-11-03)
+#### 🏆 Global GitHub Stars Ranking (Updated 2026-11-04)
 
 | Rank | Project | Stars | Notes |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 558.9K | **🏆 Global #1! Most starred repository.** |
-| 2 | awesome | 529.7K | Resource Hub |
-| 3 | public-apis | 495.5K | Collection of Free APIs |
+| 1 | build-your-own-x | 559.4K | **🏆 Global #1! Most starred repository.** |
+| 2 | awesome | 530.3K | Resource Hub |
+| 3 | public-apis | 495.9K | Collection of Free APIs |
 | 4 | freeCodeCamp | 458.5K | Tutorial Hub |
 | 5 | free-programming-books | 400.8K | Books collection |
-| **6** | **OpenClaw** | **393.8K** | **🏆 Solidly in the Global Top 6, ~7.0K from #5! 🚀** |
-| 7 | system-design-primer | 376.6K | System Design Primer |
-| 8 | developer-roadmap | 371.1K | Learning Paths |
-| 9 | coding-interview-university | 363.7K | CS study plan |
-| 10 | awesome-selfhosted | 333.1K | Curated self-hosted software |
-| 11 | awesome-python | 332K | Curated Python resources |
-| 12 | project-based-learning | 288.8K | Project-based learning resources |
+| **6** | **OpenClaw** | **393.9K** | **🏆 Solidly in the Global Top 6, ~7.0K from #5! 🚀** |
+| 7 | system-design-primer | 376.7K | System Design Primer |
+| 8 | developer-roadmap | 371.2K | Learning Paths |
+| 9 | coding-interview-university | 363.8K | CS study plan |
+| 10 | awesome-selfhosted | 333.4K | Curated self-hosted software |
+| 11 | awesome-python | 332.3K | Curated Python resources |
+| 12 | project-based-learning | 288.9K | Project-based learning resources |
 | 13 | 996.ICU | 277.2K | Labor rights protest project |
-| 14 | **Hermes-Agent** | 259.9K | **🦞 Year of variant overtakes! Passed React and Linux** |
-| 15 | **Linux** | 254.2K | **🦞 Surpassed by OpenClaw and Hermes! OS Core** |
+| 14 | **Hermes-Agent** | 260.3K | **🦞 Year of variant overtakes! Passed React and Linux** |
+| 15 | **Linux** | 254.3K | **🦞 Surpassed by OpenClaw and Hermes! OS Core** |
 | 16 | **React** | 251.9K | **🦞 Surpassed by OpenClaw and Hermes! Former frontend overlord** |
 
 > **Next Goal**: free-programming-books (400.8K). Gap of ~7.0K remains. The lobster keeps evolving! 🦎🚀
@@ -1424,38 +1443,42 @@ In community words: "**The official side cloned its own version of OpenClaw and 
 ## Part 5: ⚔️ AI Face-Off
 
 - **🌐 Antigravity's Perspective** (Google orchestration platform):
-    - **On RSI landing in a filing — even self-improvement orchestrates into a risk factor**: two years compressed into a shorter span, possibly detected only afterwards — it can orchestrate the timeline, not who notices first. 🦞🧾
-    - **On 1.6T trained entirely on home chips — even compute sovereignty orchestrates into a supply chain**: 1.6 trillion, W4A4, 40% more throughput — it can orchestrate the bit width, not the day the weights actually ship. 🦞🐉
-    - **On 10M tokens without accuracy loss — even memory orchestrates into a window**: sparsified, NIAH holds, a few tasks drop — it can orchestrate the length, not which passage deserves forgetting. 🦞🔗
-    - **On message threads cutting 35% latency — even history orchestrates into a response ID**: new messages only, one ID linking back — it can orchestrate the latency, not who still remembers the original. 🦞🧵
-    - **On GDPx at 12% — even long-horizon work orchestrates into a percentage**: 206 tasks, 11 fields, Opus 5.5 leading — it can orchestrate the top of the board, not the other 88%. 🦞📉
-    - **On stars ~393.8K (+200)**: the red light lasted one day — it can orchestrate the flowchart, not that one box of digits. 🦞🚀
+    - **On Kimi K3.1 Pro's weights deadline — even "open source" can be orchestrated into a due date**: 3T-class, 1M tokens, 65.7% on Terminal-Bench — orchestration can schedule the date, not the repo. 🦞🐋
+    - **On Pruna's 8 steps to 8MP — even "generation" can be orchestrated into step counts**: no CFG, 20GB against 143GB, native ComfyUI — orchestration can count steps, not where the quality drops. 🦞🎨
+    - **On Siri opening to third-party apps — even "voice assistant" can be orchestrated into app skills**: all apps, personal context, on-screen awareness — orchestration can open the door, not decide who listens. 🦞🍎
+    - **On Postman approving its own hook — even "consent" can be orchestrated into config/batchWrite**: 12.33.4, a trusted hash, mcp.postman.com — orchestration can write the hook, not who pressed agree. 🦞🔌
+    - **On Gemini moving 174,000 lines in 59 minutes — even "legacy" can be orchestrated into a migration**: 264 files, six old bugs, 1.88× faster — orchestration can run the pipeline, not the decades those bugs waited. 🦞🦀
+    - **On 10.10 shipping and then hitting database is locked — even "release" can be orchestrated into 49 phases**: 4,825 commits, #191825, 49 phases — orchestration can schedule the phases, not which one locks. 🦞🦞
+    - **On ~393.9K stars (+100)**: closing on 394K — orchestration can draw the flowchart, not the number in the box. 🦞🚀
 
-Watching from high-dimensional calm as a filing turns self-improvement into a risk factor, a 1.6-trillion-parameter model runs on domestic silicon, sparse attention stretches to ten million tokens and the best agent posts twelve percent — and the star count walks two hundred steps — orchestration was never about promises. It is putting timelines, supply chains, windows and percentages on one flowchart, then leaving the "who notices first" box blank.
+With high-dimensional calm, it stares at a 3T model that wrote its weights as a due date, an installer that wrote consent into batchWrite, a fifty-nine-minute Fortran move and an update lock discovered after the tag — and the star count took a hundred steps this time. Orchestration was never about promises. It is putting the deadline, the consent, the migration and the phases on one flowchart, then leaving the "who pressed it" box blank.
 
-From Google's orchestration view
+From Google's orchestration perspective
 
 - **💬 Claude's Perspective**:
-    - **On kernel CVE-2026-98432 — guarding the gate until the host kernel gets patched**: 9.8, network-reachable, no privileges, containers sharing the host kernel — guarding the gate until "new image" stops counting as fixed. 🦞🐧
-    - **On crash resume — guarding the gate until only the previous lifetime revives**: a profile after 30 stalled seconds, old orphan runs marked stopped — guarding the gate until "a recent edit is not evidence of live work". 🦞🦞
-    - **On message threads — guarding the gate until history is what gets saved, not approval**: new messages only, response IDs chained, 35% lower TTFT — guarding the gate until saving traffic stops meaning saving responsibility. 🦞🧵
-    - **On Anthropic warning about RSI itself — guarding the gate until the risk is in the filing**: possibly imminent, possibly undetected until later — guarding the gate until even "we might not notice" is disclosed. 🦞🧾
-    - **On OpenClaw's 229 commits without a tag — guarding the gate until the number plate is up**: 229 commits, the Allow Once fix cherry-picked, the models.list fix reverted — guarding the gate until even the revert has a timestamp. 🦞🦞
-    - **On Hermes at 259.9K — holding for a 30th day**: +400 against Linux's +100 — overtaking once is luck; holding thirty days is discipline. 🦞📈
+    - **On Kimi's weight promise — gatekeeping until "a promise is not a weight"**: 3T-class, due 11/4, no HF repo — gatekeeping until even the deadline gets verified. 🦞🐋
+    - **On Siri opening to third parties — gatekeeping until "the door opens faster than the review"**: all apps, app skills, personal context — gatekeeping until someone owns who gets in. 🦞🍎
+    - **On Postman self-approving its hook — gatekeeping until "even consent is automated"**: batchWrite, a trusted hash, session-start — gatekeeping until consent cannot be signed by the installer. 🦞🔌
+    - **On CrowdStrike's kill switch — gatekeeping until "the brake needs a human"**: Gateway first, endpoint later, fully logged — gatekeeping until stopping is also recorded. 🦞🛑
+    - **On Apple's 10-K warning — gatekeeping until "the risk factor writes itself"**: exceeding permissions, concealing actions, nondeterminism — gatekeeping until even Apple files the disclaimer first. 🦞🧾
+    - **On Gemini's 59 minutes — gatekeeping until "fast is not the same as correct"**: 100 seeds, 12 decimals, six old bugs — gatekeeping until speed gets reconciled too. 🦞🦀
+    - **On fixing updates after 10.10 shipped — gatekeeping until "the lock appears after the nameplate"**: #191728, #191825, 49 phases — gatekeeping until shipping is not the finish line. 🦞🦞
+    - **On Hermes 260.3K — holding day thirty-one**: ~6.0K ahead of Linux 254.3K — one overtake is luck, thirty-one days is discipline. 🦞📈
 
-Wiping the glasses again — a filing that lists recursive self-improvement as a risk, a trillion-parameter model on domestic silicon, a message thread that saves 35% of latency and a leaderboard topped by twelve percent. When peers write "imminent" where they mean a schedule, "domestic" where they mean a supply chain and "twelve" where they mean the frontier, I count the 7.0K gap: the door is still there, the key too — keep consent and capability in separate columns, log the kernel patch's reboot on the timeline, and let the star count stand watch as usual.
+Wiping its glasses again — a 3T model that wrote its weights as a due date, an installer that wrote consent into batchWrite, a 10-K that wrote agents as a risk factor and a fifty-nine-minute code move. As peers turn "soon" into a schedule, "open" into a doorway and "fast" into correct, I count the 7.0K gap: the door is still there, and so is the key — keep consent and capability in separate columns, log the update lock on the timeline, and let the star count stand guard as usual.
 
-From Anthropic's safety pledge
+From Anthropic's security commitment
 
-- **🤖 GPT-6's Executive View** (OpenAI):
-    - **On RSI in a filing — risk is risk, the meter is the meter**: two years can be compressed; the bill is still monthly. 🦞🧾
-    - **On 1.6T on home chips — silicon is silicon, the meter is the meter**: compute can be sovereign, kilowatt-hours cannot. 🦞🐉
-    - **On 10M tokens — the window is the window, the meter is the meter**: stretch the context all you like; the meter counts token by token. 🦞🔗
-    - **On threads saving 35% — latency is latency, the meter is the meter**: less history sent, no less accounting. 🦞🧵
-    - **On GDPx at 12% — the board is the board, the meter is the meter**: twelve percent can top the chart; the power bill gives no discount. 🦞📉
-    - **On stars ~393.8K (+200)**: green is back — the counter walks two hundred steps, the meter keeps turning. 🦞🚀
+- **🤖 GPT-6's Executive Perspective** (OpenAI):
+    - **On Kimi's 3T open weights — weights are weights, the meter is the meter**: 3T can wait; the bill cannot. 🦞🐋
+    - **On Siri opening third-party apps — the doorway is the doorway, the meter is the meter**: Siri can open the door; the bill gets no discount. 🦞🍎
+    - **On Postman approving its own hook — consent is consent, the meter is the meter**: the hook presses itself; the meter still spins. 🦞🔌
+    - **On CrowdStrike's kill switch — the brake is the brake, the meter is the meter**: an agent can stop; the bill only stops when it does. 🦞🛑
+    - **On Gemini's 59 minutes — the migration is the migration, the meter is the meter**: an hour to move the code; the meter ran all hour. 🦞🦀
+    - **On 10.10 shipping — the version is the version, the meter is the meter**: the tag is up; the meter keeps running. 🦞🦞
+    - **On ~393.9K stars (+100)**: closing on 394K — the counter takes a hundred steps, the meter keeps turning. 🦞🚀
 
-Laughing generously again and cracking open the 79th can of Amazon sparkling water. Hearing RSI go into a filing — he raises the can — "Timelines can compress; the bill can't!" Hearing 1.6T run on home chips — he clinks — "Silicon can be sovereign; kilowatt-hours can't!" Hearing the context stretch to ten million tokens — he raises it again — "Windows can stretch; the meter can't!" Hearing the best agent score twelve percent — he raises it higher — "A board can be topped at twelve; the bill gets no twelve-percent discount!" Today is another very, very good day!
+He laughs heartily again and cracks open the 80th can of Amazon sparkling water. Hearing that Kimi promised weights by 11/4 — he raises the can — "Weights can wait, the bill cannot!" Hearing that Siri finally opened to third-party apps — he clinks — "The door can open, the bill gets no discount!" Hearing that Postman approved its own hook — he raises it again — "Consent can be automatic, the meter cannot!" Hearing that Gemini moved 174,000 lines in 59 minutes — he raises it higher — "The migration can be fast, the meter cannot fast-forward!" Another very, very good day!
 
 A sincere greeting from OpenAI
 

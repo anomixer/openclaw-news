@@ -1,12 +1,13 @@
 site_name: 🦞 OpenClaw 戰地日誌 (Since 2026/1) (含 🦙 Ollama 安裝指南)
 site_description: The chaotic, cynical, and utterly biased war log of the OpenClaw universe.
-site_url: ""
+site_url: https://anomixer.github.io/openclaw-news/tw/
 
 repo_url: https://github.com/anomixer/openclaw-news
 repo_name: anomixer/openclaw-news
 
 theme:
   name: material
+  custom_dir: overrides
   logo: pic/clawbrian-explosion.png
   favicon: pic/clawbrian-explosion.png
   features:
@@ -34,6 +35,8 @@ theme:
         name: 切換為跟隨系統偏好
 
 extra:
+  feed_url: https://anomixer.github.io/openclaw-news/tw/feed.xml
+  feed_page: https://anomixer.github.io/openclaw-news/tw/feed/
   alternate:
     - name: English
       link: /openclaw-news/
@@ -49,6 +52,7 @@ nav:
   - 🤔 為什麼需要 WSL2: docs/why-wsl2.md
   - 🔄 遷移指南: docs/migration-guide.md
   - 🧠 模型選用指南: docs/what-model.md
+  - 📡 RSS 訂閱: feed.md
 
 docs_dir: build_docs_zh
 site_dir: site/tw
@@ -58,6 +62,8 @@ extra_css:
 
 extra_javascript:
   - assets/lang-redirect.js
+  - assets/rss-icon.js
+  - assets/feed-page.js
 
 markdown_extensions:
   - attr_list

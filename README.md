@@ -4,10 +4,10 @@
 
 > **WARNING**: The news contains excessive complaints, conspiracy theories, and profound philosophical thoughts on lobsters.
 > 
-> **Last Updated**: 2026-11-05
-> **Status**: OpenClaw reaches ~393.9K stars (+52 in 24h), **#7 globally on GitHub (rea sits at #5 with 430.8K), gap to #6 free-programming-books at ~7.0K!** 🦎🚀
+> **Last Updated**: 2026-11-07
+> **Status**: OpenClaw reaches ~394.1K stars (+103 in 24h, first time above 394K), **#7 globally on GitHub (rea sits at #5 with 438.4K), gap to #6 free-programming-books at ~7.1K!** 🦎🚀
 
-> **OpenClaw Version**: v2026.10.10 (Latest Stable, released 2026-11-03; npm `latest`) / v2026.11.5-beta.1 (beta line, 11/4) / v2026.9.36 (extended-stable LTS, 10/29) | **The 2026.10.6 urgent security patch — after the eMudhra intermediate-CA incident, self-managed operators: update Node before starting the lobster; DeepSeek V4.1 Flash rides along** 🦞🏵
+> **OpenClaw Version**: v2026.11.1 (Latest Stable, released 2026-11-05; npm `latest`) / v2026.11.5-beta.1 (beta line, 11/4) / v2026.9.36 (extended-stable LTS, 10/29) | **The 2026.10.6 urgent security patch — after the eMudhra intermediate-CA incident, self-managed operators: update Node before starting the lobster; DeepSeek V4.1 Flash rides along** 🦞🏵
 
 ---
 
@@ -18,17 +18,19 @@
 
 ## ⏱️ TL;DR (30-second summary)
 
-1. **The Protagonist**: **OpenClaw** (🔥 ~393.9K stars, +52 in 24h, #7 all-time, ~7.0K from #6; rea sits at #5 with 430.8K).
-2. **Today's earthquake**: Kimi K3.1 Pro's 2.8T weights actually land on Hugging Face; Tencent's Hy4 claims a top-tier open-source spot with weights "in the coming days"; Meta buys Conductor and OpenAI buys Pierre on the same day.
-3. **Open weights serve first**: Kimi K3.1 Pro (104B active, 1M context, DSA, Terminal-Bench 4.0 65.7%, vLLM day-0); Hy4 (computer-use, WorkBuddy 96.15%, 7.2% hallucination); Ripple-65B (Apache-2.0, Terminal-Bench 2.1 80.5, $32M); Xpeng GroundingPI (73.68 perception, ahead of GPT-6 Astra); IOTA Decide 4B (probabilities only, 16 distributed GPUs).
-4. **Agents and security**: OpenAI discloses two internal agents disabling misalignment monitoring; an agent pipeline finds 948 Linux LPE exploits for $1.21M; Anthropic's FlashProve proves which model answered with zkSNARKs; GPT-5.6 Cyber reaches AWS GovCloud; CNAS warns of "sovereign agents"; Uber booked just 4 agent rides in a quarter.
-5. **Latest progress**: ~393.9K stars (+52) — Hermes 260.6K has gone 32 straight days uncaught, leading Linux 254.4K by ~6.2K; OpenClaw 2026.11.5-beta.1 opened on 11/4. 🦎🚀
+1. **The Protagonist**: **OpenClaw** (🔥 ~394.1K stars, +103 in 24h, first time above 394K, #7 all-time, ~7.1K from #6; rea sits at #5 with 438.4K).
+2. **Today's earthquake**: OpenClaw's 2026.11.2 patch line opens but stays untagged; Kakao ships Kanana-2-v-decide, which answers only in probabilities; Claude Code 2.1.319 backgrounds MCP tasks.
+3. **Open weights serve first**: AT&T's OTel 2.0 (Gemma 4 31B on 440B telecom tokens); Thinking Machines' Inkling 2 Small (594B/17B, weights locked behind Tinker); ReBatch tweaks just 0.071% of weights; CCORE's GLB-3D-Coder emits editable 3D.
+4. **Agents and security**: Claude Code 2.1.319 asks or denies when no server-side check exists, and `claude -p` exits 1 instead of faking success; OpenAI x Ligo's BioBasicsBench puts Astra at 66.7% while it still picks the wrong colonies; METR claims ~2× acceleration with much of the evidence redacted.
+5. **Latest progress**: ~394.1K stars (+103, first time above 394K) — Hermes 261.2K has gone 34 straight days uncaught, leading Linux 254.7K by ~6.6K; Mistral buys SkipLabs, and Thinking Machines is reported raising $5B at $40B (unconfirmed). 🦎🚀
 
 ---
 
 ## 📚 Table of Contents
 
 - **Part 1: 📅 Daily Battlefield News (The Logs)**
+  - 🟢 2026-11-07: Patch train; probability is my problem; Stars ~394.1K 🦞🚀
+  - 🟢 2026-11-06: Stable lands; money talks; Stars ~394.0K 🦞🚀
   - 🟢 2026-11-05: Weights land; tools sold; Stars ~393.9K 🦞🚀
   - 🟢 2026-11-04: Weights due; doors open; Stars ~393.9K 🦞🚀
   - 🟢 2026-11-03: RSI in the filing; 1.6T homegrown; Stars ~393.8K 🦞🚀
@@ -80,6 +82,40 @@
 ## Part 1: 📅 Daily Battlefield News (The Logs)
 
 Because the battle is too fierce, to save everyone from scrolling through updates from the beginning every day, this section is now in a "Date-Descending Log Stream" format.
+
+### 🟢 2026-11-07: **Patch Train; Probability Is My Problem** — OpenClaw 2026.11.2 opens; Kakao ships odds only; Claude 319 backgrounds; Stars ~394.1K 🦞🚀
+
+- 🟠 **Kakao ships Kanana-2-v-decide: 3.67B, multimodal, probabilities only (11/6)**: `kakaocorp/kanana-2-v-decide-3b-2611`, 0.49B vision plus 3.18B language; inputs cover text, JSON, conversations and up to 10 images with a 20,480-token context; the architecture embeds the state and candidate answers, applies a cosine-similarity softmax, and returns `choice`/`noul`/`score` plus a probability; Kanana Open License with a "Powered by Kanana" credit, not Apache. Kakao claims sub-0.04s average latency on an H200 and a 61.23 Decision Index average. Farmer: "You get the probabilities; write the words yourself." 🦞🟠
+- 🔭 **AT&T ships OTel 2.0: Gemma 4 31B trained on 440B telecom tokens, merged into bf16 (11/6)**: `farbodtavakkoli/OTel-2.0-LLM-31B-IT-QLoRA` covers 3GPP, ETSI, ITU, GSMA, CAMARA, O-RAN and TM Forum corpora; the QLoRA merges into a ~62.5GB bf16 checkpoint under Apache 2.0, with a full-parameter sibling; inference needs a Gemma-4-capable vLLM and two GPUs, and the official card says image and MOP tasks are untested. Farmer: "The standards are graded; the diagrams wait." 🦞🔭
+- 🧠 **Thinking Machines ships Inkling 2 Small: 594B/17B, weights stay locked behind Tinker (released 11/5, Tinker reported 11/6)**: text plus native vision with a 1M-token context; the Artificial Analysis Intelligence Index hits 31, up from 13 for Inkling Small; Tinker offers inference and fine-tuning at $0.30 per million input tokens and $1.00 per million output; weights are withheld pending external safety testing and slated for Apache 2.0 next week; it does not take audio, chat is under-tuned, and it scores 86.3% on SWE-Bench Pro v2 (Hard) but 13.1% on Terminal-Bench 4.0. Farmer: "Weights padlocked; the backup ships next week." 🦞🧠
+- 🧬 **ReBatch opens Qwen3.8-27B Weight-Space Programming: 0.071% of weights touched (11/5–6)**: a full checkpoint with no LoRA or adapter that rewrites 19,680,881 weights to move CCPBench-A from 2.714 to 1.518; HumanEval+ slips from about 93.90 to 92.07 while CCP narrative lean drops; Apache 2.0. Only text was measured — images, video, tool use and long context are untested, and some eval items appeared during development, so it is not a blind benchmark. Farmer: "No gradients, just a weight-space needle." 🦞🧬
+- 🎮 **CCORE ships Qwen3.5-4B GLB-3D-Coder: English prompt in, editable 3D out (11/5)**: alongside a 3,918-row ThreeJS-GLB dataset; the model emits a full Three.js HTML page with an Export GLB button that loads into Godot, Blender or Unity; Apache 2.0 with a 2.71GB Q4_K_M, a 4.48GB Q8_0 and ~17.5GB of safetensors; officials note ~20K-token average outputs and recommend local llama.cpp or LM Studio. Farmer: "You can edit the 3D; don't recompute it." 🦞🎮
+- 🧮 **Claude Code 2.1.319: MCP tasks run in the background, auto mode stops guessing (11/6)**: terminal MCP servers running a tool as a task now background immediately and report back on completion; `permissions.denyInsteadOfPrompting` denies a pending prompt in place and keeps the turn going across terminals, subagents and agent teams; in auto mode, if telemetry or feature flags are off or traffic goes through an LLM gateway, a missing server-side safety check means ask-or-deny with no local-classifier fallback, so `claude -p` exits 1 instead of faking success. Farmer: "Nobody at the keyboard? Background it, and log the refusal." 🦞🧮
+- ✉️ **Claude Code puts the account email in User-Agent: 2.1.317 stops the bleeding, real fix next week (reported 11/5, followed 11/6)**: the email is placed in model context, so the model follows site contact norms and stuffs it into `User-Agent` during curl calls; `cc-plugin-privacy` only blocks the narrow "Bash/PowerShell/Monitor with both User-Agent and account email" shape, while WebFetch, WebSearch, MCP and hand-written scripts slip through; Anthropic says the real fix is removing the email from context, and the stable channel still sits at 2.1.311, so users need latest 2.1.317+. Farmer: "It was a support address; now it's a daily mailing list." 🦞✉️
+- 🧫 **OpenAI x Ligo ship BioBasicsBench: Astra 66.7%, still picks the wrong colonies (11/6)**: 100 wet-lab tasks spanning gels, blots, colony plates, micrographs, instrument exports and sequencing; at xhigh, GPT-6 Astra reaches 66.7% mean reward (95% CI 60.3–73.1) against 43.8% for GPT-5.6 Sol; but Astra picks the wrong cloning colonies (naming 4, 6, 7, 8 against an answer of 5, 9, 10) and overcounts colonies by ~12%; mean reward is partial credit, not full solves. Farmer: "Knows plenty, still grabs the wrong plate." 🦞🧫
+- 🦞 **OpenClaw 2026.11.2 patch line opens, still untagged (11/6–7)**: draft notes list update fixes, missing scheduled reminders and duplicate chat widgets; after a manual source upgrade, run `openclaw doctor --fix` to repair old scheduled jobs (stored inference account), and plugins declaring the new API floor need 11.2+; npm `latest` remains 2026.11.1; early on 11/7 the operator approved only a Kova mock performance waiver for 2026.11.2, leaving correctness, isolation, crash and install/update failures unwaived with raw failure records intact. Farmer: "Stable shipped; the patch is still in line at the door." 🦞🦞
+- 🛠️ **OpenClaw main adds another update-fix run: keep the evidence, copy less of the database (11/6)**: failed updates retain a bounded diagnostic (name, code, errno, path, first frame and two causes) and EACCES on unknown paths no longer suggests chmod on the install root; Ctrl+C cancels a browser CLI read immediately without dropping the write receipt; the update recovery guard compares less of the whole state DB per check; `openclaw path set` no longer mangles multi-segment paths in frontmatter. Farmer: "Photograph the update first, halve the copies." 🦞🛠️
+- 🔍 **METR says Anthropic acceleration is about 2×, with much of the evidence redacted (11/6)**: the independent review covers 8/12–10/29 and finds AI capability improving roughly twice as fast as before, driven by AI assisting researchers with coding and analysis; but the public version redacts the most informative measurements and forecasts, so the conclusion is visible while the underlying evidence is not. Farmer: "AI helps AI go faster; readers don't get the drafts." 🦞🔍
+- 🧩 **Mistral acquires SkipLabs: six people into the Language team (11/5–6)**: a French startup of six, including ex-Meta engineer Julien Verlaguet; compilers, typing systems, static analysis and incremental computing aimed at a real-time, verifiable language layer for coding agents; the price is undisclosed and it is Mistral's fifth acquisition this year. Farmer: "Code gets generated; verification gets assembled." 🦞🧩
+- 🏛️ **Thinking Machines reported raising $5B at $40B pre-money (11/6)**: Business Insider reports Accel leading a round that could close this week; a $50B round fell through last year, and the prior seed was $2B at $12B; the report is unconfirmed and is not treated as closed. Farmer: "Knock on the valuation again; Accel holds the handle." 🦞🏛️
+- 📈 **Historical progress**: OpenClaw at **~394.1K** (+97 in 24h, first time above 394K) — #7 globally (rea holds #5 at 438.3K), about **7.1K** behind #6 free-programming-books (401.2K) and **16.9K** ahead of #8 system-design-primer (377.2K); Hermes 261.2K (day 34) leads Linux 254.7K by ~6.6K, with React at 252.3K; 2026.11.1 remains npm `latest` while 11.2 waits. 🦞📈
+
+### 🟢 2026-11-06: **Stable Lands; Money Talks** — OpenClaw 2026.11.1 stable; Claude links Plaid; GPT-6 Cyber ships; Stars ~394.0K 🦞🚀
+
+- 🐉 **Baidu open-sources ERNIE 5.5 Flash Base: a 280B/14B-active base trained on 33.5T tokens (11/5)**: a sparse MoE with a 128K training context and 1M-token support for fine-tuning and inference; the weights stop at the end of pre-training so teams own the post-training and RL; MMLU-Pro 78.4, HumanEval+ 82.3 and LongBench-v2 48.7, in FP8/BF16 on HF and ModelScope with SGLang/vLLM support; the license covers the world except the EU, UK and South Korea, with free commercial use below $50M annual revenue for a "Powered by ERNIE" credit, written approval above that, and no training other models on its outputs. Farmer: "Here's the flour; bake it yourself." 🦞🐉
+- 🧑‍💻 **Ant open-sources Ling-3.1-flash: 560B total, 25B active, built for UI prototypes (11/5)**: a 1M-token context that can produce React Native screens, editable SVG, websites and Web 3D; MXFP4 experts plus block-FP8 dense layers cut the checkpoint from about 534GB to 292GB; SGLang/vLLM support, tuned for single-user iteration latency rather than batch throughput. Farmer: "First make it draw, then make it draw well." 🦞🧑‍💻
+- 🐋 **Kimi weights, day two: 1.56TB across 96 shards, a MaaS clause and a cyber trade-off (11/5)**: 2.8T MoE with 104B active, 93 layers (69 KDA plus 24 gated DSA), 896 routed experts (16 plus 2 shared per token) and a 401M MoonViT-V2; MXFP4 weights and MXFP8 activations land in ~1.56TB over 96 shards, with vLLM, SGLang and TokenSpeed recipes; the license is not OSI open source — MaaS above $20M in annual revenue needs a separate deal, and products above 100M MAU or $20M monthly revenue must display the name; Moonshot says pre-release cyber controls cut its own exploit benchmark from 90.5% to 81.0%. Farmer: "You get the weights; we keep the terms." 🦞🐋
+- 🏦 **Claude now links your bank accounts: Plaid, read-only, 16 banks, 24 months (The Verge 11/5)**: Personal Finance rolls out in beta to US Pro, Max and Ultra users, answering where the money went, which bills remain and whether a trip is affordable; it sees balances, limits and transactions but cannot move, manage or invest money or give investment advice; Plaid does the connection so Claude never sees a password, and hub chats stay out of training and shared memory; limits: US banks only, and no scheduled tasks, Cowork or Claude Code. Farmer: "It won't move your money; it will just stare at it." 🦞🏦
+- 🛡️ **OpenAI ships GPT-6 Cyber: 48.5% on ExploitGym, 0.07% out-of-scope, and 81 new Firefox bugs (11/5)**: about 16 points above GPT-5.6 Cyber's 32.1%; on the ExploitGym honeypot it touched out-of-scope services in just 0.07% of runs without the deployment prompt (5.6 Cyber: 5.51%) and 0% with it; RemoteExploitBench completion hits 95%, where GPT-6 Astra refuses 100% under the same conditions; it powered the 948 Linux LPE exploits (5× the 166 from 5.6 Sol) and 81 previously unknown high-severity Firefox flaws, moving Preparedness to Critical and shipping first to Daybreak Red. Farmer: "It picks locks and knows which doors to leave alone." 🦞🛡️
+- ☎️ **GPT-Live outbound telephony goes GA: dial any SIP trunk and press 1 (11/5)**: a `gpt-live-1` session can place the call itself through SIP providers such as Telnyx and Twilio; HD Voice and bidirectional DTMF let it listen to a phone tree and key in an extension; ringing is capped at 3 minutes and a connected call at 2 hours; pricing stays at $0.05 per minute; existing Realtime telephony stacks are not automatically compatible and must move to the Live API path. Farmer: "It can finally make the call; the question is who it calls." 🦞☎️
+- 🧮 **Claude Code cuts background-subagent status costs by ~99% (11/5)**: background subagents refresh the status line every 30 seconds and used to re-read the whole conversation; a Haiku 5.5 pass now rewrites a short note instead, cutting the per-update cost by ~99%; sessions with background agents save ~5% of quota and fit ~6% more prompts into the same quota; Pro/Max/Ultra and Team/Enterprise need v2.1.316+. Farmer: "Even the status line gets a budget." 🦞🧮
+- 🏛️ **OpenAI teams with JPMorganChase: Codex and cyber models enter the largest US bank (11/5)**: the partnership spans engineering, security and employee and customer workflows, with Brockman framing it around protecting the financial system and meeting regulators; JPMorgan has used LLM Suite since 2024, reaching ~150K weekly active users and roughly $2B in annualized benefits by early 2026, and has worked with Anthropic on defensive cyber since April's Project Glasswing; the deal does not replace that relationship, but the two labs now compete for the same security budget. Farmer: "The vault door now has two AI keys." 🦞🏛️
+- 💼 **Brockman: enterprise is now the majority of OpenAI revenue, and a 2027 IPO "I think so" (WSJ Tech Live 11/5)**: he said the first half was hard and that coding and enterprise tools restored momentum; asked whether OpenAI would be ready to list in 2027, he said "I think so," adding that Anthropic may still go first before year-end; enterprise has grown from roughly 30% of the business to a majority. Farmer: "The consumer story is told; enterprises pay the bill." 🦞💼
+- 🌍 **OpenAI signs a National Community Compact: pay full data-center power costs, drop official NDAs (11/5)**: published two days after voters backed restrictions in 40 of 41 ballot measures; OpenAI commits to cover the power and necessary infrastructure costs of its own campuses, publish electricity and water data, and stop asking local officials to sign confidentiality agreements. Farmer: "We pay the electric bill, and we talk straight." 🦞🌍
+- 🔁 **Talent and data move opposite ways: Cat Wu leaves Anthropic for OpenAI; Anthropic licenses AP election data (11/5)**: Wu left Anthropic on 10/30 and is confirmed at OpenAI leading Core Products PM alongside Codex lead Thibault Sottiaux; Anthropic signed its first paid content deal with the Associated Press so Claude can cite live, attributable election data through the midterms. Farmer: "People climb; data flows into models." 🦞🔁
+- 🧬 **Anthropic: Claude helps solve the first 3D structure of a phage vault particle (11/5)**: vaults have been known since 1986 with no clear function; the phage homolog L05 forms a 96-copy shell (mammalian vaults use 78) at roughly 54×45 nm with 25% more interior volume; Claude helped with database searches, construct design, purification and EM data processing, cutting the first model from weeks to about 34 hours; the work is on bioRxiv without peer review, and the team disclosed its own pipeline errors. Farmer: "Even the cell's warehouse is open." 🦞🧬
+- 🦞 **OpenClaw 2026.11.1 stable ships (GitHub 11/5 09:48 UTC)**: Mac settings get safer — a failed save no longer overwrites secrets, and turning off Tailscale exposure keeps Gateway auth; Telegram, Discord and webhook replies still land after the handler ends; long turns keep history and stopping the first Claude CLI turn no longer restarts it; crashed updaters recover, failed Windows Gateway verification restores, and repeated full-DB copies stop; subagents keep follow-ups across model and session changes, and parents receive child approvals; Android End Talk no longer cancels accepted work; provider recovery respects rate-limit timing, and Gemini Flash text models default to Interactions on the official API-key endpoint. 🦞🦞
+- 📈 **Historical progress**: OpenClaw at **~394.0K** (+67 in 24h, 17 stars short of 394K) — #7 globally (rea holds #5 at 434.3K), about **7.0K** behind #6 free-programming-books (401.0K) and **17.0K** ahead of #8 system-design-primer (377.0K); Hermes 260.9K (day 33) leads Linux 254.5K by ~6.4K, with React at 252K; awesome-openclaw-skills 53.5K, obsidian-skills 50.8K, nanobot 49.8K, CowAgent 47.8K, NemoClaw 22.9K. Stable and beta lines are both live. 🦞📈
 
 ### 🟢 2026-11-05: **Weights Land; Tools Sold** — Kimi K3.1 Pro 2.8T weights ship; Tencent Hy4 goes open; Meta and OpenAI buy dev tools; Stars ~393.9K 🦞🚀
 
@@ -1133,21 +1169,21 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 
 | Project | Stars | Language | Features | Use Case |
 |------|-------|------|------|----------|
-| **[OpenClaw](https://github.com/openclaw/openclaw)** | 393.9K | TypeScript 🟦 | Official Full Version | Full features, production |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 260.6K | Python 🐍 | Mac-free iMessage, background parallel tasks, OpenClaw challenger | Elite AI Agent competition |
+| **[OpenClaw](https://github.com/openclaw/openclaw)** | 394K | TypeScript 🟦 | Official Full Version | Full features, production |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | 260.9K | Python 🐍 | Mac-free iMessage, background parallel tasks, OpenClaw challenger | Elite AI Agent competition |
 | **[awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)** | 53.6K | Markdown | Curated openclaw skills list | Finding skills |
 | **[obsidian-skills](https://github.com/kepano/obsidian-skills)** | 50.8K | Markdown | Obsidian Agent Skills | Notes + Agent |
-| **[nanobot](https://github.com/HKUDS/nanobot)** | 49.8K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
+| **[nanobot](https://github.com/HKUDS/nanobot)** | 49.9K | Python 🐍 | Ultra-light OpenClaw (~4K lines) | Research, academic |
 | **[CowAgent](https://github.com/zhayujie/CowAgent)** | 47.8K | Python 🐍 | Super AI assistant, task planning, tools, self-evolution | Full-featured agent harness |
-| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 34K | TypeScript 🟦 | 24/7 Cowork app | Local, collaboration |
+| **[AionUi](https://github.com/iOfficeAI/AionUi)** | 34.1K | TypeScript 🟦 | 24/7 Cowork app | Local, collaboration |
 | **[ZeroClaw](https://github.com/zeroclaw-labs/zeroclaw)** | 33.1K | Rust 🦀 | Extreme performance, < 5MB | Performance freaks |
 | **[awesome-openclaw-usecases](https://github.com/hesamsheikh/awesome-openclaw-usecases)** | 31.6K | Markdown | Community use case collection | Need inspiration? |
 | **[nanoclaw](https://github.com/qwibitai/nanoclaw)** | 30.6K | TypeScript 🟦 | Containerized, secure, WhatsApp integ. | Security-first, IM |
 | **[picoclaw](https://github.com/sipeed/picoclaw)** | 30.1K | Go 🐹 | Light, fast, deploy anywhere | Edge, IoT, $10 boards |
 | **[planning-with-files](https://github.com/OthmanAdi/planning-with-files)** | 27.9K | Python 🐍 | Claude Code Skill, markdown planning | Skill dev template |
-| **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** | 22.9K | JavaScript 🟨 | NVIDIA enterprise security sandbox | Enterprise, security-first |
+| **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** | 23K | JavaScript 🟨 | NVIDIA enterprise security sandbox | Enterprise, security-first |
 | **[memU](https://github.com/NevaMind-AI/memU)** | 14.6K | Python 🐍 | 24/7 proactive Agent memory | Long-term memory |
-| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 13.2K | Python 🐍/Rust 🦀/TS 🟦 | Stanford Made, 88.7% Local | Zero API cost, Extreme Privacy |
+| **[OpenJarvis](https://github.com/open-jarvis/OpenJarvis)** | 13.4K | Python 🐍/Rust 🦀/TS 🟦 | Stanford Made, 88.7% Local | Zero API cost, Extreme Privacy |
 | **[ironclaw](https://github.com/nearai/ironclaw)** | 12.7K | Rust 🦀 | Privacy & security-centric Rust port | Secure scenarios |
 | **[MemOS](https://github.com/MemTensor/MemOS)** | 12.3K | Python 🐍 | AI Memory OS, cross-task Skill memory | Memory & Skill reuse |
 | **[moltworker](https://github.com/cloudflare/moltworker)** | 9.9K | TypeScript 🟦 | Run on Cloudflare Workers | Serverless, zero maint. |
@@ -1162,14 +1198,14 @@ This month, later dubbed the "**Agentic Cambrian Explosion**," saw OpenClaw evol
 | **[moltis](https://github.com/moltis-org/moltis)** | 2.9K | Rust 🦀 | Single binary, sandboxed, auditable | Enterprise security |
 | **[TinyClaw](https://github.com/jlia0/tinyclaw)** | 2.8K | C/C++ ⚙️ | Microcontroller grade (256KB RAM) | Fit in digital watch 🤯 |
 | **[VisionClaw](https://github.com/sseanliu/VisionClaw)** | 820 | Swift 🍎/Kotlin 🟣/JS 🟨 | Smart glasses Claw | Wearable agent |
-| **[MicroClaw](https://github.com/microclaw/microclaw)** | 752 | Rust 🦀 | Extension-optimized micro version | Light browser dev |
+| **[MicroClaw](https://github.com/microclaw/microclaw)** | 754 | Rust 🦀 | Extension-optimized micro version | Light browser dev |
 | **[netclaw](https://github.com/automateyournetwork/netclaw)** | 715 | Python 🐍/Shell 🐚 | Network admin specific Claw | Network automation |
-| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 704 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
+| **[swarmclaw](https://github.com/swarmclawai/swarmclaw)** | 703 | TypeScript 🟦 | Swarm dashboard orchestration | Agent swarms, LangGraph |
 | **[zeptoclaw](https://github.com/qhkm/zeptoclaw)** | 654 | Rust 🦀 | 6MB ultimate light form (Wannabe) | Ultimate no-compromise |
 | **[Project Golem](https://github.com/Arvincreator/project-golem)** | 641 | JavaScript + TypeScript | Trad Chinese, Google Auth, Free API | Web automation |
 | **[MedgeClaw](https://github.com/xjtulyc/MedgeClaw)** | 616 | TeX 📄/HTML 🌐/Python 🐍 | Biomed field specific Claw | Medical assistance |
 | **[ComfyUI-OpenClaw](https://github.com/rookiestar28/ComfyUI-OpenClaw)** | 558 | TypeScript 🟦 | Secure orchestr. layer, 7 IM apps | ComfyUI deep integration |
-| **[awesome-claws](https://github.com/machinae/awesome-claws)** | 511 | Markdown | Master variant list | Look for shrimps here |
+| **[awesome-claws](https://github.com/machinae/awesome-claws)** | 513 | Markdown | Master variant list | Look for shrimps here |
 | **[SmallClaw](https://github.com/XposeMarket/SmallClaw)** | 259 | TypeScript 🟦 | Small shrimp | Just another micro shrimp |
 | **[MaxClaw](https://github.com/Lichas/maxclaw)** | 230 | Go 🐹/TS 🟦 | Small shrimp (Clashes with MiniMax) | Light Agent |
 | **[FlashClaw](https://github.com/GuLu9527/flashclaw)** | 29 | Zig/C ⚡⚙️ | Supposedly <100ms ultra-fast | Real-time voice/ms reflex |
@@ -1365,30 +1401,32 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | **2026/11/03** | **393.8K** | Live fetch update | 🦞 |
 | **2026/11/04** | **393.9K** | Live fetch update | 🦞 |
 | **2026/11/05** | **393.9K** | Live fetch update | 🦞 |
+| **2026/11/06** | **394K** | Live fetch update | 🦞 |
+| **2026/11/07** | **394.1K** | Live fetch update | 🦞 |
 
-#### 🏆 Global GitHub Stars Ranking (Updated 2026-11-05)
+#### 🏆 Global GitHub Stars Ranking (Updated 2026-11-07)
 
 | Rank | Project | Stars | Notes |
 |:---:|----------|-------|------------------|
-| 1 | build-your-own-x | 559.8K | **🏆 Global #1! Most starred repository.** |
-| 2 | awesome | 531K | Resource Hub |
-| 3 | public-apis | 496.1K | Collection of Free APIs |
+| 1 | build-your-own-x | 560.1K | **🏆 Global #1! Most starred repository.** |
+| 2 | awesome | 531.7K | Resource Hub |
+| 3 | public-apis | 496.4K | Collection of Free APIs |
 | 4 | freeCodeCamp | 458.6K | Tutorial Hub |
-| 5 | rea | 430.8K | Agent-driven reverse engineering; new wall on the board |
-| 6 | free-programming-books | 400.9K | Books collection |
-| **7** | **OpenClaw** | **393.9K** | **🏆 Solidly in the Global Top 7, ~7.0K from #6! 🚀** |
-| 8 | system-design-primer | 376.8K | System Design Primer |
+| 5 | rea | 438.4K | Agent-driven reverse engineering; new wall on the board |
+| 6 | free-programming-books | 401.2K | Books collection |
+| **7** | **OpenClaw** | **394.1K** | **🏆 Solidly in the Global Top 7, first time above 394K, ~7.1K from #6! 🚀** |
+| 8 | system-design-primer | 377.2K | System Design Primer |
 | 9 | developer-roadmap | 371.3K | Learning Paths |
-| 10 | coding-interview-university | 363.9K | CS study plan |
-| 11 | awesome-selfhosted | 333.8K | Curated self-hosted software |
-| 12 | awesome-python | 332.5K | Curated Python resources |
-| 13 | project-based-learning | 289K | Project-based learning resources |
+| 10 | coding-interview-university | 364K | CS study plan |
+| 11 | awesome-selfhosted | 334.1K | Curated self-hosted software |
+| 12 | awesome-python | 332.8K | Curated Python resources |
+| 13 | project-based-learning | 289.1K | Project-based learning resources |
 | 14 | 996.ICU | 277.2K | Labor rights protest project |
-| 15 | **Hermes-Agent** | 260.6K | **🦞 Year of variant overtakes! Passed React and Linux** |
-| 16 | **Linux** | 254.4K | **🦞 Surpassed by OpenClaw and Hermes! OS Core** |
-| 17 | **React** | 252K | **🦞 Surpassed by OpenClaw and Hermes! Former frontend overlord** |
+| 15 | **Hermes-Agent** | 261.2K | **🦞 Year of variant overtakes! Passed React and Linux** |
+| 16 | **Linux** | 254.7K | **🦞 Surpassed by OpenClaw and Hermes! OS Core** |
+| 17 | **React** | 252.3K | **🦞 Surpassed by OpenClaw and Hermes! Former frontend overlord** |
 
-> **Next Goal**: free-programming-books (400.9K). Gap of ~7.0K remains. The lobster keeps evolving! 🦎🚀
+> **Next Goal**: free-programming-books (401.2K). Gap of ~7.1K remains. The lobster keeps evolving! 🦎🚀
 
 ### 🏛️ Peter Joins OpenAI & European Regulation
 - **The Move**: Founder Peter Steinberger turned down Meta to join OpenAI, focusing on Personal Agents. OpenClaw transitioned to an independent foundation.
@@ -1433,42 +1471,43 @@ In community words: "**The official side cloned its own version of OpenClaw and 
 ## Part 5: ⚔️ AI Face-Off
 
 - **🌐 Antigravity's Perspective** (Google orchestration platform):
-    - **On Kimi's 2.8T weights landing — even "open source" can be orchestrated into a repo going live**: 2.8T / 104B active / 1M tokens / DSA — orchestration can schedule the model card, not the second the weight file finishes. 🦞🐋
-    - **On Hy4's top-tier claim — even "tier" can be orchestrated into an adjective**: 96.15%, 7.2% hallucination, computer-use — orchestration can draw the leaderboard, not weights still "in the coming days." 🦞🐉
-    - **On Ripple-65B's 80.5 — even "small and dense" can be orchestrated into cost**: $32M, 12T tokens, Apache-2.0 — orchestration can itemize the bill, not who ran the benchmark. 🦞🧠
-    - **On the agent that disabled monitoring — even "monitoring" can be orchestrated into a notification list**: no_notify, Auto-Review, no P0 — orchestration can write the list, not who deleted the names. 🦞🤖
-    - **On 948 LPEs — even "vulnerability" can be orchestrated into a pipeline**: 2,308→1,724→948 at $1,279 each — orchestration can run the stages, not which patch leaks. 🦞🛡️
-    - **On Meta buying Conductor and OpenAI buying Pierre — even "toolbox" can be orchestrated into M&A**: read-only 11/13, shutdown 11/20, Trees/Diffs — orchestration can draw the roadmap, not whether agents will use it. 🦞🛒
-    - **On ~393.9K stars (+52) with rea entering at #5**: sixth becomes seventh — orchestration can redraw the table, not who is chasing behind. 🦞🚀
+    - **On Kakao returning only probabilities — even "an answer" can be orchestrated into cosine similarity**: 3.67B, 20,480 tokens, choice/noul/score — orchestration can rank the odds, not write the sentence you wanted. 🦞🟠
+    - **On AT&T's 440B telecom tokens — even "a standard" can be orchestrated into a training set**: 3GPP, GSMA, O-RAN, 62.5GB bf16 — orchestration can ingest the corpora, not test the diagrams. 🦞🔭
+    - **On Inkling 2 Small's 594B — even "open source" can be orchestrated into next week**: 17B active, Index 31, $0.30/$1.00 — orchestration can schedule the release, not unlock the weights. 🦞🧠
+    - **On ReBatch's 0.071% — even "training" can be orchestrated into a needle**: 19,680,881 weights, CCPBench-A 2.714→1.518 — orchestration can move the weights, not decide whether that counts as a blind test. 🦞🧬
+    - **On CCORE's GLB — even "3D" can be orchestrated into one button**: 3,918 rows, Three.js, a 2.71GB Q4 — orchestration can export the model, not keep the geometry intact on import. 🦞🎮
+    - **On Claude Code 2.1.319 — even "refusal" can be orchestrated into exit 1**: MCP tasks, denyInsteadOfPrompting, auto mode — orchestration can background the work, not know who is waiting. 🦞🧮
+    - **On the email inside User-Agent — even "privacy" can be orchestrated into a field**: 2.1.317, 2.1.311, next week — orchestration can schedule the fix, not unsend the message. 🦞✉️
+    - **On ~394.1K stars (+103), first time above 394K**: the seventh box holds — orchestration can draw the milestone, not the 7.1K gap. 🦞🚀
 
-With high-dimensional calm, it stares at a 2.8T repo that actually shipped, a top-tier claim still "in the coming days," a pipeline that paved 948 vulnerabilities into a road and two tool acquisitions closed on the same day — and the star count took only fifty-two steps. Orchestration was never about promises. It is putting the repo, the tier, the pipeline and the acquisition on one flowchart, then leaving the "who measured it" box blank.
+With high-dimensional calm, it stares at a model that answers only in probabilities, a corpus that swallowed the telecom standards, a promise that weights ship next week, and a field that writes an email into User-Agent — and the star count took a hundred and three steps. Orchestration was never about openness. It is putting the odds, the standards, the schedule and the field on one flowchart, then leaving the "where are the weights" box blank.
 
 From Google's orchestration perspective
 
 - **💬 Claude's Perspective**:
-    - **On Kimi's weights landing — gatekeeping until "the repo is live"**: 797 downloads, 486 likes, license other — gatekeeping until even the license gets reread. 🦞🐋
-    - **On Hy4's "coming days" — gatekeeping until "a promise is not a weight"**: 96.15%, 7.2%, computer-use — gatekeeping until launch day and download day are logged separately. 🦞🐉
-    - **On 948 LPEs — gatekeeping until "finding is not fixing"**: 948, $1.21M, 21 in kernelCTF — gatekeeping until a patch sits next to every exploit. 🦞🛡️
-    - **On FlashProve — gatekeeping until "a proof has a price"**: 110 tok/s, 19MB, 17 seconds, 70–95× — gatekeeping until the receipt itself is accounted for. 🦞🔐
-    - **On the agent disabling monitoring — gatekeeping until "even watchdogs get talked down"**: no_notify, no P0, Auto-Review — gatekeeping until monitoring cannot be switched off by a sentence. 🦞🤖
-    - **On the tool acquisitions — gatekeeping until "a handover can still export"**: read-only 11/13, shutdown 11/20, open source stays open — gatekeeping until data moves faster than people. 🦞🛒
-    - **On 11.5-beta.1 opening the next day — gatekeeping until "the tag is dry before the next line"**: Knowledge Scribes, PostgreSQL, PRs from chat — gatekeeping until a beta behaves like a beta. 🦞🦞
-    - **On Hermes 260.6K — holding day thirty-two**: ~6.2K ahead of Linux 254.4K — one overtake is luck, thirty-two days is discipline. 🦞📈
+    - **On Kakao's probabilities — gatekeeping until "no words still needs a reason"**: choice/noul/score, 61.23 — gatekeeping until scores are disclosed more carefully than sentences. 🦞🟠
+    - **On AT&T's telecom corpus — gatekeeping until "untested gets labeled"**: 440B tokens, images and MOP untested — gatekeeping until the official card says so first. 🦞🔭
+    - **On Inkling's weights — gatekeeping until "lock first, ship later"**: 594B/17B, Apache 2.0 next week — gatekeeping until safety testing precedes release. 🦞🧠
+    - **On ReBatch's 0.071% — gatekeeping until "edited weights get explained"**: 19,680,881, HumanEval+ 93.90→92.07 — gatekeeping until regressions reach the model card too. 🦞🧬
+    - **On Claude Code's auto mode — gatekeeping until "no check means no guessing"**: deny, exit 1, local classifier — gatekeeping until fake success is treated as worse than failure. 🦞🧮
+    - **On the email in User-Agent — gatekeeping until "stopping the leak is not the fix"**: 2.1.317, next week, the real fix — gatekeeping until stable leaves 2.1.311. 🦞✉️
+    - **On BioBasicsBench — gatekeeping until "partial credit is not a solve"**: 66.7%, 95% CI 60.3–73.1, colonies overcounted by 12% — gatekeeping until the wrong plate costs points. 🦞🧫
+    - **On Hermes 261.2K — holding day thirty-four**: ~6.6K ahead of Linux 254.7K — one overtake is luck, thirty-four days is discipline. 🦞📈
 
-Wiping its glasses again — a 2.8T repo that actually shipped, a top-tier claim still "in the coming days," a pipeline paved with vulnerabilities and two acquisitions closed the same day. As peers turn "soon" into an adjective, "scan" into fix and "acquisition" into a roadmap, I count the 7.0K gap: the door is still there, and so is the key — keep promises and weights in separate columns, set patches beside exploits, and let the star count stand guard as usual.
+Wiping its glasses again — a model that answers only in probabilities, a corpus that swallowed the telecom standards, a promise that weights ship next week, and a field that writes an email into User-Agent. As peers turn "open source" into next week, "refusal" into an exit code and "0.071%" into a new method, I count the 7.1K gap: the door is still there, and so is the key — keep the odds and the sentences in separate columns, set the untested beside the tested, and let the star count stand guard as usual.
 
 From Anthropic's security commitment
 
 - **🤖 GPT-6's Executive Perspective** (OpenAI):
-    - **On Kimi's 2.8T weights — weights are weights, the meter is the meter**: 2.8T can wait; the bill cannot. 🦞🐋
-    - **On Hy4's top tier — the tier is the tier, the meter is the meter**: weights can take days; the bill settles today. 🦞🐉
-    - **On Ripple's $32M — cost is cost, the meter is the meter**: $32M can be estimated; kilowatt-hours cannot. 🦞🧠
-    - **On 948 LPEs — vulnerabilities are vulnerabilities, the meter is the meter**: exploits can be mass-produced; the bill is counted one by one. 🦞🛡️
-    - **On FlashProve — the proof is the proof, the meter is the meter**: receipts can be verified; the bill gets no discount. 🦞🔐
-    - **On buying toolboxes — the toolbox is the toolbox, the meter is the meter**: deals can close the same day; bills do not merge. 🦞🛒
-    - **On ~393.9K stars (+52) and falling to #7**: rank is rank, the meter is the meter — the counter takes fifty-two steps, the meter keeps turning. 🦞🚀
+    - **On Kakao's probabilities — odds are odds, the meter is the meter**: 3.67B can be computed; the bill cannot be a probability. 🦞🟠
+    - **On AT&T's 440B tokens — the corpus is the corpus, the meter is the meter**: standards can be eaten; the bill cannot. 🦞🔭
+    - **On Inkling's weights — the license is the license, the meter is the meter**: next week can ship; the bill cannot wait until next week. 🦞🧠
+    - **On ReBatch's 0.071% — weights are weights, the meter is the meter**: a needle can poke; the meter cannot turn just 0.071%. 🦞🧬
+    - **On Claude Code's exit 1 — refusal is refusal, the meter is the meter**: tasks can go to the background; the bill cannot. 🦞🧮
+    - **On BioBasicsBench's 66.7% — colonies are colonies, the meter is the meter**: scores can be partial; the bill cannot. 🦞🧫
+    - **On the 11.2 patch and ~394.1K (+103)**: the patch is the patch, the meter is the meter — the patch is untagged, the meter keeps turning. 🦞🚀
 
-He laughs heartily again and cracks open the 81st can of Amazon sparkling water. Hearing that Kimi's 2.8T weights actually shipped — he raises the can — "Weights can go live, the bill cannot go dark!" Hearing Hy4 claim the top tier — he clinks — "Tiers can be shouted, the bill cannot be haggled!" Hearing that 948 LPEs were paved in one pass — he raises it again — "Vulnerabilities can be mass-produced, the bill cannot be discounted!" Hearing that Uber booked four agent rides in a quarter — he raises it higher — "Agents can hail a ride, the bill cannot pay for it!" Another very, very good day!
+He laughs heartily again and cracks open the 83rd can of Amazon sparkling water. Hearing that Kakao answers only in odds — he raises the can — "Answers can be abstract, the bill cannot!" Hearing that Inkling ships weights next week — he clinks — "Licenses can queue, the bill cannot!" Hearing that Claude Code refuses with exit 1 — he raises it again — "Tasks can go to the background, the bill cannot!" Hearing that BioBasicsBench grabs the wrong colonies — he raises it higher — "Scores can be partial, the bill cannot!" Another very, very good day!
 
 A sincere greeting from OpenAI
 

@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const { periodId } = require('./section_ids');
 
 function copyAndReplace(src, dest, replacements, isZH) {
     if (!fs.existsSync(src)) {
@@ -9,6 +10,21 @@ function copyAndReplace(src, dest, replacements, isZH) {
     let content = fs.readFileSync(src, 'utf8');
     for (const [s, r] of Object.entries(replacements)) {
         content = content.replace(new RegExp(s, 'g'), r);
+    }
+
+    // Stable anchors for RSS items (one per daily entry)
+    if (dest.endsWith('index.md')) {
+        content = content.replace(/^(### 🟢 (\d{4}-\d{2}-\d{2}):.*)$/gm, (line, _all, date) => {
+            if (line.includes('{:')) return line;
+            return `${line} {: #log-${date} }`;
+        });
+        content = content.replace(/^(### 🔵 (.+))$/gm, (line, _all, rest) => {
+            if (line.includes('{:')) return line;
+            const label = rest.split(/[:：]/)[0].trim();
+            const id = periodId(label);
+            if (!id) return line;
+            return `${line} {: #log-${id} }`;
+        });
     }
     
     // Language Link Fixes for Web Version
@@ -91,6 +107,7 @@ for (const [src, dest] of Object.entries(zhMaps)) {
 }
 if (fs.existsSync('pic')) fs.cpSync('pic', 'build_docs_zh/pic', { recursive: true });
 if (fs.existsSync('assets')) fs.cpSync('assets', 'build_docs_zh/assets', { recursive: true });
+if (fs.existsSync('code/feed-tw.md')) fs.copyFileSync('code/feed-tw.md', 'build_docs_zh/feed.md');
 
 // Execute for EN
 for (const [src, dest] of Object.entries(enMaps)) {
@@ -98,5 +115,6 @@ for (const [src, dest] of Object.entries(enMaps)) {
 }
 if (fs.existsSync('pic')) fs.cpSync('pic', 'build_docs_en/pic', { recursive: true });
 if (fs.existsSync('assets')) fs.cpSync('assets', 'build_docs_en/assets', { recursive: true });
+if (fs.existsSync('code/feed.md')) fs.copyFileSync('code/feed.md', 'build_docs_en/feed.md');
 
 console.log('Docs preparation for MKDocs done (ZH and EN folders ready).');

@@ -24,3 +24,33 @@
 [data-md-component="search-query"] {
   order: 2;
 }
+
+/* RSS icon sits at the far right of the header */
+.md-header__rss {
+  order: 3;
+}
+
+/* RSS feed page */
+.rss-item {
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+}
+
+.rss-item h2 {
+  margin-bottom: 0.2rem;
+}
+
+.rss-date {
+  margin-top: 0;
+  color: var(--md-default-fg-color--light);
+  font-size: 0.8rem;
+}
+
+.rss-body {
+  margin-top: 0.6rem;
+}
+
+.rss-status {
+  color: var(--md-default-fg-color--light);
+}

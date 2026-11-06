@@ -4,8 +4,12 @@ code/node_modules/
 
 # MkDocs 網站暫存與構建目錄
 site/
+site-tw/
 build_docs_zh/
 build_docs_en/
+/mkdocs.yml
+/mkdocs-en.yml
+/mkdocs-tw.yml
 
 # 環境變數與個人設定 (以防萬一)
 .env
@@ -21,4 +25,5 @@ scratch/
 
 # 暫存檔
 *.html
+!overrides/main.html
 fix*.*

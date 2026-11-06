@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+  {% if config.extra.feed_url %}
+  <link rel="alternate" type="application/rss+xml" title="{{ config.site_name }}" href="{{ config.extra.feed_url }}">
+  <meta name="rss-feed" content="{{ config.extra.feed_url }}">
+  {% endif %}
+  {% if config.extra.feed_page %}
+  <meta name="rss-page" content="{{ config.extra.feed_page }}">
+  {% endif %}
+{% endblock %}

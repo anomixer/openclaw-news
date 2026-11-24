@@ -18,6 +18,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -26,25 +27,39 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: 3.x
+          cache: pip
+          cache-dependency-path: code/requirements.txt
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
       - name: Install dependencies
-        run: pip install mkdocs-material
+        run: pip install --disable-pip-version-check -r code/requirements.txt
 
       - name: Prepare build directory
         run: node code/build_prep.js
 
-      - name: Build Primary (EN) with MkDocs
-        run: |
-          cp code/mkdocs.yml mkdocs.yml
-          mkdocs build
+      - name: Generate RSS feeds
+        run: node code/gen_feed.js
 
-      - name: Build Secondary (ZH) with MkDocs
+      - name: Build EN and ZH in parallel
         run: |
-          cp code/mkdocs.tw.yml mkdocs.yml
-          mkdocs build
+          cp code/mkdocs.yml mkdocs-en.yml
+          cp code/mkdocs.tw.yml mkdocs-tw.yml
+          mkdocs build -f mkdocs-en.yml &
+          EN_PID=$!
+          mkdocs build -f mkdocs-tw.yml -d site-tw &
+          TW_PID=$!
+          wait $EN_PID
+          EN_RC=$?
+          wait $TW_PID
+          TW_RC=$?
+          if [ $EN_RC -ne 0 ] || [ $TW_RC -ne 0 ]; then
+            echo "EN exit: $EN_RC, TW exit: $TW_RC"
+            exit 1
+          fi
+          mkdir -p site/tw
+          cp -r site-tw/. site/tw/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

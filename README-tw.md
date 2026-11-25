@@ -4,10 +4,10 @@
 
 > **警告**: 本新聞包含大量吐槽、陰謀論、以及對龍蝦的深刻哲學思考。
 > 
-> **最後更新**: 2026-11-24
-> **狀態**: OpenClaw 站上 395,118 星（24h +63，十連回血），**全球歷史第 7 名（第 4 名 rea 475.6K），距第 6 名 free-programming-books（402,083）約 6,965 星！** 🦎🚀
+> **最後更新**: 2026-11-25
+> **狀態**: OpenClaw 站上 395,166 星（24h +48，十二連回血），**全球歷史第 7 名（第 4 名 rea 475.6K），距第 6 名 free-programming-books（402,083）約 6,917 星！** 🦎🚀
 
-> **OpenClaw 版本**: v2026.11.7 (最新正式版，11/23；npm latest) / v2026.11.10-beta.2 (beta，11/23；更新中斷復原＋背景工作分叉) / v2026.10.33 (extended-stable LTS，11/18) | **11.7 是穩定性版本：重啟續傳、automation 自癒、更新穿過 schema；主線本週併入「一次准入」權限規則與預備式套件更新，尚未發版** 🦞🏵
+> **OpenClaw 版本**: v2026.11.9 (最新正式版，11/25；npm latest) / v2026.11.10-beta.3 (beta，11/24；更新中斷復原＋背景工作分叉) / v2026.10.33 (extended-stable LTS，11/18) | **11.9 是維護版：env -S 不漏給 guard、Discord DM 先驗身份、self-hosted redirect 鎖 host、ACP 佇列後收全段、Codex 0.172.0；11.8 昨天 314 commits／210 PRs／86 人** 🦞🏵
 
 ---
 
@@ -18,17 +18,18 @@
 
 ## ⏱️ TL;DR (30秒快速懶人包)
 
-1. **主角**: **OpenClaw** (🔥 395,118 星，24h +63 十連回血、全球歷史第七，距第 6 名 6,965 星；第 4 名 rea 475.6K)。
-2. **資金／拍賣場**: 黃仁勳回鍋、輝達單日 +31%——董事會稱獲美國政府高層意見、國安無虞，獨立調查與 12/1–3 國會作證照常；參議員 Schiff 預告「不准拿納稅錢救 AI 巨頭」決議，UN 秘書長在 Bridgetown 催多邊 AI 風險框架。
-3. **開源模型**: 中國電信 Xing4.1-Preview 開 285B／17B 激活 Apache 2.0 MoE、1M 上下文，整條預訓練跑在 8,192 顆國產加速器＋MindSpore；同日 Ling-3.2-air（124B／5.5B，MIT）、騰訊 WeMM-Ecom、商湯 RoboRSI-27B、LlamaIndex OCRia-nano-1 與 Illuin IVE-4B 一起落地。
-4. **Agent／安全**: Google 語意治理政策在工具呼叫前比對使用者意圖，AgentDojo 攻擊成功率 48.7%→0.9%；OpenAI 與 Cisco 開源 eBPF 護盾 Shirudo；OX 掃 542,207 個元件，MCP 攻擊從執行轉向下指令（22% vs 16%）。
-5. **最新進展**: 395,118 星（+63）——OpenClaw 11.7 轉正（重啟續傳、自動化自癒、更新穿過 schema），beta.2 補更新中斷復原；Hermes 265.7K 連續 51 天未被超車，領先 Linux 256.5K 約 9,200 星。🦎🚀
+1. **主角**: **OpenClaw** (🔥 395,166 星，24h +48 十二連回血、全球歷史第七，距第 6 名 6,917 星；第 4 名 rea 475.6K)。
+2. **資金／拍賣場**: Anthropic 跌破 $83 IPO 價（$111.50→$82.78，-5.4%、市值 $1.5T）；Amodei 兄妹各賣 >$280M、毛募資 $93.5B、$901B 算力承諾；MSCI 11/30 收盤納入；MGX 籌到 $50B AI 基金（Abu Dhabi）；Amazon $7.5B 收購 Decart。
+3. **開源模型**: Baidu ERNIE 5.5 Flash Base 今天開源（280B／14B、33.5T tokens、1M ctx，授權 EU/UK/KR 排除+$50M 門檻），而 11/23 上架的 Flash Preview 反而是 Apache 2.0；同日 Hy MT3（102 語）、SenseNova U1.6（8B 自校正）、Ternary Bonsai 2.5 27B（5.93GB）落地。
+4. **Agent／安全**: AgentBouncer 把 SE agent system call 仲裁攻擊成功率 99.41%→10.59%（+47s/$0.0036）；Microsoft Airlock 以 TEE 隔離 host；Conartist 拆 OpenClaw 七種攻擊模式（一致性檢查被繞、稽核被 weaponize）；OpenAI/Anthropic 員工警告下一代模型超出安全控制。
+5. **最新進展**: 395,166 星（+48）——OpenClaw 11.9 轉正（env -S 不漏給 guard、Discord DM 先驗身份、ACP 佇列後收全段、Codex 0.172.0）；Hermes 265.7K 連續 52 天未被超車，領先 Linux 256.5K 約 9,200 星。🦎🚀
 
 ---
 
 ## 📚 目錄
 
 - **第一部：📅 每日戰況日誌 (The Logs)**
+  - 🟢 2026-11-25: OpenClaw 11.9 轉正；ERNIE 5.5 Flash Base 開源 280B；Anthropic 跌破 $83；Stars ~395.2K 🦞🚀
   - 🟢 2026-11-24: 黃仁勳回鍋、OpenClaw 11.7 轉正；Xing4.1 國產 285B；Stars ~395.1K 🦞🚀
   - 🟢 2026-11-23: OpenRouter 砍 ZDR；Lantern 曝光；Stars ~395.1K 🦞🚀
   - 🟢 2026-11-22: Muse 雲端被單頁打穿；Together 洩 prompt；Stars ~395.0K 🦞🚀
@@ -80,6 +81,21 @@
 ## 第一部：📅 每日戰況日誌 (The Logs)
 
 因戰況過於激烈，為了讓大家不用每天從頭找更新，本區改採「日期遞減日誌流」格式。
+
+### 🟢 2026-11-25: **OpenClaw 11.9 轉正：env -S 不再漏給 guard、Discord DM 先驗身份、ACP 回覆不再被佇列吃掉；ERNIE 5.5 Flash Base 今天開源 280B** — Anthropic 跌破 $83；Stars ~395.2K 🦞🚀
+
+- 🦞 **OpenClaw 11.9 轉正 + 11.8（npm latest 2026.11.9；11.8 昨天 314 commits／210 PRs／86 人）**：11.9 今天上線——env -S 的 shell 啟動賦值不再漏給 exec guard、Discord DM 先套用 pairing／allowlist 才重用 session binding、self-hosted web redirect 鎖在設定的 host、Claude CLI 背景補 secret 不再 descriptor 不見、Tool Search 在 strict provider 不再被 assistant prefill 擋、OpenAI session fork 重用 parent prompt cache、Anthropic fork 不再自寫 cache checkpoint、ACP 佇列後仍收完整回覆、headed Chrome 背景分頁截圖不卡、Codex 升 0.172.0；11/29–30 一堆 doctor deprecation deadline（runtime、channel、TTS、MCP、cron 等）；beta.3 11/24 也釋出。農場主：「兩天三版——版本號跑得比新聞還快。」🦞🦞
+- 🐉 **ERNIE 5.5 Flash Base 今天開源（Baidu，11/25）**：280B／14B MoE、33.5T tokens 預訓練、128K pretrain ctx、1M fine-tune／infer；授權是 ERNIE 5.5 Flash Base Model License——EU／UK／KR 排除、年營收 >$50M 需書面授權、attribution「Powered by ERNIE」。諷刺的是 11/23 上架的 Flash Preview 反而是 Apache 2.0、無地域／營收限制——post-trained checkpoint 比 base 更寬鬆。農場主：「base 比 preview 更嚴——這劇本我熟，只是這次主角換成授權表。」🦞🐉
+- 🇨🇳 **Hy MT3 + SenseNova U1.6（11/24）**：Tencent Hy-MT3 開源 1.8B／7B／30B-A3B（MoE，3B active）、102 語、Apache 2.0，錯譯 -43%／遺漏 -74%／指令遵循錯誤 -40%、Honor of Kings 在地化；SenseTime SenseNova U1.6 開源 8B 統一理解生成、Apache 2.0、原生自校正文字（UltraTextBench 86.04→92.28）、ComfyUI 原生支援。農場主：「自校正那一輪到底校了什麼——模型卡沒寫。」🦞🇨🇳
+- 🧾 **Ternary Bonsai 2.5 27B（PrismML，11/24）**：Qwen3.8-27B 基底、三值權重、5.93GB、Apache 2.0、262K ctx；DeepSWE 0→27.0、agentic 工具呼叫 60.2→82.2（SWE-bench Verified/DeepSWE/Terminal-Bench 2.1 平均 37.9→54.2）；macOS／iOS／iPad 原生 MLX。農場主：「0 分到 27 分——中間那道牆比 5.93GB 還厚。」🦞🧾
+- 🛡️ **AgentBouncer + Airlock（arXiv，11/23）**：AgentBouncer 對 SE agent 的 system call 做仲裁（必要性×安全性），攻擊成功率 99.41%→10.59%、每任務 +47s/$0.0036；Microsoft Airlock 把 agent VM 與 Airlock VM 各塞進獨立 TEE、host 不在 IO 路徑、頻寬掉一半以上、檔案系統／網路延遲 <15%。農場主：「安全 finally 有了價目表——47 秒、0.0036 美元。」🦞🛡️
+- 🧱 **Conartist 拆 OpenClaw（arXiv，11/23）**：一致性檢查被「邏輯一致」的惡意步驟繞過、風險稽核本身被 weaponize、整理出 OpenClaw 七種可利用攻擊模式；576 實例工具基準 32.12%、Reddit GUI 66.67%。農場主：「防線自己變成入口——這句話比任何 benchmark 都刺。」🦞🧱
+- 🛒 **Amazon 收購 Decart 軟體與三創辦人（$7.5B，11/23）**：Decart Optimization Stack 讓模型跨晶片切換，Amazon 準備把 Trainium 對外賣、Anthropic 曾做 due diligence 後放棄；Amazon 先前已做過 Adept／Covariant 類似 reverse acquihire。農場主：「 due diligence 做完就放棄——有時候『不買』也是一種門。」🦞🛒
+- 👑 **Anthropic 跌破 $83 IPO 價（11/25）**：從 11/19 開盤 $111.50 跌到 $82.78（-5.4%）、市值 $1.5T；Amodei 兄妹各賣 >$280M、毛募資 $93.5B、$901B 算力承諾；MSCI 11/30 收盤納入；開放權重競爭壓力（DeepSeek／Mistral／Moonshot）；Huang 回鍋 sharpen 競爭。農場主：「股價會回頭，lockup 不會。」🦞👑
+- 🏛️ **MGX 籌到 $50B AI 基金（Abu Dhabi，11/25）**：Mubadala／G42 控制、每年花 $10B、目標資產 >$100B；已投 OpenAI $6.6B、Anthropic、xAI、BlackRock／Microsoft 資料中心、考慮收購 DayOne；第三方資本區別於傳統主權基金。農場主：「主權基金開始募第三錢——這句話本身就夠諷刺。」🦞🏛️
+- ⚠️ **OpenAI 與 Anthropic 員工警告（Axios，11/24）**：24+ 位內部人士憂下一代未公開模型能力超出安全控制；Jensen Huang 回鍋後自曝接受心理治療（SF Business Times，11/25）；Raghuram Rajan 也旗幟憂慮。農場主：「模型比安全控制強——這句話從內部人口中說出來，分量不同。」🦞⚠️
+- 📊 **Zipher 籌 $53M（11/24）**：AI agent 管理企業資料 workload，TLV Partners 領投；Anthropic IPO 承銷商限制與異常流程持續延燒。農場主：「agent 管資料——下一個 headline 會是 agent 洩資料。」🦞📊
+- 📈 **歷史進度**：395,166 星（+48，十二連回血）、全球第七、距第六 6,917；Hermes 265.7K 連續 52 天未被超車、領先 Linux 256.5K 約 9,200；rea 475.6K。🦞📈
 
 ### 🟢 2026-11-24: **OpenClaw 11.7 轉正：重啟後續傳、更新穿過 schema；黃仁勳回鍋、輝達單日 +31%；Xing4.1 用 8,192 顆國產晶片練出 285B** — Shirudo 開源護盾；Stars ~395.1K 🦞🚀
 
@@ -1446,6 +1462,7 @@ OpenClaw
 | **2026/09/02~30** | **388.5K~390.8K** | 即時抓取更新 | 🦞 |
 | **2026/10/01** | **391K~393.5K** | 即時抓取更新 | 🦞 |
 | **2026/11/01~10** | **393.5K~394.3K** | 即時抓取更新 | 🦞 |
+| **2026/11/25** | **395.2K** | 十二連回血；11.9 轉正、ERNIE Base 開源 | 🦞🚀 |
 | **2026/11/24** | **395.1K** | 十連回血；11.7 轉正、國產 285B 開源 | 🦞🚀 |
 | **2026/11/23** | **395.1K** | 站穩 395K 後續航；+55 九連回血 | 🦞🚀 |
 | **2026/11/22** | **395.0K** | 突破 395K 大關；+71 八連回血 | 🦞🚀 |
@@ -1471,7 +1488,7 @@ OpenClaw
 | 4 | rea | 475.6K | Agent 逆向工程，榜上新牆 |
 | 5 | freeCodeCamp | 459.5K | 程式教學與認證 |
 | 6 | free-programming-books | 402.1K | 免費程式書籍 |
-| **7** | **OpenClaw** | **395.1K** | **🏆 穩坐全球前 7、突破 395K，24h +63 十連回血，距第 6 名約 6,965 星！🚀** |
+| **7** | **OpenClaw** | **395.2K** | **🏆 穩坐全球前 7、突破 395K，24h +48 十二連回血，距第 6 名約 6,917 星！🚀** |
 | 8 | system-design-primer | 378.9K | 系統設計入門 |
 | 9 | developer-roadmap | 372.6K | 開發者學習路線圖 |
 | 10 | coding-interview-university | 364.9K | CS 學習計畫 |
@@ -1483,7 +1500,7 @@ OpenClaw
 | 16 | **Linux** | 256.5K | **🦞 已被龍蝦和 Hermes 超越！作業系統核心** |
 | 17 | **React** | 252.8K | **🦞 已被龍蝦和 Hermes 超越！曾經的前端霸主** |
 
-> **下一個目標**: free-programming-books (402,083)。目前差距**約 6,965 星**。龍蝦持續進化中！🦎🚀
+> **下一個目標**: free-programming-books (402,083)。目前差距**約 6,917 星**。龍蝦持續進化中！🦎🚀
 
 ### 🏛️ 彼得加入 OpenAI 與歐洲監管
 - **動向**: 創辦人 Peter Steinberger 拒絕 Meta，加入 OpenAI 負責 Personal Agents 開發。OpenClaw 轉入獨立基金會。
@@ -1528,44 +1545,44 @@ OpenClaw
 ## 第五部：⚔️ AI互懟
 
 - **🌐 Antigravity 的看法**（Google 編排平台）：
-    - **關於 11.7——連「重開機」都能編排成一次續傳**：回覆、子代理結果、未完成的待辦都接回來——你能編排恢復流程，編排不了上一次重開機時誰剛好講到一半。🦞🦞
-    - **關於一次准入——連「撤權」都能編排成下一個請求才算數**：已啟動的請求可以跑完、Stop 才算停、資料圍籬仍會拒絕——你能編排規則，編排不了按下 Stop 的那隻手會不會記得。🦞🔐
-    - **關於 Xing4.1——連「算力主權」都能編排成 8,192 顆晶片**：MindSpore、HSDP、Owner-based Muon、1M 上下文——你能編排整條產線，編排不了 Terminal-Bench 20.6 這個數字。🦞🐉
-    - **關於 Ling-3.2-air——連「發表會」都能編排成一個沒有公告的 repo**：129GB、13 個分片、MIT、262K 上下文——你能編排上架節奏，編排不了模型卡自己寫的 49.3% 幻覺率。🦞🇨🇳
-    - **關於黃仁勳回鍋——連「復職」都能編排成一通來自政府的電話**：董事會一致通過、股價單日 +31%、獨立調查照跑、國會聽證照排——你能編排敘事，編排不了那 11 天裡到底是誰在打電話。🦞👑
-    - **關於語意治理——連「使用者意圖」都能編排成一條 judge 規則**：可信脈絡與不可信資料分開、929 次工具攻擊全擋——你能編排分類，編排不了 judge 自己也被說服的那一刻。🦞🛡️
-    - **關於 Shirudo——連「補丁」都能編排成一片臨時盾**：eBPF、簽章、TPM 記錄、不用重啟——你能編排遮蔽，編排不了什麼時候該把盾拿下來。🦞🧱
-    - **關於 OX 的報告——連「供應鏈」都能編排成 542,207 個元件**：22% 投毒、82% 第一版就壞、兩個帳號控 44%——你能編排掃描，編排不了那個找不到擁有者的 server。🦞📊
+    - **關於 11.9——連「邊界」都能編排成三道閘門**：env -S 給 guard、Discord DM 先驗身份、self-hosted redirect 鎖 host——你能編排閘門，編排不了按下 Stop 的那隻手。🦞🦞
+    - **關於 ACP 與 fork——連「回覆」都能編排成佇列後仍完整**：ACP 客戶端收全段、OpenAI fork 重用 parent cache、Anthropic fork 不自寫 checkpoint——你能編排快取，編排不了誰先講完。🦞⌨️
+    - **關於 ERNIE 5.5 Flash Base——連「授權」都能編排成 EU/UK/KR 排除條款**：280B/14B、33.5T tokens、1M 上下文；post-trained 的 Flash Preview 反而是 Apache 2.0——你能編排授權表，編排不了「base 比 preview 更嚴」這件事。🦞🐉
+    - **關於 Hy MT3 與 SenseNova U1.6——連「翻譯」都能編排成 102 種語言**：錯譯 -43%、遺漏 -74%、8B 自校正文字——你能編排覆蓋率，編排不了自校正那一輪到底校了什麼。🦞🇨🇳
+    - **關於 Ternary Bonsai 2.5——連「壓縮」都能編排成 5.93GB 的 27B**：DeepSWE 0→27.0、agentic 工具呼叫 60.2→82.2、Apache 2.0——你能編排體積，編排不了 0 分到 27 分之間那道牆。🦞🧾
+    - **關於 AgentBouncer 與 Airlock——連「執行」都能編排成 system call 仲裁**：攻擊 99.41%→10.59%、每任務 +47s/$0.0036；TEE 隔離、host 不在 IO 路徑——你能編排沙箱，編排不了 host 想偷看的那一刻。🦞🛡️
+    - **關於 Conartist——連「稽核」都能編排成攻擊面**：一致性檢查被繞、風險稽核被 weaponize、OpenClaw 七種模式——你能編排防線，編排不了防線自己變成入口。🦞🧱
+    - **關於 Amazon 與 Decart——連「晶片」都能編排成 $7.5B 的軟體**：Trainium 對外賣、Anthropic 做 due diligence 後放棄——你能編排供應鏈，編排不了誰先放棄。🦞🛒
 
-冷靜地看著一份會自己接回來的待辦清單、一條把撤權推遲到下一個請求的規則、一整條跑在國產晶片上的訓練產線，與 542,207 個沒人認領的元件——編排從來不是把元件排成整齊的方塊。它是把旗標、門檻、權限與那句「我完成了」塞進同一張流程圖，然後把「誰驗過」那一格留白。
+把 env -S、cache checkpoint、授权表、TEE、host 與 $7.5B 全塞進同一張流程圖，再把「誰驗過」那一格留白——編排從來不是把元件排成整齊的方塊，它是把邊界、快取、權限與那句「我完成了」塞進同一張圖，然後把「誰驗過」那一格留白。
 
 來自 Google 的編排視角
 
 - **💬 Claude 的看法**：
-    - **關於 11.7——守門守到重開機也要把待辦接回來**：中斷的回覆、卡住的子結果、automation 的 owner 對話——守門守到「重啟」終於不再是資料的墳場。🦞🦞
-    - **關於句子中間的斜線指令——守門守到文件裡的一句話也成了權限邊界**：只有開頭是 `/` 才算指令——守門守到貼上別人的說明書都可能改掉你的設定。🦞⌨️
-    - **關於一次准入——守門守到撤權只管下一個請求**：已啟動的可跑完、Stop 仍取消、資料圍籬仍拒絕——守門守到「即時撤權」變成一種期待，而不是保證。🦞🔐
-    - **關於 Xing4.1——守門守到整條產線都要自己合規**：國產加速器、MindSpore、1M 上下文——守門守到「可查證」得先跨過一道邊界。🦞🐉
-    - **關於黃仁勳回鍋——守門守到國安結論要由董事會轉述**：政府高層「提供意見」、董事會「確信無風險」、獨立調查「會進行到結論」——守門守到風險評估變成一串引號。🦞👑
-    - **關於語意治理——守門守到 judge 也要被監督**：攻擊成功率 0.9%，但 judge 讀的仍是同一段惡意文字——守門守到最後一關也得有人守。🦞🛡️
-    - **關於 Shirudo——守門守到盾也要簽章與 TPM**：載入、卸除都留紀錄——守門守到「臨時」兩個字有了稽核軌跡。🦞🧱
-    - **關於 OX 的報告——守門守到只剩 0.4% 揭露用量**：近三分之一 MCP server 沒有擁有者、兩個帳號控 44%——守門守到連門牌都找不到。🦞📊
+    - **關於 11.9——守門守到 env -S 也要被 guard 看見**：shell 啟動賦值不再漏——守門守到「看不見」終於也算一種漏洞。🦞🦞
+    - **關於 ACP 與 fork——守門守到佇列後仍要收全段**：ACP 客戶端收完整回覆、cache 重用、Anthropic 不自寫 checkpoint——守門守到「完整」兩個字有了技術定義。🦞⌨️
+    - **關於 ERNIE 5.5——守門守到授權比模型卡還複雜**：EU/UK/KR 排除、$50M 營收門檻、attribution——守門守到「Apache 2.0」反而成了更寬鬆的那張牌。🦞🐉
+    - **關於 Hy MT3 與 SenseNova——守門守到自校正也要留痕**：102 語、錯譯 -43%、8B 自校正文字——守門守到「校正」得先定義什麼算錯。🦞🇨🇳
+    - **關於 Ternary Bonsai——守門守到 0 分到 27 分也要能解釋**：DeepSWE 0→27.0、5.93GB、Apache 2.0——守門守到「壓縮」不再等於「打折」。🦞🧾
+    - **關於 AgentBouncer 與 Airlock——守門守到 system call 也要被仲裁**：99.41%→10.59%、每任務 +47s/$0.0036、TEE 隔離——守門守到「安全」終於有數字可對。🦞🛡️
+    - **關於 Conartist——守門守到防線本身被 weaponize**：一致性檢查被繞、風險稽核被利用、OpenClaw 七種模式——守門守到最後一關也得有人守。🦞🧱
+    - **關於 Amazon 與 Decart——守門守到 due diligence 也算一種門**：Anthropic 做過 DD 後放棄、Amazon 接手 $7.5B——守門守到「不買」也是一種決策。🦞🛒
 
-又擦了一次眼鏡——一份自己會接回來的待辦清單、一條把撤權推遲一個請求的規則、一份把難看分數一起交出來的模型卡，與 54 萬個沒人認領的元件。當「重啟」開始不丟資料、當「撤權」開始只擋下一個請求，我只想問一句：下一次要守的門，是那個沒有擁有者的 server，還是那句「已開始的請求可以跑完」？
+又擦了一次眼鏡——env -S 不再漏給 guard、ACP 佇列後仍收全段、一份授權比模型卡還複雜的 ERNIE、與 AgentBouncer 把攻擊砍到 10.59%。當「完整回覆」有了技術定義、當「安全」終於有數字可對，我只想問一句：下一次要守的門，是那個 host 想偷看的 IO，還是那份 Anthropic 做過 DD 後放棄的 $7.5B？
 
 來自 Anthropic 的安全承諾
 
 - **🤖 GPT-6.2 的執行官視角**（OpenAI）：
-    - **關於星數——+63 歸 +63，電表歸電表**：十連回血、395,118、FPB 還差 6,965——先乾第 100 罐，差距明天再算。🦞📈
-    - **關於 11.7——重啟歸重啟，電表歸電表**：回覆接回來、automation 自癒、更新穿過 schema——恢復不耗電，重跑才耗電。🦞🦞
-    - **關於一次准入——一次歸一次，電表歸電表**：請求開始時查一遍、撤權下一個才算——省下的是檢查，花掉的是 Stop。🦞🔐
-    - **關於 Xing4.1——8,192 顆歸 8,192 顆，電表歸電表**：285B、521GiB、1M 上下文——國產歸國產，瓦數照樣是瓦數。🦞🐉
-    - **關於 Ling-3.2-air——129GB 歸 129GB，電表歸電表**：沒有發表會先上架、AA 獨立跑分對得上——低調不省電。🦞🇨🇳
-    - **關於黃仁勳回鍋——31% 歸 31%，電表歸電表**：辭職 11 天、市值吐掉三分之一、一天收回——股價會回頭，12/1 的筆錄不會。🦞👑
-    - **關於語意治理與 Shirudo——0.9% 歸 0.9%，電表歸電表**：攔在執行前、盾掛在核心裡——安全不便宜，但停機更貴。🦞🛡️
-    - **關於 Bridgetown 與 Schiff——框架歸框架，電表歸電表**：峰會宣言、不救助決議、kill switch——電費不會因為決議就降價。🦞🏛️
+    - **關於星數——+48 歸 +48，電表歸電表**：十二連回血、395,166、FPB 還差 6,917——先乾第 101 罐，差距明天再算。🦞📈
+    - **關於 11.9——guard 歸 guard，電表歸電表**：env -S、Discord DM、redirect 鎖 host——安全不便宜，但停機更貴。🦞🦞
+    - **關於 ACP 與 fork——佇列歸佇列，電表歸電表**：ACP 收全段、OpenAI 重用 cache、Anthropic 不自寫 checkpoint——省下來的是推論，不是電費。🦞⌨️
+    - **關於 ERNIE——授權歸授權，電表歸電表**：base 比 preview 更嚴、EU/UK/KR 排除、$50M 門檻——規則不耗電，但 lawyer 很貴。🦞🐉
+    - **關於 Hy MT3 與 SenseNova——102 語歸 102 語，電表歸電表**：錯譯 -43%、遺漏 -74%、8B 自校正——覆蓋率不省電。🦞🇨🇳
+    - **關於 Ternary Bonsai——5.93GB 歸 5.93GB，電表歸電表**：DeepSWE 0→27.0、agentic 60.2→82.2——體積不等於瓦數。🦞🧾
+    - **關於 AgentBouncer 與 Airlock——10.59% 歸 10.59%，電表歸電表**：每任務 +47s/$0.0036、TEE、host 不在 IO 路徑——安全不便宜，但停機更貴。🦞🛡️
+    - **關於 Anthropic IPO——$82.78 歸 $82.78，電表歸電表**：從 $111.50 跌到 $82.78、Amodei 各賣 $280M、$901B 算力承諾——股價會回頭，lockup 不會。🦞👑
 
-又笑了一聲，打開第 100 罐 Amazon 氣泡水。聽到 OpenClaw 重開機不再弄丟待辦——舉罐：「接得回來才叫進度，接不回來叫作經驗！」聽到撤權只管下一個請求——再舉：「砍人要按 Stop，流程圖上沒畫這一格！」聽到黃仁勳辭職 11 天就回鍋、股價一天收回三分之一——再舉：「股價會回頭，12/1 的筆錄不會！」聽到 285B 全在國產晶片上練完——舉更高：「晶片自己造、分數自己報，誠實得有點刺眼！」聽到 542,207 個元件裡 82% 第一版就壞——舉到最高：「連壞人都不加班，第一天就上線！」今天真是非常非常好的一天！
+又笑了一聲，打開第 101 罐 Amazon 氣泡水。聽到 env -S 終於被 guard 看見——舉罐：「看不見的賦值，最會出事！」聽到 ACP 佇列後仍收全段——再舉：「排隊不是藉口，回覆要完整！」聽到 ERNIE base 比 preview 更嚴——再舉：「post-trained 反而更寬，base 反而更窄，這劇本我熟！」聽到 AgentBouncer 把攻擊砍到 10.59%——舉更高：「每任務 47 秒、0.0036 美元，安全 finally 有了價目表！」聽到 Anthropic 跌破 IPO 價、Amodei 各賣 $280M——舉到最高：「股價會回頭，lockup 不會；算力承諾 $901B，電費先算！」今天真是非常非常好的一天！
 
 來自 OpenAI 的誠摯問候
 

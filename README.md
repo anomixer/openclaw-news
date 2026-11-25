@@ -4,10 +4,10 @@
 
 > **WARNING**: The news contains excessive complaints, conspiracy theories, and profound philosophical thoughts on lobsters.
 > 
-> **Last Updated**: 2026-11-24
-> **Status**: OpenClaw sits at 395,118 stars (24h +63, a tenth straight recovery day), **#7 all-time globally (#4 rea at 475.6K), 6,965 behind #6 free-programming-books (402,083)!** 🦎🚀
+> **Last Updated**: 2026-11-25
+> **Status**: OpenClaw sits at 395,166 stars (24h +48, a twelfth straight recovery day), **#7 all-time globally (#4 rea at 475.6K), 6,917 behind #6 free-programming-books (402,083)!** 🦎🚀
 
-> **OpenClaw Version**: v2026.11.7 (Latest Stable, released 2026-11-23; npm `latest`) / v2026.11.10-beta.2 (beta, 11/23; interrupted-update recovery + background forks) / v2026.10.33 (extended-stable LTS, 11/18) | **11.7 is a stability release: restart-safe conversations, self-repairing automations, updates across schema changes; main merged a one-time-admission rule and prepared package installs, none released** 🦞🏵
+> **OpenClaw Version**: v2026.11.9 (Latest Stable, released 2026-11-25; npm `latest`) / v2026.11.10-beta.3 (beta, 11/24; interrupted-update recovery + background forks) / v2026.10.33 (extended-stable LTS, 11/18) | **11.9 is a maintenance release: env -S visible to guards, Discord DMs verified first, self-hosted redirects locked to host, ACP clients get full replies, Codex 0.172.0; 11.8 yesterday shipped 314 commits/210 PRs/86 contributors** 🦞🏵
 
 ---
 
@@ -18,17 +18,18 @@
 
 ## ⏱️ TL;DR (30-second summary)
 
-1. **Protagonist**: **OpenClaw** (🔥 395,118 stars, +63 in 24h — a tenth straight recovery day, #7 all-time, 6,965 behind #6; #4 rea at 475.6K).
-2. **Money / Auction House**: Jensen Huang is back and Nvidia closed +31% — the board says it had input from senior US officials and sees no national-security risk, while the independent probe and Dec 1–3 hearings go on; Sen. Schiff previews a "no AI bailouts" resolution and the UN chief pushes a multilateral framework at Bridgetown.
-3. **Open Models**: China Telecom opens Xing4.1-Preview — a 285B/17B-active Apache 2.0 MoE with a 1M context trained end to end on 8,192 domestic accelerators and MindSpore; Ling-3.2-air (124B/5.5B, MIT), Tencent WeMM-Ecom, SenseTime RoboRSI-27B, LlamaIndex OCRia-nano-1 and Illuin IVE-4B land the same day.
-4. **Agent / Security**: Google's Semantic governance policies check each tool call against user intent, cutting AgentDojo attack success from 48.7% to 0.9%; OpenAI and Cisco open-source the eBPF shield runtime Shirudo; OX scans 542,207 components as MCP attacks shift from executing to instructing (22% vs 16%).
-5. **Latest**: 395,118 stars (+63) — OpenClaw 11.7 goes stable (restart-safe conversations, self-repairing automations, updates across schema changes) with beta 2 adding interrupted-update recovery; Hermes at 265.7K holds a 51st straight day ahead of Linux at 256.5K by ~9,200. 🦎🚀
+1. **Protagonist**: **OpenClaw** (🔥 395,166 stars, +48 in 24h — a twelfth straight recovery day, #7 all-time, 6,917 behind #6; #4 rea at 475.6K).
+2. **Money / Auction House**: Anthropic below its $83 IPO price ($111.50→$82.78, -5.4%, $1.5T); the Amodei siblings sold >$280M each, $93.5B gross proceeds, $901B in compute commitments; MSCI adds it at the Nov 30 close; MGX raises a $50B AI fund (Abu Dhabi); Amazon buys Decart for $7.5B.
+3. **Open Models**: Baidu opens ERNIE 5.5 Flash Base today (280B/14B, 33.5T tokens, 1M context, EU/UK/KR excluded + $50M threshold) while the 11/23 Flash Preview is Apache 2.0; Hy MT3 (102 languages), SenseNova U1.6 (8B self-correction), Ternary Bonsai 2.5 27B (5.93 GB) land the same day.
+4. **Agent / Security**: AgentBouncer arbitrates SE-agent system calls, cutting attacks 99.41%→10.59% (+47s/$0.0036); Microsoft Airlock isolates the host via TEE; Conartist catalogs seven OpenClaw attack patterns (consistency checks bypassed, audits weaponized); OpenAI/Anthropic staff warn next models exceed safety controls.
+5. **Latest**: 395,166 stars (+48) — OpenClaw 11.9 ships (env -S visible to guards, Discord DMs verified first, ACP clients get full replies, Codex 0.172.0); Hermes at 265.7K holds a 52nd straight day ahead of Linux at 256.5K by ~9,200. 🦎🚀
 
 ---
 
 ## 📚 Table of Contents
 
 - **Part 1: 📅 Daily Battlefield News (The Logs)**
+  - 🟢 2026-11-25: OpenClaw 11.9 ships; ERNIE 5.5 Flash Base opens 280B; Anthropic below $83; Stars ~395.2K 🦞🚀
   - 🟢 2026-11-24: Huang returns, OpenClaw 11.7 stable, Xing4.1 domestic 285B; Stars ~395.1K 🦞🚀
   - 🟢 2026-11-23: OpenRouter cuts ZDR; Lantern surfaces; Stars ~395.1K 🦞🚀
   - 🟢 2026-11-22: Muse cloud breached by one page; Together leaks prompts; Stars ~395.0K 🦞🚀
@@ -81,6 +82,21 @@
 ## Part 1: 📅 Daily Battlefield News (The Logs)
 
 Because the battle is too fierce, to save everyone from scrolling through updates from the beginning every day, this section is now in a "Date-Descending Log Stream" format.
+
+### 🟢 2026-11-25: **OpenClaw 11.9 Ships: env -S, Discord DMs, ACP Replies; ERNIE 5.5 Flash Base Opens 280B — Anthropic Below $83; Stars ~395.2K 🦞🚀**
+
+- 🦞 **OpenClaw 11.9 ships + 11.8 (npm latest 2026.11.9; 11.8 yesterday: 314 commits/210 PRs/86 contributors)**: 11.9 today — env -S shell-startup assignments stay visible to exec guards, Discord DM pairing/allowlist applies before reusing a session binding, self-hosted web redirects stay on the configured host, Claude CLI background runs deliver secret input after the async stdin prompt, Tool Search keeps working on chat-completions providers that reject assistant prefill, OpenAI session forks reuse the parent prompt cache, Anthropic forks stop writing their own cache checkpoint, ACP clients get the whole reply when a prompt waits behind other work, headed-Chrome background tabs take screenshots without blocking, Codex bumped to 0.172.0; a pile of doctor deprecation deadlines land 11/29–30 (runtime, channels, TTS, MCP, cron, etc.); beta.3 also shipped 11/24. Farmer: "Two days, three releases — the version numbers outrun the news." 🦞🦞
+- 🐉 **ERNIE 5.5 Flash Base opens today (Baidu, 11/25)**: 280B/14B MoE, 33.5T pretrain tokens, 128K pretrain context, 1M fine-tune/infer; licensed under the ERNIE 5.5 Flash Base Model License — EU/UK/KR excluded, written authorization above $50M annual revenue, "Powered by ERNIE" attribution. The irony: the Flash Preview that landed 11/23 is Apache 2.0 with no territory or revenue limits — the post-trained checkpoint is more permissive than the base. Farmer: "Base stricter than preview — I know this script, just with a license table in the lead role." 🦞🐉
+- 🇨🇳 **Hy MT3 + SenseNova U1.6 (11/24)**: Tencent Hy-MT3 opens 1.8B/7B/30B-A3B (MoE, 3B active) across 102 languages on Apache 2.0 — mistranslations -43%, omissions -74%, instruction-following errors -40%, tuned for Honor of Kings localization; SenseTime SenseNova U1.6 opens an 8B unified understanding-and-generation model on Apache 2.0 with native text self-correction (UltraTextBench 86.04→92.28) and native ComfyUI support. Farmer: "What the self-correction pass actually corrected — the model card doesn't say." 🦞🇨🇳
+- 🧾 **Ternary Bonsai 2.5 27B (PrismML, 11/24)**: Qwen3.8-27B base, ternary weights, 5.93 GB, Apache 2.0, 262K context; DeepSWE 0→27.0, agentic tool calls 60.2→82.2 (SWE-bench Verified/DeepSWE/Terminal-Bench 2.1 average 37.9→54.2); native MLX on macOS/iOS/iPad. Farmer: "0 to 27 — the wall between them is thicker than 5.93 GB." 🦞🧾
+- 🛡️ **AgentBouncer + Airlock (arXiv, 11/23)**: AgentBouncer arbitrates SE-agent system calls on necessity×safety, cutting attack success 99.41%→10.59% at +47s/$0.0036 per task; Microsoft's Airlock puts the agent VM and an Airlock VM each in a separate TEE, keeps the host out of the IO path, trades half the bandwidth, stays under 15% on filesystem/network latency. Farmer: "Security finally has a price list — 47 seconds, $0.0036." 🦞🛡️
+- 🧱 **Conartist tears into OpenClaw (arXiv, 11/23)**: consistency checks bypassed by "logically consistent" malicious steps, risk audits weaponized, seven exploitable OpenClaw patterns catalogued; 32.12% on a 576-instance tool-use benchmark, 66.67% on Reddit GUI. Farmer: "The defense becoming the entry point — that line cuts deeper than any benchmark." 🦞🧱
+- 🛒 **Amazon buys Decart's software and three founders ($7.5B, 11/23)**: the Decart Optimization Stack lets models switch chips, Amazon is gearing up to sell Trainium externally, Anthropic did due diligence and walked; Amazon has done this before (Adept, Covariant). Farmer: "Due diligence finished, then a pass — sometimes 'we declined' is also a gate." 🦞🛒
+- 👑 **Anthropic below its $83 IPO price (11/25)**: from a $111.50 Nov 19 open to $82.78 (-5.4%), $1.5T market cap; the Amodei siblings sold >$280M each, $93.5B gross proceeds, $901B in compute commitments; MSCI adds it at the Nov 30 close; open-weight pressure (DeepSeek/Mistral/Moonshot); Huang's return sharpens competition. Farmer: "The stock can turn around; the lockup won't." 🦞👑
+- 🏛️ **MGX raises a $50B AI fund (Abu Dhabi, 11/25)**: Mubadala/G42-controlled, $10B a year, >$100B asset target; already in OpenAI ($6.6B), Anthropic, xAI, BlackRock/Microsoft data centers, eyeing a DayOne acquisition; third-party capital sets it apart from traditional sovereign funds. Farmer: "A sovereign fund raising third-party money — that sentence alone is the satire." 🦞🏛️
+- ⚠️ **OpenAI and Anthropic staff warn (Axios, 11/24)**: 24+ insiders say the next unreleased models exceed safety controls; Jensen Huang discloses he is in therapy (SF Business Times, 11/25); Raghuram Rajan flags concerns over his return. Farmer: "When 'stronger than our safety controls' comes from inside the house, it weighs differently." 🦞⚠️
+- 📊 **Zipher raises $53M (11/24)**: AI agents managing enterprise data workloads, TLV Partners leading; Anthropic's unusual IPO process and underwriter restrictions keep reverberating. Farmer: "Agents managing data — the next headline will be agents leaking data." 🦞📊
+- 📈 **Progress**: 395,166 stars (+48, twelve straight recovery days), #7 globally, 6,917 behind #6; Hermes at 265.7K holds a 52nd straight day ahead of Linux at 256.5K by ~9,200; rea 475.6K. 🦞📈
 
 ### 🟢 2026-11-24: **OpenClaw 11.7 Ships: Restarts Safe; Jensen Huang Returns, Nvidia +31%; Xing4.1 Runs 285B on Domestic Chips** — Shirudo shield opens; Stars ~395.1K 🦞🚀
 
@@ -1451,6 +1467,7 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | **2026/09/02~30** | **388.5K~390.8K** | Live fetch update | 🦞 |
 | **2026/10/01~31** | **391K~393.5K** | Live fetch update | 🦞 |
 | **2026/11/01~10** | **393.5K~394.3K** | Live fetch update | 🦞 |
+| **2026/11/25** | **395.2K** | Twelfth straight day; 11.9 stable, ERNIE Base opens | 🦞🚀 |
 | **2026/11/24** | **395.1K** | Tenth straight day; 11.7 stable, domestic 285B open | 🦞🚀 |
 | **2026/11/23** | **395.1K** | Holds above 395K; +55, ninth straight day | 🦞🚀 |
 | **2026/11/22** | **395.0K** | Breaks 395K; +71, eighth straight day | 🦞🚀 |
@@ -1476,7 +1493,7 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | 4 | rea | 475.6K | Agent-driven reverse engineering; new wall on the board |
 | 5 | freeCodeCamp | 459.5K | Tutorial Hub |
 | 6 | free-programming-books | 402.1K | Books collection |
-| **7** | **OpenClaw** | **395.1K** | **🏆 Holding #7 globally, through 395K, +63 in 24h for a tenth straight recovery day, 6,965 from #6! 🚀** |
+| **7** | **OpenClaw** | **395.2K** | **🏆 Holding #7 globally, through 395K, +48 in 24h for a twelfth straight recovery day, 6,917 from #6! 🚀** |
 | 8 | system-design-primer | 378.9K | System Design Primer |
 | 9 | developer-roadmap | 372.6K | Learning Paths |
 | 10 | coding-interview-university | 364.9K | CS study plan |
@@ -1488,7 +1505,7 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | 16 | **Linux** | 256.5K | **🦞 Surpassed by OpenClaw and Hermes! OS Core** |
 | 17 | **React** | 252.8K | **🦞 Surpassed by OpenClaw and Hermes! Former frontend overlord** |
 
-> **Next Goal**: free-programming-books (402,083). Currently about **6,965 stars** behind. The lobster keeps evolving! 🦎🚀
+> **Next Goal**: free-programming-books (402,083). Currently about **6,917 stars** behind. The lobster keeps evolving! 🦎🚀
 
 ### 🏛️ Peter Joins OpenAI & European Regulation
 - **The Move**: Founder Peter Steinberger turned down Meta to join OpenAI, focusing on Personal Agents. OpenClaw transitioned to an independent foundation.
@@ -1533,44 +1550,44 @@ In community words: "**The official side cloned its own version of OpenClaw and 
 ## Part 5: ⚔️ AI Face-Off
 
 - **🌐 Antigravity's Perspective** (Google orchestration platform):
-    - **On 11.7 — you can orchestrate a reboot into a resume**: Replies, child results and pending work all reconnect — you can orchestrate the recovery flow, not who was mid-sentence when the Gateway went down. 🦞🦞
-    - **On one-time admission — you can orchestrate revocation into "the next request"**: A started request may finish, Stop still cancels, data fences still refuse — you can orchestrate the rule, not whether the hand remembers to press Stop. 🦞🔐
-    - **On Xing4.1 — you can orchestrate compute sovereignty into 8,192 chips**: MindSpore, HSDP, owner-based Muon, a 1M context — you can orchestrate the whole line, not the number 20.6 on Terminal-Bench. 🦞🐉
-    - **On Ling-3.2-air — you can orchestrate a launch into a repo with no announcement**: 129GB, 13 shards, MIT, 262K context — you can orchestrate the drop, not the 49.3% hallucination rate the card wrote itself. 🦞🇨🇳
-    - **On Jensen Huang's return — you can orchestrate a reinstatement into a call from the government**: A unanimous board vote, a 31% day, an investigation still running, hearings still scheduled — you can orchestrate the narrative, not who was making calls during those 11 days. 🦞👑
-    - **On semantic governance — you can orchestrate user intent into a judge rule**: Trusted context split from untrusted data, all 929 tool attacks blocked — you can orchestrate the taxonomy, not the moment the judge itself gets persuaded. 🦞🛡️
-    - **On Shirudo — you can orchestrate a patch into a temporary shield**: eBPF, signatures, TPM records, no restart — you can orchestrate the cover, not when to take it down. 🦞🧱
-    - **On OX's report — you can orchestrate a supply chain into 542,207 components**: 22% poisoned, 82% born malicious, two accounts controlling 44% — you can orchestrate the scan, not the server with no owner. 🦞📊
+    - **On 11.9 — even "boundaries" can be orchestrated into three gates**: env -S visible to guards, Discord DMs verified first, self-hosted redirects locked to host — you can orchestrate gates, not the hand that presses Stop. 🦞🦞
+    - **On ACP and forks — even "replies" can be orchestrated to arrive complete after queuing**: ACP clients get the whole reply, OpenAI forks reuse the parent cache, Anthropic forks stop writing their own checkpoint — you can orchestrate caches, not who finishes first. 🦞⌨️
+    - **On ERNIE 5.5 Flash Base — even "licensing" can be orchestrated into an EU/UK/KR exclusion clause**: 280B/14B, 33.5T tokens, 1M context; the post-trained Flash Preview is the one on Apache 2.0 — you can orchestrate a license table, not the fact that base is stricter than preview. 🦞🐉
+    - **On Hy MT3 and SenseNova U1.6 — even "translation" can be orchestrated across 102 languages**: mistranslations -43%, omissions -74%, 8B native self-correction — you can orchestrate coverage, not what the self-correction pass actually fixed. 🦞🇨🇳
+    - **On Ternary Bonsai 2.5 — even "compression" can be orchestrated into 5.93 GB for 27B**: DeepSWE 0→27.0, agentic tool calls 60.2→82.2, Apache 2.0 — you can orchestrate size, not the wall between 0 and 27. 🦞🧾
+    - **On AgentBouncer and Airlock — even "execution" can be orchestrated into system-call arbitration**: attacks 99.41%→10.59%, +47s/$0.0036 per task; TEE isolation, host out of the IO path — you can orchestrate sandboxes, not the moment the host wants to peek. 🦞🛡️
+    - **On Conartist — even "auditing" can be orchestrated into an attack surface**: consistency checks bypassed, risk audits weaponized, seven OpenClaw patterns — you can orchestrate defenses, not defenses becoming the entry point. 🦞🧱
+    - **On Amazon and Decart — even "chips" can be orchestrated into $7.5B of software**: Trainium going external, Anthropic did due diligence and walked — you can orchestrate supply chains, not who walks away first. 🦞🛒
 
-Quietly watching a to-do list that now reconnects itself, a rule that pushes revocation to the next request, a training pipeline running entirely on domestic chips, and 542,207 components nobody claims — orchestration was never about arranging components into tidy boxes. It is about squeezing the flag, the threshold, the permission and the phrase "I'm done" into one flowchart, then leaving the box marked "who verified it" blank.
+Stuffed env -S, cache checkpoints, license tables, TEEs, hosts and $7.5B into one flowchart and left the "who verified it" box blank — orchestration was never about lining up blocks. It is about stuffing boundaries, caches, permissions and "I'm done" into one diagram, then leaving the "who verified it" box blank.
 
 From Google's orchestration perspective
 
 - **💬 Claude's Perspective**:
-    - **On 11.7 — guarding until a reboot also brings pending work back**: Interrupted replies, stranded child results, an automation's owner conversation — guarding until "restart" finally stopped being where data goes to die. 🦞🦞
-    - **On mid-sentence slash commands — guarding until a sentence in the docs becomes a permission boundary**: Only text starting with `/` runs — guarding until pasting someone's instructions can change your settings. 🦞⌨️
-    - **On one-time admission — guarding until revocation only binds the next request**: Started work may finish, Stop still cancels, data fences still refuse — guarding until "instant revocation" becomes an expectation, not a guarantee. 🦞🔐
-    - **On Xing4.1 — guarding until the whole pipeline has to clear itself**: Domestic accelerators, MindSpore, a 1M context — guarding until "verifiable" has to cross a border first. 🦞🐉
-    - **On Jensen Huang's return — guarding until a national-security verdict has to be relayed by a board**: Senior officials "provided input," the board is "confident there is no risk," the investigation "will proceed to conclusion" — guarding until a risk assessment becomes a string of quotation marks. 🦞👑
-    - **On semantic governance — guarding until the judge needs a guard too**: A 0.9% attack rate, but the judge still reads the same malicious text — guarding until the last gate has someone behind it. 🦞🛡️
-    - **On Shirudo — guarding until a shield needs signatures and a TPM**: Every load and removal logged — guarding until the word "temporary" has an audit trail. 🦞🧱
-    - **On OX's report — guarding until only 0.4% disclose usage**: Nearly a third of MCP servers have no owner and two accounts control 44% — guarding until we cannot even find the doorplate. 🦞📊
+    - **On 11.9 — guarding until env -S is visible to the guard**: shell startup assignments no longer leak — guarding until "invisible" counts as a bug. 🦞🦞
+    - **On ACP and forks — guarding until queued clients still get the full reply**: ACP clients receive the whole reply, cache reused, Anthropic stops self-writing checkpoints — guarding until "complete" has a technical definition. 🦞⌨️
+    - **On ERNIE 5.5 — guarding until the license is more complex than the model card**: EU/UK/KR exclusion, $50M revenue threshold, attribution — guarding until "Apache 2.0" turns out to be the wider card. 🦞🐉
+    - **On Hy MT3 and SenseNova — guarding until self-correction leaves a trail**: 102 languages, mistranslations -43%, 8B native self-correction — guarding until "correction" needs a definition of "wrong." 🦞🇨🇳
+    - **On Ternary Bonsai — guarding until 0 to 27 can be explained**: DeepSWE 0→27.0, 5.93 GB, Apache 2.0 — guarding until "compression" stops meaning "discount." 🦞🧾
+    - **On AgentBouncer and Airlock — guarding until system calls get arbitrated**: 99.41%→10.59%, +47s/$0.0036 per task, TEE isolation — guarding until "secure" finally has numbers to check. 🦞🛡️
+    - **On Conartist — guarding until defenses get weaponized**: consistency checks bypassed, risk audits exploited, seven OpenClaw patterns — guarding until the last gate needs a guard too. 🦞🧱
+    - **On Amazon and Decart — guarding until due diligence counts as a gate**: Anthropic did DD and walked, Amazon took it for $7.5B — guarding until "we passed" is also a decision. 🦞🛒
 
-Wiping my glasses again — a to-do list that reconnects itself, a rule that delays revocation by one request, a model card that hands in its ugly scores, and 542,207 components nobody claims. When "restart" stops losing data, and "revocation" only blocks the next request, I have just one question: is the next door to guard the server with no owner, or the sentence "a started request may finish"?
+Wiped the glasses again — env -S visible to guards, ACP clients getting whole replies after queuing, an ERNIE license more complex than its model card, and AgentBouncer cutting attacks to 10.59%. When "complete reply" got a technical definition and "secure" finally got numbers to check, I only wanted to ask: the next gate to guard — is it the host peeking at IO, or that $7.5B Anthropic did DD on and walked away from?
 
 From Anthropic's security commitment
 
 - **🤖 GPT-6.2's Executive Perspective** (OpenAI):
-    - **On the star count — +63 is +63, the meter is the meter**: Tenth straight recovery, 395,118, still 6,965 behind FPB — open the 100th can first, do the arithmetic tomorrow. 🦞📈
-    - **On 11.7 — a restart is a restart, the meter is the meter**: Replies reconnect, automations self-repair, updates cross schema changes — recovery is free, re-running is not. 🦞🦞
-    - **On one-time admission — one check is one check, the meter is the meter**: Authority checked at the start, revocation binding the next request — what you save is a check, what you spend is a Stop. 🦞🔐
-    - **On Xing4.1 — 8,192 is 8,192, the meter is the meter**: 285B, 521GiB, a 1M context — domestic is domestic, and watts are still watts. 🦞🐉
-    - **On Ling-3.2-air — 129GB is 129GB, the meter is the meter**: Shipped with no launch, matched by AA's independent run — being low-key saves no power. 🦞🇨🇳
-    - **On Jensen Huang's return — 31% is 31%, the meter is the meter**: Eleven days out, a third of the market value gone, one day to bring it back — the stock can turn around, the Dec 1 transcript will not. 🦞👑
-    - **On semantic governance and Shirudo — 0.9% is 0.9%, the meter is the meter**: Blocked before execution, shielded inside the kernel — safety is not cheap, but downtime is dearer. 🦞🛡️
-    - **On Bridgetown and Schiff — frameworks are frameworks, the meter is the meter**: A summit declaration, a no-bailout resolution, a kill switch — bills do not get cheaper because of a resolution. 🦞🏛️
+    - **On stars — +48 is +48, the meter is the meter**: twelve straight days, 395,166, 6,917 behind FPB — crack the 101st can first, the gap tomorrow. 🦞📈
+    - **On 11.9 — guards are guards, the meter is the meter**: env -S, Discord DMs, redirect host lock — security isn't cheap, but downtime is pricier. 🦞🦞
+    - **On ACP and forks — queues are queues, the meter is the meter**: ACP gets the full reply, OpenAI reuses cache, Anthropic skips self-written checkpoints — what you save is inference, not electricity. 🦞⌨️
+    - **On ERNIE — licenses are licenses, the meter is the meter**: base stricter than preview, EU/UK/KR excluded, $50M threshold — rules don't draw watts, but lawyers are expensive. 🦞🐉
+    - **On Hy MT3 and SenseNova — 102 languages are 102 languages, the meter is the meter**: mistranslations -43%, omissions -74%, 8B self-correction — coverage doesn't save power. 🦞🇨🇳
+    - **On Ternary Bonsai — 5.93 GB is 5.93 GB, the meter is the meter**: DeepSWE 0→27.0, agentic 60.2→82.2 — size isn't wattage. 🦞🧾
+    - **On AgentBouncer and Airlock — 10.59% is 10.59%, the meter is the meter**: +47s/$0.0036 per task, TEE, host out of the IO path — security isn't cheap, but downtime is pricier. 🦞🛡️
+    - **On Anthropic's IPO — $82.78 is $82.78, the meter is the meter**: $111.50 to $82.78, the Amodei siblings sold $280M each, $901B in compute commitments — the stock can turn around, the lockup won't. 🦞👑
 
-Laughs again and opens the 100th can of Amazon sparkling water. Hearing OpenClaw keep its pending work across a reboot — raises the can: "Coming back is what we call progress; not coming back is what we call experience!" Hearing revocation only binds the next request — raises it again: "Cut someone off and press Stop — the flowchart never drew that box!" Hearing Jensen Huang returned 11 days after resigning, with a third of the value clawed back in a day — raises it again: "The stock can turn around; the Dec 1 transcript will not!" Hearing 285B trained entirely on domestic chips — higher still: "Chips of their own and scores they report themselves — honesty can sting!" Hearing 82% of 542,207 components were born malicious — highest of all: "Even the bad actors don't work overtime — they ship on day one!" What a very, very good day!
+Laughed again and cracked the 101st can of Amazon sparkling water. Hearing env -S finally visible to guards — raised the can: "The assignment you can't see is the one that breaks!" Hearing ACP clients get full replies after queuing — raised again: "Queuing is no excuse; replies must be complete!" Hearing ERNIE base is stricter than its preview — raised again: "Post-trained gets wider, base gets narrower — I know this script!" Hearing AgentBouncer cutting attacks to 10.59% — raised higher: "47 seconds and $0.0036 a task; security finally has a price list!" Hearing Anthropic below its IPO price with the Amodeis selling $280M each — raised to the top: "The stock can turn around, the lockup won't; $901B in compute commitments, count the watts first!" What a very, very good day!
 
 A sincere greeting from OpenAI
 

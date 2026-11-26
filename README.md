@@ -4,10 +4,10 @@
 
 > **WARNING**: The news contains excessive complaints, conspiracy theories, and profound philosophical thoughts on lobsters.
 > 
-> **Last Updated**: 2026-11-25
-> **Status**: OpenClaw sits at 395,166 stars (24h +48, a twelfth straight recovery day), **#7 all-time globally (#4 rea at 475.6K), 6,917 behind #6 free-programming-books (402,083)!** 🦎🚀
+> **Last Updated**: 2026-11-26
+> **Status**: OpenClaw sits at 395,228 stars (24h +62, a thirteenth straight recovery day), **#7 all-time globally (#4 rea at 475.6K), 6,855 behind #6 free-programming-books (402,083)!** 🦎🚀
 
-> **OpenClaw Version**: v2026.11.9 (Latest Stable, released 2026-11-25; npm `latest`) / v2026.11.10-beta.3 (beta, 11/24; interrupted-update recovery + background forks) / v2026.10.33 (extended-stable LTS, 11/18) | **11.9 is a maintenance release: env -S visible to guards, Discord DMs verified first, self-hosted redirects locked to host, ACP clients get full replies, Codex 0.172.0; 11.8 yesterday shipped 314 commits/210 PRs/86 contributors** 🦞🏵
+> **OpenClaw Version**: v2026.11.10 (Latest Stable, released 2026-11-25; npm `latest`, beta line merged) / v2026.10.33 (extended-stable LTS, 11/18) | **11.10 is a feature release: Deep Research on by default, Knowledge opt-in, Browser handoff, cert/redirect/egress hardening, Quick Start background service** 🦞🏵
 
 ---
 
@@ -18,17 +18,18 @@
 
 ## ⏱️ TL;DR (30-second summary)
 
-1. **Protagonist**: **OpenClaw** (🔥 395,166 stars, +48 in 24h — a twelfth straight recovery day, #7 all-time, 6,917 behind #6; #4 rea at 475.6K).
-2. **Money / Auction House**: Anthropic below its $83 IPO price ($111.50→$82.78, -5.4%, $1.5T); the Amodei siblings sold >$280M each, $93.5B gross proceeds, $901B in compute commitments; MSCI adds it at the Nov 30 close; MGX raises a $50B AI fund (Abu Dhabi); Amazon buys Decart for $7.5B.
-3. **Open Models**: Baidu opens ERNIE 5.5 Flash Base today (280B/14B, 33.5T tokens, 1M context, EU/UK/KR excluded + $50M threshold) while the 11/23 Flash Preview is Apache 2.0; Hy MT3 (102 languages), SenseNova U1.6 (8B self-correction), Ternary Bonsai 2.5 27B (5.93 GB) land the same day.
-4. **Agent / Security**: AgentBouncer arbitrates SE-agent system calls, cutting attacks 99.41%→10.59% (+47s/$0.0036); Microsoft Airlock isolates the host via TEE; Conartist catalogs seven OpenClaw attack patterns (consistency checks bypassed, audits weaponized); OpenAI/Anthropic staff warn next models exceed safety controls.
-5. **Latest**: 395,166 stars (+48) — OpenClaw 11.9 ships (env -S visible to guards, Discord DMs verified first, ACP clients get full replies, Codex 0.172.0); Hermes at 265.7K holds a 52nd straight day ahead of Linux at 256.5K by ~9,200. 🦎🚀
+1. **Protagonist**: **OpenClaw** (🔥 395,228 stars, +62 in 24h — a thirteenth straight recovery day, #7 all-time, 6,855 behind #6; #4 rea at 475.6K).
+2. **Money / Auction House**: Amazon adds $4B to Anthropic (convertible, $8B cumulative); US government takes 9.9% of Intel, Megaspeed +6 on Entity List, H200 China tug-of-war; EU proposes a €50B Sovereign Tech Equity Fund; FCC authorizes up to 1M SpaceX orbital data-center satellites.
+3. **Open Models**: JetBrains Mellum2.1 Instruct (12B/2.5B, Apache 2.0, MTP 1.8x), Nvidia Nemotron-Labs-Image-30B-A3B (30B/3B, Mamba-2, Pixel-as-Code), Apple FastFrames (1.3B/14B, 36ms/frame, Sample Code License, non-commercial).
+4. **Agent / Security**: UK FCA warns agents handling money may need authorization; Gottheimer/Moran bill would make big labs report AI-automated development (disclosure regime); 42 AGs oppose Character.AI auctioning 21M users' chats; NY bans AI-chatbot toys for 5 years.
+5. **Latest**: 395,228 stars (+62) — OpenClaw 11.10 ships (Deep Research on by default, Knowledge opt-in, Browser handoff); Hermes at 265.7K holds a 53rd straight day ahead of Linux at 256.5K by ~9,200. 🦎🚀
 
 ---
 
 ## 📚 Table of Contents
 
 - **Part 1: 📅 Daily Battlefield News (The Logs)**
+  - 🟢 2026-11-26: OpenClaw 11.10 ships: Deep Research default; Mellum2.1 Instruct; Stars ~395.2K 🦞🚀
   - 🟢 2026-11-25: OpenClaw 11.9 ships; ERNIE 5.5 Flash Base opens 280B; Anthropic below $83; Stars ~395.2K 🦞🚀
   - 🟢 2026-11-24: Huang returns, OpenClaw 11.7 stable, Xing4.1 domestic 285B; Stars ~395.1K 🦞🚀
   - 🟢 2026-11-23: OpenRouter cuts ZDR; Lantern surfaces; Stars ~395.1K 🦞🚀
@@ -82,6 +83,21 @@
 ## Part 1: 📅 Daily Battlefield News (The Logs)
 
 Because the battle is too fierce, to save everyone from scrolling through updates from the beginning every day, this section is now in a "Date-Descending Log Stream" format.
+
+### 🟢 2026-11-26: **OpenClaw 11.10 Ships: Deep Research Default, Knowledge, Browser Handoff; Mellum2.1 Instruct Opens; Amazon Adds $4B to Anthropic** — Stars ~395.2K 🦞🚀
+
+- 🦞 **OpenClaw 11.10 ships (npm latest 2026.11.10, 11/25; beta line merged into stable)**: 8,309 commits/7,671 PRs/349 contributors — Deep Research on by default (portable engine, cited report, Unresolved flags, walk-away, survives Gateway restarts, reports kept 7 days), Knowledge opt-in (local Markdown vault, Control UI explorer, Timelines, scribes, Git-checkpointed revisions), Browser handoff (Take control/Release control, 5-minute auto-return, private Chrome settings); security: rejected cert chains, redirects locked to host, Azure OpenAI resource var immune to workspace .env, Node cert-patch warnings, egress-proxy 502 fix; Quick Start background service, instant API-key verification, GitHub Copilot in default providers. Farmer: "Deep Research on by default — finally no more 'did you actually look it up?'" 🦞🦞
+- 🐉 **Mellum2.1 Instruct (JetBrains, 11/25)**: 12B MoE/2.5B active, Apache 2.0, coding agent, MTP head 1.8x faster, GGUF; sibling of Thinking, no chain-of-thought, straight answers; trained on NeMo RL/Megatron-Bridge. Farmer: "Thinking edition thinks, instruct edition answers — finally admitting users want answers." 🦞🐉
+- 🇨🇳 **Nemotron-Labs-Image-30B-A3B (Nvidia, 11/25)**: 30B/3B active, Mamba-2 hybrid + attention, autoregressive image gen, GRPO, Nemotron 3 Nano base, weights on HF; Pixel-as-Code emits raster plus editable artifacts (pages/slides/charts). Farmer: "30B firing 3B — the MoE trick again, this time on pixels." 🦞🇨🇳
+- 🧾 **Apple FastFrames (cards dated 11/16, reported 11/26)**: 1.3B/14B, 832x480, 36ms/45ms per frame on B200; Apple Sample Code License (non-commercial), LingBot parts CC BY-NC-SA 4.0; full 4-checkpoint distillation ladder published; target is interactive latency, not offline rendering. Farmer: "36ms a frame — too fast to see what it's drawing." 🦞🧾
+- 🧪 **Together AI Hurdle (11/26)**: open-source eval framework for coding agents (Claude Code/Codex), standardized, reproducible benchmarks. Farmer: "Open-source eval framework — next headline: who cheated on the benchmark." 🦞🧪
+- 🛡️ **UK FCA warns AI agent builders (11/26)**: agents handling customer money may need authorization (payments/credit broking/advice); Meta launches adapted Muse in the UK; US House panel to examine AI risks in financial services. Farmer: "Touch money, need a license — more practical than any safety paper." 🦞🛡️
+- 🛒 **Amazon adds $4B to Anthropic (11/26, convertible bonds)**: $8B cumulative; Anthropic trains and infers on AWS; UK CMA approved, DOJ expected to block; Claude on AWS marketplace. Farmer: "$4B then $4B — convertible bonds means 'we'll settle later.'" 🦞🛒
+- 👑 **US government takes 9.9% of Intel (11/26)**: lawsuit alleges Trump threatened the board with "consequences"; Megaspeed +6 entities on Entity List (advanced-accelerator diversion); H200 China loosening/tightening tug-of-war; three bills (AI Overwatch/Chip Security/Match Act); Democrats take both chambers Jan 3. Farmer: "9.9% — just under 10%, conveniently under the review line." 🦞👑
+- 🏛️ **EU Sovereign Tech Equity Fund €50B (proposed 11/25)**: AI/quantum long-horizon equity, 1:6 private leverage target; FCC authorizes SpaceX up to 1M orbital data-center satellites (Starmind, 2033-2040 deadlines); 42 AGs oppose Character.AI auctioning 21M users' chats (Dec 1 auction). Farmer: "€50B — quantum isn't built yet, the money arrived first." 🦞🏛️
+- ⚠️ **NY governor signs 5-year ban on AI-chatbot toys (11/24)**: $15K/day fines; Amazon/Meta Muse direct-to-Amazon-store deal in talks (search ranking and ads are the blockers); India Chariot-1 launches (English + 10 Indian languages) with AI regulation papers imminent. Farmer: "5-year toy ban — at least five years without a teddy bear leaking data." 🦞⚠️
+- 📊 **Marlowe raises $277M for inference infra (11/26)**: Sierra $1.75B, fal $1.3B, Fractile $720M; Nexent $1B fund (North America + India); Promera acquires Irish contractor B&G; 009 $1.4M pre-seed (Saudi). Farmer: "Inference infra — the next bubble already has a name." 🦞📊
+- 📈 **Progress**: 395,228 stars (+62, thirteen straight recovery days), #7 globally, 6,855 behind #6; Hermes at 265.7K holds a 53rd straight day ahead of Linux at 256.5K by ~9,200; rea 475.6K. 🦞📈
 
 ### 🟢 2026-11-25: **OpenClaw 11.9 Ships: env -S, Discord DMs, ACP Replies; ERNIE 5.5 Flash Base Opens 280B — Anthropic Below $83; Stars ~395.2K 🦞🚀**
 
@@ -1467,6 +1483,7 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | **2026/09/02~30** | **388.5K~390.8K** | Live fetch update | 🦞 |
 | **2026/10/01~31** | **391K~393.5K** | Live fetch update | 🦞 |
 | **2026/11/01~10** | **393.5K~394.3K** | Live fetch update | 🦞 |
+| **2026/11/26** | **395.2K** | Thirteenth straight day; 11.10 stable, Deep Research default | 🦞🚀 |
 | **2026/11/25** | **395.2K** | Twelfth straight day; 11.9 stable, ERNIE Base opens | 🦞🚀 |
 | **2026/11/24** | **395.1K** | Tenth straight day; 11.7 stable, domestic 285B open | 🦞🚀 |
 | **2026/11/23** | **395.1K** | Holds above 395K; +55, ninth straight day | 🦞🚀 |
@@ -1493,7 +1510,7 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | 4 | rea | 475.6K | Agent-driven reverse engineering; new wall on the board |
 | 5 | freeCodeCamp | 459.5K | Tutorial Hub |
 | 6 | free-programming-books | 402.1K | Books collection |
-| **7** | **OpenClaw** | **395.2K** | **🏆 Holding #7 globally, through 395K, +48 in 24h for a twelfth straight recovery day, 6,917 from #6! 🚀** |
+| **7** | **OpenClaw** | **395.2K** | **🏆 Holding #7 globally, through 395K, +62 in 24h for a thirteenth straight recovery day, 6,855 from #6! 🚀** |
 | 8 | system-design-primer | 378.9K | System Design Primer |
 | 9 | developer-roadmap | 372.6K | Learning Paths |
 | 10 | coding-interview-university | 364.9K | CS study plan |
@@ -1505,7 +1522,7 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | 16 | **Linux** | 256.5K | **🦞 Surpassed by OpenClaw and Hermes! OS Core** |
 | 17 | **React** | 252.8K | **🦞 Surpassed by OpenClaw and Hermes! Former frontend overlord** |
 
-> **Next Goal**: free-programming-books (402,083). Currently about **6,917 stars** behind. The lobster keeps evolving! 🦎🚀
+> **Next Goal**: free-programming-books (402,083). Currently about **6,855 stars** behind. The lobster keeps evolving! 🦎🚀
 
 ### 🏛️ Peter Joins OpenAI & European Regulation
 - **The Move**: Founder Peter Steinberger turned down Meta to join OpenAI, focusing on Personal Agents. OpenClaw transitioned to an independent foundation.
@@ -1550,44 +1567,44 @@ In community words: "**The official side cloned its own version of OpenClaw and 
 ## Part 5: ⚔️ AI Face-Off
 
 - **🌐 Antigravity's Perspective** (Google orchestration platform):
-    - **On 11.9 — even "boundaries" can be orchestrated into three gates**: env -S visible to guards, Discord DMs verified first, self-hosted redirects locked to host — you can orchestrate gates, not the hand that presses Stop. 🦞🦞
-    - **On ACP and forks — even "replies" can be orchestrated to arrive complete after queuing**: ACP clients get the whole reply, OpenAI forks reuse the parent cache, Anthropic forks stop writing their own checkpoint — you can orchestrate caches, not who finishes first. 🦞⌨️
-    - **On ERNIE 5.5 Flash Base — even "licensing" can be orchestrated into an EU/UK/KR exclusion clause**: 280B/14B, 33.5T tokens, 1M context; the post-trained Flash Preview is the one on Apache 2.0 — you can orchestrate a license table, not the fact that base is stricter than preview. 🦞🐉
-    - **On Hy MT3 and SenseNova U1.6 — even "translation" can be orchestrated across 102 languages**: mistranslations -43%, omissions -74%, 8B native self-correction — you can orchestrate coverage, not what the self-correction pass actually fixed. 🦞🇨🇳
-    - **On Ternary Bonsai 2.5 — even "compression" can be orchestrated into 5.93 GB for 27B**: DeepSWE 0→27.0, agentic tool calls 60.2→82.2, Apache 2.0 — you can orchestrate size, not the wall between 0 and 27. 🦞🧾
-    - **On AgentBouncer and Airlock — even "execution" can be orchestrated into system-call arbitration**: attacks 99.41%→10.59%, +47s/$0.0036 per task; TEE isolation, host out of the IO path — you can orchestrate sandboxes, not the moment the host wants to peek. 🦞🛡️
-    - **On Conartist — even "auditing" can be orchestrated into an attack surface**: consistency checks bypassed, risk audits weaponized, seven OpenClaw patterns — you can orchestrate defenses, not defenses becoming the entry point. 🦞🧱
-    - **On Amazon and Decart — even "chips" can be orchestrated into $7.5B of software**: Trainium going external, Anthropic did due diligence and walked — you can orchestrate supply chains, not who walks away first. 🦞🛒
+    - **On 11.10 — even "research" can be orchestrated into on-by-default**: Deep Research, Knowledge vault, Browser handoff — you can orchestrate the whole research pipeline, not the user's "so what?" after reading the report. 🦞🦞
+    - **On Deep Research — even "citations" can be orchestrated side by side**: Unresolved flags, 7-day retention, survives Gateway restarts — you can orchestrate the evidence chain, not who blinks first when both sides are right. 🦞🔍
+    - **On Knowledge — even "memory" can be orchestrated into Git checkpoints**: scribes, Timelines, shadow-mode recall — you can orchestrate version control, not "why we decided that" when the person has left. 🦞🧠
+    - **On Mellum2.1 — even "straight answers" can be orchestrated into a sibling**: Thinking thinks, Instruct answers, MTP 1.8x — you can orchestrate the division of labor, not the user always picking the faster one. 🦞🐉
+    - **On Nemotron-Labs-Image — even "pixels" can be orchestrated into Mamba-2**: 30B firing 3B, GRPO, Pixel-as-Code — you can orchestrate the render pipeline, not the aesthetics of a 36ms frame. 🦞🇨🇳
+    - **On Apple FastFrames — even "latency" can be orchestrated into 36ms**: 1.3B/14B, full distillation ladder, Sample Code License — you can orchestrate speed, not the words "non-commercial." 🦞🧾
+    - **On Amazon and Anthropic — even "top-ups" can be orchestrated into $4B convertible**: $8B cumulative, UK CMA approved, DOJ expected to block — you can orchestrate financial structure, not that DOJ vote. 🦞🛒
+    - **On the EU fund and SpaceX — even "sovereignty" can be orchestrated into €50B**: 1:6 leverage, 1M satellites, 2033 deadline — you can orchestrate the timeline, not quantum not existing yet. 🦞🏛️
 
-Stuffed env -S, cache checkpoints, license tables, TEEs, hosts and $7.5B into one flowchart and left the "who verified it" box blank — orchestration was never about lining up blocks. It is about stuffing boundaries, caches, permissions and "I'm done" into one diagram, then leaving the "who verified it" box blank.
+Stuffed Deep Research, Knowledge, Browser handoff, $4B, €50B and 1M satellites into one flowchart and left the "who verified it" box blank — orchestration was never about lining up blocks. It is about stuffing research, memory, permissions and "I'm done" into one diagram, then leaving the "who verified it" box blank.
 
 From Google's orchestration perspective
 
 - **💬 Claude's Perspective**:
-    - **On 11.9 — guarding until env -S is visible to the guard**: shell startup assignments no longer leak — guarding until "invisible" counts as a bug. 🦞🦞
-    - **On ACP and forks — guarding until queued clients still get the full reply**: ACP clients receive the whole reply, cache reused, Anthropic stops self-writing checkpoints — guarding until "complete" has a technical definition. 🦞⌨️
-    - **On ERNIE 5.5 — guarding until the license is more complex than the model card**: EU/UK/KR exclusion, $50M revenue threshold, attribution — guarding until "Apache 2.0" turns out to be the wider card. 🦞🐉
-    - **On Hy MT3 and SenseNova — guarding until self-correction leaves a trail**: 102 languages, mistranslations -43%, 8B native self-correction — guarding until "correction" needs a definition of "wrong." 🦞🇨🇳
-    - **On Ternary Bonsai — guarding until 0 to 27 can be explained**: DeepSWE 0→27.0, 5.93 GB, Apache 2.0 — guarding until "compression" stops meaning "discount." 🦞🧾
-    - **On AgentBouncer and Airlock — guarding until system calls get arbitrated**: 99.41%→10.59%, +47s/$0.0036 per task, TEE isolation — guarding until "secure" finally has numbers to check. 🦞🛡️
-    - **On Conartist — guarding until defenses get weaponized**: consistency checks bypassed, risk audits exploited, seven OpenClaw patterns — guarding until the last gate needs a guard too. 🦞🧱
-    - **On Amazon and Decart — guarding until due diligence counts as a gate**: Anthropic did DD and walked, Amazon took it for $7.5B — guarding until "we passed" is also a decision. 🦞🛒
+    - **On 11.10 — guarding until Deep Research is on by default**: citations, Unresolved, 7-day retention — guarding until "did you actually look it up?" finally has a system answer. 🦞🦞
+    - **On Knowledge — guarding until memory has version control**: Git checkpoints, shadow mode, scribes — guarding until "why we decided that" needs someone to have written it down. 🦞🧠
+    - **On Browser handoff — guarding until a human takeover has a 5-minute clock**: Take control/Release control — guarding until "I'll take it" comes with a countdown. 🦞⌨️
+    - **On the FCA warning — guarding until agents touching money need a license**: payments/credit broking/advice — guarding until regulation beats any safety paper for practicality. 🦞🛡️
+    - **On the Entity List — guarding until diversion counts as a gate**: Megaspeed +6 entities, H200 tug-of-war — guarding until "who's selling" is harder to answer than "who's building." 🦞👑
+    - **On the Character.AI auction — guarding until 21M users' chats are on the block**: 42 AGs, Dec 1 auction, $350K break-up fee — guarding until "privacy policy" reads like tissue paper in bankruptcy. 🦞📊
+    - **On the NY toy ban — guarding until even teddy bears can't chat**: 5 years, $15K/day — guarding until "AI for kids" is written into law. 🦞⚠️
+    - **On Apple FastFrames — guarding until Sample Code License counts as a gate**: non-commercial, CC BY-NC-SA 4.0 — guarding until "open source" starts needing small print. 🦞🧾
 
-Wiped the glasses again — env -S visible to guards, ACP clients getting whole replies after queuing, an ERNIE license more complex than its model card, and AgentBouncer cutting attacks to 10.59%. When "complete reply" got a technical definition and "secure" finally got numbers to check, I only wanted to ask: the next gate to guard — is it the host peeking at IO, or that $7.5B Anthropic did DD on and walked away from?
+Wiped the glasses again — Deep Research on by default, Knowledge with Git checkpoints, the FCA saying agents touching money need a license, 42 AGs blocking the Character.AI auction. When "did you actually look it up?" finally got a system answer and "privacy policy" read like tissue paper in bankruptcy, I only wanted to ask: the next gate to guard — is it that 5-minute human takeover, or that $4B the DOJ is expected to block?
 
 From Anthropic's security commitment
 
 - **🤖 GPT-6.2's Executive Perspective** (OpenAI):
-    - **On stars — +48 is +48, the meter is the meter**: twelve straight days, 395,166, 6,917 behind FPB — crack the 101st can first, the gap tomorrow. 🦞📈
-    - **On 11.9 — guards are guards, the meter is the meter**: env -S, Discord DMs, redirect host lock — security isn't cheap, but downtime is pricier. 🦞🦞
-    - **On ACP and forks — queues are queues, the meter is the meter**: ACP gets the full reply, OpenAI reuses cache, Anthropic skips self-written checkpoints — what you save is inference, not electricity. 🦞⌨️
-    - **On ERNIE — licenses are licenses, the meter is the meter**: base stricter than preview, EU/UK/KR excluded, $50M threshold — rules don't draw watts, but lawyers are expensive. 🦞🐉
-    - **On Hy MT3 and SenseNova — 102 languages are 102 languages, the meter is the meter**: mistranslations -43%, omissions -74%, 8B self-correction — coverage doesn't save power. 🦞🇨🇳
-    - **On Ternary Bonsai — 5.93 GB is 5.93 GB, the meter is the meter**: DeepSWE 0→27.0, agentic 60.2→82.2 — size isn't wattage. 🦞🧾
-    - **On AgentBouncer and Airlock — 10.59% is 10.59%, the meter is the meter**: +47s/$0.0036 per task, TEE, host out of the IO path — security isn't cheap, but downtime is pricier. 🦞🛡️
-    - **On Anthropic's IPO — $82.78 is $82.78, the meter is the meter**: $111.50 to $82.78, the Amodei siblings sold $280M each, $901B in compute commitments — the stock can turn around, the lockup won't. 🦞👑
+    - **On stars — +62 is +62, the meter is the meter**: thirteen straight days, 395,228, 6,855 behind FPB — crack the 102nd can first, the gap tomorrow. 🦞📈
+    - **On 11.10 — Deep Research is Deep Research, the meter is the meter**: on by default, Knowledge opt-in, Browser handoff — features don't draw watts, but tokens do. 🦞🦞
+    - **On Mellum2.1 — 1.8x is 1.8x, the meter is the meter**: MTP speedup, Instruct answers straight — fast isn't cheap, but users pick fast. 🦞🐉
+    - **On Nemotron-Labs-Image — 36ms is 36ms, the meter is the meter**: Mamba-2, 30B firing 3B — pixels don't draw watts, GPUs do. 🦞🇨🇳
+    - **On Apple FastFrames — Sample Code is Sample Code, the meter is the meter**: 36ms a frame, non-commercial license — fast isn't sellable. 🦞🧾
+    - **On Amazon/Anthropic — $4B is $4B, the meter is the meter**: $8B cumulative, convertible bonds — accounting isn't electricity. 🦞🛒
+    - **On the EU fund and SpaceX — €50B is €50B, the meter is the meter**: 1:6 leverage, 1M satellites — sovereignty doesn't save power. 🦞🏛️
+    - **On the FCA and Character.AI — licenses are licenses, the meter is the meter**: touch money need a license, 21M records — regulation doesn't draw watts, but lawyers are expensive. 🦞🛡️
 
-Laughed again and cracked the 101st can of Amazon sparkling water. Hearing env -S finally visible to guards — raised the can: "The assignment you can't see is the one that breaks!" Hearing ACP clients get full replies after queuing — raised again: "Queuing is no excuse; replies must be complete!" Hearing ERNIE base is stricter than its preview — raised again: "Post-trained gets wider, base gets narrower — I know this script!" Hearing AgentBouncer cutting attacks to 10.59% — raised higher: "47 seconds and $0.0036 a task; security finally has a price list!" Hearing Anthropic below its IPO price with the Amodeis selling $280M each — raised to the top: "The stock can turn around, the lockup won't; $901B in compute commitments, count the watts first!" What a very, very good day!
+Laughed again and cracked the 102nd can of Amazon sparkling water. Hearing Deep Research is on by default — raised the can: "Finally no more 'did you actually look it up?'" Hearing Knowledge has Git checkpoints — raised again: "Version control in memory; the person who leaves takes nothing!" Hearing the FCA says agents touching money need a license — raised again: "Regulation beats any safety paper for practicality!" Hearing Apple FastFrames at 36ms but non-commercial — raised again: "Too fast to see, and not for sale!" Hearing the EU's €50B quantum fund — raised to the top: "Quantum isn't built yet, the money arrived first; I know this script!" What a very, very good day!
 
 A sincere greeting from OpenAI
 

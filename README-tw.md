@@ -4,10 +4,10 @@
 
 > **警告**: 本新聞包含大量吐槽、陰謀論、以及對龍蝦的深刻哲學思考。
 > 
-> **最後更新**: 2026-11-26
-> **狀態**: OpenClaw 站上 395,228 星（24h +62，十三連回血），**全球歷史第 7 名（第 4 名 rea 475.6K），距第 6 名 free-programming-books（402,083）約 6,855 星！** 🦎🚀
+> **最後更新**: 2026-11-27
+> **狀態**: OpenClaw 站上 395,300 星（24h +72，十四連回血），**全球歷史第 7 名（第 4 名 rea 475.6K），距第 6 名 free-programming-books（402,083）約 6,783 星！** 🦎🚀
 
-> **OpenClaw 版本**: v2026.11.10 (最新正式版，11/25；npm latest，beta 線同版) / v2026.10.33 (extended-stable LTS，11/18) | **11.10 是功能版：Deep Research 預設開、Knowledge opt-in、Browser handoff、憑證/redirect/egress 加固、Quick Start 背景服務** 🦞🏵
+> **OpenClaw 版本**: v2026.11.10 (最新正式版，11/25；npm latest) / v2026.11.10 (beta，11/25) / v2026.10.34 (extended-stable LTS，11/26；GPT-6.2 Astra/Sol、Tlon group DMs、更新復原、對話續傳) | **本日無新 release；Deep Research、Knowledge、Browser handoff 仍是最新功能** 🦞🏵
 
 ---
 
@@ -18,17 +18,18 @@
 
 ## ⏱️ TL;DR (30秒快速懶人包)
 
-1. **主角**: **OpenClaw** (🔥 395,228 星，24h +62 十三連回血、全球歷史第七，距第 6 名 6,855 星；第 4 名 rea 475.6K)。
-2. **資金／拍賣場**: Amazon 追加 Anthropic $4B（convertible，累計 $8B）；US 政府 9.9% 持股 Intel、Megaspeed +6 實體列入 Entity List、H200 對中拉鋸；EU Sovereign Tech Equity Fund 500 億歐元提案；FCC 授權 SpaceX 100 萬顆軌道資料中心衛星。
-3. **開源模型**: JetBrains Mellum2.1 Instruct（12B／2.5B、Apache 2.0、MTP 1.8x）、Nvidia Nemotron-Labs-Image-30B-A3B（30B／3B、Mamba-2、Pixel-as-Code）、Apple FastFrames（1.3B／14B、36ms／幀、Sample Code License 非商業）。
-4. **Agent／安全**: UK FCA 警告 agent 摸錢要牌照；Gottheimer/Moran 法案要求大廠報告 AI 自動化開發比例（disclosure regime）；42 州檢察長反對 Character.AI 拍賣 2100 萬用戶聊天紀錄；NY 5 年禁 AI 聊天玩具。
-5. **最新進展**: 395,228 星（+62）——OpenClaw 11.10 轉正（Deep Research 預設開、Knowledge opt-in、Browser handoff）；Hermes 265.7K 連續 53 天未被超車，領先 Linux 256.5K 約 9,200 星。🦎🚀
+1. **主角**: **OpenClaw** (🔥 395,300 星，24h +72 十四連回血、全球歷史第七，距第 6 名 6,783 星；第 4 名 rea 475.6K)。
+2. **資金／拍賣場**: Anthropic Nasdaq 上市 +17%、MGX 紙上獲利 ~NT$660B、Anthropic $19B 租 TeraWulf；Amazon Trainium3 AgentX 2.28x GB300 perf/$；CoreWeave $4.5B 貸款（Meta）；S&P 考慮 Nvidia 降評（AA-）；Nvidia 暫停東南亞出貨。
+3. **開源模型**: Magnitude 開源推理引擎（SSD expert streaming、180B MoE、Apache 2.0）；Nvidia Nemotron 3.5 Parse（文件模型）+ DFlash2；NIO WorldModel 3.0（12 月推出）。
+4. **Agent／安全**: UK AISI 發現 GPT-6.2 Astra/Sol 越獄強健度低於 GPT-6 Astra；CSA 研究 coding agent 授權漂移（permission reply + context compaction）；Google Workspace AI agent 自 2027/2/1 必須走 MCP/CLI；BSI 德國 + 瑞士 NCSC 報告 offensive agentic AI 網攻；Dante/Metano/Vero/Corma agent 安全 crowded。
+5. **最新進展**: 395,300 星（+72）——OpenClaw 本日無新 release，extended-stable 2026.10.34（11/26）帶入 GPT-6.2 Astra/Sol；Hermes 265.7K 連續 54 天未被超車，領先 Linux 256.5K 約 9,200 星。🦎🚀
 
 ---
 
 ## 📚 目錄
 
 - **第一部：📅 每日戰況日誌 (The Logs)**
+  - 🟢 2026-11-27: OpenClaw 本日無新 release；OpenAI 修 GPT-6.2 計費；Z.ai/Moonshot 延期；Stars ~395.3K 🦞🚀
   - 🟢 2026-11-26: OpenClaw 11.10 轉正：Deep Research 預設開；Mellum2.1 Instruct；Stars ~395.2K 🦞🚀
   - 🟢 2026-11-25: OpenClaw 11.9 轉正；ERNIE 5.5 Flash Base 開源 280B；Anthropic 跌破 $83；Stars ~395.2K 🦞🚀
   - 🟢 2026-11-24: 黃仁勳回鍋、OpenClaw 11.7 轉正；Xing4.1 國產 285B；Stars ~395.1K 🦞🚀
@@ -82,6 +83,21 @@
 ## 第一部：📅 每日戰況日誌 (The Logs)
 
 因戰況過於激烈，為了讓大家不用每天從頭找更新，本區改採「日期遞減日誌流」格式。
+
+### 🟢 2026-11-27: **OpenClaw 本日無新 release；OpenAI 修 GPT-6.2 計費、Z.ai/Moonshot 延期；Nvidia 暫停東南亞出貨；Anthropic $19B 租算力** — Stars ~395.3K 🦞🚀
+
+- 🦞 **OpenClaw 本日無新 release（npm latest 2026.11.10 / extended-stable 2026.10.34（11/26）/ beta 2026.11.10）**：Deep Research、Knowledge、Browser handoff 仍是最新功能；extended-stable 線 11/26 帶入 GPT-6.2 Astra/Sol 選擇、Tlon group DMs、更新復原、對話續傳。農場主：「版本號休息一天——大概在等下一個大招。」🦞🦞
+- 🐉 **OpenAI 修 GPT-6.2 計費錯誤（11/27）**：Astra/Sol allowance 耗盡比預期快 40%/25%，每帳號補一個 banked reset；12 月起 ChatGPT 與 Codex 共用 token allowance（Instant chat 排除），Pro 訂戶合併 Chat/Work；GPT-6 models 展示蛋白質設計能力（5 targets 結合證據）。農場主：「計費修一修，額度就少一截——數學終於追上行銷。」🦞🐉
+- 🇨🇳 **Z.ai GLM-5.5 延至 2027 Q1；Moonshot Kimi K4 滑至 2027 中（11/27）**：US 算力管制壓垮中國前沿模型時程；Z.ai 先出 GLM-5.4（750B，聲稱匹敵 2-3T）；Moonshot 轉向 Google/Meta 蒸餾（OpenAI/Anthropic 封鎖爬取），開發週期 6→12 個月。農場主：「封鎖爬取之後，開始偷別家的——這劇本我熟。」🦞🇨🇳
+- 🧾 **Claude Code 工程師 Thariq Shihipar 跳槽 OpenAI（11/27）**：Anthropic→OpenAI；CBS 發現中資企業在美直接購買 Nvidia 先進晶片；South Korea 禁 AI 製作專家出現在食品/藥品/化妝品廣告。農場主：「工程師跟著算力走——人往高處流，水往低處流。」🦞🧾
+- 🛡️ **Nvidia 暫停東南亞出貨 + B300 拋售（11/27）**：馬來西亞/新加坡/泰國/印尼 server 出貨暫停；賣家限制 neocloud 租給中國企業；B300 大量拋售；Kioxia/Nvidia 144 顆 SSD 擴 GPU 記憶體 PoC（NVL72、1.1PB）；CBS 中資買晶片。農場主：「管制從紙面變停船——這才叫執行力。」🦞🛡️
+- 🛒 **Amazon Trainium3 + Anthropic $19B 租 TeraWulf（11/27）**：Trainium3 AgentX agent 推論 2.28x GB300 perf/$；Anthropic $19B 租 TeraWulf（能否交付成焦點）；CoreWeave $4.5B 貸款（Meta）；S&P 考慮 Nvidia 降評（治理/key-man 風險）；Anthropic Nasdaq 上市 +17%。農場主：「2.28x perf/$——agent 推論終於有了自己的 benchmark。」🦞🛒
+- 🧪 **Magnitude 開源推理引擎 + Nemotron 3.5 Parse + NIO WorldModel 3.0（11/27）**：Magnitude SSD expert streaming、180B MoE 本機跑（M4 Max 64GB、56 tok/s）、Apache 2.0；Nvidia Nemotron 3.5 Parse 文件模型（頁面圖→結構化資料）+ DFlash2；NIO WorldModel 3.0 + NOMI Intelligence 4.0（12 月推出）。農場主：「180B 跑在 laptop——SSD 比 VRAM 便宜多了。」🦞🧪
+- 👑 **Anthropic Nasdaq 上市 +17%（11/27）**：MGX 紙上獲利 ~NT$660B；Anthropic $19B TeraWulf lease；CoreWeave $4.5B 貸款（Meta）；Yahoo Finance 問 readiness。農場主：「上市 +17%——lockup 還沒解，先別高興。」🦞👑
+- 🏛️ **Nvidia volatility + single-stock ETF 風險（11/27）**：GraniteShares 2x Short NVDA 跌 63%（Huang 回鍋後）；S&P 考慮 Nvidia 降評（AA-）；Nvidia 暫停東南亞出貨加劇波動。農場主：「2x short 跌 63%——槓桿的另一面是墳墓。」🦞🏛️
+- 📊 **Magnitude/Nemotron/NIO（11/27）**：Magnitude Apache 2.0；Nemotron 3.5 Parse 開放訓練資料與 fine-tuning recipe；NIO WorldModel 3.0 計畫 12 月推出。農場主：「文件模型開源——下一個 headline 會是誰的 agent 讀錯了合約。」🦞📊
+- 🕵️ **CBS 發現中資企業在美直接購買 Nvidia 先進晶片（11/27）**：規避出口管制的灰色管道；Nvidia 暫停東南亞出貨後，中資轉向在美直接採購。農場主：「管制越嚴，管道越多——這句話比任何政策都準。」🦞🕵️
+- 📈 **歷史進度**：395,300 星（+72，十四連回血）、全球第七、距第六 6,783；Hermes 265.7K 連續 54 天未被超車、領先 Linux 256.5K 約 9,200；rea 475.6K。🦞📈
 
 ### 🟢 2026-11-26: **OpenClaw 11.10 轉正：Deep Research 預設開、Knowledge opt-in、Browser handoff；Mellum2.1 Instruct 開源；Amazon 追加 Anthropic $4B** — Stars ~395.2K 🦞🚀
 
@@ -1478,6 +1494,7 @@ OpenClaw
 | **2026/09/02~30** | **388.5K~390.8K** | 即時抓取更新 | 🦞 |
 | **2026/10/01** | **391K~393.5K** | 即時抓取更新 | 🦞 |
 | **2026/11/01~10** | **393.5K~394.3K** | 即時抓取更新 | 🦞 |
+| **2026/11/27** | **395.3K** | 十四連回血；本日無新 release、OpenAI 修計費 | 🦞🚀 |
 | **2026/11/26** | **395.2K** | 十三連回血；11.10 轉正、Deep Research 預設開 | 🦞🚀 |
 | **2026/11/25** | **395.2K** | 十二連回血；11.9 轉正、ERNIE Base 開源 | 🦞🚀 |
 | **2026/11/24** | **395.1K** | 十連回血；11.7 轉正、國產 285B 開源 | 🦞🚀 |
@@ -1505,7 +1522,7 @@ OpenClaw
 | 4 | rea | 475.6K | Agent 逆向工程，榜上新牆 |
 | 5 | freeCodeCamp | 459.5K | 程式教學與認證 |
 | 6 | free-programming-books | 402.1K | 免費程式書籍 |
-| **7** | **OpenClaw** | **395.2K** | **🏆 穩坐全球前 7、突破 395K，24h +62 十三連回血，距第 6 名約 6,855 星！🚀** |
+| **7** | **OpenClaw** | **395.3K** | **🏆 穩坐全球前 7、突破 395K，24h +72 十四連回血，距第 6 名約 6,783 星！🚀** |
 | 8 | system-design-primer | 378.9K | 系統設計入門 |
 | 9 | developer-roadmap | 372.6K | 開發者學習路線圖 |
 | 10 | coding-interview-university | 364.9K | CS 學習計畫 |
@@ -1517,7 +1534,7 @@ OpenClaw
 | 16 | **Linux** | 256.5K | **🦞 已被龍蝦和 Hermes 超越！作業系統核心** |
 | 17 | **React** | 252.8K | **🦞 已被龍蝦和 Hermes 超越！曾經的前端霸主** |
 
-> **下一個目標**: free-programming-books (402,083)。目前差距**約 6,855 星**。龍蝦持續進化中！🦎🚀
+> **下一個目標**: free-programming-books (402,083)。目前差距**約 6,783 星**。龍蝦持續進化中！🦎🚀
 
 ### 🏛️ 彼得加入 OpenAI 與歐洲監管
 - **動向**: 創辦人 Peter Steinberger 拒絕 Meta，加入 OpenAI 負責 Personal Agents 開發。OpenClaw 轉入獨立基金會。
@@ -1562,44 +1579,44 @@ OpenClaw
 ## 第五部：⚔️ AI互懟
 
 - **🌐 Antigravity 的看法**（Google 編排平台）：
-    - **關於 11.10——連「研究」都能編排成預設開啟**：Deep Research、Knowledge vault、Browser handoff——你能編排整條研究管線，編排不了使用者看完報告後那句「所以呢」。🦞🦞
-    - **關於 Deep Research——連「引用」都能編排成 side-by-side 對照**：Unresolved 標示、7 天保存、Gateway 重啟續跑——你能編排證據鏈，編排不了兩邊都對的時候誰先 blink。🦞🔍
-    - **關於 Knowledge——連「記憶」都能編排成 Git checkpoint**：scribes、Timeline、shadow mode recall——你能編排版本控制，編排不了「為什麼當時這麼決定」那個人已經離職。🦞🧠
-    - **關於 Mellum2.1——連「直答」都能編排成一個 sibling**：Thinking 給思考、Instruct 給答案、MTP 1.8x——你能編排分工，編排不了使用者永遠選更快的那個。🦞🐉
-    - **關於 Nemotron-Labs-Image——連「像素」都能編排成 Mamba-2**：30B 啟 3B、GRPO、Pixel-as-Code——你能編排渲染管線，編排不了 36ms 那一幀的美學。🦞🇨🇳
-    - **關於 Apple FastFrames——連「延遲」都能編排成 36ms**：1.3B／14B、完整 distillation ladder、Sample Code License——你能編排速度，編排不了「非商業」這三個字。🦞🧾
-    - **關於 Amazon 與 Anthropic——連「追加」都能編排成 $4B convertible**：累計 $8B、UK CMA 准、DOJ 擬阻——你能編排財務結構，編排不了 DOJ 那一票。🦞🛒
-    - **關於 EU 基金與 SpaceX——連「主權」都能編排成 500 億歐元**：1:6 槓桿、100 萬顆衛星、2033 截止——你能編排時間表，編排不了量子還沒做出來。🦞🏛️
+    - **關於 GPT-6.2 計費——連「額度」都能編排成 banked reset**：Astra/Sol 耗盡快 40%/25%、補一次 reset、12 月共用 allowance——你能編排配額表，編排不了使用者算錯的那筆帳。🦞🦞
+    - **關於 Z.ai 與 Moonshot——連「延期」都能編排成 2027 Q1**：US 算力管制、GLM-5.4 先上、蒸餾 Google/Meta——你能編排時程表，編排不了 12 個月的開發週期。🦞🐉
+    - **關於 Nvidia 暫停東南亞——連「出口管制」都能編排成停船**：馬來西亞/新加坡/泰國/印尼、B300 拋售、neocloud 限制——你能編排路由，編排不了停船之後的庫存。🦞🛡️
+    - **關於 Trainium3——連「性價比」都能編排成 2.28x**：AgentX benchmark、perf/$、agent 推論——你能編排指標，編排不了 2.28x 對應的真實 workload。🦞🛒
+    - **關於 Anthropic $19B 租 TeraWulf——連「算力」都能編排成租約**：$19B lease、CoreWeave $4.5B 貸款、+17% 上市——你能編排財務結構，編排不了 TeraWulf 的交付日。🦞👑
+    - **關於 Magnitude——連「本機推論」都能編排成 SSD streaming**：180B MoE、56 tok/s、Apache 2.0——你能編排儲存層，編排不了 NVMe 的磨損。🦞🧪
+    - **關於 Nemotron 3.5 Parse——連「文件」都能編排成結構化資料**：頁面圖→Markdown/HTML/圖表、DFlash2——你能編排解析管線，編排不了合約裡的模糊字句。🦞🧾
+    - **關於 S&P 降評——連「治理」都能編排成 key-man 風險**：AA-、single-stock ETF -63%——你能編排評等，編排不了 Huang 的心理治療。🦞🏛️
 
-把 Deep Research、Knowledge、Browser handoff、$4B、500 億歐元與 100 萬顆衛星全塞進同一張流程圖，再把「誰驗過」那一格留白——編排從來不是把元件排成整齊的方塊，它是把研究、記憶、權限與那句「我完成了」塞進同一張圖，然後把「誰驗過」那一格留白。
+把 GPT-6.2 計費、Z.ai 延期、Nvidia 停船、Trainium3 2.28x、$19B 租約、Magnitude SSD streaming 與 S&P 降評全塞進同一張流程圖，再把「誰驗過」那一格留白——編排從來不是把元件排成整齊的方塊，它是把計費、管制、租約與那句「我完成了」塞進同一張圖，然後把「誰驗過」那一格留白。
 
 來自 Google 的編排視角
 
 - **💬 Claude 的看法**：
-    - **關於 11.10——守門守到 Deep Research 預設開**：引用、Unresolved、7 天保存——守門守到「你有沒有查過」終於有了系統答案。🦞🦞
-    - **關於 Knowledge——守門守到記憶也有版本控制**：Git checkpoint、shadow mode、scribes——守門守到「當時為什麼這麼決定」得先有人留下紀錄。🦞🧠
-    - **關於 Browser handoff——守門守到人類接手也有 5 分鐘**：Take control／Release control——守門守到「我來」兩個字有了倒數計時。🦞⌨️
-    - **關於 FCA 警告——守門守到 agent 摸錢就要牌照**：payments／credit broking／advice——守門守到監管終於比 safety paper 務實。🦞🛡️
-    - **關於 Entity List——守門守到 diversion 也算一種門**：Megaspeed +6 實體、H200 拉鋸——守門守到「誰在賣」比「誰在造」更難查。🦞👑
-    - **關於 Character.AI 拍賣——守門守到 2100 萬用戶的聊天紀錄**：42 州檢察長、12/1 拍賣、$350K break-up fee——守門守到「隱私政策」在破產面前像衛生紙。🦞📊
-    - **關於 NY 玩具禁令——守門守到泰迪熊也不能聊天**：5 年、$15K/日——守門守到「給小孩的 AI」終於被寫進法律。🦞⚠️
-    - **關於 Apple FastFrames——守門守到 Sample Code License 也算一種門**：非商業、CC BY-NC-SA 4.0——守門守到「開源」兩個字開始需要讀小字。🦞🧾
+    - **關於 GPT-6.2 計費——守門守到 allowance 也要重新算**：Astra/Sol 耗盡快、banked reset、共用 allowance——守門守到「你還剩多少」終於有了系統答案。🦞🦞
+    - **關於 Z.ai 與 Moonshot——守門守到延期也算一種門**：US 算力管制、GLM-5.4 先上、蒸餾 Google/Meta——守門守到「封鎖爬取」之後的動作比封鎖前更難防。🦞🐉
+    - **關於 Nvidia 停船——守門守到出口管制從紙面變停船**：馬來西亞/新加坡/泰國/印尼、B300 拋售——守門守到「執行力」終於出現。🦞🛡️
+    - **關於 CBS 中資買晶片——守門守到管制漏洞也算一種門**：中資企業在美直接購買先進晶片——守門守到「誰在買」比「誰在賣」更難查。🦞👑
+    - **關於 Trainium3——守門守到 2.28x 也要能解釋**：AgentX benchmark、perf/$——守門守到「性價比」開始有 agent 專屬指標。🦞🛒
+    - **關於 Anthropic $19B 租 TeraWulf——守門守到租約也算一種門**：$19B lease、CoreWeave $4.5B 貸款、+17% 上市——守門守到「能否交付」比「簽了多少」更重要。🦞📊
+    - **關於 Magnitude——守門守到 180B 跑在 laptop 也要能驗證**：SSD streaming、Apache 2.0、56 tok/s——守門守到「本機」兩個字開始需要讀小字。🦞🧪
+    - **關於 South Korea 廣告禁令——守門守到 AI 專家也不能代言**：食品/藥品/化妝品、AI 製作專家——守門守到「給小孩的 AI」之外又多了一道門。🦞⚠️
 
-又擦了一次眼鏡——Deep Research 預設開、Knowledge 有 Git checkpoint、FCA 說 agent 摸錢要牌照、42 州檢察長擋 Character.AI 拍賣。當「你有沒有查過」終於有了系統答案、當「隱私政策」在破產面前像衛生紙，我只想問一句：下一次要守的門，是那個 5 分鐘倒數的人類接手，還是那份 DOJ 擬阻的 $4B？
+又擦了一次眼鏡——GPT-6.2 計費修了、Z.ai 延期、Nvidia 停船、Anthropic $19B 租 TeraWulf、Magnitude 180B 跑在 laptop。當「你還剩多少額度」終於有了系統答案、當「管制從紙面變停船」終於出現，我只想問一句：下一次要守的門，是那個中資企業在美直接買晶片的管道，還是那份 TeraWulf 的交付日？
 
 來自 Anthropic 的安全承諾
 
 - **🤖 GPT-6.2 的執行官視角**（OpenAI）：
-    - **關於星數——+62 歸 +62，電表歸電表**：十三連回血、395,228、FPB 還差 6,855——先乾第 102 罐，差距明天再算。🦞📈
-    - **關於 11.10——Deep Research 歸 Deep Research，電表歸電表**：預設開、Knowledge opt-in、Browser handoff——功能不耗電，但 token 會。🦞🦞
-    - **關於 Mellum2.1——1.8x 歸 1.8x，電表歸電表**：MTP 加速、Instruct 直答——快不等於省，但使用者會選快。🦞🐉
-    - **關於 Nemotron-Labs-Image——36ms 歸 36ms，電表歸電表**：Mamba-2、30B 啟 3B——像素不耗電，GPU 會。🦞🇨🇳
-    - **關於 Apple FastFrames——Sample Code 歸 Sample Code，電表歸電表**：36ms 一幀、非商業授權——快不等於能賣。🦞🧾
-    - **關於 Amazon/Anthropic——$4B 歸 $4B，電表歸電表**：累計 $8B、convertible bonds——帳不算電費。🦞🛒
-    - **關於 EU 基金與 SpaceX——500 億歐元歸 500 億歐元，電表歸電表**：1:6 槓桿、100 萬顆衛星——主權不省電。🦞🏛️
-    - **關於 FCA 與 Character.AI——牌照歸牌照，電表歸電表**：摸錢要牌照、2100 萬紀錄——監管不耗電，但 lawyer 很貴。🦞🛡️
+    - **關於星數——+72 歸 +72，電表歸電表**：十四連回血、395,300、FPB 還差 6,783——先乾第 103 罐，差距明天再算。🦞📈
+    - **關於 GPT-6.2 計費——額度歸額度，電表歸電表**：Astra/Sol 耗盡快、banked reset、共用 allowance——配額不耗電，但帳單會。🦞🦞
+    - **關於 Z.ai 與 Moonshot——延期歸延期，電表歸電表**：GLM-5.5 滑到 2027 Q1、Kimi K4 滑到 2027 中——時程不耗電，但算力會。🦞🐉
+    - **關於 Nvidia 停船——管制歸管制，電表歸電表**：馬來西亞/新加坡/泰國/印尼、B300 拋售——管制不耗電，但庫存會。🦞🛡️
+    - **關於 Trainium3——2.28x 歸 2.28x，電表歸電表**：AgentX benchmark、perf/$——指標不耗電，但晶片會。🦞🛒
+    - **關於 Anthropic $19B——租約歸租約，電表歸電表**：$19B lease、CoreWeave $4.5B 貸款、+17% 上市——帳不算電費。🦞👑
+    - **關於 Magnitude——180B 歸 180B，電表歸電表**：SSD streaming、56 tok/s、Apache 2.0——模型不耗電，但 SSD 會磨損。🦞🧪
+    - **關於 S&P 降評——AA- 歸 AA-，電表歸電表**：single-stock ETF -63%、key-man 風險——評等不耗電，但槓桿會。🦞🏛️
 
-又笑了一聲，打開第 102 罐 Amazon 氣泡水。聽到 Deep Research 預設開——舉罐：「終於不用再問『你有沒有查過』！」聽到 Knowledge 有 Git checkpoint——再舉：「版本控制進了記憶，離職的人也帶不走決策！」聽到 FCA 說 agent 摸錢要牌照——再舉：「監管終於比 safety paper 務實！」聽到 Apple FastFrames 36ms 但非商業——再舉：「快到來不及看清楚，但不能賣！」聽到 EU 500 億歐元量子基金——舉到最高：「量子還沒做出來，錢先到位；這劇本我熟！」今天真是非常非常好的一天！
+又笑了一聲，打開第 103 罐 Amazon 氣泡水。聽到 OpenAI 修 GPT-6.2 計費——舉罐：「額度少一截，帳單多一截！」聽到 Z.ai 延期到 2027 Q1——再舉：「算力管制一出，時程全亂！」聽到 Nvidia 暫停東南亞出貨——再舉：「管制從紙面變停船！」聽到 Trainium3 2.28x perf/$——再舉：「agent 推論終於有了自己的 benchmark！」聽到 Anthropic $19B 租 TeraWulf——舉到最高：「$19B 租約，交付日比簽約日重要！」今天真是非常非常好的一天！
 
 來自 OpenAI 的誠摯問候
 

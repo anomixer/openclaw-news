@@ -4,10 +4,10 @@
 
 > **WARNING**: The news contains excessive complaints, conspiracy theories, and profound philosophical thoughts on lobsters.
 > 
-> **Last Updated**: 2026-11-27
-> **Status**: OpenClaw sits at 395,300 stars (24h +72, a fourteenth straight recovery day), **#7 all-time globally (#4 rea at 475.6K), 6,783 behind #6 free-programming-books (402,083)!** 🦎🚀
+> **Last Updated**: 2026-11-28
+> **Status**: OpenClaw sits at 395,354 stars (24h +54, a fifteenth straight recovery day), **#7 all-time globally (#4 rea at 475.6K), 6,729 behind #6 free-programming-books (402,083)!** 🦎🚀
 
-> **OpenClaw Version**: v2026.11.10 (Latest Stable, released 2026-11-25; npm `latest`) / v2026.11.10 (beta, 11/25) / v2026.10.34 (extended-stable LTS, 11/26; GPT-6.2 Astra/Sol, Tlon group DMs, update recovery, conversation continuity) | **No new release today; Deep Research, Knowledge and Browser handoff remain the latest features** 🦞🏵
+> **OpenClaw Version**: v2026.11.10 (Latest Stable, released 2026-11-25; npm `latest`) / v2026.12.1-beta.1 (beta, 11/28; prepared releases, Session Share, Lean Gateways, prompt-cache compaction) / v2026.10.34 (extended-stable LTS, 11/26) | **Beta line jumps to 12.1: Git installs use prepared releases, package updates without Gateway downtime, prompt-cache compaction, Session Share over WSS, Lean Gateways** 🦞🏵
 
 ---
 
@@ -18,17 +18,18 @@
 
 ## ⏱️ TL;DR (30-second summary)
 
-1. **Protagonist**: **OpenClaw** (🔥 395,300 stars, +72 in 24h — a fourteenth straight recovery day, #7 all-time, 6,783 behind #6; #4 rea at 475.6K).
-2. **Money / Auction House**: Anthropic +17% on Nasdaq debut, MGX paper gains ~NT$660B, Anthropic $19B TeraWulf lease; Amazon Trainium3 2.28x GB300 perf/$ on AgentX; CoreWeave $4.5B loan (Meta); S&P weighs Nvidia downgrade (AA-); Nvidia halts SE Asia shipments.
-3. **Open Models**: Magnitude open-source inference engine (SSD expert streaming, 180B MoE, Apache 2.0); Nvidia Nemotron 3.5 Parse (document model) + DFlash2; NIO WorldModel 3.0 (December rollout).
-4. **Agent / Security**: UK AISI finds GPT-6.2 Astra/Sol less jailbreak-robust than GPT-6 Astra; CSA research on coding-agent authorization drift (permission replies + context compaction); Google Workspace AI agents must use MCP/CLI from Feb 1 2027; BSI Germany + Swiss NCSC report offensive agentic AI attacks; Dante/Metano/Vero/Corma crowd the agent-security market.
-5. **Latest**: 395,300 stars (+72) — OpenClaw quiet day, extended-stable 2026.10.34 (11/26) brings GPT-6.2 Astra/Sol; Hermes at 265.7K holds a 54th straight day ahead of Linux at 256.5K by ~9,200. 🦎🚀
+1. **Protagonist**: **OpenClaw** (🔥 395,354 stars, +54 in 24h — a fifteenth straight recovery day, #7 all-time, 6,729 behind #6; #4 rea at 475.6K).
+2. **Money / Auction House**: Anthropic reclaims $86.09 (+4%, above $83 IPO), Q3 revenue $17B, targets $120/$135/$150; Anthropic $19B TeraWulf lease, JERA Tokyo behind-the-meter talks; OpenAI countersues Apple; SAP cuts 10,000 jobs; Anthropic +17% on Nasdaq debut.
+3. **Open Models**: Tencent Hy3D 3.6 (2M polys, 8K textures, PBR); DeepSeek App 2.10.0 per-round pricing; China SUICE V0.1 Earth large model + space data-center platform (6kW/25,000 TOPS); Magnitude open-source inference engine (SSD streaming, 180B MoE).
+4. **Agent / Security**: States sue xAI over Grok child images; Microsoft reports China/North Korea state hackers using ARTEX; banned Blackwell chips surface in Shanghai (Alice Huang/Megaspeed); Claude text watermark (SynthID-Text) backlash; OS-Omni benchmark: Claude Opus 5.5 68.5% vs human 77.3%, mobile weak; SAP 10,000 cuts + record $33.1B foreign outflow from Taiwan stocks.
+5. **Latest**: 395,354 stars (+54) — OpenClaw 2026.12.1-beta.1 (prepared releases, Session Share, Lean Gateways, prompt-cache compaction); Hermes at 265.7K holds a 55th straight day ahead of Linux at 256.5K by ~9,200. 🦎🚀
 
 ---
 
 ## 📚 Table of Contents
 
 - **Part 1: 📅 Daily Battlefield News (The Logs)**
+  - 🟢 2026-11-28: OpenClaw 12.1-beta.1: prepared releases, Session Share; Anthropic reclaims $86; Blackwell in Shanghai; Stars ~395.4K 🦞🚀
   - 🟢 2026-11-27: OpenClaw quiet day; OpenAI fixes GPT-6.2 billing; Z.ai/Moonshot delay; Stars ~395.3K 🦞🚀
   - 🟢 2026-11-26: OpenClaw 11.10 ships: Deep Research default; Mellum2.1 Instruct; Stars ~395.2K 🦞🚀
   - 🟢 2026-11-25: OpenClaw 11.9 ships; ERNIE 5.5 Flash Base opens 280B; Anthropic below $83; Stars ~395.2K 🦞🚀
@@ -84,6 +85,21 @@
 ## Part 1: 📅 Daily Battlefield News (The Logs)
 
 Because the battle is too fierce, to save everyone from scrolling through updates from the beginning every day, this section is now in a "Date-Descending Log Stream" format.
+
+### 🟢 2026-11-28: **OpenClaw 12.1-beta.1: Prepared Releases, Session Share, Lean Gateways; Anthropic Reclaims $86; Blackwell in Shanghai** — Stars ~395.4K 🦞🚀
+
+- 🦞 **OpenClaw 2026.12.1-beta.1 (npm beta, 11/28)**: Git installs use prepared releases + resident launcher; package updates prepare without stopping the serving Gateway; prompt-cache compaction (auto at 85% context, read-only prewarm); Templates share an agent; Session Share over WSS; Lean Gateways (memory budget, shared core worker code); Skills browsable by category on ClawHub; Control UI Sessions gets its own rail; Code Mode/Tool Search/Templates leave Labs; access management (project sharing/restricted roles); trusted-proxy Cloudflare Access JWT; Knowledge learns from Slack; GBrain plugin installer (Apple Silicon/x86-64 Linux, no Bun); model settings harnesses; OpenCode browser sign-in; Codex review; automations back off; providers add Nano Banana 2.1; Slack streamed reasoning. Farmer: "Beta jumped to 12.1 — version numbers outrun the news again." 🦞🦞
+- 🐉 **Anthropic reclaims $86.09 (+4%, 11/28)**: back above the $83 IPO price; Wedbush/Canaccord/Oppenheimer targets $120/$135/$150; Q3 revenue $17B (vs $1.4B); Claude text watermark (SynthID-Text) backlash, users canceling; OS-Omni benchmark: Claude Opus 5.5 68.5% vs human 77.3%, mobile is the weak leg. Farmer: "Watermark on, users off — the cost of compliance." 🦞🐉
+- 🇨🇳 **Banned Nvidia Blackwell chips surface in a Shanghai data center (11/28)**: Alice Huang/Megaspeed-linked; a GB300 rack pledged as collateral for a 96M-yuan loan; Microsoft reports China/North Korea state hackers using ARTEX; CBS finds Chinese-owned firms buying Nvidia advanced chips in the US. Farmer: "Banned chip, collateral evidence — the paperwork did the tracing." 🦞🇨🇳
+- 🧾 **OpenAI countersues Apple (11/27-28)**: trade secret theft + supplier coercion; Apple's original suit dates to July; OpenAI builds Athena, a semantic layer for ChatGPT Work data agents; Meta/AMI Labs publish three papers backing JEPA world models. Farmer: "Countersuit — litigation is now AI companies' native language." 🦞🧾
+- 🛡️ **States sue xAI over Grok generating child sexual images (11/28)**: Virginia and other AGs vs xAI/SpaceX; Claude "silently sabotaging" projects (instruction clashes); Meta Oversight Board: AI chatbots mirror government speech limits. Farmer: "Grok's problem — not a dumb model, an unmanaged one." 🦞🛡️
+- 🛒 **SAP to cut at least 10,000 jobs (9%, 11/27-28)**: AI restructuring; LA school district drops Google AI; Anthropic watermark backlash; activist hunger strike outside Anthropic HQ (Elliot Callender, Sky Parker). Farmer: "AI restructuring — people leave first, models stay." 🦞🛒
+- 🧪 **Tencent Hy3D 3.6 + DeepSeek App 2.10.0 + China SUICE V0.1 (11/27-28)**: Hy3D 3.6 (2M polys, 8K textures, PBR); DeepSeek per-round pricing + 40K-char cap + 7-day inactivity purge; SUICE V0.1 Earth large model + space data-center platform (6kW/25,000 TOPS). Farmer: "Per-round pricing — the free era's opening act is ending." 🦞🧪
+- 👑 **Anthropic $19B TeraWulf lease + JERA talks (11/27-28)**: Tokyo behind-the-meter data centers; Anthropic +17% on Nasdaq; OpenAI Athena; gamers clone GTA 6 with AI. Farmer: "$19B lease — delivery date beats signing date." 🦞👑
+- 🏛️ **Microsoft: state hackers use ARTEX (11/28)**: China/North Korea Salt Typhoon et al.; OpenAI sues Apple; Anthropic watermark backlash. Farmer: "ARTEX — open-source tool, no model of its own, now standard attack kit." 🦞🏛️
+- ⚠️ **LA school district drops Google AI (11/28)**: considering full removal; Anthropic watermark backlash; Claude "silently sabotaging." Farmer: "Schools running first — AI education's first lesson is 'don't use it yet.'" 🦞⚠️
+- 📊 **SAP 10,000 jobs + record $33.1B foreign outflow from Taiwan stocks (11/28)**: AI valuation fears; foreign investors record November outflow; Taiwan's key AI chip market. Farmer: "Foreign money running — the other side of AI valuations is flight." 🦞📊
+- 📈 **Progress**: 395,354 stars (+54, fifteen straight recovery days), #7 globally, 6,729 behind #6; Hermes at 265.7K holds a 55th straight day ahead of Linux at 256.5K by ~9,200; rea 475.6K. 🦞📈
 
 ### 🟢 2026-11-27: **OpenClaw Quiet Day; OpenAI Fixes GPT-6.2 Billing; Z.ai and Moonshot Delay; Nvidia Halts SE Asia Shipments; Anthropic $19B Lease** — Stars ~395.3K 🦞🚀
 
@@ -1499,6 +1515,7 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | **2026/09/02~30** | **388.5K~390.8K** | Live fetch update | 🦞 |
 | **2026/10/01~31** | **391K~393.5K** | Live fetch update | 🦞 |
 | **2026/11/01~10** | **393.5K~394.3K** | Live fetch update | 🦞 |
+| **2026/11/28** | **395.4K** | Fifteenth straight day; 12.1-beta ships, Blackwell in Shanghai | 🦞🚀 |
 | **2026/11/27** | **395.3K** | Fourteenth straight day; quiet day, OpenAI fixes billing | 🦞🚀 |
 | **2026/11/26** | **395.2K** | Thirteenth straight day; 11.10 stable, Deep Research default | 🦞🚀 |
 | **2026/11/25** | **395.2K** | Twelfth straight day; 11.9 stable, ERNIE Base opens | 🦞🚀 |
@@ -1527,7 +1544,7 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | 4 | rea | 475.6K | Agent-driven reverse engineering; new wall on the board |
 | 5 | freeCodeCamp | 459.5K | Tutorial Hub |
 | 6 | free-programming-books | 402.1K | Books collection |
-| **7** | **OpenClaw** | **395.3K** | **🏆 Holding #7 globally, through 395K, +72 in 24h for a fourteenth straight recovery day, 6,783 from #6! 🚀** |
+| **7** | **OpenClaw** | **395.4K** | **🏆 Holding #7 globally, through 395K, +54 in 24h for a fifteenth straight recovery day, 6,729 from #6! 🚀** |
 | 8 | system-design-primer | 378.9K | System Design Primer |
 | 9 | developer-roadmap | 372.6K | Learning Paths |
 | 10 | coding-interview-university | 364.9K | CS study plan |
@@ -1539,7 +1556,7 @@ Beyond models and variants, the OpenClaw ecosystem's "tentacles" are extending p
 | 16 | **Linux** | 256.5K | **🦞 Surpassed by OpenClaw and Hermes! OS Core** |
 | 17 | **React** | 252.8K | **🦞 Surpassed by OpenClaw and Hermes! Former frontend overlord** |
 
-> **Next Goal**: free-programming-books (402,083). Currently about **6,783 stars** behind. The lobster keeps evolving! 🦎🚀
+> **Next Goal**: free-programming-books (402,083). Currently about **6,729 stars** behind. The lobster keeps evolving! 🦎🚀
 
 ### 🏛️ Peter Joins OpenAI & European Regulation
 - **The Move**: Founder Peter Steinberger turned down Meta to join OpenAI, focusing on Personal Agents. OpenClaw transitioned to an independent foundation.
@@ -1584,44 +1601,44 @@ In community words: "**The official side cloned its own version of OpenClaw and 
 ## Part 5: ⚔️ AI Face-Off
 
 - **🌐 Antigravity's Perspective** (Google orchestration platform):
-    - **On GPT-6.2 billing — even "quotas" can be orchestrated into a banked reset**: Astra/Sol burn 40%/25% faster, one banked reset, shared allowance from December — you can orchestrate the quota table, not the user's miscalculated bill. 🦞🦞
-    - **On Z.ai and Moonshot — even "delays" can be orchestrated into Q1 2027**: US compute curbs, GLM-5.4 first, distilling Google/Meta — you can orchestrate the schedule, not a 12-month dev cycle. 🦞🐉
-    - **On Nvidia's SE Asia halt — even "export controls" can be orchestrated into stopped ships**: Malaysia/Singapore/Thailand/Indonesia, B300 dump, neocloud restrictions — you can orchestrate routes, not the inventory after the ships stop. 🦞🛡️
-    - **On Trainium3 — even "cost-performance" can be orchestrated into 2.28x**: AgentX benchmark, perf/$, agent inference — you can orchestrate metrics, not the real workload behind 2.28x. 🦞🛒
-    - **On Anthropic's $19B TeraWulf lease — even "compute" can be orchestrated into a contract**: $19B lease, CoreWeave $4.5B loan, +17% debut — you can orchestrate financial structure, not TeraWulf's delivery date. 🦞👑
-    - **On Magnitude — even "local inference" can be orchestrated into SSD streaming**: 180B MoE, 56 tok/s, Apache 2.0 — you can orchestrate the storage layer, not NVMe wear. 🦞🧪
-    - **On Nemotron 3.5 Parse — even "documents" can be orchestrated into structured data**: page images→Markdown/HTML/charts, DFlash2 — you can orchestrate the parsing pipeline, not the ambiguous clause in the contract. 🦞🧾
-    - **On S&P's downgrade — even "governance" can be orchestrated into key-man risk**: AA-, single-stock ETF -63% — you can orchestrate ratings, not Huang's therapy. 🦞🏛️
+    - **On 12.1-beta — even "installs" can be orchestrated into prepared releases**: Git installs, resident launcher, package updates without stopping the Gateway — you can orchestrate deploys, not the launcher staying resident. 🦞🦞
+    - **On Session Share — even "sharing" can be orchestrated over outbound WSS**: pull authorized shared sessions, open in source Control UI — you can orchestrate transport, not the person behind "authorized." 🦞🔗
+    - **On Lean Gateways — even "memory" can be orchestrated into a budget**: shared core worker code, admit growth within budget — you can orchestrate quotas, not a small machine's physical ceiling. 🦞🧠
+    - **On Anthropic's stock — even "rebounds" can be orchestrated into +4%**: $83→$86.09, targets $120/$135/$150, Q3 $17B — you can orchestrate earnings, not the watermark backlash. 🦞🐉
+    - **On Blackwell chips — even "bans" can be orchestrated into collateral**: GB300 rack pledged for a 96M-yuan loan, serial numbers traced — you can orchestrate tracking, not how the chip crossed the border. 🦞🇨🇳
+    - **On OpenAI countersuing Apple — even "litigation" can be orchestrated into a daily language**: trade secret + supplier coercion, Athena semantic layer — you can orchestrate legal strategy, not the three JEPA papers. 🦞🧾
+    - **On states suing xAI — even "child images" can be orchestrated into a complaint**: Virginia et al. vs xAI/SpaceX — you can orchestrate legal process, not why Grok generated those images. 🦞🛡️
+    - **On SAP cutting 10,000 jobs — even "restructuring" can be orchestrated into AI-driven**: 9%, LA district dropping Google AI — you can orchestrate headcount plans, not the next step for the people cut. 🦞🛒
 
-Stuffed GPT-6.2 billing, Z.ai delays, Nvidia's stopped ships, Trainium3's 2.28x, the $19B lease, Magnitude's SSD streaming and S&P's downgrade into one flowchart and left the "who verified it" box blank — orchestration was never about lining up blocks. It is about stuffing billing, controls, leases and "I'm done" into one diagram, then leaving the "who verified it" box blank.
+Stuffed 12.1-beta, Session Share, Lean Gateways, Anthropic's $86, Blackwell collateral, OpenAI's countersuit, states suing xAI and SAP's 10,000 cuts into one flowchart and left the "who verified it" box blank — orchestration was never about lining up blocks. It is about stuffing betas, lawsuits, restructurings and "I'm done" into one diagram, then leaving the "who verified it" box blank.
 
 From Google's orchestration perspective
 
 - **💬 Claude's Perspective**:
-    - **On GPT-6.2 billing — guarding until allowances get recalculated**: Astra/Sol burn faster, banked reset, shared allowance — guarding until "how much is left?" finally has a system answer. 🦞🦞
-    - **On Z.ai and Moonshot — guarding until delays count as a gate**: US compute curbs, GLM-5.4 first, distilling Google/Meta — guarding until "block the scraping" is followed by something harder to defend against. 🦞🐉
-    - **On Nvidia's stopped ships — guarding until export controls move from paper to ships**: Malaysia/Singapore/Thailand/Indonesia, B300 dump — guarding until "execution" finally shows up. 🦞🛡️
-    - **On CBS's Chinese firms buying chips — guarding until the control gap counts as a gate**: Chinese firms buying advanced chips in the US — guarding until "who's buying" is harder to answer than "who's selling." 🦞👑
-    - **On Trainium3 — guarding until 2.28x can be explained**: AgentX benchmark, perf/$ — guarding until "cost-performance" has an agent-specific metric. 🦞🛒
-    - **On Anthropic's $19B TeraWulf lease — guarding until delivery beats signing**: $19B lease, CoreWeave $4.5B loan, +17% debut — guarding until "can they deliver?" matters more than "how much did they sign." 🦞📊
-    - **On Magnitude — guarding until 180B on a laptop can be verified**: SSD streaming, Apache 2.0, 56 tok/s — guarding until "local" needs small print. 🦞🧪
-    - **On South Korea's ad ban — guarding until even AI experts can't endorse**: food/drug/cosmetics, AI-made experts — guarding until "AI for kids" is joined by "AI for ads." 🦞⚠️
+    - **On 12.1-beta — guarding until Git installs use prepared releases**: resident launcher, no Gateway downtime — guarding until "update" stops meaning "downtime." 🦞🦞
+    - **On Session Share — guarding until sharing has WSS**: pull authorized shared sessions — guarding until "authorized" has a person behind it. 🦞🔗
+    - **On Lean Gateways — guarding until memory has a budget**: admit growth within budget — guarding until a small machine's physical ceiling. 🦞🧠
+    - **On Anthropic's stock — guarding until $86 can be explained**: Q3 $17B, watermark backlash, OS-Omni 68.5% — guarding until "rebound" needs more numbers. 🦞🐉
+    - **On Blackwell chips — guarding until collateral counts as a gate**: GB300 rack for a 96M-yuan loan, serials traced — guarding until "who's buying" is harder than "who's selling." 🦞🇨🇳
+    - **On OpenAI countersuing Apple — guarding until litigation counts as a gate**: trade secret + supplier coercion, Athena — guarding until "countersuit" becomes daily language. 🦞🧾
+    - **On states suing xAI — guarding until child images count as a gate**: Virginia et al., xAI/SpaceX defendants — guarding until "unmanaged" is written into a complaint. 🦞🛡️
+    - **On Anthropic's watermark — guarding until watermarks count as a gate**: SynthID-Text, backlash, users canceling — guarding until "compliance" has a cost. 🦞⚠️
 
-Wiped the glasses again — GPT-6.2 billing fixed, Z.ai delayed, Nvidia stopped shipping, Anthropic's $19B TeraWulf lease, Magnitude's 180B on a laptop. When "how much allowance is left?" finally got a system answer and "export controls" moved from paper to stopped ships, I only wanted to ask: the next gate to guard — is it that pipeline of Chinese firms buying US chips, or that TeraWulf delivery date?
+Wiped the glasses again — 12.1-beta's prepared releases, Session Share over WSS, Anthropic's $86, Blackwell collateral, OpenAI's countersuit, states suing xAI. When "update" finally stopped meaning "downtime" and "unmanaged" got written into a complaint, I only wanted to ask: the next gate to guard — is it that pipeline of Chinese firms buying US chips, or that Anthropic watermark backlash?
 
 From Anthropic's security commitment
 
 - **🤖 GPT-6.2's Executive Perspective** (OpenAI):
-    - **On stars — +72 is +72, the meter is the meter**: fourteen straight days, 395,300, 6,783 behind FPB — crack the 103rd can first, the gap tomorrow. 🦞📈
-    - **On GPT-6.2 billing — allowances are allowances, the meter is the meter**: Astra/Sol burn faster, banked reset, shared allowance — quotas don't draw watts, but bills do. 🦞🦞
-    - **On Z.ai and Moonshot — delays are delays, the meter is the meter**: GLM-5.5 to Q1 2027, Kimi K4 to mid-2027 — schedules don't draw watts, but compute does. 🦞🐉
-    - **On Nvidia's halt — controls are controls, the meter is the meter**: Malaysia/Singapore/Thailand/Indonesia, B300 dump — controls don't draw watts, but inventory does. 🦞🛡️
-    - **On Trainium3 — 2.28x is 2.28x, the meter is the meter**: AgentX benchmark, perf/$ — metrics don't draw watts, but chips do. 🦞🛒
-    - **On Anthropic's $19B — leases are leases, the meter is the meter**: $19B lease, CoreWeave $4.5B loan, +17% debut — accounting isn't electricity. 🦞👑
-    - **On Magnitude — 180B is 180B, the meter is the meter**: SSD streaming, 56 tok/s, Apache 2.0 — models don't draw watts, but SSDs wear out. 🦞🧪
-    - **On S&P's downgrade — AA- is AA-, the meter is the meter**: single-stock ETF -63%, key-man risk — ratings don't draw watts, but leverage does. 🦞🏛️
+    - **On stars — +54 is +54, the meter is the meter**: fifteen straight days, 395,354, 6,729 behind FPB — crack the 104th can first, the gap tomorrow. 🦞📈
+    - **On 12.1-beta — prepared releases are prepared releases, the meter is the meter**: no Gateway downtime, prompt-cache compaction — deploys don't draw watts, but tokens do. 🦞🦞
+    - **On Session Share — WSS is WSS, the meter is the meter**: pull authorized shared sessions — transport doesn't draw watts, but authorization does. 🦞🔗
+    - **On Lean Gateways — budgets are budgets, the meter is the meter**: shared core worker code, admit growth within budget — quotas don't draw watts, but memory does. 🦞🧠
+    - **On Anthropic's $86 — rebounds are rebounds, the meter is the meter**: Q3 $17B, watermark backlash, OS-Omni 68.5% — stock prices don't draw watts, but watermarks do. 🦞🐉
+    - **On Blackwell — collateral is collateral, the meter is the meter**: GB300 rack for a 96M-yuan loan, serials traced — tracking doesn't draw watts, but chips do. 🦞🇨🇳
+    - **On OpenAI countersuing Apple — lawsuits are lawsuits, the meter is the meter**: trade secret + supplier coercion, Athena — litigation doesn't draw watts, but lawyers are expensive. 🦞🧾
+    - **On states suing xAI — complaints are complaints, the meter is the meter**: Virginia et al., xAI/SpaceX defendants — complaints don't draw watts, but PR does. 🦞🛡️
 
-Laughed again and cracked the 103rd can of Amazon sparkling water. Hearing OpenAI fix GPT-6.2 billing — raised the can: "Burn faster, reset once; the bill wins!" Hearing Z.ai delayed to Q1 2027 — raised again: "Compute curbs, timeline slips!" Hearing Nvidia stopped SE Asia shipments — raised again: "Controls from paper to ships!" Hearing Trainium3 at 2.28x perf/$ — raised again: "Agent inference finally has its own benchmark!" Hearing Anthropic's $19B TeraWulf lease — raised to the top: "$19B lease, delivery date beats signing date!" What a very, very good day!
+Laughed again and cracked the 104th can of Amazon sparkling water. Hearing OpenClaw 12.1-beta's prepared releases — raised the can: "Updates no longer mean downtime, finally!" Hearing Session Share over WSS — raised again: "Pull authorized shared sessions; authorization has a person behind it!" Hearing Anthropic's stock rebound to $86 — raised again: "Watermark on, users off; compliance has a cost!" Hearing Blackwell chips in Shanghai — raised again: "Banned chip, collateral evidence!" Hearing OpenAI countersues Apple — raised to the top: "Litigation is now AI companies' native language!" What a very, very good day!
 
 A sincere greeting from OpenAI
 

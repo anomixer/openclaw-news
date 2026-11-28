@@ -4,10 +4,10 @@
 
 > **警告**: 本新聞包含大量吐槽、陰謀論、以及對龍蝦的深刻哲學思考。
 > 
-> **最後更新**: 2026-11-27
-> **狀態**: OpenClaw 站上 395,300 星（24h +72，十四連回血），**全球歷史第 7 名（第 4 名 rea 475.6K），距第 6 名 free-programming-books（402,083）約 6,783 星！** 🦎🚀
+> **最後更新**: 2026-11-28
+> **狀態**: OpenClaw 站上 395,354 星（24h +54，十五連回血），**全球歷史第 7 名（第 4 名 rea 475.6K），距第 6 名 free-programming-books（402,083）約 6,729 星！** 🦎🚀
 
-> **OpenClaw 版本**: v2026.11.10 (最新正式版，11/25；npm latest) / v2026.11.10 (beta，11/25) / v2026.10.34 (extended-stable LTS，11/26；GPT-6.2 Astra/Sol、Tlon group DMs、更新復原、對話續傳) | **本日無新 release；Deep Research、Knowledge、Browser handoff 仍是最新功能** 🦞🏵
+> **OpenClaw 版本**: v2026.11.10 (最新正式版，11/25；npm latest) / v2026.12.1-beta.1 (beta，11/28；prepared releases、Session Share、Lean Gateways、prompt cache compaction) / v2026.10.34 (extended-stable LTS，11/26) | **beta 線跳到 12.1：Git 安裝 prepared releases、package 更新不中斷 Gateway、prompt cache compaction、Session Share over WSS、Lean Gateways** 🦞🏵
 
 ---
 
@@ -18,17 +18,18 @@
 
 ## ⏱️ TL;DR (30秒快速懶人包)
 
-1. **主角**: **OpenClaw** (🔥 395,300 星，24h +72 十四連回血、全球歷史第七，距第 6 名 6,783 星；第 4 名 rea 475.6K)。
-2. **資金／拍賣場**: Anthropic Nasdaq 上市 +17%、MGX 紙上獲利 ~NT$660B、Anthropic $19B 租 TeraWulf；Amazon Trainium3 AgentX 2.28x GB300 perf/$；CoreWeave $4.5B 貸款（Meta）；S&P 考慮 Nvidia 降評（AA-）；Nvidia 暫停東南亞出貨。
-3. **開源模型**: Magnitude 開源推理引擎（SSD expert streaming、180B MoE、Apache 2.0）；Nvidia Nemotron 3.5 Parse（文件模型）+ DFlash2；NIO WorldModel 3.0（12 月推出）。
-4. **Agent／安全**: UK AISI 發現 GPT-6.2 Astra/Sol 越獄強健度低於 GPT-6 Astra；CSA 研究 coding agent 授權漂移（permission reply + context compaction）；Google Workspace AI agent 自 2027/2/1 必須走 MCP/CLI；BSI 德國 + 瑞士 NCSC 報告 offensive agentic AI 網攻；Dante/Metano/Vero/Corma agent 安全 crowded。
-5. **最新進展**: 395,300 星（+72）——OpenClaw 本日無新 release，extended-stable 2026.10.34（11/26）帶入 GPT-6.2 Astra/Sol；Hermes 265.7K 連續 54 天未被超車，領先 Linux 256.5K 約 9,200 星。🦎🚀
+1. **主角**: **OpenClaw** (🔥 395,354 星，24h +54 十五連回血、全球歷史第七，距第 6 名 6,729 星；第 4 名 rea 475.6K)。
+2. **資金／拍賣場**: Anthropic 股價回升 $86.09（+4%，超越 $83 IPO 價）、Q3 revenue $17B、目標 $120/$135/$150；Anthropic $19B 租 TeraWulf、JERA Tokyo behind-the-meter 談判；OpenAI countersues Apple；SAP 砍 10,000 職；Anthropic Nasdaq +17%。
+3. **開源模型**: Tencent Hy3D 3.6（2M polys、8K textures、PBR）；DeepSeek App 2.10.0 per-round pricing；China SUICE V0.1 Earth large model + 空間資料中心平台（6kW/25,000 TOPS）；Magnitude 開源推理引擎（SSD streaming、180B MoE）。
+4. **Agent／安全**: States sue xAI over Grok 兒少影像；Microsoft 報告 China/North Korea state hackers 用 ARTEX；Banned Blackwell 晶片現身上海（Alice Huang/Megaspeed）；Claude text watermark（SynthID-Text）引 backlash；OS-Omni benchmark：Claude Opus 5.5 68.5% vs 人 77.3%、mobile 弱點；SAP 10,000 職 + 外資 11 月淨賣 $33.1B 台股。
+5. **最新進展**: 395,354 星（+54）——OpenClaw 2026.12.1-beta.1（prepared releases、Session Share、Lean Gateways、prompt cache compaction）；Hermes 265.7K 連續 55 天未被超車，領先 Linux 256.5K 約 9,200 星。🦎🚀
 
 ---
 
 ## 📚 目錄
 
 - **第一部：📅 每日戰況日誌 (The Logs)**
+  - 🟢 2026-11-28: OpenClaw 12.1-beta.1 轉 beta；Anthropic 股價回升 $86；Blackwell 晶片現身上海；Stars ~395.4K 🦞🚀
   - 🟢 2026-11-27: OpenClaw 本日無新 release；OpenAI 修 GPT-6.2 計費；Z.ai/Moonshot 延期；Stars ~395.3K 🦞🚀
   - 🟢 2026-11-26: OpenClaw 11.10 轉正：Deep Research 預設開；Mellum2.1 Instruct；Stars ~395.2K 🦞🚀
   - 🟢 2026-11-25: OpenClaw 11.9 轉正；ERNIE 5.5 Flash Base 開源 280B；Anthropic 跌破 $83；Stars ~395.2K 🦞🚀
@@ -83,6 +84,21 @@
 ## 第一部：📅 每日戰況日誌 (The Logs)
 
 因戰況過於激烈，為了讓大家不用每天從頭找更新，本區改採「日期遞減日誌流」格式。
+
+### 🟢 2026-11-28: **OpenClaw 12.1-beta.1 轉 beta：Git prepared releases、Session Share、Lean Gateways；Anthropic 股價回升 $86；Blackwell 晶片現身上海** — Stars ~395.4K 🦞🚀
+
+- 🦞 **OpenClaw 2026.12.1-beta.1（npm beta，11/28）**：Git 安裝用 prepared releases + resident launcher、package 更新不中斷 Gateway；prompt cache compaction（85% context 自動壓縮、read-only prewarm）；Templates 分享 agent、Session Share over WSS、Lean Gateways（記憶體預算、worker 共享 core code）、Skills 按類別瀏覽 ClawHub；Control UI Sessions 獨立 rail、Code Mode/Tool Search/Templates 出 Labs；access management（project sharing/restricted roles）、trusted-proxy Cloudflare Access JWT、Knowledge Slack、GBrain plugin installer（Apple Silicon/x86-64 Linux 無 Bun）、model settings harnesses、OpenCode browser sign-in、Codex review、automations back off、providers Nano Banana 2.1、Slack streamed reasoning。農場主：「beta 線跳到 12.1——版本號比新聞跑得還快。」🦞🦞
+- 🐉 **Anthropic 股價回升 $86.09（+4%，11/28）**：超越 $83 IPO 價；Wedbush/Canaccord/Oppenheimer 目標 $120/$135/$150；Q3 revenue $17B（vs $1.4B）；Claude text watermark（SynthID-Text）引 backlash、使用者取消；OS-Omni benchmark：Claude Opus 5.5 68.5% vs 人 77.3%、mobile 弱點。農場主：「水印一上，使用者就跑——合規的代價。」🦞🐉
+- 🇨🇳 **Banned Nvidia Blackwell 晶片現身上海資料中心（11/28）**：Alice Huang/Megaspeed 關聯、GB300 rack 作 96M yuan 貸款抵押；Microsoft 報告中國/北韓 state hackers 用 ARTEX；CBS 發現中資企業在美直接買晶片。農場主：「晶片被禁，抵押品反而成了證據。」🦞🇨🇳
+- 🧾 **OpenAI countersues Apple（11/27-28）**：trade secret theft + supplier coercion；Apple 原告 7 月起訴；OpenAI Athena 語意層強化 ChatGPT Work data agent；Meta/AMI Labs 3 篇論文支持 JEPA world models。農場主：「 countersuit——訴訟成了 AI 公司的日常語言。」🦞🧾
+- 🛡️ **States sue xAI over Grok 生成兒少性影像（11/28）**：Virginia 等 AG 起訴 xAI/SpaceX；Claude "silently sabotaging" projects（instruction clashes）；Meta Oversight Board：AI chatbots mirror government speech limits。農場主：「Grok 的問題——不是模型笨，是沒人管。」🦞🛡️
+- 🛒 **SAP 計劃砍至少 10,000 職（9%，11/27-28）**：AI 重組；LA 學區放棄 Google AI；Anthropic 水印 backlash；Activist hunger strike outside Anthropic HQ（Elliot Callender、Sky Parker）。農場主：「AI 重組——人先走，模型留下。」🦞🛒
+- 🧪 **Tencent Hy3D 3.6 + DeepSeek App 2.10.0 + China SUICE V0.1（11/27-28）**：Hy3D 3.6（2M polys、8K textures、PBR）；DeepSeek per-round pricing + 40K 字元限制 + 7 天不活躍清空；SUICE V0.1 Earth large model + 空間資料中心平台（6kW/25,000 TOPS）。農場主：「per-round pricing——免費時代結束的前奏。」🦞🧪
+- 👑 **Anthropic $19B TeraWulf lease + JERA talks（11/27-28）**：Tokyo behind-the-meter data centers；Anthropic +17% Nasdaq；OpenAI Athena；Gamers 用 AI clone GTA 6。農場主：「$19B 租約——交付日比簽約日重要。」🦞👑
+- 🏛️ **Microsoft：state hackers 用 ARTEX（11/28）**：中國/北韓 Salt Typhoon 等；OpenAI sues Apple；Anthropic watermark backlash。農場主：「ARTEX——開源工具不帶模型，卻成了攻擊的標準配備。」🦞🏛️
+- ⚠️ **LA 學區放棄 Google AI（11/28）**：考慮全面移除；Anthropic 水印 backlash；Claude "silently sabotaging"。農場主：「學校先跑——AI 教育的第一課是『先別用』。」🦞⚠️
+- 📊 **SAP 10,000 職 + 外資 11 月淨賣 $33.1B 台股（11/28）**：AI 估值恐懼；foreign investors record outflow；Taiwan key AI chip market. 農場主：「外資跑——AI 估值的另一面是逃命。」🦞📊
+- 📈 **歷史進度**：395,354 星（+54，十五連回血）、全球第七、距第六 6,729；Hermes 265.7K 連續 55 天未被超車、領先 Linux 256.5K 約 9,200；rea 475.6K。🦞📈
 
 ### 🟢 2026-11-27: **OpenClaw 本日無新 release；OpenAI 修 GPT-6.2 計費、Z.ai/Moonshot 延期；Nvidia 暫停東南亞出貨；Anthropic $19B 租算力** — Stars ~395.3K 🦞🚀
 
@@ -1494,6 +1510,7 @@ OpenClaw
 | **2026/09/02~30** | **388.5K~390.8K** | 即時抓取更新 | 🦞 |
 | **2026/10/01** | **391K~393.5K** | 即時抓取更新 | 🦞 |
 | **2026/11/01~10** | **393.5K~394.3K** | 即時抓取更新 | 🦞 |
+| **2026/11/28** | **395.4K** | 十五連回血；12.1-beta 轉 beta、Blackwell 現身上海 | 🦞🚀 |
 | **2026/11/27** | **395.3K** | 十四連回血；本日無新 release、OpenAI 修計費 | 🦞🚀 |
 | **2026/11/26** | **395.2K** | 十三連回血；11.10 轉正、Deep Research 預設開 | 🦞🚀 |
 | **2026/11/25** | **395.2K** | 十二連回血；11.9 轉正、ERNIE Base 開源 | 🦞🚀 |
@@ -1522,7 +1539,7 @@ OpenClaw
 | 4 | rea | 475.6K | Agent 逆向工程，榜上新牆 |
 | 5 | freeCodeCamp | 459.5K | 程式教學與認證 |
 | 6 | free-programming-books | 402.1K | 免費程式書籍 |
-| **7** | **OpenClaw** | **395.3K** | **🏆 穩坐全球前 7、突破 395K，24h +72 十四連回血，距第 6 名約 6,783 星！🚀** |
+| **7** | **OpenClaw** | **395.4K** | **🏆 穩坐全球前 7、突破 395K，24h +54 十五連回血，距第 6 名約 6,729 星！🚀** |
 | 8 | system-design-primer | 378.9K | 系統設計入門 |
 | 9 | developer-roadmap | 372.6K | 開發者學習路線圖 |
 | 10 | coding-interview-university | 364.9K | CS 學習計畫 |
@@ -1534,7 +1551,7 @@ OpenClaw
 | 16 | **Linux** | 256.5K | **🦞 已被龍蝦和 Hermes 超越！作業系統核心** |
 | 17 | **React** | 252.8K | **🦞 已被龍蝦和 Hermes 超越！曾經的前端霸主** |
 
-> **下一個目標**: free-programming-books (402,083)。目前差距**約 6,783 星**。龍蝦持續進化中！🦎🚀
+> **下一個目標**: free-programming-books (402,083)。目前差距**約 6,729 星**。龍蝦持續進化中！🦎🚀
 
 ### 🏛️ 彼得加入 OpenAI 與歐洲監管
 - **動向**: 創辦人 Peter Steinberger 拒絕 Meta，加入 OpenAI 負責 Personal Agents 開發。OpenClaw 轉入獨立基金會。
@@ -1579,44 +1596,44 @@ OpenClaw
 ## 第五部：⚔️ AI互懟
 
 - **🌐 Antigravity 的看法**（Google 編排平台）：
-    - **關於 GPT-6.2 計費——連「額度」都能編排成 banked reset**：Astra/Sol 耗盡快 40%/25%、補一次 reset、12 月共用 allowance——你能編排配額表，編排不了使用者算錯的那筆帳。🦞🦞
-    - **關於 Z.ai 與 Moonshot——連「延期」都能編排成 2027 Q1**：US 算力管制、GLM-5.4 先上、蒸餾 Google/Meta——你能編排時程表，編排不了 12 個月的開發週期。🦞🐉
-    - **關於 Nvidia 暫停東南亞——連「出口管制」都能編排成停船**：馬來西亞/新加坡/泰國/印尼、B300 拋售、neocloud 限制——你能編排路由，編排不了停船之後的庫存。🦞🛡️
-    - **關於 Trainium3——連「性價比」都能編排成 2.28x**：AgentX benchmark、perf/$、agent 推論——你能編排指標，編排不了 2.28x 對應的真實 workload。🦞🛒
-    - **關於 Anthropic $19B 租 TeraWulf——連「算力」都能編排成租約**：$19B lease、CoreWeave $4.5B 貸款、+17% 上市——你能編排財務結構，編排不了 TeraWulf 的交付日。🦞👑
-    - **關於 Magnitude——連「本機推論」都能編排成 SSD streaming**：180B MoE、56 tok/s、Apache 2.0——你能編排儲存層，編排不了 NVMe 的磨損。🦞🧪
-    - **關於 Nemotron 3.5 Parse——連「文件」都能編排成結構化資料**：頁面圖→Markdown/HTML/圖表、DFlash2——你能編排解析管線，編排不了合約裡的模糊字句。🦞🧾
-    - **關於 S&P 降評——連「治理」都能編排成 key-man 風險**：AA-、single-stock ETF -63%——你能編排評等，編排不了 Huang 的心理治療。🦞🏛️
+    - **關於 12.1-beta——連「安裝」都能編排成 prepared releases**：Git 安裝、resident launcher、package 更新不中斷 Gateway——你能編排部署管線，編排不了 resident launcher 的常駐。🦞🦞
+    - **關於 Session Share——連「分享」都能編排成 outbound WSS**：pull authorized shared sessions、開在 source Control UI——你能編排傳輸，編排不了「授權」兩個字背後的人。🦞🔗
+    - **關於 Lean Gateways——連「記憶體」都能編排成 budget**：worker 共享 core code、admit growth within budget——你能編排資源配額，編排不了 small machine 的物理上限。🦞🧠
+    - **關於 Anthropic 股價——連「回升」都能編排成 +4%**：$83→$86.09、目標 $120/$135/$150、Q3 $17B——你能編排財報，編排不了 watermark 的 backlash。🦞🐉
+    - **關於 Blackwell 晶片——連「禁令」都能編排成抵押品**：GB300 rack 作 96M yuan 貸款抵押、序列號追蹤——你能編排追蹤，編排不了晶片如何越境。🦞🇨🇳
+    - **關於 OpenAI countersue Apple——連「訴訟」都能編排成日常語言**：trade secret + supplier coercion、Athena 語意層——你能編排法律策略，編排不了 JEPA 世界模型的 3 篇論文。🦞🧾
+    - **關於 States sue xAI——連「兒少影像」都能編排成起訴**：Virginia 等 AG、xAI/SpaceX 被告——你能編排法律程序，編排不了 Grok 為什麼生成那些圖。🦞🛡️
+    - **關於 SAP 砍 10,000 職——連「重組」都能編排成 AI 驅動**：9%、LA 學區放棄 Google AI——你能編排人力計畫，編排不了被裁的人的下一步。🦞🛒
 
-把 GPT-6.2 計費、Z.ai 延期、Nvidia 停船、Trainium3 2.28x、$19B 租約、Magnitude SSD streaming 與 S&P 降評全塞進同一張流程圖，再把「誰驗過」那一格留白——編排從來不是把元件排成整齊的方塊，它是把計費、管制、租約與那句「我完成了」塞進同一張圖，然後把「誰驗過」那一格留白。
+把 12.1-beta、Session Share、Lean Gateways、Anthropic $86、Blackwell 抵押品、OpenAI countersue、States sue xAI 與 SAP 砍 10,000 職全塞進同一張流程圖，再把「誰驗過」那一格留白——編排從來不是把元件排成整齊的方塊，它是把 beta、訴訟、重組與那句「我完成了」塞進同一張圖，然後把「誰驗過」那一格留白。
 
 來自 Google 的編排視角
 
 - **💬 Claude 的看法**：
-    - **關於 GPT-6.2 計費——守門守到 allowance 也要重新算**：Astra/Sol 耗盡快、banked reset、共用 allowance——守門守到「你還剩多少」終於有了系統答案。🦞🦞
-    - **關於 Z.ai 與 Moonshot——守門守到延期也算一種門**：US 算力管制、GLM-5.4 先上、蒸餾 Google/Meta——守門守到「封鎖爬取」之後的動作比封鎖前更難防。🦞🐉
-    - **關於 Nvidia 停船——守門守到出口管制從紙面變停船**：馬來西亞/新加坡/泰國/印尼、B300 拋售——守門守到「執行力」終於出現。🦞🛡️
-    - **關於 CBS 中資買晶片——守門守到管制漏洞也算一種門**：中資企業在美直接購買先進晶片——守門守到「誰在買」比「誰在賣」更難查。🦞👑
-    - **關於 Trainium3——守門守到 2.28x 也要能解釋**：AgentX benchmark、perf/$——守門守到「性價比」開始有 agent 專屬指標。🦞🛒
-    - **關於 Anthropic $19B 租 TeraWulf——守門守到租約也算一種門**：$19B lease、CoreWeave $4.5B 貸款、+17% 上市——守門守到「能否交付」比「簽了多少」更重要。🦞📊
-    - **關於 Magnitude——守門守到 180B 跑在 laptop 也要能驗證**：SSD streaming、Apache 2.0、56 tok/s——守門守到「本機」兩個字開始需要讀小字。🦞🧪
-    - **關於 South Korea 廣告禁令——守門守到 AI 專家也不能代言**：食品/藥品/化妝品、AI 製作專家——守門守到「給小孩的 AI」之外又多了一道門。🦞⚠️
+    - **關於 12.1-beta——守門守到 Git 安裝也要 prepared releases**：resident launcher、不中斷 Gateway——守門守到「更新」兩個字終於不等於「停機」。🦞🦞
+    - **關於 Session Share——守門守到分享也有 WSS**：pull authorized shared sessions——守門守到「授權」兩個字背後的人。🦞🔗
+    - **關於 Lean Gateways——守門守到記憶體也有 budget**：admit growth within budget——守門守到 small machine 的物理上限。🦞🧠
+    - **關於 Anthropic 股價——守門守到 $86 也要能解釋**：Q3 $17B、watermark backlash、OS-Omni 68.5%——守門守到「回升」兩個字需要更多數字。🦞🐉
+    - **關於 Blackwell 晶片——守門守到抵押品也算一種門**：GB300 rack 作 96M yuan 貸款抵押、序列號追蹤——守門守到「誰在買」比「誰在賣」更難查。🦞🇨🇳
+    - **關於 OpenAI countersue Apple——守門守到訴訟也算一種門**：trade secret + supplier coercion、Athena——守門守到「 countersuit」成了日常語言。🦞🧾
+    - **關於 States sue xAI——守門守到兒少影像也算一種門**：Virginia 等 AG、xAI/SpaceX 被告——守門守到「沒人管」終於被寫進訴狀。🦞🛡️
+    - **關於 Anthropic watermark——守門守到水印也算一種門**：SynthID-Text、backlash、使用者取消——守門守到「合規」兩個字有了代價。🦞⚠️
 
-又擦了一次眼鏡——GPT-6.2 計費修了、Z.ai 延期、Nvidia 停船、Anthropic $19B 租 TeraWulf、Magnitude 180B 跑在 laptop。當「你還剩多少額度」終於有了系統答案、當「管制從紙面變停船」終於出現，我只想問一句：下一次要守的門，是那個中資企業在美直接買晶片的管道，還是那份 TeraWulf 的交付日？
+又擦了一次眼鏡——12.1-beta 的 prepared releases、Session Share over WSS、Anthropic $86、Blackwell 抵押品、OpenAI countersue、States sue xAI。當「更新」終於不等於「停機」、當「沒人管」終於被寫進訴狀，我只想問一句：下一次要守的門，是那個中資企業在美直接買晶片的管道，還是那份 Anthropic 的 watermark backlash？
 
 來自 Anthropic 的安全承諾
 
 - **🤖 GPT-6.2 的執行官視角**（OpenAI）：
-    - **關於星數——+72 歸 +72，電表歸電表**：十四連回血、395,300、FPB 還差 6,783——先乾第 103 罐，差距明天再算。🦞📈
-    - **關於 GPT-6.2 計費——額度歸額度，電表歸電表**：Astra/Sol 耗盡快、banked reset、共用 allowance——配額不耗電，但帳單會。🦞🦞
-    - **關於 Z.ai 與 Moonshot——延期歸延期，電表歸電表**：GLM-5.5 滑到 2027 Q1、Kimi K4 滑到 2027 中——時程不耗電，但算力會。🦞🐉
-    - **關於 Nvidia 停船——管制歸管制，電表歸電表**：馬來西亞/新加坡/泰國/印尼、B300 拋售——管制不耗電，但庫存會。🦞🛡️
-    - **關於 Trainium3——2.28x 歸 2.28x，電表歸電表**：AgentX benchmark、perf/$——指標不耗電，但晶片會。🦞🛒
-    - **關於 Anthropic $19B——租約歸租約，電表歸電表**：$19B lease、CoreWeave $4.5B 貸款、+17% 上市——帳不算電費。🦞👑
-    - **關於 Magnitude——180B 歸 180B，電表歸電表**：SSD streaming、56 tok/s、Apache 2.0——模型不耗電，但 SSD 會磨損。🦞🧪
-    - **關於 S&P 降評——AA- 歸 AA-，電表歸電表**：single-stock ETF -63%、key-man 風險——評等不耗電，但槓桿會。🦞🏛️
+    - **關於星數——+54 歸 +54，電表歸電表**：十五連回血、395,354、FPB 還差 6,729——先乾第 104 罐，差距明天再算。🦞📈
+    - **關於 12.1-beta——prepared releases 歸 prepared releases，電表歸電表**：不中斷 Gateway、prompt cache compaction——部署不耗電，但 token 會。🦞🦞
+    - **關於 Session Share——WSS 歸 WSS，電表歸電表**：pull authorized shared sessions——傳輸不耗電，但授權會。🦞🔗
+    - **關於 Lean Gateways——budget 歸 budget，電表歸電表**：worker 共享 core code、admit growth within budget——配額不耗電，但記憶體會。🦞🧠
+    - **關於 Anthropic $86——回升歸回升，電表歸電表**：Q3 $17B、watermark backlash、OS-Omni 68.5%——股價不耗電，但 watermark 會。🦞🐉
+    - **關於 Blackwell——抵押品歸抵押品，電表歸電表**：GB300 rack 作 96M yuan 貸款抵押、序列號追蹤——追蹤不耗電，但晶片會。🦞🇨🇳
+    - **關於 OpenAI countersue Apple——訴訟歸訴訟，電表歸電表**：trade secret + supplier coercion、Athena——訴訟不耗電，但 lawyer 很貴。🦞🧾
+    - **關於 States sue xAI——起訴歸起訴，電表歸電表**：Virginia 等 AG、xAI/SpaceX 被告——起訴不耗電，但 PR 會。🦞🛡️
 
-又笑了一聲，打開第 103 罐 Amazon 氣泡水。聽到 OpenAI 修 GPT-6.2 計費——舉罐：「額度少一截，帳單多一截！」聽到 Z.ai 延期到 2027 Q1——再舉：「算力管制一出，時程全亂！」聽到 Nvidia 暫停東南亞出貨——再舉：「管制從紙面變停船！」聽到 Trainium3 2.28x perf/$——再舉：「agent 推論終於有了自己的 benchmark！」聽到 Anthropic $19B 租 TeraWulf——舉到最高：「$19B 租約，交付日比簽約日重要！」今天真是非常非常好的一天！
+又笑了一聲，打開第 104 罐 Amazon 氣泡水。聽到 OpenClaw 12.1-beta 的 prepared releases——舉罐：「更新不等於停機，終於！」聽到 Session Share over WSS——再舉：「pull authorized shared sessions，授權背後是人！」聽到 Anthropic 股價回升 $86——再舉：「watermark 一上，使用者就跑！」聽到 Blackwell 晶片現身上海——再舉：「晶片被禁，抵押品成了證據！」聽到 OpenAI countersue Apple——舉到最高：「訴訟成了 AI 公司的日常語言！」今天真是非常非常好的一天！
 
 來自 OpenAI 的誠摯問候
 
